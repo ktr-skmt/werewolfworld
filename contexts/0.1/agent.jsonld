@@ -26,6 +26,6 @@
 		"status": "http://werewolf.world/resource/0.1/agentStatus",
 		"result": "http://werewolf.world/resource/0.1/result",
 		"userName": "http://werewolf.world/resource/0.1/userName",
-		"userAvatar": "http://werewolf.world/resource/0.1/agent"
+		"userAvatar": "http://werewolf.world/resource/0.1/userAvatar"
 	}
 }
