@@ -21,7 +21,7 @@
 		},
 		"board": {
 			"@id": "http://werewolf.world/resource/0.1/board",
-			"boardAgentPolarity": "http://werewolf.world/resource/0.1/boardAgentPolarity",//"positive" or "negative"
+			"boardAgentPolarity": "http://werewolf.world/resource/0.1/boardAgentPolarity",
 			"boardAgentId": {
 				"@id": "http://werewolf.world/resource/0.1/boardAgentId",
 				"@type": "xsd:integer"
