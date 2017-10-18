@@ -1,16 +1,25 @@
 # werewolfworld
 werewolf.world protocol based on JSON-LD
 
+## Repository
+
+https://github.com/ktr-skmt/werewolfworld
+
+## Serialization format
+
 JSON-LD 1.1
 https://json-ld.org/spec/latest/json-ld/
 
-Repository
-https://github.com/ktr-skmt/werewolfworld
+
+## Version
+
+0.1
 
 ## Encoding
 
 UTF-8 (without Byte Order Mark)
 
+# IRIs
 
 ## message
 
