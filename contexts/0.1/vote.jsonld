@@ -3,7 +3,7 @@
 		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"vote": {
 			"@id": "http://werewolf.world/resource/vote",
-			"@type": "xsd:interger"//agent id
+			"@type": "xsd:interger"
 		},
 		"role": "http://werewolf.world/resource/role"
 	}
