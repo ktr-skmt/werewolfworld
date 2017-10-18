@@ -60,14 +60,6 @@ UTF-8 (without Byte Order Mark)
 |http://werewolf.world/resource/0.1/roleImage||[http://werewolf.world/image/0.1/#role](http://werewolf.world/image/0.1/#role)|
 |http://werewolf.world/resource/0.1/roleNumber|xsd:integer|0 <=, <= 7|
 
-## result
-
-|IRI|Type|Values|
----|---|---
-|http://werewolf.world/resource/0.1/result||'win', 'lose'|
-|http://werewolf.world/resource/0.1/userName||5 <= {# of Unicode code points} <= 15|
-|http://werewolf.world/resource/0.1/userAvatar||(URL)|
-
 ## board
 
 |IRI|Type|Values|
@@ -93,3 +85,10 @@ UTF-8 (without Byte Order Mark)
 |http://werewolf.world/resource/0.1/chatChannel||'public', 'private', 'werewolf', 'master', 'grave'|
 |http://werewolf.world/resource/0.1/chatIsOver|xsd:boolean|true, false|
 
+## result
+
+|IRI|Type|Values|
+---|---|---
+|http://werewolf.world/resource/0.1/result||'win', 'lose'|
+|http://werewolf.world/resource/0.1/userName||5 <= {# of Unicode code points} <= 15|
+|http://werewolf.world/resource/0.1/userAvatar||(URL)|
