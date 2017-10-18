@@ -23,7 +23,7 @@
 		"chatInterval": "http://werewolf.world/resource/0.1/chatInterval",
 		"text": "http://werewolf.world/resource/0.1/text",
 		"language": "http://werewolf.world/resource/0.1/language",
-		"channel": "http://werewolf.world/resource/0.1/channel",//public, private, master, grave, werewolf,
-		"isOver": "http://werewolf.world/resource/0.1/chatIsOver"//true or false
+		"channel": "http://werewolf.world/resource/0.1/channel",
+		"isOver": "http://werewolf.world/resource/0.1/chatIsOver"
 	}
 }
