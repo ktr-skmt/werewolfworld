@@ -1,6 +1,6 @@
 {
-	"@context": "http://werewolf.world/contexts/base.jsonld",
-	"@id": "http://werewolf.world/resource/systemMessage",
+	"@context": "http://werewolf.world/contexts/0.1/base.jsonld",
+	"@id": "http://werewolf.world/resource/0.1/systemMessage",
 
 	"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
 	"phase": "1 day night",
