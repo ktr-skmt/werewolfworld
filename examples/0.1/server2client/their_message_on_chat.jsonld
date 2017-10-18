@@ -27,6 +27,7 @@
 	"chatLimit": 10,
 	"chatInterval": "5s",
 	"chatText": ">>11\nそれで、あなたは人狼が誰だと思うの？\n\n私はパメラが人狼だと思う。",
+	"chatCharacterLimit": 140,
 	"chatLanguage": "ja",
 	"chatChannel": "public",
 	"chatIsOver": false
