@@ -1,5 +1,5 @@
 {
-	"@context": "http://werewolf.world/contexts/basic.jsonld",
+	"@context": "http://werewolf.world/contexts/base.jsonld",
 	"@id": "http://werewolf.world/resource/systemMessage",
 
 	"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
