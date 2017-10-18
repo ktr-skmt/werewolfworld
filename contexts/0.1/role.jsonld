@@ -21,12 +21,12 @@
 		},
 		"board": {
 			"@id": "http://werewolf.world/resource/0.1/board",
-			"boardAgentPolarity": "http://werewolf.world/resource/0.1/boardAgentPolarity",
+			"boardPolarity": "http://werewolf.world/resource/0.1/boardPolarity",
 			"boardAgentId": {
-				"@id": "http://werewolf.world/resource/0.1/boardAgentId",
+				"@id": "http://werewolf.world/resource/0.1/agentId",
 				"@type": "xsd:integer"
 			},
-			"boardAgentPhase": "http://werewolf.world/resource/0.1/boardAgentPhase"
+			"boardAgentPhase": "http://werewolf.world/resource/0.1/phase"
 		}
 	}
 }
