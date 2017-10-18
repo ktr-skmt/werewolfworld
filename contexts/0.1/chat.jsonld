@@ -21,9 +21,9 @@
 		"chatCounter": "http://werewolf.world/resource/0.1/chatCounter",
 		"chatLimit": "http://werewolf.world/resource/0.1/chatLimit",
 		"chatInterval": "http://werewolf.world/resource/0.1/chatInterval",
-		"chatText": "http://werewolf.world/resource/0.1/text",
-		"chatLanguage": "http://werewolf.world/resource/0.1/language",
-		"chatChannel": "http://werewolf.world/resource/0.1/channel",
+		"chatText": "http://werewolf.world/resource/0.1/chatText",
+		"chatLanguage": "http://werewolf.world/resource/0.1/chatLanguage",
+		"chatChannel": "http://werewolf.world/resource/0.1/chatChannel",
 		"chatIsOver": "http://werewolf.world/resource/0.1/chatIsOver"
 	}
 }
