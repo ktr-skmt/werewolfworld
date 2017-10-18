@@ -21,8 +21,17 @@ UTF-8 (without Byte Order Mark)
 |http://werewolf.world/resource/0.1/systemMessage|Receive a system message from server|
 |http://werewolf.world/resource/0.1/voteMessage|Send a vote to server|
 
+## IRIs regarding base
 
-## IRIs
+|IRI|Type|Values|
+---|---|---
+|http://werewolf.world/resource/0.1/token|||
+|http://werewolf.world/resource/0.1/phase||'{n} day conversation', '{n} day vote', '{n} day night', 'results', 'post mortem'|
+|http://werewolf.world/resource/0.1/phaseTimeLimit||'none' or such as '10m', '3m'|
+|http://werewolf.world/resource/0.1/phaseStartTime||such as '2007-12-03T10:15:30.000Z-09:00[Asia/Tokyo]'|
+|http://werewolf.world/resource/0.1/timestamp||such as '2007-12-03T10:15:30.000Z-09:00[Asia/Tokyo]'|
+
+## IRIs regarding agent
 
 |IRI|Type|Values|
 ---|---|---
@@ -32,23 +41,38 @@ UTF-8 (without Byte Order Mark)
 |http://werewolf.world/resource/0.1/agentId|xsd:integer|-1 <= (-1 means master)|
 |http://werewolf.world/resource/0.1/agentImage|||
 |http://werewolf.world/resource/0.1/agentStatus||'alive', 'dead', 'death by execution', 'death by werewolf attack', 'death by fear', 'unnatural death'|
+
+## IRIs regarding role
+
+|IRI|Type|Values|
+---|---|---
 |http://werewolf.world/resource/0.1/role|||
 |http://werewolf.world/resource/0.1/roleIsMine|xsd:boolean|true, false|
 |http://werewolf.world/resource/0.1/roleName|||
 |http://werewolf.world/resource/0.1/roleImage|||
 |http://werewolf.world/resource/0.1/roleNumber|xsd:integer|0 <=, <= 7|
+
+## IRIs regarding result
+
+|IRI|Type|Values|
+---|---|---
 |http://werewolf.world/resource/0.1/result||'win', 'lose'|
 |http://werewolf.world/resource/0.1/userName|||
-|http://werewolf.world/resource/0.1/token|||
-|http://werewolf.world/resource/0.1/phase||'{n} day conversation', '{n} day vote', '{n} day night', 'results', 'post mortem'|
-|http://werewolf.world/resource/0.1/phaseTimeLimit||'none' or such as '10m', '3m'|
-|http://werewolf.world/resource/0.1/phaseStartTime||such as '2007-12-03T10:15:30.000Z-09:00[Asia/Tokyo]'|
-|http://werewolf.world/resource/0.1/timestamp||such as '2007-12-03T10:15:30.000Z-09:00[Asia/Tokyo]'|
+
+## IRIs regarding board
+
+|IRI|Type|Values|
+---|---|---
 |http://werewolf.world/resource/0.1/board|||
 |http://werewolf.world/resource/0.1/prediction||'?','Δ','O','X'|
 |http://werewolf.world/resource/0.1/boardAgentPolarity||'positive', 'negative'|
 |http://werewolf.world/resource/0.1/boardAgentId|xsd:integer|0 <=|
 |http://werewolf.world/resource/0.1/boardAgentPhase|||
+
+## IRIs regarding chat
+
+|IRI|Type|Values|
+---|---|---
 |http://werewolf.world/resource/0.1/chatIsMine|xsd:boolean|true, false|
 |http://werewolf.world/resource/0.1/chatId|xsd:integer|1 <=|
 |http://werewolf.world/resource/0.1/chatCounter|xsd:integer|0<=, <=chatCounter|
