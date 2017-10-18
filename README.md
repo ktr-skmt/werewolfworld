@@ -5,15 +5,14 @@ werewolf.world protocol based on JSON-LD
 
 https://github.com/ktr-skmt/werewolfworld
 
+## Version
+
+0.1
+
 ## Serialization format
 
 JSON-LD 1.1
 https://json-ld.org/spec/latest/json-ld/
-
-
-## Version
-
-0.1
 
 ## Encoding
 
