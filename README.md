@@ -18,6 +18,10 @@ https://json-ld.org/spec/latest/json-ld/
 
 UTF-8 (without Byte Order Mark)
 
+# Contexts
+
+[http://werewolf.world/contexts/0.1/](http://werewolf.world/contexts/0.1/)
+
 # IRIs
 
 ## message
