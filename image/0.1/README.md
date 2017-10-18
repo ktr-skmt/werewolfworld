@@ -2,7 +2,7 @@ version: 0.1
 
 ## agent
 
-|   |en|ja|image|
+|IRI|en|ja|image|
 ---|---|---|---
 |http://werewolf.world/resource/0.1/Gert|Gert|ゲルト|![Gert](http://werewolf.world/image/0.1/Gert.jpg)|
 |http://werewolf.world/resource/0.1/Walter|Walter|ヴァルター|![Walter](http://werewolf.world/image/0.1/Walter.jpg)|
@@ -28,7 +28,7 @@ version: 0.1
 
 ## role
 
-|   |en|ja|image|
+|IRI|en|ja|image|
 ---|---|---|---
 |http://werewolf.world/resource/0.1/master|Master|マスター|![master](http://werewolf.world/image/0.1/master.jpg)|
 |http://werewolf.world/resource/0.1/villager|Villager|村人|![villager](http://werewolf.world/image/0.1/villager.jpg)|
