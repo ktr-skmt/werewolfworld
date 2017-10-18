@@ -1,0 +1,10 @@
+{
+	"@context": "http://werewolf.world/contexts/basic.jsonld",
+	"@id": "http://werewolf.world/resource/systemMessage",
+
+	"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
+	"phase": "post mortem",
+	"phaseTimeLimit": "24h",
+	"phaseStartTime": "2007-12-03T10:15:30.000Z-09:00[Asia/Tokyo]",
+	"timestamp": "2007-12-03T10:15:30.000Z-09:00[Asia/Tokyo]",
+}

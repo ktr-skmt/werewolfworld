@@ -1,0 +1,33 @@
+{
+	"@context": [
+		"http://werewolf.world/contexts/0.1/base.jsonld",
+		"http://werewolf.world/contexts/0.1/chat.jsonld"
+	],
+
+	"@id": "http://werewolf.world/resource/0.1/playerMessage",
+
+	"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
+	"phase": "1 day conversation",//-> 1 day vote, 1 night -> 2 day conversation -> ... -> results -> post mortem
+	"phaseTimeLimit": "10m",
+	"phaseStartTime": "2007-12-03T10:15:30.000Z-09:00[Asia/Tokyo]",
+	"timestamp": "2007-12-03T10:15:30.000Z-09:00[Asia/Tokyo]",
+
+	"chatIsMine": false,
+	"chatAgentId": 1,
+	"chatAgentName": {
+		"en": "Walter",
+		"ja": "ヴァルター"
+	},
+	"chatAgentImage": {
+		"@id": "http://werewolf.world/image/0.1/Walter.jpg",
+		"@type": "@id"
+	},
+	"chatId": 12,
+	"chatCounter": 7,
+	"chatLimit": 10,
+	"chatInterval": "5s",
+	"text": ">>11\nそれで、あなたは人狼が誰だと思うの？\n\n私はパメラが人狼だと思う。",
+	"language": "ja",
+	"channel": "public",
+	"isOver": false
+}

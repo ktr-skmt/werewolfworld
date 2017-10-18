@@ -1,0 +1,80 @@
+{
+	"@context": "http://werewolf.world/contexts/role.jsonld",
+	"@id": "http://werewolf.world/resource/role",
+	"@type": "@id",
+
+	"role": [
+		{
+			"@id": "http://werewolf.world/resource/0.1/master",
+			"name": {
+				"en": "Master",
+				"ja": "マスター"
+			},
+			"image": "http://werewolf.world/image/0.1/master.jpg"
+		},
+		{
+			"@id": "http://wereworld.world/resource/0.1/villager",
+			"name": {
+				"en": "Villager",
+				"ja": "村人"
+			},
+			"image": "http://werewolf.world/image/0.1/villager.jpg"
+		},
+		{
+			"@id": "http://werewolf.world/resource/0.1/seer",
+			"name": {
+				"en": "Seer",
+				"ja": "占い師"
+			},
+			"image": "http://werewolf.world/image/0.1/seer.jpg"
+		},
+		{
+			"@id": "http://werewolf.world/resource/0.1/medium",
+			"name": {
+				"en": "Medium",
+				"ja": "霊媒師"
+			},
+			"image": "http://werewolf.world/image/0.1/medium.jpg"
+		},
+		{
+			"@id": "http://wereworld.world/resource/0.1/hunter",
+			"name": {
+				"en": "Hunter",
+				"ja": "ハンター"
+			},
+			"image": "http://werewolf.world/image/0.1/hunter.jpg"
+		},
+		{
+			"@id": "http://wereworld.world/resource/0.1/mason",
+			"name": {
+				"en": "Mason",
+				"ja": "共有者"
+			},
+			"image": "http://werewolf.world/image/0.1/mason.jpg"
+		},
+		{
+			"@id": "http://wereworld.world/resource/0.1/madman",
+			"name": {
+				"en": "Madman",
+				"ja": "狂人"
+			},
+			"image": "http://werewolf.world/image/0.1/madman.jpg"
+		},
+		{
+			"@id": "http://wereworld.world/resource/0.1/werewolf",
+			"name": {
+				"en": "Werewolf",
+				"ja": "人狼"
+			},
+			"image": "http://werewolf.world/image/0.1/werewolf.jpg"
+		},
+		{
+			"@id": "http://wereworld.world/resource/0.1/werehumster",
+			"name": {
+				"en": "Werehumster",
+				"ja": "ハムスター人間"
+			},
+			"image": "http://werewolf.world/image/0.1/werehumster.jpg"
+		}
+	]
+}

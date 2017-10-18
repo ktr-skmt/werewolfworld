@@ -1,0 +1,494 @@
+{
+	"@context": [
+		"http://werewolf.world/contexts/basic.jsonld",
+		"http://werewolf.world/contexts/agent.jsonld",
+		"http://werewolf.world/contexts/role.jsonld"
+	],
+	"@id": "http://werewolf.world/resource/systemMessage",
+	"@type": "@id",
+
+	"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
+	"phase": "results",//-> 1 day vote, 1 night -> 2 day conversation -> ... -> results -> post mortem
+	"phaseTimeLimit": "none",
+	"phaseStartTime": "2007-12-03T10:15:30.000Z-09:00[Asia/Tokyo]",
+	"timestamp": "2007-12-03T10:15:30.000Z-09:00[Asia/Tokyo]",
+
+	"agent": [
+		{
+			"@id": "http://werewolf.world/resource/0.1/Gert",
+			"agentIsMine": false,
+			"name": {
+				"en": "Gert",
+				"ja": "ゲルト"
+			},
+			"image": "http://werewolf.world/image/0.1/Gert.jpg",
+			"id": 0,
+			"role": {
+				"@id": "http://werewolf.world/resource/0.1/villager",
+				"roleName": {
+					"en": "Villager",
+					"ja": "村人"
+				},
+				"roleImage": "http://werewolf.world/image/0.1/villager.jpg"
+			},
+			"status": "alive",
+			"result": "win",
+			"userName": "Sato",
+			"userAvatar": {
+				"@id": "http://werewolf.world/image/0.1/Nicholas.jpg",
+				"@type": "@id"
+			}
+		},
+		{
+			"@id": "http://werewolf.world/resource/0.1/Walter",
+			"agentIsMine": true,
+			"name": {
+				"en": "Walter",
+				"ja": "ヴァルター"
+			},
+			"image": "http://werewolf.world/image/0.1/Walter.jpg",
+			"id": 1,
+			"role": {
+				"@id": "http://werewolf.world/resource/0.1/seer",
+				"roleName": {
+					"en": "Seer",
+					"ja": "占い師"
+				},
+				"roleImage": "http://werewolf.world/image/0.1/seer.jpg"
+			},
+			"status": "alive",
+			"result": "win",
+			"userName": "Suzuki",
+			"userAvatar": {
+				"@id": "http://werewolf.world/image/0.1/Gert.jpg",
+				"@type": "@id"
+			}
+		},
+		{
+			"@id": "http://werewolf.world/resource/0.1/Moritz",
+			"agentIsMine": false,
+			"name": {
+				"en": "Moritz",
+				"ja": "モーリッツ"
+			},
+			"image": "http://werewolf.world/image/0.1/Moritz.jpg",
+			"id": 2,
+			"role": {
+				"@id": "http://werewolf.world/resource/0.1/werewolf",
+				"roleName": {
+					"en": "Werewolf",
+					"ja": "人狼"
+				},
+				"roleImage": "http://werewolf.world/image/0.1/werewolf.jpg"
+			},
+			"status": "alive",
+			"result": "lose",
+			"userName": "Takahashi",
+			"userAvatar": {
+				"@id": "http://werewolf.world/image/0.1/Alvin.jpg",
+				"@type": "@id"
+			}
+		},
+		{
+			"@id": "http://werewolf.world/resource/0.1/Simson",
+			"agentIsMine": false,
+			"name": {
+				"en": "Simson",
+				"ja": "ジムゾン"
+			},
+			"image": "http://werewolf.world/image/0.1/Simson.jpg",
+			"id": 3,
+			"role": {
+				"@id": "http://werewolf.world/resource/0.1/hunter",
+				"roleName": {
+					"en": "Hunter",
+					"ja": "狩人"
+				},
+				"roleImage": "http://werewolf.world/image/0.1/hunter.jpg"
+			},
+			"status": "alive",
+			"result": "win",
+			"userName": "Tanaka",
+			"userAvatar": {
+				"@id": "http://werewolf.world/image/0.1/Friedel.jpg",
+				"@type": "@id"
+			}
+		},
+		{
+			"@id": "http://werewolf.world/resource/0.1/Thomas",
+			"agentIsMine": false,
+			"name": {
+				"en": "Thomas",
+				"ja": "トーマス"
+			},
+			"image": "http://werewolf.world/image/0.1/Thomas.jpg",
+			"id": 4,
+			"role": {
+				"@id": "http://werewolf.world/resource/0.1/medium",
+				"roleName": {
+					"en": "Medium",
+					"ja": "霊媒師"
+				},
+				"roleImage": "http://werewolf.world/image/0.1/medium.jpg"
+			},
+			"status": "alive",
+			"result": "win",
+			"userName": "Ito",
+			"userAvatar": {
+				"@id": "http://werewolf.world/image/0.1/Dieter.jpg",
+				"@type": "@id"
+			}
+		},
+		{
+			"@id": "http://werewolf.world/resource/0.1/Nicholas",
+			"agentIsMine": false,
+			"name": {
+				"en": "Nicholas",
+				"ja": "ニコラス"
+			},
+			"image": "http://werewolf.world/image/0.1/Nicholas.jpg",
+			"id": 5,
+			"role": {
+				"@id": "http://werewolf.world/resource/0.1/werehumster",
+				"roleName": {
+					"en": "Werehuster",
+					"ja": "ハムスター人間"
+				},
+				"roleImage": "http://werewolf.world/image/0.1/werehumster.jpg"
+			},
+			"status": "death by fear",
+			"result": "lose",
+			"userName": "Watanabe",
+			"userAvatar": {
+				"@id": "http://werewolf.world/image/0.1/Erna.jpg",
+				"@type": "@id"
+			}
+		},
+		{
+			"@id": "http://werewolf.world/resource/0.1/Dieter",
+			"agentIsMine": false,
+			"name": {
+				"en": "Dieter",
+				"ja": "ディーター"
+			},
+			"image": "http://werewolf.world/image/0.1/Dieter.jpg",
+			"id": 6,
+			"role": {
+				"@id": "http://werewolf.world/resource/0.1/madman",
+				"roleName": {
+					"en": "Madman",
+					"ja": "狂人"
+				},
+				"roleImage": "http://werewolf.world/image/0.1/madman.jpg"
+			},
+			"status": "death by execution",
+			"result": "lose",
+			"userName": "Yamamoto",
+			"userAvatar": {
+				"@id": "http://werewolf.world/image/0.1/Jacob.jpg",
+				"@type": "@id"
+			}
+		},
+		{
+			"@id": "http://werewolf.world/resource/0.1/Peter",
+			"agentIsMine": false,
+			"name": {
+				"en": "Peter",
+				"ja": "ペーター"
+			},
+			"image": "http://werewolf.world/image/0.1/Peter.jpg",
+			"id": 7,
+			"role": {
+				"@id": "http://werewolf.world/resource/0.1/werewolf",
+				"roleName": {
+					"en": "Werewolf",
+					"ja": "人狼"
+				},
+				"roleImage": "http://werewolf.world/image/0.1/werewolf.jpg"
+			},
+			"status": "unnatural death",
+			"result": "lose",
+			"userName": "Nakamura",
+			"userAvatar": {
+				"@id": "http://werewolf.world/image/0.1/Nicholas.jpg",
+				"@type": "@id"
+			}
+		},
+		{
+			"@id": "http://werewolf.world/resource/0.1/Lisa",
+			"agentIsMine": false,
+			"name": {
+				"en": "Lisa",
+				"ja": "リーザ"
+			},
+			"image": "http://werewolf.world/image/0.1/Lisa.jpg",
+			"id": 8,
+			"role": {
+				"@id": "http://werewolf.world/resource/0.1/villager",
+				"roleName": {
+					"en": "Villager",
+					"ja": "村人"
+				},
+				"roleImage": "http://werewolf.world/image/0.1/villager.jpg"
+			},
+			"status": "unnatural death",
+			"result": "win",
+			"userName": "Kobayashi",
+			"userAvatar": {
+				"@id": "http://werewolf.world/image/0.1/Peter.jpg",
+				"@type": "@id"
+			}
+		},
+		{
+			"@id": "http://werewolf.world/resource/0.1/Alvin",
+			"agentIsMine": false,
+			"name": {
+				"en": "Alvin",
+				"ja": "アルビン"
+			},
+			"image": "http://werewolf.world/image/0.1/Alvin.jpg",
+			"id": 9,
+			"role": {
+				"@id": "http://werewolf.world/resource/0.1/villager",
+				"roleName": {
+					"en": "Villager",
+					"ja": "村人"
+				},
+				"roleImage": "http://werewolf.world/image/0.1/villager.jpg"
+			},
+			"status": "unnatural death",
+			"result": "win",
+			"userName": "Yoshida",
+			"userAvatar": {
+				"@id": "http://werewolf.world/image/0.1/Peter.jpg",
+				"@type": "@id"
+			}
+		},
+		{
+			"@id": "http://werewolf.world/resource/0.1/Catalina",
+			"agentIsMine": false,
+			"name": {
+				"en": "Catalina",
+				"ja": "カタリナ"
+			},
+			"image": "http://werewolf.world/image/0.1/Catalina.jpg",
+			"id": 10,
+			"role": {
+				"@id": "http://werewolf.world/resource/0.1/mason",
+				"roleName": {
+					"en": "Mason",
+					"ja": "共有者"
+				},
+				"roleImage": "http://werewolf.world/image/0.1/mason.jpg"
+			},
+			"status": "unnatural death",
+			"result": "win",
+			"userName": "Yamada",
+			"userAvatar": {
+				"@id": "http://werewolf.world/image/0.1/Simon.jpg",
+				"@type": "@id"
+			}
+		},
+		{
+			"@id": "http://werewolf.world/resource/0.1/Otto",
+			"agentIsMine": false,
+			"name": {
+				"en": "Otto",
+				"ja": "オットー"
+			},
+			"image": "http://werewolf.world/image/0.1/Otto.jpg",
+			"id": 11,
+			"role": {
+				"@id": "http://werewolf.world/resource/0.1/mason",
+				"roleName": {
+					"en": "Mason",
+					"ja": "共有者"
+				},
+				"roleImage": "http://werewolf.world/image/0.1/mason.jpg"
+			},
+			"status": "unnatural death",
+			"result": "win",
+			"userName": "Sasaki",
+			"userAvatar": {
+				"@id": "http://werewolf.world/image/0.1/Simson.jpg",
+				"@type": "@id"
+			}
+		},
+		{
+			"@id": "http://werewolf.world/resource/0.1/Joachim",
+			"agentIsMine": false,
+			"name": {
+				"en": "Joachim",
+				"ja": "ヨアヒム"
+			},
+			"image": "http://werewolf.world/image/0.1/Joachim.jpg",
+			"id": 12,
+			"role": {
+				"@id": "http://werewolf.world/resource/0.1/villager",
+				"roleName": {
+					"en": "Villager",
+					"ja": "村人"
+				},
+				"roleImage": "http://werewolf.world/image/0.1/villager.jpg"
+			},
+			"status": "death by werewolf attack",
+			"result": "win",
+			"userName": "山口",
+			"userAvatar": {
+				"@id": "http://werewolf.world/image/0.1/Otto.jpg",
+				"@type": "@id"
+			}
+		},
+		{
+			"@id": "http://werewolf.world/resource/0.1/",
+			"agentIsMine": false,
+			"name": {
+				"en": "Pamela",
+				"ja": "パメラ"
+			},
+			"image": "http://werewolf.world/image/0.1/.jpg",
+			"id": 13,
+			"role": {
+				"@id": "http://werewolf.world/resource/0.1/villager",
+				"roleName": {
+					"en": "Villager",
+					"ja": "村人"
+				},
+				"roleImage": "http://werewolf.world/image/0.1/villager.jpg"
+			},
+			"status": "alive",
+			"result": "win",
+			"userName": "松本",
+			"userAvatar": {
+				"@id": "http://werewolf.world/image/0.1/Joachim.jpg",
+				"@type": "@id"
+			}
+		},
+		{
+			"@id": "http://werewolf.world/resource/0.1/",
+			"agentIsMine": false,
+			"name": {
+				"en": "Jacob",
+				"ja": "ヤコブ"
+			},
+			"image": "http://werewolf.world/image/0.1/.jpg",
+			"id": 14,
+			"role": {
+				"@id": "http://werewolf.world/resource/0.1/villager",
+				"roleName": {
+					"en": "Villager",
+					"ja": "村人"
+				},
+				"roleImage": "http://werewolf.world/image/0.1/villager.jpg"
+			},
+			"status": "alive",
+			"result": "win",
+			"userName": "井上",
+			"userAvatar": {
+				"@id": "http://werewolf.world/image/0.1/Catalina.jpg",
+				"@type": "@id"
+			}
+		}
+	],
+
+	"role": [
+		{
+			"@id": "http://werewolf.world/resource/0.1/master",
+			"roleIsMine": false,
+			"name": {
+				"en": "Master",
+				"ja": "マスター"
+			},
+			"image": "http://werewolf.world/image/0.1/master.jpg",
+			"number": 1
+		},
+		{
+			"@id": "http://wereworld.world/resource/0.1/villager",
+			"roleIsMine": false,
+			"name": {
+				"en": "Villager",
+				"ja": "村人"
+			},
+			"image": "http://werewolf.world/image/0.1/villager.jpg",
+			"number": 6,
+			"agentId": [0,8,9,12,13,14]
+		},
+		{
+			"@id": "http://werewolf.world/resource/0.1/seer",
+			"roleIsMine": true,
+			"name": {
+				"en": "Seer",
+				"ja": "占い師"
+			},
+			"image": "http://werewolf.world/image/0.1/seer.jpg",
+			"number": 1,
+			"agentId": [1]
+		},
+		{
+			"@id": "http://werewolf.world/resource/0.1/medium",
+			"roleIsMine": false,
+			"name": {
+				"en": "Medium",
+				"ja": "霊媒師"
+			},
+			"image": "http://werewolf.world/image/0.1/medium.jpg",
+			"number": 1,
+			"agentId": [4]
+		},
+		{
+			"@id": "http://wereworld.world/resource/0.1/hunter",
+			"roleIsMine": false,
+			"name": {
+				"en": "Hunter",
+				"ja": "狩人"
+			},
+			"image": "http://werewolf.world/image/0.1/hunter.jpg",
+			"number": 1,
+			"agentId": [3]
+		},
+		{
+			"@id": "http://wereworld.world/resource/0.1/mason",
+			"roleIsMine": false,
+			"name": {
+				"en": "Mason",
+				"ja": "共有者"
+			},
+			"image": "http://werewolf.world/image/0.1/mason.jpg",
+			"number": 2,
+			"agentId": [10,11]
+		},
+		{
+			"@id": "http://wereworld.world/resource/0.1/madman",
+			"roleIsMine": false,
+			"name": {
+				"en": "Madman",
+				"ja": "狂人"
+			},
+			"image": "http://werewolf.world/image/0.1/madman.jpg",
+			"number": 1,
+			"agentId": [6]
+		},
+		{
+			"@id": "http://wereworld.world/resource/0.1/werewolf",
+			"roleIsMine": false,
+			"name": {
+				"en": "Werewolf",
+				"ja": "人狼"
+			},
+			"image": "http://werewolf.world/image/0.1/werewolf.jpg",
+			"number": 2,
+			"agentId": [2,7]
+		},
+		{
+			"@id": "http://wereworld.world/resource/0.1/werehumster",
+			"roleIsMine": false,
+			"name": {
+				"en": "Werehumster",
+				"ja": "ハムスター人間"
+			},
+			"image": "http://werewolf.world/image/0.1/werehumster.jpg",
+			"number": 1,
+			"agentId": [5]
+		}
+	]
+}

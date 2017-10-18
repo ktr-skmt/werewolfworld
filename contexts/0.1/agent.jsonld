@@ -24,6 +24,8 @@
 			"roleImage": "http://werewolf.world/resource/0.1/roleImage"
 		},
 		"status": "http://werewolf.world/resource/0.1/agentStatus",//alive, dead, unnatural death, death by execution, death by werewolf attack, death by fear
-		"result": "http://werewolf.world/resource/0.1/result"
+		"result": "http://werewolf.world/resource/0.1/result",
+		"userName": "http://werewolf.world/resource/0.1/userName",
+		"userAvatar": "http://werewolf.world/resource/0.1/agent"
 	}
 }

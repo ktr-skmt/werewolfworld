@@ -1,0 +1,18 @@
+{
+	"@context": [
+		"http://werewolf.world/contexts/0.1/base.jsonld",
+		"http://werewolf.world/contexts/0.1/board.jsonld"
+	],
+
+	"@id": "http://werewolf.world/resource/0.1/boardMessage",
+
+	"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
+	"phase": "2 day conversation",//-> 1 day vote, 1 night -> 2 day conversation -> ... -> results -> post mortem
+	"phaseTimeLimit": "10m",
+	"phaseStartTime": "2007-12-03T10:15:30.000Z-09:00[Asia/Tokyo]",
+	"timestamp": "2007-12-03T10:15:30.000Z-09:00[Asia/Tokyo]",
+
+	"boardAgent": 4,
+	"boardRole": "http://werewolf.world/resource/0.1/madman",
+	"boardPrediction": "X"
+}

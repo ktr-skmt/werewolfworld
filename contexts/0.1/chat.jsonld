@@ -1,5 +1,22 @@
 {
 	"@context": {
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"chatIsMine": {
+			"@id": "http://werewolf.world/resource/0.1/chatIsMine",
+			"@type": "xsd:boolean"
+		},
+		"chatAgent": {
+			"@id": "http://werewolf.world/resource/0.1/agent",
+			"chatAgentId": {
+				"@id": "http://werewolf.world/resource/0.1/agentId",
+				"@type": "xsd:integer"
+			},
+			"chatAgentName": {
+				"@id": "http://werewolf.world/resource/0.1/agentName",
+				"@type": "@language"
+			},
+			"chatAgentImage": "http://werewolf.world/resource/0.1/agentImage"
+		},
 		"chatId": "http://werewolf.world/resource/0.1/chatId",
 		"chatCounter": "http://werewolf.world/resource/0.1/chatCounter",
 		"chatLimit": "http://werewolf.world/resource/0.1/chatLimit",
