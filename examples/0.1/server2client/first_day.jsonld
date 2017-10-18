@@ -1,6 +1,6 @@
 {
 	"@context": [
-		"http://werewolf.world/contexts/basic.jsonld",
+		"http://werewolf.world/contexts/base.jsonld",
 		"http://werewolf.world/contexts/agent.jsonld",
 		"http://werewolf.world/contexts/role.jsonld"
 	],
