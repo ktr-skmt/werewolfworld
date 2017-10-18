@@ -65,7 +65,7 @@ UTF-8 (without Byte Order Mark)
 |IRI|Type|Values|
 ---|---|---
 |http://werewolf.world/resource/0.1/result||'win', 'lose'|
-|http://werewolf.world/resource/0.1/userName|||
+|http://werewolf.world/resource/0.1/userName||5 <= {# of Unicode code points} <= 15|
 |http://werewolf.world/resource/0.1/userAvatar||(URL)|
 
 ## board
