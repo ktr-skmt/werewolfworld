@@ -26,7 +26,7 @@
 				"@id": "http://werewolf.world/resource/0.1/agentId",
 				"@type": "xsd:integer"
 			},
-			"boardAgentPhase": "http://werewolf.world/resource/0.1/phase"
+			"boardPhase": "http://werewolf.world/resource/0.1/phase"
 		}
 	}
 }
