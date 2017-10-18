@@ -1,6 +1,6 @@
 {
-	"@context": "http://werewolf.world/contexts/role.jsonld",
-	"@id": "http://werewolf.world/resource/role",
+	"@context": "http://werewolf.world/contexts/0.1/role.jsonld",
+	"@id": "http://werewolf.world/resource/0.1/role",
 	"@type": "@id",
 
 	"role": [
