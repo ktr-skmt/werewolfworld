@@ -33,7 +33,7 @@ UTF-8 (without Byte Order Mark)
 
 |IRI|Type|Values|
 ---|---|---
-|http://werewolf.world/resource/0.1/token|||
+|http://werewolf.world/resource/0.1/token||(GUID)|
 |http://werewolf.world/resource/0.1/phase||'{n} day conversation', '{n} day vote', '{n} day night', 'results', 'post mortem'|
 |http://werewolf.world/resource/0.1/phaseTimeLimit||'none' or such as '10m', '3m'|
 |http://werewolf.world/resource/0.1/phaseStartTime||such as '2007-12-03T10:15:30.000Z-09:00[Asia/Tokyo]'|
