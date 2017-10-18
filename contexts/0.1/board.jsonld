@@ -2,10 +2,10 @@
 	"@context": {
 		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"boardAgent": {
-			"@id": "http://werewolf.world/resource/0.1/agent",
+			"@id": "http://werewolf.world/resource/0.1/agentId",
 			"@type": "xsd:integer"
 		},
 		"boardRole": "http://werewolf.world/resource/0.1/role",
-		"boardPrediction": "http://werewolf.world/resource/0.1/boardAgentRolePrediction"
+		"boardPrediction": "http://werewolf.world/resource/0.1/boardPrediction"
 	}
 }
