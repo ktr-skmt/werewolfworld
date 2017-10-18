@@ -58,6 +58,7 @@ UTF-8 (without Byte Order Mark)
 ---|---|---
 |http://werewolf.world/resource/0.1/result||'win', 'lose'|
 |http://werewolf.world/resource/0.1/userName|||
+|http://werewolf.world/resource/0.1/userAvatar|||
 
 ## board
 
