@@ -18,6 +18,17 @@ https://json-ld.org/spec/latest/json-ld/
 
 UTF-8 (without Byte Order Mark)
 
+# Examples
+
+* Entity list
+  - Agent list
+  - Role list
+* Message examples
+  - Server-to-client message examples
+  - Client-to-server message examples
+
+See [http://werewolf.world/examples/0.1/](http://werewolf.world/examples/0.1/)
+
 # Contexts
 
 |Contexts|JSON-LD|
@@ -28,6 +39,8 @@ UTF-8 (without Byte Order Mark)
 |board|[http://werewolf.world/contexts/0.1/board.jsonld](http://werewolf.world/contexts/0.1/board.jsonld)|
 |chat|[http://werewolf.world/contexts/0.1/chat.jsonld](http://werewolf.world/contexts/0.1/chat.jsonld)|
 |vote|[http://werewolf.world/contexts/0.1/vote.jsonld](http://werewolf.world/contexts/0.1/vote.jsonld)|
+
+See [http://werewolf.world/contexts/0.1/](http://werewolf.world/contexts/0.1/)
 
 # IRIs
 
@@ -61,6 +74,8 @@ UTF-8 (without Byte Order Mark)
 |http://werewolf.world/resource/0.1/agentImage||[http://werewolf.world/image/0.1/#agent](http://werewolf.world/image/0.1/#agent)|
 |http://werewolf.world/resource/0.1/agentStatus||'alive', 'dead', 'death by execution', 'death by werewolf attack', 'death by fear', 'unnatural death'|
 
+See [http://werewolf.world/image/0.1/#agent](http://werewolf.world/image/0.1/#agent)
+
 ## role
 
 |IRI|Type|Values|
@@ -70,6 +85,8 @@ UTF-8 (without Byte Order Mark)
 |http://werewolf.world/resource/0.1/roleName||[http://werewolf.world/image/0.1/#role](http://werewolf.world/image/0.1/#role)|
 |http://werewolf.world/resource/0.1/roleImage||[http://werewolf.world/image/0.1/#role](http://werewolf.world/image/0.1/#role)|
 |http://werewolf.world/resource/0.1/roleNumber|xsd:integer|0 <=, <= 7|
+
+See [http://werewolf.world/image/0.1/#role](http://werewolf.world/image/0.1/#role)
 
 ## board
 
