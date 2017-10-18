@@ -5,7 +5,6 @@
 		"http://werewolf.world/contexts/0.1/role.jsonld"
 	],
 	"@id": "http://werewolf.world/resource/0.1/systemMessage",
-	"@type": "@id",
 
 	"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
 	"phase": "results",
