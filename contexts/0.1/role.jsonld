@@ -1,0 +1,32 @@
+{
+	"@context": {
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"role": "http://werewolf.world/resource/0.1/role",
+		"name": {
+			"@id": "http://werewolf.world/resource/0.1/roleName",
+			"@container": "@language"
+		},
+		"image": "http://werewolf.world/resource/0.1/roleImage",
+		"roleIsMine": {
+			"@id": "http://werewolf.world/resource/0.1/roleIsMine",
+			"@type": "xsd:boolean"
+		},
+		"number": {
+			"@id": "http://werewolf.world/resource/0.1/roleNumber",
+			"@type": "xsd:integer"
+		},
+		"agentId": {
+			"@id": "http://werewolf.world/resource/0.1/agentId",
+			"@type": "xsd:integer"
+		},
+		"board": {
+			"@id": "http://werewolf.world/resource/0.1/board",
+			"boardAgentPolarity": "http://werewolf.world/resource/0.1/boardAgentPolarity",//"positive" or "negative"
+			"boardAgentId": {
+				"@id": "http://werewolf.world/resource/0.1/boardAgentId",
+				"@type": "xsd:integer"
+			},
+			"boardAgentPhase": "http://werewolf.world/resource/0.1/boardAgentPhase"
+		}
+	}
+}

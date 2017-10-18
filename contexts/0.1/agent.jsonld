@@ -1,0 +1,29 @@
+{
+	"@context": {
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"agent": "http://werewolf.world/resource/0.1/agent",
+		"agentIsMine": {
+			"@id": "http://werewolf.world/resource/0.1/agentIsMine",
+			"@type": "xsd:boolean"
+		},
+		"name": {
+			"@id": "http://werewolf.world/resource/0.1/agentName",
+			"@container": "@language"
+		},
+		"image": "http://werewolf.world/resource/0.1/agentImage",
+		"id": {
+			"@id": "http://werewolf.world/resource/0.1/agentId",
+			"@type": "xsd:integer"
+		},
+		"role": {
+			"@id": "http://werewolf.world/resource/0.1/role",
+			"roleName": {
+				"@id": "http://werewolf.world/resource/0.1/roleName",
+				"@container": "@language"
+			},
+			"roleImage": "http://werewolf.world/resource/0.1/roleImage"
+		},
+		"status": "http://werewolf.world/resource/0.1/agentStatus",//alive, dead, unnatural death, death by execution, death by werewolf attack, death by fear
+		"result": "http://werewolf.world/resource/0.1/result"
+	}
+}
