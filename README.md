@@ -69,10 +69,11 @@ UTF-8 (without Byte Order Mark)
 |IRI|Type|Values|
 ---|---|---
 |http://werewolf.world/resource/0.1/board||&ast;|
-|http://werewolf.world/resource/0.1/prediction||'?','Δ','O','X'|
-|http://werewolf.world/resource/0.1/boardAgentPolarity||'positive', 'negative'|
 |http://werewolf.world/resource/0.1/boardAgentId|xsd:integer|0 <=|
-|http://werewolf.world/resource/0.1/boardAgentPhase|||
+|http://werewolf.world/resource/0.1/boardRole||http://werewolf.world/resource/0.1/{role}|
+|http://werewolf.world/resource/0.1/boardAgentRolePolarity||'positive', 'negative'|
+|http://werewolf.world/resource/0.1/boardAgentRolePhase||'{n} day conversation', '{n} day vote', '{n} day night', 'results', 'post mortem'|
+|http://werewolf.world/resource/0.1/boardAgentRolePrediction||'?','Δ','O','X'|
 
 ## chat
 
