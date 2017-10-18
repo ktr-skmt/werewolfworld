@@ -27,6 +27,7 @@ version: 0.1
 
 
 ## role
+
 |   |en|ja|image|
 ---|---|---|---
 |http://werewolf.world/resource/0.1/master|Master|マスター|![master](http://werewolf.world/image/0.1/master.jpg)|
