@@ -203,8 +203,8 @@
 			"board": [
 				{
 					"boardAgentId": 1,
-					"boardAgentPolarity": "negative",
-					"boardAgentPhase": "1 day conversation"
+					"boardPolarity": "negative",
+					"boardPhase": "1 day conversation"
 				}
 			]
 		},
@@ -220,8 +220,8 @@
 			"board": [
 				{
 					"boardAgentId": 1,
-					"boardAgentPolarity": "positive",
-					"boardAgentPhase": "1 day conversation"
+					"boardPolarity": "positive",
+					"boardPhase": "1 day conversation"
 				}
 			]
 		},
@@ -237,8 +237,8 @@
 			"board": [
 				{
 					"boardAgentId": 1,
-					"boardAgentPolarity": "negative",
-					"boardAgentPhase": "1 day conversation"
+					"boardPolarity": "negative",
+					"boardPhase": "1 day conversation"
 				}
 			]
 		},
@@ -254,8 +254,8 @@
 			"board": [
 				{
 					"boardAgentId": 1,
-					"boardAgentPolarity": "negative",
-					"boardAgentPhase": "1 day conversation"
+					"boardPolarity": "negative",
+					"boardPhase": "1 day conversation"
 				}
 			]
 		},
@@ -271,8 +271,8 @@
 			"board": [
 				{
 					"boardAgentId": 1,
-					"boardAgentPolarity": "negative",
-					"boardAgentPhase": "1 day conversation"
+					"boardPolarity": "negative",
+					"boardPhase": "1 day conversation"
 				}
 			]
 		},
@@ -288,8 +288,8 @@
 			"board": [
 				{
 					"boardAgentId": 1,
-					"boardAgentPolarity": "negative",
-					"boardAgentPhase": "1 day conversation"
+					"boardPolarity": "negative",
+					"boardPhase": "1 day conversation"
 				}
 			]
 		},
@@ -305,8 +305,8 @@
 			"board": [
 				{
 					"boardAgentId": 1,
-					"boardAgentPolarity": "negative",
-					"boardAgentPhase": "1 day conversation"
+					"boardPolarity": "negative",
+					"boardPhase": "1 day conversation"
 				}
 			]
 		},
@@ -322,8 +322,8 @@
 			"board": [
 				{
 					"boardAgentId": 1,
-					"boardAgentPolarity": "negative",
-					"boardAgentPhase": "1 day conversation"
+					"boardPolarity": "negative",
+					"boardPhase": "1 day conversation"
 				}
 			]
 		}
