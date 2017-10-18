@@ -82,6 +82,6 @@ UTF-8 (without Byte Order Mark)
 |http://werewolf.world/resource/0.1/chatText||string such as 0 <= {# of Unicode code points} <= {chatCharacterLimit}|
 |http://werewolf.world/resource/0.1/chatCharacterLimit|xsd:integer|1 <= {# of Unicode code points}|
 |http://werewolf.world/resource/0.1/chatLanguage||'en', 'ja', etc. ([java.util.Locale.toString](https://docs.oracle.com/javase/9/docs/api/java/util/Locale.html#toString--))|
-|http://werewolf.world/resource/0.1/chatChannel||'public', 'private', 'limited', 'master', 'grave'|
+|http://werewolf.world/resource/0.1/chatChannel||'public', 'private', 'werewolf', 'master', 'grave'|
 |http://werewolf.world/resource/0.1/chatIsOver|xsd:boolean|true, false|
 
