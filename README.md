@@ -49,8 +49,8 @@ https://github.com/ktr-skmt/werewolfworld
 |http://werewolf.world/resource/0.1/chatCounter|xsd:integer||
 |http://werewolf.world/resource/0.1/chatLimit|xsd:integer||
 |http://werewolf.world/resource/0.1/chatInterval|||
-|http://werewolf.world/resource/0.1/text|||
-|http://werewolf.world/resource/0.1/language|||
-|http://werewolf.world/resource/0.1/channel|||
+|http://werewolf.world/resource/0.1/chatText|||
+|http://werewolf.world/resource/0.1/chatLanguage|||
+|http://werewolf.world/resource/0.1/chatChannel|||
 |http://werewolf.world/resource/0.1/chatIsOver|xsd:boolean||
 
