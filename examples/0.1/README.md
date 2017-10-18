@@ -6,7 +6,7 @@
 |all agents|[http://werewolf.world/examples/0.1/all_agents.jsonld](http://werewolf.world/examples/0.1/all_agents.jsonld)|
 |all roles|[http://werewolf.world/examples/0.1/all_roles.jsonld](http://werewolf.world/examples/0.1/all_roles.jsonld)|
 
-## Server-to-client JSON-LD examples
+## Server-to-client message examples
 
 |Example|JSON-LD|
 ---|---
@@ -23,7 +23,7 @@
 
 ### night_vote
 
-## Client-to-server JSON-LD examples
+## Client-to-server message examples
 
 |Example|JSON-LD|
 ---|---
