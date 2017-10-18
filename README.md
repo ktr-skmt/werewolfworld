@@ -12,7 +12,7 @@ https://github.com/ktr-skmt/werewolfworld
 UTF-8 (without Byte Order Mark)
 
 
-## IRIs for message
+## message
 
 |IRI|Purpose|
 ---|---
@@ -21,7 +21,7 @@ UTF-8 (without Byte Order Mark)
 |http://werewolf.world/resource/0.1/systemMessage|Receive a system message from server|
 |http://werewolf.world/resource/0.1/voteMessage|Send a vote to server|
 
-## IRIs regarding base
+## base
 
 |IRI|Type|Values|
 ---|---|---
@@ -31,7 +31,7 @@ UTF-8 (without Byte Order Mark)
 |http://werewolf.world/resource/0.1/phaseStartTime||such as '2007-12-03T10:15:30.000Z-09:00[Asia/Tokyo]'|
 |http://werewolf.world/resource/0.1/timestamp||such as '2007-12-03T10:15:30.000Z-09:00[Asia/Tokyo]'|
 
-## IRIs regarding agent
+## agent
 
 |IRI|Type|Values|
 ---|---|---
@@ -42,7 +42,7 @@ UTF-8 (without Byte Order Mark)
 |http://werewolf.world/resource/0.1/agentImage|||
 |http://werewolf.world/resource/0.1/agentStatus||'alive', 'dead', 'death by execution', 'death by werewolf attack', 'death by fear', 'unnatural death'|
 
-## IRIs regarding role
+## role
 
 |IRI|Type|Values|
 ---|---|---
@@ -52,14 +52,14 @@ UTF-8 (without Byte Order Mark)
 |http://werewolf.world/resource/0.1/roleImage|||
 |http://werewolf.world/resource/0.1/roleNumber|xsd:integer|0 <=, <= 7|
 
-## IRIs regarding result
+## result
 
 |IRI|Type|Values|
 ---|---|---
 |http://werewolf.world/resource/0.1/result||'win', 'lose'|
 |http://werewolf.world/resource/0.1/userName|||
 
-## IRIs regarding board
+## board
 
 |IRI|Type|Values|
 ---|---|---
@@ -69,7 +69,7 @@ UTF-8 (without Byte Order Mark)
 |http://werewolf.world/resource/0.1/boardAgentId|xsd:integer|0 <=|
 |http://werewolf.world/resource/0.1/boardAgentPhase|||
 
-## IRIs regarding chat
+## chat
 
 |IRI|Type|Values|
 ---|---|---
