@@ -6,6 +6,6 @@
 			"@type": "xsd:integer"
 		},
 		"boardRole": "http://werewolf.world/resource/0.1/role",
-		"boardPrediction": "http://werewolf.world/resource/0.1/prediction"
+		"boardPrediction": "http://werewolf.world/resource/0.1/boardAgentRolePrediction"
 	}
 }
