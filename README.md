@@ -35,7 +35,7 @@ UTF-8 (without Byte Order Mark)
 
 |IRI|Type|Values|
 ---|---|---
-|http://werewolf.world/resource/0.1/agent||[http://werewolf.world/image/0.1/#agent](http://werewolf.world/image/0.1/#agent)|
+|http://werewolf.world/resource/0.1/agent||&ast;|
 |http://werewolf.world/resource/0.1/agentId|xsd:integer|-1 <= (-1 means master)|
 |http://werewolf.world/resource/0.1/agentIsMine|xsd:boolean|true, false|
 |http://werewolf.world/resource/0.1/agentName||[http://werewolf.world/image/0.1/#agent](http://werewolf.world/image/0.1/#agent)|
@@ -46,7 +46,7 @@ UTF-8 (without Byte Order Mark)
 
 |IRI|Type|Values|
 ---|---|---
-|http://werewolf.world/resource/0.1/role||[http://werewolf.world/image/0.1/#role](http://werewolf.world/image/0.1/#role)|
+|http://werewolf.world/resource/0.1/role||&ast;|
 |http://werewolf.world/resource/0.1/roleIsMine|xsd:boolean|true, false|
 |http://werewolf.world/resource/0.1/roleName||[http://werewolf.world/image/0.1/#role](http://werewolf.world/image/0.1/#role)|
 |http://werewolf.world/resource/0.1/roleImage||[http://werewolf.world/image/0.1/#role](http://werewolf.world/image/0.1/#role)|
@@ -58,13 +58,13 @@ UTF-8 (without Byte Order Mark)
 ---|---|---
 |http://werewolf.world/resource/0.1/result||'win', 'lose'|
 |http://werewolf.world/resource/0.1/userName|||
-|http://werewolf.world/resource/0.1/userAvatar|||
+|http://werewolf.world/resource/0.1/userAvatar||(URL)|
 
 ## board
 
 |IRI|Type|Values|
 ---|---|---
-|http://werewolf.world/resource/0.1/board|||
+|http://werewolf.world/resource/0.1/board||&ast;|
 |http://werewolf.world/resource/0.1/prediction||'?','Δ','O','X'|
 |http://werewolf.world/resource/0.1/boardAgentPolarity||'positive', 'negative'|
 |http://werewolf.world/resource/0.1/boardAgentId|xsd:integer|0 <=|
