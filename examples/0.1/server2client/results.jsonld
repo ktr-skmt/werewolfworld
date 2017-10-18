@@ -1,10 +1,10 @@
 {
 	"@context": [
-		"http://werewolf.world/contexts/base.jsonld",
-		"http://werewolf.world/contexts/agent.jsonld",
-		"http://werewolf.world/contexts/role.jsonld"
+		"http://werewolf.world/contexts/0.1/base.jsonld",
+		"http://werewolf.world/contexts/0.1/agent.jsonld",
+		"http://werewolf.world/contexts/0.1/role.jsonld"
 	],
-	"@id": "http://werewolf.world/resource/systemMessage",
+	"@id": "http://werewolf.world/resource/0.1/systemMessage",
 	"@type": "@id",
 
 	"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
