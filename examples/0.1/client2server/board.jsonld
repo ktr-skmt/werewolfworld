@@ -12,7 +12,7 @@
 	"phaseStartTime": "2006-10-07T12:06:56.568+09:00",
 	"timestamp": "2006-10-07T12:06:56.568+09:00",
 
-	"boardAgent": 4,
+	"boardAgentId": 4,
 	"boardRole": "http://werewolf.world/resource/0.1/madman",
 	"boardPrediction": "X"
 }
