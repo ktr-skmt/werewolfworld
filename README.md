@@ -60,8 +60,8 @@ See [http://werewolf.world/contexts/0.1/](http://werewolf.world/contexts/0.1/)
 |http://werewolf.world/resource/0.1/token||(GUID)|
 |http://werewolf.world/resource/0.1/phase||'{n} day conversation', '{n} day vote', '{n} day night', 'results', 'post mortem'|
 |http://werewolf.world/resource/0.1/phaseTimeLimit||'none' or such as '10m', '3m'|
-|http://werewolf.world/resource/0.1/phaseStartTime||such as '2007-12-03T10:15:30.000Z-09:00[Asia/Tokyo]'|
-|http://werewolf.world/resource/0.1/timestamp||such as '2007-12-03T10:15:30.000Z-09:00[Asia/Tokyo]'|
+|http://werewolf.world/resource/0.1/phaseStartTime|http://www.w3.org/2001/XMLSchema#dateTime|such as '2006-10-07T12:06:56.568+09:00'|
+|http://werewolf.world/resource/0.1/timestamp|http://www.w3.org/2001/XMLSchema#dateTime|such as '2006-10-07T12:06:56.568+09:00'|
 
 ## agent
 
