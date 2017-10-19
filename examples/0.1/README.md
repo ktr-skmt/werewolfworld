@@ -24,17 +24,31 @@
 
 ### first_day
 
+* "Start day conversation phase" to "Display"
+
 ### my_message_on_chat
+
+* "Broadcast a chat message" to "Display a chat message"
 
 ### their_message_on_chat
 
+* "Broadcast a chat message" to "Display a chat message"
+
 ### vote
+
+* "Start day vote phase" to "Display"
 
 ### night
 
+* "Start night phase" to "Display"
+
 ### results
 
+* "Send results" to "Display results in a modal"
+
 ### postMortem
+
+* "Start post mortem phase" to "Display"
 
 ## Client-to-server message examples
 
