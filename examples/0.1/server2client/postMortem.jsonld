@@ -22,7 +22,7 @@
 			},
 			"image": "http://werewolf.world/image/0.1/Gert.jpg",
 			"id": 0,
-			"status": "alive"
+			"status": "dead"
 		},
 		{
 			"@id": "http://werewolf.world/resource/0.1/Walter",
@@ -110,7 +110,7 @@
 			},
 			"image": "http://werewolf.world/image/0.1/Lisa.jpg",
 			"id": 8,
-			"status": "alive"
+			"status": "dead"
 		},
 		{
 			"@id": "http://werewolf.world/resource/0.1/Alvin",
