@@ -61,12 +61,18 @@
 
 ### board
 
+* "Update prediction board" to "Output a log"
+
 ### chat
+
+* "Send a chat message" to "Receive a chat message" in both Day Conversation Phase or Post Mortem Phase
 
 ### day_vote
 
+* "Vote" to "Collect votes" in Day Vote Phase
+
 ### night_vote
 
-
+* "Vote" to "Collect votes" in Night Phase
 
 
