@@ -1,9 +1,13 @@
 {
 	"@context":	{
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"token": "http://werewolf.world/resource/0.1/token",
 		"phase": "http://werewolf.world/resource/0.1/phase",
 		"phaseTimeLimit": "http://werewolf.world/resource/0.1/phaseTimeLimit",
 		"phaseStartTime": "http://werewolf.world/resource/0.1/phaseStartTime",
-		"timestamp": "http://werewolf.world/resource/0.1/timestamp"
+		"timestamp": {
+			"@id": "http://werewolf.world/resource/0.1/timestamp",
+			"@type": "xsd:dateTime"
+		}
 	}
 }
