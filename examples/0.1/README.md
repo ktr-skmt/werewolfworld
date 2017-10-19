@@ -24,7 +24,7 @@
 
 ### first_day
 
-* "Start day conversation phase" to "Display"
+* "Start day conversation phase" to "Display" and "Move to grave"
 
 ### my_message_on_chat
 
@@ -36,11 +36,11 @@
 
 ### vote
 
-* "Start day vote phase" to "Display"
+* "Start day vote phase" to "Display" and "Move to grave"
 
 ### night
 
-* "Start night phase" to "Display"
+* "Start night phase" to "Display" and "Move to grave"
 
 ### results
 
