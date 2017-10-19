@@ -6,6 +6,10 @@
 |all agents|[http://werewolf.world/examples/0.1/all_agents.jsonld](http://werewolf.world/examples/0.1/all_agents.jsonld)|
 |all roles|[http://werewolf.world/examples/0.1/all_roles.jsonld](http://werewolf.world/examples/0.1/all_roles.jsonld)|
 
+## System outline
+
+![system outline](http://werewolf.world/werewolf_system_outline.png)
+
 ## Server-to-client message examples
 
 |Example|JSON-LD|
@@ -48,5 +52,7 @@
 ### day_vote
 
 ### night_vote
+
+
 
 
