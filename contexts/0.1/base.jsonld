@@ -4,7 +4,10 @@
 		"token": "http://werewolf.world/resource/0.1/token",
 		"phase": "http://werewolf.world/resource/0.1/phase",
 		"phaseTimeLimit": "http://werewolf.world/resource/0.1/phaseTimeLimit",
-		"phaseStartTime": "http://werewolf.world/resource/0.1/phaseStartTime",
+		"phaseStartTime": {
+			"@id": "http://werewolf.world/resource/0.1/phaseStartTime",
+			"@type": "xsd:dateTime"
+		},
 		"timestamp": {
 			"@id": "http://werewolf.world/resource/0.1/timestamp",
 			"@type": "xsd:dateTime"
