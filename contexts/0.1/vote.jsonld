@@ -2,9 +2,9 @@
 	"@context": {
 		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"vote": {
-			"@id": "http://werewolf.world/resource/vote",
+			"@id": "http://werewolf.world/resource/0.1/vote",
 			"@type": "xsd:interger"
 		},
-		"role": "http://werewolf.world/resource/role"
+		"role": "http://werewolf.world/resource/0.1/role"
 	}
 }
