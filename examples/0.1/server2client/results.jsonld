@@ -400,7 +400,7 @@
 			},
 			"image": "http://werewolf.world/image/0.1/master.jpg",
 			"number": 1,
-			"board": []
+			"agentId": []
 		},
 		{
 			"@id": "http://wereworld.world/resource/0.1/villager",
