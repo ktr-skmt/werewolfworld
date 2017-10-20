@@ -189,7 +189,8 @@
 				"ja": "マスター"
 			},
 			"image": "http://werewolf.world/image/0.1/master.jpg",
-			"number": 1
+			"number": 1,
+			"board": []
 		},
 		{
 			"@id": "http://wereworld.world/resource/0.1/villager",
