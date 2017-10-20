@@ -58,7 +58,7 @@ See [http://werewolf.world/contexts/0.1/](http://werewolf.world/contexts/0.1/)
 |IRI|Type|Values|
 ---|---|---
 |http://werewolf.world/resource/0.1/token||(GUID)|
-|http://werewolf.world/resource/0.1/phase||'{n} day conversation', '{n} day vote', '{n} day night', 'results', 'post mortem'|
+|http://werewolf.world/resource/0.1/phase||'{n} day conversation', '{n} day vote', '{n} night', 'results', 'post mortem'|
 |http://werewolf.world/resource/0.1/phaseTimeLimit||'none' or such as '10m', '3m'|
 |http://werewolf.world/resource/0.1/phaseStartTime|xsd:dateTime|such as '2006-10-07T12:06:56.568+09:00'|
 |http://werewolf.world/resource/0.1/timestamp|xsd:dateTime|such as '2006-10-07T12:06:56.568+09:00'|
