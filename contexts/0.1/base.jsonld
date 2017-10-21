@@ -1,27 +1,28 @@
 {
 	"@context":	{
 		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"w3": "http://werewolf.world/resource/0.1/",
 		"villageId": {
-			"@id": "http://werewolf.world/resource/0.1/villageId",
+			"@id": "w3:villageId",
 			"@type": "xsd:integer"
 		},
-		"villageName": "http://werewolf.world/resource/0.1/villageName",
-		"token": "http://werewolf.world/resource/0.1/token",
-		"phase": "http://werewolf.world/resource/0.1/phase",
-		"date": "http://werewolf.world/resource/0.1/date",
-		"phaseTimeLimit": "http://werewolf.world/resource/0.1/phaseTimeLimit",
+		"villageName": "w3:villageName",
+		"token": "w3:token",
+		"phase": "w3:phase",
+		"date": "w3:date",
+		"phaseTimeLimit": "w3:phaseTimeLimit",
 		"phaseStartTime": {
-			"@id": "http://werewolf.world/resource/0.1/phaseStartTime",
+			"@id": "w3:phaseStartTime",
 			"@type": "xsd:dateTime"
 		},
 		"serverTimestamp": {
-			"@id": "http://werewolf.world/resource/0.1/timestamp",
+			"@id": "w3:timestamp",
 			"@type": "xsd:dateTime"
 		},
 		"clientTimestamp": {
-			"@id": "http://werewolf.world/resource/0.1/timestamp",
+			"@id": "w3:timestamp",
 			"@type": "xsd:dateTime"
 		},
-		"directionality": "http://werewolf.world/resource/0.1/directionality"
+		"directionality": "w3:directionality"
 	}
 }
