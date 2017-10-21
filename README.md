@@ -60,10 +60,15 @@ See [http://werewolf.world/contexts/0.1/](http://werewolf.world/contexts/0.1/)
 |IRI|Type|Values|
 ---|---|---
 |http://werewolf.world/resource/0.1/token||(GUID)|
-|http://werewolf.world/resource/0.1/phase||'{n} day conversation', '{n} day vote', '{n} night', 'results', 'post mortem'|
+|http://werewolf.world/resource/0.1/villageId|xsd:integer|0 <=|
+|http://werewolf.world/resource/0.1/villageName||5 <= {# of Unicode code points} <= 15|
+|http://werewolf.world/resource/0.1/phase||'day conversation', 'day vote', 'night', 'results', 'post mortem'|
+|http://werewolf.world/resource/0.1/date|xsd:integer|0 <=, 0 when phase is post mortem|
 |http://werewolf.world/resource/0.1/phaseTimeLimit||'none' or such as '10m', '3m'|
 |http://werewolf.world/resource/0.1/phaseStartTime|xsd:dateTime|such as '2006-10-07T12:06:56.568+09:00'|
-|http://werewolf.world/resource/0.1/timestamp|xsd:dateTime|such as '2006-10-07T12:06:56.568+09:00'|
+|http://werewolf.world/resource/0.1/serverTimestamp|xsd:dateTime|such as '2006-10-07T12:06:56.568+09:00'|
+|http://werewolf.world/resource/0.1/clientTimestamp|xsd:dateTime|such as '2006-10-07T12:06:56.568+09:00'|
+|http://werewolf.world/resource/0.1/directionality||'server to client' or 'client to server'|
 
 ## agent
 
