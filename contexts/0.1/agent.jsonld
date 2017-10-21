@@ -1,31 +1,32 @@
 {
 	"@context": {
 		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"agent": "http://werewolf.world/resource/0.1/agent",
+		"w3": "http://werewolf.world/resource/0.1/",
+		"agent": "w3:agent",
 		"agentIsMine": {
-			"@id": "http://werewolf.world/resource/0.1/agentIsMine",
+			"@id": "w3:agentIsMine",
 			"@type": "xsd:boolean"
 		},
 		"name": {
-			"@id": "http://werewolf.world/resource/0.1/agentName",
+			"@id": "w3:agentName",
 			"@container": "@language"
 		},
-		"image": "http://werewolf.world/resource/0.1/agentImage",
+		"image": "w3:agentImage",
 		"id": {
-			"@id": "http://werewolf.world/resource/0.1/agentId",
+			"@id": "w3:agentId",
 			"@type": "xsd:integer"
 		},
 		"role": {
-			"@id": "http://werewolf.world/resource/0.1/role",
+			"@id": "w3:role",
 			"roleName": {
-				"@id": "http://werewolf.world/resource/0.1/roleName",
+				"@id": "w3:roleName",
 				"@container": "@language"
 			},
-			"roleImage": "http://werewolf.world/resource/0.1/roleImage"
+			"roleImage": "w3:roleImage"
 		},
-		"status": "http://werewolf.world/resource/0.1/agentStatus",
-		"result": "http://werewolf.world/resource/0.1/result",
-		"userName": "http://werewolf.world/resource/0.1/userName",
-		"userAvatar": "http://werewolf.world/resource/0.1/userAvatar"
+		"status": "w3:agentStatus",
+		"result": "w3:result",
+		"userName": "w3:userName",
+		"userAvatar": "w3:userAvatar"
 	}
 }
