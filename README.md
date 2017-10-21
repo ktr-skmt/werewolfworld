@@ -5,6 +5,10 @@ werewolf.world protocol based on JSON-LD
 
 [https://github.com/ktr-skmt/werewolfworld](https://github.com/ktr-skmt/werewolfworld)
 
+## Issues
+
+[https://github.com/ktr-skmt/werewolfworld/issues](https://github.com/ktr-skmt/werewolfworld/issues)
+
 ## Version
 
 0.1
