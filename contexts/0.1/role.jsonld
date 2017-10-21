@@ -1,32 +1,33 @@
 {
 	"@context": {
 		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"role": "http://werewolf.world/resource/0.1/role",
+		"w3": "http://werewolf.world/resource/0.1/",
+		"role": "w3:role",
 		"name": {
-			"@id": "http://werewolf.world/resource/0.1/roleName",
+			"@id": "w3:roleName",
 			"@container": "@language"
 		},
-		"image": "http://werewolf.world/resource/0.1/roleImage",
+		"image": "w3:roleImage",
 		"roleIsMine": {
-			"@id": "http://werewolf.world/resource/0.1/roleIsMine",
+			"@id": "w3:roleIsMine",
 			"@type": "xsd:boolean"
 		},
 		"number": {
-			"@id": "http://werewolf.world/resource/0.1/roleNumber",
+			"@id": "w3:roleNumber",
 			"@type": "xsd:integer"
 		},
 		"agentId": {
-			"@id": "http://werewolf.world/resource/0.1/agentId",
+			"@id": "w3:agentId",
 			"@type": "xsd:integer"
 		},
 		"board": {
-			"@id": "http://werewolf.world/resource/0.1/board",
-			"boardPolarity": "http://werewolf.world/resource/0.1/boardPolarity",
+			"@id": "w3:board",
+			"boardPolarity": "w3:boardPolarity",
 			"boardAgentId": {
-				"@id": "http://werewolf.world/resource/0.1/agentId",
+				"@id": "w3:agentId",
 				"@type": "xsd:integer"
 			},
-			"boardPhase": "http://werewolf.world/resource/0.1/phase"
+			"boardPhase": "w3:phase"
 		}
 	}
 }
