@@ -25,7 +25,7 @@
 		"chatText": "w3:chatText",
 		"chatCharacterLimit": "w3:chatCharacterLimit",
 		"chatLanguage": "w3:chatLanguage",
-		"chatChannel": "w3:chatChannel",
+		"chatChannel": "w3:channel",
 		"chatIsOver": "w3:chatIsOver"
 	}
 }
