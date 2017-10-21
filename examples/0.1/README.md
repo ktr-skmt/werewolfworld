@@ -3,8 +3,8 @@
 
 |Entity list|JSON-LD|
 ---|---
-|all agents|[http://werewolf.world/examples/0.1/all-agents.jsonld](http://werewolf.world/examples/0.1/all-agents.jsonld)|
-|all roles|[http://werewolf.world/examples/0.1/all-roles.jsonld](http://werewolf.world/examples/0.1/all-roles.jsonld)|
+|all-agents|[http://werewolf.world/examples/0.1/all-agents.jsonld](http://werewolf.world/examples/0.1/all-agents.jsonld)|
+|all-roles|[http://werewolf.world/examples/0.1/all-roles.jsonld](http://werewolf.world/examples/0.1/all-roles.jsonld)|
 
 ## System outline
 
@@ -15,12 +15,12 @@
 |Example|JSON-LD|
 ---|---
 |first_day|[http://werewolf.world/examples/0.1/server2client/first-day.jsonld](http://werewolf.world/examples/0.1/server2client/first-day.jsonld)|
-|my_message_on_chat|[http://werewolf.world/examples/0.1/server2client/my-message-on-chat.jsonld](http://werewolf.world/examples/0.1/server2client/my-message-on-chat.jsonld)|
-|their_message_on_chat|[http://werewolf.world/examples/0.1/server2client/their-message-on-chat.jsonld](http://werewolf.world/examples/0.1/server2client/their-message-on-chat.jsonld)|
+|my-message-on-chat|[http://werewolf.world/examples/0.1/server2client/my-message-on-chat.jsonld](http://werewolf.world/examples/0.1/server2client/my-message-on-chat.jsonld)|
+|their-message-on-chat|[http://werewolf.world/examples/0.1/server2client/their-message-on-chat.jsonld](http://werewolf.world/examples/0.1/server2client/their-message-on-chat.jsonld)|
 |vote|[http://werewolf.world/examples/0.1/server2client/vote.jsonld](http://werewolf.world/examples/0.1/server2client/vote.jsonld)|
 |night|[http://werewolf.world/examples/0.1/server2client/night.jsonld](http://werewolf.world/examples/0.1/server2client/night.jsonld)|
 |results|[http://werewolf.world/examples/0.1/server2client/results.jsonld](http://werewolf.world/examples/0.1/server2client/results.jsonld)|
-|postMortem|[http://werewolf.world/examples/0.1/server2client/post-mortem.jsonld](http://werewolf.world/examples/0.1/server2client/post-mortem.jsonld)|
+|post-mortem|[http://werewolf.world/examples/0.1/server2client/post-mortem.jsonld](http://werewolf.world/examples/0.1/server2client/post-mortem.jsonld)|
 
 ### first-day
 
@@ -56,8 +56,8 @@
 ---|---
 |board|[http://werewolf.world/examples/0.1/client2server/board.jsonld](http://werewolf.world/examples/0.1/client2server/board.jsonld)|
 |chat|[http://werewolf.world/examples/0.1/client2server/chat.jsonld](http://werewolf.world/examples/0.1/client2server/chat.jsonld)|
-|day_vote|[http://werewolf.world/examples/0.1/client2server/day-vote.jsonld](http://werewolf.world/examples/0.1/client2server/day-vote.jsonld)|
-|night_vote|[http://werewolf.world/examples/0.1/client2server/night-vote.jsonld](http://werewolf.world/examples/0.1/client2server/night-vote.jsonld)|
+|day-vote|[http://werewolf.world/examples/0.1/client2server/day-vote.jsonld](http://werewolf.world/examples/0.1/client2server/day-vote.jsonld)|
+|night-vote|[http://werewolf.world/examples/0.1/client2server/night-vote.jsonld](http://werewolf.world/examples/0.1/client2server/night-vote.jsonld)|
 
 ### board
 
