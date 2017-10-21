@@ -16,6 +16,8 @@
 	"serverTimestamp": "2006-10-07T12:06:56.568+09:00",
 	"clientTimestamp": "2006-10-07T12:06:56.568+09:00",
 	"directionality": "client to server",
+	"intensionalDisclosureRange": "werewolf",
+	"extensionalDisclosureRange": [],
 
 	"vote": 3,
 	"role": "http://werewolf.world/resource/0.1/werewolf"
