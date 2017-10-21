@@ -1,30 +1,31 @@
 {
 	"@context": {
 		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"w3": "http://werewolf.world/resource/0.1/",
 		"chatIsMine": {
-			"@id": "http://werewolf.world/resource/0.1/chatIsMine",
+			"@id": "w3:chatIsMine",
 			"@type": "xsd:boolean"
 		},
 		"chatAgent": {
-			"@id": "http://werewolf.world/resource/0.1/agent",
+			"@id": "w3:agent",
 			"chatAgentId": {
-				"@id": "http://werewolf.world/resource/0.1/agentId",
+				"@id": "w3:agentId",
 				"@type": "xsd:integer"
 			},
 			"chatAgentName": {
-				"@id": "http://werewolf.world/resource/0.1/agentName",
+				"@id": "w3:agentName",
 				"@type": "@language"
 			},
-			"chatAgentImage": "http://werewolf.world/resource/0.1/agentImage"
+			"chatAgentImage": "w3:agentImage"
 		},
-		"chatId": "http://werewolf.world/resource/0.1/chatId",
-		"chatCounter": "http://werewolf.world/resource/0.1/chatCounter",
-		"chatLimit": "http://werewolf.world/resource/0.1/chatLimit",
-		"chatInterval": "http://werewolf.world/resource/0.1/chatInterval",
-		"chatText": "http://werewolf.world/resource/0.1/chatText",
-		"chatCharacterLimit": "http://werewolf.world/resource/0.1/chatCharacterLimit",
-		"chatLanguage": "http://werewolf.world/resource/0.1/chatLanguage",
-		"chatChannel": "http://werewolf.world/resource/0.1/chatChannel",
-		"chatIsOver": "http://werewolf.world/resource/0.1/chatIsOver"
+		"chatId": "w3:chatId",
+		"chatCounter": "w3:chatCounter",
+		"chatLimit": "w3:chatLimit",
+		"chatInterval": "w3:chatInterval",
+		"chatText": "w3:chatText",
+		"chatCharacterLimit": "w3:chatCharacterLimit",
+		"chatLanguage": "w3:chatLanguage",
+		"chatChannel": "w3:chatChannel",
+		"chatIsOver": "w3:chatIsOver"
 	}
 }
