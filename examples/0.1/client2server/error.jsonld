@@ -17,7 +17,10 @@
 	"clientTimestamp": "2006-10-07T12:06:56.568+09:00",
 	"directionality": "client to server",
 
-	"content": "Timeout: ignored",
+	"content": {
+		"en": "Timeout: ignored",
+		"ja": "タイムアウト：　無視されました"
+	},
 	"severity": "error",
 	"source": "{\"token\": \"eFVr3O93oLhmnE8OqTMl5VSVGIV\"}"
 }
