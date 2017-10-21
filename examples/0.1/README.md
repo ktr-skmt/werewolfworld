@@ -59,6 +59,7 @@
 |chat|[http://werewolf.world/examples/0.1/client2server/chat.jsonld](http://werewolf.world/examples/0.1/client2server/chat.jsonld)|
 |day-vote|[http://werewolf.world/examples/0.1/client2server/day-vote.jsonld](http://werewolf.world/examples/0.1/client2server/day-vote.jsonld)|
 |night-vote|[http://werewolf.world/examples/0.1/client2server/night-vote.jsonld](http://werewolf.world/examples/0.1/client2server/night-vote.jsonld)|
+|scroll|[http://werewolf.world/examples/0.1/client2server/scroll.jsonld](http://werewolf.world/examples/0.1/client2server/scroll.jsonld)|
 |error|[http://werewolf.world/examples/0.1/client2server/error.jsonld](http://werewolf.world/examples/0.1/client2server/error.jsonld)|
 
 ### board
@@ -72,6 +73,10 @@
 ### day-vote
 
 * "Vote" to "Collect votes" in Day Vote Phase
+
+### scroll
+
+* 
 
 ### night-vote
 
