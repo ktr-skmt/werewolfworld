@@ -23,6 +23,8 @@
 			"@id": "w3:timestamp",
 			"@type": "xsd:dateTime"
 		},
-		"directionality": "w3:directionality"
+		"directionality": "w3:directionality",
+		"intensionalDisclosureRange": "w3:intensionalDisclosureRange",
+		"extensionalDisclosureRange": "w3:extensionalDisclosureRange"
 	}
 }
