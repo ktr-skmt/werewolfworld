@@ -1,7 +1,10 @@
 {
 	"@context":	{
 		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"villageId": "http://werewolf.world/resource/0.1/villageId",
+		"villageId": {
+			"@id": "http://werewolf.world/resource/0.1/villageId",
+			"@type": "xsd:integer"
+		},
 		"villageName": "http://werewolf.world/resource/0.1/villageName",
 		"token": "http://werewolf.world/resource/0.1/token",
 		"phase": "http://werewolf.world/resource/0.1/phase",
