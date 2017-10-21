@@ -71,6 +71,13 @@ See [http://werewolf.world/contexts/0.1/](http://werewolf.world/contexts/0.1/)
 |http://werewolf.world/resource/0.1/clientTimestamp|xsd:dateTime|such as '2006-10-07T12:06:56.568+09:00'|
 |http://werewolf.world/resource/0.1/directionality||'server to client' or 'client to server'|
 
+## error
+|IRI|Type|Values|
+---|---|---
+|http://werewolf.world/resource/0.1/errorContent|||
+|http://werewolf.world/resource/0.1/severity||'error', 'warning'|
+|http://werewolf.world/resource/0.1/source||(JSON-LD)|
+
 ## agent
 
 |IRI|Type|Values|
