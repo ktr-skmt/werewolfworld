@@ -25,6 +25,9 @@
 		},
 		"directionality": "w3:directionality",
 		"intensionalDisclosureRange": "w3:intensionalDisclosureRange",
-		"extensionalDisclosureRange": "w3:extensionalDisclosureRange"
+		"extensionalDisclosureRange": {
+			"@id": "w3:extensionalDisclosureRange",
+			"@type": "xsd:integer"
+		}
 	}
 }
