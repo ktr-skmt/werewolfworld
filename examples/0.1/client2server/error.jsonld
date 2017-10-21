@@ -1,10 +1,10 @@
 {
 	"@context": [
 		"http://werewolf.world/contexts/0.1/base.jsonld",
-		"http://werewolf.world/contexts/0.1/board.jsonld"
+		"http://werewolf.world/contexts/0.1/error.jsonld"
 	],
 
-	"@id": "http://werewolf.world/resource/0.1/boardMessage",
+	"@id": "http://werewolf.world/resource/0.1/errorMessage",
 
 	"villageId": 3,
 	"villageName": "横国の森の奥にある時代に取り残された小さな村",
@@ -17,7 +17,7 @@
 	"clientTimestamp": "2006-10-07T12:06:56.568+09:00",
 	"directionality": "client to server",
 
-	"boardAgentId": 4,
-	"boardRole": "http://werewolf.world/resource/0.1/madman",
-	"boardPrediction": "X"
+	"content": "Timeout: ignored",
+	"severity": "error",
+	"source": "{\"token\": \"eFVr3O93oLhmnE8OqTMl5VSVGIV\"}"
 }

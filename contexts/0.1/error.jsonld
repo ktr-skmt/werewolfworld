@@ -1,0 +1,7 @@
+{
+	"@context":	{
+		"content": "http://werewolf.world/resource/0.1/errorContent",
+		"severity": "http://werewolf.world/resource/0.1/severity"
+		"source": "http://werewolf.world/resource/0.1/source"
+	}
+}

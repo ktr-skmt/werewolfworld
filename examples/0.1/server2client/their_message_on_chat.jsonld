@@ -6,11 +6,16 @@
 
 	"@id": "http://werewolf.world/resource/0.1/playerMessage",
 
+	"villageId": 3,
+	"villageName": "横国の森の奥にある時代に取り残された小さな村",
 	"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
-	"phase": "1 day conversation",
+	"phase": "day conversation",
+	"date": 1,
 	"phaseTimeLimit": "10m",
 	"phaseStartTime": "2006-10-07T12:06:56.568+09:00",
-	"timestamp": "2006-10-07T12:06:56.568+09:00",
+	"serverTimestamp": "2006-10-07T12:06:56.568+09:00",
+	"clientTimestamp": "2006-10-07T12:06:56.568+09:00",
+	"directionality": "server to client",
 
 	"chatIsMine": false,
 	"chatAgentId": 1,
