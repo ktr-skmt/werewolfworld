@@ -49,7 +49,9 @@ See [http://werewolf.world/contexts/0.1/](http://werewolf.world/contexts/0.1/)
 |IRI|Purpose|
 ---|---
 |http://werewolf.world/resource/0.1/boardMessage|Send a prediction board update to server|
+|http://werewolf.world/resource/0.1/errorMessage|Send/Receive an error message to/from server|
 |http://werewolf.world/resource/0.1/playerMessage|Send/receive a chat message to/from server|
+|http://werewolf.world/resource/0.1/scrollMessage|Send a scroll information to server|
 |http://werewolf.world/resource/0.1/systemMessage|Receive a system message from server|
 |http://werewolf.world/resource/0.1/voteMessage|Send a vote to server|
 
