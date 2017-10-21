@@ -1,4 +1,6 @@
 
+# Examples
+
 ## Entity list
 
 |Entity list|JSON-LD|
@@ -51,6 +53,10 @@
 
 * "Start post mortem phase" to "Display"
 
+### error
+
+* "Server error" to "Output a log" and "Show an error message"
+
 ## Client-to-server message examples
 
 |Example|JSON-LD|
@@ -76,10 +82,12 @@
 
 ### scroll
 
-* 
+* "Scroll" to "Output a log"
 
 ### night-vote
 
 * "Vote" to "Collect votes" in Night Phase
 
+### error
 
+* "Client error" to "Output a log" and "Show an error message"
