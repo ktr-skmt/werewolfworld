@@ -80,13 +80,13 @@
 
 * "Vote" to "Collect votes" in Day Vote Phase
 
-### scroll
-
-* "Scroll" to "Output a log"
-
 ### night-vote
 
 * "Vote" to "Collect votes" in Night Phase
+
+### scroll
+
+* "Scroll" to "Output a log"
 
 ### error
 
