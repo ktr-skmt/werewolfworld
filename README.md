@@ -40,6 +40,7 @@ See [http://werewolf.world/examples/0.1/](http://werewolf.world/examples/0.1/)
 |board|[http://werewolf.world/contexts/0.1/board.jsonld](http://werewolf.world/contexts/0.1/board.jsonld)|
 |chat|[http://werewolf.world/contexts/0.1/chat.jsonld](http://werewolf.world/contexts/0.1/chat.jsonld)|
 |vote|[http://werewolf.world/contexts/0.1/vote.jsonld](http://werewolf.world/contexts/0.1/vote.jsonld)|
+|scroll|[http://werewolf.world/contexts/0.1/scroll.jsonld](http://werewolf.world/contexts/0.1/scroll.jsonld)|
 
 See [http://werewolf.world/contexts/0.1/](http://werewolf.world/contexts/0.1/)
 
@@ -133,3 +134,12 @@ See [http://werewolf.world/image/0.1/#role](http://werewolf.world/image/0.1/#rol
 |http://werewolf.world/resource/0.1/result||'win', 'lose'|
 |http://werewolf.world/resource/0.1/userName||5 <= {# of Unicode code points} <= 15|
 |http://werewolf.world/resource/0.1/userAvatar||(URL)|
+
+## scroll
+
+|IRI|Type|Values|
+---|---|---
+|http://werewolf.world/resource/0.1/nodeId|||
+|http://werewolf.world/resource/0.1/scrollTop|xsd:integer||
+|http://werewolf.world/resource/0.1/scrollHeight|xsd:integer||
+|http://werewolf.world/resource/0.1/offsetHeight|xsd:integer||
