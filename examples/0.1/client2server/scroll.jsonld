@@ -1,10 +1,10 @@
 {
 	"@context": [
 		"http://werewolf.world/contexts/0.1/base.jsonld",
-		"http://werewolf.world/contexts/0.1/error.jsonld"
+		"http://werewolf.world/contexts/0.1/scroll.jsonld"
 	],
 
-	"@id": "http://werewolf.world/resource/0.1/errorMessage",
+	"@id": "http://werewolf.world/resource/0.1/scrollMessage",
 
 	"villageId": 3,
 	"villageName": "横国の森の奥にある時代に取り残された小さな村",
