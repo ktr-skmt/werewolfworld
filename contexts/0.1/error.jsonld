@@ -1,7 +1,10 @@
 {
 	"@context":	{
 		"w3": "http://werewolf.world/resource/0.1/",
-		"content": "w3:errorContent",
+		"content": {
+			"@id": "w3:errorContent",
+			"@container": "@language"
+		},
 		"severity": "w3:severity"
 		"source": "w3:source"
 	}
