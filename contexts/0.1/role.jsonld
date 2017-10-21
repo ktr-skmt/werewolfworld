@@ -28,8 +28,8 @@
 				"@type": "xsd:integer"
 			},
 			"boardPhase": "w3:phase",
-			"boardDay": {
-				"@id": "w3:boardDay",
+			"boardDate": {
+				"@id": "w3:date",
 				"@type": "xsd:integer"
 			}
 		}
