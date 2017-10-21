@@ -55,7 +55,7 @@
 
 ### error
 
-* "Server error" to "Output a log" and "Show an error message"
+* ("Server error" to "Output a log" and "Show an error message")
 
 ## Client-to-server message examples
 
@@ -90,4 +90,4 @@
 
 ### error
 
-* "Client error" to "Output a log" and "Show an error message"
+* ("Client error" to "Output a log" and "Show an error message")
