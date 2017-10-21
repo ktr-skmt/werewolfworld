@@ -34,7 +34,7 @@ See [http://werewolf.world/examples/0.1/](http://werewolf.world/examples/0.1/)
 |Contexts|JSON-LD|
 ---|---
 |base|[http://werewolf.world/contexts/0.1/base.jsonld](http://werewolf.world/contexts/0.1/base.jsonld)|
-|error|[http://werewolf.world/contexts/0.1/error.jsonld](http://werewolf.world/contexts/0.1/error.jsonld]|
+|error|[http://werewolf.world/contexts/0.1/error.jsonld](http://werewolf.world/contexts/0.1/error.jsonld)|
 |agent|[http://werewolf.world/contexts/0.1/agent.jsonld](http://werewolf.world/contexts/0.1/agent.jsonld)|
 |role|[http://werewolf.world/contexts/0.1/role.jsonld](http://werewolf.world/contexts/0.1/role.jsonld)|
 |board|[http://werewolf.world/contexts/0.1/board.jsonld](http://werewolf.world/contexts/0.1/board.jsonld)|
