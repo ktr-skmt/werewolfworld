@@ -42,8 +42,6 @@ See [http://werewolf.world/examples/0.1/](http://werewolf.world/examples/0.1/)
 |vote|[http://werewolf.world/contexts/0.1/vote.jsonld](http://werewolf.world/contexts/0.1/vote.jsonld)|
 |scroll|[http://werewolf.world/contexts/0.1/scroll.jsonld](http://werewolf.world/contexts/0.1/scroll.jsonld)|
 
-See [http://werewolf.world/contexts/0.1/](http://werewolf.world/contexts/0.1/)
-
 # IRIs
 
 ## message
