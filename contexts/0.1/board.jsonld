@@ -1,11 +1,12 @@
 {
 	"@context": {
 		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"w3": "http://werewolf.world/resource/0.1/",
 		"boardAgentId": {
-			"@id": "http://werewolf.world/resource/0.1/agentId",
+			"@id": "w3:agentId",
 			"@type": "xsd:integer"
 		},
-		"boardRole": "http://werewolf.world/resource/0.1/role",
-		"boardPrediction": "http://werewolf.world/resource/0.1/boardPrediction"
+		"boardRole": "w3:role",
+		"boardPrediction": "w3:boardPrediction"
 	}
 }
