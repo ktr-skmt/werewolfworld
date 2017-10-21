@@ -73,6 +73,8 @@ See [http://werewolf.world/examples/0.1/](http://werewolf.world/examples/0.1/)
 |http://werewolf.world/resource/0.1/serverTimestamp|xsd:dateTime|such as '2006-10-07T12:06:56.568+09:00'|
 |http://werewolf.world/resource/0.1/clientTimestamp|xsd:dateTime|such as '2006-10-07T12:06:56.568+09:00'|
 |http://werewolf.world/resource/0.1/directionality||'server to client' or 'client to server'|
+|http://werewolf.world/resource/0.1/channel||'public', 'private', 'werewolf', 'master', 'grave'|
+
 
 ## error
 
@@ -127,7 +129,6 @@ See [http://werewolf.world/image/0.1/#role](http://werewolf.world/image/0.1/#rol
 |http://werewolf.world/resource/0.1/chatText||string such as 0 <= {# of Unicode code points} <= {chatCharacterLimit}|
 |http://werewolf.world/resource/0.1/chatCharacterLimit|xsd:integer|1 <= {# of Unicode code points}|
 |http://werewolf.world/resource/0.1/chatLanguage||'en', 'ja', etc. ([java.util.Locale.toString](https://docs.oracle.com/javase/9/docs/api/java/util/Locale.html#toString--))|
-|http://werewolf.world/resource/0.1/chatChannel||'public', 'private', 'werewolf', 'master', 'grave'|
 |http://werewolf.world/resource/0.1/chatIsOver|xsd:boolean|true, false|
 
 ## result
