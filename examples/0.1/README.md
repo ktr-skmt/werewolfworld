@@ -16,7 +16,7 @@
 
 |Example|JSON-LD|
 ---|---
-|first_day|[http://werewolf.world/examples/0.1/server2client/first-day.jsonld](http://werewolf.world/examples/0.1/server2client/first-day.jsonld)|
+|first-day|[http://werewolf.world/examples/0.1/server2client/first-day.jsonld](http://werewolf.world/examples/0.1/server2client/first-day.jsonld)|
 |my-message-on-chat|[http://werewolf.world/examples/0.1/server2client/my-message-on-chat.jsonld](http://werewolf.world/examples/0.1/server2client/my-message-on-chat.jsonld)|
 |their-message-on-chat|[http://werewolf.world/examples/0.1/server2client/their-message-on-chat.jsonld](http://werewolf.world/examples/0.1/server2client/their-message-on-chat.jsonld)|
 |vote|[http://werewolf.world/examples/0.1/server2client/vote.jsonld](http://werewolf.world/examples/0.1/server2client/vote.jsonld)|
