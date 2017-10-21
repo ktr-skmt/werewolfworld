@@ -27,7 +27,11 @@
 				"@id": "w3:agentId",
 				"@type": "xsd:integer"
 			},
-			"boardPhase": "w3:phase"
+			"boardPhase": "w3:phase",
+			"boardDay": {
+				"@id": "w3:boardDay",
+				"@type": "xsd:integer"
+			}
 		}
 	}
 }
