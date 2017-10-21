@@ -21,6 +21,7 @@
 |night|[http://werewolf.world/examples/0.1/server2client/night.jsonld](http://werewolf.world/examples/0.1/server2client/night.jsonld)|
 |results|[http://werewolf.world/examples/0.1/server2client/results.jsonld](http://werewolf.world/examples/0.1/server2client/results.jsonld)|
 |post-mortem|[http://werewolf.world/examples/0.1/server2client/post-mortem.jsonld](http://werewolf.world/examples/0.1/server2client/post-mortem.jsonld)|
+|error|[http://werewolf.world/examples/0.1/server2client/error.jsonld](http://werewolf.world/examples/0.1/server2client/error.jsonld)|
 
 ### first-day
 
@@ -58,6 +59,7 @@
 |chat|[http://werewolf.world/examples/0.1/client2server/chat.jsonld](http://werewolf.world/examples/0.1/client2server/chat.jsonld)|
 |day-vote|[http://werewolf.world/examples/0.1/client2server/day-vote.jsonld](http://werewolf.world/examples/0.1/client2server/day-vote.jsonld)|
 |night-vote|[http://werewolf.world/examples/0.1/client2server/night-vote.jsonld](http://werewolf.world/examples/0.1/client2server/night-vote.jsonld)|
+|error|[http://werewolf.world/examples/0.1/client2server/error.jsonld](http://werewolf.world/examples/0.1/client2server/error.jsonld)|
 
 ### board
 
