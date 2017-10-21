@@ -1,0 +1,19 @@
+{
+	"@context":	{
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"w3": "http://werewolf.world/resource/0.1/",
+		"nodeId": "w3:nodeId",
+		"scrollTop": {
+			"@id": "w3:scrollTop",
+			"@type": "xsd:integer"
+		}
+		"scrollHeight": {
+			"@id": "w3:scrollHeight",
+			"@type": "xsd:integer"
+		}
+		"offsetHeight": {
+			"@id": "w3:offsetHeight",
+			"@type": "xsd:integer"
+		}
+	}
+}
