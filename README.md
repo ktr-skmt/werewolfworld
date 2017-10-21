@@ -71,6 +71,7 @@ See [http://werewolf.world/examples/0.1/](http://werewolf.world/examples/0.1/)
 |http://werewolf.world/resource/0.1/directionality||'server to client' or 'client to server'|
 
 ## error
+
 |IRI|Type|Values|
 ---|---|---
 |http://werewolf.world/resource/0.1/errorContent|||
