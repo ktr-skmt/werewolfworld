@@ -22,15 +22,15 @@
 |results|[http://werewolf.world/examples/0.1/server2client/results.jsonld](http://werewolf.world/examples/0.1/server2client/results.jsonld)|
 |postMortem|[http://werewolf.world/examples/0.1/server2client/post-mortem.jsonld](http://werewolf.world/examples/0.1/server2client/post-mortem.jsonld)|
 
-### first_day
+### first-day
 
 * "Start day conversation phase" to "Display" and "Move to grave"
 
-### my_message_on_chat
+### my-message-on-chat
 
 * "Broadcast a chat message" to "Display a chat message"
 
-### their_message_on_chat
+### their-message-on-chat
 
 * "Broadcast a chat message" to "Display a chat message"
 
@@ -46,7 +46,7 @@
 
 * "Send results" to "Display results in a modal"
 
-### postMortem
+### post-mortem
 
 * "Start post mortem phase" to "Display"
 
@@ -67,11 +67,11 @@
 
 * "Send a chat message" to "Receive a chat message" in both Day Conversation Phase or Post Mortem Phase
 
-### day_vote
+### day-vote
 
 * "Vote" to "Collect votes" in Day Vote Phase
 
-### night_vote
+### night-vote
 
 * "Vote" to "Collect votes" in Night Phase
 
