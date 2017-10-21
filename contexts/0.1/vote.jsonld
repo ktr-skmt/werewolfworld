@@ -1,10 +1,11 @@
 {
 	"@context": {
 		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"w3": "http://werewolf.world/resource/0.1/",
 		"vote": {
-			"@id": "http://werewolf.world/resource/0.1/agentId",
+			"@id": "w3:agentId",
 			"@type": "xsd:interger"
 		},
-		"role": "http://werewolf.world/resource/0.1/role"
+		"role": "w3:role"
 	}
 }
