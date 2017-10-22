@@ -73,7 +73,7 @@ See [http://werewolf.world/examples/0.1/](http://werewolf.world/examples/0.1/)
 |http://werewolf.world/resource/0.1/serverTimestamp|xsd:dateTime|such as '2006-10-07T12:06:56.568+09:00'|
 |http://werewolf.world/resource/0.1/clientTimestamp|xsd:dateTime|such as '2006-10-07T12:06:56.568+09:00'|
 |http://werewolf.world/resource/0.1/directionality||'server to client' or 'client to server'|
-|http://werewolf.world/resource/0.1/channel||'public', 'private', 'werewolf', 'master', 'grave'|
+|http://werewolf.world/resource/0.1/channel||'public', 'private', 'werewolf', 'master', 'grave', 'onymousAudience', 'anonymousAudience'|
 
 
 ## error
