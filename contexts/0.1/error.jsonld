@@ -5,7 +5,7 @@
 			"@id": "w3:errorContent",
 			"@container": "@language"
 		},
-		"severity": "w3:severity"
+		"severity": "w3:severity",
 		"source": "w3:source"
 	}
 }
