@@ -10,7 +10,7 @@
 
 ## System outline
 
-![system outline](http://werewolf.world/diagram/werewolf_system_outline.png)
+![system outline](http://werewolf.world/diagram/0.1/werewolf_system_outline.png)
 
 ## Server-to-client message examples
 
