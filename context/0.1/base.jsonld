@@ -9,7 +9,10 @@
 		"villageName": "w3:villageName",
 		"token": "w3:token",
 		"phase": "w3:phase",
-		"date": "w3:date",
+		"date": {
+			"@id": "w3:date",
+			"@type": "xsd:integer"
+		},
 		"phaseTimeLimit": "w3:phaseTimeLimit",
 		"phaseStartTime": {
 			"@id": "w3:phaseStartTime",
