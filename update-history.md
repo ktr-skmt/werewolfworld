@@ -1,3 +1,5 @@
+["@homepage": "http://werewolf.world"](http://werewolf.world)
+
 # Template
 
 # Version 0.x
