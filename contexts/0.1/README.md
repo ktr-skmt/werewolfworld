@@ -1,3 +1,5 @@
+["@homepage": "http://werewolf.world"](http://werewolf.world)
+
 # Contexts
 
 |Contexts|JSON-LD|
