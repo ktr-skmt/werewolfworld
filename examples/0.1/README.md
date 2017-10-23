@@ -1,3 +1,4 @@
+["@homepage": "http://werewolf.world"](http://werewolf.world)
 
 # Examples
 
