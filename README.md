@@ -1,5 +1,5 @@
-# werewolfworld
-werewolf.world protocol based on JSON-LD
+# werewolf.world
+a JSON-LD based protocol for a game of Werewolf
 
 ## Repository
 
