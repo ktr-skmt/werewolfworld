@@ -43,3 +43,7 @@ See [http://werewolf.world/contexts/0.1/](http://werewolf.world/contexts/0.1/)
   - Client-to-server message examples
 
 See [http://werewolf.world/examples/0.1/](http://werewolf.world/examples/0.1/)
+
+# License
+
+TBA
