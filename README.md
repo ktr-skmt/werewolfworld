@@ -17,6 +17,8 @@ Our plan is to release the protocol 0.1 (wild) at 3 November. Until then, no ver
 
 No release yet
 
+See [http://wereworld.world/update-history](http://wereworld.world/update-history)
+
 # Format specification
 
 ## Serialization format
