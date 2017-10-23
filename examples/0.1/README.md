@@ -1,5 +1,7 @@
 ["@homepage": "http://werewolf.world"](http://werewolf.world)
 
+"version": "0.1"
+
 # Examples
 
 ## Entity list
