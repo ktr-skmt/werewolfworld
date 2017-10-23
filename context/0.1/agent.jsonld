@@ -26,7 +26,10 @@
 		},
 		"status": "w3:agentStatus",
 		"statusUpdatePhase": "w3:phase",
-		"statusUpdateDate": "w3:date",
+		"statusUpdateDate": {
+			"@id": "w3:date",
+			"@type": "xsd:integer"
+		},
 		"result": "w3:result",
 		"userName": "w3:userName",
 		"userAvatar": "w3:userAvatar"
