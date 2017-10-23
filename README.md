@@ -11,11 +11,12 @@ werewolf.world protocol based on JSON-LD
 
 ## Version
 
-0.1
+Our plan is to release the protocol 0.1 (wild) at 3 November. Until then, no version is available.
 
 ## Serialization format
 
 JSON-LD 1.1
+
 [https://json-ld.org/spec/latest/json-ld/](https://json-ld.org/spec/latest/json-ld/)
 
 ## Encoding
