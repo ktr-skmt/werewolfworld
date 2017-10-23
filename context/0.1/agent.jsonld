@@ -25,6 +25,8 @@
 			"roleImage": "w3:roleImage"
 		},
 		"status": "w3:agentStatus",
+		"statusUpdatePhase": "w3:phase",
+		"statusUpdateDate": "w3:date",
 		"result": "w3:result",
 		"userName": "w3:userName",
 		"userAvatar": "w3:userAvatar"
