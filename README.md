@@ -33,7 +33,7 @@ UTF-8 (without Byte Order Mark)
 
 ## Contexts and IRIs
 
-See [http://werewolf.world/contexts/0.1/](http://werewolf.world/contexts/0.1/)
+See [http://werewolf.world/context/0.1/](http://werewolf.world/context/0.1/)
 
 # Examples
 
@@ -44,7 +44,7 @@ See [http://werewolf.world/contexts/0.1/](http://werewolf.world/contexts/0.1/)
   - Server-to-client message examples
   - Client-to-server message examples
 
-See [http://werewolf.world/examples/0.1/](http://werewolf.world/examples/0.1/)
+See [http://werewolf.world/example/0.1/](http://werewolf.world/example/0.1/)
 
 # License
 

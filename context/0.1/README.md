@@ -6,14 +6,14 @@
 
 |Contexts|JSON-LD|
 ---|---
-|base|[http://werewolf.world/contexts/0.1/base.jsonld](http://werewolf.world/contexts/0.1/base.jsonld)|
-|error|[http://werewolf.world/contexts/0.1/error.jsonld](http://werewolf.world/contexts/0.1/error.jsonld)|
-|agent|[http://werewolf.world/contexts/0.1/agent.jsonld](http://werewolf.world/contexts/0.1/agent.jsonld)|
-|role|[http://werewolf.world/contexts/0.1/role.jsonld](http://werewolf.world/contexts/0.1/role.jsonld)|
-|board|[http://werewolf.world/contexts/0.1/board.jsonld](http://werewolf.world/contexts/0.1/board.jsonld)|
-|chat|[http://werewolf.world/contexts/0.1/chat.jsonld](http://werewolf.world/contexts/0.1/chat.jsonld)|
-|vote|[http://werewolf.world/contexts/0.1/vote.jsonld](http://werewolf.world/contexts/0.1/vote.jsonld)|
-|scroll|[http://werewolf.world/contexts/0.1/scroll.jsonld](http://werewolf.world/contexts/0.1/scroll.jsonld)|
+|base|[http://werewolf.world/context/0.1/base.jsonld](http://werewolf.world/context/0.1/base.jsonld)|
+|error|[http://werewolf.world/context/0.1/error.jsonld](http://werewolf.world/context/0.1/error.jsonld)|
+|agent|[http://werewolf.world/context/0.1/agent.jsonld](http://werewolf.world/context/0.1/agent.jsonld)|
+|role|[http://werewolf.world/context/0.1/role.jsonld](http://werewolf.world/context/0.1/role.jsonld)|
+|board|[http://werewolf.world/context/0.1/board.jsonld](http://werewolf.world/context/0.1/board.jsonld)|
+|chat|[http://werewolf.world/context/0.1/chat.jsonld](http://werewolf.world/context/0.1/chat.jsonld)|
+|vote|[http://werewolf.world/context/0.1/vote.jsonld](http://werewolf.world/context/0.1/vote.jsonld)|
+|scroll|[http://werewolf.world/context/0.1/scroll.jsonld](http://werewolf.world/context/0.1/scroll.jsonld)|
 
 # IRIs
 
