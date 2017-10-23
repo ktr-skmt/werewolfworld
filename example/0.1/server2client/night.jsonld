@@ -30,7 +30,7 @@
 			"image": "http://werewolf.world/image/0.1/Gert.jpg",
 			"id": 0,
 			"status": "dead",
-			"statusUpdatePhase": "night",
+			"statusUpdatePhase": "day vote",
 			"statusUpdateDate": 1
 		},
 		{
