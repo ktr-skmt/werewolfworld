@@ -1,7 +1,7 @@
 {
 	"@context": [
-		"http://werewolf.world/contexts/0.1/base.jsonld",
-		"http://werewolf.world/contexts/0.1/vote.jsonld"
+		"http://werewolf.world/context/0.1/base.jsonld",
+		"http://werewolf.world/context/0.1/vote.jsonld"
 	],
 
 	"@id": "http://werewolf.world/resource/0.1/voteMessage",

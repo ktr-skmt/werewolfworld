@@ -1,8 +1,8 @@
 {
 	"@context": [
-		"http://werewolf.world/contexts/0.1/base.jsonld",
-		"http://werewolf.world/contexts/0.1/agent.jsonld",
-		"http://werewolf.world/contexts/0.1/role.jsonld"
+		"http://werewolf.world/context/0.1/base.jsonld",
+		"http://werewolf.world/context/0.1/agent.jsonld",
+		"http://werewolf.world/context/0.1/role.jsonld"
 	],
 	"@id": "http://werewolf.world/resource/0.1/systemMessage",
 
