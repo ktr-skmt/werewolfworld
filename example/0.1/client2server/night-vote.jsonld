@@ -19,6 +19,6 @@
 	"intensionalDisclosureRange": "werewolf",
 	"extensionalDisclosureRange": [],
 
-	"vote": 3,
+	"agentIdToLynch": 3,
 	"role": "http://werewolf.world/resource/0.1/werewolf"
 }

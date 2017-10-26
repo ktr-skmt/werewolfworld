@@ -2,7 +2,7 @@
 	"@context": {
 		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"w3": "http://werewolf.world/resource/0.1/",
-		"vote": {
+		"agentIdToLynch": {
 			"@id": "w3:agentId",
 			"@type": "xsd:interger"
 		},

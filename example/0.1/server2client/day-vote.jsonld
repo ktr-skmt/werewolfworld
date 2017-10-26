@@ -19,6 +19,9 @@
 	"intensionalDisclosureRange": "private",
 	"extensionalDisclosureRange": [],
 
+	"votingResultsSummary": [],
+	"votingResultsDetails": [],
+
 	"agent": [
 		{
 			"@id": "http://werewolf.world/resource/0.1/Gert",

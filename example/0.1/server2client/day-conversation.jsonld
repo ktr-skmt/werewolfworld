@@ -2,25 +2,50 @@
 	"@context": [
 		"http://werewolf.world/context/0.1/base.jsonld",
 		"http://werewolf.world/context/0.1/agent.jsonld",
-		"http://werewolf.world/context/0.1/role.jsonld"
+		"http://werewolf.world/context/0.1/role.jsonld",
+		"http://werewolf.world/context/0.1/votingResults.jsonld"
 	],
 	"@id": "http://werewolf.world/resource/0.1/systemMessage",
 
 	"villageId": 3,
 	"villageName": "横国の森の奥にある時代に取り残された小さな村",
 	"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
-	"phase": "post mortem",
-	"date": 0,
-	"phaseTimeLimit": "24h",
+	"phase": "day conversation",
+	"date": 1,
+	"phaseTimeLimit": "10m",
 	"phaseStartTime": "2006-10-07T12:06:56.568+09:00",
 	"serverTimestamp": "2006-10-07T12:06:56.568+09:00",
 	"clientTimestamp": "2006-10-07T12:06:56.568+09:00",
 	"directionality": "server to client",
-	"intensionalDisclosureRange": "public",
+	"intensionalDisclosureRange": "private",
 	"extensionalDisclosureRange": [],
 
-	"votingResultsSummary": [],
-	"votingResultsDetails": [],
+	"votingResultsSummary": [
+		{
+			"@id": "http://werewolf.world/resource/0.1/votingResultsSummary",
+			"agentIdToLynch": 1,
+			"numberOfVotes": 3,
+			"rankOfVotes": 1
+		},
+		{
+			"@id": "http://werewolf.world/resource/0.1/votingResultsSummary",
+			"agentIdToLynch": 2,
+			"numberOfVotes": 1,
+			"rankOfVotes": 2
+		}
+	],
+	"votingResultsDetails": [
+		{
+			"@id": "http://werewolf.world/resource/0.1/votingResultsDetails",
+			"sourceAgentId": 1,
+			"targetAgentId": 2
+		},
+		{
+			"@id": "http://werewolf.world/resource/0.1/votingResultsDetails",
+			"sourceAgentId": 2,
+			"targetAgentId": 1
+		}
+	],
 
 	"agent": [
 		{
@@ -32,8 +57,8 @@
 			},
 			"image": "http://werewolf.world/image/0.1/Gert.jpg",
 			"id": 0,
-			"status": "dead",
-			"statusUpdatePhase": "day vote",
+			"status": "alive",
+			"statusUpdatePhase": "day conversation",
 			"statusUpdateDate": 1
 		},
 		{
@@ -136,8 +161,8 @@
 			},
 			"image": "http://werewolf.world/image/0.1/Lisa.jpg",
 			"id": 8,
-			"status": "dead",
-			"statusUpdatePhase": "night",
+			"status": "alive",
+			"statusUpdatePhase": "day conversation",
 			"statusUpdateDate": 1
 		},
 		{
