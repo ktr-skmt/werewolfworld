@@ -19,28 +19,25 @@
 
 |Example|JSON-LD|
 ---|---
-|first-day|[http://werewolf.world/example/0.1/server2client/first-day.jsonld](http://werewolf.world/example/0.1/server2client/first-day.jsonld)|
-|my-message-on-chat|[http://werewolf.world/example/0.1/server2client/my-message-on-chat.jsonld](http://werewolf.world/example/0.1/server2client/my-message-on-chat.jsonld)|
-|their-message-on-chat|[http://werewolf.world/example/0.1/server2client/their-message-on-chat.jsonld](http://werewolf.world/example/0.1/server2client/their-message-on-chat.jsonld)|
-|vote|[http://werewolf.world/example/0.1/server2client/vote.jsonld](http://werewolf.world/example/0.1/server2client/vote.jsonld)|
+|first-day-conversation|[http://werewolf.world/example/0.1/server2client/first-day-conversation.jsonld](http://werewolf.world/example/0.1/server2client/first-day-conversation.jsonld)|
+|day-conversation|[http://werewolf.world/example/0.1/server2client/day-conversation.jsonld](http://werewolf.world/example/0.1/server2client/day-conversation.jsonld)|
+|day-vote|[http://werewolf.world/example/0.1/server2client/day-vote.jsonld](http://werewolf.world/example/0.1/server2client/day-vote.jsonld)|
 |night|[http://werewolf.world/example/0.1/server2client/night.jsonld](http://werewolf.world/example/0.1/server2client/night.jsonld)|
 |results|[http://werewolf.world/example/0.1/server2client/results.jsonld](http://werewolf.world/example/0.1/server2client/results.jsonld)|
 |post-mortem|[http://werewolf.world/example/0.1/server2client/post-mortem.jsonld](http://werewolf.world/example/0.1/server2client/post-mortem.jsonld)|
+|my-message-on-chat|[http://werewolf.world/example/0.1/server2client/my-message-on-chat.jsonld](http://werewolf.world/example/0.1/server2client/my-message-on-chat.jsonld)|
+|their-message-on-chat|[http://werewolf.world/example/0.1/server2client/their-message-on-chat.jsonld](http://werewolf.world/example/0.1/server2client/their-message-on-chat.jsonld)|
 |error|[http://werewolf.world/example/0.1/server2client/error.jsonld](http://werewolf.world/example/0.1/server2client/error.jsonld)|
 
-### first-day
+### first-day-conversation
 
 * "Start day conversation phase" to "Display" and "Move to grave"
 
-### my-message-on-chat
+### day-conversation
 
-* "Broadcast a chat message" to "Display a chat message"
+* "Start day conversation phase" to "Display" and "Move to grave"
 
-### their-message-on-chat
-
-* "Broadcast a chat message" to "Display a chat message"
-
-### vote
+### day-vote
 
 * "Start day vote phase" to "Display" and "Move to grave"
 
@@ -55,6 +52,14 @@
 ### post-mortem
 
 * "Start post mortem phase" to "Display"
+
+### my-message-on-chat
+
+* "Broadcast a chat message" to "Display a chat message"
+
+### their-message-on-chat
+
+* "Broadcast a chat message" to "Display a chat message"
 
 ### error
 
