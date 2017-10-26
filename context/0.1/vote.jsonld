@@ -6,6 +6,9 @@
 			"@id": "w3:agentId",
 			"@type": "xsd:interger"
 		},
-		"role": "w3:role"
+		"role": {
+			"@id": "w3:role",
+			"@type": "@id"
+		}
 	}
 }
