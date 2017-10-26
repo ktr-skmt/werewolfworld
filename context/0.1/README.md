@@ -13,6 +13,7 @@
 |board|[http://werewolf.world/context/0.1/board.jsonld](http://werewolf.world/context/0.1/board.jsonld)|
 |chat|[http://werewolf.world/context/0.1/chat.jsonld](http://werewolf.world/context/0.1/chat.jsonld)|
 |vote|[http://werewolf.world/context/0.1/vote.jsonld](http://werewolf.world/context/0.1/vote.jsonld)|
+|votingResults|[http://werewolf.world/context/0.1/votingResults.jsonld](http://werewolf.world/context/0.1/votingResults.jsonld)|
 |scroll|[http://werewolf.world/context/0.1/scroll.jsonld](http://werewolf.world/context/0.1/scroll.jsonld)|
 
 # IRIs
@@ -99,6 +100,14 @@ See [http://werewolf.world/image/0.1/#role](http://werewolf.world/image/0.1/#rol
 |http://werewolf.world/resource/0.1/chatCharacterLimit|xsd:integer|1 <= {# of Unicode code points}|
 |http://werewolf.world/resource/0.1/chatLanguage||'en', 'ja', etc. ([java.util.Locale.toString](https://docs.oracle.com/javase/9/docs/api/java/util/Locale.html#toString--))|
 |http://werewolf.world/resource/0.1/chatIsOver|xsd:boolean|true, false|
+
+## votingResults
+|IRI|Type|Values|
+---|---|---
+|http://werewolf.world/resource/0.1/votingResultsSummary|||
+|http://werewolf.world/resource/0.1/numberOfVotes|xsd:integer|0 <=, <= {number of alive agents except a master}|
+|http://werewolf.world/resource/0.1/rankOfVotes|xsd:integer|1 <=, 1 is the highest. "1224" ranking.|
+|http://werewolf.world/resource/0.1/votingResultsDetails|||
 
 ## result
 
