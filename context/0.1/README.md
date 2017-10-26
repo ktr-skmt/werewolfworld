@@ -102,6 +102,7 @@ See [http://werewolf.world/image/0.1/#role](http://werewolf.world/image/0.1/#rol
 |http://werewolf.world/resource/0.1/chatIsOver|xsd:boolean|true, false|
 
 ## votingResults
+
 |IRI|Type|Values|
 ---|---|---
 |http://werewolf.world/resource/0.1/votingResultsSummary|||
