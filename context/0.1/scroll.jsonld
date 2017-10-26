@@ -6,11 +6,11 @@
 		"scrollTop": {
 			"@id": "w3:scrollTop",
 			"@type": "xsd:integer"
-		}
+		},
 		"scrollHeight": {
 			"@id": "w3:scrollHeight",
 			"@type": "xsd:integer"
-		}
+		},
 		"offsetHeight": {
 			"@id": "w3:offsetHeight",
 			"@type": "xsd:integer"
