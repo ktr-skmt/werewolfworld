@@ -7,6 +7,10 @@
 			"@type": "xsd:integer"
 		},
 		"villageName": "w3:villageName",
+		"totalNumberOfAgents": {
+			"@id": "w3:totalNumberOfAgents",
+			"@type": "xsd:integer"
+		},
 		"token": "w3:token",
 		"phase": "w3:phase",
 		"date": {
