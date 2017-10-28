@@ -8,6 +8,7 @@
 		},
 		"chatAgent": {
 			"@id": "w3:agent",
+			"@type": "@id",
 			"chatAgentId": {
 				"@id": "w3:agentId",
 				"@type": "xsd:integer"
