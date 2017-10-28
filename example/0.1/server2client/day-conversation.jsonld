@@ -23,13 +23,11 @@
 
 	"votingResultsSummary": [
 		{
-			"@id": "https://werewolf.world/resource/0.1/votingResultsSummary",
 			"agentIdToLynch": 1,
 			"numberOfVotes": 3,
 			"rankOfVotes": 1
 		},
 		{
-			"@id": "https://werewolf.world/resource/0.1/votingResultsSummary",
 			"agentIdToLynch": 2,
 			"numberOfVotes": 1,
 			"rankOfVotes": 2
@@ -37,12 +35,10 @@
 	],
 	"votingResultsDetails": [
 		{
-			"@id": "https://werewolf.world/resource/0.1/votingResultsDetails",
 			"sourceAgentId": 1,
 			"targetAgentId": 2
 		},
 		{
-			"@id": "https://werewolf.world/resource/0.1/votingResultsDetails",
 			"sourceAgentId": 2,
 			"targetAgentId": 1
 		}
