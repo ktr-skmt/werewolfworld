@@ -28,6 +28,9 @@
 |my-message-on-chat|[https://werewolf.world/example/0.1/server2client/my-message-on-chat.jsonld](https://werewolf.world/example/0.1/server2client/my-message-on-chat.jsonld)|
 |their-message-on-chat|[https://werewolf.world/example/0.1/server2client/their-message-on-chat.jsonld](https://werewolf.world/example/0.1/server2client/their-message-on-chat.jsonld)|
 |error|[https://werewolf.world/example/0.1/server2client/error.jsonld](https://werewolf.world/example/0.1/server2client/error.jsonld)|
+|onymous-audience-chat|[https://werewolf.world/example/0.1/server2client/onymous-audience-chat.jsonld](https://werewolf.world/example/0.1/server2client/onymous-audience-chat.jsonld)|
+|anonymous-audience-chat|[https://werewolf.world/example/0.1/server2client/anonymous-audience-chat.jsonld](https://werewolf.world/example/0.1/server2client/anonymous-audience-chat.jsonld)|
+
 
 ### first-day-conversation
 
@@ -75,6 +78,10 @@
 |night-vote|[https://werewolf.world/example/0.1/client2server/night-vote.jsonld](https://werewolf.world/example/0.1/client2server/night-vote.jsonld)|
 |scroll|[https://werewolf.world/example/0.1/client2server/scroll.jsonld](https://werewolf.world/example/0.1/client2server/scroll.jsonld)|
 |error|[https://werewolf.world/example/0.1/client2server/error.jsonld](https://werewolf.world/example/0.1/client2server/error.jsonld)|
+|onymous-audience-board|[https://werewolf.world/example/0.1/client2server/anonymous-audience-board.jsonld](https://werewolf.world/example/0.1/client2server/anonymous-audience-board.jsonld)|
+|onymous-audience-chat|[https://werewolf.world/example/0.1/client2server/onymous-audience-chat.jsonld](https://werewolf.world/example/0.1/client2server/onymous-audience-chat.jsonld)|
+|onymous-audience-scroll|[https://werewolf.world/example/0.1/client2server/onymous-audience-scroll.jsonld](https://werewolf.world/example/0.1/client2server/onymous-audience-scroll.jsonld)|
+|anonymous-audience-chat|[https://werewolf.world/example/0.1/client2server/anonymous-audience-chat.jsonld](https://werewolf.world/example/0.1/client2server/anonymous-audience-chat.jsonld)|
 
 ### board
 
@@ -110,4 +117,5 @@ Server has to fill concrete values with an extensionalDisclosureRange key in eac
 |night-vote-for-log|filled|[https://werewolf.world/example/0.1/server2logger/night-vote-for-log.jsonld](https://werewolf.world/example/0.1/server2logger/night-vote-for-log.jsonld)|
 |my-message-on-chat|blank|[https://werewolf.world/example/0.1/server2client/my-message-on-chat.jsonld](https://werewolf.world/example/0.1/server2client/my-message-on-chat.jsonld)|
 |my-message-on-chat-for-log|filled|[https://werewolf.world/example/0.1/server2logger/my-message-on-chat-for-log.jsonld](https://werewolf.world/example/0.1/server2logger/my-message-on-chat-for-log.jsonld)|
+
 
