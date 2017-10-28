@@ -312,7 +312,15 @@
 			"numberOfAgents": 6,
 			"board": [
 				{
-					"boardAgentId": 1,
+					"boardAgent": {
+						"@id": "https://werewolf.world/resource/0.1/Walter",
+						"boardAgentId": 1,
+						"boardAgentName": {
+							"en": "Walter",
+							"ja": "ヴァルター"
+						},
+						"boardAgentImage": "https://werewolf.world/image/0.1/Walter.jpg"
+					},
 					"boardPolarity": "negative",
 					"boardPhase": "day conversation",
 					"boardDate": 1
@@ -330,7 +338,15 @@
 			"numberOfAgents": 1,
 			"board": [
 				{
-					"boardAgentId": 1,
+					"boardAgent": {
+						"@id": "https://werewolf.world/resource/0.1/Walter",
+						"boardAgentId": 1,
+						"boardAgentName": {
+							"en": "Walter",
+							"ja": "ヴァルター"
+						},
+						"boardAgentImage": "https://werewolf.world/image/0.1/Walter.jpg"
+					},
 					"boardPolarity": "positive",
 					"boardPhase": "day conversation",
 					"boardDate": 1
@@ -348,7 +364,15 @@
 			"numberOfAgents": 1,
 			"board": [
 				{
-					"boardAgentId": 1,
+					"boardAgent": {
+						"@id": "https://werewolf.world/resource/0.1/Walter",
+						"boardAgentId": 1,
+						"boardAgentName": {
+							"en": "Walter",
+							"ja": "ヴァルター"
+						},
+						"boardAgentImage": "https://werewolf.world/image/0.1/Walter.jpg"
+					},
 					"boardPolarity": "negative",
 					"boardPhase": "day conversation",
 					"boardDate": 1
@@ -366,7 +390,15 @@
 			"numberOfAgents": 1,
 			"board": [
 				{
-					"boardAgentId": 1,
+					"boardAgent": {
+						"@id": "https://werewolf.world/resource/0.1/Walter",
+						"boardAgentId": 1,
+						"boardAgentName": {
+							"en": "Walter",
+							"ja": "ヴァルター"
+						},
+						"boardAgentImage": "https://werewolf.world/image/0.1/Walter.jpg"
+					},
 					"boardPolarity": "negative",
 					"boardPhase": "day conversation",
 					"boardDate": 1
@@ -384,7 +416,15 @@
 			"numberOfAgents": 2,
 			"board": [
 				{
-					"boardAgentId": 1,
+					"boardAgent": {
+						"@id": "https://werewolf.world/resource/0.1/Walter",
+						"boardAgentId": 1,
+						"boardAgentName": {
+							"en": "Walter",
+							"ja": "ヴァルター"
+						},
+						"boardAgentImage": "https://werewolf.world/image/0.1/Walter.jpg"
+					},
 					"boardPolarity": "negative",
 					"boardPhase": "day conversation",
 					"boardDate": 1
@@ -402,7 +442,15 @@
 			"numberOfAgents": 1,
 			"board": [
 				{
-					"boardAgentId": 1,
+					"boardAgent": {
+						"@id": "https://werewolf.world/resource/0.1/Walter",
+						"boardAgentId": 1,
+						"boardAgentName": {
+							"en": "Walter",
+							"ja": "ヴァルター"
+						},
+						"boardAgentImage": "https://werewolf.world/image/0.1/Walter.jpg"
+					},
 					"boardPolarity": "negative",
 					"boardPhase": "day conversation",
 					"boardDate": 1
@@ -420,7 +468,15 @@
 			"numberOfAgents": 2,
 			"board": [
 				{
-					"boardAgentId": 1,
+					"boardAgent": {
+						"@id": "https://werewolf.world/resource/0.1/Walter",
+						"boardAgentId": 1,
+						"boardAgentName": {
+							"en": "Walter",
+							"ja": "ヴァルター"
+						},
+						"boardAgentImage": "https://werewolf.world/image/0.1/Walter.jpg"
+					},
 					"boardPolarity": "negative",
 					"boardPhase": "day conversation",
 					"boardDate": 1
@@ -438,7 +494,15 @@
 			"numberOfAgents": 1,
 			"board": [
 				{
-					"boardAgentId": 1,
+					"boardAgent": {
+						"@id": "https://werewolf.world/resource/0.1/Walter",
+						"boardAgentId": 1,
+						"boardAgentName": {
+							"en": "Walter",
+							"ja": "ヴァルター"
+						},
+						"boardAgentImage": "https://werewolf.world/image/0.1/Walter.jpg"
+					},
 					"boardPolarity": "negative",
 					"boardPhase": "day conversation",
 					"boardDate": 1
