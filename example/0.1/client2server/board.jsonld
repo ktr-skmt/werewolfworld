@@ -19,8 +19,23 @@
 	"directionality": "client to server",
 	"intensionalDisclosureRange": "private",
 	"extensionalDisclosureRange": [],
-
-	"boardAgentId": 4,
-	"boardRole": "https://werewolf.world/resource/0.1/madman",
+	
+	"boardAgent": {
+		"@id": "https://werewolf.world/resource/0.1/Thomas",
+		"boardAgentId": 4,
+		"boardAgentName": {
+			"en": "Thomas",
+			"ja": "トーマス"
+		},
+		"boardAgentImage": "https://werewolf.world/image/0.1/Thomas.jpg"
+	}
+	"boardRole": {
+		"@id": "https://werewolf.world/resource/0.1/madman",
+		"boardRoleName": {
+			"en": "Madman",
+			"ja": "狂人"
+		},
+		"boardRoleImage": "https://werewolf.world/image/0.1/madman.jpg"
+	}
 	"boardPrediction": "X"
 }
