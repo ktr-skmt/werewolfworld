@@ -109,7 +109,7 @@
 
 ## Server-to-logger message examples
 
-Server has to fill concrete values with an extensionalDisclosureRange key in each JSON-LD message before logging it. Also, the server has to fille concrete values with both userName key and userAvatar key in each client2server JSON-LD message before logging the it.
+Server has to fill concrete values with an extensionalDisclosureRange key in each JSON-LD message before logging it. Also, the server has to fille concrete values with both userName key and userAvatar key in each client2server JSON-LD message before logging it.
 
 |Example|Directionality|Values|JSON-LD|
 ---|---|---|---
