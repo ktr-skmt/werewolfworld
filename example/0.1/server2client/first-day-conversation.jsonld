@@ -1,11 +1,11 @@
 {
 	"@context": [
-		"http://werewolf.world/context/0.1/base.jsonld",
-		"http://werewolf.world/context/0.1/agent.jsonld",
-		"http://werewolf.world/context/0.1/role.jsonld",
-		"http://werewolf.world/context/0.1/votingResults.jsonld"
+		"https://werewolf.world/context/0.1/base.jsonld",
+		"https://werewolf.world/context/0.1/agent.jsonld",
+		"https://werewolf.world/context/0.1/role.jsonld",
+		"https://werewolf.world/context/0.1/votingResults.jsonld"
 	],
-	"@id": "http://werewolf.world/resource/0.1/systemMessage",
+	"@id": "https://werewolf.world/resource/0.1/systemMessage",
 
 	"villageId": 3,
 	"villageName": "横国の森の奥にある時代に取り残された小さな村",
@@ -25,195 +25,195 @@
 
 	"agent": [
 		{
-			"@id": "http://werewolf.world/resource/0.1/Gert",
+			"@id": "https://werewolf.world/resource/0.1/Gert",
 			"agentIsMine": false,
 			"name": {
 				"en": "Gert",
 				"ja": "ゲルト"
 			},
-			"image": "http://werewolf.world/image/0.1/Gert.jpg",
+			"image": "https://werewolf.world/image/0.1/Gert.jpg",
 			"id": 0,
 			"status": "alive",
 			"statusUpdatePhase": "day conversation",
 			"statusUpdateDate": 1
 		},
 		{
-			"@id": "http://werewolf.world/resource/0.1/Walter",
+			"@id": "https://werewolf.world/resource/0.1/Walter",
 			"agentIsMine": true,
 			"name": {
 				"en": "Walter",
 				"ja": "ヴァルター"
 			},
-			"image": "http://werewolf.world/image/0.1/Walter.jpg",
+			"image": "https://werewolf.world/image/0.1/Walter.jpg",
 			"id": 1,
 			"status": "alive",
 			"statusUpdatePhase": "day conversation",
 			"statusUpdateDate": 1
 		},
 		{
-			"@id": "http://werewolf.world/resource/0.1/Moritz",
+			"@id": "https://werewolf.world/resource/0.1/Moritz",
 			"agentIsMine": false,
 			"name": {
 				"en": "Moritz",
 				"ja": "モーリッツ"
 			},
-			"image": "http://werewolf.world/image/0.1/Moritz.jpg",
+			"image": "https://werewolf.world/image/0.1/Moritz.jpg",
 			"id": 2,
 			"status": "alive",
 			"statusUpdatePhase": "day conversation",
 			"statusUpdateDate": 1
 		},
 		{
-			"@id": "http://werewolf.world/resource/0.1/Simson",
+			"@id": "https://werewolf.world/resource/0.1/Simson",
 			"agentIsMine": false,
 			"name": {
 				"en": "Simson",
 				"ja": "ジムゾン"
 			},
-			"image": "http://werewolf.world/image/0.1/Simson.jpg",
+			"image": "https://werewolf.world/image/0.1/Simson.jpg",
 			"id": 3,
 			"status": "alive",
 			"statusUpdatePhase": "day conversation",
 			"statusUpdateDate": 1
 		},
 		{
-			"@id": "http://werewolf.world/resource/0.1/Thomas",
+			"@id": "https://werewolf.world/resource/0.1/Thomas",
 			"agentIsMine": false,
 			"name": {
 				"en": "Thomas",
 				"ja": "トーマス"
 			},
-			"image": "http://werewolf.world/image/0.1/Thomas.jpg",
+			"image": "https://werewolf.world/image/0.1/Thomas.jpg",
 			"id": 4,
 			"status": "alive",
 			"statusUpdatePhase": "day conversation",
 			"statusUpdateDate": 1
 		},
 		{
-			"@id": "http://werewolf.world/resource/0.1/Nicholas",
+			"@id": "https://werewolf.world/resource/0.1/Nicholas",
 			"agentIsMine": false,
 			"name": {
 				"en": "Nicholas",
 				"ja": "ニコラス"
 			},
-			"image": "http://werewolf.world/image/0.1/Nicholas.jpg",
+			"image": "https://werewolf.world/image/0.1/Nicholas.jpg",
 			"id": 5,
 			"status": "alive",
 			"statusUpdatePhase": "day conversation",
 			"statusUpdateDate": 1
 		},
 		{
-			"@id": "http://werewolf.world/resource/0.1/Dieter",
+			"@id": "https://werewolf.world/resource/0.1/Dieter",
 			"agentIsMine": false,
 			"name": {
 				"en": "Dieter",
 				"ja": "ディーター"
 			},
-			"image": "http://werewolf.world/image/0.1/Dieter.jpg",
+			"image": "https://werewolf.world/image/0.1/Dieter.jpg",
 			"id": 6,
 			"status": "alive",
 			"statusUpdatePhase": "day conversation",
 			"statusUpdateDate": 1
 		},
 		{
-			"@id": "http://werewolf.world/resource/0.1/Peter",
+			"@id": "https://werewolf.world/resource/0.1/Peter",
 			"agentIsMine": false,
 			"name": {
 				"en": "Peter",
 				"ja": "ペーター"
 			},
-			"image": "http://werewolf.world/image/0.1/Peter.jpg",
+			"image": "https://werewolf.world/image/0.1/Peter.jpg",
 			"id": 7,
 			"status": "alive",
 			"statusUpdatePhase": "day conversation",
 			"statusUpdateDate": 1
 		},
 		{
-			"@id": "http://werewolf.world/resource/0.1/Lisa",
+			"@id": "https://werewolf.world/resource/0.1/Lisa",
 			"agentIsMine": false,
 			"name": {
 				"en": "Lisa",
 				"ja": "リーザ"
 			},
-			"image": "http://werewolf.world/image/0.1/Lisa.jpg",
+			"image": "https://werewolf.world/image/0.1/Lisa.jpg",
 			"id": 8,
 			"status": "alive",
 			"statusUpdatePhase": "day conversation",
 			"statusUpdateDate": 1
 		},
 		{
-			"@id": "http://werewolf.world/resource/0.1/Alvin",
+			"@id": "https://werewolf.world/resource/0.1/Alvin",
 			"agentIsMine": false,
 			"name": {
 				"en": "Alvin",
 				"ja": "アルビン"
 			},
-			"image": "http://werewolf.world/image/0.1/Alvin.jpg",
+			"image": "https://werewolf.world/image/0.1/Alvin.jpg",
 			"id": 9,
 			"status": "alive",
 			"statusUpdatePhase": "day conversation",
 			"statusUpdateDate": 1
 		},
 		{
-			"@id": "http://werewolf.world/resource/0.1/Catalina",
+			"@id": "https://werewolf.world/resource/0.1/Catalina",
 			"agentIsMine": false,
 			"name": {
 				"en": "Catalina",
 				"ja": "カタリナ"
 			},
-			"image": "http://werewolf.world/image/0.1/Catalina.jpg",
+			"image": "https://werewolf.world/image/0.1/Catalina.jpg",
 			"id": 10,
 			"status": "alive",
 			"statusUpdatePhase": "day conversation",
 			"statusUpdateDate": 1
 		},
 		{
-			"@id": "http://werewolf.world/resource/0.1/Otto",
+			"@id": "https://werewolf.world/resource/0.1/Otto",
 			"agentIsMine": false,
 			"name": {
 				"en": "Otto",
 				"ja": "オットー"
 			},
-			"image": "http://werewolf.world/image/0.1/Otto.jpg",
+			"image": "https://werewolf.world/image/0.1/Otto.jpg",
 			"id": 11,
 			"status": "alive",
 			"statusUpdatePhase": "day conversation",
 			"statusUpdateDate": 1
 		},
 		{
-			"@id": "http://werewolf.world/resource/0.1/Joachim",
+			"@id": "https://werewolf.world/resource/0.1/Joachim",
 			"agentIsMine": false,
 			"name": {
 				"en": "Joachim",
 				"ja": "ヨアヒム"
 			},
-			"image": "http://werewolf.world/image/0.1/Joachim.jpg",
+			"image": "https://werewolf.world/image/0.1/Joachim.jpg",
 			"id": 12,
 			"status": "alive",
 			"statusUpdatePhase": "day conversation",
 			"statusUpdateDate": 1
 		},
 		{
-			"@id": "http://werewolf.world/resource/0.1/Pamela",
+			"@id": "https://werewolf.world/resource/0.1/Pamela",
 			"agentIsMine": false,
 			"name": {
 				"en": "Pamela",
 				"ja": "パメラ"
 			},
-			"image": "http://werewolf.world/image/0.1/Pamela.jpg",
+			"image": "https://werewolf.world/image/0.1/Pamela.jpg",
 			"id": 13,
 			"status": "alive",
 			"statusUpdatePhase": "day conversation",
 			"statusUpdateDate": 1
 		},
 		{
-			"@id": "http://werewolf.world/resource/0.1/Jacob",
+			"@id": "https://werewolf.world/resource/0.1/Jacob",
 			"agentIsMine": false,
 			"name": {
 				"en": "Jacob",
 				"ja": "ヤコブ"
 			},
-			"image": "http://werewolf.world/image/0.1/Jacob.jpg",
+			"image": "https://werewolf.world/image/0.1/Jacob.jpg",
 			"id": 14,
 			"status": "alive",
 			"statusUpdatePhase": "day conversation",
@@ -223,24 +223,24 @@
 
 	"role": [
 		{
-			"@id": "http://werewolf.world/resource/0.1/master",
+			"@id": "https://werewolf.world/resource/0.1/master",
 			"roleIsMine": false,
 			"name": {
 				"en": "Master",
 				"ja": "マスター"
 			},
-			"image": "http://werewolf.world/image/0.1/master.jpg",
+			"image": "https://werewolf.world/image/0.1/master.jpg",
 			"number": 1,
 			"board": []
 		},
 		{
-			"@id": "http://wereworld.world/resource/0.1/villager",
+			"@id": "https://wereworld.world/resource/0.1/villager",
 			"roleIsMine": false,
 			"name": {
 				"en": "Villager",
 				"ja": "村人"
 			},
-			"image": "http://werewolf.world/image/0.1/villager.jpg",
+			"image": "https://werewolf.world/image/0.1/villager.jpg",
 			"number": 6,
 			"board": [
 				{
@@ -252,13 +252,13 @@
 			]
 		},
 		{
-			"@id": "http://werewolf.world/resource/0.1/seer",
+			"@id": "https://werewolf.world/resource/0.1/seer",
 			"roleIsMine": true,
 			"name": {
 				"en": "Seer",
 				"ja": "占い師"
 			},
-			"image": "http://werewolf.world/image/0.1/seer.jpg",
+			"image": "https://werewolf.world/image/0.1/seer.jpg",
 			"number": 1,
 			"board": [
 				{
@@ -270,13 +270,13 @@
 			]
 		},
 		{
-			"@id": "http://werewolf.world/resource/0.1/medium",
+			"@id": "https://werewolf.world/resource/0.1/medium",
 			"roleIsMine": false,
 			"name": {
 				"en": "Medium",
 				"ja": "霊媒師"
 			},
-			"image": "http://werewolf.world/image/0.1/medium.jpg",
+			"image": "https://werewolf.world/image/0.1/medium.jpg",
 			"number": 1,
 			"board": [
 				{
@@ -288,13 +288,13 @@
 			]
 		},
 		{
-			"@id": "http://wereworld.world/resource/0.1/hunter",
+			"@id": "https://wereworld.world/resource/0.1/hunter",
 			"roleIsMine": false,
 			"name": {
 				"en": "Hunter",
 				"ja": "狩人"
 			},
-			"image": "http://werewolf.world/image/0.1/hunter.jpg",
+			"image": "https://werewolf.world/image/0.1/hunter.jpg",
 			"number": 1,
 			"board": [
 				{
@@ -306,13 +306,13 @@
 			]
 		},
 		{
-			"@id": "http://wereworld.world/resource/0.1/mason",
+			"@id": "https://wereworld.world/resource/0.1/mason",
 			"roleIsMine": false,
 			"name": {
 				"en": "Mason",
 				"ja": "共有者"
 			},
-			"image": "http://werewolf.world/image/0.1/mason.jpg",
+			"image": "https://werewolf.world/image/0.1/mason.jpg",
 			"number": 2,
 			"board": [
 				{
@@ -324,13 +324,13 @@
 			]
 		},
 		{
-			"@id": "http://wereworld.world/resource/0.1/madman",
+			"@id": "https://wereworld.world/resource/0.1/madman",
 			"roleIsMine": false,
 			"name": {
 				"en": "Madman",
 				"ja": "狂人"
 			},
-			"image": "http://werewolf.world/image/0.1/madman.jpg",
+			"image": "https://werewolf.world/image/0.1/madman.jpg",
 			"number": 1,
 			"board": [
 				{
@@ -342,13 +342,13 @@
 			]
 		},
 		{
-			"@id": "http://wereworld.world/resource/0.1/werewolf",
+			"@id": "https://wereworld.world/resource/0.1/werewolf",
 			"roleIsMine": false,
 			"name": {
 				"en": "Werewolf",
 				"ja": "人狼"
 			},
-			"image": "http://werewolf.world/image/0.1/werewolf.jpg",
+			"image": "https://werewolf.world/image/0.1/werewolf.jpg",
 			"number": 2,
 			"board": [
 				{
@@ -360,13 +360,13 @@
 			]
 		},
 		{
-			"@id": "http://wereworld.world/resource/0.1/werehumster",
+			"@id": "https://wereworld.world/resource/0.1/werehumster",
 			"roleIsMine": false,
 			"name": {
 				"en": "Werehumster",
 				"ja": "ハムスター人間"
 			},
-			"image": "http://werewolf.world/image/0.1/werehumster.jpg",
+			"image": "https://werewolf.world/image/0.1/werehumster.jpg",
 			"number": 1,
 			"board": [
 				{
