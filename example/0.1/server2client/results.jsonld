@@ -315,13 +315,13 @@
 			"userAvatar": "https://werewolf.world/image/0.1/Otto.jpg"
 		},
 		{
-			"@id": "https://werewolf.world/resource/0.1/",
+			"@id": "https://werewolf.world/resource/0.1/Pamela",
 			"agentIsMine": false,
 			"name": {
 				"en": "Pamela",
 				"ja": "パメラ"
 			},
-			"image": "https://werewolf.world/image/0.1/.jpg",
+			"image": "https://werewolf.world/image/0.1/Pamela.jpg",
 			"id": 13,
 			"role": {
 				"@id": "https://werewolf.world/resource/0.1/villager",
@@ -337,13 +337,13 @@
 			"userAvatar": "https://werewolf.world/image/0.1/Joachim.jpg"
 		},
 		{
-			"@id": "https://werewolf.world/resource/0.1/",
+			"@id": "https://werewolf.world/resource/0.1/Jacob",
 			"agentIsMine": false,
 			"name": {
 				"en": "Jacob",
 				"ja": "ヤコブ"
 			},
-			"image": "https://werewolf.world/image/0.1/.jpg",
+			"image": "https://werewolf.world/image/0.1/Jacob.jpg",
 			"id": 14,
 			"role": {
 				"@id": "https://werewolf.world/resource/0.1/villager",
