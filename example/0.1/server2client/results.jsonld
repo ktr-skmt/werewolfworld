@@ -70,10 +70,7 @@
 			"status": "alive",
 			"result": "win",
 			"userName": "Suzuki",
-			"userAvatar": {
-				"@id": "https://werewolf.world/image/0.1/Gert.jpg",
-				"@type": "@id"
-			}
+			"userAvatar": "https://werewolf.world/image/0.1/Gert.jpg"
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Moritz",
@@ -95,10 +92,7 @@
 			"status": "alive",
 			"result": "lose",
 			"userName": "Takahashi",
-			"userAvatar": {
-				"@id": "https://werewolf.world/image/0.1/Alvin.jpg",
-				"@type": "@id"
-			}
+			"userAvatar": "https://werewolf.world/image/0.1/Alvin.jpg"
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Simson",
@@ -120,10 +114,7 @@
 			"status": "alive",
 			"result": "win",
 			"userName": "Tanaka",
-			"userAvatar": {
-				"@id": "https://werewolf.world/image/0.1/Friedel.jpg",
-				"@type": "@id"
-			}
+			"userAvatar": "https://werewolf.world/image/0.1/Friedel.jpg"
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Thomas",
@@ -145,10 +136,7 @@
 			"status": "alive",
 			"result": "win",
 			"userName": "Ito",
-			"userAvatar": {
-				"@id": "https://werewolf.world/image/0.1/Dieter.jpg",
-				"@type": "@id"
-			}
+			"userAvatar": "https://werewolf.world/image/0.1/Dieter.jpg"
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Nicholas",
@@ -170,10 +158,7 @@
 			"status": "death by fear",
 			"result": "lose",
 			"userName": "Watanabe",
-			"userAvatar": {
-				"@id": "https://werewolf.world/image/0.1/Erna.jpg",
-				"@type": "@id"
-			}
+			"userAvatar": "https://werewolf.world/image/0.1/Erna.jpg"
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Dieter",
@@ -195,10 +180,7 @@
 			"status": "death by execution",
 			"result": "lose",
 			"userName": "Yamamoto",
-			"userAvatar": {
-				"@id": "https://werewolf.world/image/0.1/Jacob.jpg",
-				"@type": "@id"
-			}
+			"userAvatar": "https://werewolf.world/image/0.1/Jacob.jpg"
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Peter",
@@ -220,10 +202,7 @@
 			"status": "unnatural death",
 			"result": "lose",
 			"userName": "Nakamura",
-			"userAvatar": {
-				"@id": "https://werewolf.world/image/0.1/Nicholas.jpg",
-				"@type": "@id"
-			}
+			"userAvatar": "https://werewolf.world/image/0.1/Nicholas.jpg"
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Lisa",
@@ -245,10 +224,7 @@
 			"status": "unnatural death",
 			"result": "win",
 			"userName": "Kobayashi",
-			"userAvatar": {
-				"@id": "https://werewolf.world/image/0.1/Peter.jpg",
-				"@type": "@id"
-			}
+			"userAvatar": "https://werewolf.world/image/0.1/Peter.jpg"
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Alvin",
@@ -270,10 +246,7 @@
 			"status": "unnatural death",
 			"result": "win",
 			"userName": "Yoshida",
-			"userAvatar": {
-				"@id": "https://werewolf.world/image/0.1/Peter.jpg",
-				"@type": "@id"
-			}
+			"userAvatar": "https://werewolf.world/image/0.1/Peter.jpg"
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Catalina",
@@ -295,10 +268,7 @@
 			"status": "unnatural death",
 			"result": "win",
 			"userName": "Yamada",
-			"userAvatar": {
-				"@id": "https://werewolf.world/image/0.1/Simon.jpg",
-				"@type": "@id"
-			}
+			"userAvatar": "https://werewolf.world/image/0.1/Simon.jpg"
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Otto",
@@ -320,10 +290,7 @@
 			"status": "unnatural death",
 			"result": "win",
 			"userName": "Sasaki",
-			"userAvatar": {
-				"@id": "https://werewolf.world/image/0.1/Simson.jpg",
-				"@type": "@id"
-			}
+			"userAvatar": "https://werewolf.world/image/0.1/Simson.jpg"
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Joachim",
@@ -345,10 +312,7 @@
 			"status": "death by werewolf attack",
 			"result": "win",
 			"userName": "山口",
-			"userAvatar": {
-				"@id": "https://werewolf.world/image/0.1/Otto.jpg",
-				"@type": "@id"
-			}
+			"userAvatar": "https://werewolf.world/image/0.1/Otto.jpg"
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/",
@@ -370,10 +334,7 @@
 			"status": "alive",
 			"result": "win",
 			"userName": "松本",
-			"userAvatar": {
-				"@id": "https://werewolf.world/image/0.1/Joachim.jpg",
-				"@type": "@id"
-			}
+			"userAvatar": "https://werewolf.world/image/0.1/Joachim.jpg"
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/",
@@ -395,10 +356,7 @@
 			"status": "alive",
 			"result": "win",
 			"userName": "井上",
-			"userAvatar": {
-				"@id": "https://werewolf.world/image/0.1/Catalina.jpg",
-				"@type": "@id"
-			}
+			"userAvatar": "https://werewolf.world/image/0.1/Catalina.jpg"
 		}
 	],
 
