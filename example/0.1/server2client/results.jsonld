@@ -370,7 +370,7 @@
 			},
 			"image": "https://werewolf.world/image/0.1/master.jpg",
 			"numberOfAgents": 1,
-			"agentId": []
+			"agent": []
 		},
 		{
 			"@id": "https://wereworld.world/resource/0.1/villager",
@@ -381,7 +381,61 @@
 			},
 			"image": "https://werewolf.world/image/0.1/villager.jpg",
 			"numberOfAgents": 6,
-			"agentId": [0,8,9,12,13,14]
+			"agent": [
+				{
+					"@id": "https://werewolf.world/resource/0.1/Gert",
+					"agentId": 0,
+					"agentName": {
+						"en": "Gert",
+						"ja": "ゲルト"
+					},
+					"agentImage": "https://werewolf.world/image/0.1/Gert.jpg"
+				},
+				{
+					"@id": "https://werewolf.world/resource/0.1/Lisa",
+					"agentId": 8,
+					"agentName": {
+						"en": "Lisa",
+						"ja": "リーザ"
+					},
+					"agentImage": "https://werewolf.world/image/0.1/Lisa.jpg"
+				},
+				{
+					"@id": "https://werewolf.world/resource/0.1/Alvin",
+					"agentId": 9,
+					"agentName": {
+						"en": "Alvin",
+						"ja": "アルビン"
+					},
+					"agentImage": "https://werewolf.world/image/0.1/Alvin.jpg"
+				},
+				{
+					"@id": "https://werewolf.world/resource/0.1/Joachim",
+					"agentId": 12,
+					"agentName": {
+						"en": "Joachim",
+						"ja": "ヨアヒム"
+					},
+					"agentImage": "https://werewolf.world/image/0.1/Joachim.jpg"
+				},
+				{
+					"@id": "https://werewolf.world/resource/0.1/Pamela",
+					"agentId": 13,
+					"agentName": {
+						"en": "Pamela",
+						"ja": "パメラ"
+					},
+					"agentImage": "https://werewolf.world/image/0.1/Pamela.jpg"
+				},
+				{
+					"@id": "https://werewolf.world/resource/0.1/Jacob",
+					"agentId": 14,
+					"agentName": {
+						"en": "Jacob",
+						"ja": "ヤコブ"
+					},
+					"agentImage": "https://werewolf.world/image/0.1/Jacob.jpg"
+				}
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/seer",
@@ -392,7 +446,17 @@
 			},
 			"image": "https://werewolf.world/image/0.1/seer.jpg",
 			"numberOfAgents": 1,
-			"agentId": [1]
+			"agent": [
+				{
+					"@id": "https://werewolf.world/resource/0.1/Walter",
+					"agentId": 1,
+					"agentName": {
+						"en": "Walter",
+						"ja": "ヴァルター"
+					},
+					"agentImage": "https://werewolf.world/image/0.1/Walter.jpg"
+				}
+			]
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/medium",
@@ -403,7 +467,17 @@
 			},
 			"image": "https://werewolf.world/image/0.1/medium.jpg",
 			"numberOfAgents": 1,
-			"agentId": [4]
+			"agent": [
+				{
+					"@id": "https://werewolf.world/resource/0.1/Thomas",
+					"agentId": 4,
+					"agentName": {
+						"en": "Thomas",
+						"ja": "トーマス"
+					},
+					"agentImage": "https://werewolf.world/image/0.1/Thomas.jpg"
+				}
+			]
 		},
 		{
 			"@id": "https://wereworld.world/resource/0.1/hunter",
@@ -414,7 +488,17 @@
 			},
 			"image": "https://werewolf.world/image/0.1/hunter.jpg",
 			"numberOfAgents": 1,
-			"agentId": [3]
+			"agent": [
+				{
+					"@id": "https://werewolf.world/resource/0.1/Simson",
+					"agentId": 3,
+					"agentName": {
+						"en": "Simson",
+						"ja": "ジムゾン"
+					},
+					"agentImage": "https://werewolf.world/image/0.1/Simson.jpg"
+				}
+			]
 		},
 		{
 			"@id": "https://wereworld.world/resource/0.1/mason",
@@ -425,7 +509,26 @@
 			},
 			"image": "https://werewolf.world/image/0.1/mason.jpg",
 			"numberOfAgents": 2,
-			"agentId": [10,11]
+			"agent": [
+				{
+					"@id": "https://werewolf.world/resource/0.1/Catalina",
+					"agentId": 10,
+					"agentName": {
+						"en": "Catalina",
+						"ja": "カタリナ"
+					},
+					"agentImage": "https://werewolf.world/image/0.1/Catalina.jpg"
+				},
+				{
+					"@id": "https://werewolf.world/resource/0.1/Otto",
+					"agentId": 11,
+					"agentName": {
+						"en": "Otto",
+						"ja": "オットー"
+					},
+					"agentImage": "https://werewolf.world/image/0.1/Otto.jpg"
+				}
+			]
 		},
 		{
 			"@id": "https://wereworld.world/resource/0.1/madman",
@@ -436,7 +539,17 @@
 			},
 			"image": "https://werewolf.world/image/0.1/madman.jpg",
 			"numberOfAgents": 1,
-			"agentId": [6]
+			"agentId": [
+				{
+					"@id": "https://werewolf.world/resource/0.1/Dieter",
+					"agentId": 6,
+					"agentName": {
+						"en": "Dieter",
+						"ja": "ディーター"
+					},
+					"agentImage": "https://werewolf.world/image/0.1/Dieter.jpg"
+				}
+			]
 		},
 		{
 			"@id": "https://wereworld.world/resource/0.1/werewolf",
@@ -447,7 +560,26 @@
 			},
 			"image": "https://werewolf.world/image/0.1/werewolf.jpg",
 			"numberOfAgents": 2,
-			"agentId": [2,7]
+			"agentId": [
+				{
+					"@id": "https://werewolf.world/resource/0.1/Moritz",
+					"agentId": 2,
+					"agentName": {
+						"en": "Moritz",
+						"ja": "モーリッツ"
+					},
+					"agentImage": "https://werewolf.world/image/0.1/Moritz.jpg"
+				},
+				{
+					"@id": "https://werewolf.world/resource/0.1/Peter",
+					"agentId": 7,
+					"agentName": {
+						"en": "Peter",
+						"ja": "ペーター"
+					},
+					"agentImage": "https://werewolf.world/image/0.1/Peter.jpg"
+				}
+			]
 		},
 		{
 			"@id": "https://wereworld.world/resource/0.1/werehumster",
@@ -458,7 +590,17 @@
 			},
 			"image": "https://werewolf.world/image/0.1/werehumster.jpg",
 			"numberOfAgents": 1,
-			"agentId": [5]
+			"agentId": [
+				{
+					"@id": "https://werewolf.world/resource/0.1/Nicholas",
+					"agentId": 5,
+					"agentName": {
+						"en": "Nicholas",
+						"ja": "ニコラス"
+					},
+					"agentImage": "https://werewolf.world/image/0.1/Nicholas.jpg"
+				}
+			]
 		}
 	]
 }
