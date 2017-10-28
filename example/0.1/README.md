@@ -78,7 +78,7 @@
 |night-vote|[https://werewolf.world/example/0.1/client2server/night-vote.jsonld](https://werewolf.world/example/0.1/client2server/night-vote.jsonld)|
 |scroll|[https://werewolf.world/example/0.1/client2server/scroll.jsonld](https://werewolf.world/example/0.1/client2server/scroll.jsonld)|
 |error|[https://werewolf.world/example/0.1/client2server/error.jsonld](https://werewolf.world/example/0.1/client2server/error.jsonld)|
-|onymous-audience-board|[https://werewolf.world/example/0.1/client2server/anonymous-audience-board.jsonld](https://werewolf.world/example/0.1/client2server/onymous-audience-board.jsonld)|
+|onymous-audience-board|[https://werewolf.world/example/0.1/client2server/onymous-audience-board.jsonld](https://werewolf.world/example/0.1/client2server/onymous-audience-board.jsonld)|
 |onymous-audience-chat|[https://werewolf.world/example/0.1/client2server/onymous-audience-chat.jsonld](https://werewolf.world/example/0.1/client2server/onymous-audience-chat.jsonld)|
 |onymous-audience-scroll|[https://werewolf.world/example/0.1/client2server/onymous-audience-scroll.jsonld](https://werewolf.world/example/0.1/client2server/onymous-audience-scroll.jsonld)|
 |anonymous-audience-chat|[https://werewolf.world/example/0.1/client2server/anonymous-audience-chat.jsonld](https://werewolf.world/example/0.1/client2server/anonymous-audience-chat.jsonld)|
