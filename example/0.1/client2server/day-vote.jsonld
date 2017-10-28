@@ -1,10 +1,10 @@
 {
 	"@context": [
-		"http://werewolf.world/context/0.1/base.jsonld",
-		"http://werewolf.world/context/0.1/vote.jsonld"
+		"https://werewolf.world/context/0.1/base.jsonld",
+		"https://werewolf.world/context/0.1/vote.jsonld"
 	],
 
-	"@id": "http://werewolf.world/resource/0.1/voteMessage",
+	"@id": "https://werewolf.world/resource/0.1/voteMessage",
 
 	"villageId": 3,
 	"villageName": "横国の森の奥にある時代に取り残された小さな村",
@@ -20,5 +20,5 @@
 	"extensionalDisclosureRange": [],
 
 	"agentIdToLynch": 3,
-	"role": "http://werewolf.world/resource/0.1/werewolf"
+	"role": "https://werewolf.world/resource/0.1/werewolf"
 }
