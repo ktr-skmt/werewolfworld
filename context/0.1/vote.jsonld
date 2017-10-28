@@ -4,6 +4,7 @@
 		"w3": "https://werewolf.world/resource/0.1/",
 		"votedAgent": {
 			"@id": "w3:agent",
+			"@type": "@id",
 			"votedAgentId": {
 				"@id": "w3:agentId",
 				"@type": "xsd:interger"
@@ -19,6 +20,7 @@
 		},
 		"myAgent": {
 			"@id": "w3:agent",
+			"@type": "@id",
 			"myAgentId": {
 				"@id": "w3:agentId",
 				"@type": "xsd:integer"
@@ -33,6 +35,7 @@
 			},
 			"myRole": {
 				"@id": "w3:role",
+				"@type": "@id",
 				"myRoleName": {
 					"@id": "w3:roleName",
 					"@container": "@language"
