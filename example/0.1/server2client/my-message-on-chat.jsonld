@@ -21,14 +21,14 @@
 	"extensionalDisclosureRange": [],
 
 	"chatIsMine": true,
-	"chatAgentId": 1,
-	"chatAgentName": {
-		"en": "Walter",
-		"ja": "ヴァルター"
-	},
-	"chatAgentImage": {
-		"@id": "https://werewolf.world/image/0.1/Walter.jpg",
-		"@type": "@id"
+	"chatAgent": {
+		"@id": "https://werewolf.world/resource/0.1/Walter",
+		"chatAgentId": 1,
+		"chatAgentName": {
+			"en": "Walter",
+			"ja": "ヴァルター"
+		},
+		"chatAgentImage": "https://werewolf.world/image/0.1/Walter.jpg"
 	},
 	"chatId": 12,
 	"chatCounter": 7,
