@@ -1,4 +1,4 @@
-["@homepage": "http://werewolf.world"](http://werewolf.world)
+["@homepage": "https://werewolf.world"](https://werewolf.world)
 
 # Template
 
