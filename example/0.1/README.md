@@ -111,11 +111,11 @@
 
 Server has to fill concrete values with an extensionalDisclosureRange key in each JSON-LD message before logging it. Also, the server has to fille concrete values with both userName key and userAvatar key in each client2server JSON-LD message before logging the it.
 
-|Example|extensionalDisclosureRange|JSON-LD|
----|---|---
-|night-vote|blank|[https://werewolf.world/example/0.1/client2server/night-vote.jsonld](https://werewolf.world/example/0.1/client2server/night-vote.jsonld)|
-|night-vote-for-log|filled|[https://werewolf.world/example/0.1/server2logger/night-vote-for-log.jsonld](https://werewolf.world/example/0.1/server2logger/night-vote-for-log.jsonld)|
-|my-message-on-chat|blank|[https://werewolf.world/example/0.1/server2client/my-message-on-chat.jsonld](https://werewolf.world/example/0.1/server2client/my-message-on-chat.jsonld)|
-|my-message-on-chat-for-log|filled|[https://werewolf.world/example/0.1/server2logger/my-message-on-chat-for-log.jsonld](https://werewolf.world/example/0.1/server2logger/my-message-on-chat-for-log.jsonld)|
+|Example|Values|Directionality|JSON-LD|
+---|---|---|---
+|night-vote|blank|client to server|[https://werewolf.world/example/0.1/client2server/night-vote.jsonld](https://werewolf.world/example/0.1/client2server/night-vote.jsonld)|
+|night-vote-for-log|filled|client to server|[https://werewolf.world/example/0.1/server2logger/night-vote-for-log.jsonld](https://werewolf.world/example/0.1/server2logger/night-vote-for-log.jsonld)|
+|my-message-on-chat|blank|server to client|[https://werewolf.world/example/0.1/server2client/my-message-on-chat.jsonld](https://werewolf.world/example/0.1/server2client/my-message-on-chat.jsonld)|
+|my-message-on-chat-for-log|filled|server to client|[https://werewolf.world/example/0.1/server2logger/my-message-on-chat-for-log.jsonld](https://werewolf.world/example/0.1/server2logger/my-message-on-chat-for-log.jsonld)|
 
 
