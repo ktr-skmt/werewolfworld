@@ -12,8 +12,8 @@
 			"@id": "w3:roleIsMine",
 			"@type": "xsd:boolean"
 		},
-		"number": {
-			"@id": "w3:roleNumber",
+		"numberOfAgents": {
+			"@id": "w3:numberOfAgentsWhoPlayTheRole",
 			"@type": "xsd:integer"
 		},
 		"agentId": {
