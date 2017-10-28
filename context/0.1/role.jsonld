@@ -16,9 +16,21 @@
 			"@id": "w3:numberOfAgentsWhoPlayTheRole",
 			"@type": "xsd:integer"
 		},
-		"agentId": {
-			"@id": "w3:agentId",
-			"@type": "xsd:integer"
+		"agent": {
+			"@id": "w3:agent",
+			"@type": "@id",
+			"agentId": {
+				"@id": "w3:agentId",
+				"@type": "xsd:integer"
+			},
+			"agentName": {
+				"@id": "w3:agentName",
+				"@container": "@language"
+			},
+			"agentImage": {
+				"@id": "w3:agentImage",
+				"@type": "@id"
+			}
 		},
 		"board": {
 			"@id": "w3:board",
