@@ -2,7 +2,10 @@
 	"@context": {
 		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"w3": "https://werewolf.world/resource/0.1/",
-		"role": "w3:role",
+		"role": {
+			"@id": "w3:role",
+			"@type": "@id"
+		},
 		"name": {
 			"@id": "w3:roleName",
 			"@container": "@language"
