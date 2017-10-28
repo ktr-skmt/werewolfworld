@@ -436,6 +436,7 @@
 					},
 					"agentImage": "https://werewolf.world/image/0.1/Jacob.jpg"
 				}
+			]
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/seer",
