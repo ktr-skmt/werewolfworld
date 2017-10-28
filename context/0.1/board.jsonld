@@ -4,15 +4,15 @@
 		"w3": "https://werewolf.world/resource/0.1/",
 		"boardAgent": {
 			"@id": "w3:agent",
-			"agentId": {
+			"boardAgentId": {
 				"@id": "w3:agentId",
 				"@type": "xsd:integer"
 			},
-			"agentName": {
+			"boardAgentName": {
 				"@id": "w3:agentId",
 				"@container": "@language"
 			},
-			"agentImage": {
+			"boardAgentImage": {
 				"@id": "w3:agentImage",
 				"@type": "@id"
 			}
