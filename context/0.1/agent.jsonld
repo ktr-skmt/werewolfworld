@@ -41,6 +41,9 @@
 		},
 		"result": "w3:result",
 		"userName": "w3:userName",
-		"userAvatar": "w3:userAvatar"
+		"userAvatar": {
+			"@id": "w3:userAvatar",
+			"@type": "@id"
+		}
 	}
 }
