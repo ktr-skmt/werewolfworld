@@ -5,6 +5,8 @@
 		"votingResultsSummary": {
 			"@id": "w3:votingResultsSummary",
 			"agentToLynch": {
+				"@id": "w3:agent",
+				"@type": "@id",
 				"agentId": {
 					"@id": "w3:agentId",
 					"@type": "xsd:integer"
@@ -31,6 +33,7 @@
 			"@id": "w3:votingResultsDetails",
 			"sourceAgent": {
 				"@id": "w3:agent",
+				"@type": "@id",
 				"sourceAgentId": {
 					"@id": "w3:agentId",
 					"@type": "xsd:integer"
@@ -46,6 +49,7 @@
 			},
 			"targetAgentId": {
 				"@id": "w3:agent",
+				"@type": "@id",
 				"targetAgentId": {
 					"@id": "w3:agentId",
 					"@type": "xsd:integer"
