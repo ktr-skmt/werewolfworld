@@ -36,6 +36,7 @@
 |https://werewolf.world/resource/0.1/token||(GUID)|
 |https://werewolf.world/resource/0.1/villageId|xsd:integer|0 <=|
 |https://werewolf.world/resource/0.1/villageName||5 <= {# of Unicode code points} <= 30|
+|https://werewolf.world/resource/0.1/totalNumberOfAgents|xsd:integer|4 <=|
 |https://werewolf.world/resource/0.1/phase||'day conversation', 'day vote', 'night', 'results', 'post mortem'|
 |https://werewolf.world/resource/0.1/date|xsd:integer|-1 <=, 0 when phase were post mortem, -1 when phase were results|
 |https://werewolf.world/resource/0.1/phaseTimeLimit||'none' or such as '10m', '3m'|
