@@ -1,6 +1,6 @@
 # werewolf.world
 
-<img src="image/0.1/master.jpg" alt="master" title="master"> &lt; This is a JSON-LD based protocol for a game of Werewolf. |
+<img src="image/0.1/master.jpg" alt="master" title="master"> &lt; This is a JSON-LD based protocol for a game of Werewolf. &#124;
 
 ## Repository
 
