@@ -1,10 +1,10 @@
 {
 	"@context": [
-		"http://werewolf.world/context/0.1/base.jsonld",
-		"http://werewolf.world/context/0.1/chat.jsonld"
+		"https://werewolf.world/context/0.1/base.jsonld",
+		"https://werewolf.world/context/0.1/chat.jsonld"
 	],
 
-	"@id": "http://werewolf.world/resource/0.1/playerMessage",
+	"@id": "https://werewolf.world/resource/0.1/playerMessage",
 
 	"villageId": 3,
 	"villageName": "横国の森の奥にある時代に取り残された小さな村",
@@ -26,7 +26,7 @@
 		"ja": "ヴァルター"
 	},
 	"chatAgentImage": {
-		"@id": "http://werewolf.world/image/0.1/Walter.jpg",
+		"@id": "https://werewolf.world/image/0.1/Walter.jpg",
 		"@type": "@id"
 	},
 	"chatId": 12,
