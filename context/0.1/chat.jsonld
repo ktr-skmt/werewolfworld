@@ -16,7 +16,10 @@
 				"@id": "w3:agentName",
 				"@type": "@language"
 			},
-			"chatAgentImage": "w3:agentImage"
+			"chatAgentImage": {
+				"@id": "w3:agentImage",
+				"@type": "@id"
+			}
 		},
 		"chatId": "w3:chatId",
 		"chatCounter": "w3:chatCounter",
