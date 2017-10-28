@@ -99,3 +99,15 @@
 ### error
 
 * ("Client error" in client to "Output a log" in server and "Show an error message" in client)
+
+## Server-to-logger message examples
+
+Server has to fill concrete values with an extensionalDisclosureRange key in each JSON-LD message before logging it.
+
+|Example|extensionalDisclosureRange|JSON-LD|
+---|---|---
+|night-vote|blank|[https://werewolf.world/example/0.1/client2server/night-vote.jsonld](https://werewolf.world/example/0.1/client2server/night-vote.jsonld)|
+|night-vote-for-log|filled|[https://werewolf.world/example/0.1/server2logger/night-vote-for-log.jsonld](https://werewolf.world/example/0.1/client2server/night-vote-for-log.jsonld)|
+|my-message-on-chat|blank|[https://werewolf.world/example/0.1/server2client/my-message-on-chat.jsonld](https://werewolf.world/example/0.1/server2client/my-message-on-chat.jsonld)|
+|my-message-on-chat-for-log|filled|[https://werewolf.world/example/0.1/server2logger/my-message-on-chat-for-log.jsonld](https://werewolf.world/example/0.1/server2client/my-message-on-chat-for-log.jsonld)|
+
