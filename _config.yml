@@ -3,3 +3,4 @@ description: werewolf.world is a protocol for a game of Werewolf
 theme: jekyll-theme-dinky
 show_downloads: false
 google_analytics: UA-108489922-1
+favicon: "image/favicon.ico"
