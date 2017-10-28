@@ -40,6 +40,7 @@
 			"boardPolarity": "w3:boardPolarity",
 			"boardAgent": {
 				"@id": "w3:agent",
+				"@type": "@id",
 				"boardAgentId": {
 					"@id": "w3:agentId",
 					"@type": "xsd:integer"
