@@ -19,22 +19,8 @@
 	"directionality": "client to server",
 	"intensionalDisclosureRange": "private",
 	"extensionalDisclosureRange": [],
-	"myAgent": {
-		"myAgentId": 1,
-		"myAgentName": {
-			"en": "Walter",
-			"ja": "ヴァルター"
-		},
-		"myAgentImage": "https://werewolf.world/image/0.1/Walter.jpg",
-		"myRole": {
-			"@id": "https://werewolf.world/resource/0.1/werewolf",
-			"myRoleName": {
-				"en": "Werewolf",
-				"ja": "人狼"
-			},
-			"myRoleImage": "https://werewolf.world/image/0.1/werewolf.jpg"
-		}
-	},
+	"myUserName": "加藤",
+	"myUserAvatar": "https://werewolf.world/image/0.1/Regina.jpg",
 	
 	"boardAgent": {
 		"@id": "https://werewolf.world/resource/0.1/Thomas",

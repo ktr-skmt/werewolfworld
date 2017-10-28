@@ -20,7 +20,6 @@
 	"intensionalDisclosureRange": "public",
 	"extensionalDisclosureRange": [],
 
-	"chatIsMine": false,
 	"chatAgent": {
 		"@id": "https://werewolf.world/resource/0.1/Walter",
 		"chatAgentId": 1,
@@ -30,6 +29,7 @@
 		},
 		"chatAgentImage": "https://werewolf.world/image/0.1/Walter.jpg"
 	},
+	"chatIsMine": false,
 	"chatId": 12,
 	"chatCounter": 7,
 	"chatLimit": 10,

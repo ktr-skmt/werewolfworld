@@ -16,24 +16,11 @@
 	"phaseStartTime": "2006-10-07T12:06:56.568+09:00",
 	"serverTimestamp": "2006-10-07T12:06:56.568+09:00",
 	"clientTimestamp": "2006-10-07T12:06:56.568+09:00",
-	"directionality": "server to client",
-	"intensionalDisclosureRange": "public",
+	"directionality": "client to server",
+	"intensionalDisclosureRange": "anonymousAudience",
 	"extensionalDisclosureRange": [],
-
-	"chatAgent": {
-		"@id": "https://werewolf.world/resource/0.1/Walter",
-		"chatAgentId": 1,
-		"chatAgentName": {
-			"en": "Walter",
-			"ja": "ヴァルター"
-		},
-		"chatAgentImage": "https://werewolf.world/image/0.1/Walter.jpg"
-	},
+	
 	"chatIsMine": true,
-	"chatId": 12,
-	"chatCounter": 7,
-	"chatLimit": 10,
-	"chatInterval": "5s",
 	"chatText": ">>11\nそれで、あなたは人狼が誰だと思うの？\n\n私はパメラが人狼だと思う。",
 	"chatCharacterLimit": 140,
 	"chatLanguage": "ja",

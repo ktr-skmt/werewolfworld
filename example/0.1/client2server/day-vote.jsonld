@@ -19,15 +19,6 @@
 	"directionality": "client to server",
 	"intensionalDisclosureRange": "private",
 	"extensionalDisclosureRange": [],
-
-	"votedAgent": {
-		"votedAgentId": 3,
-		"votedAgentName": {
-			"en": "Simson",
-			"ja": "ジムゾン"
-		},
-		"votedAgentImage": "https://werewolf.world/image/0.1/Simson.jpg"
-	},
 	"myAgent": {
 		"myAgentId": 1,
 		"myAgentName": {
@@ -43,5 +34,14 @@
 			},
 			"myRoleImage": "https://werewolf.world/image/0.1/werewolf.jpg"
 		}
+	},
+
+	"votedAgent": {
+		"votedAgentId": 3,
+		"votedAgentName": {
+			"en": "Simson",
+			"ja": "ジムゾン"
+		},
+		"votedAgentImage": "https://werewolf.world/image/0.1/Simson.jpg"
 	}
 }

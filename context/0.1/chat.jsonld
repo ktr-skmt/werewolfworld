@@ -22,6 +22,11 @@
 				"@type": "@id"
 			}
 		},
+		"chatUserName": "w3:userName",
+		"chatUserAvatar": {
+			"@id": "w3:userAvatar",
+			"@type": "@id"
+		},
 		"chatId": "w3:chatId",
 		"chatCounter": "w3:chatCounter",
 		"chatLimit": "w3:chatLimit",
@@ -29,6 +34,11 @@
 		"chatText": "w3:chatText",
 		"chatCharacterLimit": "w3:chatCharacterLimit",
 		"chatLanguage": "w3:chatLanguage",
-		"chatIsOver": "w3:chatIsOver"
+		"chatIsOver": "w3:chatIsOver",
+		"chatUserName": "w3:userName",
+		"chatUserAvatar": {
+			"@id": "w3:userAvatar",
+			"@type": "@id"
+		}
 	}
 }

@@ -60,6 +60,34 @@
 				}
 			},
 			"agentStatus": "w3:agentStatus"
+		},
+		"myUserName": "w3:userName",
+		"myUserAvatar": "w3:userAvatar",
+		"myAgent": {
+			"@id": "w3:agent",
+			"myAgentId": {
+				"@id": "w3:agentId",
+				"@type": "xsd:integer"
+			},
+			"myAgentName": {
+				"@id": "w3:agentName",
+				"@container": "@language"
+			},
+			"myAgentImage": {
+				"@id": "w3:agentImage",
+				"@type": "@id"
+			},
+			"myRole": {
+				"@id": "w3:role",
+				"myRoleName": {
+					"@id": "w3:roleName",
+					"@container": "@language"
+				},
+				"myRoleImage": {
+					"@id": "@w3:roleImage",
+					"@type": "@id"
+				}
+			}
 		}
 	}
 }
