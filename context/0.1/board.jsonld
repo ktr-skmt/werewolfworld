@@ -4,6 +4,7 @@
 		"w3": "https://werewolf.world/resource/0.1/",
 		"boardAgent": {
 			"@id": "w3:agent",
+			"@type": "@id",
 			"boardAgentId": {
 				"@id": "w3:agentId",
 				"@type": "xsd:integer"
@@ -17,7 +18,18 @@
 				"@type": "@id"
 			}
 		},
-		"boardRole": "w3:role",
+		"boardRole": {
+			"@id": "w3:role",
+			"@type": "@id",
+			"boardRoleName": {
+				"@id": "w3:roleName",
+				"@container": "@language"
+			},
+			"boardRoleImage": {
+				"@id": "w3:roleImage",
+				"@type": "@id"
+			}
+		},
 		"boardPrediction": "w3:boardPrediction"
 	}
 }
