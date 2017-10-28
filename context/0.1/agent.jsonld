@@ -24,6 +24,7 @@
 		},
 		"role": {
 			"@id": "w3:role",
+			"@type": "@id",
 			"roleName": {
 				"@id": "w3:roleName",
 				"@container": "@language"
