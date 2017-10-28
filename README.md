@@ -1,3 +1,5 @@
+<link rel="shortcut icon" type="image/x-icon" href="https://werewolf.world/image/favicon.ico">
+
 # werewolf.world
 a JSON-LD based protocol for a game of Werewolf
 
