@@ -2,33 +2,46 @@
 	"@context": {
 		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"w3": "https://werewolf.world/resource/0.1/",
-		"votedAgentId": {
-			"@id": "w3:agentId",
-			"@type": "xsd:interger"
+		"votedAgent": {
+			"@id": "w3:agent",
+			"votedAgentId": {
+				"@id": "w3:agentId",
+				"@type": "xsd:interger"
+			},
+			"votedAgentName": {
+				"@id": "w3:agentName",
+				"@container": "@language"
+			},
+			"votedAgentImage": {
+				"@id": "w3:agentImage",
+				"@type": "@id"
+			}
 		},
-		"votedAgentName": {
-			"@id": "w3:agentName",
-			"@container": "@language"
+		"myAgent": {
+			"@id": "w3:agent",
+			"myAgentId": {
+				"@id": "w3:agentId",
+				"@type": "xsd:integer"
+			},
+			"myAgentName": {
+				"@id": "w3:agentName",
+				"@container": "@language"
+			},
+			"myAgentImage": {
+				"@id": "w3:agentImage",
+				"@type": "@id"
+			},
+			"myRole": {
+				"@id": "w3:role",
+				"myRoleName: {
+					"@id": "w3:roleName",
+					"@container": "@language"
+				},
+				"myRoleImage": {
+					"@id": "w3:roleImage",
+					"@type": "@id"
+				}
+			}
 		},
-		"votedAgentImage": {
-			"@id": "w3:agentImage",
-			"@type": "@id"
-		},
-		"myAgentId": {
-			"@id": "w3:agentId",
-			"@type": "xsd:integer"
-		},
-		"myAgentName": {
-			"@id": "w3:agentName",
-			"@container": "@language"
-		},
-		"myAgentImage": {
-			"@id": "w3:agentImage",
-			"@type": "@id"
-		},
-		"myRole": {
-			"@id": "w3:role",
-			"@type": "@id"
-		}
 	}
 }
