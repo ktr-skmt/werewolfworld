@@ -43,7 +43,7 @@
 |https://werewolf.world/resource/0.1/serverTimestamp|xsd:dateTime|such as '2006-10-07T12:06:56.568+09:00'|
 |https://werewolf.world/resource/0.1/clientTimestamp|xsd:dateTime|such as '2006-10-07T12:06:56.568+09:00'|
 |https://werewolf.world/resource/0.1/directionality||'server to client' or 'client to server'|
-|https://werewolf.world/resource/0.1/channel||'public', 'private', 'werewolf', 'master', 'grave', 'onymousAudience', 'anonymousAudience'|
+|https://werewolf.world/resource/0.1/channel||'public', 'private', 'werewolf', 'seer', 'hunter', 'master', 'grave', 'onymousAudience', 'anonymousAudience'|
 
 
 ## error
