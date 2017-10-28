@@ -75,7 +75,7 @@ See [https://werewolf.world/image/0.1/#agent](https://werewolf.world/image/0.1/#
 |https://werewolf.world/resource/0.1/roleIsMine|xsd:boolean|true, false|
 |https://werewolf.world/resource/0.1/roleName||[https://werewolf.world/image/0.1/#role](https://werewolf.world/image/0.1/#role)|
 |https://werewolf.world/resource/0.1/roleImage||[https://werewolf.world/image/0.1/#role](https://werewolf.world/image/0.1/#role)|
-|https://werewolf.world/resource/0.1/roleNumber|xsd:integer|0 <=, <= 7|
+|https://werewolf.world/resource/0.1/numberOfAgentsWhoPlayTheRole|xsd:integer|0 <=, <= 7|
 
 See [https://werewolf.world/image/0.1/#role](https://werewolf.world/image/0.1/#role)
 
