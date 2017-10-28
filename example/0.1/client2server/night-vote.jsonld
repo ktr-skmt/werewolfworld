@@ -20,6 +20,17 @@
 	"intensionalDisclosureRange": "werewolf",
 	"extensionalDisclosureRange": [],
 
-	"agentIdToLynch": 3,
-	"role": "https://werewolf.world/resource/0.1/werewolf"
+	"votedAgentId": 3,
+	"votedAgentName": {
+		"en": "Simson",
+		"ja": "ジムゾン"
+	},
+	"votedAgentImage": "https://werewolf.world/image/0.1/Simson.jpg",
+	"myAgentId": 1,
+	"myAgentName": {
+		"en": "Walter",
+		"ja": "ヴァルター"
+	},
+	"myAgentImage": "https://werewolf.world/image/0.1/Walter.jpg",
+	"myRole": "https://werewolf.world/resource/0.1/werewolf"
 }
