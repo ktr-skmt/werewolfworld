@@ -33,8 +33,22 @@
 		"directionality": "w3:directionality",
 		"intensionalDisclosureRange": "w3:channel",
 		"extensionalDisclosureRange": {
-			"@id": "w3:agentId",
-			"@type": "xsd:integer"
+			"agent": {
+				"@id": "w3:agent",
+				"@type": "@id",
+				"agentId": {
+					"@id": "w3:agentId",
+					"@type": "xsd:integer"
+				},
+				"agentName": {
+					"@id": "w3:agentName",
+					"@container": "@language"
+				},
+				"agentImage": {
+					"@id": "w3:agentImage",
+					"@type": "@id"
+				}
+			}
 		}
 	}
 }
