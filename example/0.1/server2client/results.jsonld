@@ -539,7 +539,7 @@
 			},
 			"image": "https://werewolf.world/image/0.1/madman.jpg",
 			"numberOfAgents": 1,
-			"agentId": [
+			"agent": [
 				{
 					"@id": "https://werewolf.world/resource/0.1/Dieter",
 					"agentId": 6,
@@ -560,7 +560,7 @@
 			},
 			"image": "https://werewolf.world/image/0.1/werewolf.jpg",
 			"numberOfAgents": 2,
-			"agentId": [
+			"agent": [
 				{
 					"@id": "https://werewolf.world/resource/0.1/Moritz",
 					"agentId": 2,
@@ -590,7 +590,7 @@
 			},
 			"image": "https://werewolf.world/image/0.1/werehumster.jpg",
 			"numberOfAgents": 1,
-			"agentId": [
+			"agent": [
 				{
 					"@id": "https://werewolf.world/resource/0.1/Nicholas",
 					"agentId": 5,
