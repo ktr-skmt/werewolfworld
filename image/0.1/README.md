@@ -1,4 +1,4 @@
-["@homepage": "https://werewolf.world"](http://werewolf.world)
+["@homepage": "https://werewolf.world"](https://werewolf.world)
 
 "version": "0.1"
 
