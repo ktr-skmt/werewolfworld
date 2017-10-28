@@ -43,6 +43,7 @@ See [https://werewolf.world/context/0.1/](http://werewolf.world/context/0.1/)
 * Message examples
   - Server-to-client message examples
   - Client-to-server message examples
+  - Server-to-logger message examples
 
 See [https://werewolf.world/example/0.1/](http://werewolf.world/example/0.1/)
 
