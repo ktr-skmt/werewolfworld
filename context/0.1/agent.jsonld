@@ -11,7 +11,10 @@
 			"@id": "w3:agentName",
 			"@container": "@language"
 		},
-		"image": "w3:agentImage",
+		"image": {
+			"@id": "w3:agentImage",
+			"@type": "@id"
+		},
 		"id": {
 			"@id": "w3:agentId",
 			"@type": "xsd:integer"
@@ -22,7 +25,10 @@
 				"@id": "w3:roleName",
 				"@container": "@language"
 			},
-			"roleImage": "w3:roleImage"
+			"roleImage": {
+				"@id": "w3:roleImage",
+				"@type": "@id"
+			}
 		},
 		"status": "w3:agentStatus",
 		"statusUpdatePhase": "w3:phase",
