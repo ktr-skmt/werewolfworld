@@ -1,0 +1,312 @@
+{
+	"@context": [
+		"https://werewolf.world/context/0.1/base.jsonld",
+		"https://werewolf.world/context/0.1/chat.jsonld"
+	],
+
+	"@id": "https://werewolf.world/resource/0.1/playerMessage",
+
+	"villageId": 3,
+	"villageName": "横国の森の奥にある時代に取り残された小さな村",
+	"totalNumberOfAgents": 15,
+	"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
+	"phase": "day conversation",
+	"date": 1,
+	"phaseTimeLimit": "10m",
+	"phaseStartTime": "2006-10-07T12:06:56.568+09:00",
+	"serverTimestamp": "2006-10-07T12:06:56.568+09:00",
+	"clientTimestamp": "2006-10-07T12:06:56.568+09:00",
+	"directionality": "server to client",
+	"intensionalDisclosureRange": "public",
+	"extensionalDisclosureRange": [
+		{
+			"@id": "https://werewolf.world/resource/0.1/Gert",
+			"agentName": {
+				"en": "Gert",
+				"ja": "ゲルト"
+			},
+			"agentImage": "https://werewolf.world/image/0.1/Gert.jpg",
+			"agentId": 0,
+			"role": {
+				"@id": "https://werewolf.world/resource/0.1/villager",
+				"roleName": {
+					"en": "Villager",
+					"ja": "村人"
+				},
+				"roleImage": "https://werewolf.world/image/0.1/villager.jpg"
+			},
+			"agentStatus": "alive"
+		},
+		{
+			"@id": "https://werewolf.world/resource/0.1/Walter",
+			"agentName": {
+				"en": "Walter",
+				"ja": "ヴァルター"
+			},
+			"agentImage": "https://werewolf.world/image/0.1/Walter.jpg",
+			"agentId": 1,
+			"role": {
+				"@id": "https://werewolf.world/resource/0.1/seer",
+				"roleName": {
+					"en": "Seer",
+					"ja": "占い師"
+				},
+				"roleImage": "https://werewolf.world/image/0.1/seer.jpg"
+			},
+			"agentStatus": "alive"
+		},
+		{
+			"@id": "https://werewolf.world/resource/0.1/Moritz",
+			"agentName": {
+				"en": "Moritz",
+				"ja": "モーリッツ"
+			},
+			"agentImage": "https://werewolf.world/image/0.1/Moritz.jpg",
+			"agentId": 2,
+			"role": {
+				"@id": "https://werewolf.world/resource/0.1/werewolf",
+				"roleName": {
+					"en": "Werewolf",
+					"ja": "人狼"
+				},
+				"roleImage": "https://werewolf.world/image/0.1/werewolf.jpg"
+			},
+			"agentStatus": "alive"
+		},
+		{
+			"@id": "https://werewolf.world/resource/0.1/Simson",
+			"agentName": {
+				"en": "Simson",
+				"ja": "ジムゾン"
+			},
+			"agentImage": "https://werewolf.world/image/0.1/Simson.jpg",
+			"agentId": 3,
+			"role": {
+				"@id": "https://werewolf.world/resource/0.1/hunter",
+				"roleName": {
+					"en": "Hunter",
+					"ja": "狩人"
+				},
+				"roleImage": "https://werewolf.world/image/0.1/hunter.jpg"
+			},
+			"agentStatus": "alive"
+		},
+		{
+			"@id": "https://werewolf.world/resource/0.1/Thomas",
+			"agentName": {
+				"en": "Thomas",
+				"ja": "トーマス"
+			},
+			"agentImage": "https://werewolf.world/image/0.1/Thomas.jpg",
+			"agentId": 4,
+			"role": {
+				"@id": "https://werewolf.world/resource/0.1/medium",
+				"roleName": {
+					"en": "Medium",
+					"ja": "霊媒師"
+				},
+				"roleImage": "https://werewolf.world/image/0.1/medium.jpg"
+			},
+			"agentStatus": "alive"
+		},
+		{
+			"@id": "https://werewolf.world/resource/0.1/Nicholas",
+			"agentName": {
+				"en": "Nicholas",
+				"ja": "ニコラス"
+			},
+			"agentImage": "https://werewolf.world/image/0.1/Nicholas.jpg",
+			"agentId": 5,
+			"role": {
+				"@id": "https://werewolf.world/resource/0.1/werehumster",
+				"roleName": {
+					"en": "Werehumster",
+					"ja": "ハムスター人間"
+				},
+				"roleImage": "https://werewolf.world/image/0.1/werehumster.jpg"
+			},
+			"agentStatus": "alive"
+		},
+		{
+			"@id": "https://werewolf.world/resource/0.1/Dieter",
+			"agentName": {
+				"en": "Dieter",
+				"ja": "ディーター"
+			},
+			"agentImage": "https://werewolf.world/image/0.1/Dieter.jpg",
+			"agentId": 6,
+			"role": {
+				"@id": "https://werewolf.world/resource/0.1/madman",
+				"roleName": {
+					"en": "Madman",
+					"ja": "狂人"
+				},
+				"roleImage": "https://werewolf.world/image/0.1/madman.jpg"
+			},
+			"agentStatus": "alive"
+		},
+		{
+			"@id": "https://werewolf.world/resource/0.1/Peter",
+			"agentName": {
+				"en": "Peter",
+				"ja": "ペーター"
+			},
+			"agentImage": "https://werewolf.world/image/0.1/Peter.jpg",
+			"agentId": 7,
+			"role": {
+				"@id": "https://werewolf.world/resource/0.1/werewolf",
+				"roleName": {
+					"en": "Werewolf",
+					"ja": "人狼"
+				},
+				"roleImage": "https://werewolf.world/image/0.1/werewolf.jpg"
+			},
+			"agentStatus": "alive"
+		},
+		{
+			"@id": "https://werewolf.world/resource/0.1/Lisa",
+			"agentName": {
+				"en": "Lisa",
+				"ja": "リーザ"
+			},
+			"agentImage": "https://werewolf.world/image/0.1/Lisa.jpg",
+			"agentId": 8,
+			"role": {
+				"@id": "https://werewolf.world/resource/0.1/villager",
+				"roleName": {
+					"en": "Villager",
+					"ja": "村人"
+				},
+				"roleImage": "https://werewolf.world/image/0.1/villager.jpg"
+			},
+			"agentStatus": "alive"
+		},
+		{
+			"@id": "https://werewolf.world/resource/0.1/Alvin",
+			"agentName": {
+				"en": "Alvin",
+				"ja": "アルビン"
+			},
+			"agentImage": "https://werewolf.world/image/0.1/Alvin.jpg",
+			"agentId": 9,
+			"role": {
+				"@id": "https://werewolf.world/resource/0.1/villager",
+				"roleName": {
+					"en": "Villager",
+					"ja": "村人"
+				},
+				"roleImage": "https://werewolf.world/image/0.1/villager.jpg"
+			},
+			"agentStatus": "alive"
+		},
+		{
+			"@id": "https://werewolf.world/resource/0.1/Catalina",
+			"agentName": {
+				"en": "Catalina",
+				"ja": "カタリナ"
+			},
+			"agentImage": "https://werewolf.world/image/0.1/Catalina.jpg",
+			"agentId": 10,
+			"role": {
+				"@id": "https://werewolf.world/resource/0.1/mason",
+				"roleName": {
+					"en": "Mason",
+					"ja": "共有者"
+				},
+				"roleImage": "https://werewolf.world/image/0.1/mason.jpg"
+			},
+			"agentStatus": "alive"
+		},
+		{
+			"@id": "https://werewolf.world/resource/0.1/Otto",
+			"agentName": {
+				"en": "Otto",
+				"ja": "オットー"
+			},
+			"agentImage": "https://werewolf.world/image/0.1/Otto.jpg",
+			"agentId": 11,
+			"role": {
+				"@id": "https://werewolf.world/resource/0.1/mason",
+				"roleName": {
+					"en": "Mason",
+					"ja": "共有者"
+				},
+				"roleImage": "https://werewolf.world/image/0.1/mason.jpg"
+			},
+			"agentStatus": "alive"
+		},
+		{
+			"@id": "https://werewolf.world/resource/0.1/Joachim",
+			"agentName": {
+				"en": "Joachim",
+				"ja": "ヨアヒム"
+			},
+			"agentImage": "https://werewolf.world/image/0.1/Joachim.jpg",
+			"agentId": 12,
+			"role": {
+				"@id": "https://werewolf.world/resource/0.1/villager",
+				"roleName": {
+					"en": "Villager",
+					"ja": "村人"
+				},
+				"roleImage": "https://werewolf.world/image/0.1/villager.jpg"
+			},
+			"agentStatus": "alive"
+		},
+		{
+			"@id": "https://werewolf.world/resource/0.1/Pamela",
+			"agentName": {
+				"en": "Pamela",
+				"ja": "パメラ"
+			},
+			"agentImage": "https://werewolf.world/image/0.1/Pamela.jpg",
+			"agentId": 13,
+			"role": {
+				"@id": "https://werewolf.world/resource/0.1/villager",
+				"roleName": {
+					"en": "Villager",
+					"ja": "村人"
+				},
+				"roleImage": "https://werewolf.world/image/0.1/villager.jpg"
+			},
+			"agentStatus": "alive"
+		},
+		{
+			"@id": "https://werewolf.world/resource/0.1/Jacob",
+			"agentName": {
+				"en": "Jacob",
+				"ja": "ヤコブ"
+			},
+			"agentImage": "https://werewolf.world/image/0.1/Jacob.jpg",
+			"agentId": 14,
+			"role": {
+				"@id": "https://werewolf.world/resource/0.1/villager",
+				"roleName": {
+					"en": "Villager",
+					"ja": "村人"
+				},
+				"roleImage": "https://werewolf.world/image/0.1/villager.jpg"
+			},
+			"agentStatus": "alive"
+		}	
+	],
+
+	"chatIsMine": true,
+	"chatAgent": {
+		"@id": "https://werewolf.world/resource/0.1/Walter",
+		"chatAgentId": 1,
+		"chatAgentName": {
+			"en": "Walter",
+			"ja": "ヴァルター"
+		},
+		"chatAgentImage": "https://werewolf.world/image/0.1/Walter.jpg"
+	},
+	"chatId": 12,
+	"chatCounter": 7,
+	"chatLimit": 10,
+	"chatInterval": "5s",
+	"chatText": ">>11\nそれで、あなたは人狼が誰だと思うの？\n\n私はパメラが人狼だと思う。",
+	"chatCharacterLimit": 140,
+	"chatLanguage": "ja",
+	"chatIsOver": false
+}

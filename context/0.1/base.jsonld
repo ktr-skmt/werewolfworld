@@ -46,7 +46,20 @@
 			"agentImage": {
 				"@id": "w3:agentImage",
 				"@type": "@id"
-			}
+			},
+			"role": {
+				"@id": "w3:role",
+				"@type": "@id",
+				"roleName": {
+					"@id": "w3:roleName",
+					"@container": "@language"
+				},
+				"roleImage": {
+					"@id": "w3:roleImage",
+					"@type": "@id"
+				}
+			},
+			"agentStatus": "w3:agentStatus"
 		}
 	}
 }
