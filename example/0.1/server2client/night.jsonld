@@ -231,7 +231,7 @@
 				"ja": "マスター"
 			},
 			"image": "https://werewolf.world/image/0.1/master.jpg",
-			"number": 1,
+			"numberOfAgents": 1,
 			"board": []
 		},
 		{
@@ -242,7 +242,7 @@
 				"ja": "村人"
 			},
 			"image": "https://werewolf.world/image/0.1/villager.jpg",
-			"number": 6,
+			"numberOfAgents": 6,
 			"board": [
 				{
 					"boardAgentId": 1,
@@ -260,7 +260,7 @@
 				"ja": "占い師"
 			},
 			"image": "https://werewolf.world/image/0.1/seer.jpg",
-			"number": 1,
+			"numberOfAgents": 1,
 			"board": [
 				{
 					"boardAgentId": 1,
@@ -278,7 +278,7 @@
 				"ja": "霊媒師"
 			},
 			"image": "https://werewolf.world/image/0.1/medium.jpg",
-			"number": 1,
+			"numberOfAgents": 1,
 			"board": [
 				{
 					"boardAgentId": 1,
@@ -296,7 +296,7 @@
 				"ja": "狩人"
 			},
 			"image": "https://werewolf.world/image/0.1/hunter.jpg",
-			"number": 1,
+			"numberOfAgents": 1,
 			"board": [
 				{
 					"boardAgentId": 1,
@@ -314,7 +314,7 @@
 				"ja": "共有者"
 			},
 			"image": "https://werewolf.world/image/0.1/mason.jpg",
-			"number": 2,
+			"numberOfAgents": 2,
 			"board": [
 				{
 					"boardAgentId": 1,
@@ -332,7 +332,7 @@
 				"ja": "狂人"
 			},
 			"image": "https://werewolf.world/image/0.1/madman.jpg",
-			"number": 1,
+			"numberOfAgents": 1,
 			"board": [
 				{
 					"boardAgentId": 1,
@@ -350,7 +350,7 @@
 				"ja": "人狼"
 			},
 			"image": "https://werewolf.world/image/0.1/werewolf.jpg",
-			"number": 2,
+			"numberOfAgents": 2,
 			"board": [
 				{
 					"boardAgentId": 1,
@@ -368,7 +368,7 @@
 				"ja": "ハムスター人間"
 			},
 			"image": "https://werewolf.world/image/0.1/werehumster.jpg",
-			"number": 1,
+			"numberOfAgents": 1,
 			"board": [
 				{
 					"boardAgentId": 1,
