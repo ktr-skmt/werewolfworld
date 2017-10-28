@@ -23,24 +23,71 @@
 
 	"votingResultsSummary": [
 		{
-			"agentIdToLynch": 1,
+			"agentToLynch": {
+				"@id": "https://werewolf.world/resource/0.1/Walter",
+				"agentId": 1,
+				"agentName": {
+					"en": "Walter",
+					"ja": "ヴァルター"
+				},
+				"agentImage": "https://werewolf.world/image/0.1/Walter.jpg"
+			},
 			"numberOfVotes": 3,
 			"rankOfVotes": 1
 		},
 		{
-			"agentIdToLynch": 2,
+			"agentToLynch": {
+				"@id": "https://werewolf.world/resource/0.1/Moritz",
+				"agentId": 2,
+				"agentName": {
+					"en": "Moritz",
+					"ja": "モーリッツ"
+				},
+				"agentImage": "https://werewolf.world/image/0.1/Moritz.jpg"
+			},
 			"numberOfVotes": 1,
 			"rankOfVotes": 2
 		}
 	],
 	"votingResultsDetails": [
 		{
-			"sourceAgentId": 1,
-			"targetAgentId": 2
+			"sourceAgent": {
+				"@id": "https://werewolf.world/resource/0.1/Walter",
+				"agentId": 1,
+				"agentName": {
+					"en": "Walter",
+					"ja": "ヴァルター"
+				},
+				"agentImage": "https://werewolf.world/image/0.1/Walter.jpg"
+			},
+			"targetAgent": {
+				"@id": "https://werewolf.world/resource/0.1/Moritz",
+				"agentId": 2,
+				"agentName": {
+					"en": "Moritz",
+					"ja": "モーリッツ"
+				},
+				"agentImage": "https://werewolf.world/image/0.1/Moritz.jpg"
+			}
 		},
 		{
-			"sourceAgentId": 2,
-			"targetAgentId": 1
+			"sourceAgent": {
+				"@id": "https://werewolf.world/resource/0.1/Moritz",
+				"agentId": 2,
+				"agentName": {
+					"en": "Moritz",
+					"ja": "モーリッツ"
+				},
+				"agentImage": "https://werewolf.world/image/0.1/Moritz.jpg"
+			},
+			"targetAgent": {
+				"@id": "https://werewolf.world/resource/0.1/Walter",
+				"agentId": 1,
+				"agentName": {
+					"en": "Walter",
+					"ja": "ヴァルター"
+				},
+				"agentImage": "https://werewolf.world/image/0.1/Walter.jpg"
 		}
 	],
 
