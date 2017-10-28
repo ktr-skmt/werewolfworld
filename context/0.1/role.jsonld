@@ -23,9 +23,20 @@
 		"board": {
 			"@id": "w3:board",
 			"boardPolarity": "w3:boardPolarity",
-			"boardAgentId": {
-				"@id": "w3:agentId",
-				"@type": "xsd:integer"
+			"boardAgent": {
+				"@id": "w3:agent",
+				"boardAgentId": {
+					"@id": "w3:agentId",
+					"@type": "xsd:integer"
+				},
+				"boardAgentName": {
+					"@id": "w3:agentName",
+					"@container": "@language"
+				},
+				"boardAgentImage": {
+					"@id": "w3:agentImage",
+					"@type": "@id"
+				}
 			},
 			"boardPhase": "w3:phase",
 			"boardDate": {
