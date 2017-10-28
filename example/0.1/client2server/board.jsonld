@@ -28,7 +28,7 @@
 			"ja": "トーマス"
 		},
 		"boardAgentImage": "https://werewolf.world/image/0.1/Thomas.jpg"
-	}
+	},
 	"boardRole": {
 		"@id": "https://werewolf.world/resource/0.1/madman",
 		"boardRoleName": {
@@ -36,6 +36,6 @@
 			"ja": "狂人"
 		},
 		"boardRoleImage": "https://werewolf.world/image/0.1/madman.jpg"
-	}
+	},
 	"boardPrediction": "X"
 }
