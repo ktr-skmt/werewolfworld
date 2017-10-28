@@ -17,7 +17,7 @@ Our plan is to release the protocol 0.1 (wild) at 3 November. Until then, no ver
 
 No release yet
 
-See [http://werewolf.world/update-history](http://werewolf.world/update-history)
+See [https://werewolf.world/update-history](http://werewolf.world/update-history)
 
 # Format specification
 
@@ -33,7 +33,7 @@ UTF-8 (without Byte Order Mark)
 
 ## Contexts and IRIs
 
-See [http://werewolf.world/context/0.1/](http://werewolf.world/context/0.1/)
+See [https://werewolf.world/context/0.1/](http://werewolf.world/context/0.1/)
 
 # Examples
 
@@ -44,7 +44,7 @@ See [http://werewolf.world/context/0.1/](http://werewolf.world/context/0.1/)
   - Server-to-client message examples
   - Client-to-server message examples
 
-See [http://werewolf.world/example/0.1/](http://werewolf.world/example/0.1/)
+See [https://werewolf.world/example/0.1/](http://werewolf.world/example/0.1/)
 
 # License
 
