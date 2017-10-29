@@ -10,7 +10,10 @@
 			"@id": "w3:roleName",
 			"@container": "@language"
 		},
-		"image": "w3:roleImage",
+		"image": {
+			"@id": "w3:roleImage",
+			"@type": "@id"
+		},
 		"roleIsMine": {
 			"@id": "w3:roleIsMine",
 			"@type": "xsd:boolean"
