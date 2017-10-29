@@ -45,10 +45,7 @@
 			"status": "alive",
 			"result": "win",
 			"userName": "Sato",
-			"userAvatar": {
-				"@id": "https://werewolf.world/image/0.1/Nicholas.jpg",
-				"@type": "@id"
-			}
+			"userAvatar": "https://werewolf.world/image/0.1/Nicholas.jpg"
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Walter",
