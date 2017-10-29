@@ -80,6 +80,7 @@
 			},
 			"myRole": {
 				"@id": "w3:role",
+				"@type": "@id",
 				"myRoleName": {
 					"@id": "w3:roleName",
 					"@container": "@language"
