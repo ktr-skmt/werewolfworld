@@ -17,34 +17,6 @@
 				"@id": "w3:agentImage",
 				"@type": "@id"
 			}
-		},
-		"myAgent": {
-			"@id": "w3:agent",
-			"@type": "@id",
-			"myAgentId": {
-				"@id": "w3:agentId",
-				"@type": "xsd:integer"
-			},
-			"myAgentName": {
-				"@id": "w3:agentName",
-				"@container": "@language"
-			},
-			"myAgentImage": {
-				"@id": "w3:agentImage",
-				"@type": "@id"
-			},
-			"myRole": {
-				"@id": "w3:role",
-				"@type": "@id",
-				"myRoleName": {
-					"@id": "w3:roleName",
-					"@container": "@language"
-				},
-				"myRoleImage": {
-					"@id": "w3:roleImage",
-					"@type": "@id"
-				}
-			}
 		}
 	}
 }
