@@ -65,6 +65,7 @@
 		"myUserAvatar": "w3:userAvatar",
 		"myAgent": {
 			"@id": "w3:agent",
+			"@type": "@id",
 			"myAgentId": {
 				"@id": "w3:agentId",
 				"@type": "xsd:integer"
