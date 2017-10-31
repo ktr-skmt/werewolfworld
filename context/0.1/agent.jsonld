@@ -40,7 +40,10 @@
 			"@id": "w3:date",
 			"@type": "xsd:integer"
 		},
-		"isAChoice": "w3:agentIsAChoice",
+		"isAChoice": {
+			"@id": "w3:agentIsAChoice",
+			"@type": "xsd:boolean"
+		},
 		"result": "w3:result",
 		"userName": "w3:userName",
 		"userAvatar": {
