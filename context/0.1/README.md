@@ -65,6 +65,7 @@
 |https://werewolf.world/resource/0.1/agentName||[https://werewolf.world/image/0.1/#agent](https://werewolf.world/image/0.1/#agent)|
 |https://werewolf.world/resource/0.1/agentImage||[https://werewolf.world/image/0.1/#agent](https://werewolf.world/image/0.1/#agent)|
 |https://werewolf.world/resource/0.1/agentStatus||'alive', 'dead', 'death by execution', 'death by werewolf attack', 'death by fear', 'unnatural death'|
+|https://werewolf.world/resource/0.1/agentIsAChoice|xsd:boolean||
 
 See [https://werewolf.world/image/0.1/#agent](https://werewolf.world/image/0.1/#agent)
 
