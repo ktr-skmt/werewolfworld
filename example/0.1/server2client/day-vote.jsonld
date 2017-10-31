@@ -36,7 +36,8 @@
 			"id": 0,
 			"status": "dead",
 			"statusUpdatePhase": "day vote",
-			"statusUpdateDate": 1
+			"statusUpdateDate": 1,
+			"isAChoice": false
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Walter",
@@ -49,7 +50,8 @@
 			"id": 1,
 			"status": "alive",
 			"statusUpdatePhase": "day conversation",
-			"statusUpdateDate": 1
+			"statusUpdateDate": 1,
+			"isAChoice": false
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Moritz",
@@ -62,7 +64,8 @@
 			"id": 2,
 			"status": "alive",
 			"statusUpdatePhase": "day conversation",
-			"statusUpdateDate": 1
+			"statusUpdateDate": 1,
+			"isAChoice": true
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Simson",
@@ -75,7 +78,8 @@
 			"id": 3,
 			"status": "alive",
 			"statusUpdatePhase": "day conversation",
-			"statusUpdateDate": 1
+			"statusUpdateDate": 1,
+			"isAChoice": true
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Thomas",
@@ -88,7 +92,8 @@
 			"id": 4,
 			"status": "alive",
 			"statusUpdatePhase": "day conversation",
-			"statusUpdateDate": 1
+			"statusUpdateDate": 1,
+			"isAChoice": true
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Nicholas",
@@ -101,7 +106,8 @@
 			"id": 5,
 			"status": "alive",
 			"statusUpdatePhase": "day conversation",
-			"statusUpdateDate": 1
+			"statusUpdateDate": 1,
+			"isAChoice": true
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Dieter",
@@ -114,7 +120,8 @@
 			"id": 6,
 			"status": "alive",
 			"statusUpdatePhase": "day conversation",
-			"statusUpdateDate": 1
+			"statusUpdateDate": 1,
+			"isAChoice": true
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Peter",
@@ -127,7 +134,8 @@
 			"id": 7,
 			"status": "alive",
 			"statusUpdatePhase": "day conversation",
-			"statusUpdateDate": 1
+			"statusUpdateDate": 1,
+			"isAChoice": true
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Lisa",
@@ -140,7 +148,8 @@
 			"id": 8,
 			"status": "alive",
 			"statusUpdatePhase": "day conversation",
-			"statusUpdateDate": 1
+			"statusUpdateDate": 1,
+			"isAChoice": true
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Alvin",
@@ -153,7 +162,8 @@
 			"id": 9,
 			"status": "alive",
 			"statusUpdatePhase": "day conversation",
-			"statusUpdateDate": 1
+			"statusUpdateDate": 1,
+			"isAChoice": true
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Catalina",
@@ -166,7 +176,8 @@
 			"id": 10,
 			"status": "alive",
 			"statusUpdatePhase": "day conversation",
-			"statusUpdateDate": 1
+			"statusUpdateDate": 1,
+			"isAChoice": true
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Otto",
@@ -179,7 +190,8 @@
 			"id": 11,
 			"status": "alive",
 			"statusUpdatePhase": "day conversation",
-			"statusUpdateDate": 1
+			"statusUpdateDate": 1,
+			"isAChoice": true
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Joachim",
@@ -192,7 +204,8 @@
 			"id": 12,
 			"status": "alive",
 			"statusUpdatePhase": "day conversation",
-			"statusUpdateDate": 1
+			"statusUpdateDate": 1,
+			"isAChoice": true
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Pamela",
@@ -205,7 +218,8 @@
 			"id": 13,
 			"status": "alive",
 			"statusUpdatePhase": "day conversation",
-			"statusUpdateDate": 1
+			"statusUpdateDate": 1,
+			"isAChoice": true
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Jacob",
@@ -218,7 +232,8 @@
 			"id": 14,
 			"status": "alive",
 			"statusUpdatePhase": "day conversation",
-			"statusUpdateDate": 1
+			"statusUpdateDate": 1,
+			"isAChoice": true
 		}
 	],
 
