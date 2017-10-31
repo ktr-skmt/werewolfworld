@@ -149,7 +149,7 @@
 			"status": "dead",
 			"statusUpdatePhase": "night",
 			"statusUpdateDate": 1,
-			"isAChoice": true
+			"isAChoice": false
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Alvin",
