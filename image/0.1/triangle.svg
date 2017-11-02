@@ -1,0 +1,9 @@
+<svg fill="#000" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <mask id="hole">
+      <rect width="100%" height="100%" fill="white"/>
+      <polygon points="30,71.56 70,71.56 50,33.27"/>
+    </mask>
+  </defs>
+  <polygon points="10,83.12 90,83.12 50,13.76" fill="red" mask="url(#hole)"/>
+</svg>
