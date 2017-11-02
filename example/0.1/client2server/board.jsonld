@@ -1,6 +1,5 @@
 {
 	"@context": [
-		"https://werewolf.world/context/0.1/agent.jsonld",
 		"https://werewolf.world/context/0.1/base.jsonld",
 		"https://werewolf.world/context/0.1/board.jsonld"
 	],
@@ -37,7 +36,7 @@
 		}
 	},
 	
-	"agent": {
+	"boardAgent": {
 		"@id": "https://werewolf.world/resource/0.1/Thomas",
 		"agentId": 4,
 		"agentName": {
@@ -48,11 +47,11 @@
 	},
 	"boardRole": {
 		"@id": "https://werewolf.world/resource/0.1/madman",
-		"boardRoleName": {
+		"roleName": {
 			"en": "Madman",
 			"ja": "狂人"
 		},
-		"boardRoleImage": "https://werewolf.world/image/0.1/madman.jpg"
+		"roleImage": "https://werewolf.world/image/0.1/madman.jpg"
 	},
 	"boardPrediction": "X"
 }
