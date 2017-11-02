@@ -1,5 +1,6 @@
 {
 	"@context": [
+		"https://werewolf.world/context/0.1/agent.jsonld",
 		"https://werewolf.world/context/0.1/base.jsonld",
 		"https://werewolf.world/context/0.1/board.jsonld"
 	],
@@ -36,14 +37,14 @@
 		}
 	},
 	
-	"boardAgent": {
+	"agent": {
 		"@id": "https://werewolf.world/resource/0.1/Thomas",
-		"boardAgentId": 4,
-		"boardAgentName": {
+		"agentId": 4,
+		"agentName": {
 			"en": "Thomas",
 			"ja": "トーマス"
 		},
-		"boardAgentImage": "https://werewolf.world/image/0.1/Thomas.jpg"
+		"agentImage": "https://werewolf.world/image/0.1/Thomas.jpg"
 	},
 	"boardRole": {
 		"@id": "https://werewolf.world/resource/0.1/madman",
