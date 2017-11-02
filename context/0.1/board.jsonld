@@ -5,15 +5,15 @@
 		"boardAgent": {
 			"@id": "w3:agent",
 			"@type": "@id",
-			"boardAgentId": {
+			"agentId": {
 				"@id": "w3:agentId",
 				"@type": "xsd:integer"
 			},
-			"boardAgentName": {
+			"agentName": {
 				"@id": "w3:agentId",
 				"@container": "@language"
 			},
-			"boardAgentImage": {
+			"agentImage": {
 				"@id": "w3:agentImage",
 				"@type": "@id"
 			}
@@ -21,11 +21,11 @@
 		"boardRole": {
 			"@id": "w3:role",
 			"@type": "@id",
-			"boardRoleName": {
+			"roleName": {
 				"@id": "w3:roleName",
 				"@container": "@language"
 			},
-			"boardRoleImage": {
+			"roleImage": {
 				"@id": "w3:roleImage",
 				"@type": "@id"
 			}
