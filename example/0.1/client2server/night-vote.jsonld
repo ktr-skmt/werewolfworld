@@ -20,6 +20,7 @@
 	"intensionalDisclosureRange": "werewolf",
 	"extensionalDisclosureRange": [],
 	"myAgent": {
+		"@id": "https://werewolf.world/resource/0.1/Walter",
 		"myAgentId": 1,
 		"myAgentName": {
 			"en": "Walter",
@@ -37,6 +38,7 @@
 	},
 
 	"votedAgent": {
+		"@id": "https://werewolf.world/resource/0.1/Simson",
 		"votedAgentId": 3,
 		"votedAgentName": {
 			"en": "Simson",
