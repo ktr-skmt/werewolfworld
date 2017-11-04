@@ -13,7 +13,7 @@
 	"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
 	"phase": "post mortem",
 	"date": 0,
-	"phaseTimeLimit": "24h",
+	"phaseTimeLimit": 86400,
 	"phaseStartTime": "2006-10-07T12:06:56.568+09:00",
 	"serverTimestamp": "2006-10-07T12:06:56.568+09:00",
 	"clientTimestamp": "2006-10-07T12:06:56.568+09:00",
