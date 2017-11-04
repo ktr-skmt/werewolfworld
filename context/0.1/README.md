@@ -39,7 +39,7 @@
 |https://werewolf.world/resource/0.1/totalNumberOfAgents|xsd:integer|4 <=|
 |https://werewolf.world/resource/0.1/phase||'day conversation', 'day vote', 'night', 'results', 'post mortem'|
 |https://werewolf.world/resource/0.1/date|xsd:integer|-1 <=, 0 when phase were post mortem, -1 when phase were results|
-|https://werewolf.world/resource/0.1/phaseTimeLimit||'none' or such as '10m', '3m'|
+|https://werewolf.world/resource/0.1/phaseTimeLimit|xsd:integer|if nothing, -1. otherwise, how many seconds|
 |https://werewolf.world/resource/0.1/phaseStartTime|xsd:dateTime|such as '2006-10-07T12:06:56.568+09:00'|
 |https://werewolf.world/resource/0.1/serverTimestamp|xsd:dateTime|such as '2006-10-07T12:06:56.568+09:00'|
 |https://werewolf.world/resource/0.1/clientTimestamp|xsd:dateTime|such as '2006-10-07T12:06:56.568+09:00'|
