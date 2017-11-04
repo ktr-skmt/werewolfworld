@@ -20,6 +20,7 @@
 	"intensionalDisclosureRange": "public",
 	"extensionalDisclosureRange": [],
 	"myAgent": {
+		"@id": "https://werewolf.world/resource/0.1/Walter",
 		"myAgentId": 1,
 		"myAgentName": {
 			"en": "Walter",
