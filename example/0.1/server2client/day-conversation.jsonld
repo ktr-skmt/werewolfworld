@@ -20,6 +20,8 @@
 	"directionality": "server to client",
 	"intensionalDisclosureRange": "private",
 	"extensionalDisclosureRange": [],
+	"chatLimit": 10,
+	"chatCharacterLimit": 140,
 
 	"votingResultsSummary": [
 		{
