@@ -37,37 +37,41 @@
 			"@type": "xsd:dateTime"
 		},
 		"directionality": "w3:directionality",
-		"intensionalDisclosureRange": "w3:channel",
-		"extensionalDisclosureRange": {
-			"@id": "w3:agent",
-			"@type": "@id",
-			"id": {
-				"@id": "w3:agentId",
-				"@type": "xsd:integer"
-			},
-			"name": {
-				"@id": "w3:agentName",
-				"@container": "@language"
-			},
-			"image": {
-				"@id": "w3:agentImage",
-				"@type": "@id"
-			},
-			"role": {
-				"@id": "w3:role",
+		"disclosureRange": {
+			"@id": "w3:disclosureRange",
+			"intensional": "w3:channel",
+			"extensional": {
+				"@id": "w3:agent",
 				"@type": "@id",
-				"roleName": {
-					"@id": "w3:roleName",
+				"id": {
+					"@id": "w3:agentId",
+					"@type": "xsd:integer"
+				},
+				"name": {
+					"@id": "w3:agentName",
 					"@container": "@language"
 				},
-				"roleImage": {
-					"@id": "w3:roleImage",
+				"image": {
+					"@id": "w3:agentImage",
 					"@type": "@id"
-				}
-			},
-			"status": "w3:agentStatus"
+				},
+				"role": {
+					"@id": "w3:role",
+					"@type": "@id",
+					"roleName": {
+						"@id": "w3:roleName",
+						"@container": "@language"
+					},
+					"roleImage": {
+						"@id": "w3:roleImage",
+						"@type": "@id"
+						}
+				},
+				"status": "w3:agentStatus"
+			}
 		},
 		"me": {
+			"@id": "w3:user",
 			"name": "w3:userName",
 			"avatar": {
 				"@id": "w3:userAvatar",
