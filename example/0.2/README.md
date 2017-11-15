@@ -1,6 +1,6 @@
 ["@homepage": "https://werewolf.world"](https://werewolf.world)
 
-"version": "0.1"
+"version": "0.2"
 
 # Examples
 
@@ -8,8 +8,8 @@
 
 |Entity list|JSON-LD|
 ---|---
-|all-agents|[https://werewolf.world/example/0.1/all-agents.jsonld](https://werewolf.world/example/0.1/all-agents.jsonld)|
-|all-roles|[https://werewolf.world/example/0.1/all-roles.jsonld](https://werewolf.world/example/0.1/all-roles.jsonld)|
+|all-agents|[https://werewolf.world/example/0.2/all-agents.jsonld](https://werewolf.world/example/0.2/all-agents.jsonld)|
+|all-roles|[https://werewolf.world/example/0.2/all-roles.jsonld](https://werewolf.world/example/0.2/all-roles.jsonld)|
 
 ## System outline
 
@@ -19,17 +19,17 @@
 
 |Example|JSON-LD|
 ---|---
-|first-day-conversation|[https://werewolf.world/example/0.1/server2client/first-day-conversation.jsonld](https://werewolf.world/example/0.1/server2client/first-day-conversation.jsonld)|
-|day-conversation|[https://werewolf.world/example/0.1/server2client/day-conversation.jsonld](https://werewolf.world/example/0.1/server2client/day-conversation.jsonld)|
-|day-vote|[https://werewolf.world/example/0.1/server2client/day-vote.jsonld](https://werewolf.world/example/0.1/server2client/day-vote.jsonld)|
-|night|[https://werewolf.world/example/0.1/server2client/night.jsonld](https://werewolf.world/example/0.1/server2client/night.jsonld)|
-|results|[https://werewolf.world/example/0.1/server2client/results.jsonld](https://werewolf.world/example/0.1/server2client/results.jsonld)|
-|post-mortem|[https://werewolf.world/example/0.1/server2client/post-mortem.jsonld](https://werewolf.world/example/0.1/server2client/post-mortem.jsonld)|
-|my-message-on-chat|[https://werewolf.world/example/0.1/server2client/my-message-on-chat.jsonld](https://werewolf.world/example/0.1/server2client/my-message-on-chat.jsonld)|
-|their-message-on-chat|[https://werewolf.world/example/0.1/server2client/their-message-on-chat.jsonld](https://werewolf.world/example/0.1/server2client/their-message-on-chat.jsonld)|
-|error|[https://werewolf.world/example/0.1/server2client/error.jsonld](https://werewolf.world/example/0.1/server2client/error.jsonld)|
-|onymous-audience-chat|[https://werewolf.world/example/0.1/server2client/onymous-audience-chat.jsonld](https://werewolf.world/example/0.1/server2client/onymous-audience-chat.jsonld)|
-|anonymous-audience-chat|[https://werewolf.world/example/0.1/server2client/anonymous-audience-chat.jsonld](https://werewolf.world/example/0.1/server2client/anonymous-audience-chat.jsonld)|
+|first-day-conversation|[https://werewolf.world/example/0.2/server2client/first-day-conversation.jsonld](https://werewolf.world/example/0.2/server2client/first-day-conversation.jsonld)|
+|day-conversation|[https://werewolf.world/example/0.2/server2client/day-conversation.jsonld](https://werewolf.world/example/0.2/server2client/day-conversation.jsonld)|
+|day-vote|[https://werewolf.world/example/0.2/server2client/day-vote.jsonld](https://werewolf.world/example/0.2/server2client/day-vote.jsonld)|
+|night|[https://werewolf.world/example/0.2/server2client/night.jsonld](https://werewolf.world/example/0.2/server2client/night.jsonld)|
+|results|[https://werewolf.world/example/0.2/server2client/results.jsonld](https://werewolf.world/example/0.2/server2client/results.jsonld)|
+|post-mortem|[https://werewolf.world/example/0.2/server2client/post-mortem.jsonld](https://werewolf.world/example/0.2/server2client/post-mortem.jsonld)|
+|my-message-on-chat|[https://werewolf.world/example/0.2/server2client/my-message-on-chat.jsonld](https://werewolf.world/example/0.2/server2client/my-message-on-chat.jsonld)|
+|their-message-on-chat|[https://werewolf.world/example/0.2/server2client/their-message-on-chat.jsonld](https://werewolf.world/example/0.2/server2client/their-message-on-chat.jsonld)|
+|error|[https://werewolf.world/example/0.2/server2client/error.jsonld](https://werewolf.world/example/0.2/server2client/error.jsonld)|
+|onymous-audience-chat|[https://werewolf.world/example/0.2/server2client/onymous-audience-chat.jsonld](https://werewolf.world/example/0.2/server2client/onymous-audience-chat.jsonld)|
+|anonymous-audience-chat|[https://werewolf.world/example/0.2/server2client/anonymous-audience-chat.jsonld](https://werewolf.world/example/0.2/server2client/anonymous-audience-chat.jsonld)|
 
 
 ### first-day-conversation
@@ -72,16 +72,16 @@
 
 |Example|JSON-LD|
 ---|---
-|board|[https://werewolf.world/example/0.1/client2server/board.jsonld](https://werewolf.world/example/0.1/client2server/board.jsonld)|
-|chat|[https://werewolf.world/example/0.1/client2server/chat.jsonld](https://werewolf.world/example/0.1/client2server/chat.jsonld)|
-|day-vote|[https://werewolf.world/example/0.1/client2server/day-vote.jsonld](https://werewolf.world/example/0.1/client2server/day-vote.jsonld)|
-|night-vote|[https://werewolf.world/example/0.1/client2server/night-vote.jsonld](https://werewolf.world/example/0.1/client2server/night-vote.jsonld)|
-|scroll|[https://werewolf.world/example/0.1/client2server/scroll.jsonld](https://werewolf.world/example/0.1/client2server/scroll.jsonld)|
-|error|[https://werewolf.world/example/0.1/client2server/error.jsonld](https://werewolf.world/example/0.1/client2server/error.jsonld)|
-|onymous-audience-board|[https://werewolf.world/example/0.1/client2server/onymous-audience-board.jsonld](https://werewolf.world/example/0.1/client2server/onymous-audience-board.jsonld)|
-|onymous-audience-chat|[https://werewolf.world/example/0.1/client2server/onymous-audience-chat.jsonld](https://werewolf.world/example/0.1/client2server/onymous-audience-chat.jsonld)|
-|onymous-audience-scroll|[https://werewolf.world/example/0.1/client2server/onymous-audience-scroll.jsonld](https://werewolf.world/example/0.1/client2server/onymous-audience-scroll.jsonld)|
-|anonymous-audience-chat|[https://werewolf.world/example/0.1/client2server/anonymous-audience-chat.jsonld](https://werewolf.world/example/0.1/client2server/anonymous-audience-chat.jsonld)|
+|board|[https://werewolf.world/example/0.2/client2server/board.jsonld](https://werewolf.world/example/0.2/client2server/board.jsonld)|
+|chat|[https://werewolf.world/example/0.2/client2server/chat.jsonld](https://werewolf.world/example/0.2/client2server/chat.jsonld)|
+|day-vote|[https://werewolf.world/example/0.2/client2server/day-vote.jsonld](https://werewolf.world/example/0.2/client2server/day-vote.jsonld)|
+|night-vote|[https://werewolf.world/example/0.2/client2server/night-vote.jsonld](https://werewolf.world/example/0.2/client2server/night-vote.jsonld)|
+|scroll|[https://werewolf.world/example/0.2/client2server/scroll.jsonld](https://werewolf.world/example/0.2/client2server/scroll.jsonld)|
+|error|[https://werewolf.world/example/0.2/client2server/error.jsonld](https://werewolf.world/example/0.2/client2server/error.jsonld)|
+|onymous-audience-board|[https://werewolf.world/example/0.2/client2server/onymous-audience-board.jsonld](https://werewolf.world/example/0.2/client2server/onymous-audience-board.jsonld)|
+|onymous-audience-chat|[https://werewolf.world/example/0.2/client2server/onymous-audience-chat.jsonld](https://werewolf.world/example/0.2/client2server/onymous-audience-chat.jsonld)|
+|onymous-audience-scroll|[https://werewolf.world/example/0.2/client2server/onymous-audience-scroll.jsonld](https://werewolf.world/example/0.2/client2server/onymous-audience-scroll.jsonld)|
+|anonymous-audience-chat|[https://werewolf.world/example/0.2/client2server/anonymous-audience-chat.jsonld](https://werewolf.world/example/0.2/client2server/anonymous-audience-chat.jsonld)|
 
 ### board
 
@@ -113,9 +113,9 @@ Server has to fill concrete values with an extensionalDisclosureRange key in eac
 
 |Example|Directionality|Values|JSON-LD|
 ---|---|---|---
-|night-vote|client to server|blank|[https://werewolf.world/example/0.1/client2server/night-vote.jsonld](https://werewolf.world/example/0.1/client2server/night-vote.jsonld)|
-|night-vote-for-log|client to server|filled|[https://werewolf.world/example/0.1/server2logger/night-vote-for-log.jsonld](https://werewolf.world/example/0.1/server2logger/night-vote-for-log.jsonld)|
-|my-message-on-chat|server to client|blank|[https://werewolf.world/example/0.1/server2client/my-message-on-chat.jsonld](https://werewolf.world/example/0.1/server2client/my-message-on-chat.jsonld)|
-|my-message-on-chat-for-log|server to client|filled|[https://werewolf.world/example/0.1/server2logger/my-message-on-chat-for-log.jsonld](https://werewolf.world/example/0.1/server2logger/my-message-on-chat-for-log.jsonld)|
+|night-vote|client to server|blank|[https://werewolf.world/example/0.2/client2server/night-vote.jsonld](https://werewolf.world/example/0.2/client2server/night-vote.jsonld)|
+|night-vote-for-log|client to server|filled|[https://werewolf.world/example/0.2/server2logger/night-vote-for-log.jsonld](https://werewolf.world/example/0.2/server2logger/night-vote-for-log.jsonld)|
+|my-message-on-chat|server to client|blank|[https://werewolf.world/example/0.2/server2client/my-message-on-chat.jsonld](https://werewolf.world/example/0.2/server2client/my-message-on-chat.jsonld)|
+|my-message-on-chat-for-log|server to client|filled|[https://werewolf.world/example/0.2/server2logger/my-message-on-chat-for-log.jsonld](https://werewolf.world/example/0.2/server2logger/my-message-on-chat-for-log.jsonld)|
 
 
