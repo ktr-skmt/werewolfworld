@@ -1,15 +1,18 @@
 {
 	"@context":	{
 		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"w3": "https://werewolf.world/resource/0.1/",
-		"villageId": {
-			"@id": "w3:villageId",
-			"@type": "xsd:integer"
-		},
-		"villageName": "w3:villageName",
-		"totalNumberOfAgents": {
-			"@id": "w3:totalNumberOfAgents",
-			"@type": "xsd:integer"
+		"w3": "https://werewolf.world/resource/0.2/",
+		"village": {
+			"@id": "w3:village",
+			"id": {
+				"@id": "w3:villageId",
+				"@type": "xsd:integer"
+			},
+			"name": "w3:villageName",
+			"totalNumberOfAgents": {
+				"@id": "w3:totalNumberOfAgents",
+				"@type": "xsd:integer"
+			}
 		},
 		"token": "w3:token",
 		"phase": "w3:phase",
@@ -38,15 +41,15 @@
 		"extensionalDisclosureRange": {
 			"@id": "w3:agent",
 			"@type": "@id",
-			"agentId": {
+			"id": {
 				"@id": "w3:agentId",
 				"@type": "xsd:integer"
 			},
-			"agentName": {
+			"name": {
 				"@id": "w3:agentName",
 				"@container": "@language"
 			},
-			"agentImage": {
+			"image": {
 				"@id": "w3:agentImage",
 				"@type": "@id"
 			},
@@ -62,33 +65,35 @@
 					"@type": "@id"
 				}
 			},
-			"agentStatus": "w3:agentStatus"
+			"status": "w3:agentStatus"
 		},
-		"myUserName": "w3:userName",
-		"myUserAvatar": "w3:userAvatar",
+		"me": {
+			"name": "w3:userName",
+			"avatar": "w3:userAvatar"
+		},
 		"myAgent": {
 			"@id": "w3:agent",
 			"@type": "@id",
-			"myAgentId": {
+			"id": {
 				"@id": "w3:agentId",
 				"@type": "xsd:integer"
 			},
-			"myAgentName": {
+			"name": {
 				"@id": "w3:agentName",
 				"@container": "@language"
 			},
-			"myAgentImage": {
+			"image": {
 				"@id": "w3:agentImage",
 				"@type": "@id"
 			},
-			"myRole": {
+			"role": {
 				"@id": "w3:role",
 				"@type": "@id",
-				"myRoleName": {
+				"name": {
 					"@id": "w3:roleName",
 					"@container": "@language"
 				},
-				"myRoleImage": {
+				"image": {
 					"@id": "@w3:roleImage",
 					"@type": "@id"
 				}
