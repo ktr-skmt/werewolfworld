@@ -13,7 +13,7 @@
 
 ## System outline
 
-<a href="https://werewolf.world/diagram/0.1/werewolf_system_outline.svg" target="_blank">![system outline](https://werewolf.world/diagram/0.1/werewolf_system_outline.png)</a>
+<a href="https://werewolf.world/diagram/0.2/werewolf_system_outline.svg" target="_blank">![system outline](https://werewolf.world/diagram/0.2/werewolf_system_outline.png)</a>
 
 ## Server-to-client message examples
 
