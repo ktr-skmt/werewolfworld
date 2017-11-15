@@ -1,0 +1,167 @@
+{
+	"@context": "https://werewolf.world/context/0.1/agent.jsonld",
+	"@id": "https://werewolf.world/resource/0.1/role",
+
+	"agent": [
+		{
+			"@id": "https://werewolf.world/resource/0.1/Gert",
+			"name": {
+				"en": "Gert",
+				"ja": "ゲルト"
+			},
+			"image": "https://werewolf.world/image/0.1/Gert.jpg"
+		},
+		{
+			"@id": "https://werewolf.world/resource/0.1/Walter",
+			"name": {
+				"en": "Walter",
+				"ja": "ヴァルター"
+			},
+			"image": "https://werewolf.world/image/0.1/Walter.jpg"
+		},
+		{
+			"@id": "https://werewolf.world/resource/0.1/Moritz",
+			"name": {
+				"en": "Moritz",
+				"ja": "モーリッツ"
+			},
+			"image": "https://werewolf.world/image/0.1/Moritz.jpg"
+		},
+		{
+			"@id": "https://werewolf.world/resource/0.1/Simson",
+			"name": {
+				"en": "Simson",
+				"ja": "ジムゾン"
+			},
+			"image": "https://werewolf.world/image/0.1/Simson.jpg"
+		},
+		{
+			"@id": "https://werewolf.world/resource/0.1/Thomas",
+			"name": {
+				"en": "Thomas",
+				"ja": "トーマス"
+			},
+			"image": "https://werewolf.world/image/0.1/Thomas.jpg"
+		},
+		{
+			"@id": "https://werewolf.world/resource/0.1/Nicholas",
+			"name": {
+				"en": "Nicholas",
+				"ja": "ニコラス"
+			},
+			"image": "https://werewolf.world/image/0.1/Nicholas.jpg"
+		},
+		{
+			"@id": "https://werewolf.world/resource/0.1/Dieter",
+			"name": {
+				"en": "Dieter",
+				"ja": "ディーター"
+			},
+			"image": "https://werewolf.world/image/0.1/Dieter.jpg"
+		},
+		{
+			"@id": "https://werewolf.world/resource/0.1/Peter",
+			"name": {
+				"en": "Peter",
+				"ja": "ペーター"
+			},
+			"image": "https://werewolf.world/image/0.1/Peter.jpg"
+		},
+		{
+			"@id": "https://werewolf.world/resource/0.1/Lisa",
+			"name": {
+				"en": "Lisa",
+				"ja": "リーザ"
+			},
+			"image": "https://werewolf.world/image/0.1/Lisa.jpg"
+		},
+		{
+			"@id": "https://werewolf.world/resource/0.1/Alvin",
+			"name": {
+				"en": "Alvin",
+				"ja": "アルビン"
+			},
+			"image": "https://werewolf.world/image/0.1/Alvin.jpg"
+		},
+		{
+			"@id": "https://werewolf.world/resource/0.1/Catalina",
+			"name": {
+				"en": "Catalina",
+				"ja": "カタリナ"
+			},
+			"image": "https://werewolf.world/image/0.1/Catalina.jpg"
+		},
+		{
+			"@id": "https://werewolf.world/resource/0.1/Otto",
+			"name": {
+				"en": "Otto",
+				"ja": "オットー"
+			},
+			"image": "https://werewolf.world/image/0.1/Otto.jpg"
+		},
+		{
+			"@id": "https://werewolf.world/resource/0.1/Joachim",
+			"name": {
+				"en": "Joachim",
+				"ja": "ヨアヒム"
+			},
+			"image": "https://werewolf.world/image/0.1/Joachim.jpg"
+		},
+		{
+			"@id": "https://werewolf.world/resource/0.1/Pamela",
+			"name": {
+				"en": "Pamela",
+				"ja": "パメラ"
+			},
+			"image": "https://werewolf.world/image/0.1/Pamela.jpg"
+		},
+		{
+			"@id": "https://werewolf.world/resource/0.1/Jacob",
+			"name": {
+				"en": "Jacob",
+				"ja": "ヤコブ"
+			},
+			"image": "https://werewolf.world/image/0.1/Jacob.jpg"
+		},
+		{
+			"@id": "https://werewolf.world/resource/0.1/Regina",
+			"name": {
+				"en": "Regina",
+				"ja": "レジーナ"
+			},
+			"image": "https://werewolf.world/image/0.1/Regina.jpg"
+		},
+		{
+			"@id": "https://werewolf.world/resource/0.1/Friedel",
+			"name": {
+				"en": "Friedel",
+				"ja": "フリーデル"
+			},
+			"image": "https://werewolf.world/image/0.1/Friedel.jpg"
+		},
+		{
+			"@id": "https://werewolf.world/resource/0.1/Erna",
+			"name": {
+				"en": "Erna",
+				"ja": "エルナ"
+			},
+			"image": "https://werewolf.world/image/0.1/Erna.jpg"
+		},
+		{
+			"@id": "https://werewolf.world/resource/0.1/Clara",
+			"name": {
+				"en": "Clara",
+				"ja": "クララ"
+			},
+			"image": "https://werewolf.world/image/0.1/Clara.jpg"
+		},
+		{
+			"@id": "https://werewolf.world/resource/0.1/Simon",
+			"name": {
+				"en": "Simon",
+				"ja": "シモン"
+			},
+			"image": "https://werewolf.world/image/0.1/Simon.jpg"
+		}
+	]
+}

@@ -1,0 +1,98 @@
+{
+	"@context":	{
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"w3": "https://werewolf.world/resource/0.1/",
+		"villageId": {
+			"@id": "w3:villageId",
+			"@type": "xsd:integer"
+		},
+		"villageName": "w3:villageName",
+		"totalNumberOfAgents": {
+			"@id": "w3:totalNumberOfAgents",
+			"@type": "xsd:integer"
+		},
+		"token": "w3:token",
+		"phase": "w3:phase",
+		"date": {
+			"@id": "w3:date",
+			"@type": "xsd:integer"
+		},
+		"phaseTimeLimit": {
+			"@id": "w3:phaseTimeLimit",
+			"@type": "xsd:integer"
+		},
+		"phaseStartTime": {
+			"@id": "w3:phaseStartTime",
+			"@type": "xsd:dateTime"
+		},
+		"serverTimestamp": {
+			"@id": "w3:timestamp",
+			"@type": "xsd:dateTime"
+		},
+		"clientTimestamp": {
+			"@id": "w3:timestamp",
+			"@type": "xsd:dateTime"
+		},
+		"directionality": "w3:directionality",
+		"intensionalDisclosureRange": "w3:channel",
+		"extensionalDisclosureRange": {
+			"@id": "w3:agent",
+			"@type": "@id",
+			"agentId": {
+				"@id": "w3:agentId",
+				"@type": "xsd:integer"
+			},
+			"agentName": {
+				"@id": "w3:agentName",
+				"@container": "@language"
+			},
+			"agentImage": {
+				"@id": "w3:agentImage",
+				"@type": "@id"
+			},
+			"role": {
+				"@id": "w3:role",
+				"@type": "@id",
+				"roleName": {
+					"@id": "w3:roleName",
+					"@container": "@language"
+				},
+				"roleImage": {
+					"@id": "w3:roleImage",
+					"@type": "@id"
+				}
+			},
+			"agentStatus": "w3:agentStatus"
+		},
+		"myUserName": "w3:userName",
+		"myUserAvatar": "w3:userAvatar",
+		"myAgent": {
+			"@id": "w3:agent",
+			"@type": "@id",
+			"myAgentId": {
+				"@id": "w3:agentId",
+				"@type": "xsd:integer"
+			},
+			"myAgentName": {
+				"@id": "w3:agentName",
+				"@container": "@language"
+			},
+			"myAgentImage": {
+				"@id": "w3:agentImage",
+				"@type": "@id"
+			},
+			"myRole": {
+				"@id": "w3:role",
+				"@type": "@id",
+				"myRoleName": {
+					"@id": "w3:roleName",
+					"@container": "@language"
+				},
+				"myRoleImage": {
+					"@id": "@w3:roleImage",
+					"@type": "@id"
+				}
+			}
+		}
+	}
+}

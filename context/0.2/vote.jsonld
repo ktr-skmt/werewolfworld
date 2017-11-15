@@ -1,0 +1,22 @@
+{
+	"@context": {
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"w3": "https://werewolf.world/resource/0.1/",
+		"votedAgent": {
+			"@id": "w3:agent",
+			"@type": "@id",
+			"votedAgentId": {
+				"@id": "w3:agentId",
+				"@type": "xsd:interger"
+			},
+			"votedAgentName": {
+				"@id": "w3:agentName",
+				"@container": "@language"
+			},
+			"votedAgentImage": {
+				"@id": "w3:agentImage",
+				"@type": "@id"
+			}
+		}
+	}
+}

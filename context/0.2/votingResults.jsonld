@@ -1,0 +1,68 @@
+{
+	"@context": {
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"w3": "https://werewolf.world/resource/0.1/",
+		"votingResultsSummary": {
+			"@id": "w3:votingResultsSummary",
+			"agentToLynch": {
+				"@id": "w3:agent",
+				"@type": "@id",
+				"agentId": {
+					"@id": "w3:agentId",
+					"@type": "xsd:integer"
+				},
+				"agentName": {
+					"@id": "w3:agentName",
+					"@container": "@language"
+				},
+				"agentImage": {
+					"@id": "w3:agentImage",
+					"@type": "@id"
+				}
+			},
+			"numberOfVotes": {
+				"@id": "w3:numberOfVotes",
+				"@type": "xsd:integer"
+			},
+			"rankOfVotes": {
+				"@id": "w3:rankOfVotes",
+				"@type": "xsd:integer"
+			}
+		},
+		"votingResultsDetails": {
+			"@id": "w3:votingResultsDetails",
+			"sourceAgent": {
+				"@id": "w3:agent",
+				"@type": "@id",
+				"sourceAgentId": {
+					"@id": "w3:agentId",
+					"@type": "xsd:integer"
+				},
+				"sourceAgentName": {
+					"@id": "w3:agentName",
+					"@container": "@language"
+				},
+				"sourceAgentImage": {
+					"@id": "w3:agentImage",
+					"@type": "@id"
+				}
+			},
+			"targetAgentId": {
+				"@id": "w3:agent",
+				"@type": "@id",
+				"targetAgentId": {
+					"@id": "w3:agentId",
+					"@type": "xsd:integer"
+				},
+				"targetAgentName": {
+					"@id": "w3:agentName",
+					"@container": "@language"
+				},
+				"targetAgentImage": {
+					"@id": "w3:agentImage",
+					"@type": "@id"
+				}
+			}
+		}
+	}
+}

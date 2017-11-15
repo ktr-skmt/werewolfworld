@@ -1,0 +1,54 @@
+{
+	"@context": {
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"w3": "https://werewolf.world/resource/0.1/",
+		"agent": {
+			"@id": "w3:agent",
+			"@type": "@id"
+		},
+		"agentIsMine": {
+			"@id": "w3:agentIsMine",
+			"@type": "xsd:boolean"
+		},
+		"name": {
+			"@id": "w3:agentName",
+			"@container": "@language"
+		},
+		"image": {
+			"@id": "w3:agentImage",
+			"@type": "@id"
+		},
+		"id": {
+			"@id": "w3:agentId",
+			"@type": "xsd:integer"
+		},
+		"role": {
+			"@id": "w3:role",
+			"@type": "@id",
+			"roleName": {
+				"@id": "w3:roleName",
+				"@container": "@language"
+			},
+			"roleImage": {
+				"@id": "w3:roleImage",
+				"@type": "@id"
+			}
+		},
+		"status": "w3:agentStatus",
+		"statusUpdatePhase": "w3:phase",
+		"statusUpdateDate": {
+			"@id": "w3:date",
+			"@type": "xsd:integer"
+		},
+		"isAChoice": {
+			"@id": "w3:agentIsAChoice",
+			"@type": "xsd:boolean"
+		},
+		"result": "w3:result",
+		"userName": "w3:userName",
+		"userAvatar": {
+			"@id": "w3:userAvatar",
+			"@type": "@id"
+		}
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"@context": [
+		"https://werewolf.world/context/0.1/base.jsonld",
+		"https://werewolf.world/context/0.1/chat.jsonld"
+	],
+
+	"@id": "https://werewolf.world/resource/0.1/playerMessage",
+
+	"villageId": 3,
+	"villageName": "横国の森の奥にある時代に取り残された小さな村",
+	"totalNumberOfAgents": 15,
+	"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
+	"phase": "day conversation",
+	"date": 1,
+	"phaseTimeLimit": 600,
+	"phaseStartTime": "2006-10-07T12:06:56.568+09:00",
+	"serverTimestamp": "2006-10-07T12:06:56.568+09:00",
+	"clientTimestamp": "2006-10-07T12:06:56.568+09:00",
+	"directionality": "client to server",
+	"intensionalDisclosureRange": "public",
+	"extensionalDisclosureRange": [],
+	"myAgent": {
+		"@id": "https://werewolf.world/resource/0.1/Walter",
+		"myAgentId": 1,
+		"myAgentName": {
+			"en": "Walter",
+			"ja": "ヴァルター"
+		},
+		"myAgentImage": "https://werewolf.world/image/0.1/Walter.jpg",
+		"myRole": {
+			"@id": "https://werewolf.world/resource/0.1/werewolf",
+			"myRoleName": {
+				"en": "Werewolf",
+				"ja": "人狼"
+			},
+			"myRoleImage": "https://werewolf.world/image/0.1/werewolf.jpg"
+		}
+	},
+	
+	"chatAgent": {
+		"@id": "https://werewolf.world/resource/0.1/Walter",
+		"chatAgentId": 1,
+		"chatAgentName": {
+			"en": "Walter",
+			"ja": "ヴァルター"
+		},
+		"chatAgentImage": "https://werewolf.world/image/0.1/Walter.jpg"
+	},
+	"chatIsMine": true,
+	"chatText": ">>11\nそれで、あなたは人狼が誰だと思うの？\n\n私はパメラが人狼だと思う。",
+	"chatCharacterLimit": 140,
+	"chatLanguage": "ja",
+	"chatIsOver": false
+}

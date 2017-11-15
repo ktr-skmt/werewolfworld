@@ -1,0 +1,49 @@
+{
+	"@context": [
+		"https://werewolf.world/context/0.1/base.jsonld",
+		"https://werewolf.world/context/0.1/vote.jsonld"
+	],
+
+	"@id": "https://werewolf.world/resource/0.1/voteMessage",
+
+	"villageId": 3,
+	"villageName": "横国の森の奥にある時代に取り残された小さな村",
+	"totalNumberOfAgents": 15,
+	"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
+	"phase": "night",
+	"date": 1,
+	"phaseTimeLimit": 180,
+	"phaseStartTime": "2006-10-07T12:06:56.568+09:00",
+	"serverTimestamp": "2006-10-07T12:06:56.568+09:00",
+	"clientTimestamp": "2006-10-07T12:06:56.568+09:00",
+	"directionality": "client to server",
+	"intensionalDisclosureRange": "werewolf",
+	"extensionalDisclosureRange": [],
+	"myAgent": {
+		"@id": "https://werewolf.world/resource/0.1/Walter",
+		"myAgentId": 1,
+		"myAgentName": {
+			"en": "Walter",
+			"ja": "ヴァルター"
+		},
+		"myAgentImage": "https://werewolf.world/image/0.1/Walter.jpg",
+		"myRole": {
+			"@id": "https://werewolf.world/resource/0.1/werewolf",
+			"myRoleName": {
+				"en": "Werewolf",
+				"ja": "人狼"
+			},
+			"myRoleImage": "https://werewolf.world/image/0.1/werewolf.jpg"
+		}
+	},
+
+	"votedAgent": {
+		"@id": "https://werewolf.world/resource/0.1/Simson",
+		"votedAgentId": 3,
+		"votedAgentName": {
+			"en": "Simson",
+			"ja": "ジムゾン"
+		},
+		"votedAgentImage": "https://werewolf.world/image/0.1/Simson.jpg"
+	}
+}
