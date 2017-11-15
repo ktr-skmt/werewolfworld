@@ -2,43 +2,43 @@
 	"@context": {
 		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"w3": "https://werewolf.world/resource/0.1/",
-		"chatIsMine": {
+		"isMine": {
 			"@id": "w3:chatIsMine",
 			"@type": "xsd:boolean"
 		},
-		"chatAgent": {
+		"agent": {
 			"@id": "w3:agent",
 			"@type": "@id",
-			"chatAgentId": {
+			"id": {
 				"@id": "w3:agentId",
 				"@type": "xsd:integer"
 			},
-			"chatAgentName": {
+			"name": {
 				"@id": "w3:agentName",
 				"@type": "@language"
 			},
-			"chatAgentImage": {
+			"image": {
 				"@id": "w3:agentImage",
 				"@type": "@id"
 			}
 		},
-		"chatUserName": "w3:userName",
-		"chatUserAvatar": {
-			"@id": "w3:userAvatar",
-			"@type": "@id"
+		"user": {
+			"@id": "w3:user",
+			"@type": "@id",
+			"name": "w3:userName",
+			"avatar": {
+				"@id": "w3:userAvatar",
+				"@type": "@id"
+			}
+			
 		},
-		"chatId": "w3:chatId",
-		"chatCounter": "w3:chatCounter",
-		"chatLimit": "w3:chatLimit",
-		"chatInterval": "w3:chatInterval",
-		"chatText": "w3:chatText",
-		"chatCharacterLimit": "w3:chatCharacterLimit",
-		"chatLanguage": "w3:chatLanguage",
-		"chatIsOver": "w3:chatIsOver",
-		"chatUserName": "w3:userName",
-		"chatUserAvatar": {
-			"@id": "w3:userAvatar",
-			"@type": "@id"
-		}
+		"id": "w3:chatId",
+		"counter": "w3:chatCounter",
+		"limit": "w3:chatLimit",
+		"interval": "w3:chatInterval",
+		"text": "w3:chatText",
+		"characterLimit": "w3:chatCharacterLimit",
+		"language": "w3:chatLanguage",
+		"isOver": "w3:chatIsOver"
 	}
 }
