@@ -7,15 +7,15 @@
 			"agentToLynch": {
 				"@id": "w3:agent",
 				"@type": "@id",
-				"agentId": {
+				"id": {
 					"@id": "w3:agentId",
 					"@type": "xsd:integer"
 				},
-				"agentName": {
+				"name": {
 					"@id": "w3:agentName",
 					"@container": "@language"
 				},
-				"agentImage": {
+				"image": {
 					"@id": "w3:agentImage",
 					"@type": "@id"
 				}
@@ -34,31 +34,31 @@
 			"sourceAgent": {
 				"@id": "w3:agent",
 				"@type": "@id",
-				"sourceAgentId": {
+				"id": {
 					"@id": "w3:agentId",
 					"@type": "xsd:integer"
 				},
-				"sourceAgentName": {
+				"name": {
 					"@id": "w3:agentName",
 					"@container": "@language"
 				},
-				"sourceAgentImage": {
+				"image": {
 					"@id": "w3:agentImage",
 					"@type": "@id"
 				}
 			},
-			"targetAgentId": {
+			"targetAgent": {
 				"@id": "w3:agent",
 				"@type": "@id",
-				"targetAgentId": {
+				"id": {
 					"@id": "w3:agentId",
 					"@type": "xsd:integer"
 				},
-				"targetAgentName": {
+				"name": {
 					"@id": "w3:agentName",
 					"@container": "@language"
 				},
-				"targetAgentImage": {
+				"image": {
 					"@id": "w3:agentImage",
 					"@type": "@id"
 				}
