@@ -6,7 +6,7 @@
 			"@id": "w3:agent",
 			"@type": "@id"
 		},
-		"agentIsMine": {
+		"isMine": {
 			"@id": "w3:agentIsMine",
 			"@type": "xsd:boolean"
 		},
@@ -45,10 +45,14 @@
 			"@type": "xsd:boolean"
 		},
 		"result": "w3:result",
-		"userName": "w3:userName",
-		"userAvatar": {
-			"@id": "w3:userAvatar",
-			"@type": "@id"
+		"user": {
+			"@id": "w3:user",
+			"@type": "@id",
+			"name": "w3:userName",
+			"avatar": {
+				"@id": "w3:userAvatar",
+				"@type": "@id"
+			}
 		}
 	}
 }
