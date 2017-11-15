@@ -47,7 +47,7 @@
 					"@type": "@id"
 				}
 			},
-			"targetAgentId": {
+			"targetAgent": {
 				"@id": "w3:agent",
 				"@type": "@id",
 				"targetAgentId": {
