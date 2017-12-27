@@ -19,31 +19,31 @@
 	"directionality": "client to server",
 	"intensionalDisclosureRange": "werewolf",
 	"extensionalDisclosureRange": [],
-	"myAgent": {
+	"agent": {
 		"@id": "https://werewolf.world/resource/0.1/Walter",
-		"myAgentId": 1,
-		"myAgentName": {
+		"id": 1,
+		"name": {
 			"en": "Walter",
 			"ja": "ヴァルター"
 		},
-		"myAgentImage": "https://werewolf.world/image/0.1/Walter.jpg",
-		"myRole": {
+		"image": "https://werewolf.world/image/0.1/Walter.jpg",
+		"role": {
 			"@id": "https://werewolf.world/resource/0.1/werewolf",
-			"myRoleName": {
+			"name": {
 				"en": "Werewolf",
 				"ja": "人狼"
 			},
-			"myRoleImage": "https://werewolf.world/image/0.1/werewolf.jpg"
+			"image": "https://werewolf.world/image/0.1/werewolf.jpg"
 		}
 	},
 
 	"votedAgent": {
 		"@id": "https://werewolf.world/resource/0.1/Simson",
-		"votedAgentId": 3,
-		"votedAgentName": {
+		"id": 3,
+		"name": {
 			"en": "Simson",
 			"ja": "ジムゾン"
 		},
-		"votedAgentImage": "https://werewolf.world/image/0.1/Simson.jpg"
+		"image": "https://werewolf.world/image/0.1/Simson.jpg"
 	}
 }
