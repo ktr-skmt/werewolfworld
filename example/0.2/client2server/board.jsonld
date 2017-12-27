@@ -37,7 +37,7 @@
 		}
 	},
 	
-	"boardAgent": {
+	"agent": {
 		"@id": "https://werewolf.world/resource/0.1/Thomas",
 		"id": 4,
 		"name": {
@@ -46,7 +46,7 @@
 		},
 		"image": "https://werewolf.world/image/0.1/Thomas.jpg"
 	},
-	"boardRole": {
+	"role": {
 		"@id": "https://werewolf.world/resource/0.1/madman",
 		"name": {
 			"en": "Madman",
