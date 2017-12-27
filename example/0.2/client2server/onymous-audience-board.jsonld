@@ -22,22 +22,22 @@
 	"myUserName": "加藤",
 	"myUserAvatar": "https://werewolf.world/image/0.1/Regina.jpg",
 	
-	"boardAgent": {
+	"agent": {
 		"@id": "https://werewolf.world/resource/0.1/Thomas",
-		"boardAgentId": 4,
-		"boardAgentName": {
+		"id": 4,
+		"name": {
 			"en": "Thomas",
 			"ja": "トーマス"
 		},
-		"boardAgentImage": "https://werewolf.world/image/0.1/Thomas.jpg"
+		"image": "https://werewolf.world/image/0.1/Thomas.jpg"
 	},
-	"boardRole": {
+	"role": {
 		"@id": "https://werewolf.world/resource/0.1/madman",
-		"boardRoleName": {
+		"name": {
 			"en": "Madman",
 			"ja": "狂人"
 		},
-		"boardRoleImage": "https://werewolf.world/image/0.1/madman.jpg"
+		"image": "https://werewolf.world/image/0.1/madman.jpg"
 	},
-	"boardPrediction": "X"
+	"prediction": "X"
 }
