@@ -21,38 +21,38 @@
 	"extensionalDisclosureRange": [],
 	"myAgent": {
 		"@id": "https://werewolf.world/resource/0.1/Walter",
-		"myAgentId": 1,
-		"myAgentName": {
+		"id": 1,
+		"name": {
 			"en": "Walter",
 			"ja": "ヴァルター"
 		},
-		"myAgentImage": "https://werewolf.world/image/0.1/Walter.jpg",
-		"myRole": {
+		"image": "https://werewolf.world/image/0.1/Walter.jpg",
+		"role": {
 			"@id": "https://werewolf.world/resource/0.1/werewolf",
-			"myRoleName": {
+			"name": {
 				"en": "Werewolf",
 				"ja": "人狼"
 			},
-			"myRoleImage": "https://werewolf.world/image/0.1/werewolf.jpg"
+			"image": "https://werewolf.world/image/0.1/werewolf.jpg"
 		}
 	},
 	
 	"boardAgent": {
 		"@id": "https://werewolf.world/resource/0.1/Thomas",
-		"agentId": 4,
-		"agentName": {
+		"id": 4,
+		"name": {
 			"en": "Thomas",
 			"ja": "トーマス"
 		},
-		"agentImage": "https://werewolf.world/image/0.1/Thomas.jpg"
+		"image": "https://werewolf.world/image/0.1/Thomas.jpg"
 	},
 	"boardRole": {
 		"@id": "https://werewolf.world/resource/0.1/madman",
-		"roleName": {
+		"name": {
 			"en": "Madman",
 			"ja": "狂人"
 		},
-		"roleImage": "https://werewolf.world/image/0.1/madman.jpg"
+		"image": "https://werewolf.world/image/0.1/madman.jpg"
 	},
-	"boardPrediction": "X"
+	"prediction": "X"
 }
