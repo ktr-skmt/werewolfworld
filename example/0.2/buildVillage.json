@@ -1,0 +1,32 @@
+{
+  "name": "Alice's village",
+  "id": -1,
+  "hostPlayer": {
+    "name": "Alice",
+    "isAnonymous": false
+  },
+  "playerSetting": {
+    "number": 15,
+    "current": -1,
+    "robot": {
+      "min": 7,
+      "current": -1
+    },
+    "human": {
+      "max": 8,
+      "current": -1
+    }
+  },
+  "roleSetting": {
+    "villager": 6,
+    "werewolf": 2,
+    "seer": 1,
+    "medium": 1,
+    "madman": 1,
+    "hunter": 1,
+    "mason": 2,
+    "werehumster": 1
+  },
+  "avatar": "fixed",
+  "comment": "Experts recommended"
+}
