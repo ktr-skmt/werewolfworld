@@ -1,4 +1,5 @@
 {
+  "predicate": "select village",
   "village": {
     "id": 2
   }
