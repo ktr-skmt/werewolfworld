@@ -34,6 +34,7 @@
 
   "players": [
     {
+      "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3301",
       "name": "Anonymous",
       "avatarImage": null,
       "isAnonymous": true,
@@ -41,6 +42,7 @@
       "isMe": false
     },
     {
+      "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3301",
       "name": "Cathy",
       "avatarImage": "https://werewolf.world/image/0.1/Friedel.jpg",
       "isAnonymous": true,
@@ -48,6 +50,7 @@
       "isMe": true
     },
     {
+      "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3301",
       "name": "Anonymous",
       "avatarImage": null,
       "isAnonymous": true,
@@ -55,6 +58,7 @@
       "isMe": false
     },
     {
+      "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3301",
       "name": "Anonymous",
       "avatarImage": null,
       "isAnonymous": true,
@@ -62,6 +66,7 @@
       "isMe": false
     },
     {
+      "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3301",
       "name": "Anonymous",
       "avatarImage": null,
       "isAnonymous": true,
@@ -69,6 +74,7 @@
       "isMe": false
     },
     {
+      "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3301",
       "name": "Anonymous",
       "avatarImage": null,
       "isAnonymous": true,
@@ -76,6 +82,7 @@
       "isMe": false
     },
     {
+      "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3301",
       "name": "Anonymous",
       "avatarImage": null,
       "isAnonymous": true,
@@ -83,6 +90,7 @@
       "isMe": false
     },
     {
+      "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3301",
       "name": "Anonymous",
       "avatarImage": null,
       "isAnonymous": true,
