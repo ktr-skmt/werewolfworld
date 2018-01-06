@@ -1,5 +1,5 @@
 {
-  "page": "waitingPage",
+  "type": "waitingPage",
   "village": {
     "name": "Fairytale village",
     "id": 1,
