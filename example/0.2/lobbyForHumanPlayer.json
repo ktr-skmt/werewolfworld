@@ -1,5 +1,5 @@
 {
-  "page": "lobby",
+  "type": "lobby",
   "villages": [
     {
       "name": "Alice's village",
