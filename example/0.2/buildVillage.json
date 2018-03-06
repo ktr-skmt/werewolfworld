@@ -3,7 +3,8 @@
   "id": -1,
   "hostPlayer": {
     "name": "Alice",
-    "isAnonymous": false
+    "isAnonymous": false,
+    "isHuman": true
   },
   "playerSetting": {
     "number": 15,
