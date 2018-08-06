@@ -12,7 +12,9 @@
 
 ## Version
 
-Our plan is to release the protocol 0.1 (wild) at 3 November. Until then, no version is available.
+Release the protocol 0.1 (wild) at 3 November, 2017.
+
+Our plan is to release the protocol 0.2 at 10 October, 2018.
 
 ## Update history
 
@@ -34,7 +36,9 @@ UTF-8 (without Byte Order Mark)
 
 ## Contexts and IRIs
 
-See [https://werewolf.world/context/0.1/](http://werewolf.world/context/0.1/)
+version 0.2 [https://werewolf.world/context/0.2/](http://werewolf.world/context/0.2/)
+
+version 0.1 [https://werewolf.world/context/0.1/](http://werewolf.world/context/0.1/)
 
 # Examples
 
@@ -46,7 +50,10 @@ See [https://werewolf.world/context/0.1/](http://werewolf.world/context/0.1/)
   - Client-to-server message examples
   - Server-to-logger message examples
 
-See [https://werewolf.world/example/0.1/](http://werewolf.world/example/0.1/)
+version 0.2 [https://werewolf.world/example/0.2/](http://werewolf.world/example/0.2/)
+
+version 0.1 [https://werewolf.world/example/0.1/](http://werewolf.world/example/0.1/)
+
 
 # License
 
