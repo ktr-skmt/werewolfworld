@@ -54,7 +54,7 @@ version 0.2 [https://werewolf.world/example/0.2/](http://werewolf.world/example/
 
 version 0.1 [https://werewolf.world/example/0.1/](http://werewolf.world/example/0.1/)
 
-## JSON for Lobby sessions
+## JSON for lobby sessions
 
 version 0.2 [https://werewolf.world/example/0.2/lobby](https://werewolf.world/example/0.2/lobby)
 
