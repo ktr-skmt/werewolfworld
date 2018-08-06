@@ -56,6 +56,8 @@ version 0.1 [https://werewolf.world/example/0.1/](http://werewolf.world/example/
 
 ## JSON for lobby sessions
 
+Note that this is not a JSON-LD format.
+
 version 0.2 [https://werewolf.world/example/0.2/lobby](https://werewolf.world/example/0.2/lobby)
 
 version 0.1 nothing
