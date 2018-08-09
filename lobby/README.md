@@ -1,3 +1,7 @@
+["@homepage": "https://werewolf.world"](https://werewolf.world)
+
+"version": "0.2"
+
 # Lobby JSON Format
 
 ## JSON Schemata
