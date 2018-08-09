@@ -1,3 +1,8 @@
+["@lobby": "https://werewolf.world/lobby"](https://werewolf.world/lobby)
+
+"version": "0.2"
+
+
 # Schema of Lobby JSON Format
 
 ## Client to Server
