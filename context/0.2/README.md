@@ -33,7 +33,7 @@
 
 |IRI|Type|Values|
 ---|---|---
-|https://werewolf.world/resource/0.2/token||(GUID)|
+|https://werewolf.world/resource/0.2/token||"[0-9A-Fa-f]{8}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{12}"(GUID)|
 |https://werewolf.world/resource/0.2/villageId|xsd:integer|0 <=|
 |https://werewolf.world/resource/0.2/villageName||5 <= {# of Unicode code points} <= 30|
 |https://werewolf.world/resource/0.2/totalNumberOfAgents|xsd:integer|4 <=|
