@@ -1,0 +1,328 @@
+{
+  "title": "werewolf.world: Schema of buildVillage.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://werewolf.world/example/0,2/lobby/schema/client2server/buildVillage.json",
+  "definitions": {},
+  "type": "object",
+  "properties": {
+    "type": {
+      "title": "Type",
+      "description": "type",
+      "$id": "/properties/type",
+      "type": "string",
+      "pattern": "^buildVillage$",
+      "default": "buildVillage",
+      "examples": [
+        "buildVillage"
+      ]
+    },
+    "token": {
+      "title": "User Token",
+      "description": "GUID",
+      "$id": "/properties/token",
+      "type": "string",
+      "pattern": "^[0-9A-Fa-f]{8}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{12}$",
+      "examples": [
+        "3F2504E0-4F89-11D3-9A0C-0305E82C3301"
+      ]
+    },
+    "name": {
+      "title": "Village Name",
+      "description": "village name",
+      "$id": "/properties/name",
+      "type": "string",
+      "minLength": 5,
+      "maxLength": 30,
+      "examples": [
+        "Alice's village"
+      ]
+    },
+    "id": {
+      "title": "Village ID",
+      "description": "-1 (means village id which does not exist)",
+      "$id": "/properties/id",
+      "type": "integer",
+      "minimum": -1,
+      "default": -1,
+      "examples": [
+        -1
+      ]
+    },
+    "hostPlayer": {
+      "title": "Host Player",
+      "description": "host player info",
+      "$id": "/properties/hostPlayer",
+      "type": "object",
+      "properties": {
+        "name": {
+          "title": "Host Player Name",
+          "description": "host player's name",
+          "$id": "/properties/hostPlayer/properties/name",
+          "type": "string",
+          "minLength": 5,
+          "maxLength": 15,
+          "examples": [
+            "Alice"
+          ]
+        },
+        "isAnonymous": {
+          "title": "Host Player Anonymity",
+          "description": "is the host player anonymous?",
+          "$id": "/properties/hostPlayer/properties/isAnonymous",
+          "type": "boolean",
+          "examples": [
+            false,
+            true
+          ]
+        },
+        "isHuman": {
+          "title": "Host Player Humanity",
+          "description": "is the host player a human?",
+          "$id": "/properties/hostPlayer/properties/isHuman",
+          "type": "boolean",
+          "examples": [
+            true,
+            false
+          ]
+        }
+      },
+      "required": [
+        "name",
+        "isAnonymous",
+        "isHuman"
+      ]
+    },
+    "playerSetting": {
+      "title": "Player Settings",
+      "description": "player settings",
+      "$id": "/properties/playerSetting",
+      "type": "object",
+      "properties": {
+        "number": {
+          "title": "The Number of Players",
+          "description": "the number of players",
+          "$id": "/properties/playerSetting/properties/number",
+          "type": "integer",
+          "minimum": 4,
+          "examples": [
+            15
+          ]
+        },
+        "current": {
+          "title": "The Number of Waiting Players",
+          "description": "-1 (the number of current waiting players)",
+          "$id": "/properties/playerSetting/properties/current",
+          "type": "integer",
+          "minimum": -1,
+          "default": -1,
+          "examples": [
+            -1
+          ]
+        },
+        "robot": {
+          "title": "Robot Player Settings",
+          "description": "robot player settings",
+          "$id": "/properties/playerSetting/properties/robot",
+          "type": "object",
+          "properties": {
+            "min": {
+              "title": "The Minimum Number of Robot Players",
+              "description": "the minimum number of robot players",
+              "$id": "/properties/playerSetting/properties/robot/properties/min",
+              "type": "integer",
+              "minimum": 0,
+              "examples": [
+                7
+              ]
+            },
+            "current": {
+              "title": "The Current Number of Robot Players",
+              "description": "-1 (the number of current waiting robot players)",
+              "$id": "/properties/playerSetting/properties/robot/properties/current",
+              "type": "integer",
+              "minimum": -1,
+              "default": -1,
+              "examples": [
+                -1
+              ]
+            }  
+          },
+          "required": [
+            "min",
+            "current"
+          ]
+        },
+        "human": {
+          "title": "Human Player Settings",
+          "description": "human player settings",
+          "$id": "/properties/playerSetting/properties/human",
+          "type": "object",
+          "properties": {
+            "max": {
+              "title": "The Maximum Number of Human Players",
+              "description": "the maximum number of human players",
+              "$id": "/properties/playerSetting/properties/human/properties/max",
+              "type": "integer",
+              "minimum": 0,
+              "examples": [
+                8
+              ]
+            },
+            "current": {
+              "title": "The Current Number of Human Players",
+              "description": "-1 (the number of current waiting human players)",
+              "$id": "/properties/playerSetting/properties/human/properties/current",
+              "type": "integer",
+              "minimum": -1,
+              "default": -1,
+              "examples": [
+                -1
+              ]
+            }
+          },
+          "required": [
+            "max",
+            "current"
+          ]
+        }
+      },
+      "required": [
+        "number",
+        "current",
+        "robot",
+        "human"
+      ]
+    },
+    "roleSetting": {
+      "title": "Role Settings",
+      "description": "role setting",
+      "$id": "/properties/roleSetting",
+      "type": "object",
+      "properties": {
+        "villager": {
+          "title": "The Number of Villagers",
+          "description": "the number of villagers",
+          "$id": "/properties/roleSetting/properties/villager",
+          "type": "integer",
+          "minimum": 0,
+          "examples": [
+            6
+          ]
+        },
+        "werewolf": {
+          "title": "The Number of Werewolves",
+          "description": "the number of werewolves",
+          "$id": "/properties/roleSetting/properties/werewolf",
+          "type": "integer",
+          "minimum": 0,          
+          "examples": [
+            2
+          ]
+        },
+        "seer": {
+          "title": "The Number of Seers",
+          "description": "the number of seers",
+          "$id": "/properties/roleSetting/properties/seer",
+          "type": "integer",
+          "minimum": 0,
+          "examples": [
+            1
+          ]
+        },
+        "medium": {
+          "title": "The Number of Mediums",
+          "description": "the number of mediums",
+          "$id": "/properties/roleSetting/properties/medium",
+          "type": "integer",
+          "minimum": 0,
+          "examples": [
+            1
+          ]
+        },
+        "madman": {
+          "title": "The Number of Madmen",
+          "description": "the number of madmen",
+          "$id": "/properties/roleSetting/properties/madman",
+          "type": "integer",
+          "minimum": 0,
+          "examples": [
+            1
+          ]
+        },
+        "hunter": {
+          "title": "The Number of Hunters",
+          "description": "the number of hunters",
+          "$id": "/properties/roleSetting/properties/hunter",
+          "type": "integer",
+          "minimum": 0,
+          "examples": [
+            1
+          ]
+        },
+        "mason": {
+          "title": "The Number of Masons",
+          "description": "the number of masons",
+          "$id": "/properties/roleSetting/properties/mason",
+          "type": "integer",
+          "minimum": 0,
+          "examples": [
+            2
+          ]
+        },
+        "werehumster": {
+          "title": "The Number of Werehumsters",
+          "description": "the number of werewhumsters",
+          "$id": "/properties/roleSetting/properties/werehumster",
+          "type": "integer",
+          "minimum": 0,
+          "examples": [
+            1
+          ]
+        }
+      },
+      "required": [
+        "villager",
+        "werewolf",
+        "seer",
+        "medium",
+        "madman",
+        "hunter",
+        "mason",
+        "werehumster"
+      ]
+    },
+    "avatar": {
+      "title": "Avatar Selection",
+      "description": "'fixed' or 'random'",
+      "$id": "/properties/avatar",
+      "type": "string",
+      "enum": ["fixed", "random"],
+      "default": "random",
+      "examples": [
+        "random",
+        "fixed"
+      ]
+    },
+    "comment": {
+      "title": "Comment",
+      "description": "village comment",
+      "$id": "/properties/comment",
+      "type": ["string", "null"],
+      "maxLength": 100,
+      "examples": [
+        "Experts recommended",
+        null
+      ]
+    }
+  },
+  "required": [
+    "token",
+    "name",
+    "id",
+    "hostPlayer",
+    "playerSetting",
+    "roleSetting",
+    "avatar",
+    "comment"
+  ]
+}

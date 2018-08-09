@@ -6,7 +6,8 @@
       "id": 1,
       "hostPlayer": {
         "name": "Alice",
-        "isAnonymous": false
+        "isAnonymous": false,
+        "isHuman": true
       },
       "playerSetting": {
         "number": 15,
@@ -38,7 +39,8 @@
       "id": 2,
       "hostPlayer": {
         "name": "Anonymous",
-        "isAnonymous": true
+        "isAnonymous": true,
+        "isHuman": true
       },
       "playerSetting": {
         "number": 5,

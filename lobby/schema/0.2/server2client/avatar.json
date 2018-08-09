@@ -1,0 +1,58 @@
+{
+  "title": "werewolf.world: Schema of avatar.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://werewolf.world/example/0,2/lobby/schema/server2client/avatar.json",
+  "definitions": {},
+  "type": "object",
+  "properties": {
+    "type": {
+      "title": "Type",
+      "description": "type",
+      "$id": "/properties/type",
+      "type": "string",
+      "pattern": "^avatar$",
+      "default": "avatar",
+      "examples": [
+        "avatar"
+      ]
+    },
+    "token": {
+      "title": "User Token",
+      "description": "GUID",
+      "$id": "/properties/token",
+      "type": "string",
+      "pattern": "^[0-9A-Fa-f]{8}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{12}$",
+      "examples": [
+        "3F2504E0-4F89-11D3-9A0C-0305E82C3301"
+      ]
+    },
+    "name": {
+      "title": "Avatar Name",
+      "description": "avatar name",
+      "$id": "/properties/name",
+      "type": "string",
+      "minLength": 5,
+      "maxLength": 15,
+      "examples": [
+        "Alice"
+      ]
+    },
+    "image": {
+      "title": "Image File Path",
+      "description": "image file path",
+      "$id": "/properties/image",
+      "type": "string",
+      "minLength": 25,
+      "default": "/assets/images/avatar/default/user.png",
+      "examples": [
+        "/assets/images/avatar/default/user.png"
+      ]
+    }
+  },
+  "requied": [
+    "type",
+    "token",
+    "name",
+    "image"
+  ]
+}

@@ -5,7 +5,8 @@
     "id": 1,
     "hostPlayer": {
       "name": "Anonymous",
-      "isAnonymous": true
+      "isAnonymous": true,
+      "isHuman": true
     },
     "playerSetting": {
       "number": 15,
@@ -37,7 +38,7 @@
     {
       "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3301",
       "name": "Anonymous",
-      "avatarImage": null,
+      "avatarImage": "/assets/images/avatar/default/user.png",
       "isAnonymous": true,
       "isHost": true,
       "isMe": false
@@ -53,7 +54,7 @@
     {
       "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3301",
       "name": "Anonymous",
-      "avatarImage": null,
+      "avatarImage": "/assets/images/avatar/default/user.png",
       "isAnonymous": true,
       "isHost": false,
       "isMe": false
@@ -61,7 +62,7 @@
     {
       "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3302",
       "name": "Anonymous",
-      "avatarImage": null,
+      "avatarImage": "/assets/images/avatar/default/user.png",
       "isAnonymous": true,
       "isHost": false,
       "isMe": false
@@ -69,7 +70,7 @@
     {
       "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3303",
       "name": "Anonymous",
-      "avatarImage": null,
+      "avatarImage": "/assets/images/avatar/default/user.png",
       "isAnonymous": true,
       "isHost": false,
       "isMe": false
@@ -77,7 +78,7 @@
     {
       "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3304",
       "name": "Anonymous",
-      "avatarImage": null,
+      "avatarImage": "/assets/images/avatar/default/user.png",
       "isAnonymous": true,
       "isHost": false,
       "isMe": false
@@ -85,7 +86,7 @@
     {
       "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3305",
       "name": "Anonymous",
-      "avatarImage": null,
+      "avatarImage": "/assets/images/avatar/default/user.png",
       "isAnonymous": true,
       "isHost": false,
       "isMe": false
@@ -93,7 +94,7 @@
     {
       "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3306",
       "name": "Anonymous",
-      "avatarImage": null,
+      "avatarImage": "/assets/images/avatar/default/user.png",
       "isAnonymous": true,
       "isHost": false,
       "isMe": false
