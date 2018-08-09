@@ -1,3 +1,7 @@
+["@lobby": "https://werewolf.world/lobby"](https://werewolf.world/lobby)
+
+"version": "0.2"
+
 # Lobby Examples
 
 ## Guest Human Player
