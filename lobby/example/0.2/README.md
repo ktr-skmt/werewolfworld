@@ -7,6 +7,8 @@
 ## Guest Human Player
 
 1. main page (From AuthController)
+1. (client to server) get avatar info; [getAvatar.json](https://werewolf.world/lobby/example/0.2/client2server/getAvatar.json)
+1. (server to client) send avatar info; [avatar.json](https://werewolf.world/lobby/example/0.2/server2client/avatar.json)
 1. (client to server) select a village list; [enterLobbyForHumanPlayer.json](https://werewolf.world/lobby/example/0.2/client2server/enterLobbyForHumanPlayer.json)
 1. (server to client) go to a page of a village list; [lobbyForHumanPlayer.json](https://werewolf.world/lobby/example/0.2/server2client/lobbyForHumanPlayer.json)
 1. (client to server) select a village; [selectVillageForHumanPlayer.json](https://werewolf.world/lobby/example/0.2/client2server/selectVillageForHumanPlayer.json)
@@ -20,6 +22,8 @@
 ## Host Human Player
 
 1. main page (From AuthController)
+1. (client to server) get avatar info; [getAvatar.json](https://werewolf.world/lobby/example/0.2/client2server/getAvatar.json)
+1. (server to client) send avatar info; [avatar.json](https://werewolf.world/lobby/example/0.2/server2client/avatar.json)
 1. (client to server) select a village list; [enterLobbyForHumanPlayer.json](https://werewolf.world/lobby/example/0.2/client2server/enterLobbyForHumanPlayer.json)
 1. (server to client) go to a page of a village list; [lobbyForHumanPlayer.json](https://werewolf.world/lobby/example/0.2/server2client/lobbyForHumanPlayer.json)
 1. (client) push a button for building a village
