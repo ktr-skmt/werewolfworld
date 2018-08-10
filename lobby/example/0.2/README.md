@@ -4,7 +4,34 @@
 
 # Lobby Examples
 
-## Guest Human Player
+## List
+
+### Client to Server
+
+1. [buildVillage.json](https://werewolf.world/lobby/example/0.2/client2server/buildVillage.json)
+1. [enterLobby.json](https://werewolf.world/lobby/example/0.2/client2server/enterLobby.json)
+1. [getAvatar.json](https://werewolf.world/lobby/example/0.2/client2server/getAvatar.json)
+1. [kickOutPlayer.json](https://werewolf.world/lobby/example/0.2/client2server/kickOutPlayer.json)
+1. [leaveWaitingPage.json](https://werewolf.world/lobby/example/0.2/client2server/leaveWaitingPage.json)
+1. [pong.json](https://werewolf.world/lobby/example/0.2/client2server/pong.json)
+1. [selectVillage.json](https://werewolf.world/lobby/example/0.2/client2server/selectVillage.json)
+1. [advancedSearch.json](https://werewolf.world/lobby/example/0.2/client2server/advancedSearch.json)
+1. [idSearch.json](https://werewolf.world/lobby/example/0.2/client2server/idSearch.json)
+1. [play.json](https://werewolf.world/lobby/example/0.2/client2server/play.json)
+1. [ready.json](https://werewolf.world/lobby/example/0.2/client2server/ready.json)
+
+### Server to Client
+
+1. [avatar.json](https://werewolf.world/lobby/example/0.2/server2client/avatar.json)
+1. [lobby.json](https://werewolf.world/lobby/example/0.2/server2client/lobby.json)
+1. [ping.json](https://werewolf.world/lobby/example/0.2/server2client/ping.json)
+1. [waitingPage.json](https://werewolf.world/lobby/example/0.2/server2client/waitingPage.json)
+1. [searchResult.json](https://werewolf.world/lobby/example/0.2/server2client/searchResult.json)
+1. [played.json](https://werewolf.world/lobby/example/0.2/server2client/played.json)
+
+## Flow
+
+### Guest Human Player
 
 1. main page (From AuthController)
 1. (client to server) get avatar info; [getAvatar.json](https://werewolf.world/lobby/example/0.2/client2server/getAvatar.json)
@@ -16,10 +43,14 @@
 1. (server to client) ping [ping.json](https://werewolf.world/lobby/example/0.2/server2client/ping.json)
 1. (client to server) pong [pong.json](https://werewolf.world/lobby/example/0.2/client2server/pong.json)
 1. a host player pushes a start button (To GameController)
+1. (client to server) start a game [play.json](https://werewolf.world/lobby/example/0.2/client2server/play.json)
+1. (server to client) [played.json](https://werewolf.world/lobby/example/0.2/server2client/played.json)
+1. move from /lobby to /village
+1. (client to server) [ready.json](https://werewolf.world/lobby/example/0.2/client2server/ready.json)
 
 (client to server) leave a waiting page [leaveWaitingPage.json](https://werewolf.world/lobby/example/0.2/client2server/leaveWaitingPage.json)
 
-## Host Human Player
+### Host Human Player
 
 1. main page (From AuthController)
 1. (client to server) get avatar info; [getAvatar.json](https://werewolf.world/lobby/example/0.2/client2server/getAvatar.json)
@@ -33,6 +64,9 @@
 1. (server to client) ping [ping.json](https://werewolf.world/lobby/example/0.2/server2client/ping.json)
 1. (client to server) pong [pong.json](https://werewolf.world/lobby/example/0.2/client2server/pong.json)
 1. a host player pushes a start button (To GameController)
+1. (server to client) [played.json](https://werewolf.world/lobby/example/0.2/server2client/played.json)
+1. move from /lobby to /village
+1. (client to server) [ready.json](https://werewolf.world/lobby/example/0.2/client2server/ready.json)
 
 (client to server) leave a waiting page [leaveWaitingPage.json](https://werewolf.world/lobby/example/0.2/client2server/leaveWaitingPage.json)  
 Then, a host of a waiting page is selected from remaining players if they exist.

@@ -1,0 +1,113 @@
+{
+  "title": "werewolf.world: Schema of advancedSearch.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://werewolf.world/example/0.2/lobby/schema/client2server/advancedSearch.json",
+  "definitions": {},
+  "type": "object",
+  "properties": {
+    "type": {
+      "title": "Type",
+      "description": "type",
+      "$id": "/properties/type",
+      "type": "string",
+      "pattern": "^advancedSearch$",
+      "default": "advancedSearch",
+      "examples": [
+        "advancedSearch"
+      ]
+    },
+    "token": {
+      "title": "User Token",
+      "description": "GUID",
+      "$id": "/properties/token",
+      "type": "string",
+      "pattern": "^[0-9A-Fa-f]{8}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{12}$",
+      "examples": [
+        "3F2504E0-4F89-11D3-9A0C-0305E82C3301"
+      ]
+    },
+    "lobby": {
+      "title": "Lobby Type",
+      "description": "lobby type",
+      "$id": "/properties/lobby",
+      "type": "string",
+      "enum": [
+        "human player",
+        "robot player",
+        "onymous audience",
+        "anonymous audience"
+      ],
+      "examples": [
+        "human player",
+        "robot player",
+        "onymous audience",
+        "anonymous audience"
+      ]
+    },
+    "villageName": {
+      "title": "Village Name",
+      "description": "village name",
+      "$id": "/properties/villageName",
+      "type": ["string", "null"],
+      "minLength": 5,
+      "maxLength": 30,
+      "examples": [
+        "Alice's Village"
+      ]
+    },
+    "hostName": {
+      "title": "Host Player Name",
+      "description": "host player name",
+      "$id": "/properties/hostName",
+      "type": ["string", "null"],
+      "minLength": 5,
+      "maxLength": 15,
+      "examples": [
+        "Alice"
+      ]
+    },
+    "minimum": {
+      "title": "Minimum Number of Players",
+      "description": "minimum number of players",
+      "$id": "/properties/minimum",
+      "type": ["integer", "null"],
+      "minimum": 4,
+      "maximum": 15,
+      "examples": [
+        5
+      ]
+    },
+    "maximum": {
+      "title": "Maximum Number of Players",
+      "description": "maximum number of players",
+      "$id": "/properties/maximum",
+      "type": ["integer", "null"],
+      "minimum": 4,
+      "maximum": 15,
+      "examples": [
+        5
+      ]
+    },
+    "comment": {
+      "title": "Comment",
+      "description": "comment",
+      "$id": "/properties/comment",
+      "type": ["string", "null"],
+      "minimum": 0,
+      "maximum": 100,
+      "examples": [
+        "Beginners are welcome"
+      ]
+    }
+  },
+  "required": [
+    "type",
+    "token",
+    "lobby",
+    "villageName",
+    "hostName",
+    "minimum",
+    "maximum",
+    "comment"
+  ]
+}

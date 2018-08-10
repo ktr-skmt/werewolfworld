@@ -1,7 +1,7 @@
 {
-  "title": "werewolf.world: Schema of leaveWaitingPage.json",
+  "title": "werewolf.world: Schema of ready.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://werewolf.world/example/0.2/lobby/schema/client2server/leaveWaitingPage.json",
+  "$id": "https://werewolf.world/example/0.2/lobby/schema/client2server/ready.json",
   "definitions": {},
   "type": "object",
   "properties": {
@@ -10,10 +10,10 @@
       "description": "type",
       "$id": "/properties/type",
       "type": "string",
-      "pattern": "^leaveWaitingPage$",
-      "default": "leaveWaitingPage",
+      "pattern": "^ready$",
+      "default": "ready",
       "examples": [
-        "leaveWaitingPage"
+        "ready"
       ]
     },
     "token": {
@@ -31,33 +31,15 @@
       "description": "village ID",
       "$id": "/properties/villageId",
       "type": "integer",
+      "minimum": 0,
       "examples": [
         1
-      ]
-    },
-    "lobby": {
-      "title": "Lobby Type",
-      "description": "lobby type",
-      "$id": "/properties/lobby",
-      "type": "string",
-      "enum": [
-        "human player",
-        "robot player",
-        "onymous audience",
-        "anonymous audience"
-      ],
-      "examples": [
-        "human player",
-        "robot player",
-        "onymous audience",
-        "anonymous audience"
       ]
     }
   },
   "required": [
     "type",
     "token",
-    "villageId",
-    "lobby"
+    "villageId"
   ]
 }
