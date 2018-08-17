@@ -41,10 +41,10 @@
 ### Guest Human Player
 
 1. main page (From AuthController)
-1. (client to server) get avatar info; [getAvatar.json](https://werewolf.world/lobby/example/0.2/client2server/getAvatar.json)
-1. (server to client) send avatar info; [avatar.json](https://werewolf.world/lobby/example/0.2/server2client/avatar.json)
 1. (client to server) select a village list; [enterLobbyForHumanPlayer.json](https://werewolf.world/lobby/example/0.2/client2server/enterLobbyForHumanPlayer.json)
 1. (server to client) go to a page of a village list; [lobbyForHumanPlayer.json](https://werewolf.world/lobby/example/0.2/server2client/lobbyForHumanPlayer.json)
+1. (client to server) get avatar info; [getAvatar.json](https://werewolf.world/lobby/example/0.2/client2server/getAvatar.json)
+1. (server to client) send avatar info; [avatar.json](https://werewolf.world/lobby/example/0.2/server2client/avatar.json)
 1. (client to server) select a village; [selectVillageForHumanPlayer.json](https://werewolf.world/lobby/example/0.2/client2server/selectVillageForHumanPlayer.json)
 1. (server to client) go to a waiting page; [waitingPageForHumanPlayer.json](https://werewolf.world/lobby/example/0.2/server2client/waitingPageForHumanPlayer.json)
 1. (server to client) ping [ping.json](https://werewolf.world/lobby/example/0.2/server2client/ping.json)
@@ -60,10 +60,10 @@
 ### Host Human Player
 
 1. main page (From AuthController)
-1. (client to server) get avatar info; [getAvatar.json](https://werewolf.world/lobby/example/0.2/client2server/getAvatar.json)
-1. (server to client) send avatar info; [avatar.json](https://werewolf.world/lobby/example/0.2/server2client/avatar.json)
 1. (client to server) select a village list; [enterLobbyForHumanPlayer.json](https://werewolf.world/lobby/example/0.2/client2server/enterLobbyForHumanPlayer.json)
 1. (server to client) go to a page of a village list; [lobbyForHumanPlayer.json](https://werewolf.world/lobby/example/0.2/server2client/lobbyForHumanPlayer.json)
+1. (client to server) get avatar info; [getAvatar.json](https://werewolf.world/lobby/example/0.2/client2server/getAvatar.json)
+1. (server to client) send avatar info; [avatar.json](https://werewolf.world/lobby/example/0.2/server2client/avatar.json)
 1. (client) push a button for building a village
 1. (client) go to a page for building a village
 1. (client to server) build a village; [buildVillage.json](https://werewolf.world/lobby/example/0.2/client2server/buildVillage.json)
