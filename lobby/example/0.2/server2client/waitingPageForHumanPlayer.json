@@ -3,6 +3,7 @@
   "village": {
     "name": "Fairytale village",
     "id": 1,
+    "idForSearching": 123,
     "hostPlayer": {
       "name": "Anonymous",
       "isAnonymous": true,
