@@ -48,6 +48,18 @@
         -1
       ]
     },
+    "idForSearching": {
+      "title": "ID for Searching",
+      "description": "id for searching",
+      "$id": "/properties/idForSearching",
+      "type": "integer",
+      "default": -1,
+      "minimum": -1,
+      "maximum": -1,
+      "examples": [
+        -1
+      ]
+    },
     "hostPlayer": {
       "title": "Host Player",
       "description": "host player info",
