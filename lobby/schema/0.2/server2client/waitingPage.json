@@ -50,9 +50,9 @@
           "type": "integer",
           "minimum": 0,
           "maximum": 999,
-          "examples": {
+          "examples": [
             123
-          }
+          ]
         },
         "hostPlayer": {
           "title": "Host Player",
