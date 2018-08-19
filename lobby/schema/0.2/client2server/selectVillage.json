@@ -26,31 +26,20 @@
         "3F2504E0-4F89-11D3-9A0C-0305E82C3301"
       ]
     },
-    "village": {
-      "title": "Village",
-      "description": "village",
-      "$id": "/properties/village",
-      "type": "object",
-      "properties": {
-        "id": {
-          "title": "Village ID",
-          "description": "village ID",
-          "$id": "/properties/village/properties/id",
-          "type": "integer",
-          "minimum": 0,
-          "examples": [
-            1
-          ]
-        }
-      },
-      "required": [
-        "id"
+    "villageId": {
+      "title": "Village ID",
+      "description": "village ID",
+      "$id": "/properties/villageId",
+      "type": "integer",
+      "minimum": 0,
+      "examples": [
+        1
       ]
     }
   },
   "required": [
     "type",
     "token",
-    "village"
+    "villageId"
   ]
 }
