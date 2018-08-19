@@ -45,6 +45,17 @@
               1
             ]
           },
+          "idForSearching": {
+            "title": "ID for Searching",
+            "description": "id for searching",
+            "$id": "/properties/villages/items/properties/idForSearching",
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 999,
+            "examples": [
+              123
+            ]
+          },
           "hostPlayer": {
             "title": "Host Player",
             "description": "host player info",
@@ -317,6 +328,7 @@
         "required": [
           "name",
           "id",
+          "idForSearching",
           "hostPlayer",
           "playerSetting",
           "roleSetting",
