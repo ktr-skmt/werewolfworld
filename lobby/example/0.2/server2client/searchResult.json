@@ -4,6 +4,7 @@
     {
       "name": "Alice's village",
       "id": 1,
+      "idForSearching": 123,
       "hostPlayer": {
         "name": "Alice",
         "isAnonymous": false,
@@ -37,6 +38,7 @@
     {
       "name": "Ruined village",
       "id": 2,
+      "idForSearching": 124,
       "hostPlayer": {
         "name": "Anonymous",
         "isAnonymous": true,
