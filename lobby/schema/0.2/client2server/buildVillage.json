@@ -332,6 +332,7 @@
     "token",
     "name",
     "id",
+    "idForSearching",
     "hostPlayer",
     "playerSetting",
     "roleSetting",
