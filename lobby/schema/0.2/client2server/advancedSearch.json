@@ -88,6 +88,23 @@
         5
       ]
     },
+    "avatar": {
+      "title": "Avatar Selection",
+      "description": "'random', 'fixed' or 'unspecified'",
+      "$id": "/properties/avatar",
+      "type": "string",
+      "default": "random",
+      "enum": [
+        "random",
+        "fixed",
+        "unspecified"
+      ],
+      "examples": [
+        "random",
+        "fixed",
+        "unspecified"
+      ]
+    },
     "comment": {
       "title": "Comment",
       "description": "comment",
@@ -108,6 +125,7 @@
     "hostName",
     "minimum",
     "maximum",
+    "avatar",
     "comment"
   ]
 }
