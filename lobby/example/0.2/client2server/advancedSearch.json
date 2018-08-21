@@ -6,5 +6,6 @@
   "hostName": null,
   "minimum": 10,
   "maximum": 15,
+  "avatar": "random",
   "comment": null
 }
