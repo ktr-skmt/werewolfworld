@@ -1,5 +1,6 @@
 {
   "type": "lobby",
+  "lobby": "human player",
   "villages": [
     {
       "name": "Alice's village",
