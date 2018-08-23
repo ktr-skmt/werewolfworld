@@ -368,6 +368,7 @@
   },
   "required": [
     "type",
+    "lobby",
     "villages",
     "error"
   ]
