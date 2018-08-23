@@ -16,6 +16,24 @@
         "lobby"
       ]
     },
+    "lobby": {
+      "title": "Lobby Type",
+      "description": "Lobby for human player, robot player or onymous audience?",
+      "$id": "/properties/lobby",
+      "type": "string",
+      "enum": [
+        "human player",
+        "robot player",
+        "onymous audience",
+        "anonymous audience"        
+      ],
+      "examples": [
+        "human player",
+        "robot player",
+        "onymous audience",
+        "anonymous audience"
+      ]
+    },
     "villages": {
       "title": "Villages",
       "description": "villages",
