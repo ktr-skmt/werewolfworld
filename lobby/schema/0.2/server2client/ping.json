@@ -48,12 +48,12 @@
             "title": "Ping",
             "description": "ping",
             "$id": "/properties/results/items/properties/ping",
-            "pattern": "^[0-9]{1,2}.[0-9]{3} s$",
+            "pattern": "^[0-9]{2}.[0-9]{3} s$",
             "type": "string",
             "default": "99.999 s",
             "examples": [
               "99.999 s",
-              "0.000 s"
+              "00.000 s"
             ]
           },
           "status": {
