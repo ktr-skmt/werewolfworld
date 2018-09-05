@@ -4,43 +4,53 @@
   "results": [
     {
       "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3301",
-      "ping": "99.999 s"
+      "ping": "99.999 s",
+      "status": "danger"
     },
     {
       "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3302",
-      "ping": "99.999 s"
+      "ping": "0.999 s",
+      "status": "safe"
     },
     {
       "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3303",
-      "ping": "99.999 s"
+      "ping": "2.999 s",
+      "status": "warning"
     },
     {
       "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3304",
-      "ping": "99.999 s"
+      "ping": "0.000 s",
+      "status": "safe"
     },
     {
       "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3305",
-      "ping": "99.999 s"
+      "ping": "99.999 s",
+      "status": "danger"
     },
     {
       "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3306",
-      "ping": "99.999 s"
+      "ping": "99.999 s",
+      "status": "danger"
     },
     {
       "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3307",
-      "ping": "99.999 s"
+      "ping": "99.999 s",
+      "status": "danger"
     },
     {
       "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3308",
-      "ping": "99.999 s"
+      "ping": "99.999 s",
+      "status": "danger"
     },
     {
       "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3309",
-      "ping": "99.999 s"
+      "ping": "99.999 s",
+      "status": "danger"
     },
     {
       "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3310",
-      "ping": "99.999 s"
+      "ping": "99.999 s",
+      "status": "danger"
     }
   ]
 }
