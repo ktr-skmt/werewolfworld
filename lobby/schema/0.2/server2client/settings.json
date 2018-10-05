@@ -1,0 +1,49 @@
+{
+  "title": "werewolf.world: Schema of settings.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://werewolf.world/example/0.2/lobby/schema/server2client/settings.json",
+  "definitions": {},
+  "type": "object",
+  "properties": {
+    "userName": {
+      "title": "User's Name",
+      "description": "User's name",
+      "$id": "/properties/userName",
+      "type": "string",
+      "minLength": 5,
+      "maxLength": 15,
+      "default": "Anonymous",
+      "examples": [
+        "Ken Hirai"
+      ]
+    },
+    "userEmail": {
+      "title": "User's Email Address",
+      "description": "User's email address",
+      "$id": "/properties/userEmail",
+      "type": "string",
+      "minLength": 6,
+      "maxLength": 254,
+      "pattern": "@",
+      "examples": [
+        "kenhirai@ynu.jp"
+      ]
+    },
+    "lang": {
+      "title": "Language",
+      "description": "language code; ISO 639-1:2002, Codes for the representation of names of languages — Part 1: Alpha-2 code",
+      "$id": "/properties/lang",
+      "type": "string",
+      "examples": [
+        "en",
+        "ja",
+        "fr",
+        "it"
+      ]
+    }
+  },
+  "required": [
+    "userName",
+    "userEmail",
+    "lang"
+  ]
