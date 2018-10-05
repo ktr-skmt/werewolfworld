@@ -25,6 +25,10 @@
 1. [play.json](https://werewolf.world/lobby/example/0.2/client2server/play.json)
 1. [ready.json](https://werewolf.world/lobby/example/0.2/client2server/ready.json)
 1. [getSettings.json](https://werewolf.world/lobby/example/0.2/client2server/getSettings.json)
+1. [changeUserName.json](https://werewolf.world/lobby/example/0.2/client2server/changeUserName.json)
+1. [changeUserEmail.json](https://werewolf.world/lobby/example/0.2/client2server/changeUserEmail.json)
+1. [changePassword.json](https://werewolf.world/lobby/example/0.2/client2server/changePassword.json)
+1. [changeLang.json](https://werewolf.world/lobby/example/0.2/client2server/changeLang.json)
 
 ### Server to Client
 
@@ -84,6 +88,13 @@ Then, a host of a waiting page is selected from remaining players if they exist.
 The kicked out player moves to a lobby with an error message that a host kicked out the player
 
 ### Settings
-1. main page (From AuthController)
+1. settings page (From main page)
 1. (client to server) get settings info; [getSettings.json](https://werewolf.world/lobby/example/0.2/client2server/getSettings.json)
 1. (server to client) send settings info; [settings.json](https://werewolf.world/lobby/example/0.2/server2client/settings.json)
+1. change settings info:
+    1. (client to server) change user's name; [changeUserName.json](https://werewolf.world/lobby/example/0.2/client2server/changeUserName.json)
+    1. (client to server) change user's email address; [changeUserEmail.json](https://werewolf.world/lobby/example/0.2/client2server/changeUserName.json)
+    1. (client to server) change user's password; [changePassword.json](https://werewolf.world/lobby/example/0.2/client2server/changePassword.json)
+    1. (client to server) change locale; [changeLang.json](https://werewolf.world/lobby/example/0.2/client2server/changeLang.json)
+1. (server to client) send settings info; [settings.json](https://werewolf.world/lobby/example/0.2/server2client/settings.json)
+1. leave settings page (To main page)
