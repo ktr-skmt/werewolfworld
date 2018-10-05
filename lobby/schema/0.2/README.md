@@ -17,6 +17,7 @@
 1. [idSearch.json](https://werewolf.world/lobby/schema/0.2/client2server/idSearch.json)
 1. [play.json](https://werewolf.world/lobby/schema/0.2/client2server/play.json)
 1. [ready.json](https://werewolf.world/lobby/schema/0.2/client2server/ready.json)
+1. [getSettings.json](https://werewolf.world/lobby/schema/0.2/client2server/getSettings.json)
 
 ## Server to Client
 
@@ -26,3 +27,4 @@
 1. [waitingPage.json](https://werewolf.world/lobby/schema/0.2/server2client/waitingPage.json)
 1. [searchResult.json](https://werewolf.world/lobby/schema/0.2/server2client/searchResult.json)
 1. [played.json](https://werewolf.world/lobby/schema/0.2/server2client/played.json)
+1. [settings.json](https://werewolf.world/lobby/schema/0.2/server2client/settings.json)
