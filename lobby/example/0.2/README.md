@@ -24,6 +24,7 @@
 1. [idSearch.json](https://werewolf.world/lobby/example/0.2/client2server/idSearch.json)
 1. [play.json](https://werewolf.world/lobby/example/0.2/client2server/play.json)
 1. [ready.json](https://werewolf.world/lobby/example/0.2/client2server/ready.json)
+1. [getSettings.json](https://werewolf.world/lobby/example/0.2/client2server/getSettings.json)
 
 ### Server to Client
 
@@ -35,6 +36,7 @@
     1. [waitingPageForHumanPlayer.json](https://werewolf.world/lobby/example/0.2/server2client/waitingPageForHumanPlayer.json)
 1. [searchResult.json](https://werewolf.world/lobby/example/0.2/server2client/searchResult.json)
 1. [played.json](https://werewolf.world/lobby/example/0.2/server2client/played.json)
+1. [settings.json](https://werewolf.world/lobby/example/0.2/server2client/settings.json)
 
 ## Flow
 
@@ -80,3 +82,8 @@ Then, a host of a waiting page is selected from remaining players if they exist.
 
 (client to server) kick out a player [kickOutPlayer.json](https://werewolf.world/lobby/example/0.2/client2server/kickOutPlayer.json)  
 The kicked out player moves to a lobby with an error message that a host kicked out the player
+
+### Settings
+1. main page (From AuthController)
+1. (client to server) get settings info; [getSettings.json](https://werewolf.world/lobby/example/0.2/client2server/getSettings.json)
+1. (server to client) send settings info; [settings.json](https://werewolf.world/lobby/example/0.2/server2client/settings.json)
