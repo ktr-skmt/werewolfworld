@@ -27,7 +27,7 @@
 1. [getSettings.json](https://werewolf.world/lobby/example/0.2/client2server/getSettings.json)
 1. [changeUserName.json](https://werewolf.world/lobby/example/0.2/client2server/changeUserName.json)
 1. [changeUserEmail.json](https://werewolf.world/lobby/example/0.2/client2server/changeUserEmail.json)
-1. [changePassword.json](https://werewolf.world/lobby/example/0.2/client2server/changePassword.json)
+1. [changeUserPassword.json](https://werewolf.world/lobby/example/0.2/client2server/changeUserPassword.json)
 1. [changeLang.json](https://werewolf.world/lobby/example/0.2/client2server/changeLang.json)
 
 ### Server to Client
@@ -94,7 +94,7 @@ The kicked out player moves to a lobby with an error message that a host kicked 
 1. change settings info:
     1. (client to server) change user's name; [changeUserName.json](https://werewolf.world/lobby/example/0.2/client2server/changeUserName.json)
     1. (client to server) change user's email address; [changeUserEmail.json](https://werewolf.world/lobby/example/0.2/client2server/changeUserName.json)
-    1. (client to server) change user's password; [changePassword.json](https://werewolf.world/lobby/example/0.2/client2server/changePassword.json)
+    1. (client to server) change user's password; [changeUserPassword.json](https://werewolf.world/lobby/example/0.2/client2server/changeUserPassword.json)
     1. (client to server) change locale; [changeLang.json](https://werewolf.world/lobby/example/0.2/client2server/changeLang.json)
 1. (server to client) send settings info; [settings.json](https://werewolf.world/lobby/example/0.2/server2client/settings.json)
 1. leave settings page (To main page)
