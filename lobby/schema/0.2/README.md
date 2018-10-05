@@ -18,6 +18,10 @@
 1. [play.json](https://werewolf.world/lobby/schema/0.2/client2server/play.json)
 1. [ready.json](https://werewolf.world/lobby/schema/0.2/client2server/ready.json)
 1. [getSettings.json](https://werewolf.world/lobby/schema/0.2/client2server/getSettings.json)
+1. [changeUserName.json](https://werewolf.world/lobby/schema/0.2/client2server/changeUserName.json)
+1. [changeUserEmail.json](https://werewolf.world/lobby/schema/0.2/client2server/changeUserEmail.json)
+1. [changeUserPassword.json](https://werewolf.world/lobby/schema/0.2/client2server/changeUserPassword.json)
+1. [changeLang.json](https://werewolf.world/lobby/schema/0.2/client2server/changeLang.json)
 
 ## Server to Client
 
