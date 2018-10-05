@@ -23,7 +23,7 @@
       "$id": "/properties/userEmail",
       "type": "string",
       "minLength": 6,
-      "maxLength": 254,
+      "maxLength": 256,
       "pattern": "@",
       "examples": [
         "kenhirai@ynu.jp"
