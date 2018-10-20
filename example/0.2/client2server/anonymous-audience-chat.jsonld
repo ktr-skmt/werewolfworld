@@ -20,9 +20,9 @@
 	"intensionalDisclosureRange": "anonymousAudience",
 	"extensionalDisclosureRange": [],
 	
-	"chatIsMine": true,
-	"chatText": ">>11\nそれで、あなたは人狼が誰だと思うの？\n\n私はパメラが人狼だと思う。",
-	"chatCharacterLimit": 140,
-	"chatLanguage": "ja",
-	"chatIsOver": false
+	"isMine": true,
+	"text": ">>11\nそれで、あなたは人狼が誰だと思うの？\n\n私はパメラが人狼だと思う。",
+	"characterLimit": 140,
+	"language": "ja",
+	"isOver": false
 }
