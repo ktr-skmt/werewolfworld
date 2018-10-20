@@ -19,8 +19,10 @@
 	"directionality": "client to server",
 	"intensionalDisclosureRange": "private",
 	"extensionalDisclosureRange": [],
-	"myUserName": "加藤",
-	"myUserAvatar": "https://werewolf.world/image/0.1/Regina.jpg",
+	"me": {
+		"name": "Katoh",
+		"avatar": "https://werewolf.world/image/0.1/Regina.jpg"
+	},
 
 	"nodeId": "scrollNode",
 	"scrollTop": 100,
