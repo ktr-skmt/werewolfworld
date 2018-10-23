@@ -70,7 +70,7 @@
 				"status": "w3:agentStatus"
 			}
 		},
-		"me": {
+		"user": {
 			"@id": "w3:user",
 			"name": "w3:userName",
 			"avatar": {
