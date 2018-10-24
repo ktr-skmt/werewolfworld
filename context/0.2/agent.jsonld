@@ -25,11 +25,11 @@
 		"role": {
 			"@id": "w3:role",
 			"@type": "@id",
-			"roleName": {
+			"name": {
 				"@id": "w3:roleName",
 				"@container": "@language"
 			},
-			"roleImage": {
+			"image": {
 				"@id": "w3:roleImage",
 				"@type": "@id"
 			}
