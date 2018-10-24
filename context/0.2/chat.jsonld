@@ -15,7 +15,7 @@
 			},
 			"name": {
 				"@id": "w3:agentName",
-				"@type": "@language"
+				"@container": "@language"
 			},
 			"image": {
 				"@id": "w3:agentImage",
@@ -38,7 +38,6 @@
 		"interval": "w3:chatInterval",
 		"text": "w3:chatText",
 		"characterLimit": "w3:chatCharacterLimit",
-		"language": "w3:chatLanguage",
 		"isOver": "w3:chatIsOver"
 	}
 }
