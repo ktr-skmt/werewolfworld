@@ -21,8 +21,13 @@
 	"extensionalDisclosureRange": [],
 	
 	"isMine": true,
-	"text": ">>11\nそれで、あなたは人狼が誰だと思うの？\n\n私はパメラが人狼だと思う。",
-	"characterLimit": 140,
-	"language": "ja",
+	"text": {
+		"@value": ">>11\nそれで、あなたは人狼が誰だと思うの？\n\n私はパメラが人狼だと思う。",
+		"@language": "ja"
+	},
+	"characterLimit": {
+		"@value": 140,
+		"@language": "ja"
+	},
 	"isOver": false
 }
