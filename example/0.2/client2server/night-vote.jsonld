@@ -19,7 +19,7 @@
 	"directionality": "client to server",
 	"intensionalDisclosureRange": "werewolf",
 	"extensionalDisclosureRange": [],
-	"agent": {
+	"myAgent": {
 		"@id": "https://werewolf.world/resource/0.1/Walter",
 		"id": 1,
 		"name": {
@@ -37,7 +37,7 @@
 		}
 	},
 
-	"votedAgent": {
+	"agent": {
 		"@id": "https://werewolf.world/resource/0.1/Simson",
 		"id": 3,
 		"name": {
