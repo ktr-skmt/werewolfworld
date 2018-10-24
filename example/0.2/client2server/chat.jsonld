@@ -37,7 +37,7 @@
 		}
 	},
 	
-	"chatAgent": {
+	"agent": {
 		"@id": "https://werewolf.world/resource/0.1/Walter",
 		"id": 1,
 		"name": {
@@ -47,8 +47,10 @@
 		"image": "https://werewolf.world/image/0.1/Walter.jpg"
 	},
 	"isMine": true,
-	"text": ">>11\nそれで、あなたは人狼が誰だと思うの？\n\n私はパメラが人狼だと思う。",
+	"text": {
+		"@value": ">>11\nそれで、あなたは人狼が誰だと思うの？\n\n私はパメラが人狼だと思う。",
+		"@language": "ja"
+	},
 	"characterLimit": 140,
-	"language": "ja",
 	"isOver": false
 }
