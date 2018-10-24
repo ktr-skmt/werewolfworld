@@ -1,10 +1,11 @@
 {
-  "@context": {
-    "w3": "https://werewolf.world/resource/0.2/",
-    "name": "w3:userName",
-    "avatar": {
-      "@id": "w3:userAvatar",
-      "@type": "@id"
+    "@context": {
+        "@version": 1.1,
+        "w3": "https://werewolf.world/resource/0.2/",
+        "name": "w3:userName",
+        "avatar": {
+            "@id": "w3:userAvatar",
+            "@type": "@id"
+        }
     }
-  }
 }
