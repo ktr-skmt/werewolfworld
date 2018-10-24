@@ -25,9 +25,6 @@
 		"@value": ">>11\nそれで、あなたは人狼が誰だと思うの？\n\n私はパメラが人狼だと思う。",
 		"@language": "ja"
 	},
-	"characterLimit": {
-		"@value": 140,
-		"@language": "ja"
-	},
+	"characterLimit": 140,
 	"isOver": false
 }
