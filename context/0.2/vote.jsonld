@@ -3,7 +3,7 @@
 		"@version": 1.1,
 		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"w3": "https://werewolf.world/resource/0.2/",
-		"votedAgent": {
+		"agent": {
 			"@id": "w3:agent",
 			"@type": "@id",
 			"id": {
