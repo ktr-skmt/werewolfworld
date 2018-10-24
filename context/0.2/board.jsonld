@@ -17,18 +17,18 @@
 			"image": {
 				"@id": "w3:agentImage",
 				"@type": "@id"
+			}
+		},
+		"role": {
+			"@id": "w3:role",
+			"@type": "@id",
+			"name": {
+				"@id": "w3:roleName",
+				"@container": "@language"
 			},
-			"role": {
-				"@id": "w3:role",
-				"@type": "@id",
-				"name": {
-					"@id": "w3:roleName",
-					"@container": "@language"
-				},
-				"image": {
-					"@id": "w3:roleImage",
-					"@type": "@id"
-				}
+			"image": {
+				"@id": "w3:roleImage",
+				"@type": "@id"
 			}
 		},
 		"prediction": "w3:boardPrediction"
