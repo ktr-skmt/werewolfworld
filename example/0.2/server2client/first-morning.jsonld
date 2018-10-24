@@ -240,7 +240,7 @@
 	"role": [
 		{
 			"@id": "https://werewolf.world/resource/0.1/master",
-			"roleIsMine": false,
+			"isMine": false,
 			"name": {
 				"en": "Master",
 				"ja": "マスター"
@@ -251,7 +251,7 @@
 		},
 		{
 			"@id": "https://wereworld.world/resource/0.1/villager",
-			"roleIsMine": false,
+			"isMine": false,
 			"name": {
 				"en": "Villager",
 				"ja": "村人"
@@ -260,24 +260,24 @@
 			"numberOfAgents": 6,
 			"board": [
 				{
-					"boardAgent": {
+					"agent": {
 						"@id": "https://werewolf.world/resource/0.1/Walter",
-						"boardAgentId": 1,
-						"boardAgentName": {
+						"id": 1,
+						"name": {
 							"en": "Walter",
 							"ja": "ヴァルター"
 						},
-						"boardAgentImage": "https://werewolf.world/image/0.1/Walter.jpg"
+						"image": "https://werewolf.world/image/0.1/Walter.jpg"
 					},
-					"boardPolarity": "negative",
-					"boardPhase": "day conversation",
-					"boardDate": 1
+					"polarity": "negative",
+					"phase": "day conversation",
+					"date": 1
 				}
 			]
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/seer",
-			"roleIsMine": true,
+			"isMine": true,
 			"name": {
 				"en": "Seer",
 				"ja": "占い師"
@@ -286,24 +286,24 @@
 			"numberOfAgents": 1,
 			"board": [
 				{
-					"boardAgent": {
+					"agent": {
 						"@id": "https://werewolf.world/resource/0.1/Walter",
-						"boardAgentId": 1,
-						"boardAgentName": {
+						"id": 1,
+						"name": {
 							"en": "Walter",
 							"ja": "ヴァルター"
 						},
-						"boardAgentImage": "https://werewolf.world/image/0.1/Walter.jpg"
+						"image": "https://werewolf.world/image/0.1/Walter.jpg"
 					},
-					"boardPolarity": "positive",
-					"boardPhase": "day conversation",
-					"boardDate": 1
+					"polarity": "positive",
+					"phase": "day conversation",
+					"date": 1
 				}
 			]
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/medium",
-			"roleIsMine": false,
+			"isMine": false,
 			"name": {
 				"en": "Medium",
 				"ja": "霊媒師"
@@ -312,24 +312,24 @@
 			"numberOfAgents": 1,
 			"board": [
 				{
-					"boardAgent": {
+					"agent": {
 						"@id": "https://werewolf.world/resource/0.1/Walter",
-						"boardAgentId": 1,
-						"boardAgentName": {
+						"id": 1,
+						"name": {
 							"en": "Walter",
 							"ja": "ヴァルター"
 						},
-						"boardAgentImage": "https://werewolf.world/image/0.1/Walter.jpg"
+						"image": "https://werewolf.world/image/0.1/Walter.jpg"
 					},
-					"boardPolarity": "negative",
-					"boardPhase": "day conversation",
-					"boardDate": 1
+					"polarity": "negative",
+					"phase": "day conversation",
+					"date": 1
 				}
 			]
 		},
 		{
 			"@id": "https://wereworld.world/resource/0.1/hunter",
-			"roleIsMine": false,
+			"isMine": false,
 			"name": {
 				"en": "Hunter",
 				"ja": "狩人"
@@ -338,24 +338,24 @@
 			"numberOfAgents": 1,
 			"board": [
 				{
-					"boardAgent": {
+					"agent": {
 						"@id": "https://werewolf.world/resource/0.1/Walter",
-						"boardAgentId": 1,
-						"boardAgentName": {
+						"id": 1,
+						"name": {
 							"en": "Walter",
 							"ja": "ヴァルター"
 						},
-						"boardAgentImage": "https://werewolf.world/image/0.1/Walter.jpg"
+						"image": "https://werewolf.world/image/0.1/Walter.jpg"
 					},
-					"boardPolarity": "negative",
-					"boardPhase": "day conversation",
-					"boardDate": 1
+					"polarity": "negative",
+					"phase": "day conversation",
+					"date": 1
 				}
 			]
 		},
 		{
 			"@id": "https://wereworld.world/resource/0.1/mason",
-			"roleIsMine": false,
+			"isMine": false,
 			"name": {
 				"en": "Mason",
 				"ja": "共有者"
@@ -364,24 +364,24 @@
 			"numberOfAgents": 2,
 			"board": [
 				{
-					"boardAgent": {
+					"agent": {
 						"@id": "https://werewolf.world/resource/0.1/Walter",
-						"boardAgentId": 1,
-						"boardAgentName": {
+						"id": 1,
+						"name": {
 							"en": "Walter",
 							"ja": "ヴァルター"
 						},
-						"boardAgentImage": "https://werewolf.world/image/0.1/Walter.jpg"
+						"image": "https://werewolf.world/image/0.1/Walter.jpg"
 					},
-					"boardPolarity": "negative",
-					"boardPhase": "day conversation",
-					"boardDate": 1
+					"polarity": "negative",
+					"phase": "day conversation",
+					"date": 1
 				}
 			]
 		},
 		{
 			"@id": "https://wereworld.world/resource/0.1/madman",
-			"roleIsMine": false,
+			"isMine": false,
 			"name": {
 				"en": "Madman",
 				"ja": "狂人"
@@ -390,24 +390,24 @@
 			"numberOfAgents": 1,
 			"board": [
 				{
-					"boardAgent": {
+					"agent": {
 						"@id": "https://werewolf.world/resource/0.1/Walter",
-						"boardAgentId": 1,
-						"boardAgentName": {
+						"id": 1,
+						"name": {
 							"en": "Walter",
 							"ja": "ヴァルター"
 						},
-						"boardAgentImage": "https://werewolf.world/image/0.1/Walter.jpg"
+						"image": "https://werewolf.world/image/0.1/Walter.jpg"
 					},
-					"boardPolarity": "negative",
-					"boardPhase": "day conversation",
-					"boardDate": 1
+					"polarity": "negative",
+					"phase": "day conversation",
+					"date": 1
 				}
 			]
 		},
 		{
 			"@id": "https://wereworld.world/resource/0.1/werewolf",
-			"roleIsMine": false,
+			"isMine": false,
 			"name": {
 				"en": "Werewolf",
 				"ja": "人狼"
@@ -418,22 +418,22 @@
 				{
 					"boardAgent": {
 						"@id": "https://werewolf.world/resource/0.1/Walter",
-						"boardAgentId": 1,
-						"boardAgentName": {
+						"id": 1,
+						"name": {
 							"en": "Walter",
 							"ja": "ヴァルター"
 						},
-						"boardAgentImage": "https://werewolf.world/image/0.1/Walter.jpg"
+						"image": "https://werewolf.world/image/0.1/Walter.jpg"
 					},
-					"boardPolarity": "negative",
-					"boardPhase": "day conversation",
-					"boardDate": 1
+					"polarity": "negative",
+					"phase": "day conversation",
+					"date": 1
 				}
 			]
 		},
 		{
 			"@id": "https://wereworld.world/resource/0.1/werehumster",
-			"roleIsMine": false,
+			"isMine": false,
 			"name": {
 				"en": "Werehumster",
 				"ja": "ハムスター人間"
@@ -442,18 +442,18 @@
 			"numberOfAgents": 1,
 			"board": [
 				{
-					"boardAgent": {
+					"agent": {
 						"@id": "https://werewolf.world/resource/0.1/Walter",
-						"boardAgentId": 1,
-						"boardAgentName": {
+						"id": 1,
+						"name": {
 							"en": "Walter",
 							"ja": "ヴァルター"
 						},
-						"boardAgentImage": "https://werewolf.world/image/0.1/Walter.jpg"
+						"image": "https://werewolf.world/image/0.1/Walter.jpg"
 					},
-					"boardPolarity": "negative",
-					"boardPhase": "day conversation",
-					"boardDate": 1
+					"polarity": "negative",
+					"phase": "day conversation",
+					"date": 1
 				}
 			]
 		}
