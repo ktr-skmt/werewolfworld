@@ -37,7 +37,7 @@
 		}
 	},
 
-	"votedAgent": {
+	"agent": {
 		"@id": "https://werewolf.world/resource/0.1/Simson",
 		"id": 3,
 		"name": {
