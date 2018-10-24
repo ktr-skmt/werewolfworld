@@ -1,5 +1,6 @@
 {
-	"@context":	{
+	"@context": {
+		"@version": 1.1,
 		"w3": "https://werewolf.world/resource/0.2/",
 		"content": {
 			"@id": "w3:errorContent",
