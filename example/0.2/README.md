@@ -19,11 +19,11 @@
 
 |Example|JSON-LD|
 ---|---
-|first-day-conversation|[https://werewolf.world/example/0.2/server2client/first-day-conversation.jsonld](https://werewolf.world/example/0.2/server2client/first-day-conversation.jsonld)|
-|day-conversation|[https://werewolf.world/example/0.2/server2client/day-conversation.jsonld](https://werewolf.world/example/0.2/server2client/day-conversation.jsonld)|
-|day-vote|[https://werewolf.world/example/0.2/server2client/day-vote.jsonld](https://werewolf.world/example/0.2/server2client/day-vote.jsonld)|
+|first-morning|[https://werewolf.world/example/0.2/server2client/first-morning.jsonld](https://werewolf.world/example/0.2/server2client/first-morning.jsonld)|
+|morning|[https://werewolf.world/example/0.2/server2client/morning.jsonld](https://werewolf.world/example/0.2/server2client/morning.jsonld)|
+|day-vote|[https://werewolf.world/example/0.2/server2client/day.jsonld](https://werewolf.world/example/0.2/server2client/day.jsonld)|
 |night|[https://werewolf.world/example/0.2/server2client/night.jsonld](https://werewolf.world/example/0.2/server2client/night.jsonld)|
-|results|[https://werewolf.world/example/0.2/server2client/results.jsonld](https://werewolf.world/example/0.2/server2client/results.jsonld)|
+|result|[https://werewolf.world/example/0.2/server2client/result.jsonld](https://werewolf.world/example/0.2/server2client/result.jsonld)|
 |post-mortem|[https://werewolf.world/example/0.2/server2client/post-mortem.jsonld](https://werewolf.world/example/0.2/server2client/post-mortem.jsonld)|
 |my-message-on-chat|[https://werewolf.world/example/0.2/server2client/my-message-on-chat.jsonld](https://werewolf.world/example/0.2/server2client/my-message-on-chat.jsonld)|
 |their-message-on-chat|[https://werewolf.world/example/0.2/server2client/their-message-on-chat.jsonld](https://werewolf.world/example/0.2/server2client/their-message-on-chat.jsonld)|
@@ -32,15 +32,15 @@
 |anonymous-audience-chat|[https://werewolf.world/example/0.2/server2client/anonymous-audience-chat.jsonld](https://werewolf.world/example/0.2/server2client/anonymous-audience-chat.jsonld)|
 
 
-### first-day-conversation
+### first-morning
 
 * "Start day conversation phase" to "Display" and "Move to grave"
 
-### day-conversation
+### morning
 
 * "Start day conversation phase" to "Display" and "Move to grave"
 
-### day-vote
+### day
 
 * "Start day vote phase" to "Display" and "Move to grave"
 
@@ -48,7 +48,7 @@
 
 * "Start night phase" to "Display" and "Move to grave"
 
-### results
+### result
 
 * "Send results" to "Display results in a modal"
 
