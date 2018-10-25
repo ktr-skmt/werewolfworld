@@ -302,7 +302,7 @@
 						"image": "https://werewolf.world/image/0.1/Walter.jpg"
 					},
 					"polarity": "negative",
-					"phase": "day conversation",
+					"phase": "morning",
 					"date": 1
 				}
 			]
@@ -328,7 +328,7 @@
 						"image": "https://werewolf.world/image/0.1/Walter.jpg"
 					},
 					"polarity": "positive",
-					"phase": "day conversation",
+					"phase": "morning",
 					"date": 1
 				}
 			]
@@ -354,7 +354,7 @@
 						"image": "https://werewolf.world/image/0.1/Walter.jpg"
 					},
 					"polarity": "negative",
-					"phase": "day conversation",
+					"phase": "morning",
 					"date": 1
 				}
 			]
@@ -380,7 +380,7 @@
 						"image": "https://werewolf.world/image/0.1/Walter.jpg"
 					},
 					"polarity": "negative",
-					"phase": "day conversation",
+					"phase": "morning",
 					"date": 1
 				}
 			]
@@ -406,7 +406,7 @@
 						"image": "https://werewolf.world/image/0.1/Walter.jpg"
 					},
 					"polarity": "negative",
-					"phase": "day conversation",
+					"phase": "morning",
 					"date": 1
 				}
 			]
@@ -432,7 +432,7 @@
 						"image": "https://werewolf.world/image/0.1/Walter.jpg"
 					},
 					"polarity": "negative",
-					"phase": "day conversation",
+					"phase": "morning",
 					"date": 1
 				}
 			]
@@ -458,7 +458,7 @@
 						"image": "https://werewolf.world/image/0.1/Walter.jpg"
 					},
 					"polarity": "negative",
-					"phase": "day conversation",
+					"phase": "morning",
 					"date": 1
 				}
 			]
@@ -484,7 +484,7 @@
 						"image": "https://werewolf.world/image/0.1/Walter.jpg"
 					},
 					"polarity": "negative",
-					"phase": "day conversation",
+					"phase": "morning",
 					"date": 1
 				}
 			]
