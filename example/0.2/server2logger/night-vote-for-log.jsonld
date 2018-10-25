@@ -21,66 +21,68 @@
 	"extensionalDisclosureRange": [
 		{
 			"@id": "https://werewolf.world/resource/0.1/Moritz",
-			"agentName": {
+			"name": {
 				"en": "Moritz",
 				"ja": "モーリッツ"
 			},
-			"agentImage": "https://werewolf.world/image/0.1/Moritz.jpg",
-			"agentId": 2,
+			"image": "https://werewolf.world/image/0.1/Moritz.jpg",
+			"id": 2,
 			"role": {
 				"@id": "https://werewolf.world/resource/0.1/werewolf",
-				"roleName": {
+				"name": {
 					"en": "Werewolf",
 					"ja": "人狼"
 				},
-				"roleImage": "https://werewolf.world/image/0.1/werewolf.jpg"
+				"image": "https://werewolf.world/image/0.1/werewolf.jpg"
 			},
-			"agentStatus": "alive"
+			"status": "alive"
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Peter",
-			"agentName": {
+			"name": {
 				"en": "Peter",
 				"ja": "ペーター"
 			},
-			"agentImage": "https://werewolf.world/image/0.1/Peter.jpg",
-			"agentId": 7,
+			"image": "https://werewolf.world/image/0.1/Peter.jpg",
+			"id": 7,
 			"role": {
 				"@id": "https://werewolf.world/resource/0.1/werewolf",
-				"roleName": {
+				"name": {
 					"en": "Werewolf",
 					"ja": "人狼"
 				},
-				"roleImage": "https://werewolf.world/image/0.1/werewolf.jpg"
+				"image": "https://werewolf.world/image/0.1/werewolf.jpg"
 			},
-			"agentStatus": "alive"
+			"status": "alive"
 		}
 	],
 	"myAgent": {
-		"myAgentId": 1,
-		"myAgentName": {
+		"id": 1,
+		"name": {
 			"en": "Walter",
 			"ja": "ヴァルター"
 		},
-		"myAgentImage": "https://werewolf.world/image/0.1/Walter.jpg",
-		"myRole": {
+		"image": "https://werewolf.world/image/0.1/Walter.jpg",
+		"role": {
 			"@id": "https://werewolf.world/resource/0.1/werewolf",
-			"myRoleName": {
+			"name": {
 				"en": "Werewolf",
 				"ja": "人狼"
 			},
-			"myRoleImage": "https://werewolf.world/image/0.1/werewolf.jpg"
+			"image": "https://werewolf.world/image/0.1/werewolf.jpg"
 		}
 	},
-	"myUserName": "Suzuki",
-	"myUserAvatar": "https://werewolf.world/image/0.1/Gert.jpg",
+	"user": {
+		"name": "Suzuki",
+		"avatar": "https://werewolf.world/image/0.1/Gert.jpg"
+	},
 
-	"votedAgent": {
-		"votedAgentId": 3,
-		"votedAgentName": {
+	"agent": {
+		"id": 3,
+		"name": {
 			"en": "Simson",
 			"ja": "ジムゾン"
 		},
-		"votedAgentImage": "https://werewolf.world/image/0.1/Simson.jpg"
+		"image": "https://werewolf.world/image/0.1/Simson.jpg"
 	}
 }
