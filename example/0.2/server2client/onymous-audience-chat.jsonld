@@ -22,10 +22,10 @@
 	"directionality": "client to server",
 	"intensionalDisclosureRange": "onymousAudience",
 	"extensionalDisclosureRange": [],
-	"user": {
-		"id": 1,
+	"avatar": {
+		"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
 		"name": "Katoh",
-		"avatar": "https://werewolf.world/image/0.2/Regina.jpg"
+		"image": "https://werewolf.world/image/0.2/Regina.jpg"
 	},
 	"isMine": true,
 	"text": {
