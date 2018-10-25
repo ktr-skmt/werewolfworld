@@ -37,8 +37,8 @@
 |https://werewolf.world/resource/0.2/villageId|xsd:integer|0 <=|
 |https://werewolf.world/resource/0.2/villageName||5 <= {# of Unicode code points} <= 30|
 |https://werewolf.world/resource/0.2/totalNumberOfAgents|xsd:integer|4 <=|
-|https://werewolf.world/resource/0.2/phase||'day conversation', 'day vote', 'night', 'results', 'post mortem'|
-|https://werewolf.world/resource/0.2/date|xsd:integer|-1 <=, 0 when phase were post mortem, -1 when phase were results|
+|https://werewolf.world/resource/0.2/phase||'morning', 'day', 'night', 'result', 'post mortem'|
+|https://werewolf.world/resource/0.2/date|xsd:integer|-1 <=, 0 when phase were post mortem, -1 when phase were result|
 |https://werewolf.world/resource/0.2/phaseTimeLimit|xsd:integer|if nothing, -1. otherwise, how many seconds|
 |https://werewolf.world/resource/0.2/phaseStartTime|xsd:dateTime|such as '2006-10-07T12:06:56.568+09:00'|
 |https://werewolf.world/resource/0.2/serverTimestamp|xsd:dateTime|such as '2006-10-07T12:06:56.568+09:00'|
@@ -103,7 +103,7 @@ See [https://werewolf.world/image/0.2/#role](https://werewolf.world/image/0.2/#r
 |https://werewolf.world/resource/0.2/chatLanguage||'en', 'ja', etc. ([java.util.Locale.toString](https://docs.oracle.com/javase/9/docs/api/java/util/Locale.html#toString--))|
 |https://werewolf.world/resource/0.2/chatIsOver|xsd:boolean|true, false|
 
-## votingResults
+## votingResult
 
 |IRI|Type|Values|
 ---|---|---
