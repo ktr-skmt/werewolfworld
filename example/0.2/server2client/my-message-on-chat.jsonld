@@ -20,22 +20,24 @@
 	"intensionalDisclosureRange": "public",
 	"extensionalDisclosureRange": [],
 
-	"chatAgent": {
+	"agent": {
 		"@id": "https://werewolf.world/resource/0.1/Walter",
-		"chatAgentId": 1,
-		"chatAgentName": {
+		"id": 1,
+		"name": {
 			"en": "Walter",
 			"ja": "ヴァルター"
 		},
-		"chatAgentImage": "https://werewolf.world/image/0.1/Walter.jpg"
+		"image": "https://werewolf.world/image/0.1/Walter.jpg"
 	},
-	"chatIsMine": true,
-	"chatId": 12,
-	"chatCounter": 7,
-	"chatLimit": 10,
-	"chatInterval": "5s",
-	"chatText": ">>11\nそれで、あなたは人狼が誰だと思うの？\n\n私はパメラが人狼だと思う。",
-	"chatCharacterLimit": 140,
-	"chatLanguage": "ja",
-	"chatIsOver": false
+	"isMine": true,
+	"id": 12,
+	"counter": 7,
+	"limit": 10,
+	"interval": "5s",
+	"text": {
+		"@value": ">>11\nそれで、あなたは人狼が誰だと思うの？\n\n私はパメラが人狼だと思う。",
+		"@language": "ja"
+	},
+	"characterLimit": 140,
+	"isOver": false
 }
