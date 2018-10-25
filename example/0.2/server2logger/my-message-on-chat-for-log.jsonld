@@ -6,11 +6,13 @@
 
 	"@id": "https://werewolf.world/resource/0.1/playerMessage",
 
-	"villageId": 3,
-	"villageName": "横国の森の奥にある時代に取り残された小さな村",
-	"totalNumberOfAgents": 15,
+	"village": {
+		"id": 3,
+		"name": "横国の森の奥にある時代に取り残された小さな村",
+		"totalNumberOfAgents": 15
+	},
 	"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
-	"phase": "day conversation",
+	"phase": "morning",
 	"date": 1,
 	"phaseTimeLimit": "10m",
 	"phaseStartTime": "2006-10-07T12:06:56.568+09:00",
