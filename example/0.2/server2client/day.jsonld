@@ -37,8 +37,10 @@
 			"image": "https://werewolf.world/image/0.1/Gert.jpg",
 			"id": 0,
 			"status": "dead",
-			"statusUpdatePhase": "day vote",
-			"statusUpdateDate": 1,
+			"update": {
+				"phase": "day",
+				"date": 1
+			},
 			"isAChoice": false
 		},
 		{
@@ -51,8 +53,10 @@
 			"image": "https://werewolf.world/image/0.1/Walter.jpg",
 			"id": 1,
 			"status": "alive",
-			"statusUpdatePhase": "day conversation",
-			"statusUpdateDate": 1,
+			"update": {
+				"phase": "morning",
+				"date": 1
+			},
 			"isAChoice": false
 		},
 		{
@@ -65,8 +69,10 @@
 			"image": "https://werewolf.world/image/0.1/Moritz.jpg",
 			"id": 2,
 			"status": "alive",
-			"statusUpdatePhase": "day conversation",
-			"statusUpdateDate": 1,
+			"update": {
+				"phase": "morning",
+				"date": 1
+			},
 			"isAChoice": true
 		},
 		{
@@ -79,8 +85,10 @@
 			"image": "https://werewolf.world/image/0.1/Simson.jpg",
 			"id": 3,
 			"status": "alive",
-			"statusUpdatePhase": "day conversation",
-			"statusUpdateDate": 1,
+			"update": {
+				"phase": "morning",
+				"date": 1
+			},
 			"isAChoice": true
 		},
 		{
@@ -93,8 +101,10 @@
 			"image": "https://werewolf.world/image/0.1/Thomas.jpg",
 			"id": 4,
 			"status": "alive",
-			"statusUpdatePhase": "day conversation",
-			"statusUpdateDate": 1,
+			"update": {
+				"phase": "morning",
+				"date": 1
+			},
 			"isAChoice": true
 		},
 		{
@@ -107,8 +117,10 @@
 			"image": "https://werewolf.world/image/0.1/Nicholas.jpg",
 			"id": 5,
 			"status": "alive",
-			"statusUpdatePhase": "day conversation",
-			"statusUpdateDate": 1,
+			"update": {
+				"phase": "morning",
+				"date": 1
+			},
 			"isAChoice": true
 		},
 		{
@@ -121,8 +133,10 @@
 			"image": "https://werewolf.world/image/0.1/Dieter.jpg",
 			"id": 6,
 			"status": "alive",
-			"statusUpdatePhase": "day conversation",
-			"statusUpdateDate": 1,
+			"update": {
+				"phase": "morning",
+				"date": 1
+			},
 			"isAChoice": true
 		},
 		{
@@ -135,8 +149,10 @@
 			"image": "https://werewolf.world/image/0.1/Peter.jpg",
 			"id": 7,
 			"status": "alive",
-			"statusUpdatePhase": "day conversation",
-			"statusUpdateDate": 1,
+			"update": {
+				"phase": "morning",
+				"date": 1
+			},
 			"isAChoice": true
 		},
 		{
@@ -149,8 +165,10 @@
 			"image": "https://werewolf.world/image/0.1/Lisa.jpg",
 			"id": 8,
 			"status": "alive",
-			"statusUpdatePhase": "day conversation",
-			"statusUpdateDate": 1,
+			"update": {
+				"phase": "morning",
+				"date": 1
+			},
 			"isAChoice": true
 		},
 		{
@@ -163,8 +181,10 @@
 			"image": "https://werewolf.world/image/0.1/Alvin.jpg",
 			"id": 9,
 			"status": "alive",
-			"statusUpdatePhase": "day conversation",
-			"statusUpdateDate": 1,
+			"update": {
+				"phase": "morning",
+				"date": 1
+			},
 			"isAChoice": true
 		},
 		{
@@ -177,8 +197,10 @@
 			"image": "https://werewolf.world/image/0.1/Catalina.jpg",
 			"id": 10,
 			"status": "alive",
-			"statusUpdatePhase": "day conversation",
-			"statusUpdateDate": 1,
+			"update": {
+				"phase": "morning",
+				"date": 1
+			},
 			"isAChoice": true
 		},
 		{
@@ -191,8 +213,10 @@
 			"image": "https://werewolf.world/image/0.1/Otto.jpg",
 			"id": 11,
 			"status": "alive",
-			"statusUpdatePhase": "day conversation",
-			"statusUpdateDate": 1,
+			"update": {
+				"phase": "morning",
+				"date": 1
+			},
 			"isAChoice": true
 		},
 		{
@@ -205,8 +229,10 @@
 			"image": "https://werewolf.world/image/0.1/Joachim.jpg",
 			"id": 12,
 			"status": "alive",
-			"statusUpdatePhase": "day conversation",
-			"statusUpdateDate": 1,
+			"update": {
+				"phase": "morning",
+				"date": 1
+			},
 			"isAChoice": true
 		},
 		{
@@ -219,8 +245,10 @@
 			"image": "https://werewolf.world/image/0.1/Pamela.jpg",
 			"id": 13,
 			"status": "alive",
-			"statusUpdatePhase": "day conversation",
-			"statusUpdateDate": 1,
+			"update": {
+				"phase": "morning",
+				"date": 1
+			},
 			"isAChoice": true
 		},
 		{
@@ -233,8 +261,10 @@
 			"image": "https://werewolf.world/image/0.1/Jacob.jpg",
 			"id": 14,
 			"status": "alive",
-			"statusUpdatePhase": "day conversation",
-			"statusUpdateDate": 1,
+			"update": {
+				"phase": "morning",
+				"date": 1
+			},
 			"isAChoice": true
 		}
 	],
