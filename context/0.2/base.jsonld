@@ -38,38 +38,35 @@
 			"@type": "xsd:dateTime"
 		},
 		"directionality": "w3:directionality",
-		"disclosureRange": {
-			"@id": "w3:disclosureRange",
-			"intensional": "w3:channel",
-			"extensional": {
-				"@id": "w3:agent",
+		"intensionalDisclosureRange": "w3:channel",
+		"extensionalDisclosureRange": {
+			"@id": "w3:agent",
+			"@type": "@id",
+			"id": {
+				"@id": "w3:agentId",
+				"@type": "xsd:integer"
+			},
+			"name": {
+				"@id": "w3:agentName",
+				"@container": "@language"
+			},
+			"image": {
+				"@id": "w3:agentImage",
+				"@type": "@id"
+			},
+			"role": {
+				"@id": "w3:role",
 				"@type": "@id",
-				"id": {
-					"@id": "w3:agentId",
-					"@type": "xsd:integer"
-				},
 				"name": {
-					"@id": "w3:agentName",
+					"@id": "w3:roleName",
 					"@container": "@language"
 				},
 				"image": {
-					"@id": "w3:agentImage",
+					"@id": "w3:roleImage",
 					"@type": "@id"
-				},
-				"role": {
-					"@id": "w3:role",
-					"@type": "@id",
-					"name": {
-						"@id": "w3:roleName",
-						"@container": "@language"
-					},
-					"image": {
-						"@id": "w3:roleImage",
-						"@type": "@id"
-					}
-				},
-				"status": "w3:agentStatus"
-			}
+				}
+			},
+			"status": "w3:agentStatus"
 		},
 		"user": {
 			"@id": "w3:user",
