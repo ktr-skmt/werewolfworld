@@ -21,7 +21,7 @@
 	"directionality": "client to server",
 	"intensionalDisclosureRange": "private",
 	"extensionalDisclosureRange": [],
-	"me": {
+	"user": {
 		"name": "Katoh",
 		"avatar": "https://werewolf.world/image/0.1/Regina.jpg"
 	},
