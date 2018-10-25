@@ -3,7 +3,7 @@
 		"https://werewolf.world/context/0.1/base.jsonld",
 		"https://werewolf.world/context/0.1/agent.jsonld",
 		"https://werewolf.world/context/0.1/role.jsonld",
-		"https://werewolf.world/context/0.1/votingResults.jsonld"
+		"https://werewolf.world/context/0.1/votingResult.jsonld"
 	],
 	"@id": "https://werewolf.world/resource/0.1/systemMessage",
 
