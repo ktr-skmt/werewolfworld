@@ -13,7 +13,7 @@
 |board|[https://werewolf.world/context/0.2/board.jsonld](https://werewolf.world/context/0.2/board.jsonld)|
 |chat|[https://werewolf.world/context/0.2/chat.jsonld](https://werewolf.world/context/0.2/chat.jsonld)|
 |vote|[https://werewolf.world/context/0.2/vote.jsonld](https://werewolf.world/context/0.2/vote.jsonld)|
-|votingResults|[https://werewolf.world/context/0.2/votingResults.jsonld](https://werewolf.world/context/0.2/votingResults.jsonld)|
+|votingResults|[https://werewolf.world/context/0.2/votingResult.jsonld](https://werewolf.world/context/0.2/votingResults.jsonld)|
 |scroll|[https://werewolf.world/context/0.2/scroll.jsonld](https://werewolf.world/context/0.2/scroll.jsonld)|
 
 # IRIs
