@@ -1,6 +1,6 @@
 {
     "@context": "https://werewolf.world/context/0.2/agent.jsonld",
-    "@id": "https://werewolf.world/resource/0.2/role",
+    "@id": "https://werewolf.world/resource/0.2/agent",
 
     "agent": [
         {
