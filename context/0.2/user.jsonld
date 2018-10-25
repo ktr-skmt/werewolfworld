@@ -1,7 +1,12 @@
 {
 	"@context": {
 		"@version": 1.1,
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"w3": "https://werewolf.world/resource/0.2/",
+		"id": {
+			"@id": "w3:userId",
+			"@type": "xsd:integer"
+		},
 		"name": "w3:userName",
 		"avatar": {
 			"@id": "w3:userAvatar",
