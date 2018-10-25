@@ -46,9 +46,10 @@
 			},
 			"status": "alive",
 			"result": "win",
-			"user": {
+			"avatar": {
+				"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
 				"name": "Sato",
-				"avatar": "https://werewolf.world/image/0.2/Nicholas.jpg"
+				"image": "https://werewolf.world/image/0.2/Nicholas.jpg"
 			}
 		},
 		{
@@ -70,9 +71,10 @@
 			},
 			"status": "alive",
 			"result": "win",
-			"user": {
+			"avatar": {
+				"token": "eFVr3O93oLhmnE8OqTMl5VSVGI1",
 				"name": "Suzuki",
-				"avatar": "https://werewolf.world/image/0.2/Gert.jpg"
+				"image": "https://werewolf.world/image/0.2/Gert.jpg"
 			}
 		},
 		{
@@ -94,9 +96,10 @@
 			},
 			"status": "alive",
 			"result": "lose",
-			"user": {
+			"avatar": {
+				"token": "eFVr3O93oLhmnE8OqTMl5VSVGI2",
 				"name": "Takahashi",
-				"avatar": "https://werewolf.world/image/0.2/Alvin.jpg"
+				"image": "https://werewolf.world/image/0.2/Alvin.jpg"
 			}
 		},
 		{
@@ -118,9 +121,10 @@
 			},
 			"status": "alive",
 			"result": "win",
-			"user": {
+			"avatar": {
+				"token": "eFVr3O93oLhmnE8OqTMl5VSVGI3",
 				"name": "Tanaka",
-				"avatar": "https://werewolf.world/image/0.2/Friedel.jpg"
+				"image": "https://werewolf.world/image/0.2/Friedel.jpg"
 			}
 		},
 		{
@@ -142,9 +146,10 @@
 			},
 			"status": "alive",
 			"result": "win",
-			"user": {
+			"avatar": {
+				"token": "eFVr3O93oLhmnE8OqTMl5VSVGI4",
 				"name": "Ito",
-				"avatar": "https://werewolf.world/image/0.2/Dieter.jpg"
+				"image": "https://werewolf.world/image/0.2/Dieter.jpg"
 			}
 		},
 		{
@@ -166,9 +171,10 @@
 			},
 			"status": "death by fear",
 			"result": "lose",
-			"user": {
+			"avatar": {
+				"token": "eFVr3O93oLhmnE8OqTMl5VSVGI5",
 				"name": "Watanabe",
-				"avatar": "https://werewolf.world/image/0.2/Erna.jpg"
+				"image": "https://werewolf.world/image/0.2/Erna.jpg"
 			}
 		},
 		{
@@ -190,9 +196,10 @@
 			},
 			"status": "death by execution",
 			"result": "lose",
-			"user": {
+			"avatar": {
+				"token": "eFVr3O93oLhmnE8OqTMl5VSVGI6",
 				"name": "Yamamoto",
-				"avatar": "https://werewolf.world/image/0.2/Jacob.jpg"
+				"image": "https://werewolf.world/image/0.2/Jacob.jpg"
 			}
 		},
 		{
@@ -214,7 +221,8 @@
 			},
 			"status": "unnatural death",
 			"result": "lose",
-			"user": {
+			"avatar": {
+				"token": "eFVr3O93oLhmnE8OqTMl5VSVGI7",
 				"name": "Nakamura",
 				"avatar": "https://werewolf.world/image/0.2/Nicholas.jpg"
 			}
@@ -238,9 +246,10 @@
 			},
 			"status": "unnatural death",
 			"result": "win",
-			"user": {
+			"avatar": {
+				"token": "eFVr3O93oLhmnE8OqTMl5VSVGI8",
 				"name": "Kobayashi",
-				"avatar": "https://werewolf.world/image/0.2/Peter.jpg"
+				"image": "https://werewolf.world/image/0.2/Peter.jpg"
 			}
 		},
 		{
@@ -262,9 +271,10 @@
 			},
 			"status": "unnatural death",
 			"result": "win",
-			"user": {
+			"avatar": {
+				"token": "eFVr3O93oLhmnE8OqTMl5VSVGI9",
 				"name": "Yoshida",
-				"avatar": "https://werewolf.world/image/0.2/Peter.jpg"
+				"image": "https://werewolf.world/image/0.2/Peter.jpg"
 			}
 		},
 		{
@@ -286,9 +296,10 @@
 			},
 			"status": "unnatural death",
 			"result": "win",
-			"user": {
+			"avatar": {
+				"token": "eFVr3O93oLhmnE8OqTMl5VSVG10",
 				"name": "Yamada",
-				"avatar": "https://werewolf.world/image/0.2/Simon.jpg"
+				"image": "https://werewolf.world/image/0.2/Simon.jpg"
 			}
 		},
 		{
@@ -310,9 +321,10 @@
 			},
 			"status": "unnatural death",
 			"result": "win",
-			"user": {
+			"avatar": {
+				"token": "eFVr3O93oLhmnE8OqTMl5VSVG11",
 				"name": "Sasaki",
-				"avatar": "https://werewolf.world/image/0.2/Simson.jpg"
+				"image": "https://werewolf.world/image/0.2/Simson.jpg"
 			}
 		},
 		{
@@ -334,9 +346,10 @@
 			},
 			"status": "death by werewolf attack",
 			"result": "win",
-			"user": {
+			"avatar": {
+				"token": "eFVr3O93oLhmnE8OqTMl5VSVG12",
 				"name": "山口",
-				"avatar": "https://werewolf.world/image/0.2/Otto.jpg"
+				"image": "https://werewolf.world/image/0.2/Otto.jpg"
 			}
 		},
 		{
@@ -358,9 +371,10 @@
 			},
 			"status": "alive",
 			"result": "win",
-			"user": {
+			"avatar": {
+				"token": "eFVr3O93oLhmnE8OqTMl5VSVG13",
 				"name": "松本",
-				"avatar": "https://werewolf.world/image/0.2/Joachim.jpg"
+				"image": "https://werewolf.world/image/0.2/Joachim.jpg"
 			}
 		},
 		{
@@ -382,9 +396,10 @@
 			},
 			"status": "alive",
 			"result": "win",
-			"user": {
+			"avatar": {
+				"token": "eFVr3O93oLhmnE8OqTMl5VSVG14",
 				"name": "井上",
-				"avatar": "https://werewolf.world/image/0.2/Catalina.jpg"
+				"image": "https://werewolf.world/image/0.2/Catalina.jpg"
 			}
 		}
 	],
