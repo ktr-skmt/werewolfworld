@@ -23,16 +23,6 @@
 				"@type": "@id"
 			}
 		},
-		"user": {
-			"@id": "w3:user",
-			"@type": "@id",
-			"name": "w3:userName",
-			"avatar": {
-				"@id": "w3:userAvatar",
-				"@type": "@id"
-			}
-			
-		},
 		"id": "w3:chatId",
 		"counter": "w3:chatCounter",
 		"limit": "w3:chatLimit",
