@@ -27,7 +27,7 @@
 	"agent": [
 		{
 			"@id": "https://werewolf.world/resource/0.1/Gert",
-			"agentIsMine": false,
+			"isMine": false,
 			"name": {
 				"en": "Gert",
 				"ja": "ゲルト"
@@ -49,7 +49,7 @@
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Walter",
-			"agentIsMine": true,
+			"isMine": true,
 			"name": {
 				"en": "Walter",
 				"ja": "ヴァルター"
@@ -71,7 +71,7 @@
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Moritz",
-			"agentIsMine": false,
+			"isMine": false,
 			"name": {
 				"en": "Moritz",
 				"ja": "モーリッツ"
@@ -93,7 +93,7 @@
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Simson",
-			"agentIsMine": false,
+			"isMine": false,
 			"name": {
 				"en": "Simson",
 				"ja": "ジムゾン"
@@ -115,7 +115,7 @@
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Thomas",
-			"agentIsMine": false,
+			"isMine": false,
 			"name": {
 				"en": "Thomas",
 				"ja": "トーマス"
@@ -137,7 +137,7 @@
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Nicholas",
-			"agentIsMine": false,
+			"isMine": false,
 			"name": {
 				"en": "Nicholas",
 				"ja": "ニコラス"
@@ -159,7 +159,7 @@
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Dieter",
-			"agentIsMine": false,
+			"isMine": false,
 			"name": {
 				"en": "Dieter",
 				"ja": "ディーター"
@@ -181,7 +181,7 @@
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Peter",
-			"agentIsMine": false,
+			"isMine": false,
 			"name": {
 				"en": "Peter",
 				"ja": "ペーター"
@@ -203,7 +203,7 @@
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Lisa",
-			"agentIsMine": false,
+			"isMine": false,
 			"name": {
 				"en": "Lisa",
 				"ja": "リーザ"
@@ -225,7 +225,7 @@
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Alvin",
-			"agentIsMine": false,
+			"isMine": false,
 			"name": {
 				"en": "Alvin",
 				"ja": "アルビン"
@@ -247,7 +247,7 @@
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Catalina",
-			"agentIsMine": false,
+			"isMine": false,
 			"name": {
 				"en": "Catalina",
 				"ja": "カタリナ"
@@ -269,7 +269,7 @@
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Otto",
-			"agentIsMine": false,
+			"isMine": false,
 			"name": {
 				"en": "Otto",
 				"ja": "オットー"
@@ -291,7 +291,7 @@
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Joachim",
-			"agentIsMine": false,
+			"isMine": false,
 			"name": {
 				"en": "Joachim",
 				"ja": "ヨアヒム"
@@ -313,7 +313,7 @@
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Pamela",
-			"agentIsMine": false,
+			"isMine": false,
 			"name": {
 				"en": "Pamela",
 				"ja": "パメラ"
@@ -335,7 +335,7 @@
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/Jacob",
-			"agentIsMine": false,
+			"isMine": false,
 			"name": {
 				"en": "Jacob",
 				"ja": "ヤコブ"
@@ -360,7 +360,7 @@
 	"role": [
 		{
 			"@id": "https://werewolf.world/resource/0.1/master",
-			"roleIsMine": false,
+			"isMine": false,
 			"name": {
 				"en": "Master",
 				"ja": "マスター"
@@ -371,7 +371,7 @@
 		},
 		{
 			"@id": "https://wereworld.world/resource/0.1/villager",
-			"roleIsMine": false,
+			"isMine": false,
 			"name": {
 				"en": "Villager",
 				"ja": "村人"
@@ -381,63 +381,63 @@
 			"agent": [
 				{
 					"@id": "https://werewolf.world/resource/0.1/Gert",
-					"agentId": 0,
-					"agentName": {
+					"id": 0,
+					"name": {
 						"en": "Gert",
 						"ja": "ゲルト"
 					},
-					"agentImage": "https://werewolf.world/image/0.1/Gert.jpg"
+					"image": "https://werewolf.world/image/0.1/Gert.jpg"
 				},
 				{
 					"@id": "https://werewolf.world/resource/0.1/Lisa",
-					"agentId": 8,
-					"agentName": {
+					"id": 8,
+					"name": {
 						"en": "Lisa",
 						"ja": "リーザ"
 					},
-					"agentImage": "https://werewolf.world/image/0.1/Lisa.jpg"
+					"image": "https://werewolf.world/image/0.1/Lisa.jpg"
 				},
 				{
 					"@id": "https://werewolf.world/resource/0.1/Alvin",
-					"agentId": 9,
-					"agentName": {
+					"id": 9,
+					"name": {
 						"en": "Alvin",
 						"ja": "アルビン"
 					},
-					"agentImage": "https://werewolf.world/image/0.1/Alvin.jpg"
+					"image": "https://werewolf.world/image/0.1/Alvin.jpg"
 				},
 				{
 					"@id": "https://werewolf.world/resource/0.1/Joachim",
-					"agentId": 12,
-					"agentName": {
+					"id": 12,
+					"name": {
 						"en": "Joachim",
 						"ja": "ヨアヒム"
 					},
-					"agentImage": "https://werewolf.world/image/0.1/Joachim.jpg"
+					"image": "https://werewolf.world/image/0.1/Joachim.jpg"
 				},
 				{
 					"@id": "https://werewolf.world/resource/0.1/Pamela",
-					"agentId": 13,
-					"agentName": {
+					"id": 13,
+					"name": {
 						"en": "Pamela",
 						"ja": "パメラ"
 					},
-					"agentImage": "https://werewolf.world/image/0.1/Pamela.jpg"
+					"image": "https://werewolf.world/image/0.1/Pamela.jpg"
 				},
 				{
 					"@id": "https://werewolf.world/resource/0.1/Jacob",
-					"agentId": 14,
-					"agentName": {
+					"id": 14,
+					"name": {
 						"en": "Jacob",
 						"ja": "ヤコブ"
 					},
-					"agentImage": "https://werewolf.world/image/0.1/Jacob.jpg"
+					"image": "https://werewolf.world/image/0.1/Jacob.jpg"
 				}
 			]
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/seer",
-			"roleIsMine": true,
+			"isMine": true,
 			"name": {
 				"en": "Seer",
 				"ja": "占い師"
@@ -447,18 +447,18 @@
 			"agent": [
 				{
 					"@id": "https://werewolf.world/resource/0.1/Walter",
-					"agentId": 1,
-					"agentName": {
+					"id": 1,
+					"name": {
 						"en": "Walter",
 						"ja": "ヴァルター"
 					},
-					"agentImage": "https://werewolf.world/image/0.1/Walter.jpg"
+					"image": "https://werewolf.world/image/0.1/Walter.jpg"
 				}
 			]
 		},
 		{
 			"@id": "https://werewolf.world/resource/0.1/medium",
-			"roleIsMine": false,
+			"isMine": false,
 			"name": {
 				"en": "Medium",
 				"ja": "霊媒師"
@@ -468,18 +468,18 @@
 			"agent": [
 				{
 					"@id": "https://werewolf.world/resource/0.1/Thomas",
-					"agentId": 4,
-					"agentName": {
+					"id": 4,
+					"name": {
 						"en": "Thomas",
 						"ja": "トーマス"
 					},
-					"agentImage": "https://werewolf.world/image/0.1/Thomas.jpg"
+					"image": "https://werewolf.world/image/0.1/Thomas.jpg"
 				}
 			]
 		},
 		{
 			"@id": "https://wereworld.world/resource/0.1/hunter",
-			"roleIsMine": false,
+			"isMine": false,
 			"name": {
 				"en": "Hunter",
 				"ja": "狩人"
@@ -489,18 +489,18 @@
 			"agent": [
 				{
 					"@id": "https://werewolf.world/resource/0.1/Simson",
-					"agentId": 3,
-					"agentName": {
+					"id": 3,
+					"name": {
 						"en": "Simson",
 						"ja": "ジムゾン"
 					},
-					"agentImage": "https://werewolf.world/image/0.1/Simson.jpg"
+					"image": "https://werewolf.world/image/0.1/Simson.jpg"
 				}
 			]
 		},
 		{
 			"@id": "https://wereworld.world/resource/0.1/mason",
-			"roleIsMine": false,
+			"isMine": false,
 			"name": {
 				"en": "Mason",
 				"ja": "共有者"
@@ -510,27 +510,27 @@
 			"agent": [
 				{
 					"@id": "https://werewolf.world/resource/0.1/Catalina",
-					"agentId": 10,
-					"agentName": {
+					"id": 10,
+					"name": {
 						"en": "Catalina",
 						"ja": "カタリナ"
 					},
-					"agentImage": "https://werewolf.world/image/0.1/Catalina.jpg"
+					"image": "https://werewolf.world/image/0.1/Catalina.jpg"
 				},
 				{
 					"@id": "https://werewolf.world/resource/0.1/Otto",
-					"agentId": 11,
-					"agentName": {
+					"id": 11,
+					"name": {
 						"en": "Otto",
 						"ja": "オットー"
 					},
-					"agentImage": "https://werewolf.world/image/0.1/Otto.jpg"
+					"image": "https://werewolf.world/image/0.1/Otto.jpg"
 				}
 			]
 		},
 		{
 			"@id": "https://wereworld.world/resource/0.1/madman",
-			"roleIsMine": false,
+			"isMine": false,
 			"name": {
 				"en": "Madman",
 				"ja": "狂人"
@@ -540,18 +540,18 @@
 			"agent": [
 				{
 					"@id": "https://werewolf.world/resource/0.1/Dieter",
-					"agentId": 6,
-					"agentName": {
+					"id": 6,
+					"name": {
 						"en": "Dieter",
 						"ja": "ディーター"
 					},
-					"agentImage": "https://werewolf.world/image/0.1/Dieter.jpg"
+					"image": "https://werewolf.world/image/0.1/Dieter.jpg"
 				}
 			]
 		},
 		{
 			"@id": "https://wereworld.world/resource/0.1/werewolf",
-			"roleIsMine": false,
+			"isMine": false,
 			"name": {
 				"en": "Werewolf",
 				"ja": "人狼"
@@ -561,27 +561,27 @@
 			"agent": [
 				{
 					"@id": "https://werewolf.world/resource/0.1/Moritz",
-					"agentId": 2,
-					"agentName": {
+					"id": 2,
+					"name": {
 						"en": "Moritz",
 						"ja": "モーリッツ"
 					},
-					"agentImage": "https://werewolf.world/image/0.1/Moritz.jpg"
+					"image": "https://werewolf.world/image/0.1/Moritz.jpg"
 				},
 				{
 					"@id": "https://werewolf.world/resource/0.1/Peter",
-					"agentId": 7,
-					"agentName": {
+					"id": 7,
+					"name": {
 						"en": "Peter",
 						"ja": "ペーター"
 					},
-					"agentImage": "https://werewolf.world/image/0.1/Peter.jpg"
+					"image": "https://werewolf.world/image/0.1/Peter.jpg"
 				}
 			]
 		},
 		{
 			"@id": "https://wereworld.world/resource/0.1/werehumster",
-			"roleIsMine": false,
+			"isMine": false,
 			"name": {
 				"en": "Werehumster",
 				"ja": "ハムスター人間"
@@ -591,12 +591,12 @@
 			"agent": [
 				{
 					"@id": "https://werewolf.world/resource/0.1/Nicholas",
-					"agentId": 5,
-					"agentName": {
+					"id": 5,
+					"name": {
 						"en": "Nicholas",
 						"ja": "ニコラス"
 					},
-					"agentImage": "https://werewolf.world/image/0.1/Nicholas.jpg"
+					"image": "https://werewolf.world/image/0.1/Nicholas.jpg"
 				}
 			]
 		}
