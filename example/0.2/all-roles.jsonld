@@ -1,79 +1,79 @@
 {
-	"@context": "https://werewolf.world/context/0.1/role.jsonld",
-	"@id": "https://werewolf.world/resource/0.1/role",
+    "@context": "https://werewolf.world/context/0.2/role.jsonld",
+    "@id": "https://werewolf.world/resource/0.2/role",
 
-	"role": [
-		{
-			"@id": "https://werewolf.world/resource/0.1/master",
-			"name": {
-				"en": "Master",
-				"ja": "マスター"
-			},
-			"image": "https://werewolf.world/image/0.1/master.jpg"
-		},
-		{
-			"@id": "https://wereworld.world/resource/0.1/villager",
-			"name": {
-				"en": "Villager",
-				"ja": "村人"
-			},
-			"image": "https://werewolf.world/image/0.1/villager.jpg"
-		},
-		{
-			"@id": "https://werewolf.world/resource/0.1/seer",
-			"name": {
-				"en": "Seer",
-				"ja": "占い師"
-			},
-			"image": "https://werewolf.world/image/0.1/seer.jpg"
-		},
-		{
-			"@id": "https://werewolf.world/resource/0.1/medium",
-			"name": {
-				"en": "Medium",
-				"ja": "霊媒師"
-			},
-			"image": "https://werewolf.world/image/0.1/medium.jpg"
-		},
-		{
-			"@id": "https://wereworld.world/resource/0.1/hunter",
-			"name": {
-				"en": "Hunter",
-				"ja": "ハンター"
-			},
-			"image": "https://werewolf.world/image/0.1/hunter.jpg"
-		},
-		{
-			"@id": "https://wereworld.world/resource/0.1/mason",
-			"name": {
-				"en": "Mason",
-				"ja": "共有者"
-			},
-			"image": "https://werewolf.world/image/0.1/mason.jpg"
-		},
-		{
-			"@id": "https://wereworld.world/resource/0.1/madman",
-			"name": {
-				"en": "Madman",
-				"ja": "狂人"
-			},
-			"image": "https://werewolf.world/image/0.1/madman.jpg"
-		},
-		{
-			"@id": "https://wereworld.world/resource/0.1/werewolf",
-			"name": {
-				"en": "Werewolf",
-				"ja": "人狼"
-			},
-			"image": "https://werewolf.world/image/0.1/werewolf.jpg"
-		},
-		{
-			"@id": "https://wereworld.world/resource/0.1/werehumster",
-			"name": {
-				"en": "Werehumster",
-				"ja": "ハムスター人間"
-			},
-			"image": "https://werewolf.world/image/0.1/werehumster.jpg"
-		}
-	]
+    "role": [
+        {
+            "@id": "https://werewolf.world/resource/0.2/master",
+            "name": {
+                "en": "Master",
+                "ja": "マスター"
+            },
+            "image": "https://werewolf.world/image/0.2/master.jpg"
+        },
+        {
+            "@id": "https://wereworld.world/resource/0.2/villager",
+            "name": {
+                "en": "Villager",
+                "ja": "村人"
+            },
+            "image": "https://werewolf.world/image/0.2/villager.jpg"
+        },
+        {
+            "@id": "https://werewolf.world/resource/0.2/seer",
+            "name": {
+                "en": "Seer",
+                "ja": "占い師"
+            },
+            "image": "https://werewolf.world/image/0.2/seer.jpg"
+        },
+        {
+            "@id": "https://werewolf.world/resource/0.2/medium",
+            "name": {
+                "en": "Medium",
+                "ja": "霊媒師"
+            },
+            "image": "https://werewolf.world/image/0.2/medium.jpg"
+        },
+        {
+            "@id": "https://wereworld.world/resource/0.2/hunter",
+            "name": {
+                "en": "Hunter",
+                "ja": "ハンター"
+            },
+            "image": "https://werewolf.world/image/0.2/hunter.jpg"
+        },
+        {
+            "@id": "https://wereworld.world/resource/0.2/mason",
+            "name": {
+                "en": "Mason",
+                "ja": "共有者"
+            },
+            "image": "https://werewolf.world/image/0.2/mason.jpg"
+        },
+        {
+            "@id": "https://wereworld.world/resource/0.2/madman",
+            "name": {
+                "en": "Madman",
+                "ja": "狂人"
+            },
+            "image": "https://werewolf.world/image/0.2/madman.jpg"
+        },
+        {
+            "@id": "https://wereworld.world/resource/0.2/werewolf",
+            "name": {
+                "en": "Werewolf",
+                "ja": "人狼"
+            },
+            "image": "https://werewolf.world/image/0.2/werewolf.jpg"
+        },
+        {
+            "@id": "https://wereworld.world/resource/0.2/werehumster",
+            "name": {
+                "en": "Werehumster",
+                "ja": "ハムスター人間"
+            },
+            "image": "https://werewolf.world/image/0.2/werehumster.jpg"
+        }
+    ]
 }
