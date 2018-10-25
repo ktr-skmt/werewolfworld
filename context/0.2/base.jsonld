@@ -68,6 +68,11 @@
 			},
 			"status": "w3:agentStatus"
 		},
+		"avatar": {
+			"@id": "w3:avatar",
+			"@type": "@id",
+			"@context": "https://werewolf.world/context/0.2/avatar.jsonld"
+		},
 		"myAgent": {
 			"@id": "w3:agent",
 			"@type": "@id",
