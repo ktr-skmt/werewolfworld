@@ -4,12 +4,12 @@
 		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"w3": "https://werewolf.world/resource/0.2/",
 		"id": {
-			"@id": "w3:userId",
+			"@id": "w3:avatarId",
 			"@type": "xsd:integer"
 		},
-		"name": "w3:userName",
-		"avatar": {
-			"@id": "w3:userAvatar",
+		"name": "w3:avatarName",
+		"image": {
+			"@id": "w3:avatarImage",
 			"@type": "@id"
 		}
 	}
