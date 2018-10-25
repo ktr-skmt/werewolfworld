@@ -1,8 +1,8 @@
 {
 	"@context": [
+		"https://werewolf.world/context/0.2/avatar.jsonld",
 		"https://werewolf.world/context/0.2/base.jsonld",
-		"https://werewolf.world/context/0.2/board.jsonld",
-		"https://werewolf.world/context/0.2/user.jsonld"
+		"https://werewolf.world/context/0.2/board.jsonld"
 	],
 
 	"@id": "https://werewolf.world/resource/0.2/boardMessage",
@@ -22,8 +22,8 @@
 	"directionality": "client to server",
 	"intensionalDisclosureRange": "private",
 	"extensionalDisclosureRange": [],
-	"user": {
-		"id": 1,
+	"avatar": {
+		"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
 		"name": "Katoh",
 		"avatar": "https://werewolf.world/image/0.2/Regina.jpg"
 	},
