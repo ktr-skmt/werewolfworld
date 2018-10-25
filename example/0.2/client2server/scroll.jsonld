@@ -1,45 +1,45 @@
 {
-	"@context": [
-		"https://werewolf.world/context/0.1/base.jsonld",
-		"https://werewolf.world/context/0.1/scroll.jsonld"
-	],
+    "@context": [
+        "https://werewolf.world/context/0.2/base.jsonld",
+        "https://werewolf.world/context/0.2/scroll.jsonld"
+    ],
 
-	"@id": "https://werewolf.world/resource/0.1/scrollMessage",
+    "@id": "https://werewolf.world/resource/0.2/scrollMessage",
 
-	"village": {
-		"id": 3,
-		"name": "横国の森の奥にある時代に取り残された小さな村",
-		"totalNumberOfAgents": 15
-	},
-	"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
-	"phase": "morning",
-	"date": 2,
-	"phaseTimeLimit": 600,
-	"phaseStartTime": "2006-10-07T12:06:56.568+09:00",
-	"serverTimestamp": "2006-10-07T12:06:56.568+09:00",
-	"clientTimestamp": "2006-10-07T12:06:56.568+09:00",
-	"directionality": "client to server",
-	"intensionalDisclosureRange": "private",
-	"extensionalDisclosureRange": [],
-	"myAgent": {
-		"id": 1,
-		"name": {
-			"en": "Walter",
-			"ja": "ヴァルター"
-		},
-		"image": "https://werewolf.world/image/0.1/Walter.jpg",
-		"role": {
-			"@id": "https://werewolf.world/resource/0.1/werewolf",
-			"name": {
-				"en": "Werewolf",
-				"ja": "人狼"
-			},
-			"image": "https://werewolf.world/image/0.1/werewolf.jpg"
-		}
-	},
+    "village": {
+        "id": 3,
+        "name": "横国の森の奥にある時代に取り残された小さな村",
+        "totalNumberOfAgents": 15
+    },
+    "token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
+    "phase": "morning",
+    "date": 2,
+    "phaseTimeLimit": 600,
+    "phaseStartTime": "2006-10-07T12:06:56.568+09:00",
+    "serverTimestamp": "2006-10-07T12:06:56.568+09:00",
+    "clientTimestamp": "2006-10-07T12:06:56.568+09:00",
+    "directionality": "client to server",
+    "intensionalDisclosureRange": "private",
+    "extensionalDisclosureRange": [],
+    "myAgent": {
+        "id": 1,
+        "name": {
+            "en": "Walter",
+            "ja": "ヴァルター"
+        },
+        "image": "https://werewolf.world/image/0.2/Walter.jpg",
+        "role": {
+            "@id": "https://werewolf.world/resource/0.2/werewolf",
+            "name": {
+                "en": "Werewolf",
+                "ja": "人狼"
+            },
+            "image": "https://werewolf.world/image/0.2/werewolf.jpg"
+        }
+    },
 
-	"nodeId": "scrollNode",
-	"scrollTop": 100,
-	"scrollHeight": 120,
-	"offsetHeight": 10
+    "nodeId": "scrollNode",
+    "scrollTop": 100,
+    "scrollHeight": 120,
+    "offsetHeight": 10
 }
