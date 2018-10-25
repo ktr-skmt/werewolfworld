@@ -1,10 +1,10 @@
 {
 	"@context": [
-		"https://werewolf.world/context/0.1/base.jsonld",
-		"https://werewolf.world/context/0.1/board.jsonld"
+		"https://werewolf.world/context/0.2/base.jsonld",
+		"https://werewolf.world/context/0.2/board.jsonld"
 	],
 
-	"@id": "https://werewolf.world/resource/0.1/boardMessage",
+	"@id": "https://werewolf.world/resource/0.2/boardMessage",
 
 	"village": {
 		"id": 3,
@@ -22,39 +22,39 @@
 	"intensionalDisclosureRange": "private",
 	"extensionalDisclosureRange": [],
 	"myAgent": {
-		"@id": "https://werewolf.world/resource/0.1/Walter",
+		"@id": "https://werewolf.world/resource/0.2/Walter",
 		"id": 1,
 		"name": {
 			"en": "Walter",
 			"ja": "ヴァルター"
 		},
-		"image": "https://werewolf.world/image/0.1/Walter.jpg",
+		"image": "https://werewolf.world/image/0.2/Walter.jpg",
 		"role": {
-			"@id": "https://werewolf.world/resource/0.1/werewolf",
+			"@id": "https://werewolf.world/resource/0.2/werewolf",
 			"name": {
 				"en": "Werewolf",
 				"ja": "人狼"
 			},
-			"image": "https://werewolf.world/image/0.1/werewolf.jpg"
+			"image": "https://werewolf.world/image/0.2/werewolf.jpg"
 		}
 	},
 	
 	"agent": {
-		"@id": "https://werewolf.world/resource/0.1/Thomas",
+		"@id": "https://werewolf.world/resource/0.2/Thomas",
 		"id": 4,
 		"name": {
 			"en": "Thomas",
 			"ja": "トーマス"
 		},
-		"image": "https://werewolf.world/image/0.1/Thomas.jpg"
+		"image": "https://werewolf.world/image/0.2/Thomas.jpg"
 	},
 	"role": {
-		"@id": "https://werewolf.world/resource/0.1/madman",
+		"@id": "https://werewolf.world/resource/0.2/madman",
 		"name": {
 			"en": "Madman",
 			"ja": "狂人"
 		},
-		"image": "https://werewolf.world/image/0.1/madman.jpg"
+		"image": "https://werewolf.world/image/0.2/madman.jpg"
 	},
 	"prediction": "X"
 }
