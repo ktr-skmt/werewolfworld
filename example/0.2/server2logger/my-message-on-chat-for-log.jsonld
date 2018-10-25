@@ -1,10 +1,10 @@
 {
 	"@context": [
-		"https://werewolf.world/context/0.1/base.jsonld",
-		"https://werewolf.world/context/0.1/chat.jsonld"
+		"https://werewolf.world/context/0.2/base.jsonld",
+		"https://werewolf.world/context/0.2/chat.jsonld"
 	],
 
-	"@id": "https://werewolf.world/resource/0.1/playerMessage",
+	"@id": "https://werewolf.world/resource/0.2/playerMessage",
 
 	"village": {
 		"id": 3,
@@ -22,272 +22,272 @@
 	"intensionalDisclosureRange": "public",
 	"extensionalDisclosureRange": [
 		{
-			"@id": "https://werewolf.world/resource/0.1/Gert",
+			"@id": "https://werewolf.world/resource/0.2/Gert",
 			"name": {
 				"en": "Gert",
 				"ja": "ゲルト"
 			},
-			"image": "https://werewolf.world/image/0.1/Gert.jpg",
+			"image": "https://werewolf.world/image/0.2/Gert.jpg",
 			"id": 0,
 			"role": {
-				"@id": "https://werewolf.world/resource/0.1/villager",
+				"@id": "https://werewolf.world/resource/0.2/villager",
 				"name": {
 					"en": "Villager",
 					"ja": "村人"
 				},
-				"image": "https://werewolf.world/image/0.1/villager.jpg"
+				"image": "https://werewolf.world/image/0.2/villager.jpg"
 			},
 			"status": "alive"
 		},
 		{
-			"@id": "https://werewolf.world/resource/0.1/Walter",
+			"@id": "https://werewolf.world/resource/0.2/Walter",
 			"name": {
 				"en": "Walter",
 				"ja": "ヴァルター"
 			},
-			"image": "https://werewolf.world/image/0.1/Walter.jpg",
+			"image": "https://werewolf.world/image/0.2/Walter.jpg",
 			"id": 1,
 			"role": {
-				"@id": "https://werewolf.world/resource/0.1/seer",
+				"@id": "https://werewolf.world/resource/0.2/seer",
 				"name": {
 					"en": "Seer",
 					"ja": "占い師"
 				},
-				"image": "https://werewolf.world/image/0.1/seer.jpg"
+				"image": "https://werewolf.world/image/0.2/seer.jpg"
 			},
 			"status": "alive"
 		},
 		{
-			"@id": "https://werewolf.world/resource/0.1/Moritz",
+			"@id": "https://werewolf.world/resource/0.2/Moritz",
 			"name": {
 				"en": "Moritz",
 				"ja": "モーリッツ"
 			},
-			"image": "https://werewolf.world/image/0.1/Moritz.jpg",
+			"image": "https://werewolf.world/image/0.2/Moritz.jpg",
 			"id": 2,
 			"role": {
-				"@id": "https://werewolf.world/resource/0.1/werewolf",
+				"@id": "https://werewolf.world/resource/0.2/werewolf",
 				"name": {
 					"en": "Werewolf",
 					"ja": "人狼"
 				},
-				"image": "https://werewolf.world/image/0.1/werewolf.jpg"
+				"image": "https://werewolf.world/image/0.2/werewolf.jpg"
 			},
 			"status": "alive"
 		},
 		{
-			"@id": "https://werewolf.world/resource/0.1/Simson",
+			"@id": "https://werewolf.world/resource/0.2/Simson",
 			"name": {
 				"en": "Simson",
 				"ja": "ジムゾン"
 			},
-			"image": "https://werewolf.world/image/0.1/Simson.jpg",
+			"image": "https://werewolf.world/image/0.2/Simson.jpg",
 			"id": 3,
 			"role": {
-				"@id": "https://werewolf.world/resource/0.1/hunter",
+				"@id": "https://werewolf.world/resource/0.2/hunter",
 				"name": {
 					"en": "Hunter",
 					"ja": "狩人"
 				},
-				"image": "https://werewolf.world/image/0.1/hunter.jpg"
+				"image": "https://werewolf.world/image/0.2/hunter.jpg"
 			},
 			"status": "alive"
 		},
 		{
-			"@id": "https://werewolf.world/resource/0.1/Thomas",
+			"@id": "https://werewolf.world/resource/0.2/Thomas",
 			"name": {
 				"en": "Thomas",
 				"ja": "トーマス"
 			},
-			"image": "https://werewolf.world/image/0.1/Thomas.jpg",
+			"image": "https://werewolf.world/image/0.2/Thomas.jpg",
 			"id": 4,
 			"role": {
-				"@id": "https://werewolf.world/resource/0.1/medium",
+				"@id": "https://werewolf.world/resource/0.2/medium",
 				"name": {
 					"en": "Medium",
 					"ja": "霊媒師"
 				},
-				"image": "https://werewolf.world/image/0.1/medium.jpg"
+				"image": "https://werewolf.world/image/0.2/medium.jpg"
 			},
 			"status": "alive"
 		},
 		{
-			"@id": "https://werewolf.world/resource/0.1/Nicholas",
+			"@id": "https://werewolf.world/resource/0.2/Nicholas",
 			"name": {
 				"en": "Nicholas",
 				"ja": "ニコラス"
 			},
-			"image": "https://werewolf.world/image/0.1/Nicholas.jpg",
+			"image": "https://werewolf.world/image/0.2/Nicholas.jpg",
 			"id": 5,
 			"role": {
-				"@id": "https://werewolf.world/resource/0.1/werehumster",
+				"@id": "https://werewolf.world/resource/0.2/werehumster",
 				"name": {
 					"en": "Werehumster",
 					"ja": "ハムスター人間"
 				},
-				"image": "https://werewolf.world/image/0.1/werehumster.jpg"
+				"image": "https://werewolf.world/image/0.2/werehumster.jpg"
 			},
 			"status": "alive"
 		},
 		{
-			"@id": "https://werewolf.world/resource/0.1/Dieter",
+			"@id": "https://werewolf.world/resource/0.2/Dieter",
 			"name": {
 				"en": "Dieter",
 				"ja": "ディーター"
 			},
-			"image": "https://werewolf.world/image/0.1/Dieter.jpg",
+			"image": "https://werewolf.world/image/0.2/Dieter.jpg",
 			"id": 6,
 			"role": {
-				"@id": "https://werewolf.world/resource/0.1/madman",
+				"@id": "https://werewolf.world/resource/0.2/madman",
 				"name": {
 					"en": "Madman",
 					"ja": "狂人"
 				},
-				"image": "https://werewolf.world/image/0.1/madman.jpg"
+				"image": "https://werewolf.world/image/0.2/madman.jpg"
 			},
 			"status": "alive"
 		},
 		{
-			"@id": "https://werewolf.world/resource/0.1/Peter",
+			"@id": "https://werewolf.world/resource/0.2/Peter",
 			"name": {
 				"en": "Peter",
 				"ja": "ペーター"
 			},
-			"image": "https://werewolf.world/image/0.1/Peter.jpg",
+			"image": "https://werewolf.world/image/0.2/Peter.jpg",
 			"id": 7,
 			"role": {
-				"@id": "https://werewolf.world/resource/0.1/werewolf",
+				"@id": "https://werewolf.world/resource/0.2/werewolf",
 				"name": {
 					"en": "Werewolf",
 					"ja": "人狼"
 				},
-				"image": "https://werewolf.world/image/0.1/werewolf.jpg"
+				"image": "https://werewolf.world/image/0.2/werewolf.jpg"
 			},
 			"status": "alive"
 		},
 		{
-			"@id": "https://werewolf.world/resource/0.1/Lisa",
+			"@id": "https://werewolf.world/resource/0.2/Lisa",
 			"name": {
 				"en": "Lisa",
 				"ja": "リーザ"
 			},
-			"image": "https://werewolf.world/image/0.1/Lisa.jpg",
+			"image": "https://werewolf.world/image/0.2/Lisa.jpg",
 			"id": 8,
 			"role": {
-				"@id": "https://werewolf.world/resource/0.1/villager",
+				"@id": "https://werewolf.world/resource/0.2/villager",
 				"name": {
 					"en": "Villager",
 					"ja": "村人"
 				},
-				"image": "https://werewolf.world/image/0.1/villager.jpg"
+				"image": "https://werewolf.world/image/0.2/villager.jpg"
 			},
 			"status": "alive"
 		},
 		{
-			"@id": "https://werewolf.world/resource/0.1/Alvin",
+			"@id": "https://werewolf.world/resource/0.2/Alvin",
 			"name": {
 				"en": "Alvin",
 				"ja": "アルビン"
 			},
-			"image": "https://werewolf.world/image/0.1/Alvin.jpg",
+			"image": "https://werewolf.world/image/0.2/Alvin.jpg",
 			"id": 9,
 			"role": {
-				"@id": "https://werewolf.world/resource/0.1/villager",
+				"@id": "https://werewolf.world/resource/0.2/villager",
 				"name": {
 					"en": "Villager",
 					"ja": "村人"
 				},
-				"image": "https://werewolf.world/image/0.1/villager.jpg"
+				"image": "https://werewolf.world/image/0.2/villager.jpg"
 			},
 			"status": "alive"
 		},
 		{
-			"@id": "https://werewolf.world/resource/0.1/Catalina",
+			"@id": "https://werewolf.world/resource/0.2/Catalina",
 			"name": {
 				"en": "Catalina",
 				"ja": "カタリナ"
 			},
-			"image": "https://werewolf.world/image/0.1/Catalina.jpg",
+			"image": "https://werewolf.world/image/0.2/Catalina.jpg",
 			"id": 10,
 			"role": {
-				"@id": "https://werewolf.world/resource/0.1/mason",
+				"@id": "https://werewolf.world/resource/0.2/mason",
 				"name": {
 					"en": "Mason",
 					"ja": "共有者"
 				},
-				"image": "https://werewolf.world/image/0.1/mason.jpg"
+				"image": "https://werewolf.world/image/0.2/mason.jpg"
 			},
 			"status": "alive"
 		},
 		{
-			"@id": "https://werewolf.world/resource/0.1/Otto",
+			"@id": "https://werewolf.world/resource/0.2/Otto",
 			"name": {
 				"en": "Otto",
 				"ja": "オットー"
 			},
-			"image": "https://werewolf.world/image/0.1/Otto.jpg",
+			"image": "https://werewolf.world/image/0.2/Otto.jpg",
 			"id": 11,
 			"role": {
-				"@id": "https://werewolf.world/resource/0.1/mason",
+				"@id": "https://werewolf.world/resource/0.2/mason",
 				"name": {
 					"en": "Mason",
 					"ja": "共有者"
 				},
-				"image": "https://werewolf.world/image/0.1/mason.jpg"
+				"image": "https://werewolf.world/image/0.2/mason.jpg"
 			},
 			"status": "alive"
 		},
 		{
-			"@id": "https://werewolf.world/resource/0.1/Joachim",
+			"@id": "https://werewolf.world/resource/0.2/Joachim",
 			"name": {
 				"en": "Joachim",
 				"ja": "ヨアヒム"
 			},
-			"image": "https://werewolf.world/image/0.1/Joachim.jpg",
+			"image": "https://werewolf.world/image/0.2/Joachim.jpg",
 			"id": 12,
 			"role": {
-				"@id": "https://werewolf.world/resource/0.1/villager",
+				"@id": "https://werewolf.world/resource/0.2/villager",
 				"name": {
 					"en": "Villager",
 					"ja": "村人"
 				},
-				"image": "https://werewolf.world/image/0.1/villager.jpg"
+				"image": "https://werewolf.world/image/0.2/villager.jpg"
 			},
 			"status": "alive"
 		},
 		{
-			"@id": "https://werewolf.world/resource/0.1/Pamela",
+			"@id": "https://werewolf.world/resource/0.2/Pamela",
 			"name": {
 				"en": "Pamela",
 				"ja": "パメラ"
 			},
-			"image": "https://werewolf.world/image/0.1/Pamela.jpg",
+			"image": "https://werewolf.world/image/0.2/Pamela.jpg",
 			"id": 13,
 			"role": {
-				"@id": "https://werewolf.world/resource/0.1/villager",
+				"@id": "https://werewolf.world/resource/0.2/villager",
 				"name": {
 					"en": "Villager",
 					"ja": "村人"
 				},
-				"image": "https://werewolf.world/image/0.1/villager.jpg"
+				"image": "https://werewolf.world/image/0.2/villager.jpg"
 			},
 			"status": "alive"
 		},
 		{
-			"@id": "https://werewolf.world/resource/0.1/Jacob",
+			"@id": "https://werewolf.world/resource/0.2/Jacob",
 			"name": {
 				"en": "Jacob",
 				"ja": "ヤコブ"
 			},
-			"image": "https://werewolf.world/image/0.1/Jacob.jpg",
+			"image": "https://werewolf.world/image/0.2/Jacob.jpg",
 			"id": 14,
 			"role": {
-				"@id": "https://werewolf.world/resource/0.1/villager",
+				"@id": "https://werewolf.world/resource/0.2/villager",
 				"name": {
 					"en": "Villager",
 					"ja": "村人"
 				},
-				"image": "https://werewolf.world/image/0.1/villager.jpg"
+				"image": "https://werewolf.world/image/0.2/villager.jpg"
 			},
 			"status": "alive"
 		}	
@@ -295,13 +295,13 @@
 
 	"isMine": true,
 	"agent": {
-		"@id": "https://werewolf.world/resource/0.1/Walter",
+		"@id": "https://werewolf.world/resource/0.2/Walter",
 		"id": 1,
 		"name": {
 			"en": "Walter",
 			"ja": "ヴァルター"
 		},
-		"image": "https://werewolf.world/image/0.1/Walter.jpg"
+		"image": "https://werewolf.world/image/0.2/Walter.jpg"
 	},
 	"id": 12,
 	"counter": 7,
