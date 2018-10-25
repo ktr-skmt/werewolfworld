@@ -1,10 +1,10 @@
 {
 	"@context": [
-		"https://werewolf.world/context/0.1/base.jsonld",
-		"https://werewolf.world/context/0.1/chat.jsonld"
+		"https://werewolf.world/context/0.2/base.jsonld",
+		"https://werewolf.world/context/0.2/chat.jsonld"
 	],
 
-	"@id": "https://werewolf.world/resource/0.1/playerMessage",
+	"@id": "https://werewolf.world/resource/0.2/playerMessage",
 
 	"village": {
 		"id": 3,
@@ -23,13 +23,13 @@
 	"extensionalDisclosureRange": [],
 
 	"agent": {
-		"@id": "https://werewolf.world/resource/0.1/Walter",
+		"@id": "https://werewolf.world/resource/0.2/Walter",
 		"id": 1,
 		"name": {
 			"en": "Walter",
 			"ja": "ヴァルター"
 		},
-		"image": "https://werewolf.world/image/0.1/Walter.jpg"
+		"image": "https://werewolf.world/image/0.2/Walter.jpg"
 	},
 	"isMine": false,
 	"id": 12,
