@@ -68,14 +68,6 @@
 			},
 			"status": "w3:agentStatus"
 		},
-		"user": {
-			"@id": "w3:user",
-			"name": "w3:userName",
-			"avatar": {
-				"@id": "w3:userAvatar",
-				"@type": "@id"
-			}
-		},
 		"myAgent": {
 			"@id": "w3:agent",
 			"@type": "@id",
