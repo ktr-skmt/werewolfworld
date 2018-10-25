@@ -47,15 +47,6 @@
 			"@id": "w3:agentIsAChoice",
 			"@type": "xsd:boolean"
 		},
-		"result": "w3:result",
-		"user": {
-			"@id": "w3:user",
-			"@type": "@id",
-			"name": "w3:userName",
-			"avatar": {
-				"@id": "w3:userAvatar",
-				"@type": "@id"
-			}
-		}
+		"result": "w3:result"
 	}
 }
