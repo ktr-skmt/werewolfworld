@@ -36,10 +36,12 @@
 			}
 		},
 		"status": "w3:agentStatus",
-		"statusUpdatePhase": "w3:phase",
-		"statusUpdateDate": {
-			"@id": "w3:date",
-			"@type": "xsd:integer"
+		"update": {
+			"phase": "w3:phase",
+			"date": {
+				"@id": "w3:date",
+				"@type": "xsd:integer"
+			}
 		},
 		"isAChoice": {
 			"@id": "w3:agentIsAChoice",
