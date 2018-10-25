@@ -1,6 +1,5 @@
 {
     "@context": [
-        "https://werewolf.world/context/0.2/avatar.jsonld",
         "https://werewolf.world/context/0.2/base.jsonld",
         "https://werewolf.world/context/0.2/chat.jsonld"
     ],
