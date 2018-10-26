@@ -1,7 +1,7 @@
 {
   "title": "werewolf.world: Schema of advancedSearch.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://werewolf.world/lobby/schema/0.2/client2server/advancedSearch.json,
+  "$id": "https://werewolf.world/lobby/schema/0.2/client2server/advancedSearch.json",
   "definitions": {},
   "type": "object",
   "properties": {
