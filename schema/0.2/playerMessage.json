@@ -1,0 +1,69 @@
+{
+    "title": "werewolf.world: Schema of playerMessage.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://werewolf.world/schema/0.2/client2server/playerMessage.json",
+    "properties": {
+        "agent": {
+            "@id": {
+                "$ref": "https://werewolf.world/schema/0.2/agent.json"
+            },
+            "id": {
+                "$ref": "https://werewolf.world/schema/0.2/agent.json"
+            },
+            "name": {
+                "$ref": "https://werewolf.world/schema/0.2/agent.json"
+            },
+            "image": {
+                "$ref": "https://werewolf.world/schema/0.2/agent.json"
+            }
+        },
+        "isMine": {
+            "$ref": "https://werewolf.world/schema/0.2/chat.json"
+        },
+        "id": {
+            "$ref": "https://werewolf.world/schema/0.2/chat.json"
+        },
+        "counter": {
+            "$ref": "https://werewolf.world/schema/0.2/chat.json"
+        },
+        "limit": {
+            "$ref": "https://werewolf.world/schema/0.2/chat.json"
+        },
+        "interval": {
+            "$ref": "https://werewolf.world/schema/0.2/chat.json"
+        },
+        "text": {
+            "$ref": "https://werewolf.world/schema/0.2/chat.json"
+        },
+        "characterLimit": {
+            "$ref": "https://werewolf.world/schema/0.2/chat.json"
+        },
+        "isOver": {
+            "$ref": "https://werewolf.world/schema/0.2/chat.json"
+        }
+    },
+    "patternProperties": {
+        "^[A-Za-z@]+$": {
+            "$ref": "https://werewolf.world/schema/0.2/base.json"
+        }
+    },
+    "required": [
+        "@context",
+        "@id",
+        "village",
+        "token",
+        "phase",
+        "date",
+        "phaseTimeLimit",
+        "phaseStartTime",
+        "serverTimestamp",
+        "clientTimestamp",
+        "directionality",
+        "intensionalDisclosureRange",
+        "extensionalDisclosureRange",
+        "isMine",
+        "text",
+        "characterLimit",
+        "isOver"
+    ]
+}

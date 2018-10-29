@@ -1,0 +1,116 @@
+{
+    "title": "werewolf.world: Schema of chat.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://werewolf.world/schema/0.2/chat.json",
+    "definitions": {
+        "isMine": {
+            "title": "Is Chat Mine?",
+            "description": "is/was the chat sent by me?",
+            "$id": "/definitions/isMine",
+            "type": "boolean",
+            "default": false,
+            "examples": [
+                true,
+                false
+            ]
+        },
+        "id": {
+            "title": "Chat ID",
+            "description": "chat ID",
+            "$id": "/definitions/id",
+            "type": "integer",
+            "minimum": 1,
+            "default": 1,
+            "examples": [
+                1
+            ]
+        },
+        "counter": {
+            "title": "Chat Counter",
+            "description": "chat counter",
+            "$id": "/definitions/counter",
+            "type": "integer",
+            "minimum": 0,
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "limit": {
+            "title": "Chat Limit",
+            "description": "chat limit",
+            "$id": "/definitions/limit",
+            "type": "integer",
+            "minimum": 1,
+            "examples": [
+                10
+            ]
+        },
+        "interval": {
+            "title": "Chat Interval",
+            "description": "chat interval",
+            "$id": "/definitions/interval",
+            "type": "string",
+            "pattern": "[0-9]+s",
+            "default": "5s",
+            "examples": [
+                "5s"
+            ]
+        },
+        "text": {
+            "title": "Text",
+            "description": "text",
+            "$id": "/definitions/text",
+            "type": "object",
+            "properties": {
+                "@value": {
+                    "title": "Text @value",
+                    "description": "text @value",
+                    "$id": "/definitions/text/properties/@value",
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 140
+                },
+                "@language": {
+                    "title": "Text @language",
+                    "description": "text @language",
+                    "$id": "/definitions/text/properteis/@language",
+                    "type": "string",
+                    "enum": [
+                        "en",
+                        "ja"
+                    ],
+                    "examples": [
+                        "en",
+                        "ja"
+                    ]
+                }
+            },
+            "required": [
+                "@value",
+                "@language"
+            ]
+        },
+        "characterLimit": {
+            "title": "Character Limit",
+            "description": "character limit",
+            "$id": "/definitions/characterLimit",
+            "type": "integer",
+            "default": 140,
+            "examples": [
+                140
+            ]
+        },
+        "isOver": {
+            "title": "Is Over",
+            "description": "is over?",
+            "$id": "/definitions/isOver",
+            "type": "boolean",
+            "default": false,
+            "examples": [
+                true,
+                false
+            ]
+        }
+    }
+}

@@ -95,7 +95,7 @@ See [https://werewolf.world/image/0.2/#role](https://werewolf.world/image/0.2/#r
 ---|---|---
 |https://werewolf.world/resource/0.2/chatIsMine|xsd:boolean|true, false|
 |https://werewolf.world/resource/0.2/chatId|xsd:integer|1 <=|
-|https://werewolf.world/resource/0.2/chatCounter|xsd:integer|0<=, <=chatCounter|
+|https://werewolf.world/resource/0.2/chatCounter|xsd:integer|0<=, <=chatLimit|
 |https://werewolf.world/resource/0.2/chatLimit|xsd:integer|1 <=|
 |https://werewolf.world/resource/0.2/chatInterval||such as '5s'|
 |https://werewolf.world/resource/0.2/chatText||string such as 0 <= {# of Unicode code points} <= {chatCharacterLimit}|

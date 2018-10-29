@@ -1,0 +1,215 @@
+{
+    "title": "werewolf.world: Schema of systemMessage.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://werewolf.world/schema/0.2/systemMessage.json",
+    "properties": {
+        "agent": {
+            "title": "Agent List",
+            "description": "agent list",
+            "$id": "/properties/agent",
+            "type": "array",
+            "items": {
+                "title": "Agent",
+                "description": "agent",
+                "$id": "/properties/items/agent",
+                "type": "object",
+                "properties": {
+                    "@id": {
+                        "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                    },
+                    "isMine": {
+                        "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                    },
+                    "name": {
+                        "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                    },
+                    "image": {
+                        "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                    },
+                    "id": {
+                        "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                    },
+                    "status": {
+                        "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                    },
+                    "update": {
+                        "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                    },
+                    "isAChoice": {
+                        "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                    },
+                    "result": {
+                        "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                    },
+                    "avatar": {
+                        "title": "Avatar",
+                        "description": "avatar",
+                        "$id": "/properties/items/agent/properties/avatar",
+                        "type": "object",
+                        "properties": {
+                            "token": {
+                                "$ref": "https://werewolf.world/schema/0.2/avatar.json"
+                            },
+                            "name": {
+                                "$ref": "https://werewolf.world/schema/0.2/avatar.json"
+                            },
+                            "image": {
+                                "$ref": "https://werewolf.world/schema/0.2/avatar.json"
+                            }
+                        }
+                    }
+                },
+                "required": [
+                    "@id",
+                    "isMine",
+                    "name",
+                    "image",
+                    "id",
+                    "status"
+                ]
+            }
+        },
+        "role": {
+            "title": "Role List",
+            "description": "role list",
+            "$id": "/properties/role",
+            "type": "array",
+            "items": {
+                "title": "Role",
+                "description": "role",
+                "$id": "/properties/items/role",
+                "type": "object",
+                "properties": {
+                    "@id": {
+                        "$ref": "https://werewolf.world/schema/0.2/role.json"
+                    },
+                    "isMine": {
+                        "$ref": "https://werewolf.world/schema/0.2/role.json"
+                    },
+                    "name": {
+                        "$ref": "https://werewolf.world/schema/0.2/role.json"
+                    },
+                    "image": {
+                        "$ref": "https://werewolf.world/schema/0.2/role.json"
+                    },
+                    "numberOfAgents": {
+                        "$ref": "https://werewolf.world/schema/0.2/role.json"
+                    },
+                    "agent": {
+                        "title": "Agent",
+                        "description": "Agent",
+                        "$id": "/properties/role/items/properteis/agent",
+                        "type": "array",
+                        "items": {
+                            "title": "Agent",
+                            "description": "agent",
+                            "type": "object",
+                            "properties": {
+                                "@id": {
+                                    "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                                },
+                                "id": {
+                                    "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                                },
+                                "name": {
+                                    "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                                },
+                                "image": {
+                                    "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                                }
+                            },
+                            "required": [
+                                "@id",
+                                "id",
+                                "name",
+                                "image"
+                            ]
+                        }
+
+                    },
+                    "board": {
+                        "title": "Board list",
+                        "description": "board list",
+                        "$id": "/properties/role/items/properteis/board",
+                        "type": "array",
+                        "items": {
+                            "title": "Board",
+                            "description": "board",
+                            "$id": "/properties/role/items/properties/board/items/board",
+                            "type": "object",
+                            "properties": {
+                                "agent": {
+                                    "title": "Agent",
+                                    "description": "agent",
+                                    "$id": "/properteis/role/items/properties/board/items/board/agent",
+                                    "properties": {
+                                        "@id": {
+                                            "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                                        },
+                                        "id": {
+                                            "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                                        },
+                                        "name": {
+                                            "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                                        },
+                                        "image": {
+                                            "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                                        }
+                                    },
+                                    "required": [
+                                        "@id",
+                                        "id",
+                                        "name",
+                                        "image"
+                                    ]
+                                },
+                                "polarity": {
+                                    "$ref": "https://werewolf.world/schema/0.2/board.json"
+                                },
+                                "phase": {
+                                    "$ref": "https://werewolf.world/schema/0.2/time.json"
+                                },
+                                "date": {
+                                    "$ref": "https://werewolf.world/schema/0.2/time.json"
+                                }
+                            },
+                            "required": [
+                                "agent",
+                                "polarity",
+                                "phase",
+                                "date"
+                            ]
+                        }
+                    }
+                },
+                "required": [
+                    "@id",
+                    "isMine",
+                    "name",
+                    "image",
+                    "numberOfAgents"
+                ]
+            }
+        }
+    },
+    "patternProperties": {
+        "^[A-Za-z@]+$": {
+            "$ref": "https://werewolf.world/schema/0.2/base.json"
+        }
+    },
+    "required": [
+        "@context",
+        "@id",
+        "village",
+        "token",
+        "phase",
+        "date",
+        "phaseTimeLimit",
+        "phaseStartTime",
+        "serverTimestamp",
+        "clientTimestamp",
+        "directionality",
+        "intensionalDisclosureRange",
+        "extensionalDisclosureRange"
+    ]
+}

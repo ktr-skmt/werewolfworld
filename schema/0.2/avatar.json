@@ -1,0 +1,32 @@
+{
+    "title": "werewolf.world: Schema of avatar.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://werewolf.world/schema/0.2/avatar.json",
+    "definitions": {
+        "token": {
+            "title": "Avatar Token",
+            "description": "avatar Token (GUID)",
+            "$id": "/definitions/token",
+            "type": "string",
+            "pattern": "^[0-9A-Fa-f]{8}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{12}$",
+            "examples": [
+                "3F2504E0-4F89-11D3-9A0C-0305E82C3300"
+            ]
+        },
+        "name": {
+            "title": "Avatar Name",
+            "description": "avatar name",
+            "$id": "/definitions/name",
+            "type": "string",
+            "minLength": 5,
+            "maxLength": 15
+        },
+        "image": {
+            "title": "Avatar Image",
+            "description": "avatar image",
+            "$id": "/definitions/image",
+            "type": "string",
+            "pattern": "^https://werewolf.world/image/0.2/[A-Za-z]+.jpg$"
+        }
+    }
+}

@@ -1,0 +1,144 @@
+{
+    "title": "werewolf.world: Schema of agent.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://werewolf.world/schema/0.2/agent.json",
+    "definitions": {
+        "@id": {
+            "title": "Agent @id",
+            "description": "agent @id",
+            "$id": "/definitions/@id",
+            "type": "string",
+            "pattern": "^https://werewolf.world/resource/0.2/[A-Za-z]+$",
+            "examples": [
+                "https://werewolf.world/resource/0.2/Adil"
+            ]
+        },
+        "isMine": {
+            "title": "Is Agent Mine?",
+            "description": "am I play as the agent?",
+            "$id": "/definitions/isMine",
+            "type": "boolean",
+            "default": false,
+            "examples": [
+                true,
+                false
+            ]
+        },
+        "name": {
+            "title": "Agent Name",
+            "description": "agent name",
+            "$id": "/definitions/name",
+            "type": "object",
+            "properties": {
+                "en": {
+                    "title": "Agent English Name",
+                    "description": "agent English name",
+                    "$id": "/definitions/name/properties/en",
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 15
+                },
+                "ja": {
+                    "title": "Agent Japanese Name",
+                    "description": "agent Japanese name",
+                    "$id": "/definitions/name/properties/ja",
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 15
+                }
+            },
+            "required": [
+                "en",
+                "ja"
+            ]
+        },
+        "image": {
+            "title": "Agent Image",
+            "description": "agent image",
+            "$id": "/definitions/image",
+            "type": "string",
+            "pattern": "^https://werewolf.world/image/0.2/[A-Za-z]+.jpg$",
+            "examples": [
+                "https://werewolf.world/image/0.2/Adil.jpg"
+            ]
+        },
+        "id": {
+            "title": "Agent ID",
+            "description": "agent id",
+            "$id": "/definitions/id",
+            "type": "integer",
+            "minimum": -1,
+            "maximum": 15,
+            "default": -1,
+            "examples": [
+                -1
+            ]
+        },
+        "status": {
+            "title": "Agent Status",
+            "description": "agent status",
+            "$id": "/definitions/status",
+            "type": "string",
+            "default": "dead",
+            "enum": [
+                "alive",
+                "dead",
+                "death by execution",
+                "death by attack",
+                "death by fear",
+                "unnatural death"
+            ],
+            "examples": [
+                "alive",
+                "dead",
+                "death by execution",
+                "death by attack",
+                "death by fear",
+                "unnatural death"
+            ]
+        },
+        "update": {
+            "title": "Agent Status Update",
+            "description": "agent status update",
+            "$id": "/definitions/update",
+            "type": "object",
+            "properties": {
+                "phase": {
+                    "$ref": "https://werewolf.world/schema/0.2/time.json"
+                },
+                "date": {
+                    "$ref": "https://werewolf.world/schema/0.2/time.json"
+                }
+            },
+            "required": [
+                "phase",
+                "date"
+            ]
+        },
+        "isAChoice": {
+            "title": "Is Agent A Choice?",
+            "description": "is the agent a choice to execute?",
+            "$id": "/definitions/isAChoice",
+            "type": "boolean",
+            "default": true,
+            "examples": [
+                true,
+                false
+            ]
+        },
+        "result": {
+            "title": "Result",
+            "description": "result",
+            "$id": "/definitions/result",
+            "type": "string",
+            "enum": [
+                "win",
+                "lose"
+            ],
+            "examples": [
+                "win",
+                "lose"
+            ]
+        }
+    }
+}

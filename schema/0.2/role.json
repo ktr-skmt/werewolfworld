@@ -1,0 +1,149 @@
+{
+    "title": "werewolf.world: Schema of role.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://werewolf.world/schema/0.2/role.json",
+    "definitions": {
+        "@id": {
+            "title": "Role @id",
+            "description": "role @id",
+            "$id": "/definitions/extensionalDisclosureRange/items/properties/role/properties/@id",
+            "type": "string",
+            "default": [
+                "https://werewolf.world/resource/0.2/villager"
+            ],
+            "enum": [
+                "https://werewolf.world/resource/0.2/hunter",
+                "https://werewolf.world/resource/0.2/madman",
+                "https://werewolf.world/resource/0.2/mason",
+                "https://werewolf.world/resource/0.2/medium",
+                "https://werewolf.world/resource/0.2/seer",
+                "https://werewolf.world/resource/0.2/villager",
+                "https://werewolf.world/resource/0.2/werehumster",
+                "https://werewolf.world/resource/0.2/werewolf"
+            ],
+            "examples": [
+                "https://werewolf.world/resource/0.2/hunter",
+                "https://werewolf.world/resource/0.2/madman",
+                "https://werewolf.world/resource/0.2/mason",
+                "https://werewolf.world/resource/0.2/medium",
+                "https://werewolf.world/resource/0.2/seer",
+                "https://werewolf.world/resource/0.2/villager",
+                "https://werewolf.world/resource/0.2/werehumster",
+                "https://werewolf.world/resource/0.2/werewolf"
+            ]
+        },
+        "name": {
+            "title": "Role Name",
+            "description": "role name",
+            "$id": "/definitions/extensionalDisclosureRange/items/properties/role/properties/name",
+            "type": "object",
+            "properties": {
+                "en": {
+                    "title": "Role English Name",
+                    "description": "role English name",
+                    "$id": "/definitions/extensionalDisclosureRange/items/properties/role/properties/name/properties/en",
+                    "type": "string",
+                    "enum": [
+                        "Hunter",
+                        "Madman",
+                        "Mason",
+                        "Medium",
+                        "Seer",
+                        "Villager",
+                        "Werehumster",
+                        "Werewolf"
+                    ],
+                    "examples": [
+                        "Hunter",
+                        "Madman",
+                        "Mason",
+                        "Medium",
+                        "Seer",
+                        "Villager",
+                        "Werehumster",
+                        "Werewolf"
+                    ]
+                },
+                "ja": {
+                    "title": "Role Japanese Name",
+                    "description": "role Japanese name",
+                    "$id": "/definitions/extensionalDisclosureRange/items/properties/role/properties/name/properties/ja",
+                    "enum": [
+                        "狩人",
+                        "狂人",
+                        "共有者",
+                        "霊媒師",
+                        "占い師",
+                        "村人",
+                        "ハムスター人間",
+                        "人狼"
+                    ],
+                    "examples": [
+                        "狩人",
+                        "狂人",
+                        "共有者",
+                        "霊媒師",
+                        "占い師",
+                        "村人",
+                        "ハムスター人間",
+                        "人狼"
+                    ]
+                }
+            },
+            "required": [
+                "en",
+                "ja"
+            ]
+        },
+        "image": {
+            "title": "Role Image",
+            "description": "role image",
+            "$id": "/definitions/extensionalDisclosureRange/items/properties/role/properties/image",
+            "type": "string",
+            "default": "https://werewolf.world/image/0.2/villager.jpg",
+            "enum": [
+                "https://werewolf.world/image/0.2/hunter.jpg",
+                "https://werewolf.world/image/0.2/madman.jpg",
+                "https://werewolf.world/image/0.2/mason.jpg",
+                "https://werewolf.world/image/0.2/medium.jpg",
+                "https://werewolf.world/image/0.2/seer.jpg",
+                "https://werewolf.world/image/0.2/villager.jpg",
+                "https://werewolf.world/image/0.2/werehumster.jpg",
+                "https://werewolf.world/image/0.2/werewolf.jpg"
+            ],
+            "examples": [
+                "https://werewolf.world/image/0.2/hunter.jpg",
+                "https://werewolf.world/image/0.2/madman.jpg",
+                "https://werewolf.world/image/0.2/mason.jpg",
+                "https://werewolf.world/image/0.2/medium.jpg",
+                "https://werewolf.world/image/0.2/seer.jpg",
+                "https://werewolf.world/image/0.2/villager.jpg",
+                "https://werewolf.world/image/0.2/werehumster.jpg",
+                "https://werewolf.world/image/0.2/werewolf.jpg"
+            ]
+        },
+        "isMine": {
+            "title": "Is Role Mine?",
+            "description": "am I play the role?",
+            "$id": "/definitions/isMine",
+            "type": "boolean",
+            "default": false,
+            "examples": [
+                true,
+                false
+            ]
+        },
+        "numberOfAgents": {
+            "title": "Number of Agents",
+            "description": "number of agents",
+            "$id": "/definitions/numberOfAgents",
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 7,
+            "default": 0,
+            "examples": [
+                0
+            ]
+        }
+    }
+}
