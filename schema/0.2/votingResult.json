@@ -3,5 +3,139 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "https://werewolf.world/schema/0.2/votingResult.json",
     "definitions": {
+        "votingResultsSummary": {
+            "title": "Summary of Voting Results",
+            "description": "summary of voting results",
+            "$id": "/definitions/votingResultsSummary",
+            "type": "array",
+            "items": {
+                "title": "Voting Results",
+                "description": "voting results",
+                "$id": "/definitions/votingResultsSummary/items",
+                "type": "object",
+                "properties": {
+                    "agentToLynch": {
+                        "title": "Agent to Lynch",
+                        "description": "agent to lynch",
+                        "$id": "/definitions/votingResultsSummary/items/properties/agentToLynch",
+                        "type": "object",
+                        "properties": {
+                            "@id": {
+                                "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                            },
+                            "id": {
+                                "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                            },
+                            "name": {
+                                "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                            },
+                            "image": {
+                                "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                            }
+                        },
+                        "required": [
+                            "@id",
+                            "id",
+                            "name",
+                            "image"
+                        ]
+                    },
+                    "numberOfVotes": {
+                        "title": "Number of Votes",
+                        "description": "number of votes",
+                        "$id": "/definitions/votingResultsSummary/items/properties/numberOfVotes",
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 15,
+                        "default": 0,
+                        "examples": [
+                            0
+                        ]
+                    },
+                    "rankOfVotes": {
+                        "title": "Rank of Votes",
+                        "description": "rank of votes",
+                        "$id": "/definitions/votingResultsSummary/items/properties/rankOfVotes",
+                        "type": "integer",
+                        "minimum": 1,
+                        "maximum": 15,
+                        "examples": [
+                            1
+                        ]
+                    }
+                },
+                "required": [
+                    "agentToLynch",
+                    "numberOfVotes",
+                    "rankOfVotes"
+                ]
+            }
+        },
+        "votingResultsDetails": {
+            "title": "Details of Voting Results",
+            "description": "details of voting results",
+            "$id": "/definitions/votingResultsDetails",
+            "type": "array",
+            "items": {
+                "title": "Voting Results",
+                "description": "voting results",
+                "$id": "/definitions/votingResultsDetails/items",
+                "type": "object",
+                "properties": {
+                    "sourceAgent": {
+                        "title": "Source Agent",
+                        "description": "source agent",
+                        "$id": "/definitions/votingResultsDetails/items/properties/sourceAgent",
+                        "type": "object",
+                        "properties": {
+                            "@id": {
+                                "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                            },
+                            "id": {
+                                "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                            },
+                            "name": {
+                                "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                            },
+                            "image": {
+                                "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                            }
+                        },
+                        "required": [
+                            "@id",
+                            "id",
+                            "name",
+                            "image"
+                        ]
+                    },
+                    "targetAgent": {
+                        "title": "Target Agent",
+                        "description": "target agent",
+                        "$id": "/definitions/votingResultsDetails/items/properties/targetAgent",
+                        "type": "object",
+                        "properties": {
+                            "@id": {
+                                "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                            },
+                            "id": {
+                                "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                            },
+                            "name": {
+                                "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                            },
+                            "image": {
+                                "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                            }
+                        },
+                        "required": [
+                            "@id",
+                            "id",
+                            "name",
+                            "image"
+                        ]
+                    }
+                }
+            }
+        }
     }
 }

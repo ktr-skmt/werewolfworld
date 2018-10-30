@@ -3,6 +3,12 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "https://werewolf.world/schema/0.2/systemMessage.json",
     "properties": {
+        "votingResultsSummary": {
+            "$ref": "https://werewolf.world/schema/0.2/votingResult.json"
+        },
+        "votingResultsDetails": {
+            "$ref": "https://werewolf.world/schema/0.2/votingResult.json"
+        },
         "agent": {
             "title": "Agent List",
             "description": "agent list",
@@ -11,7 +17,7 @@
             "items": {
                 "title": "Agent",
                 "description": "agent",
-                "$id": "/properties/items/agent",
+                "$id": "/properties/agent/items",
                 "type": "object",
                 "properties": {
                     "@id": {
@@ -44,7 +50,7 @@
                     "avatar": {
                         "title": "Avatar",
                         "description": "avatar",
-                        "$id": "/properties/items/agent/properties/avatar",
+                        "$id": "/properties/agent/items/properties/avatar",
                         "type": "object",
                         "properties": {
                             "token": {
@@ -77,7 +83,7 @@
             "items": {
                 "title": "Role",
                 "description": "role",
-                "$id": "/properties/items/role",
+                "$id": "/properties/role/items",
                 "type": "object",
                 "properties": {
                     "@id": {
@@ -135,13 +141,13 @@
                         "items": {
                             "title": "Board",
                             "description": "board",
-                            "$id": "/properties/role/items/properties/board/items/board",
+                            "$id": "/properties/role/items/properties/board/items",
                             "type": "object",
                             "properties": {
                                 "agent": {
                                     "title": "Agent",
                                     "description": "agent",
-                                    "$id": "/properteis/role/items/properties/board/items/board/agent",
+                                    "$id": "/properteis/role/items/properties/board/items/properties/agent",
                                     "properties": {
                                         "@id": {
                                             "$ref": "https://werewolf.world/schema/0.2/agent.json"

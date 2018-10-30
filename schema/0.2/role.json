@@ -6,7 +6,7 @@
         "@id": {
             "title": "Role @id",
             "description": "role @id",
-            "$id": "/definitions/extensionalDisclosureRange/items/properties/role/properties/@id",
+            "$id": "/definitions/@id",
             "type": "string",
             "default": [
                 "https://werewolf.world/resource/0.2/villager"
@@ -35,13 +35,13 @@
         "name": {
             "title": "Role Name",
             "description": "role name",
-            "$id": "/definitions/extensionalDisclosureRange/items/properties/role/properties/name",
+            "$id": "/definitions/name",
             "type": "object",
             "properties": {
                 "en": {
                     "title": "Role English Name",
                     "description": "role English name",
-                    "$id": "/definitions/extensionalDisclosureRange/items/properties/role/properties/name/properties/en",
+                    "$id": "/definitions/name/properties/en",
                     "type": "string",
                     "enum": [
                         "Hunter",
@@ -67,7 +67,7 @@
                 "ja": {
                     "title": "Role Japanese Name",
                     "description": "role Japanese name",
-                    "$id": "/definitions/extensionalDisclosureRange/items/properties/role/properties/name/properties/ja",
+                    "$id": "/definitions/name/properties/ja",
                     "enum": [
                         "狩人",
                         "狂人",
@@ -98,7 +98,7 @@
         "image": {
             "title": "Role Image",
             "description": "role image",
-            "$id": "/definitions/extensionalDisclosureRange/items/properties/role/properties/image",
+            "$id": "/definitions/image",
             "type": "string",
             "default": "https://werewolf.world/image/0.2/villager.jpg",
             "enum": [

@@ -200,7 +200,7 @@
             "items": {
                 "title": "Agent",
                 "description": "agent",
-                "$id": "/definitions/extensionalDisclosureRange/items/agent",
+                "$id": "/definitions/extensionalDisclosureRange/items",
                 "type": "object",
                 "properties": {
                     "@id": {
