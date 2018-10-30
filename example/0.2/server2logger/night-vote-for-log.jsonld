@@ -80,6 +80,7 @@
 	},
 
 	"agent": {
+		"@id": "https://werewolf.world/resource/0.2/Simson",
 		"id": 3,
 		"name": {
 			"en": "Simson",

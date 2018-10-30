@@ -4,18 +4,30 @@
     "$id": "https://werewolf.world/schema/0.2/client2server/playerMessage.json",
     "properties": {
         "agent": {
-            "@id": {
-                "$ref": "https://werewolf.world/schema/0.2/agent.json"
+            "title": "Agent",
+            "description": "agent",
+            "$id": "/properties/agent",
+            "type": "object",
+            "properties": {
+                "@id": {
+                    "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                },
+                "id": {
+                    "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                },
+                "name": {
+                    "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                },
+                "image": {
+                    "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                }
             },
-            "id": {
-                "$ref": "https://werewolf.world/schema/0.2/agent.json"
-            },
-            "name": {
-                "$ref": "https://werewolf.world/schema/0.2/agent.json"
-            },
-            "image": {
-                "$ref": "https://werewolf.world/schema/0.2/agent.json"
-            }
+            "required": [
+                "@id",
+                "id",
+                "name",
+                "image"
+            ]
         },
         "isMine": {
             "$ref": "https://werewolf.world/schema/0.2/chat.json"

@@ -448,7 +448,7 @@
 			"numberOfAgents": 2,
 			"board": [
 				{
-					"boardAgent": {
+					"agent": {
 						"@id": "https://werewolf.world/resource/0.2/Walter",
 						"id": 1,
 						"name": {
