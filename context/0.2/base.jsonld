@@ -3,18 +3,8 @@
 		"@version": 1.1,
 		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"w3": "https://werewolf.world/resource/0.2/",
-		"village": {
-			"@id": "w3:village",
-			"id": {
-				"@id": "w3:villageId",
-				"@type": "xsd:integer"
-			},
-			"name": "w3:villageName",
-			"totalNumberOfAgents": {
-				"@id": "w3:totalNumberOfAgents",
-				"@type": "xsd:integer"
-			}
-		},
+		"w3c": "https://werewolf.world/context/0.2/",
+		"village": "w3:village",
 		"token": "w3:token",
 		"phase": "w3:phase",
 		"date": {
@@ -39,39 +29,11 @@
 		},
 		"directionality": "w3:directionality",
 		"intensionalDisclosureRange": "w3:channel",
-		"extensionalDisclosureRange": {
-			"@id": "w3:agent",
-			"@type": "@id",
-			"id": {
-				"@id": "w3:agentId",
-				"@type": "xsd:integer"
-			},
-			"name": {
-				"@id": "w3:agentName",
-				"@container": "@language"
-			},
-			"image": {
-				"@id": "w3:agentImage",
-				"@type": "@id"
-			},
-			"role": {
-				"@id": "w3:role",
-				"@type": "@id",
-				"name": {
-					"@id": "w3:roleName",
-					"@container": "@language"
-				},
-				"image": {
-					"@id": "w3:roleImage",
-					"@type": "@id"
-				}
-			},
-			"status": "w3:agentStatus"
-		},
+		"extensionalDisclosureRange": "w3:extensionalDisclosureRange",
 		"avatar": {
 			"@id": "w3:avatar",
 			"@type": "@id",
-			"@context": "https://werewolf.world/context/0.2/avatar.jsonld"
+			"@context": "w3c:avatar.jsonld"
 		},
 		"myAgent": {
 			"@id": "w3:agent",

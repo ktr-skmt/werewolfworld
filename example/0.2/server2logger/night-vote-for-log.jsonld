@@ -7,6 +7,7 @@
 	"@id": "https://werewolf.world/resource/0.2/voteMessage",
 
 	"village": {
+		"@context": "https://werewolf.world/context/0.2/village.jsonld",
 		"id": 3,
 		"name": "横国の森の奥にある時代に取り残された小さな村",
 		"totalNumberOfAgents": 15
@@ -22,6 +23,7 @@
 	"intensionalDisclosureRange": "werewolf",
 	"extensionalDisclosureRange": [
 		{
+			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/Moritz",
 			"name": {
 				"en": "Moritz",
@@ -30,6 +32,7 @@
 			"image": "https://werewolf.world/image/0.2/Moritz.jpg",
 			"id": 2,
 			"role": {
+				"@context": "https://werewolf.world/context/0.2/role.jsonld",
 				"@id": "https://werewolf.world/resource/0.2/werewolf",
 				"name": {
 					"en": "Werewolf",
@@ -40,6 +43,7 @@
 			"status": "alive"
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/Peter",
 			"name": {
 				"en": "Peter",
@@ -48,6 +52,7 @@
 			"image": "https://werewolf.world/image/0.2/Peter.jpg",
 			"id": 7,
 			"role": {
+				"@context": "https://werewolf.world/context/0.2/role.jsonld",
 				"@id": "https://werewolf.world/resource/0.2/werewolf",
 				"name": {
 					"en": "Werewolf",
@@ -59,6 +64,7 @@
 		}
 	],
 	"myAgent": {
+		"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 		"id": 1,
 		"name": {
 			"en": "Walter",
@@ -66,6 +72,7 @@
 		},
 		"image": "https://werewolf.world/image/0.2/Walter.jpg",
 		"role": {
+			"@context": "https://werewolf.world/context/0.2/role.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/werewolf",
 			"name": {
 				"en": "Werewolf",
@@ -74,12 +81,14 @@
 			"image": "https://werewolf.world/image/0.2/werewolf.jpg"
 		}
 	},
-	"user": {
+	"avatar": {
+		"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
 		"name": "Suzuki",
-		"avatar": "https://werewolf.world/image/0.2/Gert.jpg"
+		"image": "https://werewolf.world/image/0.2/Gert.jpg"
 	},
 
 	"agent": {
+		"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 		"@id": "https://werewolf.world/resource/0.2/Simson",
 		"id": 3,
 		"name": {

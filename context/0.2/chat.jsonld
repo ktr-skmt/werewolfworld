@@ -7,22 +7,7 @@
 			"@id": "w3:chatIsMine",
 			"@type": "xsd:boolean"
 		},
-		"agent": {
-			"@id": "w3:agent",
-			"@type": "@id",
-			"id": {
-				"@id": "w3:agentId",
-				"@type": "xsd:integer"
-			},
-			"name": {
-				"@id": "w3:agentName",
-				"@container": "@language"
-			},
-			"image": {
-				"@id": "w3:agentImage",
-				"@type": "@id"
-			}
-		},
+		"agent": "w3:agent",
 		"id": "w3:chatId",
 		"counter": "w3:chatCounter",
 		"limit": "w3:chatLimit",

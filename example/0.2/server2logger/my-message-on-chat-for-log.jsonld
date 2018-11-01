@@ -7,6 +7,7 @@
 	"@id": "https://werewolf.world/resource/0.2/playerMessage",
 
 	"village": {
+		"@context": "https://werewolf.world/context/0.2/village.jsonld",
 		"id": 3,
 		"name": "横国の森の奥にある時代に取り残された小さな村",
 		"totalNumberOfAgents": 15
@@ -22,6 +23,7 @@
 	"intensionalDisclosureRange": "public",
 	"extensionalDisclosureRange": [
 		{
+			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/Gert",
 			"name": {
 				"en": "Gert",
@@ -30,6 +32,7 @@
 			"image": "https://werewolf.world/image/0.2/Gert.jpg",
 			"id": 0,
 			"role": {
+				"@context": "https://werewolf.world/context/0.2/role.jsonld",
 				"@id": "https://werewolf.world/resource/0.2/villager",
 				"name": {
 					"en": "Villager",
@@ -40,6 +43,7 @@
 			"status": "alive"
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/Walter",
 			"name": {
 				"en": "Walter",
@@ -48,6 +52,7 @@
 			"image": "https://werewolf.world/image/0.2/Walter.jpg",
 			"id": 1,
 			"role": {
+				"@context": "https://werewolf.world/context/0.2/role.jsonld",
 				"@id": "https://werewolf.world/resource/0.2/seer",
 				"name": {
 					"en": "Seer",
@@ -58,6 +63,7 @@
 			"status": "alive"
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/Moritz",
 			"name": {
 				"en": "Moritz",
@@ -66,6 +72,7 @@
 			"image": "https://werewolf.world/image/0.2/Moritz.jpg",
 			"id": 2,
 			"role": {
+				"@context": "https://werewolf.world/context/0.2/role.jsonld",
 				"@id": "https://werewolf.world/resource/0.2/werewolf",
 				"name": {
 					"en": "Werewolf",
@@ -76,6 +83,7 @@
 			"status": "alive"
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/Simson",
 			"name": {
 				"en": "Simson",
@@ -84,6 +92,7 @@
 			"image": "https://werewolf.world/image/0.2/Simson.jpg",
 			"id": 3,
 			"role": {
+				"@context": "https://werewolf.world/context/0.2/role.jsonld",
 				"@id": "https://werewolf.world/resource/0.2/hunter",
 				"name": {
 					"en": "Hunter",
@@ -94,6 +103,7 @@
 			"status": "alive"
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/Thomas",
 			"name": {
 				"en": "Thomas",
@@ -102,6 +112,7 @@
 			"image": "https://werewolf.world/image/0.2/Thomas.jpg",
 			"id": 4,
 			"role": {
+				"@context": "https://werewolf.world/context/0.2/role.jsonld",
 				"@id": "https://werewolf.world/resource/0.2/medium",
 				"name": {
 					"en": "Medium",
@@ -112,6 +123,7 @@
 			"status": "alive"
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/Nicholas",
 			"name": {
 				"en": "Nicholas",
@@ -120,6 +132,7 @@
 			"image": "https://werewolf.world/image/0.2/Nicholas.jpg",
 			"id": 5,
 			"role": {
+				"@context": "https://werewolf.world/context/0.2/role.jsonld",
 				"@id": "https://werewolf.world/resource/0.2/werehumster",
 				"name": {
 					"en": "Werehumster",
@@ -130,6 +143,7 @@
 			"status": "alive"
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/Dieter",
 			"name": {
 				"en": "Dieter",
@@ -138,6 +152,7 @@
 			"image": "https://werewolf.world/image/0.2/Dieter.jpg",
 			"id": 6,
 			"role": {
+				"@context": "https://werewolf.world/context/0.2/role.jsonld",
 				"@id": "https://werewolf.world/resource/0.2/madman",
 				"name": {
 					"en": "Madman",
@@ -148,6 +163,7 @@
 			"status": "alive"
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/Peter",
 			"name": {
 				"en": "Peter",
@@ -156,6 +172,7 @@
 			"image": "https://werewolf.world/image/0.2/Peter.jpg",
 			"id": 7,
 			"role": {
+				"@context": "https://werewolf.world/context/0.2/role.jsonld",
 				"@id": "https://werewolf.world/resource/0.2/werewolf",
 				"name": {
 					"en": "Werewolf",
@@ -166,6 +183,7 @@
 			"status": "alive"
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/Lisa",
 			"name": {
 				"en": "Lisa",
@@ -174,6 +192,7 @@
 			"image": "https://werewolf.world/image/0.2/Lisa.jpg",
 			"id": 8,
 			"role": {
+				"@context": "https://werewolf.world/context/0.2/role.jsonld",
 				"@id": "https://werewolf.world/resource/0.2/villager",
 				"name": {
 					"en": "Villager",
@@ -184,6 +203,7 @@
 			"status": "alive"
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/Alvin",
 			"name": {
 				"en": "Alvin",
@@ -192,6 +212,7 @@
 			"image": "https://werewolf.world/image/0.2/Alvin.jpg",
 			"id": 9,
 			"role": {
+				"@context": "https://werewolf.world/context/0.2/role.jsonld",
 				"@id": "https://werewolf.world/resource/0.2/villager",
 				"name": {
 					"en": "Villager",
@@ -202,6 +223,7 @@
 			"status": "alive"
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/Catalina",
 			"name": {
 				"en": "Catalina",
@@ -210,6 +232,7 @@
 			"image": "https://werewolf.world/image/0.2/Catalina.jpg",
 			"id": 10,
 			"role": {
+				"@context": "https://werewolf.world/context/0.2/role.jsonld",
 				"@id": "https://werewolf.world/resource/0.2/mason",
 				"name": {
 					"en": "Mason",
@@ -220,6 +243,7 @@
 			"status": "alive"
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/Otto",
 			"name": {
 				"en": "Otto",
@@ -228,6 +252,7 @@
 			"image": "https://werewolf.world/image/0.2/Otto.jpg",
 			"id": 11,
 			"role": {
+				"@context": "https://werewolf.world/context/0.2/role.jsonld",
 				"@id": "https://werewolf.world/resource/0.2/mason",
 				"name": {
 					"en": "Mason",
@@ -238,6 +263,7 @@
 			"status": "alive"
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/Joachim",
 			"name": {
 				"en": "Joachim",
@@ -246,6 +272,7 @@
 			"image": "https://werewolf.world/image/0.2/Joachim.jpg",
 			"id": 12,
 			"role": {
+				"@context": "https://werewolf.world/context/0.2/role.jsonld",
 				"@id": "https://werewolf.world/resource/0.2/villager",
 				"name": {
 					"en": "Villager",
@@ -256,6 +283,7 @@
 			"status": "alive"
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/Pamela",
 			"name": {
 				"en": "Pamela",
@@ -264,6 +292,7 @@
 			"image": "https://werewolf.world/image/0.2/Pamela.jpg",
 			"id": 13,
 			"role": {
+				"@context": "https://werewolf.world/context/0.2/role.jsonld",
 				"@id": "https://werewolf.world/resource/0.2/villager",
 				"name": {
 					"en": "Villager",
@@ -274,6 +303,7 @@
 			"status": "alive"
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/Jacob",
 			"name": {
 				"en": "Jacob",
@@ -282,6 +312,7 @@
 			"image": "https://werewolf.world/image/0.2/Jacob.jpg",
 			"id": 14,
 			"role": {
+				"@context": "https://werewolf.world/context/0.2/role.jsonld",
 				"@id": "https://werewolf.world/resource/0.2/villager",
 				"name": {
 					"en": "Villager",
@@ -295,6 +326,7 @@
 
 	"isMine": true,
 	"agent": {
+		"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 		"@id": "https://werewolf.world/resource/0.2/Walter",
 		"id": 1,
 		"name": {
