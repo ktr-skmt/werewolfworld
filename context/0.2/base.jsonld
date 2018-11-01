@@ -30,38 +30,7 @@
 		"directionality": "w3:directionality",
 		"intensionalDisclosureRange": "w3:channel",
 		"extensionalDisclosureRange": "w3:extensionalDisclosureRange",
-		"avatar": {
-			"@id": "w3:avatar",
-			"@type": "@id",
-			"@context": "w3c:avatar.jsonld"
-		},
-		"myAgent": {
-			"@id": "w3:agent",
-			"@type": "@id",
-			"id": {
-				"@id": "w3:agentId",
-				"@type": "xsd:integer"
-			},
-			"name": {
-				"@id": "w3:agentName",
-				"@container": "@language"
-			},
-			"image": {
-				"@id": "w3:agentImage",
-				"@type": "@id"
-			},
-			"role": {
-				"@id": "w3:role",
-				"@type": "@id",
-				"name": {
-					"@id": "w3:roleName",
-					"@container": "@language"
-				},
-				"image": {
-					"@id": "@w3:roleImage",
-					"@type": "@id"
-				}
-			}
-		}
+		"avatar": "w3:avatar",
+		"myAgent": "w3:agent"
 	}
 }
