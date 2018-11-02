@@ -19,13 +19,7 @@
 		},
 		"role": "w3:role",
 		"status": "w3:agentStatus",
-		"update": {
-			"phase": "w3:phase",
-			"date": {
-				"@id": "w3:date",
-				"@type": "xsd:integer"
-			}
-		},
+		"update": "w3:update",
 		"isAChoice": {
 			"@id": "w3:agentIsAChoice",
 			"@type": "xsd:boolean"
