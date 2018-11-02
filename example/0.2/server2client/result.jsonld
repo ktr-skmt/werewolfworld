@@ -29,6 +29,7 @@
 
 	"agent": [
 		{
+			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/Gert",
 			"isMine": false,
 			"name": {
@@ -38,6 +39,7 @@
 			"image": "https://werewolf.world/image/0.2/Gert.jpg",
 			"id": 0,
 			"role": {
+				"@context": "https://werewolf.world/context/0.2/role.jsonld",
 				"@id": "https://werewolf.world/resource/0.2/villager",
 				"name": {
 					"en": "Villager",
@@ -48,12 +50,14 @@
 			"status": "alive",
 			"result": "win",
 			"avatar": {
+				"@context": "https://werewolf.world/context/0.2/avatar.jsonld",
 				"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
 				"name": "Sato",
 				"image": "https://werewolf.world/image/0.2/Nicholas.jpg"
 			}
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/Walter",
 			"isMine": true,
 			"name": {
@@ -63,6 +67,7 @@
 			"image": "https://werewolf.world/image/0.2/Walter.jpg",
 			"id": 1,
 			"role": {
+				"@context": "https://werewolf.world/context/0.2/role.jsonld",
 				"@id": "https://werewolf.world/resource/0.2/seer",
 				"name": {
 					"en": "Seer",
@@ -73,12 +78,14 @@
 			"status": "alive",
 			"result": "win",
 			"avatar": {
+				"@context": "https://werewolf.world/context/0.2/avatar.jsonld",
 				"token": "eFVr3O93oLhmnE8OqTMl5VSVGI1",
 				"name": "Suzuki",
 				"image": "https://werewolf.world/image/0.2/Gert.jpg"
 			}
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/Moritz",
 			"isMine": false,
 			"name": {
@@ -88,6 +95,7 @@
 			"image": "https://werewolf.world/image/0.2/Moritz.jpg",
 			"id": 2,
 			"role": {
+				"@context": "https://werewolf.world/context/0.2/role.jsonld",
 				"@id": "https://werewolf.world/resource/0.2/werewolf",
 				"name": {
 					"en": "Werewolf",
@@ -98,12 +106,14 @@
 			"status": "alive",
 			"result": "lose",
 			"avatar": {
+				"@context": "https://werewolf.world/context/0.2/avatar.jsonld",
 				"token": "eFVr3O93oLhmnE8OqTMl5VSVGI2",
 				"name": "Takahashi",
 				"image": "https://werewolf.world/image/0.2/Alvin.jpg"
 			}
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/Simson",
 			"isMine": false,
 			"name": {
@@ -113,6 +123,7 @@
 			"image": "https://werewolf.world/image/0.2/Simson.jpg",
 			"id": 3,
 			"role": {
+				"@context": "https://werewolf.world/context/0.2/role.jsonld",
 				"@id": "https://werewolf.world/resource/0.2/hunter",
 				"name": {
 					"en": "Hunter",
@@ -123,12 +134,14 @@
 			"status": "alive",
 			"result": "win",
 			"avatar": {
+				"@context": "https://werewolf.world/context/0.2/avatar.jsonld",
 				"token": "eFVr3O93oLhmnE8OqTMl5VSVGI3",
 				"name": "Tanaka",
 				"image": "https://werewolf.world/image/0.2/Friedel.jpg"
 			}
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/Thomas",
 			"isMine": false,
 			"name": {
@@ -138,6 +151,7 @@
 			"image": "https://werewolf.world/image/0.2/Thomas.jpg",
 			"id": 4,
 			"role": {
+				"@context": "https://werewolf.world/context/0.2/role.jsonld",
 				"@id": "https://werewolf.world/resource/0.2/medium",
 				"name": {
 					"en": "Medium",
@@ -148,12 +162,14 @@
 			"status": "alive",
 			"result": "win",
 			"avatar": {
+				"@context": "https://werewolf.world/context/0.2/avatar.jsonld",
 				"token": "eFVr3O93oLhmnE8OqTMl5VSVGI4",
 				"name": "Ito",
 				"image": "https://werewolf.world/image/0.2/Dieter.jpg"
 			}
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/Nicholas",
 			"isMine": false,
 			"name": {
@@ -163,6 +179,7 @@
 			"image": "https://werewolf.world/image/0.2/Nicholas.jpg",
 			"id": 5,
 			"role": {
+				"@context": "https://werewolf.world/context/0.2/role.jsonld",
 				"@id": "https://werewolf.world/resource/0.2/werehumster",
 				"name": {
 					"en": "Werehuster",
@@ -173,12 +190,14 @@
 			"status": "death by fear",
 			"result": "lose",
 			"avatar": {
+				"@context": "https://werewolf.world/context/0.2/avatar.jsonld",
 				"token": "eFVr3O93oLhmnE8OqTMl5VSVGI5",
 				"name": "Watanabe",
 				"image": "https://werewolf.world/image/0.2/Erna.jpg"
 			}
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/Dieter",
 			"isMine": false,
 			"name": {
@@ -188,6 +207,7 @@
 			"image": "https://werewolf.world/image/0.2/Dieter.jpg",
 			"id": 6,
 			"role": {
+				"@context": "https://werewolf.world/context/0.2/role.jsonld",
 				"@id": "https://werewolf.world/resource/0.2/madman",
 				"name": {
 					"en": "Madman",
@@ -198,12 +218,14 @@
 			"status": "death by execution",
 			"result": "lose",
 			"avatar": {
+				"@context": "https://werewolf.world/context/0.2/avatar.jsonld",
 				"token": "eFVr3O93oLhmnE8OqTMl5VSVGI6",
 				"name": "Yamamoto",
 				"image": "https://werewolf.world/image/0.2/Jacob.jpg"
 			}
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/Peter",
 			"isMine": false,
 			"name": {
@@ -213,6 +235,7 @@
 			"image": "https://werewolf.world/image/0.2/Peter.jpg",
 			"id": 7,
 			"role": {
+				"@context": "https://werewolf.world/context/0.2/role.jsonld",
 				"@id": "https://werewolf.world/resource/0.2/werewolf",
 				"name": {
 					"en": "Werewolf",
@@ -223,12 +246,14 @@
 			"status": "unnatural death",
 			"result": "lose",
 			"avatar": {
+				"@context": "https://werewolf.world/context/0.2/avatar.jsonld",
 				"token": "eFVr3O93oLhmnE8OqTMl5VSVGI7",
 				"name": "Nakamura",
 				"avatar": "https://werewolf.world/image/0.2/Nicholas.jpg"
 			}
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/Lisa",
 			"isMine": false,
 			"name": {
@@ -238,6 +263,7 @@
 			"image": "https://werewolf.world/image/0.2/Lisa.jpg",
 			"id": 8,
 			"role": {
+				"@context": "https://werewolf.world/context/0.2/role.jsonld",
 				"@id": "https://werewolf.world/resource/0.2/villager",
 				"name": {
 					"en": "Villager",
@@ -248,12 +274,14 @@
 			"status": "unnatural death",
 			"result": "win",
 			"avatar": {
+				"@context": "https://werewolf.world/context/0.2/avatar.jsonld",
 				"token": "eFVr3O93oLhmnE8OqTMl5VSVGI8",
 				"name": "Kobayashi",
 				"image": "https://werewolf.world/image/0.2/Peter.jpg"
 			}
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/Alvin",
 			"isMine": false,
 			"name": {
@@ -263,6 +291,7 @@
 			"image": "https://werewolf.world/image/0.2/Alvin.jpg",
 			"id": 9,
 			"role": {
+				"@context": "https://werewolf.world/context/0.2/role.jsonld",
 				"@id": "https://werewolf.world/resource/0.2/villager",
 				"name": {
 					"en": "Villager",
@@ -273,12 +302,14 @@
 			"status": "unnatural death",
 			"result": "win",
 			"avatar": {
+				"@context": "https://werewolf.world/context/0.2/avatar.jsonld",
 				"token": "eFVr3O93oLhmnE8OqTMl5VSVGI9",
 				"name": "Yoshida",
 				"image": "https://werewolf.world/image/0.2/Peter.jpg"
 			}
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/Catalina",
 			"isMine": false,
 			"name": {
@@ -288,6 +319,7 @@
 			"image": "https://werewolf.world/image/0.2/Catalina.jpg",
 			"id": 10,
 			"role": {
+				"@context": "https://werewolf.world/context/0.2/role.jsonld",
 				"@id": "https://werewolf.world/resource/0.2/mason",
 				"name": {
 					"en": "Mason",
@@ -298,12 +330,14 @@
 			"status": "unnatural death",
 			"result": "win",
 			"avatar": {
+				"@context": "https://werewolf.world/context/0.2/avatar.jsonld",
 				"token": "eFVr3O93oLhmnE8OqTMl5VSVG10",
 				"name": "Yamada",
 				"image": "https://werewolf.world/image/0.2/Simon.jpg"
 			}
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/Otto",
 			"isMine": false,
 			"name": {
@@ -313,6 +347,7 @@
 			"image": "https://werewolf.world/image/0.2/Otto.jpg",
 			"id": 11,
 			"role": {
+				"@context": "https://werewolf.world/context/0.2/role.jsonld",
 				"@id": "https://werewolf.world/resource/0.2/mason",
 				"name": {
 					"en": "Mason",
@@ -323,12 +358,14 @@
 			"status": "unnatural death",
 			"result": "win",
 			"avatar": {
+				"@context": "https://werewolf.world/context/0.2/avatar.jsonld",
 				"token": "eFVr3O93oLhmnE8OqTMl5VSVG11",
 				"name": "Sasaki",
 				"image": "https://werewolf.world/image/0.2/Simson.jpg"
 			}
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/Joachim",
 			"isMine": false,
 			"name": {
@@ -338,6 +375,7 @@
 			"image": "https://werewolf.world/image/0.2/Joachim.jpg",
 			"id": 12,
 			"role": {
+				"@context": "https://werewolf.world/context/0.2/role.jsonld",
 				"@id": "https://werewolf.world/resource/0.2/villager",
 				"name": {
 					"en": "Villager",
@@ -345,15 +383,17 @@
 				},
 				"image": "https://werewolf.world/image/0.2/villager.jpg"
 			},
-			"status": "death by werewolf attack",
+			"status": "death by attack",
 			"result": "win",
 			"avatar": {
+				"@context": "https://werewolf.world/context/0.2/avatar.jsonld",
 				"token": "eFVr3O93oLhmnE8OqTMl5VSVG12",
 				"name": "山口",
 				"image": "https://werewolf.world/image/0.2/Otto.jpg"
 			}
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/Pamela",
 			"isMine": false,
 			"name": {
@@ -363,6 +403,7 @@
 			"image": "https://werewolf.world/image/0.2/Pamela.jpg",
 			"id": 13,
 			"role": {
+				"@context": "https://werewolf.world/context/0.2/role.jsonld",
 				"@id": "https://werewolf.world/resource/0.2/villager",
 				"name": {
 					"en": "Villager",
@@ -373,12 +414,14 @@
 			"status": "alive",
 			"result": "win",
 			"avatar": {
+				"@context": "https://werewolf.world/context/0.2/avatar.jsonld",
 				"token": "eFVr3O93oLhmnE8OqTMl5VSVG13",
 				"name": "松本",
 				"image": "https://werewolf.world/image/0.2/Joachim.jpg"
 			}
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/Jacob",
 			"isMine": false,
 			"name": {
@@ -388,6 +431,7 @@
 			"image": "https://werewolf.world/image/0.2/Jacob.jpg",
 			"id": 14,
 			"role": {
+				"@context": "https://werewolf.world/context/0.2/role.jsonld",
 				"@id": "https://werewolf.world/resource/0.2/villager",
 				"name": {
 					"en": "Villager",
@@ -398,6 +442,7 @@
 			"status": "alive",
 			"result": "win",
 			"avatar": {
+				"@context": "https://werewolf.world/context/0.2/avatar.jsonld",
 				"token": "eFVr3O93oLhmnE8OqTMl5VSVG14",
 				"name": "井上",
 				"image": "https://werewolf.world/image/0.2/Catalina.jpg"
@@ -407,6 +452,7 @@
 
 	"role": [
 		{
+			"@context": "https://werewolf.world/context/0.2/role.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/master",
 			"isMine": false,
 			"name": {
@@ -418,6 +464,7 @@
 			"agent": []
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/role.jsonld",
 			"@id": "https://wereworld.world/resource/0.2/villager",
 			"isMine": false,
 			"name": {
@@ -428,6 +475,7 @@
 			"numberOfAgents": 6,
 			"agent": [
 				{
+					"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 					"@id": "https://werewolf.world/resource/0.2/Gert",
 					"id": 0,
 					"name": {
@@ -437,6 +485,7 @@
 					"image": "https://werewolf.world/image/0.2/Gert.jpg"
 				},
 				{
+					"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 					"@id": "https://werewolf.world/resource/0.2/Lisa",
 					"id": 8,
 					"name": {
@@ -446,6 +495,7 @@
 					"image": "https://werewolf.world/image/0.2/Lisa.jpg"
 				},
 				{
+					"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 					"@id": "https://werewolf.world/resource/0.2/Alvin",
 					"id": 9,
 					"name": {
@@ -455,6 +505,7 @@
 					"image": "https://werewolf.world/image/0.2/Alvin.jpg"
 				},
 				{
+					"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 					"@id": "https://werewolf.world/resource/0.2/Joachim",
 					"id": 12,
 					"name": {
@@ -464,6 +515,7 @@
 					"image": "https://werewolf.world/image/0.2/Joachim.jpg"
 				},
 				{
+					"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 					"@id": "https://werewolf.world/resource/0.2/Pamela",
 					"id": 13,
 					"name": {
@@ -473,6 +525,7 @@
 					"image": "https://werewolf.world/image/0.2/Pamela.jpg"
 				},
 				{
+					"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 					"@id": "https://werewolf.world/resource/0.2/Jacob",
 					"id": 14,
 					"name": {
@@ -484,6 +537,7 @@
 			]
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/role.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/seer",
 			"isMine": true,
 			"name": {
@@ -494,6 +548,7 @@
 			"numberOfAgents": 1,
 			"agent": [
 				{
+					"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 					"@id": "https://werewolf.world/resource/0.2/Walter",
 					"id": 1,
 					"name": {
@@ -505,6 +560,7 @@
 			]
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/role.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/medium",
 			"isMine": false,
 			"name": {
@@ -515,6 +571,7 @@
 			"numberOfAgents": 1,
 			"agent": [
 				{
+					"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 					"@id": "https://werewolf.world/resource/0.2/Thomas",
 					"id": 4,
 					"name": {
@@ -526,6 +583,7 @@
 			]
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/role.jsonld",
 			"@id": "https://wereworld.world/resource/0.2/hunter",
 			"isMine": false,
 			"name": {
@@ -536,6 +594,7 @@
 			"numberOfAgents": 1,
 			"agent": [
 				{
+					"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 					"@id": "https://werewolf.world/resource/0.2/Simson",
 					"id": 3,
 					"name": {
@@ -547,6 +606,7 @@
 			]
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/role.jsonld",
 			"@id": "https://wereworld.world/resource/0.2/mason",
 			"isMine": false,
 			"name": {
@@ -557,6 +617,7 @@
 			"numberOfAgents": 2,
 			"agent": [
 				{
+					"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 					"@id": "https://werewolf.world/resource/0.2/Catalina",
 					"id": 10,
 					"name": {
@@ -566,6 +627,7 @@
 					"image": "https://werewolf.world/image/0.2/Catalina.jpg"
 				},
 				{
+					"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 					"@id": "https://werewolf.world/resource/0.2/Otto",
 					"id": 11,
 					"name": {
@@ -577,6 +639,7 @@
 			]
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/role.jsonld",
 			"@id": "https://wereworld.world/resource/0.2/madman",
 			"isMine": false,
 			"name": {
@@ -587,6 +650,7 @@
 			"numberOfAgents": 1,
 			"agent": [
 				{
+					"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 					"@id": "https://werewolf.world/resource/0.2/Dieter",
 					"id": 6,
 					"name": {
@@ -598,6 +662,7 @@
 			]
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/role.jsonld",
 			"@id": "https://wereworld.world/resource/0.2/werewolf",
 			"isMine": false,
 			"name": {
@@ -608,6 +673,7 @@
 			"numberOfAgents": 2,
 			"agent": [
 				{
+					"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 					"@id": "https://werewolf.world/resource/0.2/Moritz",
 					"id": 2,
 					"name": {
@@ -617,6 +683,7 @@
 					"image": "https://werewolf.world/image/0.2/Moritz.jpg"
 				},
 				{
+					"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 					"@id": "https://werewolf.world/resource/0.2/Peter",
 					"id": 7,
 					"name": {
@@ -628,6 +695,7 @@
 			]
 		},
 		{
+			"@context": "https://werewolf.world/context/0.2/role.jsonld",
 			"@id": "https://wereworld.world/resource/0.2/werehumster",
 			"isMine": false,
 			"name": {
@@ -638,6 +706,7 @@
 			"numberOfAgents": 1,
 			"agent": [
 				{
+					"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 					"@id": "https://werewolf.world/resource/0.2/Nicholas",
 					"id": 5,
 					"name": {

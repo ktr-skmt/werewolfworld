@@ -3,7 +3,10 @@
 		"@version": 1.1,
 		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"w3": "https://werewolf.world/resource/0.2/",
-		"nodeId": "w3:nodeId",
+		"nodeId": {
+			"@id": "w3:nodeId",
+			"@type": "xsd:string"
+		},
 		"scrollTop": {
 			"@id": "w3:scrollTop",
 			"@type": "xsd:integer"

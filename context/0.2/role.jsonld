@@ -3,18 +3,12 @@
 		"@version": 1.1,
 		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"w3": "https://werewolf.world/resource/0.2/",
-		"role": {
-			"@id": "w3:role",
-			"@type": "@id"
-		},
+		"role": "w3:role",
 		"name": {
 			"@id": "w3:roleName",
 			"@container": "@language"
 		},
-		"image": {
-			"@id": "w3:roleImage",
-			"@type": "@id"
-		},
+		"image": "w3:roleImage",
 		"isMine": {
 			"@id": "w3:roleIsMine",
 			"@type": "xsd:boolean"
@@ -23,46 +17,7 @@
 			"@id": "w3:numberOfAgentsWhoPlayTheRole",
 			"@type": "xsd:integer"
 		},
-		"agent": {
-			"@id": "w3:agent",
-			"@type": "@id",
-			"id": {
-				"@id": "w3:agentId",
-				"@type": "xsd:integer"
-			},
-			"name": {
-				"@id": "w3:agentName",
-				"@container": "@language"
-			},
-			"image": {
-				"@id": "w3:agentImage",
-				"@type": "@id"
-			}
-		},
-		"board": {
-			"@id": "w3:board",
-			"polarity": "w3:boardPolarity",
-			"agent": {
-				"@id": "w3:agent",
-				"@type": "@id",
-				"id": {
-					"@id": "w3:agentId",
-					"@type": "xsd:integer"
-				},
-				"name": {
-					"@id": "w3:agentName",
-					"@container": "@language"
-				},
-				"image": {
-					"@id": "w3:agentImage",
-					"@type": "@id"
-				}
-			},
-			"phase": "w3:phase",
-			"date": {
-				"@id": "w3:date",
-				"@type": "xsd:integer"
-			}
-		}
+		"agent": "w3:agent",
+		"board": "w3:board"
 	}
 }

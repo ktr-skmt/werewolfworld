@@ -1,0 +1,12 @@
+{
+	"@context": {
+		"@version": 1.1,
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+        "w3": "https://werewolf.world/resource/0.2/",
+		"phase": "w3:phase",
+		"date": {
+			"@id": "w3:date",
+			"@type": "xsd:integer"
+		}
+	}
+}

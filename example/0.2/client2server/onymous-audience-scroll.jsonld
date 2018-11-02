@@ -23,6 +23,7 @@
     "intensionalDisclosureRange": "private",
     "extensionalDisclosureRange": [],
     "avatar": {
+        "@context": "https://werewolf.world/context/0.2/avatar.jsonld",
         "token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
         "name": "Katoh",
         "image": "https://werewolf.world/image/0.2/Regina.jpg"

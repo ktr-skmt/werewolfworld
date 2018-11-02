@@ -3,10 +3,7 @@
 		"@version": 1.1,
 		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"w3": "https://werewolf.world/resource/0.2/",
-		"agent": {
-			"@id": "w3:agent",
-			"@type": "@id"
-		},
+		"agent": "w3:agent",
 		"isMine": {
 			"@id": "w3:agentIsMine",
 			"@type": "xsd:boolean"
@@ -15,26 +12,12 @@
 			"@id": "w3:agentName",
 			"@container": "@language"
 		},
-		"image": {
-			"@id": "w3:agentImage",
-			"@type": "@id"
-		},
+		"image": "w3:agentImage",
 		"id": {
 			"@id": "w3:agentId",
 			"@type": "xsd:integer"
 		},
-		"role": {
-			"@id": "w3:role",
-			"@type": "@id",
-			"name": {
-				"@id": "w3:roleName",
-				"@container": "@language"
-			},
-			"image": {
-				"@id": "w3:roleImage",
-				"@type": "@id"
-			}
-		},
+		"role": "w3:role",
 		"status": "w3:agentStatus",
 		"update": {
 			"phase": "w3:phase",

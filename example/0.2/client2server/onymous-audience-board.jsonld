@@ -23,12 +23,14 @@
 	"intensionalDisclosureRange": "private",
 	"extensionalDisclosureRange": [],
 	"avatar": {
+		"@context": "https://werewolf.world/context/0.2/avatar.jsonld",
 		"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
 		"name": "Katoh",
 		"image": "https://werewolf.world/image/0.2/Regina.jpg"
 	},
 	
 	"agent": {
+		"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 		"@id": "https://werewolf.world/resource/0.2/Thomas",
 		"id": 4,
 		"name": {
@@ -38,6 +40,7 @@
 		"image": "https://werewolf.world/image/0.2/Thomas.jpg"
 	},
 	"role": {
+		"@context": "https://werewolf.world/context/0.2/role.jsonld",
 		"@id": "https://werewolf.world/resource/0.2/madman",
 		"name": {
 			"en": "Madman",

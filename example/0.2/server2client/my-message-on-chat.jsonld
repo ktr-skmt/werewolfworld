@@ -24,6 +24,7 @@
 	"extensionalDisclosureRange": [],
 
 	"agent": {
+		"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 		"@id": "https://werewolf.world/resource/0.2/Walter",
 		"id": 1,
 		"name": {

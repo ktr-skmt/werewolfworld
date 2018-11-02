@@ -23,6 +23,7 @@
 	"intensionalDisclosureRange": "public",
 	"extensionalDisclosureRange": [],
 	"myAgent": {
+		"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 		"@id": "https://werewolf.world/resource/0.2/Walter",
 		"id": 1,
 		"name": {
@@ -31,6 +32,7 @@
 		},
 		"image": "https://werewolf.world/image/0.2/Walter.jpg",
 		"role": {
+			"@context": "https://werewolf.world/context/0.2/role.jsonld",
 			"@id": "https://werewolf.world/resource/0.2/werewolf",
 			"name": {
 				"en": "Werewolf",
@@ -41,6 +43,7 @@
 	},
 	
 	"agent": {
+		"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 		"@id": "https://werewolf.world/resource/0.2/Walter",
 		"id": 1,
 		"name": {

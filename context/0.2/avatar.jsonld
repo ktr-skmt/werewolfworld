@@ -8,9 +8,6 @@
 			"@type": "xsd:string"
 		},
 		"name": "w3:avatarName",
-		"image": {
-			"@id": "w3:avatarImage",
-			"@type": "@id"
-		}
+		"image": "w3:avatarImage"
 	}
 }
