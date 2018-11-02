@@ -29,7 +29,7 @@
 	"agent": [
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Gert",
+			"@id": "https://werewolf.world/resource/0.2/agent",
 			"isMine": false,
 			"name": {
 				"en": "Gert",
@@ -39,7 +39,6 @@
 			"id": 0,
 			"status": "dead",
 			"update": {
-				"@context": "https://werewolf.world/context/0.2/time.jsonld",
 				"phase": "day",
 				"date": 1
 			},
@@ -47,7 +46,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Walter",
+			"@id": "https://werewolf.world/resource/0.2/agent",
 			"isMine": true,
 			"name": {
 				"en": "Walter",
@@ -57,7 +56,6 @@
 			"id": 1,
 			"status": "alive",
 			"update": {
-				"@context": "https://werewolf.world/context/0.2/time.jsonld",
 				"phase": "morning",
 				"date": 1
 			},
@@ -65,7 +63,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Moritz",
+			"@id": "https://werewolf.world/resource/0.2/agent",
 			"isMine": false,
 			"name": {
 				"en": "Moritz",
@@ -75,7 +73,6 @@
 			"id": 2,
 			"status": "alive",
 			"update": {
-				"@context": "https://werewolf.world/context/0.2/time.jsonld",
 				"phase": "morning",
 				"date": 1
 			},
@@ -83,7 +80,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Simson",
+			"@id": "https://werewolf.world/resource/0.2/agent",
 			"isMine": false,
 			"name": {
 				"en": "Simson",
@@ -93,7 +90,6 @@
 			"id": 3,
 			"status": "alive",
 			"update": {
-				"@context": "https://werewolf.world/context/0.2/time.jsonld",
 				"phase": "morning",
 				"date": 1
 			},
@@ -101,7 +97,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Thomas",
+			"@id": "https://werewolf.world/resource/0.2/agent",
 			"isMine": false,
 			"name": {
 				"en": "Thomas",
@@ -111,7 +107,6 @@
 			"id": 4,
 			"status": "alive",
 			"update": {
-				"@context": "https://werewolf.world/context/0.2/time.jsonld",
 				"phase": "morning",
 				"date": 1
 			},
@@ -119,7 +114,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Nicholas",
+			"@id": "https://werewolf.world/resource/0.2/agent",
 			"isMine": false,
 			"name": {
 				"en": "Nicholas",
@@ -129,7 +124,6 @@
 			"id": 5,
 			"status": "alive",
 			"update": {
-				"@context": "https://werewolf.world/context/0.2/time.jsonld",
 				"phase": "morning",
 				"date": 1
 			},
@@ -137,7 +131,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Dieter",
+			"@id": "https://werewolf.world/resource/0.2/agent",
 			"isMine": false,
 			"name": {
 				"en": "Dieter",
@@ -147,7 +141,6 @@
 			"id": 6,
 			"status": "alive",
 			"update": {
-				"@context": "https://werewolf.world/context/0.2/time.jsonld",
 				"phase": "morning",
 				"date": 1
 			},
@@ -155,7 +148,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Peter",
+			"@id": "https://werewolf.world/resource/0.2/agent",
 			"isMine": false,
 			"name": {
 				"en": "Peter",
@@ -165,7 +158,6 @@
 			"id": 7,
 			"status": "alive",
 			"update": {
-				"@context": "https://werewolf.world/context/0.2/time.jsonld",
 				"phase": "morning",
 				"date": 1
 			},
@@ -173,7 +165,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Lisa",
+			"@id": "https://werewolf.world/resource/0.2/agent",
 			"isMine": false,
 			"name": {
 				"en": "Lisa",
@@ -183,7 +175,6 @@
 			"id": 8,
 			"status": "alive",
 			"update": {
-				"@context": "https://werewolf.world/context/0.2/time.jsonld",
 				"phase": "morning",
 				"date": 1
 			},
@@ -191,7 +182,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Alvin",
+			"@id": "https://werewolf.world/resource/0.2/agent",
 			"isMine": false,
 			"name": {
 				"en": "Alvin",
@@ -201,7 +192,6 @@
 			"id": 9,
 			"status": "alive",
 			"update": {
-				"@context": "https://werewolf.world/context/0.2/time.jsonld",
 				"phase": "morning",
 				"date": 1
 			},
@@ -209,7 +199,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Catalina",
+			"@id": "https://werewolf.world/resource/0.2/agent",
 			"isMine": false,
 			"name": {
 				"en": "Catalina",
@@ -219,7 +209,6 @@
 			"id": 10,
 			"status": "alive",
 			"update": {
-				"@context": "https://werewolf.world/context/0.2/time.jsonld",
 				"phase": "morning",
 				"date": 1
 			},
@@ -227,7 +216,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Otto",
+			"@id": "https://werewolf.world/resource/0.2/agent",
 			"isMine": false,
 			"name": {
 				"en": "Otto",
@@ -237,7 +226,6 @@
 			"id": 11,
 			"status": "alive",
 			"update": {
-				"@context": "https://werewolf.world/context/0.2/time.jsonld",
 				"phase": "morning",
 				"date": 1
 			},
@@ -245,7 +233,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Joachim",
+			"@id": "https://werewolf.world/resource/0.2/agent",
 			"isMine": false,
 			"name": {
 				"en": "Joachim",
@@ -255,7 +243,6 @@
 			"id": 12,
 			"status": "alive",
 			"update": {
-				"@context": "https://werewolf.world/context/0.2/time.jsonld",
 				"phase": "morning",
 				"date": 1
 			},
@@ -263,7 +250,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Pamela",
+			"@id": "https://werewolf.world/resource/0.2/agent",
 			"isMine": false,
 			"name": {
 				"en": "Pamela",
@@ -273,7 +260,6 @@
 			"id": 13,
 			"status": "alive",
 			"update": {
-				"@context": "https://werewolf.world/context/0.2/time.jsonld",
 				"phase": "morning",
 				"date": 1
 			},
@@ -281,7 +267,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Jacob",
+			"@id": "https://werewolf.world/resource/0.2/agent",
 			"isMine": false,
 			"name": {
 				"en": "Jacob",
@@ -291,7 +277,6 @@
 			"id": 14,
 			"status": "alive",
 			"update": {
-				"@context": "https://werewolf.world/context/0.2/time.jsonld",
 				"phase": "morning",
 				"date": 1
 			},
@@ -302,7 +287,7 @@
 	"role": [
 		{
 			"@context": "https://werewolf.world/context/0.2/role.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/master",
+			"@id": "https://werewolf.world/resource/0.2/role",
 			"isMine": false,
 			"name": {
 				"en": "Master",
@@ -314,7 +299,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/role.jsonld",
-			"@id": "https://wereworld.world/resource/0.2/villager",
+			"@id": "https://wereworld.world/resource/0.2/role",
 			"isMine": false,
 			"name": {
 				"en": "Villager",
@@ -324,13 +309,11 @@
 			"numberOfAgents": 6,
 			"board": [
 				{
-					"@context": [
-						"https://werewolf.world/context/0.2/boardResult.jsonld",
-						"https://werewolf.world/context/0.2/time.jsonld"
-					],
+					"@context": "https://werewolf.world/context/0.2/boardResult.jsonld",
+					"@id": "https://werewolf.world/resource/0.2/boardResult",
 					"agent": {
 						"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-						"@id": "https://werewolf.world/resource/0.2/Walter",
+						"@id": "https://werewolf.world/resource/0.2/agent",
 						"id": 1,
 						"name": {
 							"en": "Walter",
@@ -346,7 +329,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/role.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/seer",
+			"@id": "https://werewolf.world/resource/0.2/role",
 			"isMine": true,
 			"name": {
 				"en": "Seer",
@@ -356,13 +339,11 @@
 			"numberOfAgents": 1,
 			"board": [
 				{
-					"@context": [
-						"https://werewolf.world/context/0.2/boardResult.jsonld",
-						"https://werewolf.world/context/0.2/time.jsonld"
-					],
+					"@context": "https://werewolf.world/context/0.2/boardResult.jsonld",
+					"@id": "https://werewolf.world/resource/0.2/boardResult",
 					"agent": {
 						"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-						"@id": "https://werewolf.world/resource/0.2/Walter",
+						"@id": "https://werewolf.world/resource/0.2/agent",
 						"id": 1,
 						"name": {
 							"en": "Walter",
@@ -378,7 +359,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/role.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/medium",
+			"@id": "https://werewolf.world/resource/0.2/role",
 			"isMine": false,
 			"name": {
 				"en": "Medium",
@@ -388,13 +369,11 @@
 			"numberOfAgents": 1,
 			"board": [
 				{
-					"@context": [
-						"https://werewolf.world/context/0.2/boardResult.jsonld",
-						"https://werewolf.world/context/0.2/time.jsonld"
-					],
+					"@context": "https://werewolf.world/context/0.2/boardResult.jsonld",
+					"@id": "https://werewolf.world/resource/0.2/boardResult",
 					"agent": {
 						"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-						"@id": "https://werewolf.world/resource/0.2/Walter",
+						"@id": "https://werewolf.world/resource/0.2/agent",
 						"id": 1,
 						"name": {
 							"en": "Walter",
@@ -410,7 +389,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/role.jsonld",
-			"@id": "https://wereworld.world/resource/0.2/hunter",
+			"@id": "https://wereworld.world/resource/0.2/role",
 			"isMine": false,
 			"name": {
 				"en": "Hunter",
@@ -420,13 +399,11 @@
 			"numberOfAgents": 1,
 			"board": [
 				{
-					"@context": [
-						"https://werewolf.world/context/0.2/boardResult.jsonld",
-						"https://werewolf.world/context/0.2/time.jsonld"
-					],
+					"@context": "https://werewolf.world/context/0.2/boardResult.jsonld",
+					"@id": "https://werewolf.world/resource/0.2/boardResult",
 					"agent": {
 						"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-						"@id": "https://werewolf.world/resource/0.2/Walter",
+						"@id": "https://werewolf.world/resource/0.2/agent",
 						"id": 1,
 						"name": {
 							"en": "Walter",
@@ -442,7 +419,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/role.jsonld",
-			"@id": "https://wereworld.world/resource/0.2/mason",
+			"@id": "https://wereworld.world/resource/0.2/role",
 			"isMine": false,
 			"name": {
 				"en": "Mason",
@@ -452,13 +429,11 @@
 			"numberOfAgents": 2,
 			"board": [
 				{
-					"@context": [
-						"https://werewolf.world/context/0.2/boardResult.jsonld",
-						"https://werewolf.world/context/0.2/time.jsonld"
-					],
+					"@context": "https://werewolf.world/context/0.2/boardResult.jsonld",
+					"@id": "https://werewolf.world/resource/0.2/boardResult",
 					"agent": {
 						"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-						"@id": "https://werewolf.world/resource/0.2/Walter",
+						"@id": "https://werewolf.world/resource/0.2/agent",
 						"id": 1,
 						"name": {
 							"en": "Walter",
@@ -474,7 +449,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/role.jsonld",
-			"@id": "https://wereworld.world/resource/0.2/madman",
+			"@id": "https://wereworld.world/resource/0.2/role",
 			"isMine": false,
 			"name": {
 				"en": "Madman",
@@ -484,13 +459,11 @@
 			"numberOfAgents": 1,
 			"board": [
 				{
-					"@context": [
-						"https://werewolf.world/context/0.2/boardResult.jsonld",
-						"https://werewolf.world/context/0.2/time.jsonld"
-					],
+					"@context": "https://werewolf.world/context/0.2/boardResult.jsonld",
+					"@id": "https://werewolf.world/resource/0.2/boardResult",
 					"agent": {
 						"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-						"@id": "https://werewolf.world/resource/0.2/Walter",
+						"@id": "https://werewolf.world/resource/0.2/agent",
 						"id": 1,
 						"name": {
 							"en": "Walter",
@@ -506,7 +479,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/role.jsonld",
-			"@id": "https://wereworld.world/resource/0.2/werewolf",
+			"@id": "https://wereworld.world/resource/0.2/role",
 			"isMine": false,
 			"name": {
 				"en": "Werewolf",
@@ -516,13 +489,11 @@
 			"numberOfAgents": 2,
 			"board": [
 				{
-					"@context": [
-						"https://werewolf.world/context/0.2/boardResult.jsonld",
-						"https://werewolf.world/context/0.2/time.jsonld"
-					],
+					"@context": "https://werewolf.world/context/0.2/boardResult.jsonld",
+					"@id": "https://werewolf.world/resource/0.2/boardResult",
 					"agent": {
 						"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-						"@id": "https://werewolf.world/resource/0.2/Walter",
+						"@id": "https://werewolf.world/resource/0.2/agent",
 						"id": 1,
 						"name": {
 							"en": "Walter",
@@ -538,7 +509,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/role.jsonld",
-			"@id": "https://wereworld.world/resource/0.2/werehumster",
+			"@id": "https://wereworld.world/resource/0.2/role",
 			"isMine": false,
 			"name": {
 				"en": "Werehumster",
@@ -548,13 +519,11 @@
 			"numberOfAgents": 1,
 			"board": [
 				{
-					"@context": [
-						"https://werewolf.world/context/0.2/boardResult.jsonld",
-						"https://werewolf.world/context/0.2/time.jsonld"
-					],
+					"@context": "https://werewolf.world/context/0.2/boardResult.jsonld",
+					"@id": "https://werewolf.world/resource/0.2/boardResult",
 					"agent": {
 						"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-						"@id": "https://werewolf.world/resource/0.2/Walter",
+						"@id": "https://werewolf.world/resource/0.2/agent",
 						"id": 1,
 						"name": {
 							"en": "Walter",
