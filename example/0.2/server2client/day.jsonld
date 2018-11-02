@@ -310,7 +310,7 @@
 			"board": [
 				{
 					"@context": "https://werewolf.world/context/0.2/boardResult.jsonld",
-					"@id": "https://licos.online/state/0.2/village#3/role#villager/boardResult",
+					"@id": "https://licos.online/state/0.2/village#3/role#villager/boardResult/agent#1",
 					"agent": {
 						"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 						"@id": "https://licos.online/state/0.2/village#3/role#villager/boardResult/agent#1",
@@ -340,7 +340,7 @@
 			"board": [
 				{
 					"@context": "https://werewolf.world/context/0.2/boardResult.jsonld",
-					"@id": "https://licos.online/state/0.2/village#3/role#seer/boardResult",
+					"@id": "https://licos.online/state/0.2/village#3/role#seer/boardResult/agent#1",
 					"agent": {
 						"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 						"@id": "https://licos.online/state/0.2/village#3/role#seer/boardResult/agent#1",
@@ -370,7 +370,7 @@
 			"board": [
 				{
 					"@context": "https://werewolf.world/context/0.2/boardResult.jsonld",
-					"@id": "https://licos.online/state/0.2/village#3/role#medium/boardResult",
+					"@id": "https://licos.online/state/0.2/village#3/role#medium/boardResult/agent#1",
 					"agent": {
 						"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 						"@id": "https://licos.online/state/0.2/village#3/role#medium/boardResult/agent#1",
@@ -400,7 +400,7 @@
 			"board": [
 				{
 					"@context": "https://werewolf.world/context/0.2/boardResult.jsonld",
-					"@id": "https://licos.online/state/0.2/village#3/role#hunter/boardResult",
+					"@id": "https://licos.online/state/0.2/village#3/role#hunter/boardResult/agent#1",
 					"agent": {
 						"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 						"@id": "https://licos.online/state/0.2/village#3/role#hunter/boardResult/agent#1",
@@ -430,7 +430,7 @@
 			"board": [
 				{
 					"@context": "https://werewolf.world/context/0.2/boardResult.jsonld",
-					"@id": "https://licos.online/state/0.2/village#3/role#mason/boardResult",
+					"@id": "https://licos.online/state/0.2/village#3/role#mason/boardResult/agent#1",
 					"agent": {
 						"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 						"@id": "https://licos.online/state/0.2/village#3/role#mason/boardResult/agent#1",
@@ -460,7 +460,7 @@
 			"board": [
 				{
 					"@context": "https://werewolf.world/context/0.2/boardResult.jsonld",
-					"@id": "https://licos.online/state/0.2/village#3/role#madman/boardResult",
+					"@id": "https://licos.online/state/0.2/village#3/role#madman/boardResult/agent#1",
 					"agent": {
 						"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 						"@id": "https://licos.online/state/0.2/village#3/role#madman/boardResult/agent#1",
@@ -490,7 +490,7 @@
 			"board": [
 				{
 					"@context": "https://werewolf.world/context/0.2/boardResult.jsonld",
-					"@id": "https://licos.online/state/0.2/village#3/role#werewolf/boardResult",
+					"@id": "https://licos.online/state/0.2/village#3/role#werewolf/boardResult/agent#1",
 					"agent": {
 						"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 						"@id": "https://licos.online/state/0.2/village#3/role#werewolf/boardResult/agent#1",
@@ -520,7 +520,7 @@
 			"board": [
 				{
 					"@context": "https://werewolf.world/context/0.2/boardResult.jsonld",
-					"@id": "https://licos.online/state/0.2/village#3/role#werehamster/boardResult",
+					"@id": "https://licos.online/state/0.2/village#3/role#werehamster/boardResult/agent#1",
 					"agent": {
 						"@context": "https://werewolf.world/context/0.2/agent.jsonld",
 						"@id": "https://licos.online/state/0.2/village#3/role#werehamster/boardResult/agent#1",
