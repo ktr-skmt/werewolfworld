@@ -2,11 +2,11 @@
 	"@context": [
 		"https://werewolf.world/context/0.1/base.jsonld"
 	],
-	"@id": "https://werewolf.world/resource/0.1/systemMessage",
+	"@id": "https://licos.online/state/0.2/village#3/systemMessage",
 
 	"village": {
 		"@context": "https://werewolf.world/context/0.2/village.jsonld",
-		"@id": "https://werewolf.world/resource/0.2/village",
+		"@id": "https://licos.online/state/0.2/village",
 		"id": 3,
 		"name": "横国の森の奥にある時代に取り残された小さな村",
 		"totalNumberOfAgents": 15

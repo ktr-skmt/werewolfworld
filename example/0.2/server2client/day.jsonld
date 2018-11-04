@@ -3,7 +3,7 @@
 		"https://werewolf.world/context/0.2/base.jsonld",
 		"https://werewolf.world/context/0.2/votingResult.jsonld"
 	],
-	"@id": "https://werewolf.world/resource/0.2/systemMessage",
+	"@id": "https://licos.online/state/0.2/village#3/systemMessage",
 
 	"village": {
 		"@context": "https://werewolf.world/context/0.2/village.jsonld",
@@ -39,6 +39,7 @@
 			"id": 0,
 			"status": "dead",
 			"update": {
+				"@id": "https://licos.online/state/0.2/village#3/agent#0/update",
 				"phase": "day",
 				"date": 1
 			},
@@ -56,6 +57,7 @@
 			"id": 1,
 			"status": "alive",
 			"update": {
+				"@id": "https://licos.online/state/0.2/village#3/agent#1/update",
 				"phase": "morning",
 				"date": 1
 			},
@@ -73,6 +75,7 @@
 			"id": 2,
 			"status": "alive",
 			"update": {
+				"@id": "https://licos.online/state/0.2/village#3/agent#2/update",
 				"phase": "morning",
 				"date": 1
 			},
@@ -90,6 +93,7 @@
 			"id": 3,
 			"status": "alive",
 			"update": {
+				"@id": "https://licos.online/state/0.2/village#3/agent#3/update",
 				"phase": "morning",
 				"date": 1
 			},
@@ -107,6 +111,7 @@
 			"id": 4,
 			"status": "alive",
 			"update": {
+				"@id": "https://licos.online/state/0.2/village#3/agent#4/update",
 				"phase": "morning",
 				"date": 1
 			},
@@ -124,6 +129,7 @@
 			"id": 5,
 			"status": "alive",
 			"update": {
+				"@id": "https://licos.online/state/0.2/village#3/agent#5/update",
 				"phase": "morning",
 				"date": 1
 			},
@@ -141,6 +147,7 @@
 			"id": 6,
 			"status": "alive",
 			"update": {
+				"@id": "https://licos.online/state/0.2/village#3/agent#6/update",
 				"phase": "morning",
 				"date": 1
 			},
@@ -158,6 +165,7 @@
 			"id": 7,
 			"status": "alive",
 			"update": {
+				"@id": "https://licos.online/state/0.2/village#3/agent#7/update",
 				"phase": "morning",
 				"date": 1
 			},
@@ -175,6 +183,7 @@
 			"id": 8,
 			"status": "alive",
 			"update": {
+				"@id": "https://licos.online/state/0.2/village#3/agent#8/update",
 				"phase": "morning",
 				"date": 1
 			},
@@ -192,6 +201,7 @@
 			"id": 9,
 			"status": "alive",
 			"update": {
+				"@id": "https://licos.online/state/0.2/village#3/agent#9/update",
 				"phase": "morning",
 				"date": 1
 			},
@@ -209,6 +219,7 @@
 			"id": 10,
 			"status": "alive",
 			"update": {
+				"@id": "https://licos.online/state/0.2/village#3/agent#10/update",
 				"phase": "morning",
 				"date": 1
 			},
@@ -226,6 +237,7 @@
 			"id": 11,
 			"status": "alive",
 			"update": {
+				"@id": "https://licos.online/state/0.2/village#3/agent#11/update",
 				"phase": "morning",
 				"date": 1
 			},
@@ -243,6 +255,7 @@
 			"id": 12,
 			"status": "alive",
 			"update": {
+				"@id": "https://licos.online/state/0.2/village#3/agent#12/update",
 				"phase": "morning",
 				"date": 1
 			},
@@ -260,6 +273,7 @@
 			"id": 13,
 			"status": "alive",
 			"update": {
+				"@id": "https://licos.online/state/0.2/village#3/agent#13/update",
 				"phase": "morning",
 				"date": 1
 			},
@@ -277,6 +291,7 @@
 			"id": 14,
 			"status": "alive",
 			"update": {
+				"@id": "https://licos.online/state/0.2/village#3/agent#14/update",
 				"phase": "morning",
 				"date": 1
 			},

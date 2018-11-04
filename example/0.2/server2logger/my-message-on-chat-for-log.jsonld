@@ -3,11 +3,11 @@
 		"https://werewolf.world/context/0.2/base.jsonld",
 		"https://werewolf.world/context/0.2/chat.jsonld"
 	],
-	"@id": "https://werewolf.world/resource/0.2/playerMessage",
+	"@id": "https://licos.online/state/0.2/village#3/playerMessage",
 
 	"village": {
 		"@context": "https://werewolf.world/context/0.2/village.jsonld",
-		"@id": "https://werewolf.world/resource/0.2/village",
+		"@id": "https://licos.online/state/0.2/village",
 		"id": 3,
 		"name": "横国の森の奥にある時代に取り残された小さな村",
 		"totalNumberOfAgents": 15
@@ -24,7 +24,7 @@
 	"extensionalDisclosureRange": [
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Gert",
+			"@id": "https://licos.online/state/0.2/village#3/extensionalDisclosureRange/agent#0",
 			"name": {
 				"en": "Gert",
 				"ja": "ゲルト"
@@ -33,7 +33,7 @@
 			"id": 0,
 			"role": {
 				"@context": "https://werewolf.world/context/0.2/role.jsonld",
-				"@id": "https://werewolf.world/resource/0.2/villager",
+				"@id": "https://licos.online/state/0.2/village#3/extensionalDisclosureRange/agent#0/role",
 				"name": {
 					"en": "Villager",
 					"ja": "村人"
@@ -44,7 +44,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Walter",
+			"@id": "https://licos.online/state/0.2/village#3/extensionalDisclosureRange/agent#1",
 			"name": {
 				"en": "Walter",
 				"ja": "ヴァルター"
@@ -53,7 +53,7 @@
 			"id": 1,
 			"role": {
 				"@context": "https://werewolf.world/context/0.2/role.jsonld",
-				"@id": "https://werewolf.world/resource/0.2/seer",
+				"@id": "https://licos.online/state/0.2/village#3/extensionalDisclosureRange/agent#1/role",
 				"name": {
 					"en": "Seer",
 					"ja": "占い師"
@@ -64,7 +64,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Moritz",
+			"@id": "https://licos.online/state/0.2/village#3/extensionalDisclosureRange/agent#2",
 			"name": {
 				"en": "Moritz",
 				"ja": "モーリッツ"
@@ -73,7 +73,7 @@
 			"id": 2,
 			"role": {
 				"@context": "https://werewolf.world/context/0.2/role.jsonld",
-				"@id": "https://werewolf.world/resource/0.2/werewolf",
+				"@id": "https://licos.online/state/0.2/village#3/extensionalDisclosureRange/agent#2/role",
 				"name": {
 					"en": "Werewolf",
 					"ja": "人狼"
@@ -84,7 +84,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Simson",
+			"@id": "https://licos.online/state/0.2/village#3/extensionalDisclosureRange/agent#3",
 			"name": {
 				"en": "Simson",
 				"ja": "ジムゾン"
@@ -93,7 +93,7 @@
 			"id": 3,
 			"role": {
 				"@context": "https://werewolf.world/context/0.2/role.jsonld",
-				"@id": "https://werewolf.world/resource/0.2/hunter",
+				"@id": "https://licos.online/state/0.2/village#3/extensionalDisclosureRange/agent#3/role",
 				"name": {
 					"en": "Hunter",
 					"ja": "狩人"
@@ -104,7 +104,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Thomas",
+			"@id": "https://licos.online/state/0.2/village#3/extensionalDisclosureRange/agent#4",
 			"name": {
 				"en": "Thomas",
 				"ja": "トーマス"
@@ -113,7 +113,7 @@
 			"id": 4,
 			"role": {
 				"@context": "https://werewolf.world/context/0.2/role.jsonld",
-				"@id": "https://werewolf.world/resource/0.2/medium",
+				"@id": "https://licos.online/state/0.2/village#3/extensionalDisclosureRange/agent#4/role",
 				"name": {
 					"en": "Medium",
 					"ja": "霊媒師"
@@ -124,7 +124,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Nicholas",
+			"@id": "https://licos.online/state/0.2/village#3/extensionalDisclosureRange/agent#5",
 			"name": {
 				"en": "Nicholas",
 				"ja": "ニコラス"
@@ -133,18 +133,18 @@
 			"id": 5,
 			"role": {
 				"@context": "https://werewolf.world/context/0.2/role.jsonld",
-				"@id": "https://werewolf.world/resource/0.2/werehumster",
+				"@id": "https://licos.online/state/0.2/village#3/extensionalDisclosureRange/agent#5/role",
 				"name": {
-					"en": "Werehumster",
+					"en": "Werehamster",
 					"ja": "ハムスター人間"
 				},
-				"image": "https://werewolf.world/image/0.2/werehumster.jpg"
+				"image": "https://werewolf.world/image/0.2/werehamster.jpg"
 			},
 			"status": "alive"
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Dieter",
+			"@id": "https://licos.online/state/0.2/village#3/extensionalDisclosureRange/agent#6",
 			"name": {
 				"en": "Dieter",
 				"ja": "ディーター"
@@ -153,7 +153,7 @@
 			"id": 6,
 			"role": {
 				"@context": "https://werewolf.world/context/0.2/role.jsonld",
-				"@id": "https://werewolf.world/resource/0.2/madman",
+				"@id": "https://licos.online/state/0.2/village#3/extensionalDisclosureRange/agent#6/role",
 				"name": {
 					"en": "Madman",
 					"ja": "狂人"
@@ -164,7 +164,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Peter",
+			"@id": "https://licos.online/state/0.2/village#3/extensionalDisclosureRange/agent#7",
 			"name": {
 				"en": "Peter",
 				"ja": "ペーター"
@@ -173,7 +173,7 @@
 			"id": 7,
 			"role": {
 				"@context": "https://werewolf.world/context/0.2/role.jsonld",
-				"@id": "https://werewolf.world/resource/0.2/werewolf",
+				"@id": "https://licos.online/state/0.2/village#3/extensionalDisclosureRange/agent#7/role",
 				"name": {
 					"en": "Werewolf",
 					"ja": "人狼"
@@ -184,7 +184,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Lisa",
+			"@id": "https://licos.online/state/0.2/village#3/extensionalDisclosureRange/agent#8",
 			"name": {
 				"en": "Lisa",
 				"ja": "リーザ"
@@ -193,7 +193,7 @@
 			"id": 8,
 			"role": {
 				"@context": "https://werewolf.world/context/0.2/role.jsonld",
-				"@id": "https://werewolf.world/resource/0.2/villager",
+				"@id": "https://licos.online/state/0.2/village#3/extensionalDisclosureRange/agent#8/role",
 				"name": {
 					"en": "Villager",
 					"ja": "村人"
@@ -204,7 +204,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Alvin",
+			"@id": "https://licos.online/state/0.2/village#3/extensionalDisclosureRange/agent#9",
 			"name": {
 				"en": "Alvin",
 				"ja": "アルビン"
@@ -213,7 +213,7 @@
 			"id": 9,
 			"role": {
 				"@context": "https://werewolf.world/context/0.2/role.jsonld",
-				"@id": "https://werewolf.world/resource/0.2/villager",
+				"@id": "https://licos.online/state/0.2/village#3/extensionalDisclosureRange/agent#9/role",
 				"name": {
 					"en": "Villager",
 					"ja": "村人"
@@ -224,7 +224,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Catalina",
+			"@id": "https://licos.online/state/0.2/village#3/extensionalDisclosureRange/agent#10",
 			"name": {
 				"en": "Catalina",
 				"ja": "カタリナ"
@@ -233,7 +233,7 @@
 			"id": 10,
 			"role": {
 				"@context": "https://werewolf.world/context/0.2/role.jsonld",
-				"@id": "https://werewolf.world/resource/0.2/mason",
+				"@id": "https://licos.online/state/0.2/village#3/extensionalDisclosureRange/agent#10/role",
 				"name": {
 					"en": "Mason",
 					"ja": "共有者"
@@ -244,7 +244,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Otto",
+			"@id": "https://licos.online/state/0.2/village#3/extensionalDisclosureRange/agent#11",
 			"name": {
 				"en": "Otto",
 				"ja": "オットー"
@@ -253,7 +253,7 @@
 			"id": 11,
 			"role": {
 				"@context": "https://werewolf.world/context/0.2/role.jsonld",
-				"@id": "https://werewolf.world/resource/0.2/mason",
+				"@id": "https://licos.online/state/0.2/village#3/extensionalDisclosureRange/agent#11/role",
 				"name": {
 					"en": "Mason",
 					"ja": "共有者"
@@ -264,7 +264,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Joachim",
+			"@id": "https://licos.online/state/0.2/village#3/extensionalDisclosureRange/agent#12",
 			"name": {
 				"en": "Joachim",
 				"ja": "ヨアヒム"
@@ -273,7 +273,7 @@
 			"id": 12,
 			"role": {
 				"@context": "https://werewolf.world/context/0.2/role.jsonld",
-				"@id": "https://werewolf.world/resource/0.2/villager",
+				"@id": "https://licos.online/state/0.2/village#3/extensionalDisclosureRange/agent#12/role",
 				"name": {
 					"en": "Villager",
 					"ja": "村人"
@@ -284,7 +284,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Pamela",
+			"@id": "https://licos.online/state/0.2/village#3/extensionalDisclosureRange/agent#13",
 			"name": {
 				"en": "Pamela",
 				"ja": "パメラ"
@@ -293,7 +293,7 @@
 			"id": 13,
 			"role": {
 				"@context": "https://werewolf.world/context/0.2/role.jsonld",
-				"@id": "https://werewolf.world/resource/0.2/villager",
+				"@id": "https://licos.online/state/0.2/village#3/extensionalDisclosureRange/agent#13/role",
 				"name": {
 					"en": "Villager",
 					"ja": "村人"
@@ -304,7 +304,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Jacob",
+			"@id": "https://licos.online/state/0.2/village#3/extensionalDisclosureRange/agent#14",
 			"name": {
 				"en": "Jacob",
 				"ja": "ヤコブ"
@@ -313,7 +313,7 @@
 			"id": 14,
 			"role": {
 				"@context": "https://werewolf.world/context/0.2/role.jsonld",
-				"@id": "https://werewolf.world/resource/0.2/villager",
+				"@id": "https://licos.online/state/0.2/village#3/extensionalDisclosureRange/agent#14/role",
 				"name": {
 					"en": "Villager",
 					"ja": "村人"
@@ -327,7 +327,7 @@
 	"isMine": true,
 	"agent": {
 		"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-		"@id": "https://werewolf.world/resource/0.2/Walter",
+		"@id": "https://licos.online/state/0.2/village#3/agent",
 		"id": 1,
 		"name": {
 			"en": "Walter",

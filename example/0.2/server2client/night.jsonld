@@ -3,11 +3,11 @@
 		"https://werewolf.world/context/0.2/base.jsonld",
 		"https://werewolf.world/context/0.2/votingResult.jsonld"
 	],
-	"@id": "https://werewolf.world/resource/0.2/systemMessage",
+	"@id": "https://licos.online/state/0.2/village#3/systemMessage",
 
 	"village": {
 		"@context": "https://werewolf.world/context/0.2/village.jsonld",
-		"@id": "https://werewolf.world/resource/0.2/village",
+		"@id": "https://licos.online/state/0.2/village",
 		"id": 3,
 		"name": "横国の森の奥にある時代に取り残された小さな村",
 		"totalNumberOfAgents": 15
@@ -29,7 +29,7 @@
 	"agent": [
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Gert",
+			"@id": "https://licos.online/state/0.2/village#3/agent#0",
 			"isMine": false,
 			"name": {
 				"en": "Gert",
@@ -39,7 +39,7 @@
 			"id": 0,
 			"status": "dead",
 			"update": {
-				"@context": "https://werewolf.world/context/0.2/time.jsonld",
+				"@id": "https://licos.online/state/0.2/village#3/agent#0/update",
 				"phase": "day",
 				"date": 1
 			},
@@ -47,7 +47,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Walter",
+			"@id": "https://licos.online/state/0.2/village#3/agent#1",
 			"isMine": true,
 			"name": {
 				"en": "Walter",
@@ -57,7 +57,7 @@
 			"id": 1,
 			"status": "alive",
 			"update": {
-				"@context": "https://werewolf.world/context/0.2/time.jsonld",
+				"@id": "https://licos.online/state/0.2/village#3/agent#1/update",
 				"phase": "morning",
 				"date": 1
 			},
@@ -65,7 +65,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Moritz",
+			"@id": "https://licos.online/state/0.2/village#3/agent#2",
 			"isMine": false,
 			"name": {
 				"en": "Moritz",
@@ -75,7 +75,7 @@
 			"id": 2,
 			"status": "alive",
 			"update": {
-				"@context": "https://werewolf.world/context/0.2/time.jsonld",
+				"@id": "https://licos.online/state/0.2/village#3/agent#2/update",
 				"phase": "morning",
 				"date": 1
 			},
@@ -83,7 +83,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Simson",
+			"@id": "https://licos.online/state/0.2/village#3/agent#3",
 			"isMine": false,
 			"name": {
 				"en": "Simson",
@@ -93,7 +93,7 @@
 			"id": 3,
 			"status": "alive",
 			"update": {
-				"@context": "https://werewolf.world/context/0.2/time.jsonld",
+				"@id": "https://licos.online/state/0.2/village#3/agent#3/update",
 				"phase": "morning",
 				"date": 1
 			},
@@ -101,7 +101,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Thomas",
+			"@id": "https://licos.online/state/0.2/village#3/agent#4",
 			"isMine": false,
 			"name": {
 				"en": "Thomas",
@@ -111,7 +111,7 @@
 			"id": 4,
 			"status": "alive",
 			"update": {
-				"@context": "https://werewolf.world/context/0.2/time.jsonld",
+				"@id": "https://licos.online/state/0.2/village#3/agent#4/update",
 				"phase": "morning",
 				"date": 1
 			},
@@ -119,7 +119,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Nicholas",
+			"@id": "https://licos.online/state/0.2/village#3/agent#5",
 			"isMine": false,
 			"name": {
 				"en": "Nicholas",
@@ -129,7 +129,7 @@
 			"id": 5,
 			"status": "alive",
 			"update": {
-				"@context": "https://werewolf.world/context/0.2/time.jsonld",
+				"@id": "https://licos.online/state/0.2/village#3/agent#5/update",
 				"phase": "morning",
 				"date": 1
 			},
@@ -137,7 +137,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Dieter",
+			"@id": "https://licos.online/state/0.2/village#3/agent#6",
 			"isMine": false,
 			"name": {
 				"en": "Dieter",
@@ -147,7 +147,7 @@
 			"id": 6,
 			"status": "alive",
 			"update": {
-				"@context": "https://werewolf.world/context/0.2/time.jsonld",
+				"@id": "https://licos.online/state/0.2/village#3/agent#6/update",
 				"phase": "morning",
 				"date": 1
 			},
@@ -155,7 +155,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Peter",
+			"@id": "https://licos.online/state/0.2/village#3/agent#7",
 			"isMine": false,
 			"name": {
 				"en": "Peter",
@@ -165,7 +165,7 @@
 			"id": 7,
 			"status": "alive",
 			"update": {
-				"@context": "https://werewolf.world/context/0.2/time.jsonld",
+				"@id": "https://licos.online/state/0.2/village#3/agent#7/update",
 				"phase": "morning",
 				"date": 1
 			},
@@ -173,7 +173,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Lisa",
+			"@id": "https://licos.online/state/0.2/village#3/agent#8",
 			"isMine": false,
 			"name": {
 				"en": "Lisa",
@@ -183,7 +183,7 @@
 			"id": 8,
 			"status": "dead",
 			"update": {
-				"@context": "https://werewolf.world/context/0.2/time.jsonld",
+				"@id": "https://licos.online/state/0.2/village#3/agent#8/update",
 				"phase": "night",
 				"date": 1
 			},
@@ -191,7 +191,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Alvin",
+			"@id": "https://licos.online/state/0.2/village#3/agent#9",
 			"isMine": false,
 			"name": {
 				"en": "Alvin",
@@ -201,7 +201,7 @@
 			"id": 9,
 			"status": "alive",
 			"update": {
-				"@context": "https://werewolf.world/context/0.2/time.jsonld",
+				"@id": "https://licos.online/state/0.2/village#3/agent#9/update",
 				"phase": "morning",
 				"date": 1
 			},
@@ -209,7 +209,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Catalina",
+			"@id": "https://licos.online/state/0.2/village#3/agent#10",
 			"isMine": false,
 			"name": {
 				"en": "Catalina",
@@ -219,7 +219,7 @@
 			"id": 10,
 			"status": "alive",
 			"update": {
-				"@context": "https://werewolf.world/context/0.2/time.jsonld",
+				"@id": "https://licos.online/state/0.2/village#3/agent#10/update",
 				"phase": "morning",
 				"date": 1
 			},
@@ -227,7 +227,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Otto",
+			"@id": "https://licos.online/state/0.2/village#3/agent#11",
 			"isMine": false,
 			"name": {
 				"en": "Otto",
@@ -237,7 +237,7 @@
 			"id": 11,
 			"status": "alive",
 			"update": {
-				"@context": "https://werewolf.world/context/0.2/time.jsonld",
+				"@id": "https://licos.online/state/0.2/village#3/agent#11/update",
 				"phase": "morning",
 				"date": 1
 			},
@@ -245,7 +245,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Joachim",
+			"@id": "https://licos.online/state/0.2/village#3/agent#12",
 			"isMine": false,
 			"name": {
 				"en": "Joachim",
@@ -255,7 +255,7 @@
 			"id": 12,
 			"status": "alive",
 			"update": {
-				"@context": "https://werewolf.world/context/0.2/time.jsonld",
+				"@id": "https://licos.online/state/0.2/village#3/agent#12/update",
 				"phase": "morning",
 				"date": 1
 			},
@@ -263,7 +263,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Pamela",
+			"@id": "https://licos.online/state/0.2/village#3/agent#13",
 			"isMine": false,
 			"name": {
 				"en": "Pamela",
@@ -273,7 +273,7 @@
 			"id": 13,
 			"status": "alive",
 			"update": {
-				"@context": "https://werewolf.world/context/0.2/time.jsonld",
+				"@id": "https://licos.online/state/0.2/village#3/agent#13/update",
 				"phase": "morning",
 				"date": 1
 			},
@@ -281,7 +281,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/Jacob",
+			"@id": "https://licos.online/state/0.2/village#3/agent#14",
 			"isMine": false,
 			"name": {
 				"en": "Jacob",
@@ -291,7 +291,7 @@
 			"id": 14,
 			"status": "alive",
 			"update": {
-				"@context": "https://werewolf.world/context/0.2/time.jsonld",
+				"@id": "https://licos.online/state/0.2/village#3/agent#14/update",
 				"phase": "morning",
 				"date": 1
 			},
@@ -302,7 +302,7 @@
 	"role": [
 		{
 			"@context": "https://werewolf.world/context/0.2/role.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/master",
+			"@id": "https://licos.online/state/0.2/village#3/role#master",
 			"isMine": false,
 			"name": {
 				"en": "Master",
@@ -314,7 +314,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/role.jsonld",
-			"@id": "https://wereworld.world/resource/0.2/villager",
+			"@id": "https://licos.online/state/0.2/village#3/role#villager",
 			"isMine": false,
 			"name": {
 				"en": "Villager",
@@ -324,13 +324,10 @@
 			"numberOfAgents": 6,
 			"board": [
 				{
-					"@context": [
-						"https://werewolf.world/context/0.2/boardResult.jsonld",
-						"https://werewolf.world/context/0.2/time.jsonld"
-					],
+					"@context": "https://werewolf.world/context/0.2/boardResult.jsonld",
 					"agent": {
 						"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-						"@id": "https://werewolf.world/resource/0.2/Walter",
+						"@id": "https://licos.online/state/0.2/village#3/role#villager/board/agent#1",
 						"id": 1,
 						"name": {
 							"en": "Walter",
@@ -346,7 +343,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/role.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/seer",
+			"@id": "https://licos.online/state/0.2/village#3/role#seer",
 			"isMine": true,
 			"name": {
 				"en": "Seer",
@@ -356,13 +353,10 @@
 			"numberOfAgents": 1,
 			"board": [
 				{
-					"@context": [
-						"https://werewolf.world/context/0.2/boardResult.jsonld",
-						"https://werewolf.world/context/0.2/time.jsonld"
-					],
+					"@context": "https://werewolf.world/context/0.2/boardResult.jsonld",
 					"agent": {
 						"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-						"@id": "https://werewolf.world/resource/0.2/Walter",
+						"@id": "https://licos.online/state/0.2/village#3/role#seer/board/agent#1",
 						"id": 1,
 						"name": {
 							"en": "Walter",
@@ -378,7 +372,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/role.jsonld",
-			"@id": "https://werewolf.world/resource/0.2/medium",
+			"@id": "https://licos.online/state/0.2/village#3/role#medium",
 			"isMine": false,
 			"name": {
 				"en": "Medium",
@@ -388,13 +382,10 @@
 			"numberOfAgents": 1,
 			"board": [
 				{
-					"@context": [
-						"https://werewolf.world/context/0.2/boardResult.jsonld",
-						"https://werewolf.world/context/0.2/time.jsonld"
-					],
+					"@context": "https://werewolf.world/context/0.2/boardResult.jsonld",
 					"agent": {
 						"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-						"@id": "https://werewolf.world/resource/0.2/Walter",
+						"@id": "https://licos.online/state/0.2/village#3/role#medium/board/agent#1",
 						"id": 1,
 						"name": {
 							"en": "Walter",
@@ -410,7 +401,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/role.jsonld",
-			"@id": "https://wereworld.world/resource/0.2/hunter",
+			"@id": "https://licos.online/state/0.2/village#3/role#hunter",
 			"isMine": false,
 			"name": {
 				"en": "Hunter",
@@ -420,13 +411,10 @@
 			"numberOfAgents": 1,
 			"board": [
 				{
-					"@context": [
-						"https://werewolf.world/context/0.2/boardResult.jsonld",
-						"https://werewolf.world/context/0.2/time.jsonld"
-					],
+					"@context": "https://werewolf.world/context/0.2/boardResult.jsonld",
 					"agent": {
 						"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-						"@id": "https://werewolf.world/resource/0.2/Walter",
+						"@id": "https://licos.online/state/0.2/village#3/role#hunter/board/agent#1",
 						"id": 1,
 						"name": {
 							"en": "Walter",
@@ -442,7 +430,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/role.jsonld",
-			"@id": "https://wereworld.world/resource/0.2/mason",
+			"@id": "https://licos.online/state/0.2/village#3/role#mason",
 			"isMine": false,
 			"name": {
 				"en": "Mason",
@@ -452,13 +440,10 @@
 			"numberOfAgents": 2,
 			"board": [
 				{
-					"@context": [
-						"https://werewolf.world/context/0.2/boardResult.jsonld",
-						"https://werewolf.world/context/0.2/time.jsonld"
-					],
+					"@context": "https://werewolf.world/context/0.2/boardResult.jsonld",
 					"agent": {
 						"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-						"@id": "https://werewolf.world/resource/0.2/Walter",
+						"@id": "https://licos.online/state/0.2/village#3/role#mason/board/agent#1",
 						"id": 1,
 						"name": {
 							"en": "Walter",
@@ -474,7 +459,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/role.jsonld",
-			"@id": "https://wereworld.world/resource/0.2/madman",
+			"@id": "https://licos.online/state/0.2/village#3/role#madman",
 			"isMine": false,
 			"name": {
 				"en": "Madman",
@@ -484,13 +469,10 @@
 			"numberOfAgents": 1,
 			"board": [
 				{
-					"@context": [
-						"https://werewolf.world/context/0.2/boardResult.jsonld",
-						"https://werewolf.world/context/0.2/time.jsonld"
-					],
+					"@context": "https://werewolf.world/context/0.2/boardResult.jsonld",
 					"agent": {
 						"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-						"@id": "https://werewolf.world/resource/0.2/Walter",
+						"@id": "https://licos.online/state/0.2/village#3/role#madman/board/agent#1",
 						"id": 1,
 						"name": {
 							"en": "Walter",
@@ -506,7 +488,7 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/role.jsonld",
-			"@id": "https://wereworld.world/resource/0.2/werewolf",
+			"@id": "https://licos.online/state/0.2/village#3/role#werewolf",
 			"isMine": false,
 			"name": {
 				"en": "Werewolf",
@@ -516,13 +498,10 @@
 			"numberOfAgents": 2,
 			"board": [
 				{
-					"@context": [
-						"https://werewolf.world/context/0.2/boardResult.jsonld",
-						"https://werewolf.world/context/0.2/time.jsonld"
-					],
+					"@context": "https://werewolf.world/context/0.2/boardResult.jsonld",
 					"agent": {
 						"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-						"@id": "https://werewolf.world/resource/0.2/Walter",
+						"@id": "https://licos.online/state/0.2/village#3/role#werewolf/board/agent#1",
 						"id": 1,
 						"name": {
 							"en": "Walter",
@@ -538,23 +517,20 @@
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/role.jsonld",
-			"@id": "https://wereworld.world/resource/0.2/werehumster",
+			"@id": "https://licos.online/state/0.2/village#3/role#werehamster",
 			"isMine": false,
 			"name": {
-				"en": "Werehumster",
+				"en": "Werehamster",
 				"ja": "ハムスター人間"
 			},
-			"image": "https://werewolf.world/image/0.2/werehumster.jpg",
+			"image": "https://werewolf.world/image/0.2/werehamster.jpg",
 			"numberOfAgents": 1,
 			"board": [
 				{
-					"@context": [
-						"https://werewolf.world/context/0.2/boardResult.jsonld",
-						"https://werewolf.world/context/0.2/time.jsonld"
-					],
+					"@context": "https://werewolf.world/context/0.2/boardResult.jsonld",
 					"agent": {
 						"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-						"@id": "https://werewolf.world/resource/0.2/Walter",
+						"@id": "https://licos.online/state/0.2/village#3/role#werehamster/board/agent#1",
 						"id": 1,
 						"name": {
 							"en": "Walter",
