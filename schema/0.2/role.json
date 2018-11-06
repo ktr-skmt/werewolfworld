@@ -8,28 +8,9 @@
             "description": "role @id",
             "$id": "/definitions/@id",
             "type": "string",
-            "default": [
-                "https://werewolf.world/resource/0.2/villager"
-            ],
-            "enum": [
-                "https://werewolf.world/resource/0.2/hunter",
-                "https://werewolf.world/resource/0.2/madman",
-                "https://werewolf.world/resource/0.2/mason",
-                "https://werewolf.world/resource/0.2/medium",
-                "https://werewolf.world/resource/0.2/seer",
-                "https://werewolf.world/resource/0.2/villager",
-                "https://werewolf.world/resource/0.2/werehumster",
-                "https://werewolf.world/resource/0.2/werewolf"
-            ],
+            "pattern": "https://licos.online/state/0.2/village[#0-9A-Za-z]+",
             "examples": [
-                "https://werewolf.world/resource/0.2/hunter",
-                "https://werewolf.world/resource/0.2/madman",
-                "https://werewolf.world/resource/0.2/mason",
-                "https://werewolf.world/resource/0.2/medium",
-                "https://werewolf.world/resource/0.2/seer",
-                "https://werewolf.world/resource/0.2/villager",
-                "https://werewolf.world/resource/0.2/werehumster",
-                "https://werewolf.world/resource/0.2/werewolf"
+                "https://licos.online/state/0.2/village#3/agent#1/role"
             ]
         },
         "name": {

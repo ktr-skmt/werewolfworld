@@ -65,6 +65,7 @@
                     }
                 },
                 "required": [
+                    "@id",
                     "agentToLynch",
                     "numberOfVotes",
                     "rankOfVotes"
@@ -136,6 +137,7 @@
                     }
                 },
                 "required": [
+                    "@id",
                     "sourceAgent",
                     "targetAgent"
                 ]

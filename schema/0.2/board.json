@@ -3,6 +3,16 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "https://werewolf.world/schema/0.2/board.json",
     "definitions": {
+        "@id": {
+            "title": "Board @id",
+            "description": "board @id",
+            "$id": "/definitions/@id",
+            "type": "string",
+            "pattern": "^https://licos.online/state/0.2/village[#0-9A-Za-z]+$",
+            "examples": [
+                "https://licos.online/state/0.2/village#3/role#villager/board#1"
+            ]
+        },
         "polarity": {
             "title": "Board Polarity",
             "description": "board polarity",

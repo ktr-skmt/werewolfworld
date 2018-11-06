@@ -180,6 +180,7 @@
                                 }
                             },
                             "required": [
+                                "@id",
                                 "agent",
                                 "polarity",
                                 "phase",

@@ -3,6 +3,16 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "https://werewolf.world/schema/0.2/time.json",
     "definitions": {
+        "@id": {
+            "title": "Time @id",
+            "description": "time @id",
+            "$id": "/definitions/@id",
+            "type": "string",
+            "pattern": "^https://licos.online/state/0.2/village[#0-9A-Za-z]+$",
+            "examples": [
+                "https://licos.online/state/0.2/village#3/agent#3/update"
+            ]
+        },
         "phase": {
             "title": "Phase",
             "description": "phase",

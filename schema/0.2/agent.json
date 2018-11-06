@@ -8,9 +8,10 @@
             "description": "agent @id",
             "$id": "/definitions/@id",
             "type": "string",
-            "pattern": "^https://werewolf.world/resource/0.2/[A-Za-z]+$",
+            "pattern": "^https://licos.online/state/0.2/village[#0-9A-Za-z]+$",
             "examples": [
-                "https://werewolf.world/resource/0.2/Adil"
+                "https://licos.online/state/0.2/village#3/agent#1",
+                "https://licos.online/state/0.2/village#3/myAgent"
             ]
         },
         "isMine": {
