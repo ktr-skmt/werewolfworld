@@ -3,7 +3,6 @@
 		"@version": 1.1,
 		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"w3": "https://werewolf.world/resource/0.2/",
-		"w3c": "https://werewolf.world/context/0.2/",
 		"village": "w3:village",
 		"token": "w3:token",
 		"phase": "w3:phase",
@@ -31,6 +30,10 @@
 		"intensionalDisclosureRange": "w3:channel",
 		"extensionalDisclosureRange": "w3:extensionalDisclosureRange",
 		"avatar": "w3:avatar",
-		"myAgent": "w3:agent"
+		"myAgent": "w3:agent",
+		"flavorText": {
+			"@id": "w3:flavorText",
+			"@container": "@list"
+		}
 	}
 }

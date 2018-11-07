@@ -1,7 +1,6 @@
 {
 	"@context": {
 		"@version": 1.1,
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"w3": "https://werewolf.world/resource/0.2/",
 		"agent": "w3:agent",
 		"role": "w3:role",
