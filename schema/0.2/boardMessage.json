@@ -2,6 +2,7 @@
     "title": "werewolf.world: Schema of boardMessage.json",
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "https://werewolf.world/schema/0.2/boardMessage.json",
+    "type": "object",
     "properties": {
         "agent": {
             "title": "Agent",
