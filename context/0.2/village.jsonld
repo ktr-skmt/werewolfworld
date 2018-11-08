@@ -5,7 +5,7 @@
 		"w3": "https://werewolf.world/resource/0.2/",
 		"name": {
 			"@id": "w3:villageName",
-            "@type": "xsd:string"
+			"@type": "xsd:string"
 		},
 		"id": {
 			"@id": "w3:villageId",
@@ -13,7 +13,7 @@
 		},
 		"totalNumberOfAgents": {
 			"@id": "w3:totalNumberOfAgents",
-            "@type": "xsd:integer"
+			"@type": "xsd:integer"
 		}
 	}
 }
