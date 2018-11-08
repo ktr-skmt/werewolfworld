@@ -72,8 +72,7 @@
                 }
             },
             "required": [
-                "en",
-                "ja"
+                "en"
             ]
         },
         "image": {

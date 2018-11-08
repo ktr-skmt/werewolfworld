@@ -39,6 +39,22 @@
                     "minLength": 1,
                     "maxLength": 15
                 },
+                "fr": {
+                    "title": "Agent French Name",
+                    "description": "agent French name",
+                    "$id": "/definitions/fullName/properties/fr",
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 15
+                },
+                "it": {
+                    "title": "Agent Italian Name",
+                    "description": "agent Italian name",
+                    "$id": "/definitions/fullName/properties/it",
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 15
+                },
                 "ja": {
                     "title": "Agent Japanese Name",
                     "description": "agent Japanese name",
@@ -46,11 +62,115 @@
                     "type": "string",
                     "minLength": 1,
                     "maxLength": 15
+                },
+                "vi": {
+                    "title": "Agent Vietnamese Name",
+                    "description": "agent Vietnamese name",
+                    "$id": "/definitions/fullName/properties/vi",
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 15
+                },
+                "zh-CN": {
+                    "title": "Agent Chinese Name",
+                    "description": "agent Chinese name",
+                    "$id": "/definitions/fullName/properties/zh-CN",
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 15
+                },
+                "zh-TW": {
+                    "title": "Agent Taiwanese Name",
+                    "description": "agent Taiwanese name",
+                    "$id": "/definitions/fullName/properties/zh-TW",
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 15
                 }
             },
             "required": [
-                "en",
-                "ja"
+                "en"
+            ]
+        },
+        "fill name": {
+            "title": "Agent Full Name",
+            "description": "agent full name",
+            "$id": "/definitions/fullName",
+            "type": "object",
+            "properties": {
+                "en": {
+                    "title": "Agent English Full Name",
+                    "description": "agent English full name",
+                    "$id": "/definitions/fullName/properties/en",
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 15
+                },
+                "fr": {
+                    "title": "Agent French Full Name",
+                    "description": "agent French full name",
+                    "$id": "/definitions/fullName/properties/fr",
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 15
+                },
+                "it": {
+                    "title": "Agent Italian Full Name",
+                    "description": "agent Italian full name",
+                    "$id": "/definitions/fullName/properties/it",
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 15
+                },
+                "ja": {
+                    "title": "Agent Japanese Full Name",
+                    "description": "agent Japanese full name",
+                    "$id": "/definitions/fullName/properties/ja",
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 15
+                },
+                "vi": {
+                    "title": "Agent Vietnamese Full Name",
+                    "description": "agent Vietnamese full name",
+                    "$id": "/definitions/fullName/properties/vi",
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 15
+                },
+                "zh-CN": {
+                    "title": "Agent Chinese Full Name",
+                    "description": "agent Chinese full name",
+                    "$id": "/definitions/fullName/properties/zh-CN",
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 15
+                },
+                "zh-TW": {
+                    "title": "Agent Taiwanese Full Name",
+                    "description": "agent Taiwanese full name",
+                    "$id": "/definitions/fullName/properties/zh-TW",
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 15
+                }
+            },
+            "required": [
+                "en"
+            ]
+        },
+        "gender": {
+            "title": "Gender",
+            "description": "gender",
+            "$id": "/definitions/gender",
+            "type": "string",
+            "enum": [
+                "male",
+                "female"
+            ],
+            "examples": [
+                "male",
+                "female"
             ]
         },
         "image": {
