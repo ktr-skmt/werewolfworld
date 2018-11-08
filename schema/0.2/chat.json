@@ -78,11 +78,21 @@
                     "type": "string",
                     "enum": [
                         "en",
-                        "ja"
+                        "fr",
+                        "it",
+                        "ja",
+                        "vi",
+                        "zh-CN",
+                        "zh-TW"
                     ],
                     "examples": [
                         "en",
-                        "ja"
+                        "fr",
+                        "it",
+                        "ja",
+                        "vi",
+                        "zh-CN",
+                        "zh-TW"
                     ]
                 }
             },
