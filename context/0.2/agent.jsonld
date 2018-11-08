@@ -25,6 +25,11 @@
 			"@type": "xsd:boolean"
 		},
 		"result": "w3:result",
-		"avatar": "w3:avatar"
+		"avatar": "w3:avatar",
+		"fill name": {
+			"@id": "w3:agentFullName",
+			"@container": "@language"
+		},
+		"gender": "w3:gender"
 	}
 }

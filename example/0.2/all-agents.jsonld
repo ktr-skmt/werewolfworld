@@ -10,14 +10,18 @@
                 "fr": "Adil",
                 "it": "Adil",
                 "ja": "アーディル",
-                "vi": "Adil"
+                "vi": "Adil",
+                "zh-CN": "Adil",
+                "zh-TW": "Adil"
             },
             "full name": {
                 "en": "Adil Salah",
                 "fr": "Adil Salah",
                 "it": "Adil Salah",
                 "ja": "アーディル・サラー",
-                "vi": "Adil Salah"
+                "vi": "Adil Salah",
+                "zh-CN": "Adil Salah",
+                "zh-TW": "Adil Salah"
             },
             "gender": "male",
             "image": "https://werewolf.world/image/0.2/Adil.jpg"
@@ -29,14 +33,18 @@
                 "fr": "Borya",
                 "it": "Borya",
                 "ja": "ボーリャ",
-                "vi": "Borya"
+                "vi": "Borya",
+                "zh-CN": "Borya",
+                "zh-TW": "Borya"
             },
             "full name": {
                 "en": "Borya Volkov",
                 "fr": "Borya Volkov",
                 "it": "Borya Volkov",
                 "ja": "ボーリャ・ヴォルコフ",
-                "vi": "Borya Volkov"
+                "vi": "Borya Volkov",
+                "zh-CN": "Borya Volkov",
+                "zh-TW": "Borya Volkov"
             },
             "gender": "male",
             "image": "https://werewolf.world/image/0.2/Borya.jpg"
@@ -48,14 +56,18 @@
                 "fr": "Chacha",
                 "it": "Chacha",
                 "ja": "チャチャ",
-                "vi": "Chacha"
+                "vi": "Chacha",
+                "zh-CN": "Chacha",
+                "zh-TW": "Chacha"
             },
             "full name": {
                 "en": "Chacha Waruru",
                 "fr": "Chacha Waruru",
                 "it": "Chacha Waruru",
                 "ja": "チャチャ・ワルール",
-                "vi": "Chacha Waruru"
+                "vi": "Chacha Waruru",
+                "zh-CN": "Chacha Waruru",
+                "zh-TW": "Chacha Waruru"
             },
             "gender": "male",
             "image": "https://werewolf.world/image/0.2/Chacha.jpg"
@@ -67,14 +79,18 @@
                 "fr": "Devdatta",
                 "it": "Devdatta",
                 "ja": "デヴゥダッタ",
-                "vi": "Devdatta"
+                "vi": "Devdatta",
+                "zh-CN": "Devdatta",
+                "zh-TW": "Devdatta"
             },
             "full name": {
                 "en": "Devdatta Prasad",
                 "fr": "Devdatta Prasad",
                 "it": "Devdatta Prasad",
                 "ja": "デヴゥダッタ・プラサード",
-                "vi": "Devdatta Prasad"
+                "vi": "Devdatta Prasad",
+                "zh-CN": "Devdatta Prasad",
+                "zh-TW": "Devdatta Prasad"
             },
             "gender": "male",
             "image": "https://werewolf.world/image/0.2/Devdatta.jpg"
@@ -86,14 +102,18 @@
                 "fr": "Ekrem",
                 "it": "Ekrem",
                 "ja": "エクレム",
-                "vi": "Ekrem"
+                "vi": "Ekrem",
+                "zh-CN": "Ekrem",
+                "zh-TW": "Ekrem"
             },
             "full name": {
                 "en": "Ekrem Birkan",
                 "fr": "Ekrem Birkan",
                 "it": "Ekrem Birkan",
                 "ja": "エクレム・ビルカン",
-                "vi": "Ekrem Birkan"
+                "vi": "Ekrem Birkan",
+                "zh-CN": "Ekrem Birkan",
+                "zh-TW": "Ekrem Birkan"
             },
             "gender": "male",
             "image": "https://werewolf.world/image/0.2/Ekrem.jpg"
@@ -105,14 +125,18 @@
                 "fr": "Fernando",
                 "it": "Fernando",
                 "ja": "フェルナンド",
-                "vi": "Fernando"
+                "vi": "Fernando",
+                "zh-CN": "Fernando",
+                "zh-TW": "Fernando"
             },
             "full name": {
                 "en": "Fernando de Martino",
                 "fr": "Fernando de Martino",
                 "it": "Fernando de Martino",
                 "ja": "フェルナンド・デマルティーノ",
-                "vi": "Fernando de Martino"
+                "vi": "Fernando de Martino",
+                "zh-CN": "Fernando de Martino",
+                "zh-TW": "Fernando de Martino"
             },
             "gender": "male",
             "image": "https://werewolf.world/image/0.2/Fernando.jpg"
@@ -124,14 +148,18 @@
                 "fr": "Gavriil",
                 "it": "Gavriil",
                 "ja": "ガブリール",
-                "vi": "Gavriil"
+                "vi": "Gavriil",
+                "zh-CN": "Gavriil",
+                "zh-TW": "Gavriil"
             },
             "full name": {
                 "en": "Gavriil Petros",
                 "fr": "Gavriil Petros",
                 "it": "Gavriil Petros",
                 "ja": "ガブリール・ペトロス",
-                "vi": "Gavriil Petros"
+                "vi": "Gavriil Petros",
+                "zh-CN": "Gavriil Petros",
+                "zh-TW": "Gavriil Petros"
             },
             "gender": "male",
             "image": "https://werewolf.world/image/0.2/Gavriil.jpg"
@@ -143,14 +171,18 @@
                 "fr": "Henrik",
                 "it": "Henrik",
                 "ja": "ヘンリック",
-                "vi": "Henrik"
+                "vi": "Henrik",
+                "zh-CN": "Henrik",
+                "zh-TW": "Henrik"
             },
             "full name": {
                 "en": "Henrik Brauer",
                 "fr": "Henrik Brauer",
                 "it": "Henrik Brauer",
                 "ja": "ヘンリック・ブラウワー",
-                "vi": "Henrik Brauer"
+                "vi": "Henrik Brauer",
+                "zh-CN": "Henrik Brauer",
+                "zh-TW": "Henrik Brauer"
             },
             "gender": "male",
             "image": "https://werewolf.world/image/0.2/Henrik.jpg"
@@ -162,14 +194,18 @@
                 "fr": "Ileanna",
                 "it": "Ileanna",
                 "ja": "イレアナ",
-                "vi": "Ileanna"
+                "vi": "Ileanna",
+                "zh-CN": "Ileanna",
+                "zh-TW": "Ileanna"
             },
             "full name": {
                 "en": "Ileanna Oliveira",
                 "fr": "Ileanna Oliveira",
                 "it": "Ileanna Oliveira",
                 "ja": "イレアナ・オリベーラ",
-                "vi": "Ileanna Oliveira"
+                "vi": "Ileanna Oliveira",
+                "zh-CN": "Ileanna Oliveira",
+                "zh-TW": "Ileanna Oliveira"
             },
             "gender": "female",
             "image": "https://werewolf.world/image/0.2/Ileanna.jpg"
@@ -181,17 +217,44 @@
                 "fr": "Jasmin",
                 "it": "Jasmin",
                 "ja": "ジャスミン",
-                "vi": "Jasmin"
+                "vi": "Jasmin",
+                "zh-CN": "Jasmin",
+                "zh-TW": "Jasmin"
             },
             "full name": {
                 "en": "Jasmin Jalal",
                 "fr": "Jasmin Jalal",
                 "it": "Jasmin Jalal",
                 "ja": "ジャスミン・ジャラール",
-                "vi": "Jasmin Jalal"
+                "vi": "Jasmin Jalal",
+                "zh-CN": "Jasmin Jalal",
+                "zh-TW": "Jasmin Jalal"
             },
             "gender": "female",
             "image": "https://werewolf.world/image/0.2/Jasmin.jpg"
+        },
+        {
+            "@id": "https://werewolf.world/resource/0.2/K",
+            "name": {
+                "en": "K",
+                "fr": "K",
+                "it": "K",
+                "ja": "",
+                "vi": "K",
+                "zh-CN": "",
+                "zh-TW": ""
+            },
+            "full name": {
+                "en": "K",
+                "fr": "K",
+                "it": "K",
+                "ja": "K",
+                "vi": "K",
+                "zh-CN": "",
+                "zh-TW": ""
+            },
+            "gender": "male",
+            "image": "https://werewolf.world/image/0.2/K.jpg"
         },
         {
             "@id": "https://werewolf.world/resource/0.2/Louise",
@@ -200,14 +263,18 @@
                 "fr": "Louise",
                 "it": "Louise",
                 "ja": "ルイーズ",
-                "vi": "Louise"
+                "vi": "Louise",
+                "zh-CN": "Louise",
+                "zh-TW": "Louise"
             },
             "full name": {
                 "en": "Louise Bouquet",
                 "fr": "Louise Bouquet",
                 "it": "Louise Bouquet",
                 "ja": "ルイーズ・ブケ",
-                "vi": "Louise Bouquet"
+                "vi": "Louise Bouquet",
+                "zh-CN": "Louise Bouquet",
+                "zh-TW": "Louise Bouquet"
             },
             "gender": "female",
             "image": "https://werewolf.world/image/0.2/Louise.jpg"
@@ -219,14 +286,18 @@
                 "fr": "Marthe",
                 "it": "Marthe",
                 "ja": "マーテ",
-                "vi": "Marthe"
+                "vi": "Marthe",
+                "zh-CN": "Marthe",
+                "zh-TW": "Marthe"
             },
             "full name": {
                 "en": "Marthe Skjoldnes",
                 "fr": "Marthe Skjoldnes",
                 "it": "Marthe Skjoldnes",
                 "ja": "マーテ・ショルネス",
-                "vi": "Marthe Skjoldnes"
+                "vi": "Marthe Skjoldnes",
+                "zh-CN": "Marthe Skjoldnes",
+                "zh-TW": "Marthe Skjoldnes"
             },
             "gender": "female",
             "image": "https://werewolf.world/image/0.2/Marthe.jpg"
@@ -238,14 +309,18 @@
                 "fr": "Nanyamka",
                 "it": "Nanyamka",
                 "ja": "ナニャンカ",
-                "vi": "Nanyamka"
+                "vi": "Nanyamka",
+                "zh-CN": "Nanyamka",
+                "zh-TW": "Nanyamka"
             },
             "full name": {
                 "en": "Nanyamka Asante",
                 "fr": "Nanyamka Asante",
                 "it": "Nanyamka Asante",
                 "ja": "ナニャンカ・アサンテ",
-                "vi": "Nanyamka Asante"
+                "vi": "Nanyamka Asante",
+                "zh-CN": "Nanyamka Asante",
+                "zh-TW": "Nanyamka Asante"
             },
             "gender": "female",
             "image": "https://werewolf.world/image/0.2/Nanyamka.jpg"
@@ -257,36 +332,21 @@
                 "fr": "Oliwia",
                 "it": "Oliwia",
                 "ja": "オリビア",
-                "vi": "Oliwia"
+                "vi": "Oliwia",
+                "zh-CN": "Oliwia",
+                "zh-TW": "Oliwia"
             },
             "full name": {
                 "en": "Oliwia Kowalska",
                 "fr": "Oliwia Kowalska",
                 "it": "Oliwia Kowalska",
                 "ja": "オリビア・コヴァルスカ",
-                "vi": "Oliwia Kowalska"
+                "vi": "Oliwia Kowalska",
+                "zh-CN": "Oliwia Kowalska",
+                "zh-TW": "Oliwia Kowalska"
             },
             "gender": "female",
             "image": "https://werewolf.world/image/0.2/Oliwia.jpg"
-        },
-        {
-            "@id": "https://werewolf.world/resource/0.2/Pan",
-            "name": {
-                "en": "Pan",
-                "fr": "",
-                "it": "",
-                "ja": "パン",
-                "vi": ""
-            },
-            "full name": {
-                "en": "Pan Sisi",
-                "fr": "",
-                "it": "",
-                "ja": "パン・スースー",
-                "vi": ""
-            },
-            "gender": "female",
-            "image": "https://werewolf.world/image/0.2/Pan.jpg"
         },
         {
             "@id": "https://werewolf.world/resource/0.2/Ryan",
@@ -295,14 +355,18 @@
                 "fr": "Ryan",
                 "it": "Ryan",
                 "ja": "ライアン",
-                "vi": "Ryan"
+                "vi": "Ryan",
+                "zh-CN": "Ryan",
+                "zh-TW": "Ryan"
             },
             "full name": {
                 "en": "Ryan Dougall",
                 "fr": "Ryan Dougall",
                 "it": "Ryan Dougall",
                 "ja": "ライアン・ドゥーゴル",
-                "vi": "Ryan Dougall"
+                "vi": "Ryan Dougall",
+                "zh-CN": "Ryan Dougall",
+                "zh-TW": "Ryan Dougall"
             },
             "gender": "male",
             "image": "https://werewolf.world/image/0.2/Ryan.jpg"
@@ -314,14 +378,18 @@
                 "fr": "Susan",
                 "it": "Susan",
                 "ja": "スーザン",
-                "vi": "Susan"
+                "vi": "Susan",
+                "zh-CN": "Susan",
+                "zh-TW": "Susan"
             },
             "full name": {
                 "en": "Susan Michelle Miller",
                 "fr": "Susan Michelle Miller",
                 "it": "Susan Michelle Miller",
                 "ja": "スーザン・ミシェル・ミラー",
-                "vi": "Susan Michelle Miller"
+                "vi": "Susan Michelle Miller",
+                "zh-CN": "Susan Michelle Miller",
+                "zh-TW": "Susan Michelle Miller"
             },
             "gender": "female",
             "image": "https://werewolf.world/image/0.2/Susan.jpg"
@@ -333,14 +401,18 @@
                 "fr": "Thuy",
                 "it": "Thuy",
                 "ja": "ティー",
-                "vi": "Thúy"
+                "vi": "Thúy",
+                "zh-CN": "Thuy",
+                "zh-TW": "Thuy"
             },
             "full name": {
                 "en": "Thuy Phan",
                 "fr": "Thuy Phan",
                 "it": "Thuy Phan",
                 "ja": "ティー・ファン",
-                "vi": "Thúy Phan"
+                "vi": "Thúy Phan",
+                "zh-CN": "Thuy Phan",
+                "zh-TW": "Thuy Phan"
             },
             "gender": "female",
             "image": "https://werewolf.world/image/0.2/Thuy.jpg"
@@ -352,14 +424,18 @@
                 "fr": "Uma",
                 "it": "Uma",
                 "ja": "ウマ",
-                "vi": "Uma"
+                "vi": "Uma",
+                "zh-CN": "Uma",
+                "zh-TW": "Uma"
             },
             "full name": {
                 "en": "Uma Malikova",
                 "fr": "Uma Malikova",
                 "it": "Uma Malikova",
                 "ja": "ウマ・マリーカヴァ",
-                "vi": "Uma Malikova"
+                "vi": "Uma Malikova",
+                "zh-CN": "Uma Malikova",
+                "zh-TW": "Uma Malikova"
             },
             "gender": "female",
             "image": "https://werewolf.world/image/0.2/Uma.jpg"
@@ -371,17 +447,44 @@
                 "fr": "Valeria",
                 "it": "Valeria",
                 "ja": "ヴァレリア",
-                "vi": "Valeria"
+                "vi": "Valeria",
+                "zh-CN": "Valeria",
+                "zh-TW": "Valeria"
             },
             "full name": {
                 "en": "Valeria Romano",
                 "fr": "Valeria Romano",
                 "it": "Valeria Romano",
                 "ja": "ヴァレリア・ロマーノ",
-                "vi": "Valeria Romano"
+                "vi": "Valeria Romano",
+                "zh-CN": "Valeria Romano",
+                "zh-TW": "Valeria Romano"
             },
             "gender": "female",
             "image": "https://werewolf.world/image/0.2/Valeria.jpg"
+        },
+        {
+            "@id": "https://werewolf.world/resource/0.2/Yihan",
+            "name": {
+                "en": "Yihan",
+                "fr": "Yihan",
+                "it": "Yihan",
+                "ja": "イーハン",
+                "vi": "Yihan",
+                "zh-CN": "艺涵",
+                "zh-TW": "藝涵"
+            },
+            "full name": {
+                "en": "Yihan Lin",
+                "fr": "Yihan Lin",
+                "it": "Yihan Lin",
+                "ja": "リン・イーハン",
+                "vi": "Yihan Lin",
+                "zh-CN": "林艺涵",
+                "zh-TW": "林藝涵"
+            },
+            "gender": "female",
+            "image": "https://werewolf.world/image/0.2/Pan.jpg"
         }
     ]
 }

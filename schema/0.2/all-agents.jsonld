@@ -1,0 +1,71 @@
+{
+    "title": "werewolf.world: Schema of boardMessage.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://werewolf.world/schema/0.2/all-agents.json",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "title": "@context",
+            "description": "@context",
+            "$id": "/properties/@context",
+            "type": "string",
+            "pattern": "^https://werewolf.world/context/0.2/agent.jsonld$",
+            "default": "https://werewolf.world/context/0.2/agent.jsonld",
+            "examples": [
+                "https://werewolf.world/context/0.2/agent.jsonld"
+            ]
+        },
+        "@id": {
+            "title": "@id",
+            "description": "@id",
+            "$id": "/properties/@id",
+            "type": "string",
+            "pattern": "^https://werewolf.world/resource/0.2/agent$",
+            "default": "https://werewolf.world/resource/0.2/agent",
+            "examples": [
+                "https://werewolf.world/resource/0.2/agent"
+            ]
+        },
+        "agent": {
+            "title": "Agent List",
+            "description": "agent list",
+            "$id": "/properties/agent",
+            "type": "array",
+            "items": {
+                "title": "Agent",
+                "description": "agent",
+                "$id": "/properties/agent/items",
+                "type": "object",
+                "properties": {
+                    "@id": {
+                        "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                    },
+                    "name": {
+                        "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                    },
+                    "full name": {
+                        "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                    },
+                    "gender": {
+                        "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                    },
+                    "image": {
+                        "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                    }
+                },
+                "required": [
+                    "@id",
+                    "name",
+                    "full name",
+                    "gender",
+                    "image"
+                ]
+            }
+        }
+    },
+    "required": [
+        "@context",
+        "@id",
+        "agent"
+    ]
+}
