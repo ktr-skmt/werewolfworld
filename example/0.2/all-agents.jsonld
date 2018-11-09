@@ -234,7 +234,7 @@
             "image": "https://werewolf.world/image/0.2/Jasmin.jpg"
         },
         {
-            "@id": "https://werewolf.world/resource/0.2/K",
+            "@id": "https://werewolf.world/resource/0.2/Kaiji",
             "name": {
                 "en": "Kaiji",
                 "fr": "Kaiji",
@@ -254,7 +254,7 @@
                 "zh-TW": "富士鬼怒開司"
             },
             "gender": "male",
-            "image": "https://werewolf.world/image/0.2/K.jpg"
+            "image": "https://werewolf.world/image/0.2/Kaiji.jpg"
         },
         {
             "@id": "https://werewolf.world/resource/0.2/Louise",
