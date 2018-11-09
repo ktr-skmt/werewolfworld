@@ -118,12 +118,12 @@
 			"agentImage": "https://werewolf.world/image/0.1/Nicholas.jpg",
 			"agentId": 5,
 			"role": {
-				"@id": "https://werewolf.world/resource/0.1/werehumster",
+				"@id": "https://werewolf.world/resource/0.1/werehamster",
 				"roleName": {
-					"en": "Werehumster",
+					"en": "Werehamster",
 					"ja": "ハムスター人間"
 				},
-				"roleImage": "https://werewolf.world/image/0.1/werehumster.jpg"
+				"roleImage": "https://werewolf.world/image/0.1/werehamster.jpg"
 			},
 			"agentStatus": "alive"
 		},
