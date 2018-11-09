@@ -308,7 +308,7 @@
 				},
 				"roleImage": "https://werewolf.world/image/0.1/villager.jpg"
 			},
-			"status": "death by werewolf attack",
+			"status": "death by attack",
 			"result": "win",
 			"userName": "山口",
 			"userAvatar": "https://werewolf.world/image/0.1/Otto.jpg"
