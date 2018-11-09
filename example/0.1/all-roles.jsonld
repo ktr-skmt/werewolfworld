@@ -68,12 +68,12 @@
 			"image": "https://werewolf.world/image/0.1/werewolf.jpg"
 		},
 		{
-			"@id": "https://wereworld.world/resource/0.1/werehumster",
+			"@id": "https://wereworld.world/resource/0.1/werehamster",
 			"name": {
-				"en": "Werehumster",
+				"en": "Werehamster",
 				"ja": "ハムスター人間"
 			},
-			"image": "https://werewolf.world/image/0.1/werehumster.jpg"
+			"image": "https://werewolf.world/image/0.1/werehamster.jpg"
 		}
 	]
 }
