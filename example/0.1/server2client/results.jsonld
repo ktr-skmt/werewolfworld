@@ -147,12 +147,12 @@
 			"image": "https://werewolf.world/image/0.1/Nicholas.jpg",
 			"id": 5,
 			"role": {
-				"@id": "https://werewolf.world/resource/0.1/werehumster",
+				"@id": "https://werewolf.world/resource/0.1/werehamster",
 				"roleName": {
-					"en": "Werehuster",
+					"en": "Werehamster",
 					"ja": "ハムスター人間"
 				},
-				"roleImage": "https://werewolf.world/image/0.1/werehumster.jpg"
+				"roleImage": "https://werewolf.world/image/0.1/werehamster.jpg"
 			},
 			"status": "death by fear",
 			"result": "lose",
