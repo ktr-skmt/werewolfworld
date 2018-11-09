@@ -236,22 +236,22 @@
         {
             "@id": "https://werewolf.world/resource/0.2/K",
             "name": {
-                "en": "K",
-                "fr": "K",
-                "it": "K",
-                "ja": "",
-                "vi": "K",
-                "zh-CN": "",
-                "zh-TW": ""
+                "en": "Kaiji",
+                "fr": "Kaiji",
+                "it": "Kaiji",
+                "ja": "開司",
+                "vi": "Kaiji",
+                "zh-CN": "Kaiji",
+                "zh-TW": "Kaiji"
             },
             "full name": {
-                "en": "K",
-                "fr": "K",
-                "it": "K",
-                "ja": "K",
-                "vi": "K",
-                "zh-CN": "",
-                "zh-TW": ""
+                "en": "Kaiji Fujikinu",
+                "fr": "Kaiji Fujikinu",
+                "it": "Kaiji Fujikinu",
+                "ja": "富士鬼怒開司",
+                "vi": "Kaiji Fujikinu",
+                "zh-CN": "Kaiji Fujikinu",
+                "zh-TW": "Kaiji Fujikinu"
             },
             "gender": "male",
             "image": "https://werewolf.world/image/0.2/K.jpg"
