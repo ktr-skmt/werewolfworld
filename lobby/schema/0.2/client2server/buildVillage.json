@@ -281,10 +281,10 @@
             2
           ]
         },
-        "werehumster": {
-          "title": "The Number of Werehumsters",
-          "description": "the number of werewhumsters",
-          "$id": "/properties/roleSetting/properties/werehumster",
+        "werehamster": {
+          "title": "The Number of Werehamsters",
+          "description": "the number of werewhamsters",
+          "$id": "/properties/roleSetting/properties/werehamster",
           "type": "integer",
           "minimum": 0,
           "examples": [
@@ -300,7 +300,7 @@
         "madman",
         "hunter",
         "mason",
-        "werehumster"
+        "werehamster"
       ]
     },
     "avatar": {
