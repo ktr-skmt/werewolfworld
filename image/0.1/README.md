@@ -40,4 +40,4 @@
 |https://werewolf.world/resource/0.1/mason|Mason|共有者|![mason](https://werewolf.world/image/0.1/mason.jpg)|
 |https://werewolf.world/resource/0.1/madman|Madman|狂人|![madman](https://werewolf.world/image/0.1/madman.jpg)|
 |https://werewolf.world/resource/0.1/werewolf|Werewolf|人狼|![werewolf](https://werewolf.world/image/0.1/werewolf.jpg)|
-|https://werewolf.world/resource/0.1/werehumster|Werehumster|ハムスター人間|![werehumster](https://werewolf.world/image/0.1/werehumster.jpg)|
+|https://werewolf.world/resource/0.1/werehamster|Werehamster|ハムスター人間|![werehamster](https://werewolf.world/image/0.1/werehamster.jpg)|
