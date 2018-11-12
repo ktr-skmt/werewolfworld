@@ -92,7 +92,7 @@
                 "en"
             ]
         },
-        "fill name": {
+        "full name": {
             "title": "Agent Full Name",
             "description": "agent full name",
             "$id": "/definitions/fullName",
