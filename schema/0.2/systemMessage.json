@@ -63,7 +63,38 @@
                             "image": {
                                 "$ref": "https://werewolf.world/schema/0.2/avatar.json"
                             }
-                        }
+                        },
+                        "required": [
+                            "token",
+                            "name",
+                            "image"
+                        ]
+                    },
+                    "role": {
+                        "title": "Role",
+                        "description": "role",
+                        "$id": "/properties/agent/items/properties/role",
+                        "type": "object",
+                        "properties": {
+                            "@context": {
+                                "$ref": "https://werewolf.world/schema/0.2/role.json"
+                            },
+                            "@id": {
+                                "$ref": "https://werewolf.world/schema/0.2/role.json"
+                            },
+                            "name": {
+                                "$ref": "https://werewolf.world/schema/0.2/role.json"
+                            },
+                            "image": {
+                                "$ref": "https://werewolf.world/schema/0.2/role.json"
+                            }
+                        },
+                        "required": [
+                            "@context",
+                            "@id",
+                            "name",
+                            "image"
+                        ]
                     }
                 },
                 "required": [
