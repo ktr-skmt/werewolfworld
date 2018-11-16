@@ -1,0 +1,42 @@
+{
+    "title": "werewolf.world: Schema of board.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://werewolf.world/schema/0.2/boardResult.json",
+    "definitions": {
+        "@context": {
+            "title": "Board Result @context",
+            "description": "board result @context",
+            "$id": "/definitions/@context",
+            "type": "string",
+            "pattern": "^https://werewolf.world/context/0.2/boardResult.jsonld$",
+            "default": "https://werewolf.world/context/0.2/boardResult.jsonld",
+            "examples": [
+                "https://werewolf.world/context/0.2/boardResult.jsonld"
+            ]
+        },
+        "@id": {
+            "title": "Board Result @id",
+            "description": "board result @id",
+            "$id": "/definitions/@id",
+            "type": "string",
+            "pattern": "^https://licos.online/state/0.2/village[#0-9A-Za-z]+$",
+            "examples": [
+                "https://licos.online/state/0.2/village#3/role#villager/board#1"
+            ]
+        },
+        "polarity": {
+            "title": "Board Result Polarity",
+            "description": "board result polarity",
+            "$id": "/definitions/polarity",
+            "type": "string",
+            "enum": [
+                "positive",
+                "negative"
+            ],
+            "examples": [
+                "positive",
+                "negative"
+            ]
+        }
+    }
+}

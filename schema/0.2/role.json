@@ -3,6 +3,17 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "https://werewolf.world/schema/0.2/role.json",
     "definitions": {
+        "@context": {
+            "title": "Role @context",
+            "description": "role @context",
+            "$id": "/definitions/@context",
+            "type": "string",
+            "pattern": "^https://werewolf.world/context/0.2/role.jsonld$",
+            "default": "https://werewolf.world/context/0.2/role.jsonld",
+            "examples": [
+                "https://werewolf.world/context/0.2/role.jsonld"
+            ]
+        },
         "@id": {
             "title": "Role @id",
             "description": "role @id",

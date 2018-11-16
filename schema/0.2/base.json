@@ -65,6 +65,28 @@
             "$id": "/definitions/village",
             "type": "object",
             "properties": {
+                "@context": {
+                    "title": "Village @context",
+                    "description": "village @context",
+                    "$id": "/definitions/village/properties/@context",
+                    "type": "string",
+                    "pattern": "^https://werewolf.world/context/0.2/village.jsonld$",
+                    "default": "https://werewolf.world/context/0.2/village.jsonld",
+                    "examples": [
+                        "https://werewolf.world/context/0.2/village.jsonld"
+                    ]
+                },
+                "@id": {
+                    "title": "Village @id",
+                    "description": "village @id",
+                    "$id": "/definitions/village/properties/@id",
+                    "type": "string",
+                    "pattern": "^https://licos.online/state/0.2/village$",
+                    "default": "https://licos.online/state/0.2/village",
+                    "examples": [
+                        "https://licos.online/state/0.2/village"
+                    ]
+                },
                 "id": {
                     "title": "Village ID",
                     "description": "village ID",
@@ -96,6 +118,7 @@
                 }
             },
             "required": [
+                "@context",
                 "@id",
                 "id",
                 "name",
@@ -204,6 +227,9 @@
                 "$id": "/definitions/extensionalDisclosureRange/items",
                 "type": "object",
                 "properties": {
+                    "@context": {
+                        "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                    },
                     "@id": {
                         "$ref": "https://werewolf.world/schema/0.2/agent.json"
                     },
@@ -222,6 +248,9 @@
                         "$id": "/definitions/extensionalDisclosureRange/items/properties/role",
                         "type": "object",
                         "properties": {
+                            "@context": {
+                                "$ref": "https://werewolf.world/schema/0.2/role.json"
+                            },
                             "@id": {
                                 "$ref": "https://werewolf.world/schema/0.2/role.json"
                             },
@@ -233,6 +262,7 @@
                             }
                         },
                         "required": [
+                            "@context",
                             "@id",
                             "name",
                             "image"
@@ -243,6 +273,7 @@
                     }
                 },
                 "required": [
+                    "@context",
                     "@id",
                     "name",
                     "image",
@@ -258,6 +289,12 @@
             "$id": "/properties/avatar",
             "type": "object",
             "properties": {
+                "@context": {
+                    "$ref": "https://werewolf.world/schema/0.2/avatar.json"
+                },
+                "@id": {
+                    "$ref": "https://werewolf.world/schema/0.2/avatar.json"
+                },
                 "token": {
                     "$ref": "https://werewolf.world/schema/0.2/avatar.json"
                 },
@@ -269,6 +306,7 @@
                 }
             },
             "required": [
+                "@context",
                 "@id",
                 "token",
                 "name",
@@ -281,6 +319,9 @@
             "$id": "/properties/myAgent",
             "type": "object",
             "properties": {
+                "@context": {
+                    "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                },
                 "@id": {
                     "$ref": "https://werewolf.world/schema/0.2/agent.json"
                 },
@@ -299,6 +340,9 @@
                     "$id": "/properties/myAgent/role",
                     "type": "object",
                     "properties": {
+                        "@context": {
+                            "$ref": "https://werewolf.world/schema/0.2/role.json"
+                        },
                         "@id": {
                             "$ref": "https://werewolf.world/schema/0.2/role.json"
                         },
@@ -310,6 +354,7 @@
                         }
                     },
                     "required": [
+                        "@context",
                         "@id",
                         "name",
                         "image"
@@ -317,6 +362,7 @@
                 }
             },
             "required": [
+                "@context",
                 "@id",
                 "id",
                 "name",

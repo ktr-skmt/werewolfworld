@@ -3,6 +3,17 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "https://werewolf.world/schema/0.2/agent.json",
     "definitions": {
+        "@context": {
+            "title": "Agent @context",
+            "description": "agent @context",
+            "$id": "/definitions/@context",
+            "type": "string",
+            "pattern": "^https://werewolf.world/context/0.2/agent.jsonld$",
+            "default": "https://werewolf.world/context/0.2/agent.jsonld",
+            "examples": [
+                "https://werewolf.world/context/0.2/agent.jsonld"
+            ]
+        },
         "@id": {
             "title": "Agent @id",
             "description": "agent @id",

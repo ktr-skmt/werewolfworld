@@ -21,6 +21,9 @@
                 "$id": "/properties/agent/items",
                 "type": "object",
                 "properties": {
+                    "@context": {
+                        "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                    },
                     "@id": {
                         "$ref": "https://werewolf.world/schema/0.2/agent.json"
                     },
@@ -54,6 +57,12 @@
                         "$id": "/properties/agent/items/properties/avatar",
                         "type": "object",
                         "properties": {
+                            "@context": {
+                                "$ref": "https://werewolf.world/schema/0.2/avatar.json"
+                            },
+                            "@id": {
+                                "$ref": "https://werewolf.world/schema/0.2/avatar.json"
+                            },
                             "token": {
                                 "$ref": "https://werewolf.world/schema/0.2/avatar.json"
                             },
@@ -65,6 +74,8 @@
                             }
                         },
                         "required": [
+                            "@context",
+                            "@id",
                             "token",
                             "name",
                             "image"
@@ -98,6 +109,7 @@
                     }
                 },
                 "required": [
+                    "@context",
                     "@id",
                     "isMine",
                     "name",
@@ -118,6 +130,9 @@
                 "$id": "/properties/role/items",
                 "type": "object",
                 "properties": {
+                    "@context": {
+                        "$ref": "https://werewolf.world/schema/0.2/role.json"
+                    },
                     "@id": {
                         "$ref": "https://werewolf.world/schema/0.2/role.json"
                     },
@@ -143,6 +158,9 @@
                             "description": "agent",
                             "type": "object",
                             "properties": {
+                                "@context": {
+                                    "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                                },
                                 "@id": {
                                     "$ref": "https://werewolf.world/schema/0.2/agent.json"
                                 },
@@ -157,6 +175,7 @@
                                 }
                             },
                             "required": [
+                                "@context",
                                 "@id",
                                 "id",
                                 "name",
@@ -176,11 +195,20 @@
                             "$id": "/properties/role/items/properties/board/items",
                             "type": "object",
                             "properties": {
+                                "@context": {
+                                    "$ref": "https://werewolf.world/schema/0.2/boardResult.json"
+                                },
+                                "@id": {
+                                    "$ref": "https://werewolf.world/schema/0.2/boardResult.json"
+                                },
                                 "agent": {
                                     "title": "Agent",
                                     "description": "agent",
                                     "$id": "/properteis/role/items/properties/board/items/properties/agent",
                                     "properties": {
+                                        "@context": {
+                                            "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                                        },
                                         "@id": {
                                             "$ref": "https://werewolf.world/schema/0.2/agent.json"
                                         },
@@ -195,6 +223,7 @@
                                         }
                                     },
                                     "required": [
+                                        "@context",
                                         "@id",
                                         "id",
                                         "name",
@@ -202,7 +231,7 @@
                                     ]
                                 },
                                 "polarity": {
-                                    "$ref": "https://werewolf.world/schema/0.2/board.json"
+                                    "$ref": "https://werewolf.world/schema/0.2/boardResult.json"
                                 },
                                 "phase": {
                                     "$ref": "https://werewolf.world/schema/0.2/time.json"
@@ -212,6 +241,7 @@
                                 }
                             },
                             "required": [
+                                "@context",
                                 "@id",
                                 "agent",
                                 "polarity",
@@ -222,6 +252,7 @@
                     }
                 },
                 "required": [
+                    "@context",
                     "@id",
                     "isMine",
                     "name",

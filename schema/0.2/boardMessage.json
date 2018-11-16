@@ -10,6 +10,9 @@
             "$id": "/properties/agent",
             "type": "object",
             "properties": {
+                "@context": {
+                    "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                },
                 "@id": {
                     "$ref": "https://werewolf.world/schema/0.2/agent.json"
                 },
@@ -24,6 +27,7 @@
                 }
             },
             "required": [
+                "@context",
                 "@id",
                 "id",
                 "name",
@@ -36,6 +40,9 @@
             "$id": "/properties/role",
             "type": "object",
             "properties": {
+                "@context": {
+                    "$ref": "https://werewolf.world/schema/0.2/role.json"
+                },
                 "@id": {
                     "$ref": "https://werewolf.world/schema/0.2/role.json"
                 },
@@ -47,6 +54,7 @@
                 }
             },
             "requird": [
+                "@context",
                 "@id",
                 "name",
                 "image"
