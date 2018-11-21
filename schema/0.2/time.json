@@ -19,6 +19,7 @@
             "$id": "/definitions/phase",
             "type": "string",
             "enum": [
+                "flavor text",
                 "morning",
                 "day",
                 "night",
@@ -26,6 +27,7 @@
                 "post mortem"
             ],
             "examples": [
+                "flavor text",
                 "morning",
                 "day",
                 "night",

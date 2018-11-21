@@ -1,0 +1,38 @@
+{
+    "title": "werewolf.world: Schema of flavorTextMessage.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://werewolf.world/schema/0.2/flavorTextMessage.json",
+    "type": "object",
+    "properties": {
+        "flavorText": {
+            "title": "Flavor Texts",
+            "description": "flavor texts",
+            "$id": "/properties/chat",
+            "type": "array",
+            "items": {
+                "$ref": "https://werewolf.world/schema/0.2/playerMessage.json"
+            }
+        }
+    },
+    "patternProperties": {
+        "^[A-Za-z@]+$": {
+            "$ref": "https://werewolf.world/schema/0.2/base.json"
+        }
+    },
+    "required": [
+        "@context",
+        "@id",
+        "village",
+        "token",
+        "phase",
+        "date",
+        "phaseTimeLimit",
+        "phaseStartTime",
+        "serverTimestamp",
+        "clientTimestamp",
+        "directionality",
+        "intensionalDisclosureRange",
+        "extensionalDisclosureRange",
+        "flavorText"
+    ]
+}

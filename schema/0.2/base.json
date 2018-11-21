@@ -42,21 +42,15 @@
             "description": "@id",
             "$id": "/definitions/@id",
             "type": "string",
-            "enum": [
-                "https://werewolf.world/resource/0.2/boardMessage",
-                "https://werewolf.world/resource/0.2/errorMessage",
-                "https://werewolf.world/resource/0.2/playerMessage",
-                "https://werewolf.world/resource/0.2/scrollMessage",
-                "https://werewolf.world/resource/0.2/systemMessage",
-                "https://werewolf.world/resource/0.2/voteMessage"
-            ],
+            "pattern": "^https://licos.online/state/0.2/village#[0-9]+/(board|error|player|scroll|system|vote|flavorText)Message$",
             "examples": [
-                "https://werewolf.world/resource/0.2/boardMessage",
-                "https://werewolf.world/resource/0.2/errorMessage",
-                "https://werewolf.world/resource/0.2/playerMessage",
-                "https://werewolf.world/resource/0.2/scrollMessage",
-                "https://werewolf.world/resource/0.2/systemMessage",
-                "https://werewolf.world/resource/0.2/voteMessage"
+                "https://licos.online/state/0.2/village#3/boardMessage",
+                "https://licos.online/state/0.2/village#3/errorMessage",
+                "https://licos.online/state/0.2/village#3/playerMessage",
+                "https://licos.online/state/0.2/village#3/scrollMessage",
+                "https://licos.online/state/0.2/village#3/systemMessage",
+                "https://licos.online/state/0.2/village#3/voteMessage",
+                "https://licos.online/state/0.2/village#3/flavorTextMessage"
             ]
         },
         "village": {

@@ -260,15 +260,6 @@
                     "numberOfAgents"
                 ]
             }
-        },
-        "flavorText": {
-            "title": "Flavor Texts",
-            "description": "flavor texts",
-            "$id": "/properties/chat",
-            "type": "array",
-            "items": {
-                "$ref": "https://werewolf.world/schema/0.2/playerMessage.json"
-            }
         }
     },
     "patternProperties": {
