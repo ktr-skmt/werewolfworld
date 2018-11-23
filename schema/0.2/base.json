@@ -22,7 +22,8 @@
                     "https://werewolf.world/context/0.2/chat.jsonld",
                     "https://werewolf.world/context/0.2/vote.jsonld",
                     "https://werewolf.world/context/0.2/votingResult.jsonld",
-                    "https://werewolf.world/context/0.2/scroll.jsonld"
+                    "https://werewolf.world/context/0.2/scroll.jsonld",
+                    "https://werewolf.world/context/0.2/flavorText.jsonld"
                 ],
                 "examples": [
                     "https://werewolf.world/context/0.2/base.jsonld",
@@ -33,7 +34,8 @@
                     "https://werewolf.world/context/0.2/chat.jsonld",
                     "https://werewolf.world/context/0.2/vote.jsonld",
                     "https://werewolf.world/context/0.2/votingResult.jsonld",
-                    "https://werewolf.world/context/0.2/scroll.jsonld"
+                    "https://werewolf.world/context/0.2/scroll.jsonld",
+                    "https://werewolf.world/context/0.2/flavorText.jsonld"
                 ]
             }
         },
