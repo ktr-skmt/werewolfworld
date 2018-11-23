@@ -7,7 +7,7 @@
         "flavorText": {
             "title": "Flavor Texts",
             "description": "flavor texts",
-            "$id": "/properties/chat",
+            "$id": "/properties/flavorText",
             "type": "array",
             "items": {
                 "$ref": "https://werewolf.world/schema/0.2/playerMessage.json"
