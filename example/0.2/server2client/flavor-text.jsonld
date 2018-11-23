@@ -3,7 +3,7 @@
 		"https://werewolf.world/context/0.2/base.jsonld",
 		"https://werewolf.world/context/0.2/flavorText.jsonld"
 	],
-	"@id": "https://licos.online/state/0.2/village#3/systemMessage",
+	"@id": "https://licos.online/state/0.2/village#3/flavorTextMessage",
 	"village": {
 		"@context": "https://werewolf.world/context/0.2/village.jsonld",
 		"@id": "https://licos.online/state/0.2/village",
