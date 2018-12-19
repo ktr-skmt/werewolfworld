@@ -47,12 +47,28 @@
       "examples": [
         "/assets/images/avatar/default/user.png"
       ]
+    },
+    "lang": {
+      "title": "Language",
+      "description": "language code; ISO 639-1:2002, Codes for the representation of names of languages — Part 1: Alpha-2 code",
+      "$id": "/properties/lang",
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 2,
+      "default": "en",
+      "examples": [
+        "en",
+        "ja",
+        "fr",
+        "it"
+      ]
     }
   },
   "requied": [
     "type",
     "token",
     "name",
-    "image"
+    "image",
+    "lang"
   ]
 }
