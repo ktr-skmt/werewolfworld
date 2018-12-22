@@ -64,7 +64,7 @@
       ]
     }
   },
-  "requied": [
+  "required": [
     "type",
     "token",
     "name",
