@@ -235,6 +235,9 @@
             "$id": "/definitions/update",
             "type": "object",
             "properties": {
+                "@id": {
+                    "$ref": "https://werewolf.world/schema/0.2/time.json"
+                },
                 "phase": {
                     "$ref": "https://werewolf.world/schema/0.2/time.json"
                 },
@@ -243,6 +246,7 @@
                 }
             },
             "required": [
+                "@id",
                 "phase",
                 "date"
             ]
