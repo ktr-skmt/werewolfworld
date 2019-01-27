@@ -62,70 +62,22 @@
             "type": "object",
             "properties": {
                 "@context": {
-                    "title": "Village @context",
-                    "description": "village @context",
-                    "$id": "/definitions/village/properties/@context",
-                    "type": "string",
-                    "pattern": "^https://werewolf.world/context/0.2/village.jsonld$",
-                    "default": "https://werewolf.world/context/0.2/village.jsonld",
-                    "examples": [
-                        "https://werewolf.world/context/0.2/village.jsonld"
-                    ]
+                    "$ref": "https://werewolf.world/schema/0.2/village.json"
                 },
                 "@id": {
-                    "title": "Village @id",
-                    "description": "village @id",
-                    "$id": "/definitions/village/properties/@id",
-                    "type": "string",
-                    "pattern": "^https://licos.online/state/0.2/village$",
-                    "default": "https://licos.online/state/0.2/village",
-                    "examples": [
-                        "https://licos.online/state/0.2/village"
-                    ]
+                    "$ref": "https://werewolf.world/schema/0.2/village.json"
                 },
                 "id": {
-                    "title": "Village ID",
-                    "description": "village ID",
-                    "$id": "/definitions/village/properties/id",
-                    "type": "integer",
-                    "minimum": 0,
-                    "examples": [
-                        1
-                    ]
+                    "$ref": "https://werewolf.world/schema/0.2/village.json"
                 },
                 "name": {
-                    "title": "Village Name",
-                    "description": "village name",
-                    "$id": "/definitions/village/properties/name",
-                    "type": "string",
-                    "minLength": 5,
-                    "maxLength": 30
+                    "$ref": "https://werewolf.world/schema/0.2/village.json"
                 },
                 "totalNumberOfAgents": {
-                    "title": "The Total Number of Agents in Village",
-                    "description": "the total number of agents in village",
-                    "$id": "/definitions/village/properties/totalNumberOfAgents",
-                    "type": "integer",
-                    "minimum": 4,
-                    "maximum": 15,
-                    "examples": [
-                        15
-                    ]
+                    "$ref": "https://werewolf.world/schema/0.2/village.json"
                 },
                 "lang": {
-                    "title": "Language",
-                    "description": "language code; ISO 639-1:2002, Codes for the representation of names of languages — Part 1: Alpha-2 code",
-                    "$id": "/definitions/village/properties/lang",
-                    "type": "string",
-                    "minLength": 2,
-                    "maxLength": 2,
-                    "default": "en",
-                    "examples": [
-                        "en",
-                        "ja",
-                        "fr",
-                        "it"
-                    ]
+                    "$ref": "https://werewolf.world/schema/0.2/village.json"
                 }
             },
             "required": [
@@ -171,7 +123,7 @@
             "description": "server timestamp",
             "$id": "/definitions/serverTimestamp",
             "type": "string",
-            "pattern": "",
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}.[0-9]{3}(\\+[0-9]{2}:[0-9]{2}|Z)$",
             "examples": [
                 "2006-10-07T12:06:56.568+09:00"
             ]
@@ -181,7 +133,7 @@
             "description": "client timestamp",
             "$id": "/definitions/clientTimestamp",
             "type": "string",
-            "pattern": "",
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}.[0-9]{3}(\\+[0-9]{2}:[0-9]{2}|Z)$",
             "examples": [
                 "2006-10-07T12:06:56.568+09:00"
             ]

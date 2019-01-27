@@ -1,0 +1,73 @@
+{
+    "title": "werewolf.world: Schema of village.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://werewolf.world/schema/0.2/village.json",
+    "definitions": {
+        "@context": {
+            "title": "Village @context",
+            "description": "village @context",
+            "$id": "/definitions/@context",
+            "type": "string",
+            "pattern": "^https://werewolf.world/context/0.2/village.jsonld$",
+            "default": "https://werewolf.world/context/0.2/village.jsonld",
+            "examples": [
+                "https://werewolf.world/context/0.2/village.jsonld"
+            ]
+        },
+        "@id": {
+            "title": "Village @id",
+            "description": "village @id",
+            "$id": "/definitions/@id",
+            "type": "string",
+            "pattern": "^https://licos.online/state/0.2/village$",
+            "default": "https://licos.online/state/0.2/village",
+            "examples": [
+                "https://licos.online/state/0.2/village"
+            ]
+        },
+        "id": {
+            "title": "Village ID",
+            "description": "village ID",
+            "$id": "/definitions/id",
+            "type": "integer",
+            "minimum": 0,
+            "examples": [
+                1
+            ]
+        },
+        "name": {
+            "title": "Village Name",
+            "description": "village name",
+            "$id": "/definitions/name",
+            "type": "string",
+            "minLength": 5,
+            "maxLength": 30
+        },
+        "totalNumberOfAgents": {
+            "title": "The Total Number of Agents in Village",
+            "description": "the total number of agents in village",
+            "$id": "/definitions/totalNumberOfAgents",
+            "type": "integer",
+            "minimum": 4,
+            "maximum": 15,
+            "examples": [
+                15
+            ]
+        },
+        "lang": {
+            "title": "Language",
+            "description": "language code; ISO 639-1:2002, Codes for the representation of names of languages — Part 1: Alpha-2 code",
+            "$id": "/definitions/lang",
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 2,
+            "default": "en",
+            "examples": [
+                "en",
+                "ja",
+                "fr",
+                "it"
+            ]
+        }
+    }
+}
