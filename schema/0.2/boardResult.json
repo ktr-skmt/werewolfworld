@@ -31,11 +31,19 @@
             "type": "string",
             "enum": [
                 "positive",
-                "negative"
+                "negative",
+                "?",
+                "Δ",
+                "O",
+                "X"
             ],
             "examples": [
                 "positive",
-                "negative"
+                "negative",
+                "?",
+                "Δ",
+                "O",
+                "X"
             ]
         }
     }

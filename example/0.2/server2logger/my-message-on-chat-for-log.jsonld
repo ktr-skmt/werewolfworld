@@ -11,7 +11,8 @@
 		"id": 3,
 		"name": "横国の森の奥にある時代に取り残された小さな村",
 		"totalNumberOfAgents": 15,
-		"lang": "ja"
+		"lang": "ja",
+		"characterLimit": 10
 	},
 	"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
 	"phase": "morning",
@@ -41,7 +42,8 @@
 				},
 				"image": "https://werewolf.world/image/0.2/villager.jpg"
 			},
-			"status": "alive"
+			"status": "alive",
+			"isHumanPlayer": true
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
@@ -61,7 +63,8 @@
 				},
 				"image": "https://werewolf.world/image/0.2/seer.jpg"
 			},
-			"status": "alive"
+			"status": "alive",
+			"isHumanPlayer": true
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
@@ -81,7 +84,8 @@
 				},
 				"image": "https://werewolf.world/image/0.2/werewolf.jpg"
 			},
-			"status": "alive"
+			"status": "alive",
+			"isHumanPlayer": true
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
@@ -101,7 +105,8 @@
 				},
 				"image": "https://werewolf.world/image/0.2/hunter.jpg"
 			},
-			"status": "alive"
+			"status": "alive",
+			"isHumanPlayer": true
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
@@ -121,7 +126,8 @@
 				},
 				"image": "https://werewolf.world/image/0.2/medium.jpg"
 			},
-			"status": "alive"
+			"status": "alive",
+			"isHumanPlayer": true
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
@@ -141,7 +147,8 @@
 				},
 				"image": "https://werewolf.world/image/0.2/werehamster.jpg"
 			},
-			"status": "alive"
+			"status": "alive",
+			"isHumanPlayer": true
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
@@ -161,7 +168,8 @@
 				},
 				"image": "https://werewolf.world/image/0.2/madman.jpg"
 			},
-			"status": "alive"
+			"status": "alive",
+			"isHumanPlayer": true
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
@@ -181,7 +189,8 @@
 				},
 				"image": "https://werewolf.world/image/0.2/werewolf.jpg"
 			},
-			"status": "alive"
+			"status": "alive",
+			"isHumanPlayer": true
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
@@ -201,7 +210,8 @@
 				},
 				"image": "https://werewolf.world/image/0.2/villager.jpg"
 			},
-			"status": "alive"
+			"status": "alive",
+			"isHumanPlayer": true
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
@@ -221,7 +231,8 @@
 				},
 				"image": "https://werewolf.world/image/0.2/villager.jpg"
 			},
-			"status": "alive"
+			"status": "alive",
+			"isHumanPlayer": true
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
@@ -241,7 +252,8 @@
 				},
 				"image": "https://werewolf.world/image/0.2/mason.jpg"
 			},
-			"status": "alive"
+			"status": "alive",
+			"isHumanPlayer": true
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
@@ -261,7 +273,8 @@
 				},
 				"image": "https://werewolf.world/image/0.2/mason.jpg"
 			},
-			"status": "alive"
+			"status": "alive",
+			"isHumanPlayer": false
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
@@ -281,7 +294,8 @@
 				},
 				"image": "https://werewolf.world/image/0.2/villager.jpg"
 			},
-			"status": "alive"
+			"status": "alive",
+			"isHumanPlayer": true
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
@@ -301,7 +315,8 @@
 				},
 				"image": "https://werewolf.world/image/0.2/villager.jpg"
 			},
-			"status": "alive"
+			"status": "alive",
+			"isHumanPlayer": true
 		},
 		{
 			"@context": "https://werewolf.world/context/0.2/agent.jsonld",
@@ -321,7 +336,8 @@
 				},
 				"image": "https://werewolf.world/image/0.2/villager.jpg"
 			},
-			"status": "alive"
+			"status": "alive",
+			"isHumanPlayer": true
 		}
 	],
 

@@ -11,7 +11,8 @@
 		"id": 3,
 		"name": "横国の森の奥にある時代に取り残された小さな村",
 		"totalNumberOfAgents": 15,
-		"lang": "ja"
+		"lang": "ja",
+		"characterLimit": 10
 	},
 	"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
 	"phase": "day",

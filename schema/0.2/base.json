@@ -78,6 +78,9 @@
                 },
                 "lang": {
                     "$ref": "https://werewolf.world/schema/0.2/village.json"
+                },
+                "characterLimit": {
+                    "$ref": "https://werewolf.world/schema/0.2/chat.json"
                 }
             },
             "required": [
@@ -86,7 +89,8 @@
                 "id",
                 "name",
                 "totalNumberOfAgents",
-                "lang"
+                "lang",
+                "characterLimit"
             ]
         },
         "token": {
@@ -234,6 +238,17 @@
                     },
                     "status": {
                         "$ref": "https://werewolf.world/schema/0.2/agent.json"
+                    },
+                    "isHumanPlayer": {
+                        "title": "Is human player?",
+                        "description": "is human player?",
+                        "$id": "/properties/extensionalDisclosureRange/items/properties/isHumanPlayer",
+                        "type": "boolean",
+                        "default": true,
+                        "examples": [
+                            true,
+                            false
+                        ]
                     }
                 },
                 "required": [
@@ -243,7 +258,8 @@
                     "image",
                     "id",
                     "role",
-                    "status"
+                    "status",
+                    "isHumanPlayer"
                 ]
             }
         },
