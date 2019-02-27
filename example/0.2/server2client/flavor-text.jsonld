@@ -11,7 +11,10 @@
 		"name": "横国の森の奥にある時代に取り残された小さな村",
 		"totalNumberOfAgents": 15,
 		"lang": "ja",
-		"characterLimit": 10
+		"chatSettings": {
+			"limit": 10,
+			"characterLimit": 140
+		}
 	},
 	"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
 	"phase": "flavor text",
@@ -36,7 +39,11 @@
 				"id": 3,
 				"name": "横国の森の奥にある時代に取り残された小さな村",
 				"totalNumberOfAgents": 15,
-				"lang": "ja"
+				"lang": "ja",
+				"chatSettings": {
+					"limit": 10,
+					"characterLimit": 140
+				}
 			},
 			"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
 			"phase": "morning",
@@ -82,7 +89,11 @@
 				"id": 3,
 				"name": "横国の森の奥にある時代に取り残された小さな村",
 				"totalNumberOfAgents": 15,
-				"lang": "ja"
+				"lang": "ja",
+				"chatSettings": {
+					"limit": 10,
+					"characterLimit": 140
+				}
 			},
 			"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
 			"phase": "morning",
