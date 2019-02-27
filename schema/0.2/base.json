@@ -79,8 +79,23 @@
                 "lang": {
                     "$ref": "https://werewolf.world/schema/0.2/village.json"
                 },
-                "characterLimit": {
-                    "$ref": "https://werewolf.world/schema/0.2/chat.json"
+                "chatSettings": {
+                    "title": "Chat Settings",
+                    "description": "chat settings",
+                    "$id": "/definitions/village/chatSettings",
+                    "type": "object",
+                    "properties": {
+                        "limit": {
+                            "$ref": "https://werewolf.world/schema/0.2/chat.json"
+                        },
+                        "characterLimit": {
+                            "$ref": "https://werewolf.world/schema/0.2/chat.json"
+                        }
+                    },
+                    "required": [
+                        "limit",
+                        "characterLimit"
+                    ]
                 }
             },
             "required": [
@@ -90,7 +105,7 @@
                 "name",
                 "totalNumberOfAgents",
                 "lang",
-                "characterLimit"
+                "chatSettings"
             ]
         },
         "token": {
