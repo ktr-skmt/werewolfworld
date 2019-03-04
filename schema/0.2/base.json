@@ -85,6 +85,12 @@
                     "$id": "/definitions/village/chatSettings",
                     "type": "object",
                     "properties": {
+                        "@context": {
+                            "$ref": "https://werewolf.world/schema/0.2/chatSettings.json"
+                        },
+                        "@id": {
+                            "$ref": "https://werewolf.world/schema/0.2/chatSettings.json"
+                        },
                         "limit": {
                             "$ref": "https://werewolf.world/schema/0.2/chat.json"
                         },
@@ -93,6 +99,8 @@
                         }
                     },
                     "required": [
+                        "@context",
+                        "@id",
                         "limit",
                         "characterLimit"
                     ]
