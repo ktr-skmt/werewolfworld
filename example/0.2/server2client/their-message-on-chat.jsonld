@@ -13,6 +13,8 @@
 		"totalNumberOfAgents": 15,
 		"lang": "ja",
 		"chatSettings": {
+			"@context": "https://werewolf.world/context/0.2/chatSettings.jsonld",
+			"@id": "https://licos.online/state/0.2/village#3/chatSettings",
 			"limit": 10,
 			"characterLimit": 140
 		}
