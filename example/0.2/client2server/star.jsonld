@@ -1,52 +1,52 @@
 {
     "@context": [
-		"https://werewolf.world/context/0.2/base.jsonld",
-		"https://werewolf.world/context/0.2/star.jsonld"
-	],
-	"@id": "https://licos.online/state/0.2/village#3/starMessage",
-	"village": {
-		"@context": "https://werewolf.world/context/0.2/village.jsonld",
-		"@id": "https://licos.online/state/0.2/village",
-		"id": 3,
-		"name": "横国の森の奥にある時代に取り残された小さな村",
-		"totalNumberOfAgents": 15,
-		"lang": "ja",
-		"chatSettings": {
-			"@context": "https://werewolf.world/context/0.2/chatSettings.jsonld",
-			"@id": "https://licos.online/state/0.2/village#3/chatSettings",
-			"limit": 10,
-			"characterLimit": 140
-		}
-	},
-	"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
-	"phase": "morning",
-	"date": 2,
-	"phaseTimeLimit": 600,
-	"phaseStartTime": "2006-10-07T12:06:56.568+09:00",
-	"serverTimestamp": "2006-10-07T12:06:56.568+09:00",
-	"clientTimestamp": "2006-10-07T12:06:56.568+09:00",
-	"directionality": "client to server",
-	"intensionalDisclosureRange": "private",
-	"extensionalDisclosureRange": [],
+        "https://werewolf.world/context/0.2/base.jsonld",
+        "https://werewolf.world/context/0.2/star.jsonld"
+    ],
+    "@id": "https://licos.online/state/0.2/village#3/starMessage",
+    "village": {
+        "@context": "https://werewolf.world/context/0.2/village.jsonld",
+        "@id": "https://licos.online/state/0.2/village",
+        "id": 3,
+        "name": "横国の森の奥にある時代に取り残された小さな村",
+        "totalNumberOfAgents": 15,
+        "lang": "ja",
+        "chatSettings": {
+            "@context": "https://werewolf.world/context/0.2/chatSettings.jsonld",
+            "@id": "https://licos.online/state/0.2/village#3/chatSettings",
+            "limit": 10,
+            "characterLimit": 140
+        }
+    },
+    "token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
+    "phase": "morning",
+    "date": 2,
+    "phaseTimeLimit": 600,
+    "phaseStartTime": "2006-10-07T12:06:56.568+09:00",
+    "serverTimestamp": "2006-10-07T12:06:56.568+09:00",
+    "clientTimestamp": "2006-10-07T12:06:56.568+09:00",
+    "directionality": "client to server",
+    "intensionalDisclosureRange": "private",
+    "extensionalDisclosureRange": [],
     "myAgent": {
-		"@context": "https://werewolf.world/context/0.2/agent.jsonld",
-		"@id": "https://licos.online/state/0.2/village#3/myAgent",
-		"id": 1,
-		"name": {
-			"en": "Walter",
-			"ja": "ヴァルター"
-		},
-		"image": "https://werewolf.world/image/0.2/Walter.jpg",
-		"role": {
-			"@context": "https://werewolf.world/context/0.2/role.jsonld",
-			"@id": "https://licos.online/state/0.2/village#3/agent#1/role",
-			"name": {
-				"en": "Werewolf",
-				"ja": "人狼"
-			},
-			"image": "https://werewolf.world/image/0.2/werewolf.jpg"
-		}
-	},
+        "@context": "https://werewolf.world/context/0.2/agent.jsonld",
+        "@id": "https://licos.online/state/0.2/village#3/myAgent",
+        "id": 1,
+        "name": {
+            "en": "Walter",
+            "ja": "ヴァルター"
+        },
+        "image": "https://werewolf.world/image/0.2/Walter.jpg",
+        "role": {
+            "@context": "https://werewolf.world/context/0.2/role.jsonld",
+            "@id": "https://licos.online/state/0.2/village#3/agent#1/role",
+            "name": {
+                "en": "Werewolf",
+                "ja": "人狼"
+            },
+            "image": "https://werewolf.world/image/0.2/werewolf.jpg"
+        }
+    },
     "star": {
         "@context": "https://werewolf.world/context/0.2/star.jsonld",
         "@id": "https://licos.online/state/0.2/village#3/star",
