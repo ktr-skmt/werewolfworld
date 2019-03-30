@@ -1,0 +1,28 @@
+{
+    "title": "werewolf.world: Schema of star.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://werewolf.world/schema/0.2/star.json",
+    "definitions": {
+        "@context": {
+            "title": "Star @context",
+            "description": "star @context",
+            "$id": "/definitions/@context",
+            "type": "string",
+            "pattern": "^https://werewolf.world/context/0.2/star.jsonld$",
+            "default": "https://werewolf.world/context/0.2/star.jsonld",
+            "examples": [
+                "https://werewolf.world/context/0.2/star.jsonld"
+            ]
+        },
+        "@id": {
+            "title": "Star @id",
+            "description": "star @id",
+            "$id": "/definitions/@id",
+            "type": "string",
+            "pattern": "^https://licos.online/state/0.2/village[#0-9A-Za-z]+/star$",
+            "examples": [
+                "https://licos.online/state/0.2/village#3/star"
+            ]
+        }
+    }
+}

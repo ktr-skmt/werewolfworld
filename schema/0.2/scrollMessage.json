@@ -35,6 +35,10 @@
         "clientTimestamp",
         "directionality",
         "intensionalDisclosureRange",
-        "extensionalDisclosureRange"
+        "extensionalDisclosureRange",
+        "nodeId",
+        "scrollTop",
+        "scrollHeight",
+        "offsetHeight"
     ]
 }
