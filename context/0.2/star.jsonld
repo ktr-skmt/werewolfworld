@@ -5,6 +5,7 @@
         "star": "w3:star",
         "token": "w3:starToken",
         "serverTimestamp": "w3:starServerTimestamp",
-        "clientTimestamp": "w3:starClientTimestamp"
+        "clientTimestamp": "w3:starClientTimestamp",
+        "isMarked": "w3:isMarked"
     }
 }
