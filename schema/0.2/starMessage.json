@@ -24,6 +24,17 @@
                 },
                 "clientTimestamp": {
                     "$ref": "https://werewolf.world/schema/0.2/base.json"
+                },
+                "isMarked": {
+                    "title": "Is Marked?",
+                    "description": "is marked?",
+                    "$id": "/properties/star/properties/isMarked",
+                    "type": "boolean",
+                    "default": false,
+                    "examples": [
+                        true,
+                        false
+                    ]
                 }
             },
             "required": [
@@ -31,7 +42,8 @@
                 "@id",
                 "token",
                 "serverTimestamp",
-                "clientTimestamp"
+                "clientTimestamp",
+                "isMarked"
             ]
         }
     },
