@@ -1,0 +1,9 @@
+{
+	"@context": {
+		"@version": 1.1,
+		"w3": "https://werewolf.world/resource/0.3/",
+		"character": "w3:character",
+		"role": "w3:role",
+		"prediction": "w3:boardPrediction"
+	}
+}

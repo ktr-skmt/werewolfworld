@@ -1,0 +1,23 @@
+{
+	"@context": {
+		"@version": 1.1,
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"w3": "https://werewolf.world/resource/0.3/",
+		"role": "w3:role",
+		"name": {
+			"@id": "w3:roleName",
+			"@container": "@language"
+		},
+		"image": "w3:roleImage",
+		"isMine": {
+			"@id": "w3:roleIsMine",
+			"@type": "xsd:boolean"
+		},
+		"numberOfCharacters": {
+			"@id": "w3:numberOfCharactersWhoPlayTheRole",
+			"@type": "xsd:integer"
+		},
+		"character": "w3:character",
+		"board": "w3:board"
+	}
+}

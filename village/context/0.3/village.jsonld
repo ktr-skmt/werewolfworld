@@ -1,0 +1,20 @@
+{
+	"@context": {
+		"@version": 1.1,
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"w3": "https://werewolf.world/resource/0.3/",
+		"name": {
+			"@id": "w3:villageName",
+			"@type": "xsd:string"
+		},
+		"id": {
+			"@id": "w3:villageId",
+			"@type": "xsd:integer"
+		},
+		"totalNumberOfCharacters": {
+			"@id": "w3:totalNumberOfCharacters",
+			"@type": "xsd:integer"
+		},
+		"chatSettings": "w3:chatSettings"
+	}
+}

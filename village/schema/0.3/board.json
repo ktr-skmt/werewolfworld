@@ -1,0 +1,25 @@
+{
+    "title": "werewolf.world: Schema of board.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://werewolf.world/village/schema/0.3/board.json",
+    "definitions": {
+        "prediction": {
+            "title": "Board Prediction",
+            "description": "board prediction",
+            "$id": "/definitions/prediction",
+            "type": "string",
+            "enum": [
+                "?",
+                "Δ",
+                "O",
+                "X"
+            ],
+            "examples": [
+                "?",
+                "Δ",
+                "O",
+                "X"
+            ]
+        }
+    }
+}

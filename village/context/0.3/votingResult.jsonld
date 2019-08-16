@@ -1,0 +1,22 @@
+{
+	"@context": {
+		"@version": 1.1,
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"w3": "https://werewolf.world/resource/0.3/",
+		"character": "w3:character",
+		"role": "w3:role",
+		"votingResultsSummary": "w3:votingResultsSummary",
+		"characterToLynch": "w3:character",
+		"numberOfVotes": {
+			"@id": "w3:numberOfVotes",
+			"@type": "xsd:integer"
+		},
+		"rankOfVotes": {
+			"@id": "w3:rankOfVotes",
+			"@type": "xsd:integer"
+		},
+		"votingResultsDetails": "w3:votingResultsDetails",
+		"sourceCharacter": "w3:character",
+		"targetCharacter": "w3:character"
+	}
+}

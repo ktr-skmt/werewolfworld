@@ -1,0 +1,11 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "w3": "https://werewolf.world/resource/0.3/",
+        "star": "w3:star",
+        "token": "w3:starToken",
+        "serverTimestamp": "w3:starServerTimestamp",
+        "clientTimestamp": "w3:starClientTimestamp",
+        "isMarked": "w3:isStarMarked"
+    }
+}

@@ -1,0 +1,39 @@
+{
+	"@context": {
+		"@version": 1.1,
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"w3": "https://werewolf.world/resource/0.3/",
+		"village": "w3:village",
+		"token": "w3:token",
+		"phase": "w3:phase",
+		"date": {
+			"@id": "w3:date",
+			"@type": "xsd:integer"
+		},
+		"phaseTimeLimit": {
+			"@id": "w3:phaseTimeLimit",
+			"@type": "xsd:integer"
+		},
+		"phaseStartTime": {
+			"@id": "w3:phaseStartTime",
+			"@type": "xsd:dateTime"
+		},
+		"serverTimestamp": {
+			"@id": "w3:timestamp",
+			"@type": "xsd:dateTime"
+		},
+		"clientTimestamp": {
+			"@id": "w3:timestamp",
+			"@type": "xsd:dateTime"
+		},
+		"directionality": "w3:directionality",
+		"intensionalDisclosureRange": "w3:channel",
+		"extensionalDisclosureRange": "w3:extensionalDisclosureRange",
+		"avatar": "w3:avatar",
+		"myCharacter": "w3:character",
+		"flavorText": {
+			"@id": "w3:flavorText",
+			"@container": "@list"
+		}
+	}
+}

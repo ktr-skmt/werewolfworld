@@ -1,0 +1,59 @@
+{
+	"@context": [
+		"https://werewolf.world/village/context/0.3/base.jsonld",
+		"https://werewolf.world/village/context/0.3/error.jsonld"
+	],
+	"@id": "https://licos.online/state/0.3/village#3/errorMessage",
+
+	"village": {
+		"@context": "https://werewolf.world/village/context/0.3/village.jsonld",
+		"@id": "https://licos.online/state/0.3/village",
+		"id": 3,
+		"name": "横国の森の奥にある時代に取り残された小さな村",
+		"totalNumberOfCharacters": 15,
+		"lang": "ja",
+		"chatSettings": {
+			"@context": "https://werewolf.world/village/context/0.3/chatSettings.jsonld",
+			"@id": "https://licos.online/state/0.3/village#3/chatSettings",
+			"limit": 10,
+			"characterLimit": 140
+		}
+	},
+	"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
+	"phase": "morning",
+	"date": 2,
+	"phaseTimeLimit": 600,
+	"phaseStartTime": "2006-10-07T12:06:56.568+09:00",
+	"serverTimestamp": "2006-10-07T12:06:56.568+09:00",
+	"clientTimestamp": "2006-10-07T12:06:56.568+09:00",
+	"directionality": "client to server",
+	"intensionalDisclosureRange": "private",
+	"extensionalDisclosureRange": [],
+	"myCharacter": {
+		"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+		"@id": "https://licos.online/state/0.3/village#3/myCharacter",
+		"id": 1,
+		"name": {
+			"en": "Walter",
+			"ja": "ヴァルター"
+		},
+		"image": "https://werewolf.world/image/0.3/Walter.jpg",
+		"role": {
+			"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
+			"@id": "https://licos.online/state/0.3/village#3/character#1/role",
+			"name": {
+				"en": "Werewolf",
+				"ja": "人狼"
+			},
+			"image": "https://werewolf.world/image/0.3/werewolf.jpg"
+		}
+	},
+
+	"content": {
+		"en": "Timeout: ignored",
+		"ja": "タイムアウト：　無視されました"
+	},
+	"severity": "error",
+	"source": "{\"token\": \"eFVr3O93oLhmnE8OqTMl5VSVGIV\"}",
+	"isFromServer": false
+}

@@ -1,0 +1,147 @@
+{
+    "title": "werewolf.world: Schema of votingResult.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://werewolf.world/village/schema/0.3/votingResult.json",
+    "definitions": {
+        "votingResultsSummary": {
+            "title": "Summary of Voting Results",
+            "description": "summary of voting results",
+            "$id": "/definitions/votingResultsSummary",
+            "type": "array",
+            "items": {
+                "title": "Voting Results",
+                "description": "voting results",
+                "$id": "/definitions/votingResultsSummary/items",
+                "type": "object",
+                "properties": {
+                    "characterToLynch": {
+                        "title": "Character to Lynch",
+                        "description": "character to lynch",
+                        "$id": "/definitions/votingResultsSummary/items/properties/characterToLynch",
+                        "type": "object",
+                        "properties": {
+                            "@id": {
+                                "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                            },
+                            "id": {
+                                "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                            },
+                            "name": {
+                                "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                            },
+                            "image": {
+                                "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                            }
+                        },
+                        "required": [
+                            "@id",
+                            "id",
+                            "name",
+                            "image"
+                        ]
+                    },
+                    "numberOfVotes": {
+                        "title": "Number of Votes",
+                        "description": "number of votes",
+                        "$id": "/definitions/votingResultsSummary/items/properties/numberOfVotes",
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 15,
+                        "default": 0,
+                        "examples": [
+                            0
+                        ]
+                    },
+                    "rankOfVotes": {
+                        "title": "Rank of Votes",
+                        "description": "rank of votes",
+                        "$id": "/definitions/votingResultsSummary/items/properties/rankOfVotes",
+                        "type": "integer",
+                        "minimum": 1,
+                        "maximum": 15,
+                        "examples": [
+                            1
+                        ]
+                    }
+                },
+                "required": [
+                    "@id",
+                    "characterToLynch",
+                    "numberOfVotes",
+                    "rankOfVotes"
+                ]
+            }
+        },
+        "votingResultsDetails": {
+            "title": "Details of Voting Results",
+            "description": "details of voting results",
+            "$id": "/definitions/votingResultsDetails",
+            "type": "array",
+            "items": {
+                "title": "Voting Results",
+                "description": "voting results",
+                "$id": "/definitions/votingResultsDetails/items",
+                "type": "object",
+                "properties": {
+                    "sourceCharacter": {
+                        "title": "Source Character",
+                        "description": "source character",
+                        "$id": "/definitions/votingResultsDetails/items/properties/sourceCharacter",
+                        "type": "object",
+                        "properties": {
+                            "@id": {
+                                "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                            },
+                            "id": {
+                                "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                            },
+                            "name": {
+                                "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                            },
+                            "image": {
+                                "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                            }
+                        },
+                        "required": [
+                            "@id",
+                            "id",
+                            "name",
+                            "image"
+                        ]
+                    },
+                    "targetCharacter": {
+                        "title": "Target Character",
+                        "description": "target character",
+                        "$id": "/definitions/votingResultsDetails/items/properties/targetCharacter",
+                        "type": "object",
+                        "properties": {
+                            "@id": {
+                                "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                            },
+                            "id": {
+                                "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                            },
+                            "name": {
+                                "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                            },
+                            "image": {
+                                "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                            }
+                        },
+                        "required": [
+                            "@id",
+                            "id",
+                            "name",
+                            "image"
+                        ]
+                    }
+                },
+                "required": [
+                    "@id",
+                    "sourceCharacter",
+                    "targetCharacter"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "title": "werewolf.world: Schema of error.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://werewolf.world/village/schema/0.3/error.json",
+    "definitions": {
+        "content": {
+            "title": "Error Content",
+            "description": "error content",
+            "$id": "/definitions/content",
+            "type": "object",
+            "properties": {
+                "en": {
+                    "title": "Error Content in English",
+                    "description": "error content in English",
+                    "$id": "/definitions/content/properties/en",
+                    "type": "string"
+                },
+                "ja": {
+                    "title": "Error Content in Japanese",
+                    "$id": "/definitions/content/properties/ja",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "en"
+            ]
+        },
+        "severity": {
+            "title": "Error Severity",
+            "description": "error severity",
+            "$id": "/definitions/severity",
+            "type": "string",
+            "enum": [
+                "error",
+                "warning"
+            ],
+            "examples": [
+                "error",
+                "warning"
+            ]
+        },
+        "source": {
+            "title": "Source",
+            "description": "source code of JSON-LD",
+            "$id": "/definitions/source",
+            "type": "string"
+        },
+        "isFromServer": {
+            "title": "Is From Server?",
+            "description": "is this sent from server?",
+            "$id": "/definitions/isFromServer",
+            "type": "boolean",
+            "default": true,
+            "examples": [
+                true,
+                false
+            ]
+        }
+    }
+}

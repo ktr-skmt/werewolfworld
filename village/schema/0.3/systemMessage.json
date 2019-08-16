@@ -1,0 +1,285 @@
+{
+    "title": "werewolf.world: Schema of systemMessage.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://werewolf.world/village/schema/0.3/systemMessage.json",
+    "type": "object",
+    "properties": {
+        "votingResultsSummary": {
+            "$ref": "https://werewolf.world/village/schema/0.3/votingResult.json"
+        },
+        "votingResultsDetails": {
+            "$ref": "https://werewolf.world/village/schema/0.3/votingResult.json"
+        },
+        "character": {
+            "title": "Character List",
+            "description": "character list",
+            "$id": "/properties/character",
+            "type": "array",
+            "items": {
+                "title": "Character",
+                "description": "character",
+                "$id": "/properties/character/items",
+                "type": "object",
+                "properties": {
+                    "@context": {
+                        "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                    },
+                    "@id": {
+                        "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                    },
+                    "isMine": {
+                        "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                    },
+                    "name": {
+                        "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                    },
+                    "image": {
+                        "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                    },
+                    "id": {
+                        "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                    },
+                    "status": {
+                        "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                    },
+                    "update": {
+                        "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                    },
+                    "isAChoice": {
+                        "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                    },
+                    "result": {
+                        "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                    },
+                    "avatar": {
+                        "title": "Avatar",
+                        "description": "avatar",
+                        "$id": "/properties/character/items/properties/avatar",
+                        "type": "object",
+                        "properties": {
+                            "@context": {
+                                "$ref": "https://werewolf.world/village/schema/0.3/avatar.json"
+                            },
+                            "@id": {
+                                "$ref": "https://werewolf.world/village/schema/0.3/avatar.json"
+                            },
+                            "token": {
+                                "$ref": "https://werewolf.world/village/schema/0.3/avatar.json"
+                            },
+                            "name": {
+                                "$ref": "https://werewolf.world/village/schema/0.3/avatar.json"
+                            },
+                            "image": {
+                                "$ref": "https://werewolf.world/village/schema/0.3/avatar.json"
+                            }
+                        },
+                        "required": [
+                            "@context",
+                            "@id",
+                            "token",
+                            "name",
+                            "image"
+                        ]
+                    },
+                    "role": {
+                        "title": "Role",
+                        "description": "role",
+                        "$id": "/properties/character/items/properties/role",
+                        "type": "object",
+                        "properties": {
+                            "@context": {
+                                "$ref": "https://werewolf.world/village/schema/0.3/role.json"
+                            },
+                            "@id": {
+                                "$ref": "https://werewolf.world/village/schema/0.3/role.json"
+                            },
+                            "name": {
+                                "$ref": "https://werewolf.world/village/schema/0.3/role.json"
+                            },
+                            "image": {
+                                "$ref": "https://werewolf.world/village/schema/0.3/role.json"
+                            }
+                        },
+                        "required": [
+                            "@context",
+                            "@id",
+                            "name",
+                            "image"
+                        ]
+                    }
+                },
+                "required": [
+                    "@context",
+                    "@id",
+                    "isMine",
+                    "name",
+                    "image",
+                    "id",
+                    "status"
+                ]
+            }
+        },
+        "role": {
+            "title": "Role List",
+            "description": "role list",
+            "$id": "/properties/role",
+            "type": "array",
+            "items": {
+                "title": "Role",
+                "description": "role",
+                "$id": "/properties/role/items",
+                "type": "object",
+                "properties": {
+                    "@context": {
+                        "$ref": "https://werewolf.world/village/schema/0.3/role.json"
+                    },
+                    "@id": {
+                        "$ref": "https://werewolf.world/village/schema/0.3/role.json"
+                    },
+                    "isMine": {
+                        "$ref": "https://werewolf.world/village/schema/0.3/role.json"
+                    },
+                    "name": {
+                        "$ref": "https://werewolf.world/village/schema/0.3/role.json"
+                    },
+                    "image": {
+                        "$ref": "https://werewolf.world/village/schema/0.3/role.json"
+                    },
+                    "numberOfCharacters": {
+                        "$ref": "https://werewolf.world/village/schema/0.3/role.json"
+                    },
+                    "character": {
+                        "title": "Character",
+                        "description": "Character",
+                        "$id": "/properties/role/items/properteis/character",
+                        "type": "array",
+                        "items": {
+                            "title": "Character",
+                            "description": "character",
+                            "type": "object",
+                            "properties": {
+                                "@context": {
+                                    "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                                },
+                                "@id": {
+                                    "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                                },
+                                "id": {
+                                    "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                                },
+                                "name": {
+                                    "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                                },
+                                "image": {
+                                    "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                                }
+                            },
+                            "required": [
+                                "@context",
+                                "@id",
+                                "id",
+                                "name",
+                                "image"
+                            ]
+                        }
+
+                    },
+                    "board": {
+                        "title": "Board list",
+                        "description": "board list",
+                        "$id": "/properties/role/items/properteis/board",
+                        "type": "array",
+                        "items": {
+                            "title": "Board",
+                            "description": "board",
+                            "$id": "/properties/role/items/properties/board/items",
+                            "type": "object",
+                            "properties": {
+                                "@context": {
+                                    "$ref": "https://werewolf.world/village/schema/0.3/boardResult.json"
+                                },
+                                "@id": {
+                                    "$ref": "https://werewolf.world/village/schema/0.3/boardResult.json"
+                                },
+                                "character": {
+                                    "title": "Character",
+                                    "description": "character",
+                                    "$id": "/properteis/role/items/properties/board/items/properties/character",
+                                    "properties": {
+                                        "@context": {
+                                            "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                                        },
+                                        "@id": {
+                                            "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                                        },
+                                        "id": {
+                                            "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                                        },
+                                        "name": {
+                                            "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                                        },
+                                        "image": {
+                                            "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                                        }
+                                    },
+                                    "required": [
+                                        "@context",
+                                        "@id",
+                                        "id",
+                                        "name",
+                                        "image"
+                                    ]
+                                },
+                                "polarity": {
+                                    "$ref": "https://werewolf.world/village/schema/0.3/boardResult.json"
+                                },
+                                "phase": {
+                                    "$ref": "https://werewolf.world/village/schema/0.3/time.json"
+                                },
+                                "date": {
+                                    "$ref": "https://werewolf.world/village/schema/0.3/time.json"
+                                }
+                            },
+                            "required": [
+                                "@context",
+                                "@id",
+                                "character",
+                                "polarity",
+                                "phase",
+                                "date"
+                            ]
+                        }
+                    }
+                },
+                "required": [
+                    "@context",
+                    "@id",
+                    "isMine",
+                    "name",
+                    "image",
+                    "numberOfCharacters"
+                ]
+            }
+        }
+    },
+    "patternProperties": {
+        "^[A-Za-z@]+$": {
+            "$ref": "https://werewolf.world/village/schema/0.3/base.json"
+        }
+    },
+    "required": [
+        "@context",
+        "@id",
+        "village",
+        "token",
+        "phase",
+        "date",
+        "phaseTimeLimit",
+        "phaseStartTime",
+        "serverTimestamp",
+        "clientTimestamp",
+        "directionality",
+        "intensionalDisclosureRange",
+        "extensionalDisclosureRange"
+    ]
+}

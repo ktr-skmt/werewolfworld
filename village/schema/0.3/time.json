@@ -1,0 +1,53 @@
+{
+    "title": "werewolf.world: Schema of time.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://werewolf.world/village/schema/0.3/time.json",
+    "definitions": {
+        "@id": {
+            "title": "Time @id",
+            "description": "time @id",
+            "$id": "/definitions/@id",
+            "type": "string",
+            "pattern": "^https://licos.online/state/0.3/village[#0-9A-Za-z]+$",
+            "examples": [
+                "https://licos.online/state/0.3/village#3/character#3/update"
+            ]
+        },
+        "phase": {
+            "title": "Phase",
+            "description": "phase",
+            "$id": "/definitions/phase",
+            "type": "string",
+            "enum": [
+                "flavor text",
+                "morning",
+                "day",
+                "night",
+                "result",
+                "post mortem"
+            ],
+            "examples": [
+                "flavor text",
+                "morning",
+                "day",
+                "night",
+                "result",
+                "post mortem"
+            ]
+        },
+        "date": {
+            "title": "Date",
+            "description": "date",
+            "$id": "/definitions/date",
+            "type": "integer",
+            "minimum": -1,
+            "maximum": 13,
+            "default": -1,
+            "examples": [
+                -1,
+                0,
+                1
+            ]
+        }
+    }
+}

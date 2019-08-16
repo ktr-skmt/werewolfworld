@@ -1,0 +1,742 @@
+{
+	"@context": [
+		"https://werewolf.world/village/context/0.3/base.jsonld",
+		"https://werewolf.world/village/context/0.3/votingResult.jsonld"
+	],
+	"@id": "https://licos.online/state/0.3/village#3/systemMessage",
+
+	"village": {
+		"@context": "https://werewolf.world/village/context/0.3/village.jsonld",
+		"@id": "https://licos.online/state/0.3/village",
+		"id": 3,
+		"name": "横国の森の奥にある時代に取り残された小さな村",
+		"totalNumberOfCharacters": 15,
+		"lang": "ja",
+		"chatSettings": {
+			"@context": "https://werewolf.world/village/context/0.3/chatSettings.jsonld",
+			"@id": "https://licos.online/state/0.3/village#3/chatSettings",
+			"limit": 10,
+			"characterLimit": 140
+		}
+	},
+	"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
+	"phase": "result",
+	"date": -1,
+	"phaseTimeLimit": -1,
+	"phaseStartTime": "2006-10-07T12:06:56.568+09:00",
+	"serverTimestamp": "2006-10-07T12:06:56.568+09:00",
+	"clientTimestamp": "2006-10-07T12:06:56.568+09:00",
+	"directionality": "server to client",
+	"intensionalDisclosureRange": "private",
+	"extensionalDisclosureRange": [],
+
+	"votingResultsSummary": [],
+	"votingResultsDetails": [],
+
+	"character": [
+		{
+			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+			"@id": "https://licos.online/state/0.3/village#3/character#0",
+			"isMine": false,
+			"name": {
+				"en": "Gert",
+				"ja": "ゲルト"
+			},
+			"image": "https://werewolf.world/image/0.3/Gert.jpg",
+			"id": 0,
+			"role": {
+				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
+				"@id": "https://licos.online/state/0.3/village#3/character#0/role",
+				"name": {
+					"en": "Villager",
+					"ja": "村人"
+				},
+				"image": "https://werewolf.world/image/0.3/villager.jpg"
+			},
+			"status": "alive",
+			"result": "win",
+			"avatar": {
+				"@context": "https://werewolf.world/village/context/0.3/avatar.jsonld",
+				"@id": "https://licos.online/state/0.3/village#3/character#0/avatar",
+				"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
+				"name": "Sato",
+				"image": "https://werewolf.world/image/0.3/Nicholas.jpg"
+			}
+		},
+		{
+			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+			"@id": "https://licos.online/state/0.3/village#3/character#1",
+			"isMine": true,
+			"name": {
+				"en": "Walter",
+				"ja": "ヴァルター"
+			},
+			"image": "https://werewolf.world/image/0.3/Walter.jpg",
+			"id": 1,
+			"role": {
+				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
+				"@id": "https://licos.online/state/0.3/village#3/character#1/role",
+				"name": {
+					"en": "Seer",
+					"ja": "占い師"
+				},
+				"image": "https://werewolf.world/image/0.3/seer.jpg"
+			},
+			"status": "alive",
+			"result": "win",
+			"avatar": {
+				"@context": "https://werewolf.world/village/context/0.3/avatar.jsonld",
+				"@id": "https://licos.online/state/0.3/village#3/character#1/avatar",
+				"token": "eFVr3O93oLhmnE8OqTMl5VSVGI1",
+				"name": "Suzuki",
+				"image": "https://werewolf.world/image/0.3/Gert.jpg"
+			}
+		},
+		{
+			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+			"@id": "https://licos.online/state/0.3/village#3/character#2",
+			"isMine": false,
+			"name": {
+				"en": "Moritz",
+				"ja": "モーリッツ"
+			},
+			"image": "https://werewolf.world/image/0.3/Moritz.jpg",
+			"id": 2,
+			"role": {
+				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
+				"@id": "https://licos.online/state/0.3/village#3/character#2/role",
+				"name": {
+					"en": "Werewolf",
+					"ja": "人狼"
+				},
+				"image": "https://werewolf.world/image/0.3/werewolf.jpg"
+			},
+			"status": "alive",
+			"result": "lose",
+			"avatar": {
+				"@context": "https://werewolf.world/village/context/0.3/avatar.jsonld",
+				"@id": "https://licos.online/state/0.3/village#3/character#2/avatar",
+				"token": "eFVr3O93oLhmnE8OqTMl5VSVGI2",
+				"name": "Takahashi",
+				"image": "https://werewolf.world/image/0.3/Alvin.jpg"
+			}
+		},
+		{
+			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+			"@id": "https://licos.online/state/0.3/village#3/character#3",
+			"isMine": false,
+			"name": {
+				"en": "Simson",
+				"ja": "ジムゾン"
+			},
+			"image": "https://werewolf.world/image/0.3/Simson.jpg",
+			"id": 3,
+			"role": {
+				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
+				"@id": "https://licos.online/state/0.3/village#3/character#3/role",
+				"name": {
+					"en": "Hunter",
+					"ja": "狩人"
+				},
+				"image": "https://werewolf.world/image/0.3/hunter.jpg"
+			},
+			"status": "alive",
+			"result": "win",
+			"avatar": {
+				"@context": "https://werewolf.world/village/context/0.3/avatar.jsonld",
+				"@id": "https://licos.online/state/0.3/village#3/character#3/avatar",
+				"token": "eFVr3O93oLhmnE8OqTMl5VSVGI3",
+				"name": "Tanaka",
+				"image": "https://werewolf.world/image/0.3/Friedel.jpg"
+			}
+		},
+		{
+			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+			"@id": "https://licos.online/state/0.3/village#3/character#4",
+			"isMine": false,
+			"name": {
+				"en": "Thomas",
+				"ja": "トーマス"
+			},
+			"image": "https://werewolf.world/image/0.3/Thomas.jpg",
+			"id": 4,
+			"role": {
+				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
+				"@id": "https://licos.online/state/0.3/village#3/character#4/role",
+				"name": {
+					"en": "Medium",
+					"ja": "霊媒師"
+				},
+				"image": "https://werewolf.world/image/0.3/medium.jpg"
+			},
+			"status": "alive",
+			"result": "win",
+			"avatar": {
+				"@context": "https://werewolf.world/village/context/0.3/avatar.jsonld",
+				"@id": "https://licos.online/state/0.3/village#3/character#4/avatar",
+				"token": "eFVr3O93oLhmnE8OqTMl5VSVGI4",
+				"name": "Ito",
+				"image": "https://werewolf.world/image/0.3/Dieter.jpg"
+			}
+		},
+		{
+			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+			"@id": "https://licos.online/state/0.3/village#3/character#5",
+			"isMine": false,
+			"name": {
+				"en": "Nicholas",
+				"ja": "ニコラス"
+			},
+			"image": "https://werewolf.world/image/0.3/Nicholas.jpg",
+			"id": 5,
+			"role": {
+				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
+				"@id": "https://licos.online/state/0.3/village#3/character#5/role",
+				"name": {
+					"en": "Werehuster",
+					"ja": "ハムスター人間"
+				},
+				"image": "https://werewolf.world/image/0.3/werehamster.jpg"
+			},
+			"status": "death by fear",
+			"result": "lose",
+			"avatar": {
+				"@context": "https://werewolf.world/village/context/0.3/avatar.jsonld",
+				"@id": "https://licos.online/state/0.3/village#3/character#5/avatar",
+				"token": "eFVr3O93oLhmnE8OqTMl5VSVGI5",
+				"name": "Watanabe",
+				"image": "https://werewolf.world/image/0.3/Erna.jpg"
+			}
+		},
+		{
+			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+			"@id": "https://licos.online/state/0.3/village#3/character#6",
+			"isMine": false,
+			"name": {
+				"en": "Dieter",
+				"ja": "ディーター"
+			},
+			"image": "https://werewolf.world/image/0.3/Dieter.jpg",
+			"id": 6,
+			"role": {
+				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
+				"@id": "https://licos.online/state/0.3/village#3/character#6/role",
+				"name": {
+					"en": "Madman",
+					"ja": "狂人"
+				},
+				"image": "https://werewolf.world/image/0.3/madman.jpg"
+			},
+			"status": "death by execution",
+			"result": "lose",
+			"avatar": {
+				"@context": "https://werewolf.world/village/context/0.3/avatar.jsonld",
+				"@id": "https://licos.online/state/0.3/village#3/character#6/avatar",
+				"token": "eFVr3O93oLhmnE8OqTMl5VSVGI6",
+				"name": "Yamamoto",
+				"image": "https://werewolf.world/image/0.3/Jacob.jpg"
+			}
+		},
+		{
+			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+			"@id": "https://licos.online/state/0.3/village#3/character#7",
+			"isMine": false,
+			"name": {
+				"en": "Peter",
+				"ja": "ペーター"
+			},
+			"image": "https://werewolf.world/image/0.3/Peter.jpg",
+			"id": 7,
+			"role": {
+				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
+				"@id": "https://licos.online/state/0.3/village#3/character#7/role",
+				"name": {
+					"en": "Werewolf",
+					"ja": "人狼"
+				},
+				"image": "https://werewolf.world/image/0.3/werewolf.jpg"
+			},
+			"status": "unnatural death",
+			"result": "lose",
+			"avatar": {
+				"@context": "https://werewolf.world/village/context/0.3/avatar.jsonld",
+				"@id": "https://licos.online/state/0.3/village#3/character#7/avatar",
+				"token": "eFVr3O93oLhmnE8OqTMl5VSVGI7",
+				"name": "Nakamura",
+				"avatar": "https://werewolf.world/image/0.3/Nicholas.jpg"
+			}
+		},
+		{
+			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+			"@id": "https://licos.online/state/0.3/village#3/character#8",
+			"isMine": false,
+			"name": {
+				"en": "Lisa",
+				"ja": "リーザ"
+			},
+			"image": "https://werewolf.world/image/0.3/Lisa.jpg",
+			"id": 8,
+			"role": {
+				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
+				"@id": "https://licos.online/state/0.3/village#3/character#8/role",
+				"name": {
+					"en": "Villager",
+					"ja": "村人"
+				},
+				"image": "https://werewolf.world/image/0.3/villager.jpg"
+			},
+			"status": "unnatural death",
+			"result": "win",
+			"avatar": {
+				"@context": "https://werewolf.world/village/context/0.3/avatar.jsonld",
+				"@id": "https://licos.online/state/0.3/village#3/character#8/avatar",
+				"token": "eFVr3O93oLhmnE8OqTMl5VSVGI8",
+				"name": "Kobayashi",
+				"image": "https://werewolf.world/image/0.3/Peter.jpg"
+			}
+		},
+		{
+			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+			"@id": "https://licos.online/state/0.3/village#3/character#9",
+			"isMine": false,
+			"name": {
+				"en": "Alvin",
+				"ja": "アルビン"
+			},
+			"image": "https://werewolf.world/image/0.3/Alvin.jpg",
+			"id": 9,
+			"role": {
+				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
+				"@id": "https://licos.online/state/0.3/village#3/character#9/role",
+				"name": {
+					"en": "Villager",
+					"ja": "村人"
+				},
+				"image": "https://werewolf.world/image/0.3/villager.jpg"
+			},
+			"status": "unnatural death",
+			"result": "win",
+			"avatar": {
+				"@context": "https://werewolf.world/village/context/0.3/avatar.jsonld",
+				"@id": "https://licos.online/state/0.3/village#3/character#9/avatar",
+				"token": "eFVr3O93oLhmnE8OqTMl5VSVGI9",
+				"name": "Yoshida",
+				"image": "https://werewolf.world/image/0.3/Peter.jpg"
+			}
+		},
+		{
+			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+			"@id": "https://licos.online/state/0.3/village#3/character#10",
+			"isMine": false,
+			"name": {
+				"en": "Catalina",
+				"ja": "カタリナ"
+			},
+			"image": "https://werewolf.world/image/0.3/Catalina.jpg",
+			"id": 10,
+			"role": {
+				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
+				"@id": "https://licos.online/state/0.3/village#3/character#10/role",
+				"name": {
+					"en": "Mason",
+					"ja": "共有者"
+				},
+				"image": "https://werewolf.world/image/0.3/mason.jpg"
+			},
+			"status": "unnatural death",
+			"result": "win",
+			"avatar": {
+				"@context": "https://werewolf.world/village/context/0.3/avatar.jsonld",
+				"@id": "https://licos.online/state/0.3/village#3/character#10/avatar",
+				"token": "eFVr3O93oLhmnE8OqTMl5VSVG10",
+				"name": "Yamada",
+				"image": "https://werewolf.world/image/0.3/Simon.jpg"
+			}
+		},
+		{
+			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+			"@id": "https://licos.online/state/0.3/village#3/character#11",
+			"isMine": false,
+			"name": {
+				"en": "Otto",
+				"ja": "オットー"
+			},
+			"image": "https://werewolf.world/image/0.3/Otto.jpg",
+			"id": 11,
+			"role": {
+				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
+				"@id": "https://licos.online/state/0.3/village#3/character#11/role",
+				"name": {
+					"en": "Mason",
+					"ja": "共有者"
+				},
+				"image": "https://werewolf.world/image/0.3/mason.jpg"
+			},
+			"status": "unnatural death",
+			"result": "win",
+			"avatar": {
+				"@context": "https://werewolf.world/village/context/0.3/avatar.jsonld",
+				"@id": "https://licos.online/state/0.3/village#3/character#11/avatar",
+				"token": "eFVr3O93oLhmnE8OqTMl5VSVG11",
+				"name": "Sasaki",
+				"image": "https://werewolf.world/image/0.3/Simson.jpg"
+			}
+		},
+		{
+			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+			"@id": "https://licos.online/state/0.3/village#3/character#12",
+			"isMine": false,
+			"name": {
+				"en": "Joachim",
+				"ja": "ヨアヒム"
+			},
+			"image": "https://werewolf.world/image/0.3/Joachim.jpg",
+			"id": 12,
+			"role": {
+				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
+				"@id": "https://licos.online/state/0.3/village#3/character#12/role",
+				"name": {
+					"en": "Villager",
+					"ja": "村人"
+				},
+				"image": "https://werewolf.world/image/0.3/villager.jpg"
+			},
+			"status": "death by attack",
+			"result": "win",
+			"avatar": {
+				"@context": "https://werewolf.world/village/context/0.3/avatar.jsonld",
+				"@id": "https://licos.online/state/0.3/village#3/character#12/avatar",
+				"token": "eFVr3O93oLhmnE8OqTMl5VSVG12",
+				"name": "山口",
+				"image": "https://werewolf.world/image/0.3/Otto.jpg"
+			}
+		},
+		{
+			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+			"@id": "https://licos.online/state/0.3/village#3/character#13",
+			"isMine": false,
+			"name": {
+				"en": "Pamela",
+				"ja": "パメラ"
+			},
+			"image": "https://werewolf.world/image/0.3/Pamela.jpg",
+			"id": 13,
+			"role": {
+				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
+				"@id": "https://licos.online/state/0.3/village#3/character#13/role",
+				"name": {
+					"en": "Villager",
+					"ja": "村人"
+				},
+				"image": "https://werewolf.world/image/0.3/villager.jpg"
+			},
+			"status": "alive",
+			"result": "win",
+			"avatar": {
+				"@context": "https://werewolf.world/village/context/0.3/avatar.jsonld",
+				"@id": "https://licos.online/state/0.3/village#3/character#13/avatar",
+				"token": "eFVr3O93oLhmnE8OqTMl5VSVG13",
+				"name": "松本",
+				"image": "https://werewolf.world/image/0.3/Joachim.jpg"
+			}
+		},
+		{
+			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+			"@id": "https://licos.online/state/0.3/village#3/character#14",
+			"isMine": false,
+			"name": {
+				"en": "Jacob",
+				"ja": "ヤコブ"
+			},
+			"image": "https://werewolf.world/image/0.3/Jacob.jpg",
+			"id": 14,
+			"role": {
+				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
+				"@id": "https://licos.online/state/0.3/village#3/character#14/role",
+				"name": {
+					"en": "Villager",
+					"ja": "村人"
+				},
+				"image": "https://werewolf.world/image/0.3/villager.jpg"
+			},
+			"status": "alive",
+			"result": "win",
+			"avatar": {
+				"@context": "https://werewolf.world/village/context/0.3/avatar.jsonld",
+				"@id": "https://licos.online/state/0.3/village#3/character#14/avatar",
+				"token": "eFVr3O93oLhmnE8OqTMl5VSVG14",
+				"name": "井上",
+				"image": "https://werewolf.world/image/0.3/Catalina.jpg"
+			}
+		}
+	],
+
+	"role": [
+		{
+			"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
+			"@id": "https://licos.online/state/0.3/village#3/role#master",
+			"isMine": false,
+			"name": {
+				"en": "Master",
+				"ja": "マスター"
+			},
+			"image": "https://werewolf.world/image/0.3/master.jpg",
+			"numberOfCharacters": 1,
+			"character": []
+		},
+		{
+			"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
+			"@id": "https://licos.online/state/0.3/village#3/role#villager",
+			"isMine": false,
+			"name": {
+				"en": "Villager",
+				"ja": "村人"
+			},
+			"image": "https://werewolf.world/image/0.3/villager.jpg",
+			"numberOfCharacters": 6,
+			"character": [
+				{
+					"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+					"@id": "https://licos.online/state/0.3/village#3/role#villager/character#0",
+					"id": 0,
+					"name": {
+						"en": "Gert",
+						"ja": "ゲルト"
+					},
+					"image": "https://werewolf.world/image/0.3/Gert.jpg"
+				},
+				{
+					"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+					"@id": "https://licos.online/state/0.3/village#3/role#villager/character#8",
+					"id": 8,
+					"name": {
+						"en": "Lisa",
+						"ja": "リーザ"
+					},
+					"image": "https://werewolf.world/image/0.3/Lisa.jpg"
+				},
+				{
+					"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+					"@id": "https://licos.online/state/0.3/village#3/role#villager/character#9",
+					"id": 9,
+					"name": {
+						"en": "Alvin",
+						"ja": "アルビン"
+					},
+					"image": "https://werewolf.world/image/0.3/Alvin.jpg"
+				},
+				{
+					"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+					"@id": "https://licos.online/state/0.3/village#3/role#villager/character#12",
+					"id": 12,
+					"name": {
+						"en": "Joachim",
+						"ja": "ヨアヒム"
+					},
+					"image": "https://werewolf.world/image/0.3/Joachim.jpg"
+				},
+				{
+					"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+					"@id": "https://licos.online/state/0.3/village#3/role#villager/character#13",
+					"id": 13,
+					"name": {
+						"en": "Pamela",
+						"ja": "パメラ"
+					},
+					"image": "https://werewolf.world/image/0.3/Pamela.jpg"
+				},
+				{
+					"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+					"@id": "https://licos.online/state/0.3/village#3/role#villager/character#14",
+					"id": 14,
+					"name": {
+						"en": "Jacob",
+						"ja": "ヤコブ"
+					},
+					"image": "https://werewolf.world/image/0.3/Jacob.jpg"
+				}
+			]
+		},
+		{
+			"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
+			"@id": "https://licos.online/state/0.3/village#3/role#seer",
+			"isMine": true,
+			"name": {
+				"en": "Seer",
+				"ja": "占い師"
+			},
+			"image": "https://werewolf.world/image/0.3/seer.jpg",
+			"numberOfCharacters": 1,
+			"character": [
+				{
+					"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+					"@id": "https://licos.online/state/0.3/village#3/role#seer/character#1",
+					"id": 1,
+					"name": {
+						"en": "Walter",
+						"ja": "ヴァルター"
+					},
+					"image": "https://werewolf.world/image/0.3/Walter.jpg"
+				}
+			]
+		},
+		{
+			"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
+			"@id": "https://licos.online/state/0.3/village#3/role#medium",
+			"isMine": false,
+			"name": {
+				"en": "Medium",
+				"ja": "霊媒師"
+			},
+			"image": "https://werewolf.world/image/0.3/medium.jpg",
+			"numberOfCharacters": 1,
+			"character": [
+				{
+					"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+					"@id": "https://licos.online/state/0.3/village#3/role#medium/character#4",
+					"id": 4,
+					"name": {
+						"en": "Thomas",
+						"ja": "トーマス"
+					},
+					"image": "https://werewolf.world/image/0.3/Thomas.jpg"
+				}
+			]
+		},
+		{
+			"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
+			"@id": "https://licos.online/state/0.3/village#3/role#hunter",
+			"isMine": false,
+			"name": {
+				"en": "Hunter",
+				"ja": "狩人"
+			},
+			"image": "https://werewolf.world/image/0.3/hunter.jpg",
+			"numberOfCharacters": 1,
+			"character": [
+				{
+					"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+					"@id": "https://licos.online/state/0.3/village#3/role#hunter/character#3",
+					"id": 3,
+					"name": {
+						"en": "Simson",
+						"ja": "ジムゾン"
+					},
+					"image": "https://werewolf.world/image/0.3/Simson.jpg"
+				}
+			]
+		},
+		{
+			"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
+			"@id": "https://licos.online/state/0.3/village#3/role#mason",
+			"isMine": false,
+			"name": {
+				"en": "Mason",
+				"ja": "共有者"
+			},
+			"image": "https://werewolf.world/image/0.3/mason.jpg",
+			"numberOfCharacters": 2,
+			"character": [
+				{
+					"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+					"@id": "https://licos.online/state/0.3/village#3/role#mason/character#10",
+					"id": 10,
+					"name": {
+						"en": "Catalina",
+						"ja": "カタリナ"
+					},
+					"image": "https://werewolf.world/image/0.3/Catalina.jpg"
+				},
+				{
+					"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+					"@id": "https://licos.online/state/0.3/village#3/role#mason/character#11",
+					"id": 11,
+					"name": {
+						"en": "Otto",
+						"ja": "オットー"
+					},
+					"image": "https://werewolf.world/image/0.3/Otto.jpg"
+				}
+			]
+		},
+		{
+			"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
+			"@id": "https://licos.online/state/0.3/village#3/role#madman",
+			"isMine": false,
+			"name": {
+				"en": "Madman",
+				"ja": "狂人"
+			},
+			"image": "https://werewolf.world/image/0.3/madman.jpg",
+			"numberOfCharacters": 1,
+			"character": [
+				{
+					"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+					"@id": "https://licos.online/state/0.3/village#3/role#madman/character#6",
+					"id": 6,
+					"name": {
+						"en": "Dieter",
+						"ja": "ディーター"
+					},
+					"image": "https://werewolf.world/image/0.3/Dieter.jpg"
+				}
+			]
+		},
+		{
+			"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
+			"@id": "https://licos.online/state/0.3/village#3/role#werewolf",
+			"isMine": false,
+			"name": {
+				"en": "Werewolf",
+				"ja": "人狼"
+			},
+			"image": "https://werewolf.world/image/0.3/werewolf.jpg",
+			"numberOfCharacters": 2,
+			"character": [
+				{
+					"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+					"@id": "https://licos.online/state/0.3/village#3/role#werewolf/character#2",
+					"id": 2,
+					"name": {
+						"en": "Moritz",
+						"ja": "モーリッツ"
+					},
+					"image": "https://werewolf.world/image/0.3/Moritz.jpg"
+				},
+				{
+					"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+					"@id": "https://licos.online/state/0.3/village#3/role#werewolf/character#7",
+					"id": 7,
+					"name": {
+						"en": "Peter",
+						"ja": "ペーター"
+					},
+					"image": "https://werewolf.world/image/0.3/Peter.jpg"
+				}
+			]
+		},
+		{
+			"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
+			"@id": "https://licos.online/state/0.3/village#3/role#werehamster",
+			"isMine": false,
+			"name": {
+				"en": "Werehamster",
+				"ja": "ハムスター人間"
+			},
+			"image": "https://werewolf.world/image/0.3/werehamster.jpg",
+			"numberOfCharacters": 1,
+			"character": [
+				{
+					"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+					"@id": "https://licos.online/state/0.3/village#3/role#werehamster/character#5",
+					"id": 5,
+					"name": {
+						"en": "Nicholas",
+						"ja": "ニコラス"
+					},
+					"image": "https://werewolf.world/image/0.3/Nicholas.jpg"
+				}
+			]
+		}
+	]
+}

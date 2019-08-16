@@ -1,0 +1,20 @@
+{
+	"@context": {
+		"@version": 1.1,
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"w3": "https://werewolf.world/resource/0.3/",
+		"isMine": {
+			"@id": "w3:chatIsMine",
+			"@type": "xsd:boolean"
+		},
+		"character": "w3:character",
+		"id": "w3:chatId",
+		"counter": "w3:chatCounter",
+		"limit": "w3:chatLimit",
+		"interval": "w3:chatInterval",
+		"text": "w3:chatText",
+		"characterLimit": "w3:chatCharacterLimit",
+		"isOver": "w3:chatIsOver",
+		"isFromServer": "w3:chatIsFromServer"
+	}
+}

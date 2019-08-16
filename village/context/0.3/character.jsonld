@@ -1,0 +1,35 @@
+{
+	"@context": {
+		"@version": 1.1,
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"w3": "https://werewolf.world/resource/0.3/",
+		"character": "w3:character",
+		"isMine": {
+			"@id": "w3:characterIsMine",
+			"@type": "xsd:boolean"
+		},
+		"name": {
+			"@id": "w3:characterName",
+			"@container": "@language"
+		},
+		"image": "w3:characterImage",
+		"id": {
+			"@id": "w3:characterId",
+			"@type": "xsd:integer"
+		},
+		"role": "w3:role",
+		"status": "w3:characterStatus",
+		"update": "w3:update",
+		"isAChoice": {
+			"@id": "w3:characterIsAChoice",
+			"@type": "xsd:boolean"
+		},
+		"result": "w3:result",
+		"avatar": "w3:avatar",
+		"fullName": {
+			"@id": "w3:characterFullName",
+			"@container": "@language"
+		},
+		"gender": "w3:gender"
+	}
+}
