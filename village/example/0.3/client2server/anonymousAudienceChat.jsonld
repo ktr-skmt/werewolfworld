@@ -29,6 +29,8 @@
 	"directionality": "client to server",
 	"intensionalDisclosureRange": "anonymousAudience",
 	"extensionalDisclosureRange": [],
+	"avatar" = null,
+	
 	
 	"isMine": true,
 	"text": {
