@@ -19,20 +19,20 @@
 
 |Example|JSON-LD|
 ---|---
-|first-morning|[https://werewolf.world/village/example/0.3/server2client/first-morning.jsonld](https://werewolf.world/village/example/0.3/server2client/first-morning.jsonld)|
+|firstMorning|[https://werewolf.world/village/example/0.3/server2client/firstMorning.jsonld](https://werewolf.world/village/example/0.3/server2client/firstMorning.jsonld)|
 |morning|[https://werewolf.world/village/example/0.3/server2client/morning.jsonld](https://werewolf.world/village/example/0.3/server2client/morning.jsonld)|
-|day-vote|[https://werewolf.world/village/example/0.3/server2client/day.jsonld](https://werewolf.world/village/example/0.3/server2client/day.jsonld)|
+|dayVote|[https://werewolf.world/village/example/0.3/server2client/day.jsonld](https://werewolf.world/village/example/0.3/server2client/day.jsonld)|
 |night|[https://werewolf.world/village/example/0.3/server2client/night.jsonld](https://werewolf.world/village/example/0.3/server2client/night.jsonld)|
 |result|[https://werewolf.world/village/example/0.3/server2client/result.jsonld](https://werewolf.world/village/example/0.3/server2client/result.jsonld)|
-|post-mortem|[https://werewolf.world/village/example/0.3/server2client/post-mortem.jsonld](https://werewolf.world/village/example/0.3/server2client/post-mortem.jsonld)|
-|my-message-on-chat|[https://werewolf.world/village/example/0.3/server2client/my-message-on-chat.jsonld](https://werewolf.world/village/example/0.3/server2client/my-message-on-chat.jsonld)|
-|their-message-on-chat|[https://werewolf.world/village/example/0.3/server2client/their-message-on-chat.jsonld](https://werewolf.world/village/example/0.3/server2client/their-message-on-chat.jsonld)|
+|postMortem|[https://werewolf.world/village/example/0.3/server2client/postMortem.jsonld](https://werewolf.world/village/example/0.3/server2client/postMortem.jsonld)|
+|myMessageOnChat|[https://werewolf.world/village/example/0.3/server2client/myMessageOnChat.jsonld](https://werewolf.world/village/example/0.3/server2client/myMessageOnChat.jsonld)|
+|theirMessageOnChat|[https://werewolf.world/village/example/0.3/server2client/theirMessageOnChat.jsonld](https://werewolf.world/village/example/0.3/server2client/theirMessageOnChat.jsonld)|
 |error|[https://werewolf.world/village/example/0.3/server2client/error.jsonld](https://werewolf.world/village/example/0.3/server2client/error.jsonld)|
-|onymous-audience-chat|[https://werewolf.world/village/example/0.3/server2client/onymous-audience-chat.jsonld](https://werewolf.world/village/example/0.3/server2client/onymous-audience-chat.jsonld)|
-|anonymous-audience-chat|[https://werewolf.world/village/example/0.3/server2client/anonymous-audience-chat.jsonld](https://werewolf.world/village/example/0.3/server2client/anonymous-audience-chat.jsonld)|
+|onymousAudienceChat|[https://werewolf.world/village/example/0.3/server2client/onymousAudienceChat.jsonld](https://werewolf.world/village/example/0.3/server2client/onymousAudienceChat.jsonld)|
+|anonymousAudienceChat|[https://werewolf.world/village/example/0.3/server2client/anonymousAudienceChat.jsonld](https://werewolf.world/village/example/0.3/server2client/anonymousAudienceChat.jsonld)|
 
 
-### first-morning
+### firstMorning
 
 * "Start day conversation phase" to "Display" and "Move to grave"
 
@@ -52,15 +52,15 @@
 
 * "Send results" to "Display results in a modal"
 
-### post-mortem
+### postMortem
 
 * "Start post mortem phase" to "Display"
 
-### my-message-on-chat
+### myMessageOnChat
 
 * "Broadcast a chat message" to "Display a chat message"
 
-### their-message-on-chat
+### theirMessageOnChat
 
 * "Broadcast a chat message" to "Display a chat message"
 
@@ -74,14 +74,14 @@
 ---|---
 |board|[https://werewolf.world/village/example/0.3/client2server/board.jsonld](https://werewolf.world/village/example/0.3/client2server/board.jsonld)|
 |chat|[https://werewolf.world/village/example/0.3/client2server/chat.jsonld](https://werewolf.world/village/example/0.3/client2server/chat.jsonld)|
-|day-vote|[https://werewolf.world/village/example/0.3/client2server/day-vote.jsonld](https://werewolf.world/village/example/0.3/client2server/day-vote.jsonld)|
-|night-vote|[https://werewolf.world/village/example/0.3/client2server/night-vote.jsonld](https://werewolf.world/village/example/0.3/client2server/night-vote.jsonld)|
+|dayVote|[https://werewolf.world/village/example/0.3/client2server/dayVote.jsonld](https://werewolf.world/village/example/0.3/client2server/dayVote.jsonld)|
+|nightVote|[https://werewolf.world/village/example/0.3/client2server/nightVote.jsonld](https://werewolf.world/village/example/0.3/client2server/nightVote.jsonld)|
 |scroll|[https://werewolf.world/village/example/0.3/client2server/scroll.jsonld](https://werewolf.world/village/example/0.3/client2server/scroll.jsonld)|
 |error|[https://werewolf.world/village/example/0.3/client2server/error.jsonld](https://werewolf.world/village/example/0.3/client2server/error.jsonld)|
-|onymous-audience-board|[https://werewolf.world/village/example/0.3/client2server/onymous-audience-board.jsonld](https://werewolf.world/village/example/0.3/client2server/onymous-audience-board.jsonld)|
-|onymous-audience-chat|[https://werewolf.world/village/example/0.3/client2server/onymous-audience-chat.jsonld](https://werewolf.world/village/example/0.3/client2server/onymous-audience-chat.jsonld)|
-|onymous-audience-scroll|[https://werewolf.world/village/example/0.3/client2server/onymous-audience-scroll.jsonld](https://werewolf.world/village/example/0.3/client2server/onymous-audience-scroll.jsonld)|
-|anonymous-audience-chat|[https://werewolf.world/village/example/0.3/client2server/anonymous-audience-chat.jsonld](https://werewolf.world/village/example/0.3/client2server/anonymous-audience-chat.jsonld)|
+|onymousAudienceBoard|[https://werewolf.world/village/example/0.3/client2server/onymousAudienceBoard.jsonld](https://werewolf.world/village/example/0.3/client2server/onymousAudienceBoard.jsonld)|
+|onymousAudienceChat|[https://werewolf.world/village/example/0.3/client2server/onymousAudienceChat.jsonld](https://werewolf.world/village/example/0.3/client2server/onymousAudienceChat.jsonld)|
+|onymousAudienceScroll|[https://werewolf.world/village/example/0.3/client2server/onymousAudienceScroll.jsonld](https://werewolf.world/village/example/0.3/client2server/onymousAudienceScroll.jsonld)|
+|anonymousAudienceChat|[https://werewolf.world/village/example/0.3/client2server/anonymousAudienceChat.jsonld](https://werewolf.world/village/example/0.3/client2server/anonymousAudienceChat.jsonld)|
 
 ### board
 
@@ -91,11 +91,11 @@
 
 * "Send a chat message" to "Receive a chat message" in both Day Conversation Phase or Post Mortem Phase
 
-### day-vote
+### dayVote
 
 * "Vote" to "Collect votes" in Day Vote Phase
 
-### night-vote
+### nightVote
 
 * "Vote" to "Collect votes" in Night Phase
 
@@ -113,9 +113,9 @@ Server has to fill concrete values with an extensionalDisclosureRange key in eac
 
 |Example|Directionality|Values|JSON-LD|
 ---|---|---|---
-|night-vote|client to server|blank|[https://werewolf.world/village/example/0.3/client2server/night-vote.jsonld](https://werewolf.world/village/example/0.3/client2server/night-vote.jsonld)|
-|night-vote-for-log|client to server|filled|[https://werewolf.world/village/example/0.3/server2logger/night-vote-for-log.jsonld](https://werewolf.world/village/example/0.3/server2logger/night-vote-for-log.jsonld)|
-|my-message-on-chat|server to client|blank|[https://werewolf.world/village/example/0.3/server2client/my-message-on-chat.jsonld](https://werewolf.world/village/example/0.3/server2client/my-message-on-chat.jsonld)|
-|my-message-on-chat-for-log|server to client|filled|[https://werewolf.world/village/example/0.3/server2logger/my-message-on-chat-for-log.jsonld](https://werewolf.world/village/example/0.3/server2logger/my-message-on-chat-for-log.jsonld)|
+|nightVote|client to server|blank|[https://werewolf.world/village/example/0.3/client2server/nightVote.jsonld](https://werewolf.world/village/example/0.3/client2server/nightVote.jsonld)|
+|nightVoteForLog|client to server|filled|[https://werewolf.world/village/example/0.3/server2logger/nightVoteForLog.jsonld](https://werewolf.world/village/example/0.3/server2logger/nightVoteForLog.jsonld)|
+|myMessageOnChat|server to client|blank|[https://werewolf.world/village/example/0.3/server2client/myMessageOnChat.jsonld](https://werewolf.world/village/example/0.3/server2client/myMessageOnChat.jsonld)|
+|myMessageOnChatForLog|server to client|filled|[https://werewolf.world/village/example/0.3/server2logger/myMessageOnChatForLog.jsonld](https://werewolf.world/village/example/0.3/server2logger/myMessageOnChatForLog.jsonld)|
 
 
