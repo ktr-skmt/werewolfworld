@@ -2,21 +2,13 @@
 
 <img src="image/0.1/master.jpg" alt="master" title="master"> &lt; This is a JSON-LD based protocol for a game of Werewolf. &#124;
 
-## Repository
+Repository [https://github.com/ktr-skmt/werewolfworld](https://github.com/ktr-skmt/werewolfworld)
 
-[https://github.com/ktr-skmt/werewolfworld](https://github.com/ktr-skmt/werewolfworld)
-
-## Issues
-
-[https://github.com/ktr-skmt/werewolfworld/issues](https://github.com/ktr-skmt/werewolfworld/issues)
-
-## Version
+Issues [https://github.com/ktr-skmt/werewolfworld/issues](https://github.com/ktr-skmt/werewolfworld/issues)
 
 The current version is 0.3.
 
-## Update history
-
-See [https://werewolf.world/update-history](http://werewolf.world/update-history)
+Update notes [https://werewolf.world/update-history](http://werewolf.world/update-history)
 
 ## Serialization formats
 
