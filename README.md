@@ -15,7 +15,7 @@ Issues [https://github.com/ktr-skmt/werewolfworld/issues](https://github.com/ktr
 * Unicode UTF-8 (without Byte Order Mark)
   - UTF-8, a transformation format of ISO 10646 [https://tools.ietf.org/html/rfc3629](https://tools.ietf.org/html/rfc3629)
 * JSON
-  - ECMA-404 The JSON Data Interchange Standard http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf
+  - ECMA-404 The JSON Data Interchange Standard [http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf](http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf)
 * JSON Schema
   - JSON Schema Draft 7 [http://json-schema.org/specification-links.html#draft-7](http://json-schema.org/specification-links.html#draft-7)
 * JSON-LD (for the village protocol)
