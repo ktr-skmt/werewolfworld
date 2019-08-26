@@ -24,7 +24,7 @@
                 "day",
                 "night",
                 "result",
-                "post mortem"
+                "post-mortem discussion"
             ],
             "examples": [
                 "flavor text",
@@ -32,7 +32,7 @@
                 "day",
                 "night",
                 "result",
-                "post mortem"
+                "post-mortem discussion"
             ]
         },
         "date": {

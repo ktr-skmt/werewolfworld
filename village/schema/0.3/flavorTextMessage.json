@@ -10,7 +10,7 @@
             "$id": "/properties/flavorText",
             "type": "array",
             "items": {
-                "$ref": "https://werewolf.world/village/schema/0.3/playerMessage.json"
+                "$ref": "https://werewolf.world/village/schema/0.3/chatMessage.json"
             }
         }
     },

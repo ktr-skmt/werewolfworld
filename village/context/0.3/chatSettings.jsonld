@@ -3,12 +3,12 @@
 		"@version": 1.1,
 		"xsd": "http://www.w3.org/2001/XMLSchema#",
         "w3": "https://werewolf.world/resource/0.3/",
-        "limit": {
-			"@id": "w3:limit",
+        "maxNumberOfChatMessages": {
+			"@id": "w3:maxNumberOfChatMessages",
 			"@type": "xsd:integer"
         },
-        "characterLimit": {
-			"@id": "w3:characterLimit",
+        "maxLengthOfUnicodeCodePoints": {
+			"@id": "w3:maxLengthOfUnicodeCodePoints",
 			"@type": "xsd:integer"
         }
     }

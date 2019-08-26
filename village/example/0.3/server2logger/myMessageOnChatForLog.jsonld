@@ -3,7 +3,7 @@
 		"https://werewolf.world/village/context/0.3/base.jsonld",
 		"https://werewolf.world/village/context/0.3/chat.jsonld"
 	],
-	"@id": "https://licos.online/state/0.3/village#3/playerMessage",
+	"@id": "https://licos.online/state/0.3/village#3/chatMessage",
 
 	"village": {
 		"@context": "https://werewolf.world/village/context/0.3/village.jsonld",
@@ -15,8 +15,8 @@
 		"chatSettings": {
 			"@context": "https://werewolf.world/village/context/0.3/chatSettings.jsonld",
 			"@id": "https://licos.online/state/0.3/village#3/chatSettings",
-			"limit": 10,
-			"characterLimit": 140
+			"maxNumberOfChatMessages": 10,
+			"maxLengthOfUnicodeCodePoints": 140
 		}
 	},
 	"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
@@ -359,12 +359,12 @@
 	},
 	"id": 12,
 	"counter": 7,
-	"limit": 10,
+	"maxNumberOfChatMessages": 10,
 	"interval": "5s",
 	"text": {
 		"@value": ">>11\nそれで、あなたは人狼が誰だと思うの？\n\n私はパメラが人狼だと思う。",
 		"@language": "ja"
 	},
-	"characterLimit": 140,
+	"maxLengthOfUnicodeCodePoints": 140,
 	"isOver": false
 }

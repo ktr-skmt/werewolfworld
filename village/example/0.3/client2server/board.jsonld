@@ -15,8 +15,8 @@
 		"chatSettings": {
 			"@context": "https://werewolf.world/village/context/0.3/chatSettings.jsonld",
 			"@id": "https://licos.online/state/0.3/village#3/chatSettings",
-			"limit": 10,
-			"characterLimit": 140
+			"maxNumberOfChatMessages": 10,
+			"maxLengthUnicodeCodePoints": 140
 		}
 	},
 	"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",

@@ -36,10 +36,10 @@
                 0
             ]
         },
-        "limit": {
-            "title": "Chat Limit",
-            "description": "chat limit",
-            "$id": "/definitions/limit",
+        "maxNumberOfChatMessages": {
+            "title": "Max Number Of Chat Messages",
+            "description": "max number of chat messages",
+            "$id": "/definitions/maxNumberOfChatMessages",
             "type": "integer",
             "minimum": 1,
             "examples": [
@@ -101,10 +101,10 @@
                 "@language"
             ]
         },
-        "characterLimit": {
-            "title": "Character Limit",
-            "description": "character limit",
-            "$id": "/definitions/characterLimit",
+        "maxLengthOfUnicodeCodePoints": {
+            "title": "Max Length of Unicode Code Points",
+            "description": "max length of unicode points",
+            "$id": "/definitions/maxLengthOfUnicodeCodePoints",
             "type": "integer",
             "default": 140,
             "examples": [

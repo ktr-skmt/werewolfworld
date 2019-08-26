@@ -15,12 +15,12 @@
 		"chatSettings": {
 			"@context": "https://werewolf.world/village/context/0.3/chatSettings.jsonld",
 			"@id": "https://licos.online/state/0.3/village#3/chatSettings",
-			"limit": 10,
-			"characterLimit": 140
+			"maxNumberOfChatMessages": 10,
+			"maxLengthOfUnicodeCodePoints": 140
 		}
 	},
 	"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
-	"phase": "post mortem",
+	"phase": "post-mortem discussion",
 	"date": 0,
 	"phaseTimeLimit": 86400,
 	"phaseStartTime": "2006-10-07T12:06:56.568+09:00",

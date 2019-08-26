@@ -10,10 +10,10 @@
 		"character": "w3:character",
 		"id": "w3:chatId",
 		"counter": "w3:chatCounter",
-		"limit": "w3:chatLimit",
+		"maxNumberOfChatMessages": "w3:chatMaxNumberOfChatMessages",
 		"interval": "w3:chatInterval",
 		"text": "w3:chatText",
-		"characterLimit": "w3:chatCharacterLimit",
+		"maxLengthOfUnicodeCodePoints": "w3:chatMaxLengthOfUnicodeCodePoints",
 		"isOver": "w3:chatIsOver",
 		"isFromServer": "w3:chatIsFromServer"
 	}
