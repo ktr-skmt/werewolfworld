@@ -24,7 +24,7 @@
 |dayVote|[https://werewolf.world/village/example/0.3/server2client/day.jsonld](https://werewolf.world/village/example/0.3/server2client/day.jsonld)|
 |night|[https://werewolf.world/village/example/0.3/server2client/night.jsonld](https://werewolf.world/village/example/0.3/server2client/night.jsonld)|
 |result|[https://werewolf.world/village/example/0.3/server2client/result.jsonld](https://werewolf.world/village/example/0.3/server2client/result.jsonld)|
-|postMortem|[https://werewolf.world/village/example/0.3/server2client/postMortem.jsonld](https://werewolf.world/village/example/0.3/server2client/postMortem.jsonld)|
+|postMortemDiscussion|[https://werewolf.world/village/example/0.3/server2client/postMortemDiscussion.jsonld](https://werewolf.world/village/example/0.3/server2client/postMortemDiscussion.jsonld)|
 |myMessageOnChat|[https://werewolf.world/village/example/0.3/server2client/myMessageOnChat.jsonld](https://werewolf.world/village/example/0.3/server2client/myMessageOnChat.jsonld)|
 |theirMessageOnChat|[https://werewolf.world/village/example/0.3/server2client/theirMessageOnChat.jsonld](https://werewolf.world/village/example/0.3/server2client/theirMessageOnChat.jsonld)|
 |error|[https://werewolf.world/village/example/0.3/server2client/error.jsonld](https://werewolf.world/village/example/0.3/server2client/error.jsonld)|
@@ -52,9 +52,9 @@
 
 * "Send results" to "Display results in a modal"
 
-### postMortem
+### postMortemDiscussion
 
-* "Start post mortem phase" to "Display"
+* "Start post-mortem discussion phase" to "Display"
 
 ### myMessageOnChat
 
