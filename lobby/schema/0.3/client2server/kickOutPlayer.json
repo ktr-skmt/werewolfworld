@@ -1,0 +1,59 @@
+{
+  "title": "werewolf.world: Schema of kickOutPlayer.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://werewolf.world/lobby/schema/0.3/client2server/kickOutPlayer.json",
+  "definitions": {},
+  "type": "object",
+  "properties": {
+    "type": {
+      "title": "Type",
+      "description": "type",
+      "$id": "/properties/type",
+      "type": "string",
+      "pattern": "^kickOutPlayer$",
+      "default": "kickOutPlayer",
+      "examples": [
+        "kickOutPlayer"
+      ]
+    },
+    "token": {
+      "title": "User Token",
+      "description": "GUID",
+      "$id": "/properties/token",
+      "type": "string",
+      "pattern": "^[0-9A-Fa-f]{8}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{12}$",
+      "examples": [
+        "3F2504E0-4F89-11D3-9A0C-0305E82C3300"
+      ]
+    },
+    "players": {
+      "title": "Players",
+      "description": "players",
+      "$id": "/properties/players",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "token": {
+            "title": "User Token",
+            "description": "GUID",
+            "$id": "/properties/players/items/properties/token",
+            "type": "string",
+            "pattern": "^[0-9A-Fa-f]{8}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{12}$",
+            "examples": [
+              "3F2504E0-4F89-11D3-9A0C-0305E82C3301"
+            ]
+          }
+        },
+        "required": [
+          "token"
+        ]
+      }
+    }
+  },
+  "required": [
+    "type",
+    "token",
+    "players"
+  ]
+}

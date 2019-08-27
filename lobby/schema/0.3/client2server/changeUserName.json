@@ -1,0 +1,36 @@
+{
+  "title": "werewolf.world: Schema of changeUserName.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://werewolf.world/lobby/schema/0.3/client2server/changeUserName.json",
+  "definitions": {},
+  "type": "object",
+  "properties": {
+    "type": {
+      "title": "Type",
+      "description": "type",
+      "$id": "/properties/type",
+      "type": "string",
+      "pattern": "^changeUserName$",
+      "default": "changeUserName",
+      "examples": [
+        "changeUserName"
+      ]
+    },
+    "userName": {
+      "title": "User's Name",
+      "description": "User's name",
+      "$id": "/properties/userName",
+      "type": "string",
+      "minLength": 5,
+      "maxLength": 15,
+      "default": "Anonymous",
+      "examples": [
+        "Ken Hirai"
+      ]
+    }
+  },
+  "required": [
+    "type",
+    "userName"
+  ]
+}

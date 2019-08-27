@@ -1,0 +1,105 @@
+{
+  "type": "waitingPage",
+  "village": {
+    "name": "Fairytale village",
+    "id": 1,
+    "idForSearching": 123,
+    "hostPlayer": {
+      "name": "Anonymous",
+      "isAnonymous": true,
+      "isHuman": true
+    },
+    "playerSetting": {
+      "number": 15,
+      "current": 8,
+      "robot": {
+        "min": 7,
+        "current": 3
+      },
+      "human": {
+        "max": 8,
+        "current": 5
+      }
+    },
+    "roleSetting": {  
+      "villager": 6,
+      "werewolf": 2,
+      "seer": 1,
+      "medium": 1,
+      "madman": 1,
+      "hunter": 1,
+      "mason": 2,
+      "werehamster": 1
+    },
+    "avatar": "random",
+    "comment": "Experts recommended"
+  },
+
+  "players": [
+    {
+      "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3301",
+      "name": "Anonymous",
+      "avatarImage": "/assets/images/avatar/default/user.png",
+      "isAnonymous": true,
+      "isHost": true,
+      "isMe": false
+    },
+    {
+      "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3301",
+      "name": "Cathy",
+      "avatarImage": "https://werewolf.world/image/0.1/Friedel.jpg",
+      "isAnonymous": true,
+      "isHost": false,
+      "isMe": true
+    },
+    {
+      "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3301",
+      "name": "Anonymous",
+      "avatarImage": "/assets/images/avatar/default/user.png",
+      "isAnonymous": true,
+      "isHost": false,
+      "isMe": false
+    },
+    {
+      "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3302",
+      "name": "Anonymous",
+      "avatarImage": "/assets/images/avatar/default/user.png",
+      "isAnonymous": true,
+      "isHost": false,
+      "isMe": false
+    },
+    {
+      "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3303",
+      "name": "Anonymous",
+      "avatarImage": "/assets/images/avatar/default/user.png",
+      "isAnonymous": true,
+      "isHost": false,
+      "isMe": false
+    },
+    {
+      "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3304",
+      "name": "Anonymous",
+      "avatarImage": "/assets/images/avatar/default/user.png",
+      "isAnonymous": true,
+      "isHost": false,
+      "isMe": false
+    },
+    {
+      "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3305",
+      "name": "Anonymous",
+      "avatarImage": "/assets/images/avatar/default/user.png",
+      "isAnonymous": true,
+      "isHost": false,
+      "isMe": false
+    },
+    {
+      "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3306",
+      "name": "Anonymous",
+      "avatarImage": "/assets/images/avatar/default/user.png",
+      "isAnonymous": true,
+      "isHost": false,
+      "isMe": false
+    }
+  ],
+  "error": null
+}
