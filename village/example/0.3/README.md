@@ -21,7 +21,7 @@
 ---|---
 |firstMorning|[https://werewolf.world/village/example/0.3/server2client/firstMorning.jsonld](https://werewolf.world/village/example/0.3/server2client/firstMorning.jsonld)|
 |morning|[https://werewolf.world/village/example/0.3/server2client/morning.jsonld](https://werewolf.world/village/example/0.3/server2client/morning.jsonld)|
-|dayVote|[https://werewolf.world/village/example/0.3/server2client/day.jsonld](https://werewolf.world/village/example/0.3/server2client/day.jsonld)|
+|noonVote|[https://werewolf.world/village/example/0.3/server2client/noon.jsonld](https://werewolf.world/village/example/0.3/server2client/day.jsonld)|
 |night|[https://werewolf.world/village/example/0.3/server2client/night.jsonld](https://werewolf.world/village/example/0.3/server2client/night.jsonld)|
 |result|[https://werewolf.world/village/example/0.3/server2client/result.jsonld](https://werewolf.world/village/example/0.3/server2client/result.jsonld)|
 |postMortemDiscussion|[https://werewolf.world/village/example/0.3/server2client/postMortemDiscussion.jsonld](https://werewolf.world/village/example/0.3/server2client/postMortemDiscussion.jsonld)|
@@ -40,9 +40,9 @@
 
 * "Start day conversation phase" to "Display" and "Move to grave"
 
-### day
+### noon
 
-* "Start day vote phase" to "Display" and "Move to grave"
+* "Start noon vote phase" to "Display" and "Move to grave"
 
 ### night
 
@@ -74,7 +74,7 @@
 ---|---
 |board|[https://werewolf.world/village/example/0.3/client2server/board.jsonld](https://werewolf.world/village/example/0.3/client2server/board.jsonld)|
 |chat|[https://werewolf.world/village/example/0.3/client2server/chat.jsonld](https://werewolf.world/village/example/0.3/client2server/chat.jsonld)|
-|dayVote|[https://werewolf.world/village/example/0.3/client2server/dayVote.jsonld](https://werewolf.world/village/example/0.3/client2server/dayVote.jsonld)|
+|noonVote|[https://werewolf.world/village/example/0.3/client2server/noonVote.jsonld](https://werewolf.world/village/example/0.3/client2server/dayVote.jsonld)|
 |nightVote|[https://werewolf.world/village/example/0.3/client2server/nightVote.jsonld](https://werewolf.world/village/example/0.3/client2server/nightVote.jsonld)|
 |scroll|[https://werewolf.world/village/example/0.3/client2server/scroll.jsonld](https://werewolf.world/village/example/0.3/client2server/scroll.jsonld)|
 |error|[https://werewolf.world/village/example/0.3/client2server/error.jsonld](https://werewolf.world/village/example/0.3/client2server/error.jsonld)|
@@ -91,9 +91,9 @@
 
 * "Send a chat message" to "Receive a chat message" in both Day Conversation Phase or Post Mortem Phase
 
-### dayVote
+### noonVote
 
-* "Vote" to "Collect votes" in Day Vote Phase
+* "Vote" to "Collect votes" in Noon Vote Phase
 
 ### nightVote
 
