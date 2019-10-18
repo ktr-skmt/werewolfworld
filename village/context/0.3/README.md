@@ -37,7 +37,7 @@
 |https://werewolf.world/resource/0.3/villageId|xsd:integer|0 <=|
 |https://werewolf.world/resource/0.3/villageName||5 <= {# of Unicode code points} <= 30|
 |https://werewolf.world/resource/0.3/totalNumberOfCharacters|xsd:integer|4 <=|
-|https://werewolf.world/resource/0.3/phase||'morning', 'day', 'night', 'result', 'post mortem'|
+|https://werewolf.world/resource/0.3/phase||'morning', 'noon', 'night', 'result', 'post mortem'|
 |https://werewolf.world/resource/0.3/date|xsd:integer|-1 <=, 0 when phase were post mortem, -1 when phase were result|
 |https://werewolf.world/resource/0.3/phaseTimeLimit|xsd:integer|if nothing, -1. otherwise, how many seconds|
 |https://werewolf.world/resource/0.3/phaseStartTime|xsd:dateTime|such as '2006-10-07T12:06:56.568+09:00'|
