@@ -21,7 +21,7 @@
 ---|---
 |firstMorning|[https://werewolf.world/village/example/0.3/server2client/firstMorning.jsonld](https://werewolf.world/village/example/0.3/server2client/firstMorning.jsonld)|
 |morning|[https://werewolf.world/village/example/0.3/server2client/morning.jsonld](https://werewolf.world/village/example/0.3/server2client/morning.jsonld)|
-|noonVote|[https://werewolf.world/village/example/0.3/server2client/noon.jsonld](https://werewolf.world/village/example/0.3/server2client/day.jsonld)|
+|noonVote|[https://werewolf.world/village/example/0.3/server2client/noon.jsonld](https://werewolf.world/village/example/0.3/server2client/noon.jsonld)|
 |night|[https://werewolf.world/village/example/0.3/server2client/night.jsonld](https://werewolf.world/village/example/0.3/server2client/night.jsonld)|
 |result|[https://werewolf.world/village/example/0.3/server2client/result.jsonld](https://werewolf.world/village/example/0.3/server2client/result.jsonld)|
 |postMortemDiscussion|[https://werewolf.world/village/example/0.3/server2client/postMortemDiscussion.jsonld](https://werewolf.world/village/example/0.3/server2client/postMortemDiscussion.jsonld)|
@@ -74,7 +74,7 @@
 ---|---
 |board|[https://werewolf.world/village/example/0.3/client2server/board.jsonld](https://werewolf.world/village/example/0.3/client2server/board.jsonld)|
 |chat|[https://werewolf.world/village/example/0.3/client2server/chat.jsonld](https://werewolf.world/village/example/0.3/client2server/chat.jsonld)|
-|noonVote|[https://werewolf.world/village/example/0.3/client2server/noonVote.jsonld](https://werewolf.world/village/example/0.3/client2server/dayVote.jsonld)|
+|noonVote|[https://werewolf.world/village/example/0.3/client2server/noonVote.jsonld](https://werewolf.world/village/example/0.3/client2server/noonVote.jsonld)|
 |nightVote|[https://werewolf.world/village/example/0.3/client2server/nightVote.jsonld](https://werewolf.world/village/example/0.3/client2server/nightVote.jsonld)|
 |scroll|[https://werewolf.world/village/example/0.3/client2server/scroll.jsonld](https://werewolf.world/village/example/0.3/client2server/scroll.jsonld)|
 |error|[https://werewolf.world/village/example/0.3/client2server/error.jsonld](https://werewolf.world/village/example/0.3/client2server/error.jsonld)|
