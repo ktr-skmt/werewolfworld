@@ -21,7 +21,7 @@
             "enum": [
                 "flavor text",
                 "morning",
-                "day",
+                "noon",
                 "night",
                 "result",
                 "post-mortem discussion"
@@ -29,7 +29,7 @@
             "examples": [
                 "flavor text",
                 "morning",
-                "day",
+                "noon",
                 "night",
                 "result",
                 "post-mortem discussion"
