@@ -1,0 +1,29 @@
+{
+    "@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+    "@id": "https://licos.online/state/0.3/village#3/character#0",
+    "isMine": false,
+    "name": {
+        "en": "Gert",
+        "ja": "ゲルト"
+    },
+    "image": "https://werewolf.world/image/0.3/Gert.jpg",
+    "id": 0,
+    "role": {
+        "@context": "https://werewolf.world/village/context/0.3/role.jsonld",
+        "@id": "https://licos.online/state/0.3/village#3/character#0/role",
+        "name": {
+            "en": "Villager",
+            "ja": "村人"
+        },
+        "image": "https://werewolf.world/image/0.3/villager.jpg"
+    },
+    "status": "alive",
+    "result": "win",
+    "avatar": {
+        "@context": "https://werewolf.world/village/context/0.3/avatar.jsonld",
+        "@id": "https://licos.online/state/0.3/village#3/character#0/avatar",
+        "token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
+        "name": "Sato",
+        "image": "https://werewolf.world/image/0.3/Nicholas.jpg"
+    }
+}

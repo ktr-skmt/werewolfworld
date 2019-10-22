@@ -1,0 +1,21 @@
+{
+    "@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+    "@id": "https://licos.online/state/0.3/village#3/extensionalDisclosureRange/character#1",
+    "name": {
+        "en": "Walter",
+        "ja": "ヴァルター"
+    },
+    "image": "https://werewolf.world/image/0.3/Walter.jpg",
+    "id": 1,
+    "role": {
+        "@context": "https://werewolf.world/village/context/0.3/role.jsonld",
+        "@id": "https://licos.online/state/0.3/village#3/extensionalDisclosureRange/character#1/role",
+        "name": {
+            "en": "Seer",
+            "ja": "占い師"
+        },
+        "image": "https://werewolf.world/image/0.3/seer.jpg"
+    },
+    "status": "alive",
+    "isHumanPlayer": true
+}

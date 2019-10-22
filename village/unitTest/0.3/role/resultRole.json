@@ -1,0 +1,73 @@
+{
+    "@context": "https://werewolf.world/village/context/0.3/role.jsonld",
+    "@id": "https://licos.online/state/0.3/village#3/role#villager",
+    "isMine": false,
+    "name": {
+        "en": "Villager",
+        "ja": "村人"
+    },
+    "image": "https://werewolf.world/image/0.3/villager.jpg",
+    "numberOfCharacters": 6,
+    "character": [
+        {
+            "@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+            "@id": "https://licos.online/state/0.3/village#3/role#villager/character#0",
+            "id": 0,
+            "name": {
+                "en": "Gert",
+                "ja": "ゲルト"
+            },
+            "image": "https://werewolf.world/image/0.3/Gert.jpg"
+        },
+        {
+            "@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+            "@id": "https://licos.online/state/0.3/village#3/role#villager/character#8",
+            "id": 8,
+            "name": {
+                "en": "Lisa",
+                "ja": "リーザ"
+            },
+            "image": "https://werewolf.world/image/0.3/Lisa.jpg"
+        },
+        {
+            "@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+            "@id": "https://licos.online/state/0.3/village#3/role#villager/character#9",
+            "id": 9,
+            "name": {
+                "en": "Alvin",
+                "ja": "アルビン"
+            },
+            "image": "https://werewolf.world/image/0.3/Alvin.jpg"
+        },
+        {
+            "@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+            "@id": "https://licos.online/state/0.3/village#3/role#villager/character#12",
+            "id": 12,
+            "name": {
+                "en": "Joachim",
+                "ja": "ヨアヒム"
+            },
+            "image": "https://werewolf.world/image/0.3/Joachim.jpg"
+        },
+        {
+            "@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+            "@id": "https://licos.online/state/0.3/village#3/role#villager/character#13",
+            "id": 13,
+            "name": {
+                "en": "Pamela",
+                "ja": "パメラ"
+            },
+            "image": "https://werewolf.world/image/0.3/Pamela.jpg"
+        },
+        {
+            "@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+            "@id": "https://licos.online/state/0.3/village#3/role#villager/character#14",
+            "id": 14,
+            "name": {
+                "en": "Jacob",
+                "ja": "ヤコブ"
+            },
+            "image": "https://werewolf.world/image/0.3/Jacob.jpg"
+        }
+    ]
+}

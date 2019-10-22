@@ -1,0 +1,9 @@
+{
+    "@context": "https://werewolf.world/village/context/0.3/role.jsonld",
+    "@id": "https://licos.online/state/0.3/village#3/role",
+    "name": {
+        "en": "Madman",
+        "ja": "狂人"
+    },
+    "image": "https://werewolf.world/image/0.3/madman.jpg"
+}

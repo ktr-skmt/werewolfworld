@@ -1,0 +1,14 @@
+{
+    "avatar": {
+        "@context": "https://werewolf.world/village/context/0.3/avatar.jsonld",
+        "@id": "https://licos.online/state/0.3/village#3/avatar",
+        "token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
+        "name": "Katoh",
+        "image": "https://werewolf.world/image/0.3/Regina.jpg"
+    },
+    
+    "nodeId": "scrollNode",
+    "scrollTop": 100,
+    "scrollHeight": 120,
+    "offsetHeight": 10
+}

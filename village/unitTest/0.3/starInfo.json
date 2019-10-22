@@ -1,0 +1,8 @@
+{
+    "@context": "https://werewolf.world/village/context/0.3/star.jsonld",
+    "@id": "https://licos.online/state/0.3/village#3/star",
+    "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3301",
+    "serverTimestamp": "2006-10-07T12:06:56.568+09:00",
+    "clientTimestamp": "2006-10-07T12:06:56.568+09:00",
+    "isMarked": true
+}

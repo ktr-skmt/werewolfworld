@@ -1,0 +1,23 @@
+{
+    "@id": "https://licos.online/state/0.3/village#3/votingResultsDetails#1-2",
+    "sourceCharacter": {
+        "@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+        "@id": "https://licos.online/state/0.3/village#3/votingResultsDetails#1-2/character#1",
+        "id": 1,
+        "name": {
+            "en": "Walter",
+            "ja": "ヴァルター"
+        },
+        "image": "https://werewolf.world/image/0.3/Walter.jpg"
+    },
+    "targetCharacter": {
+        "@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+        "@id": "https://licos.online/state/0.3/village#3/votingResultsDetails#1-2/character#2",
+        "id": 2,
+        "name": {
+            "en": "Moritz",
+            "ja": "モーリッツ"
+        },
+        "image": "https://werewolf.world/image/0.3/Moritz.jpg"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+    "@id": "https://licos.online/state/0.3/village#3/votingResultsSummary#1/character#1",
+    "id": 1,
+    "name": {
+        "en": "Walter",
+        "ja": "ヴァルター"
+    },
+    "image": "https://werewolf.world/image/0.3/Walter.jpg"
+}

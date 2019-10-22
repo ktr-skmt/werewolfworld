@@ -1,0 +1,14 @@
+{
+    "@context": "https://werewolf.world/village/context/0.3/village.jsonld",
+    "@id": "https://licos.online/state/0.3/village",
+    "id": 3,
+    "name": "横国の森の奥にある時代に取り残された小さな村",
+    "totalNumberOfCharacters": 15,
+    "lang": "ja",
+    "chatSettings": {
+        "@context": "https://werewolf.world/village/context/0.3/chatSettings.jsonld",
+        "@id": "https://licos.online/state/0.3/village#3/chatSettings",
+        "maxNumberOfChatMessages": 10,
+        "maxLengthOfUnicodeCodePoints": 140
+    }
+}

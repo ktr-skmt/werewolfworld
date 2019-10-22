@@ -1,0 +1,23 @@
+{
+    "character": {
+		"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+		"@id": "https://licos.online/state/0.3/village#3/character",
+		"id": 1,
+		"name": {
+			"en": "Walter",
+			"ja": "ヴァルター"
+		},
+		"image": "https://werewolf.world/image/0.3/Walter.jpg"
+	},
+	"isMine": true,
+	"id": 12,
+	"counter": 7,
+	"maxNumberOfChatMessages": 10,
+	"interval": "5s",
+	"text": {
+		"@value": ">>11\nそれで、あなたは人狼が誰だと思うの？\n\n私はパメラが人狼だと思う。",
+		"@language": "ja"
+	},
+	"maxLengthOfUnicodeCodePoints": 140,
+	"isOver": false
+}
