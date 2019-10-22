@@ -21,7 +21,7 @@
 	},
 	"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
 	"phase": "post-mortem discussion",
-	"date": 0,
+	"day": 0,
 	"phaseTimeLimit": 86400,
 	"phaseStartTime": "2006-10-07T12:06:56.568+09:00",
 	"serverTimestamp": "2006-10-07T12:06:56.568+09:00",
@@ -48,7 +48,7 @@
 			"update": {
 				"@id": "https://licos.online/state/0.3/village#3/character#0/update",
 				"phase": "noon",
-				"date": 1
+				"day": 1
 			},
 			"isAChoice": false
 		},
@@ -66,7 +66,7 @@
 			"update": {
 				"@id": "https://licos.online/state/0.3/village#3/character#1/update",
 				"phase": "morning",
-				"date": 1
+				"day": 1
 			},
 			"isAChoice": false
 		},
@@ -84,7 +84,7 @@
 			"update": {
 				"@id": "https://licos.online/state/0.3/village#3/character#2/update",
 				"phase": "morning",
-				"date": 1
+				"day": 1
 			},
 			"isAChoice": false
 		},
@@ -102,7 +102,7 @@
 			"update": {
 				"@id": "https://licos.online/state/0.3/village#3/character#3/update",
 				"phase": "morning",
-				"date": 1
+				"day": 1
 			},
 			"isAChoice": false
 		},
@@ -120,7 +120,7 @@
 			"update": {
 				"@id": "https://licos.online/state/0.3/village#3/character#4/update",
 				"phase": "morning",
-				"date": 1
+				"day": 1
 			},
 			"isAChoice": false
 		},
@@ -138,7 +138,7 @@
 			"update": {
 				"@id": "https://licos.online/state/0.3/village#3/character#5/update",
 				"phase": "morning",
-				"date": 1
+				"day": 1
 			},
 			"isAChoice": false
 		},
@@ -156,7 +156,7 @@
 			"update": {
 				"@id": "https://licos.online/state/0.3/village#3/character#6/update",
 				"phase": "morning",
-				"date": 1
+				"day": 1
 			},
 			"isAChoice": false
 		},
@@ -174,7 +174,7 @@
 			"update": {
 				"@id": "https://licos.online/state/0.3/village#3/character#7/update",
 				"phase": "morning",
-				"date": 1
+				"day": 1
 			},
 			"isAChoice": false
 		},
@@ -192,7 +192,7 @@
 			"update": {
 				"@id": "https://licos.online/state/0.3/village#3/character#8/update",
 				"phase": "night",
-				"date": 1
+				"day": 1
 			},
 			"isAChoice": false
 		},
@@ -210,7 +210,7 @@
 			"update": {
 				"@id": "https://licos.online/state/0.3/village#3/character#9/update",
 				"phase": "morning",
-				"date": 1
+				"day": 1
 			},
 			"isAChoice": false
 		},
@@ -228,7 +228,7 @@
 			"update": {
 				"@id": "https://licos.online/state/0.3/village#3/character#10/update",
 				"phase": "morning",
-				"date": 1
+				"day": 1
 			},
 			"isAChoice": false
 		},
@@ -246,7 +246,7 @@
 			"update": {
 				"@id": "https://licos.online/state/0.3/village#3/character#11/update",
 				"phase": "morning",
-				"date": 1
+				"day": 1
 			},
 			"isAChoice": false
 		},
@@ -264,7 +264,7 @@
 			"update": {
 				"@id": "https://licos.online/state/0.3/village#3/character#12/update",
 				"phase": "morning",
-				"date": 1
+				"day": 1
 			},
 			"isAChoice": false
 		},
@@ -282,7 +282,7 @@
 			"update": {
 				"@id": "https://licos.online/state/0.3/village#3/character#13/update",
 				"phase": "morning",
-				"date": 1
+				"day": 1
 			},
 			"isAChoice": false
 		},
@@ -300,7 +300,7 @@
 			"update": {
 				"@id": "https://licos.online/state/0.3/village#3/character#14",
 				"phase": "morning",
-				"date": 1
+				"day": 1
 			},
 			"isAChoice": false
 		}
@@ -345,7 +345,7 @@
 					},
 					"polarity": "negative",
 					"phase": "morning",
-					"date": 1
+					"day": 1
 				}
 			]
 		},
@@ -375,7 +375,7 @@
 					},
 					"polarity": "positive",
 					"phase": "morning",
-					"date": 1
+					"day": 1
 				}
 			]
 		},
@@ -405,7 +405,7 @@
 					},
 					"polarity": "negative",
 					"phase": "morning",
-					"date": 1
+					"day": 1
 				}
 			]
 		},
@@ -435,7 +435,7 @@
 					},
 					"polarity": "negative",
 					"phase": "morning",
-					"date": 1
+					"day": 1
 				}
 			]
 		},
@@ -465,7 +465,7 @@
 					},
 					"polarity": "negative",
 					"phase": "morning",
-					"date": 1
+					"day": 1
 				}
 			]
 		},
@@ -495,7 +495,7 @@
 					},
 					"polarity": "negative",
 					"phase": "morning",
-					"date": 1
+					"day": 1
 				}
 			]
 		},
@@ -525,7 +525,7 @@
 					},
 					"polarity": "negative",
 					"phase": "morning",
-					"date": 1
+					"day": 1
 				}
 			]
 		},
@@ -555,7 +555,7 @@
 					},
 					"polarity": "negative",
 					"phase": "morning",
-					"date": 1
+					"day": 1
 				}
 			]
 		}
