@@ -236,7 +236,7 @@
                                 "phase": {
                                     "$ref": "https://werewolf.world/village/schema/0.3/time.json"
                                 },
-                                "date": {
+                                "day": {
                                     "$ref": "https://werewolf.world/village/schema/0.3/time.json"
                                 }
                             },
@@ -246,7 +246,7 @@
                                 "character",
                                 "polarity",
                                 "phase",
-                                "date"
+                                "day"
                             ]
                         }
                     }
@@ -273,7 +273,7 @@
         "village",
         "token",
         "phase",
-        "date",
+        "day",
         "phaseTimeLimit",
         "phaseStartTime",
         "serverTimestamp",
