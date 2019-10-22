@@ -25,7 +25,7 @@
         "village",
         "token",
         "phase",
-        "date",
+        "day",
         "phaseTimeLimit",
         "phaseStartTime",
         "serverTimestamp",
