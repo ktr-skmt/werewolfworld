@@ -6,8 +6,8 @@
 		"village": "w3:village",
 		"token": "w3:token",
 		"phase": "w3:phase",
-		"date": {
-			"@id": "w3:date",
+		"day": {
+			"@id": "w3:day",
 			"@type": "xsd:integer"
 		},
 		"phaseTimeLimit": {
