@@ -35,10 +35,10 @@
                 "post-mortem discussion"
             ]
         },
-        "date": {
-            "title": "Date",
-            "description": "date",
-            "$id": "/definitions/date",
+        "day": {
+            "title": "Day",
+            "description": "day",
+            "$id": "/definitions/day",
             "type": "integer",
             "minimum": -1,
             "maximum": 13,
