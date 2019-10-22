@@ -241,14 +241,14 @@
                 "phase": {
                     "$ref": "https://werewolf.world/village/schema/0.3/time.json"
                 },
-                "date": {
+                "day": {
                     "$ref": "https://werewolf.world/village/schema/0.3/time.json"
                 }
             },
             "required": [
                 "@id",
                 "phase",
-                "date"
+                "day"
             ]
         },
         "isAChoice": {
