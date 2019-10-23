@@ -22,7 +22,7 @@
 	"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
 	"phase": "morning",
 	"day": 1,
-	"phaseTimeLimit": "10m",
+	"phaseTimeLimit": 600,
 	"phaseStartTime": "2006-10-07T12:06:56.568+09:00",
 	"serverTimestamp": "2006-10-07T12:06:56.568+09:00",
 	"clientTimestamp": "2006-10-07T12:06:56.568+09:00",
