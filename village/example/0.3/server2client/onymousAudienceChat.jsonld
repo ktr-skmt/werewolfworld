@@ -42,5 +42,5 @@
 		"@language": "ja"
 	},
 	"maxLengthOfUnicodeCodePoints": 140,
-	"isFromServer": false
+	"isFromServer": true
 }
