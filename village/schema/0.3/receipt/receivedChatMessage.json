@@ -1,7 +1,7 @@
 { 
-    "title": "werewolf.world: Schema of receipt/receivedPlayerMessage.json",
+    "title": "werewolf.world: Schema of receipt/receivedChatMessage.json",
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://werewolf.world/village/schema/0.3/receipt/receivedPlayerMessage.json",
+    "$id": "https://werewolf.world/village/schema/0.3/receipt/receivedChatMessage.json",
     "definitions": {},
     "type": "object",
     "properties": {
@@ -10,10 +10,10 @@
             "description": "type",
             "$id": "/properties/type",
             "type": "string",
-            "pattern": "^receivedPlayerMessage$",
-            "default": "receivedPlayerMessage",
+            "pattern": "^receivedChatMessage$",
+            "default": "receivedChatMessage",
             "examples": [
-                "receivedPlayerMessage"
+                "receivedChatMessage"
             ]
         },
         "token": {
