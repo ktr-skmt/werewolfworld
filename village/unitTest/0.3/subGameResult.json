@@ -112,7 +112,7 @@
 				"@context": "https://werewolf.world/village/context/0.3/avatar.jsonld",
 				"@id": "https://licos.online/state/0.3/village#3/character#4/avatar",
 				"token": "3F2504E0-4F89-11D3-9A0C-0305E82C3305",
-				"name": "Ito",
+				"name": "Itooh",
 				"image": "https://werewolf.world/image/0.3/character_icons/50x50/f_50x50.png"
 			}
 		},
@@ -344,7 +344,7 @@
 				"@context": "https://werewolf.world/village/context/0.3/avatar.jsonld",
 				"@id": "https://licos.online/state/0.3/village#3/character#12/avatar",
 				"token": "3F2504E0-4F89-11D3-9A0C-0305E82C3313",
-				"name": "山口",
+				"name": "Yamaguchi",
 				"image": "https://werewolf.world/image/0.3/character_icons/50x50/m_50x50.png"
 			}
 		},
@@ -373,7 +373,7 @@
 				"@context": "https://werewolf.world/village/context/0.3/avatar.jsonld",
 				"@id": "https://licos.online/state/0.3/village#3/character#13/avatar",
 				"token": "3F2504E0-4F89-11D3-9A0C-0305E82C3314",
-				"name": "松本",
+				"name": "Matsumoto",
 				"image": "https://werewolf.world/image/0.3/character_icons/50x50/n_50x50.png"
 			}
 		},
@@ -402,7 +402,7 @@
 				"@context": "https://werewolf.world/village/context/0.3/avatar.jsonld",
 				"@id": "https://licos.online/state/0.3/village#3/character#14/avatar",
 				"token": "3F2504E0-4F89-11D3-9A0C-0305E82C3315",
-				"name": "井上",
+				"name": "Inoue",
 				"image": "https://werewolf.world/image/0.3/character_icons/50x50/o_50x50.png"
 			}
 		},
@@ -431,7 +431,7 @@
 				"@context": "https://werewolf.world/village/context/0.3/avatar.jsonld",
 				"@id": "https://licos.online/state/0.3/village#3/character#15/avatar",
 				"token": "3F2504E0-4F89-11D3-9A0C-0305E82C3301",
-				"name": "Sato",
+				"name": "Satou",
 				"image": "https://werewolf.world/image/0.3/character_icons/50x50/b_50x50.png"
 			}
 		}
@@ -463,8 +463,8 @@
 			"character": [
 				{
 					"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
-					"@id": "https://licos.online/state/0.3/village#3/role#villager/character#0",
-					"id": 0,
+					"@id": "https://licos.online/state/0.3/village#3/role#villager/character#15",
+					"id": 15,
 					"name": {
 						"en": "Gert",
 						"ja": "ゲルト"
