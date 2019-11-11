@@ -1,16 +1,16 @@
 {
     "@context": "https://werewolf.world/village/context/0.3/character.jsonld",
-    "@id": "https://licos.online/state/0.3/village#3/character#0",
+    "@id": "https://licos.online/state/0.3/village#3/character#15",
     "isMine": false,
     "name": {
         "en": "Gert",
         "ja": "ゲルト"
     },
-    "image": "https://werewolf.world/image/0.3/Gert.jpg",
-    "id": 0,
+    "image": "https://werewolf.world/image/0.3/character_icons/120x120/a_120x120.png",
+    "id": 15,
     "status": "alive",
     "update": {
-        "@id": "https://licos.online/state/0.3/village#3/character#0/update",
+        "@id": "https://licos.online/state/0.3/village#3/character#15/update",
         "phase": "morning",
         "day": 1
     },
