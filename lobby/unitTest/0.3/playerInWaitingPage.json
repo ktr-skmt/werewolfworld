@@ -1,7 +1,7 @@
 {
   "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3301",
   "name": "Anonymous",
-  "avatarImage": "/assets/images/avatar/default/user.png",
+  "avatarImage": "https://werewolf.world/image/0.3/character_icons/50x50/anonymous_50x50.png",
   "isAnonymous": true,
   "isHost": true,
   "isMe": false
