@@ -5,7 +5,7 @@
         "en": "Walter",
         "ja": "ヴァルター"
     },
-    "image": "https://werewolf.world/image/0.3/Walter.jpg",
+    "image": "https://werewolf.world/image/0.3/character_icons/50x50/b_50x50.png",
     "id": 1,
     "role": {
         "@context": "https://werewolf.world/village/context/0.3/role.jsonld",
@@ -14,7 +14,7 @@
             "en": "Seer",
             "ja": "占い師"
         },
-        "image": "https://werewolf.world/image/0.3/seer.jpg"
+        "image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/seer_50x50.png"
     },
     "status": "alive",
     "isHumanPlayer": true
