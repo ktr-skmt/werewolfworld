@@ -1,12 +1,10 @@
 {
     "avatar": null,
-	
-	
-	"isMine": true,
-	"text": {
-		"@value": ">>11\nそれで、あなたは人狼が誰だと思うの？\n\n私はパメラが人狼だと思う。",
-		"@language": "ja"
-	},
-	"maxLengthOfUnicodeCodePoints": 140,
-	"isFromServer": false
+    "isMine": true,
+    "text": {
+        "@value": ">>11\nそれで、あなたは人狼が誰だと思うの？\n\n私はパメラが人狼だと思う。",
+        "@language": "ja"
+    },
+    "maxLengthOfUnicodeCodePoints": 140,
+    "isFromServer": false
 }
