@@ -6,18 +6,18 @@
         "en": "Villager",
         "ja": "村人"
     },
-    "image": "https://werewolf.world/image/0.3/villager.jpg",
+    "image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/villager_50x50.png",
     "numberOfCharacters": 6,
     "character": [
         {
             "@context": "https://werewolf.world/village/context/0.3/character.jsonld",
-            "@id": "https://licos.online/state/0.3/village#3/role#villager/character#0",
+            "@id": "https://licos.online/state/0.3/village#3/role#villager/character#1",
             "id": 0,
             "name": {
                 "en": "Gert",
                 "ja": "ゲルト"
             },
-            "image": "https://werewolf.world/image/0.3/Gert.jpg"
+            "image": "https://werewolf.world/image/0.3/character_icons/50x50/b_50x50.png"
         },
         {
             "@context": "https://werewolf.world/village/context/0.3/character.jsonld",
@@ -27,7 +27,7 @@
                 "en": "Lisa",
                 "ja": "リーザ"
             },
-            "image": "https://werewolf.world/image/0.3/Lisa.jpg"
+            "image": "https://werewolf.world/image/0.3/character_icons/50x50/c_50x50.png"
         },
         {
             "@context": "https://werewolf.world/village/context/0.3/character.jsonld",
@@ -37,7 +37,7 @@
                 "en": "Alvin",
                 "ja": "アルビン"
             },
-            "image": "https://werewolf.world/image/0.3/Alvin.jpg"
+            "image": "https://werewolf.world/image/0.3/character_icons/50x50/d_50x50.png"
         },
         {
             "@context": "https://werewolf.world/village/context/0.3/character.jsonld",
@@ -47,7 +47,7 @@
                 "en": "Joachim",
                 "ja": "ヨアヒム"
             },
-            "image": "https://werewolf.world/image/0.3/Joachim.jpg"
+            "image": "https://werewolf.world/image/0.3/character_icons/50x50/e_50x50.png"
         },
         {
             "@context": "https://werewolf.world/village/context/0.3/character.jsonld",
@@ -57,7 +57,7 @@
                 "en": "Pamela",
                 "ja": "パメラ"
             },
-            "image": "https://werewolf.world/image/0.3/Pamela.jpg"
+            "image": "https://werewolf.world/image/0.3/character_icons/50x50/f_50x50.png"
         },
         {
             "@context": "https://werewolf.world/village/context/0.3/character.jsonld",
@@ -67,7 +67,7 @@
                 "en": "Jacob",
                 "ja": "ヤコブ"
             },
-            "image": "https://werewolf.world/image/0.3/Jacob.jpg"
+            "image": "https://werewolf.world/image/0.3/character_icons/50x50/g_50x50.png"
         }
     ]
 }
