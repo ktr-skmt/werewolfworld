@@ -4,7 +4,7 @@
 		"@id": "https://licos.online/state/0.3/village#3/avatar",
 		"token": "3F2504E0-4F89-11D3-9A0C-0305E82C3301",
 		"name": "Katoh",
-		"image": "https://werewolf.world/image/0.3/Regina.jpg"
+		"image": "https://werewolf.world/image/0.3/character_icons/50x50/b_50x50.png"
 	},
 	
 	"character": {
@@ -15,7 +15,7 @@
 			"en": "Thomas",
 			"ja": "トーマス"
 		},
-		"image": "https://werewolf.world/image/0.3/Thomas.jpg"
+		"image": "https://werewolf.world/image/0.3/character_icons/50x50/c_50x50.png"
 	},
 	"role": {
 		"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
