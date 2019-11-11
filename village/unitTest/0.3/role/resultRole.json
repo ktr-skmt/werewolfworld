@@ -12,7 +12,7 @@
         {
             "@context": "https://werewolf.world/village/context/0.3/character.jsonld",
             "@id": "https://licos.online/state/0.3/village#3/role#villager/character#1",
-            "id": 0,
+            "id": 1,
             "name": {
                 "en": "Gert",
                 "ja": "ゲルト"
