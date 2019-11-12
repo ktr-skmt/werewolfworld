@@ -9,7 +9,7 @@
 		"@context": "https://werewolf.world/village/context/0.3/village.jsonld",
 		"@id": "https://licos.online/state/0.3/village",
 		"id": 3,
-		"name": "横国の森の奥にある時代に取り残された小さな村",
+		"name": "Fearwick",
 		"totalNumberOfCharacters": 15,
 		"lang": "ja",
 		"chatSettings": {
@@ -19,7 +19,7 @@
 			"maxLengthOfUnicodeCodePoints": 140
 		}
 	},
-	"token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
+	"token": "3F2504E0-4F89-11D3-9A0C-0305E82C3301",
 	"phase": "morning",
 	"day": 1,
 	"phaseTimeLimit": 600,
@@ -37,7 +37,7 @@
 			"en": "Walter",
 			"ja": "ヴァルター"
 		},
-		"image": "https://werewolf.world/image/0.3/Walter.jpg",
+		"image": "https://werewolf.world/image/0.3/character_icons/50x50/c_50x50.png",
 		"role": {
 			"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
 			"@id": "https://licos.online/state/0.3/village#3/character#1/role",
@@ -45,7 +45,7 @@
 				"en": "Werewolf",
 				"ja": "人狼"
 			},
-			"image": "https://werewolf.world/image/0.3/werewolf.jpg"
+			"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/werewolf_50x50.png"
 		}
 	},
 	
@@ -57,7 +57,7 @@
 			"en": "Walter",
 			"ja": "ヴァルター"
 		},
-		"image": "https://werewolf.world/image/0.3/Walter.jpg"
+		"image": "https://werewolf.world/image/0.3/character_icons/50x50/c_50x50.png"
 	},
 	"isMine": true,
 	"text": {
