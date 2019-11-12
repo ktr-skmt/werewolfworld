@@ -51,7 +51,7 @@
 					"en": "Seer",
 					"ja": "占い師"
 				},
-				"image": "https://werewolf.world/image/0.3/seer.jpg"
+				"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/seer_50x50.png"
 			},
 			"status": "alive",
 			"result": "win",
@@ -80,7 +80,7 @@
 					"en": "Werewolf",
 					"ja": "人狼"
 				},
-				"image": "https://werewolf.world/image/0.3/werewolf.jpg"
+				"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/werewolf_50x50.png"
 			},
 			"status": "alive",
 			"result": "lose",
@@ -109,7 +109,7 @@
 					"en": "Hunter",
 					"ja": "狩人"
 				},
-				"image": "https://werewolf.world/image/0.3/hunter.jpg"
+				"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/hunter_50x50.png"
 			},
 			"status": "alive",
 			"result": "win",
@@ -138,7 +138,7 @@
 					"en": "Medium",
 					"ja": "霊媒師"
 				},
-				"image": "https://werewolf.world/image/0.3/medium.jpg"
+				"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/medium_50x50.png"
 			},
 			"status": "alive",
 			"result": "win",
@@ -167,7 +167,7 @@
 					"en": "Werehuster",
 					"ja": "ハムスター人間"
 				},
-				"image": "https://werewolf.world/image/0.3/werehamster.jpg"
+				"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/werehamster_50x50.png"
 			},
 			"status": "death by fear",
 			"result": "lose",
@@ -196,7 +196,7 @@
 					"en": "Madman",
 					"ja": "狂人"
 				},
-				"image": "https://werewolf.world/image/0.3/madman.jpg"
+				"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/madman_50x50.png"
 			},
 			"status": "death by execution",
 			"result": "lose",
@@ -225,7 +225,7 @@
 					"en": "Werewolf",
 					"ja": "人狼"
 				},
-				"image": "https://werewolf.world/image/0.3/werewolf.jpg"
+				"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/werewolf_50x50.png"
 			},
 			"status": "unnatural death",
 			"result": "lose",
@@ -254,7 +254,7 @@
 					"en": "Villager",
 					"ja": "村人"
 				},
-				"image": "https://werewolf.world/image/0.3/villager.jpg"
+				"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/villager_50x50.png"
 			},
 			"status": "unnatural death",
 			"result": "win",
@@ -283,7 +283,7 @@
 					"en": "Villager",
 					"ja": "村人"
 				},
-				"image": "https://werewolf.world/image/0.3/villager.jpg"
+				"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/villager_50x50.png"
 			},
 			"status": "unnatural death",
 			"result": "win",
@@ -312,7 +312,7 @@
 					"en": "Mason",
 					"ja": "共有者"
 				},
-				"image": "https://werewolf.world/image/0.3/mason.jpg"
+				"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/mason_50x50.png"
 			},
 			"status": "unnatural death",
 			"result": "win",
@@ -341,7 +341,7 @@
 					"en": "Mason",
 					"ja": "共有者"
 				},
-				"image": "https://werewolf.world/image/0.3/mason.jpg"
+				"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/mason_50x50.png"
 			},
 			"status": "unnatural death",
 			"result": "win",
@@ -370,7 +370,7 @@
 					"en": "Villager",
 					"ja": "村人"
 				},
-				"image": "https://werewolf.world/image/0.3/villager.jpg"
+				"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/villager_50x50.png"
 			},
 			"status": "death by attack",
 			"result": "win",
@@ -399,7 +399,7 @@
 					"en": "Villager",
 					"ja": "村人"
 				},
-				"image": "https://werewolf.world/image/0.3/villager.jpg"
+				"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/villager_50x50.png"
 			},
 			"status": "alive",
 			"result": "win",
@@ -428,7 +428,7 @@
 					"en": "Villager",
 					"ja": "村人"
 				},
-				"image": "https://werewolf.world/image/0.3/villager.jpg"
+				"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/villager_50x50.png"
 			},
 			"status": "alive",
 			"result": "win",
@@ -457,7 +457,7 @@
 					"en": "Villager",
 					"ja": "村人"
 				},
-				"image": "https://werewolf.world/image/0.3/villager.jpg"
+				"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/villager_50x50.png"
 			},
 			"status": "alive",
 			"result": "win",
@@ -480,7 +480,7 @@
 				"en": "Master",
 				"ja": "マスター"
 			},
-			"image": "https://werewolf.world/image/0.3/master.jpg",
+			"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/master_50x50.png",
 			"numberOfCharacters": 1,
 			"character": []
 		},
@@ -492,7 +492,7 @@
 				"en": "Villager",
 				"ja": "村人"
 			},
-			"image": "https://werewolf.world/image/0.3/villager.jpg",
+			"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/villager_50x50.png",
 			"numberOfCharacters": 6,
 			"character": [
 				{
@@ -565,7 +565,7 @@
 				"en": "Seer",
 				"ja": "占い師"
 			},
-			"image": "https://werewolf.world/image/0.3/seer.jpg",
+			"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/seer_50x50.png",
 			"numberOfCharacters": 1,
 			"character": [
 				{
@@ -588,7 +588,7 @@
 				"en": "Medium",
 				"ja": "霊媒師"
 			},
-			"image": "https://werewolf.world/image/0.3/medium.jpg",
+			"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/medium_50x50.png",
 			"numberOfCharacters": 1,
 			"character": [
 				{
@@ -611,7 +611,7 @@
 				"en": "Hunter",
 				"ja": "狩人"
 			},
-			"image": "https://werewolf.world/image/0.3/hunter.jpg",
+			"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/hunter_50x50.png",
 			"numberOfCharacters": 1,
 			"character": [
 				{
@@ -634,7 +634,7 @@
 				"en": "Mason",
 				"ja": "共有者"
 			},
-			"image": "https://werewolf.world/image/0.3/mason.jpg",
+			"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/mason_50x50.png",
 			"numberOfCharacters": 2,
 			"character": [
 				{
@@ -667,7 +667,7 @@
 				"en": "Madman",
 				"ja": "狂人"
 			},
-			"image": "https://werewolf.world/image/0.3/madman.jpg",
+			"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/madman_50x50.png",
 			"numberOfCharacters": 1,
 			"character": [
 				{
@@ -690,7 +690,7 @@
 				"en": "Werewolf",
 				"ja": "人狼"
 			},
-			"image": "https://werewolf.world/image/0.3/werewolf.jpg",
+			"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/werewolf_50x50.png",
 			"numberOfCharacters": 2,
 			"character": [
 				{
@@ -723,7 +723,7 @@
 				"en": "Werehamster",
 				"ja": "ハムスター人間"
 			},
-			"image": "https://werewolf.world/image/0.3/werehamster.jpg",
+			"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/werehamster_50x50.png",
 			"numberOfCharacters": 1,
 			"character": [
 				{
