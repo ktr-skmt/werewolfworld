@@ -36,35 +36,6 @@
 	"character": [
 		{
 			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
-			"@id": "https://licos.online/state/0.3/village#3/character#0",
-			"isMine": false,
-			"name": {
-				"en": "Gert",
-				"ja": "ゲルト"
-			},
-			"image": "https://werewolf.world/image/0.3/Gert.jpg",
-			"id": 0,
-			"role": {
-				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
-				"@id": "https://licos.online/state/0.3/village#3/character#0/role",
-				"name": {
-					"en": "Villager",
-					"ja": "村人"
-				},
-				"image": "https://werewolf.world/image/0.3/villager.jpg"
-			},
-			"status": "alive",
-			"result": "win",
-			"avatar": {
-				"@context": "https://werewolf.world/village/context/0.3/avatar.jsonld",
-				"@id": "https://licos.online/state/0.3/village#3/character#0/avatar",
-				"token": "3F2504E0-4F89-11D3-9A0C-0305E82C3301",
-				"name": "Satou",
-				"image": "https://werewolf.world/image/0.3/Nicholas.jpg"
-			}
-		},
-		{
-			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
 			"@id": "https://licos.online/state/0.3/village#3/character#1",
 			"isMine": true,
 			"name": {
@@ -468,6 +439,35 @@
 				"name": "井上",
 				"image": "https://werewolf.world/image/0.3/Catalina.jpg"
 			}
+		},
+		{
+			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+			"@id": "https://licos.online/state/0.3/village#3/character#15",
+			"isMine": false,
+			"name": {
+				"en": "Gert",
+				"ja": "ゲルト"
+			},
+			"image": "https://werewolf.world/image/0.3/Gert.jpg",
+			"id": 15,
+			"role": {
+				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
+				"@id": "https://licos.online/state/0.3/village#3/character#15/role",
+				"name": {
+					"en": "Villager",
+					"ja": "村人"
+				},
+				"image": "https://werewolf.world/image/0.3/villager.jpg"
+			},
+			"status": "alive",
+			"result": "win",
+			"avatar": {
+				"@context": "https://werewolf.world/village/context/0.3/avatar.jsonld",
+				"@id": "https://licos.online/state/0.3/village#3/character#15/avatar",
+				"token": "3F2504E0-4F89-11D3-9A0C-0305E82C3301",
+				"name": "Satou",
+				"image": "https://werewolf.world/image/0.3/Nicholas.jpg"
+			}
 		}
 	],
 
@@ -497,8 +497,8 @@
 			"character": [
 				{
 					"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
-					"@id": "https://licos.online/state/0.3/village#3/role#villager/character#0",
-					"id": 0,
+					"@id": "https://licos.online/state/0.3/village#3/role#villager/character#15",
+					"id": 15,
 					"name": {
 						"en": "Gert",
 						"ja": "ゲルト"
