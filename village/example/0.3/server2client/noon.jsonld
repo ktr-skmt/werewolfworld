@@ -36,24 +36,6 @@
 	"character": [
 		{
 			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
-			"@id": "https://licos.online/state/0.3/village#3/character#0",
-			"isMine": false,
-			"name": {
-				"en": "Gert",
-				"ja": "ゲルト"
-			},
-			"image": "https://licos.online/image/0.3/Gert.jpg",
-			"id": 0,
-			"status": "dead",
-			"update": {
-				"@id": "https://licos.online/state/0.3/village#3/character#0/update",
-				"phase": "noon",
-				"day": 1
-			},
-			"isAChoice": false
-		},
-		{
-			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
 			"@id": "https://licos.online/state/0.3/village#3/character#1",
 			"isMine": true,
 			"name": {
@@ -303,6 +285,24 @@
 				"day": 1
 			},
 			"isAChoice": true
+		},
+		{
+			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+			"@id": "https://licos.online/state/0.3/village#3/character#15",
+			"isMine": false,
+			"name": {
+				"en": "Gert",
+				"ja": "ゲルト"
+			},
+			"image": "https://licos.online/image/0.3/Gert.jpg",
+			"id": 15,
+			"status": "dead",
+			"update": {
+				"@id": "https://licos.online/state/0.3/village#3/character#15/update",
+				"phase": "noon",
+				"day": 1
+			},
+			"isAChoice": false
 		}
 	],
 
