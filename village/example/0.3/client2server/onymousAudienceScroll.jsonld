@@ -11,15 +11,15 @@
         "id": 3,
         "name": "横国の森の奥にある時代に取り残された小さな村",
         "totalNumberOfCharacters": 15,
-		"lang": "ja",
-		"chatSettings": {
+	"lang": "ja",
+	"chatSettings": {
             "@context": "https://werewolf.world/village/context/0.3/chatSettings.jsonld",
-			"@id": "https://licos.online/state/0.3/village#3/chatSettings",
-			"maxNumberOfChatMessages": 10,
-			"maxLengthOfUnicodeCodePoints": 140
-		}
+	    "@id": "https://licos.online/state/0.3/village#3/chatSettings",
+	    "maxNumberOfChatMessages": 10,
+	    "maxLengthOfUnicodeCodePoints": 140
+	}
     },
-    "token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
+    "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3301",
     "phase": "morning",
     "day": 2,
     "phaseTimeLimit": 600,
@@ -32,7 +32,7 @@
     "avatar": {
         "@context": "https://werewolf.world/village/context/0.3/avatar.jsonld",
         "@id": "https://licos.online/state/0.3/village#3/avatar",
-        "token": "eFVr3O93oLhmnE8OqTMl5VSVGIV",
+        "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3301",
         "name": "Katoh",
         "image": "https://werewolf.world/image/0.3/Regina.jpg"
     },
