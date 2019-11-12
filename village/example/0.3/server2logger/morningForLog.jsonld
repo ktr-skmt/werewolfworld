@@ -28,7 +28,29 @@
 	"clientTimestamp": "2006-10-07T12:06:56.568+09:00",
 	"directionality": "server to client",
 	"intensionalDisclosureRange": "private",
-	"extensionalDisclosureRange": [],
+	"extensionalDisclosureRange": [
+		{
+			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
+			"@id": "https://licos.online/state/0.3/village#3/extensionalDisclosureRange/character#2",
+			"name": {
+				"en": "Moritz",
+				"ja": "モーリッツ"
+			},
+			"image": "https://werewolf.world/image/0.3/Moritz.jpg",
+			"id": 2,
+			"role": {
+				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
+				"@id": "https://licos.online/state/0.3/village#3/extensionalDisclosureRange/character#2/role",
+				"name": {
+					"en": "Werewolf",
+					"ja": "人狼"
+				},
+				"image": "https://werewolf.world/image/0.3/werewolf.jpg"
+			},
+			"status": "alive",
+			"isHumanPlayer": true
+		}
+	],
 
 	"votingResultsSummary": [
 		{
