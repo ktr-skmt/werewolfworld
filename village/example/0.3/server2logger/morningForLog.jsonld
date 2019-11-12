@@ -45,7 +45,7 @@
 					"en": "Werewolf",
 					"ja": "人狼"
 				},
-				"image": "https://werewolf.world/image/0.3/werewolf.jpg"
+				"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/werewolf_50x50.png"
 			},
 			"status": "alive",
 			"isHumanPlayer": true
@@ -415,7 +415,7 @@
 				"en": "Master",
 				"ja": "マスター"
 			},
-			"image": "https://werewolf.world/image/0.3/master.jpg",
+			"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/master_50x50.png",
 			"numberOfCharacters": 1,
 			"board": []
 		},
@@ -427,7 +427,7 @@
 				"en": "Villager",
 				"ja": "村人"
 			},
-			"image": "https://werewolf.world/image/0.3/villager.jpg",
+			"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/villager_50x50.png",
 			"numberOfCharacters": 6,
 			"board": [
 				{
@@ -457,7 +457,7 @@
 				"en": "Seer",
 				"ja": "占い師"
 			},
-			"image": "https://werewolf.world/image/0.3/seer.jpg",
+			"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/seer_50x50.png",
 			"numberOfCharacters": 1,
 			"board": [
 				{
@@ -487,7 +487,7 @@
 				"en": "Medium",
 				"ja": "霊媒師"
 			},
-			"image": "https://werewolf.world/image/0.3/medium.jpg",
+			"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/medium_50x50.png",
 			"numberOfCharacters": 1,
 			"board": [
 				{
@@ -517,7 +517,7 @@
 				"en": "Hunter",
 				"ja": "狩人"
 			},
-			"image": "https://werewolf.world/image/0.3/hunter.jpg",
+			"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/hunter_50x50.png",
 			"numberOfCharacters": 1,
 			"board": [
 				{
@@ -547,7 +547,7 @@
 				"en": "Mason",
 				"ja": "共有者"
 			},
-			"image": "https://werewolf.world/image/0.3/mason.jpg",
+			"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/mason_50x50.png",
 			"numberOfCharacters": 2,
 			"board": [
 				{
@@ -577,7 +577,7 @@
 				"en": "Madman",
 				"ja": "狂人"
 			},
-			"image": "https://werewolf.world/image/0.3/madman.jpg",
+			"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/madman_50x50.png",
 			"numberOfCharacters": 1,
 			"board": [
 				{
@@ -607,7 +607,7 @@
 				"en": "Werewolf",
 				"ja": "人狼"
 			},
-			"image": "https://werewolf.world/image/0.3/werewolf.jpg",
+			"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/werewolf_50x50.png",
 			"numberOfCharacters": 2,
 			"board": [
 				{
@@ -637,7 +637,7 @@
 				"en": "Werehamster",
 				"ja": "ハムスター人間"
 			},
-			"image": "https://werewolf.world/image/0.3/werehamster.jpg",
+			"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/werehamster_50x50.png",
 			"numberOfCharacters": 1,
 			"board": [
 				{
