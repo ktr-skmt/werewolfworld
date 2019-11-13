@@ -1,5 +1,5 @@
 {
-    "flavorText": [
+	"flavorText": [
 		{
 			"@context": [
 				"https://werewolf.world/village/context/0.3/base.jsonld",

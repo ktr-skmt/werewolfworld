@@ -1,5 +1,5 @@
 {
-    "votingResultsSummary": [
+	"votingResultsSummary": [
 		{
 			"@id": "https://licos.online/state/0.3/village#3/votingResultsSummary#1",
 			"characterToLynch": {
@@ -79,7 +79,6 @@
 			}
 		}
 	],
-
 	"character": [
 		{
 			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
@@ -352,7 +351,6 @@
 			"isAChoice": false
 		}
 	],
-	
 	"role": [
 		{
 			"@context": "https://werewolf.world/village/context/0.3/role.jsonld",

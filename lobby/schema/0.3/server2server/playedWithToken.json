@@ -5,7 +5,7 @@
   "definitions": {},
   "type": "object",
   "properties": {
-    "to" : {
+    "to": {
       "title": "User Token",
       "description": "GUID",
       "$id": "/properties/to",

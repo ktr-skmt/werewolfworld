@@ -6,7 +6,6 @@
         "name": "Katoh",
         "image": "https://werewolf.world/image/0.3/character_icons/50x50/b_50x50.png"
     },
-    
     "nodeId": "scrollNode",
     "scrollTop": 100,
     "scrollHeight": 120,

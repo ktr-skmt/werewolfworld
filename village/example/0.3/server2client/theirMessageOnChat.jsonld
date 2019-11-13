@@ -4,7 +4,6 @@
 		"https://werewolf.world/village/context/0.3/chat.jsonld"
 	],
 	"@id": "https://licos.online/state/0.3/village#3/chatMessage",
-
 	"village": {
 		"@context": "https://werewolf.world/village/context/0.3/village.jsonld",
 		"@id": "https://licos.online/state/0.3/village",
@@ -29,7 +28,6 @@
 	"directionality": "server to client",
 	"intensionalDisclosureRange": "public",
 	"extensionalDisclosureRange": [],
-
 	"character": {
 		"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
 		"@id": "https://licos.online/state/0.3/village#3/character",
@@ -38,7 +36,7 @@
 			"en": "Walter",
 			"ja": "ヴァルター"
 		},
-		"image": "https://werewolf.world/image/0.3/Walter.jpg"
+		"image": "https://werewolf.world/image/0.3/character_icons/50x50/c_50x50.png"
 	},
 	"isMine": false,
 	"id": 12,

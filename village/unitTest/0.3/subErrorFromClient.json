@@ -1,5 +1,5 @@
 {
-    "myCharacter": {
+	"myCharacter": {
 		"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
 		"@id": "https://licos.online/state/0.3/village#3/myCharacter",
 		"id": 1,
@@ -18,7 +18,6 @@
 			"image": "https://werewolf.world/image/0.3/werewolf.jpg"
 		}
 	},
-
 	"content": {
 		"en": "Timeout: ignored",
 		"ja": "タイムアウト：　無視されました"

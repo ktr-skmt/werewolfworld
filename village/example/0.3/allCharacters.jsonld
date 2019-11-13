@@ -1,7 +1,6 @@
 {
     "@context": "https://werewolf.world/village/context/0.3/character.jsonld",
     "@id": "https://werewolf.world/resource/0.3/character",
-
     "character": [
         {
             "@id": "https://werewolf.world/resource/0.3/Adil",
@@ -24,7 +23,7 @@
                 "zh-TW": "Adil Salah"
             },
             "gender": "male",
-            "image": "https://werewolf.world/image/0.3/Adil.jpg"
+            "image": "https://werewolf.world/image/0.3/character_icons/50x50/a_50x50.png"
         },
         {
             "@id": "https://werewolf.world/resource/0.3/Borya",
@@ -47,7 +46,7 @@
                 "zh-TW": "Borya Volkov"
             },
             "gender": "male",
-            "image": "https://werewolf.world/image/0.3/Borya.jpg"
+            "image": "https://werewolf.world/image/0.3/character_icons/50x50/b_50x50.png"
         },
         {
             "@id": "https://werewolf.world/resource/0.3/Chacha",
@@ -70,7 +69,7 @@
                 "zh-TW": "Chacha Waruru"
             },
             "gender": "male",
-            "image": "https://werewolf.world/image/0.3/Chacha.jpg"
+            "image": "https://werewolf.world/image/0.3/character_icons/50x50/c_50x50.png"
         },
         {
             "@id": "https://werewolf.world/resource/0.3/Devdatta",
@@ -93,7 +92,7 @@
                 "zh-TW": "Devdatta Prasad"
             },
             "gender": "male",
-            "image": "https://werewolf.world/image/0.3/Devdatta.jpg"
+            "image": "https://werewolf.world/image/0.3/character_icons/50x50/d_50x50.png"
         },
         {
             "@id": "https://werewolf.world/resource/0.3/Ekrem",
@@ -116,7 +115,7 @@
                 "zh-TW": "Ekrem Birkan"
             },
             "gender": "male",
-            "image": "https://werewolf.world/image/0.3/Ekrem.jpg"
+            "image": "https://werewolf.world/image/0.3/character_icons/50x50/e_50x50.png"
         },
         {
             "@id": "https://werewolf.world/resource/0.3/Fernando",
@@ -139,7 +138,7 @@
                 "zh-TW": "Fernando de Martino"
             },
             "gender": "male",
-            "image": "https://werewolf.world/image/0.3/Fernando.jpg"
+            "image": "https://werewolf.world/image/0.3/character_icons/50x50/f_50x50.png"
         },
         {
             "@id": "https://werewolf.world/resource/0.3/Gavriil",
@@ -162,7 +161,7 @@
                 "zh-TW": "Gavriil Petros"
             },
             "gender": "male",
-            "image": "https://werewolf.world/image/0.3/Gavriil.jpg"
+            "image": "https://werewolf.world/image/0.3/character_icons/50x50/g_50x50.png"
         },
         {
             "@id": "https://werewolf.world/resource/0.3/Henrik",
@@ -185,7 +184,7 @@
                 "zh-TW": "Henrik Brauer"
             },
             "gender": "male",
-            "image": "https://werewolf.world/image/0.3/Henrik.jpg"
+            "image": "https://werewolf.world/image/0.3/character_icons/50x50/h_50x50.png"
         },
         {
             "@id": "https://werewolf.world/resource/0.3/Ileanna",
@@ -208,7 +207,7 @@
                 "zh-TW": "Ileanna Oliveira"
             },
             "gender": "female",
-            "image": "https://werewolf.world/image/0.3/Ileanna.jpg"
+            "image": "https://werewolf.world/image/0.3/character_icons/50x50/i_50x50.png"
         },
         {
             "@id": "https://werewolf.world/resource/0.3/Jasmin",
@@ -231,7 +230,7 @@
                 "zh-TW": "Jasmin Jalal"
             },
             "gender": "female",
-            "image": "https://werewolf.world/image/0.3/Jasmin.jpg"
+            "image": "https://werewolf.world/image/0.3/character_icons/50x50/j_50x50.png"
         },
         {
             "@id": "https://werewolf.world/resource/0.3/Kaiji",
@@ -254,7 +253,7 @@
                 "zh-TW": "富士鬼怒開司"
             },
             "gender": "male",
-            "image": "https://werewolf.world/image/0.3/Kaiji.jpg"
+            "image": "https://werewolf.world/image/0.3/character_icons/50x50/k_50x50.png"
         },
         {
             "@id": "https://werewolf.world/resource/0.3/Louise",
@@ -277,7 +276,7 @@
                 "zh-TW": "Louise Bouquet"
             },
             "gender": "female",
-            "image": "https://werewolf.world/image/0.3/Louise.jpg"
+            "image": "https://werewolf.world/image/0.3/character_icons/50x50/l_50x50.png"
         },
         {
             "@id": "https://werewolf.world/resource/0.3/Marthe",
@@ -300,7 +299,7 @@
                 "zh-TW": "Marthe Skjoldnes"
             },
             "gender": "female",
-            "image": "https://werewolf.world/image/0.3/Marthe.jpg"
+            "image": "https://werewolf.world/image/0.3/character_icons/50x50/m_50x50.png"
         },
         {
             "@id": "https://werewolf.world/resource/0.3/Nanyamka",
@@ -323,7 +322,7 @@
                 "zh-TW": "Nanyamka Asante"
             },
             "gender": "female",
-            "image": "https://werewolf.world/image/0.3/Nanyamka.jpg"
+            "image": "https://werewolf.world/image/0.3/character_icons/50x50/n_50x50.png"
         },
         {
             "@id": "https://werewolf.world/resource/0.3/Oliwia",
@@ -346,7 +345,7 @@
                 "zh-TW": "Oliwia Kowalska"
             },
             "gender": "female",
-            "image": "https://werewolf.world/image/0.3/Oliwia.jpg"
+            "image": "https://werewolf.world/image/0.3/character_icons/50x50/o_50x50.png"
         },
         {
             "@id": "https://werewolf.world/resource/0.3/Ryan",
@@ -369,7 +368,7 @@
                 "zh-TW": "Ryan Dougall"
             },
             "gender": "male",
-            "image": "https://werewolf.world/image/0.3/Ryan.jpg"
+            "image": "https://werewolf.world/image/0.3/character_icons/50x50/r_50x50.png"
         },
         {
             "@id": "https://werewolf.world/resource/0.3/Susan",
@@ -392,7 +391,7 @@
                 "zh-TW": "Susan Michelle Miller"
             },
             "gender": "female",
-            "image": "https://werewolf.world/image/0.3/Susan.jpg"
+            "image": "https://werewolf.world/image/0.3/character_icons/50x50/s_50x50.png"
         },
         {
             "@id": "https://werewolf.world/resource/0.3/Thuy",
@@ -415,7 +414,7 @@
                 "zh-TW": "Thuy Phan"
             },
             "gender": "female",
-            "image": "https://werewolf.world/image/0.3/Thuy.jpg"
+            "image": "https://werewolf.world/image/0.3/character_icons/50x50/t_50x50.png"
         },
         {
             "@id": "https://werewolf.world/resource/0.3/Uma",
@@ -438,7 +437,7 @@
                 "zh-TW": "Uma Malikova"
             },
             "gender": "female",
-            "image": "https://werewolf.world/image/0.3/Uma.jpg"
+            "image": "https://werewolf.world/image/0.3/character_icons/50x50/u_50x50.png"
         },
         {
             "@id": "https://werewolf.world/resource/0.3/Valeria",
@@ -461,7 +460,7 @@
                 "zh-TW": "Valeria Romano"
             },
             "gender": "female",
-            "image": "https://werewolf.world/image/0.3/Valeria.jpg"
+            "image": "https://werewolf.world/image/0.3/character_icons/50x50/v_50x50.png"
         },
         {
             "@id": "https://werewolf.world/resource/0.3/Yihan",
@@ -484,7 +483,7 @@
                 "zh-TW": "林藝涵"
             },
             "gender": "female",
-            "image": "https://werewolf.world/image/0.3/Pan.jpg"
+            "image": "https://werewolf.world/image/0.3/character_icons/50x50/y_50x50.png"
         }
     ]
 }

@@ -6,7 +6,6 @@
 		"name": "Katoh",
 		"image": "https://werewolf.world/image/0.3/character_icons/50x50/b_50x50.png"
 	},
-	
 	"character": {
 		"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
 		"@id": "https://licos.online/state/0.3/village#3/character",

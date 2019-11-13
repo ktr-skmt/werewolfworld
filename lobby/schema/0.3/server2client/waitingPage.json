@@ -150,7 +150,7 @@
                   "examples": [
                     0
                   ]
-                }  
+                }
               },
               "required": [
                 "min",
@@ -314,7 +314,10 @@
           "title": "Comment",
           "description": "village comment",
           "$id": "/properties/village/properties/comment",
-          "type": ["string", "null"],
+          "type": [
+            "string",
+            "null"
+          ],
           "examples": [
             "Experts recommended",
             null
@@ -404,7 +407,7 @@
               false,
               true
             ]
-          }  
+          }
         },
         "required": [
           "token",
@@ -420,7 +423,10 @@
       "title": "Error Message",
       "description": "error message",
       "$id": "/properties/error",
-      "type": ["string", "null"],
+      "type": [
+        "string",
+        "null"
+      ],
       "default": null,
       "examples": [
         null

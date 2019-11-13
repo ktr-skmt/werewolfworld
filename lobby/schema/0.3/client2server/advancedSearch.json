@@ -48,7 +48,10 @@
       "title": "Village Name",
       "description": "village name",
       "$id": "/properties/villageName",
-      "type": ["string", "null"],
+      "type": [
+        "string",
+        "null"
+      ],
       "minLength": 5,
       "maxLength": 30,
       "examples": [
@@ -59,7 +62,10 @@
       "title": "Host Player Name",
       "description": "host player name",
       "$id": "/properties/hostName",
-      "type": ["string", "null"],
+      "type": [
+        "string",
+        "null"
+      ],
       "minLength": 5,
       "maxLength": 15,
       "examples": [
@@ -70,7 +76,10 @@
       "title": "Minimum Number of Players",
       "description": "minimum number of players",
       "$id": "/properties/minimum",
-      "type": ["integer", "null"],
+      "type": [
+        "integer",
+        "null"
+      ],
       "minimum": 4,
       "maximum": 15,
       "examples": [
@@ -81,7 +90,10 @@
       "title": "Maximum Number of Players",
       "description": "maximum number of players",
       "$id": "/properties/maximum",
-      "type": ["integer", "null"],
+      "type": [
+        "integer",
+        "null"
+      ],
       "minimum": 4,
       "maximum": 15,
       "examples": [
@@ -109,7 +121,10 @@
       "title": "Comment",
       "description": "comment",
       "$id": "/properties/comment",
-      "type": ["string", "null"],
+      "type": [
+        "string",
+        "null"
+      ],
       "minimum": 0,
       "maximum": 100,
       "examples": [

@@ -1,7 +1,6 @@
 {
     "@context": "https://werewolf.world/village/context/0.3/role.jsonld",
     "@id": "https://werewolf.world/resource/0.3/role",
-
     "role": [
         {
             "@id": "https://werewolf.world/resource/0.3/master",
@@ -9,7 +8,7 @@
                 "en": "Master",
                 "ja": "マスター"
             },
-            "image": "https://werewolf.world/image/0.3/master.jpg"
+            "image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/master_50x50.png"
         },
         {
             "@id": "https://wereworld.world/resource/0.3/villager",
@@ -17,7 +16,7 @@
                 "en": "Villager",
                 "ja": "村人"
             },
-            "image": "https://werewolf.world/image/0.3/villager.jpg"
+            "image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/villager_50x50.png"
         },
         {
             "@id": "https://werewolf.world/resource/0.3/seer",
@@ -25,7 +24,7 @@
                 "en": "Seer",
                 "ja": "占い師"
             },
-            "image": "https://werewolf.world/image/0.3/seer.jpg"
+            "image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/seer_50x50.png"
         },
         {
             "@id": "https://werewolf.world/resource/0.3/medium",
@@ -33,7 +32,7 @@
                 "en": "Medium",
                 "ja": "霊媒師"
             },
-            "image": "https://werewolf.world/image/0.3/medium.jpg"
+            "image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/medium_50x50.png"
         },
         {
             "@id": "https://wereworld.world/resource/0.3/hunter",
@@ -41,7 +40,7 @@
                 "en": "Hunter",
                 "ja": "ハンター"
             },
-            "image": "https://werewolf.world/image/0.3/hunter.jpg"
+            "image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/hunter_50x50.png"
         },
         {
             "@id": "https://wereworld.world/resource/0.3/mason",
@@ -49,7 +48,7 @@
                 "en": "Mason",
                 "ja": "共有者"
             },
-            "image": "https://werewolf.world/image/0.3/mason.jpg"
+            "image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/mason_50x50.png"
         },
         {
             "@id": "https://wereworld.world/resource/0.3/madman",
@@ -57,7 +56,7 @@
                 "en": "Madman",
                 "ja": "狂人"
             },
-            "image": "https://werewolf.world/image/0.3/madman.jpg"
+            "image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/madman_50x50.png"
         },
         {
             "@id": "https://wereworld.world/resource/0.3/werewolf",
@@ -65,7 +64,7 @@
                 "en": "Werewolf",
                 "ja": "人狼"
             },
-            "image": "https://werewolf.world/image/0.3/werewolf.jpg"
+            "image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/werewolf_50x50.png"
         },
         {
             "@id": "https://wereworld.world/resource/0.3/werehamster",
@@ -73,7 +72,7 @@
                 "en": "Werehamster",
                 "ja": "ハムスター人間"
             },
-            "image": "https://werewolf.world/image/0.3/werehamster.jpg"
+            "image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/werehamster_50x50.png"
         }
     ]
 }

@@ -4,7 +4,6 @@
 		"https://werewolf.world/village/context/0.3/votingResult.jsonld"
 	],
 	"@id": "https://licos.online/state/0.3/village#3/systemMessage",
-
 	"village": {
 		"@context": "https://werewolf.world/village/context/0.3/village.jsonld",
 		"@id": "https://licos.online/state/0.3/village",
@@ -29,10 +28,8 @@
 	"directionality": "server to client",
 	"intensionalDisclosureRange": "private",
 	"extensionalDisclosureRange": [],
-
 	"votingResultsSummary": [],
 	"votingResultsDetails": [],
-
 	"character": [
 		{
 			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
@@ -42,7 +39,7 @@
 				"en": "Walter",
 				"ja": "ヴァルター"
 			},
-			"image": "https://werewolf.world/image/0.3/Walter.jpg",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/c_50x50.png",
 			"id": 1,
 			"role": {
 				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
@@ -60,7 +57,7 @@
 				"@id": "https://licos.online/state/0.3/village#3/character#1/avatar",
 				"token": "3F2504E0-4F89-11D3-9A0C-0305E82C3302",
 				"name": "Suzuki",
-				"image": "https://werewolf.world/image/0.3/Gert.jpg"
+				"image": "https://werewolf.world/image/0.3/character_icons/50x50/c_50x50.png"
 			}
 		},
 		{
@@ -71,7 +68,7 @@
 				"en": "Moritz",
 				"ja": "モーリッツ"
 			},
-			"image": "https://werewolf.world/image/0.3/Moritz.jpg",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/d_50x50.png",
 			"id": 2,
 			"role": {
 				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
@@ -89,7 +86,7 @@
 				"@id": "https://licos.online/state/0.3/village#3/character#2/avatar",
 				"token": "3F2504E0-4F89-11D3-9A0C-0305E82C3303",
 				"name": "Takahashi",
-				"image": "https://werewolf.world/image/0.3/Alvin.jpg"
+				"image": "https://werewolf.world/image/0.3/character_icons/50x50/d_50x50.png"
 			}
 		},
 		{
@@ -100,7 +97,7 @@
 				"en": "Simson",
 				"ja": "ジムゾン"
 			},
-			"image": "https://werewolf.world/image/0.3/Simson.jpg",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/e_50x50.png",
 			"id": 3,
 			"role": {
 				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
@@ -118,7 +115,7 @@
 				"@id": "https://licos.online/state/0.3/village#3/character#3/avatar",
 				"token": "3F2504E0-4F89-11D3-9A0C-0305E82C3304",
 				"name": "Tanaka",
-				"image": "https://werewolf.world/image/0.3/Friedel.jpg"
+				"image": "https://werewolf.world/image/0.3/character_icons/50x50/e_50x50.png"
 			}
 		},
 		{
@@ -129,7 +126,7 @@
 				"en": "Thomas",
 				"ja": "トーマス"
 			},
-			"image": "https://werewolf.world/image/0.3/Thomas.jpg",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/f_50x50.png",
 			"id": 4,
 			"role": {
 				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
@@ -146,8 +143,8 @@
 				"@context": "https://werewolf.world/village/context/0.3/avatar.jsonld",
 				"@id": "https://licos.online/state/0.3/village#3/character#4/avatar",
 				"token": "3F2504E0-4F89-11D3-9A0C-0305E82C3305",
-				"name": "Ito",
-				"image": "https://werewolf.world/image/0.3/Dieter.jpg"
+				"name": "Itooh",
+				"image": "https://werewolf.world/image/0.3/character_icons/50x50/f_50x50.png"
 			}
 		},
 		{
@@ -158,7 +155,7 @@
 				"en": "Nicholas",
 				"ja": "ニコラス"
 			},
-			"image": "https://werewolf.world/image/0.3/Nicholas.jpg",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/g_50x50.png",
 			"id": 5,
 			"role": {
 				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
@@ -176,7 +173,7 @@
 				"@id": "https://licos.online/state/0.3/village#3/character#5/avatar",
 				"token": "3F2504E0-4F89-11D3-9A0C-0305E82C3306",
 				"name": "Watanabe",
-				"image": "https://werewolf.world/image/0.3/Erna.jpg"
+				"image": "https://werewolf.world/image/0.3/character_icons/50x50/g_50x50.png"
 			}
 		},
 		{
@@ -187,7 +184,7 @@
 				"en": "Dieter",
 				"ja": "ディーター"
 			},
-			"image": "https://werewolf.world/image/0.3/Dieter.jpg",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/h_50x50.png",
 			"id": 6,
 			"role": {
 				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
@@ -205,7 +202,7 @@
 				"@id": "https://licos.online/state/0.3/village#3/character#6/avatar",
 				"token": "3F2504E0-4F89-11D3-9A0C-0305E82C3307",
 				"name": "Yamamoto",
-				"image": "https://werewolf.world/image/0.3/Jacob.jpg"
+				"image": "https://werewolf.world/image/0.3/character_icons/50x50/h_50x50.png"
 			}
 		},
 		{
@@ -216,7 +213,7 @@
 				"en": "Peter",
 				"ja": "ペーター"
 			},
-			"image": "https://werewolf.world/image/0.3/Peter.jpg",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/i_50x50.png",
 			"id": 7,
 			"role": {
 				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
@@ -234,7 +231,7 @@
 				"@id": "https://licos.online/state/0.3/village#3/character#7/avatar",
 				"token": "3F2504E0-4F89-11D3-9A0C-0305E82C3308",
 				"name": "Nakamura",
-				"image": "https://werewolf.world/image/0.3/Nicholas.jpg"
+				"image": "https://werewolf.world/image/0.3/character_icons/50x50/i_50x50.png"
 			}
 		},
 		{
@@ -245,7 +242,7 @@
 				"en": "Lisa",
 				"ja": "リーザ"
 			},
-			"image": "https://werewolf.world/image/0.3/Lisa.jpg",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/j_50x50.png",
 			"id": 8,
 			"role": {
 				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
@@ -263,7 +260,7 @@
 				"@id": "https://licos.online/state/0.3/village#3/character#8/avatar",
 				"token": "3F2504E0-4F89-11D3-9A0C-0305E82C3309",
 				"name": "Kobayashi",
-				"image": "https://werewolf.world/image/0.3/Peter.jpg"
+				"image": "https://werewolf.world/image/0.3/character_icons/50x50/j_50x50.png"
 			}
 		},
 		{
@@ -274,7 +271,7 @@
 				"en": "Alvin",
 				"ja": "アルビン"
 			},
-			"image": "https://werewolf.world/image/0.3/Alvin.jpg",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/k_50x50.png",
 			"id": 9,
 			"role": {
 				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
@@ -292,7 +289,7 @@
 				"@id": "https://licos.online/state/0.3/village#3/character#9/avatar",
 				"token": "3F2504E0-4F89-11D3-9A0C-0305E82C3310",
 				"name": "Yoshida",
-				"image": "https://werewolf.world/image/0.3/Peter.jpg"
+				"image": "https://werewolf.world/image/0.3/character_icons/50x50/k_50x50.png"
 			}
 		},
 		{
@@ -303,7 +300,7 @@
 				"en": "Catalina",
 				"ja": "カタリナ"
 			},
-			"image": "https://werewolf.world/image/0.3/Catalina.jpg",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/l_50x50.png",
 			"id": 10,
 			"role": {
 				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
@@ -321,7 +318,7 @@
 				"@id": "https://licos.online/state/0.3/village#3/character#10/avatar",
 				"token": "3F2504E0-4F89-11D3-9A0C-0305E82C3311",
 				"name": "Yamada",
-				"image": "https://werewolf.world/image/0.3/Simon.jpg"
+				"image": "https://werewolf.world/image/0.3/character_icons/50x50/l_50x50.png"
 			}
 		},
 		{
@@ -332,7 +329,7 @@
 				"en": "Otto",
 				"ja": "オットー"
 			},
-			"image": "https://werewolf.world/image/0.3/Otto.jpg",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/m_50x50.png",
 			"id": 11,
 			"role": {
 				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
@@ -350,7 +347,7 @@
 				"@id": "https://licos.online/state/0.3/village#3/character#11/avatar",
 				"token": "3F2504E0-4F89-11D3-9A0C-0305E82C3312",
 				"name": "Sasaki",
-				"image": "https://werewolf.world/image/0.3/Simson.jpg"
+				"image": "https://werewolf.world/image/0.3/character_icons/50x50/m_50x50.png"
 			}
 		},
 		{
@@ -361,7 +358,7 @@
 				"en": "Joachim",
 				"ja": "ヨアヒム"
 			},
-			"image": "https://werewolf.world/image/0.3/Joachim.jpg",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/n_50x50.png",
 			"id": 12,
 			"role": {
 				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
@@ -378,8 +375,8 @@
 				"@context": "https://werewolf.world/village/context/0.3/avatar.jsonld",
 				"@id": "https://licos.online/state/0.3/village#3/character#12/avatar",
 				"token": "3F2504E0-4F89-11D3-9A0C-0305E82C3313",
-				"name": "山口",
-				"image": "https://werewolf.world/image/0.3/Otto.jpg"
+				"name": "Yamaguchi",
+				"image": "https://werewolf.world/image/0.3/character_icons/50x50/n_50x50.png"
 			}
 		},
 		{
@@ -390,7 +387,7 @@
 				"en": "Pamela",
 				"ja": "パメラ"
 			},
-			"image": "https://werewolf.world/image/0.3/Pamela.jpg",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/o_50x50.png",
 			"id": 13,
 			"role": {
 				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
@@ -407,8 +404,8 @@
 				"@context": "https://werewolf.world/village/context/0.3/avatar.jsonld",
 				"@id": "https://licos.online/state/0.3/village#3/character#13/avatar",
 				"token": "3F2504E0-4F89-11D3-9A0C-0305E82C3314",
-				"name": "松本",
-				"image": "https://werewolf.world/image/0.3/Joachim.jpg"
+				"name": "Matsumoto",
+				"image": "https://werewolf.world/image/0.3/character_icons/50x50/o_50x50.png"
 			}
 		},
 		{
@@ -419,7 +416,7 @@
 				"en": "Jacob",
 				"ja": "ヤコブ"
 			},
-			"image": "https://werewolf.world/image/0.3/Jacob.jpg",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/p_50x50.png",
 			"id": 14,
 			"role": {
 				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
@@ -436,8 +433,8 @@
 				"@context": "https://werewolf.world/village/context/0.3/avatar.jsonld",
 				"@id": "https://licos.online/state/0.3/village#3/character#14/avatar",
 				"token": "3F2504E0-4F89-11D3-9A0C-0305E82C3315",
-				"name": "井上",
-				"image": "https://werewolf.world/image/0.3/Catalina.jpg"
+				"name": "Inoue",
+				"image": "https://werewolf.world/image/0.3/character_icons/50x50/p_50x50.png"
 			}
 		},
 		{
@@ -448,7 +445,7 @@
 				"en": "Gert",
 				"ja": "ゲルト"
 			},
-			"image": "https://werewolf.world/image/0.3/Gert.jpg",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/q_50x50.png",
 			"id": 15,
 			"role": {
 				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
@@ -466,11 +463,10 @@
 				"@id": "https://licos.online/state/0.3/village#3/character#15/avatar",
 				"token": "3F2504E0-4F89-11D3-9A0C-0305E82C3301",
 				"name": "Satou",
-				"image": "https://werewolf.world/image/0.3/Nicholas.jpg"
+				"image": "https://werewolf.world/image/0.3/character_icons/50x50/q_50x50.png"
 			}
 		}
 	],
-
 	"role": [
 		{
 			"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
@@ -503,7 +499,7 @@
 						"en": "Gert",
 						"ja": "ゲルト"
 					},
-					"image": "https://werewolf.world/image/0.3/Gert.jpg"
+					"image": "https://werewolf.world/image/0.3/character_icons/50x50/i_50x50.png"
 				},
 				{
 					"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
@@ -513,7 +509,7 @@
 						"en": "Lisa",
 						"ja": "リーザ"
 					},
-					"image": "https://werewolf.world/image/0.3/Lisa.jpg"
+					"image": "https://werewolf.world/image/0.3/character_icons/50x50/d_50x50.png"
 				},
 				{
 					"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
@@ -523,7 +519,7 @@
 						"en": "Alvin",
 						"ja": "アルビン"
 					},
-					"image": "https://werewolf.world/image/0.3/Alvin.jpg"
+					"image": "https://werewolf.world/image/0.3/character_icons/50x50/e_50x50.png"
 				},
 				{
 					"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
@@ -533,7 +529,7 @@
 						"en": "Joachim",
 						"ja": "ヨアヒム"
 					},
-					"image": "https://werewolf.world/image/0.3/Joachim.jpg"
+					"image": "https://werewolf.world/image/0.3/character_icons/50x50/f_50x50.png"
 				},
 				{
 					"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
@@ -543,7 +539,7 @@
 						"en": "Pamela",
 						"ja": "パメラ"
 					},
-					"image": "https://werewolf.world/image/0.3/Pamela.jpg"
+					"image": "https://werewolf.world/image/0.3/character_icons/50x50/g_50x50.png"
 				},
 				{
 					"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
@@ -553,7 +549,7 @@
 						"en": "Jacob",
 						"ja": "ヤコブ"
 					},
-					"image": "https://werewolf.world/image/0.3/Jacob.jpg"
+					"image": "https://werewolf.world/image/0.3/character_icons/50x50/h_50x50.png"
 				}
 			]
 		},
@@ -576,7 +572,7 @@
 						"en": "Walter",
 						"ja": "ヴァルター"
 					},
-					"image": "https://werewolf.world/image/0.3/Walter.jpg"
+					"image": "https://werewolf.world/image/0.3/character_icons/50x50/c_50x50.png"
 				}
 			]
 		},
@@ -599,7 +595,7 @@
 						"en": "Thomas",
 						"ja": "トーマス"
 					},
-					"image": "https://werewolf.world/image/0.3/Thomas.jpg"
+					"image": "https://werewolf.world/image/0.3/character_icons/50x50/j_50x50.png"
 				}
 			]
 		},
@@ -622,7 +618,7 @@
 						"en": "Simson",
 						"ja": "ジムゾン"
 					},
-					"image": "https://werewolf.world/image/0.3/Simson.jpg"
+					"image": "https://werewolf.world/image/0.3/character_icons/50x50/k_50x50.png"
 				}
 			]
 		},
@@ -645,7 +641,7 @@
 						"en": "Catalina",
 						"ja": "カタリナ"
 					},
-					"image": "https://werewolf.world/image/0.3/Catalina.jpg"
+					"image": "https://werewolf.world/image/0.3/character_icons/50x50/l_50x50.png"
 				},
 				{
 					"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
@@ -655,7 +651,7 @@
 						"en": "Otto",
 						"ja": "オットー"
 					},
-					"image": "https://werewolf.world/image/0.3/Otto.jpg"
+					"image": "https://werewolf.world/image/0.3/character_icons/50x50/m_50x50.png"
 				}
 			]
 		},
@@ -678,7 +674,7 @@
 						"en": "Dieter",
 						"ja": "ディーター"
 					},
-					"image": "https://werewolf.world/image/0.3/Dieter.jpg"
+					"image": "https://werewolf.world/image/0.3/character_icons/50x50/n_50x50.png"
 				}
 			]
 		},
@@ -701,7 +697,7 @@
 						"en": "Moritz",
 						"ja": "モーリッツ"
 					},
-					"image": "https://werewolf.world/image/0.3/Moritz.jpg"
+					"image": "https://werewolf.world/image/0.3/character_icons/50x50/o_50x50.png"
 				},
 				{
 					"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
@@ -711,7 +707,7 @@
 						"en": "Peter",
 						"ja": "ペーター"
 					},
-					"image": "https://werewolf.world/image/0.3/Peter.jpg"
+					"image": "https://werewolf.world/image/0.3/character_icons/50x50/p_50x50.png"
 				}
 			]
 		},
@@ -734,7 +730,7 @@
 						"en": "Nicholas",
 						"ja": "ニコラス"
 					},
-					"image": "https://werewolf.world/image/0.3/Nicholas.jpg"
+					"image": "https://werewolf.world/image/0.3/character_icons/50x50/q_50x50.png"
 				}
 			]
 		}

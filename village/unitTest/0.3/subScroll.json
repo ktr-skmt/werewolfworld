@@ -18,7 +18,6 @@
             "image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/werewolf_50x50.png"
         }
     },
-
     "nodeId": "scrollNode",
     "scrollTop": 100,
     "scrollHeight": 120,

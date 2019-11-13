@@ -4,7 +4,6 @@
 		"https://werewolf.world/village/context/0.3/vote.jsonld"
 	],
 	"@id": "https://licos.online/state/0.3/village#3/voteMessage",
-
 	"village": {
 		"@context": "https://werewolf.world/village/context/0.3/village.jsonld",
 		"@id": "https://licos.online/state/0.3/village",
@@ -36,7 +35,7 @@
 				"en": "Moritz",
 				"ja": "モーリッツ"
 			},
-			"image": "https://werewolf.world/image/0.3/Moritz.jpg",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/d_50x50.png",
 			"id": 2,
 			"role": {
 				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
@@ -57,7 +56,7 @@
 				"en": "Peter",
 				"ja": "ペーター"
 			},
-			"image": "https://werewolf.world/image/0.3/Peter.jpg",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/e_50x50.png",
 			"id": 7,
 			"role": {
 				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
@@ -80,7 +79,7 @@
 			"en": "Walter",
 			"ja": "ヴァルター"
 		},
-		"image": "https://werewolf.world/image/0.3/Walter.jpg",
+		"image": "https://werewolf.world/image/0.3/character_icons/50x50/c_50x50.png",
 		"role": {
 			"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
 			"@id": "https://licos.online/state/0.3/village#3/character#1/role",
@@ -96,9 +95,8 @@
 		"@id": "https://licos.online/state/0.3/village#3/avatar",
 		"token": "3F2504E0-4F89-11D3-9A0C-0305E82C3301",
 		"name": "Suzuki",
-		"image": "https://werewolf.world/image/0.3/Gert.jpg"
+		"image": "https://werewolf.world/image/0.3/character_icons/50x50/f_50x50.png"
 	},
-
 	"character": {
 		"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
 		"@id": "https://licos.online/state/0.3/village#3/character",

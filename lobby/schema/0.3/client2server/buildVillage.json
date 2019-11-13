@@ -157,7 +157,7 @@
               "examples": [
                 -1
               ]
-            }  
+            }
           },
           "required": [
             "min",
@@ -226,7 +226,7 @@
           "description": "the number of werewolves",
           "$id": "/properties/roleSetting/properties/werewolf",
           "type": "integer",
-          "minimum": 0,          
+          "minimum": 0,
           "examples": [
             2
           ]
@@ -308,7 +308,10 @@
       "description": "'fixed' or 'random'",
       "$id": "/properties/avatar",
       "type": "string",
-      "enum": ["fixed", "random"],
+      "enum": [
+        "fixed",
+        "random"
+      ],
       "default": "random",
       "examples": [
         "random",
@@ -319,7 +322,10 @@
       "title": "Comment",
       "description": "village comment",
       "$id": "/properties/comment",
-      "type": ["string", "null"],
+      "type": [
+        "string",
+        "null"
+      ],
       "maxLength": 100,
       "examples": [
         "Experts recommended",

@@ -4,7 +4,6 @@
 		"https://werewolf.world/village/context/0.3/votingResult.jsonld"
 	],
 	"@id": "https://licos.online/state/0.3/village#3/systemMessage",
-
 	"village": {
 		"@context": "https://werewolf.world/village/context/0.3/village.jsonld",
 		"@id": "https://licos.online/state/0.3/village",
@@ -29,10 +28,8 @@
 	"directionality": "server to client",
 	"intensionalDisclosureRange": "private",
 	"extensionalDisclosureRange": [],
-
 	"votingResultsSummary": [],
 	"votingResultsDetails": [],
-
 	"character": [
 		{
 			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
@@ -42,7 +39,7 @@
 				"en": "Walter",
 				"ja": "ヴァルター"
 			},
-			"image": "https://werewolf.world/image/0.3/Walter.jpg",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/c_50x50.png",
 			"id": 1,
 			"status": "alive",
 			"update": {
@@ -60,7 +57,7 @@
 				"en": "Moritz",
 				"ja": "モーリッツ"
 			},
-			"image": "https://werewolf.world/image/0.3/Moritz.jpg",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/d_50x50.png",
 			"id": 2,
 			"status": "alive",
 			"update": {
@@ -78,7 +75,7 @@
 				"en": "Simson",
 				"ja": "ジムゾン"
 			},
-			"image": "https://werewolf.world/image/0.3/Simson.jpg",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/e_50x50.png",
 			"id": 3,
 			"status": "alive",
 			"update": {
@@ -96,7 +93,7 @@
 				"en": "Thomas",
 				"ja": "トーマス"
 			},
-			"image": "https://werewolf.world/image/0.3/Thomas.jpg",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/f_50x50.png",
 			"id": 4,
 			"status": "alive",
 			"update": {
@@ -114,7 +111,7 @@
 				"en": "Nicholas",
 				"ja": "ニコラス"
 			},
-			"image": "https://werewolf.world/image/0.3/Nicholas.jpg",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/g_50x50.png",
 			"id": 5,
 			"status": "alive",
 			"update": {
@@ -132,7 +129,7 @@
 				"en": "Dieter",
 				"ja": "ディーター"
 			},
-			"image": "https://werewolf.world/image/0.3/Dieter.jpg",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/h_50x50.png",
 			"id": 6,
 			"status": "alive",
 			"update": {
@@ -150,7 +147,7 @@
 				"en": "Peter",
 				"ja": "ペーター"
 			},
-			"image": "https://werewolf.world/image/0.3/Peter.jpg",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/i_50x50.png",
 			"id": 7,
 			"status": "alive",
 			"update": {
@@ -168,7 +165,7 @@
 				"en": "Lisa",
 				"ja": "リーザ"
 			},
-			"image": "https://werewolf.world/image/0.3/Lisa.jpg",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/j_50x50.png",
 			"id": 8,
 			"status": "dead",
 			"update": {
@@ -186,7 +183,7 @@
 				"en": "Alvin",
 				"ja": "アルビン"
 			},
-			"image": "https://werewolf.world/image/0.3/Alvin.jpg",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/k_50x50.png",
 			"id": 9,
 			"status": "alive",
 			"update": {
@@ -204,7 +201,7 @@
 				"en": "Catalina",
 				"ja": "カタリナ"
 			},
-			"image": "https://werewolf.world/image/0.3/Catalina.jpg",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/l_50x50.png",
 			"id": 10,
 			"status": "alive",
 			"update": {
@@ -222,7 +219,7 @@
 				"en": "Otto",
 				"ja": "オットー"
 			},
-			"image": "https://werewolf.world/image/0.3/Otto.jpg",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/m_50x50.png",
 			"id": 11,
 			"status": "alive",
 			"update": {
@@ -240,7 +237,7 @@
 				"en": "Joachim",
 				"ja": "ヨアヒム"
 			},
-			"image": "https://werewolf.world/image/0.3/Joachim.jpg",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/n_50x50.png",
 			"id": 12,
 			"status": "alive",
 			"update": {
@@ -258,7 +255,7 @@
 				"en": "Pamela",
 				"ja": "パメラ"
 			},
-			"image": "https://werewolf.world/image/0.3/Pamela.jpg",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/o_50x50.png",
 			"id": 13,
 			"status": "alive",
 			"update": {
@@ -276,7 +273,7 @@
 				"en": "Jacob",
 				"ja": "ヤコブ"
 			},
-			"image": "https://werewolf.world/image/0.3/Jacob.jpg",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/p_50x50.png",
 			"id": 14,
 			"status": "alive",
 			"update": {
@@ -294,7 +291,7 @@
 				"en": "Gert",
 				"ja": "ゲルト"
 			},
-			"image": "https://werewolf.world/image/0.3/Gert.jpg",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/q_50x50.png",
 			"id": 15,
 			"status": "dead",
 			"update": {
@@ -305,7 +302,6 @@
 			"isAChoice": false
 		}
 	],
-
 	"role": [
 		{
 			"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
@@ -341,7 +337,7 @@
 							"en": "Walter",
 							"ja": "ヴァルター"
 						},
-						"image": "https://werewolf.world/image/0.3/Walter.jpg"
+						"image": "https://werewolf.world/image/0.3/character_icons/50x50/c_50x50.png"
 					},
 					"polarity": "negative",
 					"phase": "morning",
@@ -371,7 +367,7 @@
 							"en": "Walter",
 							"ja": "ヴァルター"
 						},
-						"image": "https://werewolf.world/image/0.3/Walter.jpg"
+						"image": "https://werewolf.world/image/0.3/character_icons/50x50/c_50x50.png"
 					},
 					"polarity": "positive",
 					"phase": "morning",
@@ -401,7 +397,7 @@
 							"en": "Walter",
 							"ja": "ヴァルター"
 						},
-						"image": "https://werewolf.world/image/0.3/Walter.jpg"
+						"image": "https://werewolf.world/image/0.3/character_icons/50x50/c_50x50.png"
 					},
 					"polarity": "negative",
 					"phase": "morning",
@@ -431,7 +427,7 @@
 							"en": "Walter",
 							"ja": "ヴァルター"
 						},
-						"image": "https://werewolf.world/image/0.3/Walter.jpg"
+						"image": "https://werewolf.world/image/0.3/character_icons/50x50/c_50x50.png"
 					},
 					"polarity": "negative",
 					"phase": "morning",
@@ -461,7 +457,7 @@
 							"en": "Walter",
 							"ja": "ヴァルター"
 						},
-						"image": "https://werewolf.world/image/0.3/Walter.jpg"
+						"image": "https://werewolf.world/image/0.3/character_icons/50x50/c_50x50.png"
 					},
 					"polarity": "negative",
 					"phase": "morning",
@@ -491,7 +487,7 @@
 							"en": "Walter",
 							"ja": "ヴァルター"
 						},
-						"image": "https://werewolf.world/image/0.3/Walter.jpg"
+						"image": "https://werewolf.world/image/0.3/character_icons/50x50/c_50x50.png"
 					},
 					"polarity": "negative",
 					"phase": "morning",
@@ -521,7 +517,7 @@
 							"en": "Walter",
 							"ja": "ヴァルター"
 						},
-						"image": "https://werewolf.world/image/0.3/Walter.jpg"
+						"image": "https://werewolf.world/image/0.3/character_icons/50x50/c_50x50.png"
 					},
 					"polarity": "negative",
 					"phase": "morning",
@@ -551,7 +547,7 @@
 							"en": "Walter",
 							"ja": "ヴァルター"
 						},
-						"image": "https://werewolf.world/image/0.3/Walter.jpg"
+						"image": "https://werewolf.world/image/0.3/character_icons/50x50/c_50x50.png"
 					},
 					"polarity": "negative",
 					"phase": "morning",
