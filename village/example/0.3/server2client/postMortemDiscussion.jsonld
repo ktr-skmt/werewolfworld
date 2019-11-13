@@ -277,7 +277,7 @@
 			"id": 14,
 			"status": "alive",
 			"update": {
-				"@id": "https://licos.online/state/0.3/village#3/character#14",
+				"@id": "https://licos.online/state/0.3/village#3/character#14/update",
 				"phase": "morning",
 				"day": 1
 			},
