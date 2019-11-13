@@ -39,7 +39,7 @@
     {
       "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3301",
       "name": "Anonymous",
-      "avatarImage": "/assets/images/avatar/default/user.png",
+      "avatarImage": "https://werewolf.world/image/0.3/character_icons/50x50/anonymous_50x50.png",
       "isAnonymous": true,
       "isHost": true,
       "isMe": false
@@ -47,7 +47,7 @@
     {
       "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3301",
       "name": "Cathy",
-      "avatarImage": "https://werewolf.world/image/0.1/Friedel.jpg",
+      "avatarImage": "https://werewolf.world/image/0.3/character_icons/50x50/c_50x50.pn",
       "isAnonymous": true,
       "isHost": false,
       "isMe": true
@@ -55,7 +55,7 @@
     {
       "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3301",
       "name": "Anonymous",
-      "avatarImage": "/assets/images/avatar/default/user.png",
+      "avatarImage": "https://werewolf.world/image/0.3/character_icons/50x50/anonymous_50x50.png",
       "isAnonymous": true,
       "isHost": false,
       "isMe": false
@@ -63,7 +63,7 @@
     {
       "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3302",
       "name": "Anonymous",
-      "avatarImage": "/assets/images/avatar/default/user.png",
+      "avatarImage": "https://werewolf.world/image/0.3/character_icons/50x50/anonymous_50x50.png",
       "isAnonymous": true,
       "isHost": false,
       "isMe": false
@@ -71,7 +71,7 @@
     {
       "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3303",
       "name": "Anonymous",
-      "avatarImage": "/assets/images/avatar/default/user.png",
+      "avatarImage": "https://werewolf.world/image/0.3/character_icons/50x50/anonymous_50x50.png",
       "isAnonymous": true,
       "isHost": false,
       "isMe": false
@@ -79,7 +79,7 @@
     {
       "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3304",
       "name": "Anonymous",
-      "avatarImage": "/assets/images/avatar/default/user.png",
+      "avatarImage": "https://werewolf.world/image/0.3/character_icons/50x50/anonymous_50x50.png",
       "isAnonymous": true,
       "isHost": false,
       "isMe": false
@@ -87,7 +87,7 @@
     {
       "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3305",
       "name": "Anonymous",
-      "avatarImage": "/assets/images/avatar/default/user.png",
+      "avatarImage": "https://werewolf.world/image/0.3/character_icons/50x50/anonymous_50x50.png",
       "isAnonymous": true,
       "isHost": false,
       "isMe": false
@@ -95,7 +95,7 @@
     {
       "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3306",
       "name": "Anonymous",
-      "avatarImage": "/assets/images/avatar/default/user.png",
+      "avatarImage": "https://werewolf.world/image/0.3/character_icons/50x50/anonymous_50x50.png",
       "isAnonymous": true,
       "isHost": false,
       "isMe": false
