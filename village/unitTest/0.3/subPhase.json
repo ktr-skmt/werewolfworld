@@ -361,7 +361,7 @@
 				"ja": "マスター"
 			},
 			"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/master_50x50.png",
-			"numberOfCharacters": 1,
+			"numberOfPlayers": 1,
 			"board": []
 		},
 		{
@@ -373,7 +373,7 @@
 				"ja": "村人"
 			},
 			"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/villager_50x50.png",
-			"numberOfCharacters": 6,
+			"numberOfPlayers": 6,
 			"board": [
 				{
 					"@context": "https://werewolf.world/village/context/0.3/boardResult.jsonld",
@@ -403,7 +403,7 @@
 				"ja": "占い師"
 			},
 			"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/seer_50x50.png",
-			"numberOfCharacters": 1,
+			"numberOfPlayers": 1,
 			"board": [
 				{
 					"@context": "https://werewolf.world/village/context/0.3/boardResult.jsonld",
@@ -433,7 +433,7 @@
 				"ja": "霊媒師"
 			},
 			"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/medium_50x50.png",
-			"numberOfCharacters": 1,
+			"numberOfPlayers": 1,
 			"board": [
 				{
 					"@context": "https://werewolf.world/village/context/0.3/boardResult.jsonld",
@@ -463,7 +463,7 @@
 				"ja": "狩人"
 			},
 			"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/hunter_50x50.png",
-			"numberOfCharacters": 1,
+			"numberOfPlayers": 1,
 			"board": [
 				{
 					"@context": "https://werewolf.world/village/context/0.3/boardResult.jsonld",
@@ -493,7 +493,7 @@
 				"ja": "共有者"
 			},
 			"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/mason_50x50.png",
-			"numberOfCharacters": 2,
+			"numberOfPlayers": 2,
 			"board": [
 				{
 					"@context": "https://werewolf.world/village/context/0.3/boardResult.jsonld",
@@ -523,7 +523,7 @@
 				"ja": "狂人"
 			},
 			"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/madman_50x50.png",
-			"numberOfCharacters": 1,
+			"numberOfPlayers": 1,
 			"board": [
 				{
 					"@context": "https://werewolf.world/village/context/0.3/boardResult.jsonld",
@@ -553,7 +553,7 @@
 				"ja": "人狼"
 			},
 			"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/werewolf_50x50.png",
-			"numberOfCharacters": 2,
+			"numberOfPlayers": 2,
 			"board": [
 				{
 					"@context": "https://werewolf.world/village/context/0.3/boardResult.jsonld",
@@ -583,7 +583,7 @@
 				"ja": "ハムスター人間"
 			},
 			"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/werehamster_50x50.png",
-			"numberOfCharacters": 1,
+			"numberOfPlayers": 1,
 			"board": [
 				{
 					"@context": "https://werewolf.world/village/context/0.3/boardResult.jsonld",
