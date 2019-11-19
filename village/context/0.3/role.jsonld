@@ -13,8 +13,8 @@
 			"@id": "w3:roleIsMine",
 			"@type": "xsd:boolean"
 		},
-		"numberOfCharacters": {
-			"@id": "w3:numberOfCharactersWhoPlayTheRole",
+		"numberOfPlayers": {
+			"@id": "w3:numberOfPlayersWhoPlayTheRole",
 			"@type": "xsd:integer"
 		},
 		"character": "w3:character",
