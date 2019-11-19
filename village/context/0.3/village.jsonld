@@ -15,6 +15,10 @@
 			"@id": "w3:totalNumberOfPlayers",
 			"@type": "xsd:integer"
 		},
+		"language": {
+			"@id": "w3:language",
+			"@type": "xsd:string"
+		},
 		"chatSettings": "w3:chatSettings"
 	}
 }
