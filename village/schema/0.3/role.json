@@ -124,10 +124,10 @@
                 false
             ]
         },
-        "numberOfCharacters": {
-            "title": "Number of Characters",
-            "description": "number of characters",
-            "$id": "/definitions/numberOfCharacters",
+        "numberOfPlayers": {
+            "title": "Number of Players",
+            "description": "number of players",
+            "$id": "/definitions/numberOfPlayers",
             "type": "integer",
             "minimum": 0,
             "maximum": 7,
