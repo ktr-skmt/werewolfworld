@@ -9,8 +9,8 @@
 		"@id": "https://licos.online/state/0.3/village",
 		"id": 3,
 		"name": "Fearwick",
-		"totalNumberOfCharacters": 15,
-		"lang": "ja",
+		"totalNumberOfPlayers": 15,
+		"language": "ja",
 		"chatSettings": {
 			"@context": "https://werewolf.world/village/context/0.3/chatSettings.jsonld",
 			"@id": "https://licos.online/state/0.3/village#3/chatSettings",
@@ -42,7 +42,7 @@
 	"id": 12,
 	"counter": 7,
 	"maxNumberOfChatMessages": 10,
-	"interval": "5s",
+	"interval": "5 s",
 	"text": {
 		"@value": ">>11\nそれで、あなたは人狼が誰だと思うの？\n\n私はパメラが人狼だと思う。",
 		"@language": "ja"
