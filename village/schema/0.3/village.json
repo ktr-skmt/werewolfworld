@@ -43,10 +43,10 @@
             "minLength": 5,
             "maxLength": 30
         },
-        "totalNumberOfCharacters": {
-            "title": "The Total Number of Characters in Village",
-            "description": "the total number of characters in village",
-            "$id": "/definitions/totalNumberOfCharacters",
+        "totalNumberOfPlayers": {
+            "title": "The Total Number of Players in Village",
+            "description": "the total number of players in village",
+            "$id": "/definitions/totalNumberOfPlayers",
             "type": "integer",
             "minimum": 4,
             "maximum": 15,
@@ -54,7 +54,7 @@
                 15
             ]
         },
-        "lang": {
+        "language": {
             "title": "Language",
             "description": "language code; ISO 639-1:2002, Codes for the representation of names of languages — Part 1: Alpha-2 code",
             "$id": "/definitions/lang",
