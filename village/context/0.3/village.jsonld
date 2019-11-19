@@ -11,8 +11,8 @@
 			"@id": "w3:villageId",
 			"@type": "xsd:integer"
 		},
-		"totalNumberOfCharacters": {
-			"@id": "w3:totalNumberOfCharacters",
+		"totalNumberOfPlayers": {
+			"@id": "w3:totalNumberOfPlayers",
 			"@type": "xsd:integer"
 		},
 		"chatSettings": "w3:chatSettings"
