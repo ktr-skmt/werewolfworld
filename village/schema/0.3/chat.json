@@ -51,10 +51,10 @@
             "description": "chat interval",
             "$id": "/definitions/interval",
             "type": "string",
-            "pattern": "[0-9]+s",
-            "default": "5s",
+            "pattern": "[0-9]+ s",
+            "default": "5 s",
             "examples": [
-                "5s"
+                "5 s"
             ]
         },
         "text": {
