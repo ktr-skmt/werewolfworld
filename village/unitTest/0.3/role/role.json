@@ -7,7 +7,7 @@
         "ja": "狂人"
     },
     "image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/madman_50x50.png",
-    "numberOfCharacters": 1,
+    "numberOfPlayers": 1,
     "board": [
         {
             "@context": "https://werewolf.world/village/context/0.3/boardResult.jsonld",
