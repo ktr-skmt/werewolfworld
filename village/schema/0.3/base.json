@@ -115,7 +115,7 @@
                 "@id",
                 "id",
                 "name",
-                "totalNumberOfCharacters",
+                "totalNumberOfPlayers",
                 "language",
                 "chatSettings"
             ]
