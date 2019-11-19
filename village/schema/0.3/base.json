@@ -77,10 +77,10 @@
                 "name": {
                     "$ref": "https://werewolf.world/village/schema/0.3/village.json"
                 },
-                "totalNumberOfCharacters": {
+                "totalNumberOfPlayers": {
                     "$ref": "https://werewolf.world/village/schema/0.3/village.json"
                 },
-                "lang": {
+                "language": {
                     "$ref": "https://werewolf.world/village/schema/0.3/village.json"
                 },
                 "chatSettings": {
@@ -116,7 +116,7 @@
                 "id",
                 "name",
                 "totalNumberOfCharacters",
-                "lang",
+                "language",
                 "chatSettings"
             ]
         },
