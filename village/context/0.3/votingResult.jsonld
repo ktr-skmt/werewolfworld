@@ -6,7 +6,7 @@
 		"character": "w3:character",
 		"role": "w3:role",
 		"votingResultsSummary": "w3:votingResultsSummary",
-		"characterToLynch": "w3:character",
+		"characterToPutToDeath": "w3:character",
 		"numberOfVotes": {
 			"@id": "w3:numberOfVotes",
 			"@type": "xsd:integer"
