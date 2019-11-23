@@ -50,11 +50,11 @@
             "title": "Chat Interval",
             "description": "chat interval",
             "$id": "/definitions/interval",
-            "type": "string",
-            "pattern": "[0-9]+ s",
-            "default": "5 s",
+            "type": "integer",
+            "minimum": 5,
+            "maximum": 5,
             "examples": [
-                "5 s"
+                5
             ]
         },
         "text": {
