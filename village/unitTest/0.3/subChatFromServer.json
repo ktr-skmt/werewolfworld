@@ -13,7 +13,7 @@
     "id": 12,
     "counter": 7,
     "maxNumberOfChatMessages": 10,
-    "interval": "5 s",
+    "interval": 5,
     "text": {
         "@value": ">>11\nそれで、あなたは人狼が誰だと思うの？\n\n私はパメラが人狼だと思う。",
         "@language": "ja"
