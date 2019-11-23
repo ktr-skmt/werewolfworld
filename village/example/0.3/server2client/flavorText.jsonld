@@ -73,7 +73,7 @@
 			"id": 1,
 			"counter": 0,
 			"maxNumberOfChatMessages": 10,
-			"interval": "5 s",
+			"interval": 5,
 			"text": {
 				"@value": "最初のフレーバーテキストです",
 				"@language": "ja"
@@ -125,7 +125,7 @@
 			"id": 2,
 			"counter": 0,
 			"maxNumberOfChatMessages": 10,
-			"interval": "5 s",
+			"interval": 5,
 			"text": {
 				"@value": "２番目のフレーバーテキストです",
 				"@language": "ja"
