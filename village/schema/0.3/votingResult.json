@@ -24,10 +24,10 @@
                             "https://licos.online/state/0.3/village#3/votingResultsSummary#1"
                         ]
                     },
-                    "characterToLynch": {
-                        "title": "Character to Lynch",
-                        "description": "character to lynch",
-                        "$id": "/definitions/votingResultsSummary/items/properties/characterToLynch",
+                    "characterToPutToDeath": {
+                        "title": "Character to Put to Death",
+                        "description": "character to put to death",
+                        "$id": "/definitions/votingResultsSummary/items/properties/characterToPutToDeath",
                         "type": "object",
                         "properties": {
                             "@id": {
