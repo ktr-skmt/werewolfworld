@@ -1,17 +1,15 @@
-= Character and roles
+=== Character and roles
 :awestruct-layout: base
 :showtitle:
 :prev_section: defining-frontmatter
 :next_section: creating-pages
 :homepage: https://werewolf.world
 
-{homepage}[@homepage]
-
-== Document
+==== Document
 * https://werewolfguide.netlify.com/docs/en/characters
 * https://werewolfguide.netlify.com/docs/en/roles
 
-== JSON-LD
+==== JSON-LD
 
 * https://werewolf.world/village/example/0.3/allCharacters.jsonld
 * https://werewolf.world/village/example/0.3/allRoles.jsonld

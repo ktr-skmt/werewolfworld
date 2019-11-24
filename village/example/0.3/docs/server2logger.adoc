@@ -1,20 +1,18 @@
-= Server-to-logger message examples
+=== Server-to-logger message examples
 :awestruct-layout: base
 :showtitle:
 :prev_section: defining-frontmatter
 :next_section: creating-pages
 :homepage: https://werewolf.world
 
-{homepage}[@homepage]
-
-== Server-to-client morning.jsonld
+==== Server-to-client morning.jsonld
 * [before] https://werewolf.world/village/example/0.3/client2server/morning.jsonld
 * [after] https://werewolf.world/village/example/0.3/server2logger/morningForLog.jsonld
 
-== Server-to-client myMessageOnChat.jsonld
+==== Server-to-client myMessageOnChat.jsonld
 * [before] https://werewolf.world/village/example/0.3/server2client/myMessageOnChat.jsonld
 * [after] https://werewolf.world/village/example/0.3/server2logger/myMessageOnChatForLog.jsonld
 
-== Client-to-server nightVote.jsonld
+==== Client-to-server nightVote.jsonld
 * [before] https://werewolf.world/village/example/0.3/client2server/nightVote.jsonld
 * [after] https://werewolf.world/village/example/0.3/server2logger/nightVoteForLog.jsonld

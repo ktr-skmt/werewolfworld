@@ -1,11 +1,9 @@
-= Context
+=== Context
 :awestruct-layout: base
 :showtitle:
 :prev_section: defining-frontmatter
 :next_section: creating-pages
 :homepage: https://werewolf.world
-
-{homepage}[@homepage]
 
 [quote, 'https://w3c.github.io/json-ld-syntax/#the-context[3.1 The Context - JSON-LD 1.1 A JSON-based Serialization for Linked Data, W3C Editor&#8216;s Draft 22 November 2019]']
 ____
@@ -28,5 +26,5 @@ ____
 * https://werewolf.world/village/context/0.3/vote.jsonld[vote.jsonld]
 * https://werewolf.world/village/context/0.3/votingResult.jsonld[votingResult.jsonld]
 
-== References
+==== References
 * 3.1 The Context - JSON-LD 1.1 A JSON-based Serialization for Linked Data, W3C Editor&#8216;s Draft 22 November 2019. URL: https://w3c.github.io/json-ld-syntax/#the-context

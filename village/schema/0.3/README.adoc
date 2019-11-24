@@ -1,20 +1,18 @@
-= Village message protocol schemata
+== Village message protocol schemata
 :awestruct-layout: base
 :showtitle:
 :prev_section: defining-frontmatter
 :next_section: creating-pages
 :homepage: https://werewolf.world
 
-{homepage}[@homepage]
+=== JSON-LD
 
-== JSON-LD
-
-=== Characters and roles
+==== Characters and roles
 
 * https://werewolf.world/village/schema/0.3/allCharacters.json[allCharacters.json]
 * https://werewolf.world/village/schema/0.3/allRoles.json[allRoles.json]
 
-=== Message types
+==== Message types
 
 * https://werewolf.world/village/schema/0.3/boardMessage.json[boardMessage.json]
 * https://werewolf.world/village/schema/0.3/chatMessage.json[chatMessage.json]
@@ -25,7 +23,7 @@
 * https://werewolf.world/village/schema/0.3/systemMessage.json[systemMessage.json]
 * https://werewolf.world/village/schema/0.3/voteMessage.json[voteMessage.json]
 
-=== Parts
+==== Parts
 
 * https://werewolf.world/village/schema/0.3/avatar.json[avatar.json]
 * https://werewolf.world/village/schema/0.3/base.json[base.json]
@@ -42,7 +40,7 @@
 * https://werewolf.world/village/schema/0.3/village.json[village.json]
 * https://werewolf.world/village/schema/0.3/votingResult.json[votingResult.json]
 
-== JSON
+=== JSON
 
 * https://werewolf.world/village/schema/0.3/invitation/nextGameInvitation.json[invitation/nextGameInvitation.json]
 * https://werewolf.world/village/schema/0.3/invitation/nextGameInvitationIsClosed.json[invitation/nextGameInvitationIsClosed.json]

@@ -1,11 +1,9 @@
-= Lobby message protocol examples for unit testing
+== Lobby message protocol examples for unit testing
 :awestruct-layout: base
 :showtitle:
 :prev_section: defining-frontmatter
 :next_section: creating-pages
 :homepage: https://werewolf.world
-
-{homepage}[@homepage]
 
 * https://werewolf.world/lobby/unitTest/0.3/hostPlayer.json[hostPlayer.json]
 * https://werewolf.world/lobby/unitTest/0.3/human.json[human.json]

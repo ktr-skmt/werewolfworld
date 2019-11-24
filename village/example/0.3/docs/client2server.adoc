@@ -1,13 +1,11 @@
-= Client-to-server message examples
+=== Client-to-server message examples
 :awestruct-layout: base
 :showtitle:
 :prev_section: defining-frontmatter
 :next_section: creating-pages
 :homepage: https://werewolf.world
 
-{homepage}[@homepage]
-
-== JSON-LD
+==== JSON-LD
 
 * https://werewolf.world/village/example/0.3/server2client/firstMorning.jsonld
 * https://werewolf.world/village/example/0.3/server2client/morning.jsonld
@@ -21,7 +19,7 @@
 * https://werewolf.world/village/example/0.3/server2client/onymousAudienceChat.jsonld
 * https://werewolf.world/village/example/0.3/server2client/anonymousAudienceChat.jsonld
 
-== JSON
+==== JSON
 
 * https://werewolf.world/village/example/0.3/server2client/receipt/receivedChatMessage.json
 * https://werewolf.world/village/example/0.3/server2client/receipt/receivedFlavorTextMessage.json

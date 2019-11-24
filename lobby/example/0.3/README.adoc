@@ -1,15 +1,13 @@
-= Lobby message protocol examples
+== Lobby message protocol examples
 :awestruct-layout: base
 :showtitle:
 :prev_section: defining-frontmatter
 :next_section: creating-pages
 :homepage: https://werewolf.world
 
-{homepage}[@homepage]
+=== List
 
-== List
-
-=== Client to server
+==== Client to server
 
 . https://werewolf.world/lobby/example/0.3/client2server/buildVillage.json[buildVillage.json]
 . enterLobby.json
@@ -33,7 +31,7 @@
 . https://werewolf.world/lobby/example/0.3/client2server/changeUserPassword.json[changeUserPassword.json]
 . https://werewolf.world/lobby/example/0.3/client2server/changeLang.json[changeLang.json]
 
-=== Server to client
+==== Server to client
 
 . https://werewolf.world/lobby/example/0.3/server2client/avatar.json[avatar.json]
 . lobby.json
@@ -45,9 +43,9 @@
 . https://werewolf.world/lobby/example/0.3/server2client/played.json[played.json]
 . https://werewolf.world/lobby/example/0.3/server2client/settings.json[settings.json]
 
-== Flow
+=== Flow
 
-=== Guest human player
+==== Guest human player
 
 . main page (From AuthController)
 . (client to server) select a village list; https://werewolf.world/lobby/example/0.3/client2server/enterLobbyForHumanPlayer.json[enterLobbyForHumanPlayer.json]
@@ -66,7 +64,7 @@
 
 (client to server) leave a waiting page https://werewolf.world/lobby/example/0.3/client2server/leaveWaitingPage.json[leaveWaitingPage.json]
 
-=== Host human player
+==== Host human player
 
 . main page (From AuthController)
 . (client to server) select a village list; https://werewolf.world/lobby/example/0.3/client2server/enterLobbyForHumanPlayer.json[enterLobbyForHumanPlayer.json]
@@ -90,7 +88,7 @@ Then, a host of a waiting page is selected from remaining players if they exist.
 (client to server) kick out a player https://werewolf.world/lobby/example/0.3/client2server/kickOutPlayer.json[kickOutPlayer.json]
 The kicked out player moves to a lobby with an error message that a host kicked out the player
 
-=== Settings
+==== Settings
 . settings page (From main page)
 . (client to server) get settings info; https://werewolf.world/lobby/example/0.3/client2server/getSettings.json[getSettings.json]
 . (server to client) send settings info; https://werewolf.world/lobby/example/0.3/server2client/settings.json[settings.json]

@@ -1,13 +1,11 @@
-= Lobby message protocol schemata
+== Lobby message protocol schemata
 :awestruct-layout: base
 :showtitle:
 :prev_section: defining-frontmatter
 :next_section: creating-pages
 :homepage: https://werewolf.world
 
-{homepage}[@homepage]
-
-== Client to server
+=== Client to server
 
 * https://werewolf.world/lobby/schema/0.3/client2server/buildVillage.json[buildVillage.json]
 * https://werewolf.world/lobby/schema/0.3/client2server/enterLobby.json[enterLobby.json]
@@ -26,7 +24,7 @@
 * https://werewolf.world/lobby/schema/0.3/client2server/changeUserPassword.json[changeUserPassword.json]
 * https://werewolf.world/lobby/schema/0.3/client2server/changeLang.json[changeLang.json]
 
-== Server to client
+=== Server to client
 
 * https://werewolf.world/lobby/schema/0.3/server2client/avatar.json[avatar.json]
 * https://werewolf.world/lobby/schema/0.3/server2client/lobby.json[lobby.json]

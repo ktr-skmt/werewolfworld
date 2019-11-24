@@ -1,11 +1,9 @@
-= Village message protocol examples for unit testing
+== Village message protocol examples for unit testing
 :awestruct-layout: base
 :showtitle:
 :prev_section: defining-frontmatter
 :next_section: creating-pages
 :homepage: https://werewolf.world
-
-{homepage}[@homepage]
 
 * https://werewolf.world/village/unitTest/0.3/character/character.json[character/character.json]
 * https://werewolf.world/village/unitTest/0.3/character/resultCharacter.json[character/resultCharacter.json]
