@@ -12,24 +12,36 @@
 			"@id": "w3:characterName",
 			"@container": "@language"
 		},
-		"image": "w3:characterImage",
+		"image": {
+			"@id": "w3:characterImage",
+			"@type": "xsd:anyURI"
+		},
 		"id": {
 			"@id": "w3:characterId",
 			"@type": "xsd:integer"
 		},
 		"role": "w3:role",
-		"status": "w3:characterStatus",
+		"status": {
+			"@id": "w3:characterStatus",
+			"@type": "xsd:string"
+		},
 		"update": "w3:update",
 		"isAChoice": {
 			"@id": "w3:characterIsAChoice",
 			"@type": "xsd:boolean"
 		},
-		"result": "w3:result",
+		"result": {
+			"@id": "w3:result",
+			"@type": "xsd:string"
+		},
 		"avatar": "w3:avatar",
 		"fullName": {
 			"@id": "w3:characterFullName",
 			"@container": "@language"
 		},
-		"gender": "w3:gender"
+		"gender": {
+			"@id": "w3:gender",
+			"@type": "xsd:string"
+		}
 	}
 }
