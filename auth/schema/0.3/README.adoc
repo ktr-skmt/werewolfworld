@@ -1,0 +1,14 @@
+== Authentication and authorization protocol schemata
+:awestruct-layout: base
+:showtitle:
+:prev_section: defining-frontmatter
+:next_section: creating-pages
+:homepage: https://werewolf.world
+
+=== Robot to server
+
+* https://werewolf.world/lobby/schema/0.3/robot2server/authenticationAndAuthorizationRequest.json[authenticationAndAuthorizationRequest.json]
+
+=== Server to robot
+
+* https://werewolf.world/lobby/schema/0.3/server2robot/authenticationAndAuthorizationRequestResponse.json[authenticationAndAuthorizationRequestResponse.json]

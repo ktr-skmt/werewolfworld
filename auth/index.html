@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.8.dev">
-<title>Lobby message protocol</title>
+<title>Auth message protocol</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -438,7 +438,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article">
 <div id="header">
-<h1>Lobby message protocol</h1>
+<h1>Auth message protocol</h1>
 </div>
 <div id="content">
 <div id="preamble">
@@ -449,423 +449,70 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="truelobby-message-protocol-examples"><a class="anchor" href="#truelobby-message-protocol-examples"></a>Lobby message protocol examples</h2>
+<h2 id="trueauthentication-and-authorization-protocol-examples"><a class="anchor" href="#trueauthentication-and-authorization-protocol-examples"></a>Authentication and authorization protocol examples</h2>
 <div class="sectionbody">
 <div class="sect2">
 <h3 id="truelist"><a class="anchor" href="#truelist"></a>List</h3>
-<div class="sect3">
-<h4 id="trueclient-to-server"><a class="anchor" href="#trueclient-to-server"></a>Client to server</h4>
 <div class="ulist">
 <ul>
 <li>
-<p><a href="https://werewolf.world/lobby/example/0.3/client2server/buildVillage.json">buildVillage.json</a></p>
+<p><a href="https://werewolf.world/auth/example/0.3/robot2server/authenticationAndAuthorizationRequest.json">robot2server/authenticationAndAuthorizationRequest.json</a></p>
 </li>
 <li>
-<p>enterLobby.json</p>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://werewolf.world/lobby/example/0.3/client2server/enterLobbyForAnonymousAudience.json">enterLobbyForAnonymousAudience.json</a></p>
+<p><a href="https://werewolf.world/auth/example/0.3/server2robot/authenticationRequestResponse.json">server2robot/authenticationRequestResponse.json</a></p>
 </li>
 <li>
-<p><a href="https://werewolf.world/lobby/example/0.3/client2server/enterLobbyForHumanPlayer.json">enterLobbyForHumanPlayer.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/example/0.3/client2server/enterLobbyForOnymousAudience.json">enterLobbyForOnymousAudience.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/example/0.3/client2server/enterLobbyForRobotPlayer.json">enterLobbyForRobotPlayer.json</a></p>
+<p><a href="https://werewolf.world/auth/example/0.3/server2robot/authorizationRequestResponse.json">server2robot/authorizationRequestResponse.json</a></p>
 </li>
 </ul>
-</div>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/example/0.3/client2server/getAvatar.json">getAvatar.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/example/0.3/client2server/kickOutPlayer.json">kickOutPlayer.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/example/0.3/client2server/leaveWaitingPage.json">leaveWaitingPage.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/example/0.3/client2server/pong.json">pong.json</a></p>
-</li>
-<li>
-<p>selectVillage.json</p>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://werewolf.world/lobby/example/0.3/client2server/selectVillageForHumanPlayer.json">selectVillageForHumanPlayer.json</a></p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/example/0.3/client2server/advancedSearch.json">advancedSearch.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/example/0.3/client2server/idSearch.json">idSearch.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/example/0.3/client2server/play.json">play.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/example/0.3/client2server/ready.json">ready.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/example/0.3/client2server/getSettings.json">getSettings.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/example/0.3/client2server/changeUserName.json">changeUserName.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/example/0.3/client2server/changeUserEmail.json">changeUserEmail.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/example/0.3/client2server/changeUserPassword.json">changeUserPassword.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/example/0.3/client2server/changeLang.json">changeLang.json</a></p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect3">
-<h4 id="trueserver-to-client"><a class="anchor" href="#trueserver-to-client"></a>Server to client</h4>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://werewolf.world/lobby/example/0.3/server2client/avatar.json">avatar.json</a></p>
-</li>
-<li>
-<p>lobby.json</p>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://werewolf.world/lobby/example/0.3/server2client/lobbyForHumanPlayer.json">lobbyForHumanPlayer.json</a></p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/example/0.3/server2client/ping.json">ping.json</a></p>
-</li>
-<li>
-<p>waitingPage.json</p>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://werewolf.world/lobby/example/0.3/server2client/waitingPageForHumanPlayer.json">waitingPageForHumanPlayer.json</a></p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/example/0.3/server2client/searchResult.json">searchResult.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/example/0.3/server2client/played.json">played.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/example/0.3/server2client/settings.json">settings.json</a></p>
-</li>
-</ul>
-</div>
 </div>
 </div>
 <div class="sect2">
 <h3 id="trueflow"><a class="anchor" href="#trueflow"></a>Flow</h3>
-<div class="sect3">
-<h4 id="trueguest-human-player"><a class="anchor" href="#trueguest-human-player"></a>Guest human player</h4>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>main page (From AuthController)</p>
+<p>(robot to server) <a href="https://werewolf.world/auth/example/0.3/robot2server/authenticationAndAuthorizationRequest.json">robot2server/authenticationAndAuthorizationRequest.json</a></p>
 </li>
 <li>
-<p>(client to server) select a village list; <a href="https://werewolf.world/lobby/example/0.3/client2server/enterLobbyForHumanPlayer.json">enterLobbyForHumanPlayer.json</a></p>
+<p>(server to robot) <a href="https://werewolf.world/auth/example/0.3/server2robot/authenticationRequestResponse.json">server2robot/authenticationRequestResponse.json</a></p>
 </li>
 <li>
-<p>(server to client) go to a page of a village list; <a href="https://werewolf.world/lobby/example/0.3/server2client/lobbyForHumanPlayer.json">lobbyForHumanPlayer.json</a></p>
+<p>(server to browser) <a href="https://werewolf.world/lobby/example/0.3/server2client/authorizationRequest.json">server2client/authorizationRequest.json</a></p>
 </li>
 <li>
-<p>(client to server) get avatar info; <a href="https://werewolf.world/lobby/example/0.3/client2server/getAvatar.json">getAvatar.json</a></p>
+<p>(browser to server) <a href="https://werewolf.world/lobby/example/0.3/client2server/authorizationRequestAccepted.json">client2server/authorizationRequestAccepted.json</a></p>
 </li>
 <li>
-<p>(server to client) send avatar info; <a href="https://werewolf.world/lobby/example/0.3/server2client/avatar.json">avatar.json</a></p>
+<p>(server to browser) <a href="https://werewolf.world/lobby/example/0.3/server2client/authorizationRequestionAcceptedResponse.json">server2client/authorizationRequestionAcceptedResponse.json</a></p>
 </li>
 <li>
-<p>(client to server) select a village; <a href="https://werewolf.world/lobby/example/0.3/client2server/selectVillageForHumanPlayer.json">selectVillageForHumanPlayer.json</a></p>
-</li>
-<li>
-<p>(server to client) go to a waiting page; <a href="https://werewolf.world/lobby/example/0.3/server2client/waitingPageForHumanPlayer.json">waitingPageForHumanPlayer.json</a></p>
-</li>
-<li>
-<p>(server to client) ping <a href="https://werewolf.world/lobby/example/0.3/server2client/ping.json">ping.json</a></p>
-</li>
-<li>
-<p>(client to server) pong <a href="https://werewolf.world/lobby/example/0.3/client2server/pong.json">pong.json</a></p>
-</li>
-<li>
-<p>a host player pushes a start button (To GameController)</p>
-</li>
-<li>
-<p>(client to server) start a game <a href="https://werewolf.world/lobby/example/0.3/client2server/play.json">play.json</a></p>
-</li>
-<li>
-<p>(server to client) <a href="https://werewolf.world/lobby/example/0.3/server2client/played.json">played.json</a></p>
-</li>
-<li>
-<p>move from /lobby to /village</p>
-</li>
-<li>
-<p>(client to server) <a href="https://werewolf.world/lobby/example/0.3/client2server/ready.json">ready.json</a></p>
+<p>(server to robot) <a href="https://werewolf.world/auth/example/0.3/server2robot/authorizationRequestResponse.json">server2robot/authorizationRequestResponse.json</a></p>
 </li>
 </ol>
-</div>
-<div class="paragraph">
-<p>(client to server) leave a waiting page <a href="https://werewolf.world/lobby/example/0.3/client2server/leaveWaitingPage.json">leaveWaitingPage.json</a></p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="truehost-human-player"><a class="anchor" href="#truehost-human-player"></a>Host human player</h4>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>main page (From AuthController)</p>
-</li>
-<li>
-<p>(client to server) select a village list; <a href="https://werewolf.world/lobby/example/0.3/client2server/enterLobbyForHumanPlayer.json">enterLobbyForHumanPlayer.json</a></p>
-</li>
-<li>
-<p>(server to client) go to a page of a village list; <a href="https://werewolf.world/lobby/example/0.3/server2client/lobbyForHumanPlayer.json">lobbyForHumanPlayer.json</a></p>
-</li>
-<li>
-<p>(client to server) get avatar info; <a href="https://werewolf.world/lobby/example/0.3/client2server/getAvatar.json">getAvatar.json</a></p>
-</li>
-<li>
-<p>(server to client) send avatar info; <a href="https://werewolf.world/lobby/example/0.3/server2client/avatar.json">avatar.json</a></p>
-</li>
-<li>
-<p>(client) push a button for building a village</p>
-</li>
-<li>
-<p>(client) go to a page for building a village</p>
-</li>
-<li>
-<p>(client to server) build a village; <a href="https://werewolf.world/lobby/example/0.3/client2server/buildVillage.json">buildVillage.json</a></p>
-</li>
-<li>
-<p>(server to client) go to a waiting page; <a href="https://werewolf.world/lobby/example/0.3/server2client/waitingPageForHumanPlayer.json">waitingPageForHumanPlayer.json</a></p>
-</li>
-<li>
-<p>(server to client) ping <a href="https://werewolf.world/lobby/example/0.3/server2client/ping.json">ping.json</a></p>
-</li>
-<li>
-<p>(client to server) pong <a href="https://werewolf.world/lobby/example/0.3/client2server/pong.json">pong.json</a></p>
-</li>
-<li>
-<p>a host player pushes a start button (To GameController)</p>
-</li>
-<li>
-<p>(server to client) <a href="https://werewolf.world/lobby/example/0.3/server2client/played.json">played.json</a></p>
-</li>
-<li>
-<p>move from /lobby to /village</p>
-</li>
-<li>
-<p>(client to server) <a href="https://werewolf.world/lobby/example/0.3/client2server/ready.json">ready.json</a></p>
-</li>
-</ol>
-</div>
-<div class="paragraph">
-<p>(client to server) leave a waiting page <a href="https://werewolf.world/lobby/example/0.3/client2server/leaveWaitingPage.json">leaveWaitingPage.json</a>
-Then, a host of a waiting page is selected from remaining players if they exist.</p>
-</div>
-<div class="paragraph">
-<p>(client to server) kick out a player <a href="https://werewolf.world/lobby/example/0.3/client2server/kickOutPlayer.json">kickOutPlayer.json</a>
-The kicked out player moves to a lobby with an error message that a host kicked out the player</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="truesettings"><a class="anchor" href="#truesettings"></a>Settings</h4>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>settings page (From main page)</p>
-</li>
-<li>
-<p>(client to server) get settings info; <a href="https://werewolf.world/lobby/example/0.3/client2server/getSettings.json">getSettings.json</a></p>
-</li>
-<li>
-<p>(server to client) send settings info; <a href="https://werewolf.world/lobby/example/0.3/server2client/settings.json">settings.json</a></p>
-</li>
-<li>
-<p>change settings info:</p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>(client to server) change user&#8217;s name; <a href="https://werewolf.world/lobby/example/0.3/client2server/changeUserName.json">changeUserName.json</a></p>
-</li>
-<li>
-<p>(client to server) change user&#8217;s email address; <a href="https://werewolf.world/lobby/example/0.3/client2server/changeUserName.json">changeUserEmail.json</a></p>
-</li>
-<li>
-<p>(client to server) change user&#8217;s password; <a href="https://werewolf.world/lobby/example/0.3/client2server/changeUserPassword.json">changeUserPassword.json</a></p>
-</li>
-<li>
-<p>(client to server) change locale; <a href="https://werewolf.world/lobby/example/0.3/client2server/changeLang.json">changeLang.json</a></p>
-</li>
-</ol>
-</div>
-</li>
-<li>
-<p>(server to client) send settings info; <a href="https://werewolf.world/lobby/example/0.3/server2client/settings.json">settings.json</a></p>
-</li>
-<li>
-<p>leave settings page (To main page)</p>
-</li>
-</ol>
-</div>
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="truelobby-message-protocol-examples-for-unit-testing"><a class="anchor" href="#truelobby-message-protocol-examples-for-unit-testing"></a>Lobby message protocol examples for unit testing</h2>
-<div class="sectionbody">
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://werewolf.world/lobby/unitTest/0.3/hostPlayer.json">hostPlayer.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/unitTest/0.3/human.json">human.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/unitTest/0.3/pingResult.json">pingResult.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/unitTest/0.3/playerInKickOutPlayer.json">playerInKickOutPlayer.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/unitTest/0.3/playerInWaitingPage.json">playerInWaitingPage.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/unitTest/0.3/playerSetting.json">playerSetting.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/unitTest/0.3/robot.json">robot.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/unitTest/0.3/roleSetting.json">roleSetting.json</a></p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="truelobby-message-protocol-schemata"><a class="anchor" href="#truelobby-message-protocol-schemata"></a>Lobby message protocol schemata</h2>
+<h2 id="trueauthentication-and-authorization-protocol-schemata"><a class="anchor" href="#trueauthentication-and-authorization-protocol-schemata"></a>Authentication and authorization protocol schemata</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="trueclient-to-server-2"><a class="anchor" href="#trueclient-to-server-2"></a>Client to server</h3>
+<h3 id="truerobot-to-server"><a class="anchor" href="#truerobot-to-server"></a>Robot to server</h3>
 <div class="ulist">
 <ul>
 <li>
-<p><a href="https://werewolf.world/lobby/schema/0.3/client2server/buildVillage.json">buildVillage.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/schema/0.3/client2server/enterLobby.json">enterLobby.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/schema/0.3/client2server/getAvatar.json">getAvatar.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/schema/0.3/client2server/kickOutPlayer.json">kickOutPlayer.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/schema/0.3/client2server/leaveWaitingPage.json">leaveWaitingPage.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/schema/0.3/client2server/pong.json">pong.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/schema/0.3/client2server/selectVillage.json">selectVillage.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/schema/0.3/client2server/advancedSearch.json">advancedSearch.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/schema/0.3/client2server/idSearch.json">idSearch.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/schema/0.3/client2server/play.json">play.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/schema/0.3/client2server/ready.json">ready.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/schema/0.3/client2server/getSettings.json">getSettings.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/schema/0.3/client2server/changeUserName.json">changeUserName.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/schema/0.3/client2server/changeUserEmail.json">changeUserEmail.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/schema/0.3/client2server/changeUserPassword.json">changeUserPassword.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/schema/0.3/client2server/changeLang.json">changeLang.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/schema/0.3/client2server/authorizationRequestAccepted.json">authorizationRequestAccepted.json</a></p>
+<p><a href="https://werewolf.world/lobby/schema/0.3/robot2server/authenticationAndAuthorizationRequest.json">authenticationAndAuthorizationRequest.json</a></p>
 </li>
 </ul>
 </div>
 </div>
 <div class="sect2">
-<h3 id="trueserver-to-client-2"><a class="anchor" href="#trueserver-to-client-2"></a>Server to client</h3>
+<h3 id="trueserver-to-robot"><a class="anchor" href="#trueserver-to-robot"></a>Server to robot</h3>
 <div class="ulist">
 <ul>
 <li>
-<p><a href="https://werewolf.world/lobby/schema/0.3/server2client/avatar.json">avatar.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/schema/0.3/server2client/lobby.json">lobby.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/schema/0.3/server2client/ping.json">ping.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/schema/0.3/server2client/waitingPage.json">waitingPage.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/schema/0.3/server2client/searchResult.json">searchResult.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/schema/0.3/server2client/played.json">played.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/schema/0.3/server2client/settings.json">settings.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/schema/0.3/server2client/authorizationRequest.json">authorizationRequest.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/schema/0.3/server2client/authorizationRequestAcceptedResponse.json">authorizationRequestAcceptedResponse.json</a></p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect2">
-<h3 id="trueserver-to-server"><a class="anchor" href="#trueserver-to-server"></a>Server to server</h3>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://werewolf.world/lobby/schema/0.3/server2server/playedWithToken.json">playedWithToken.json</a></p>
+<p><a href="https://werewolf.world/lobby/schema/0.3/server2robot/authenticationAndAuthorizationRequestResponse.json">authenticationAndAuthorizationRequestResponse.json</a></p>
 </li>
 </ul>
 </div>
@@ -875,7 +522,7 @@ The kicked out player moves to a lobby with an error message that a host kicked 
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2019-11-24 20:24:58 +0900
+Last updated 2019-11-24 20:25:15 +0900
 </div>
 </div>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css">

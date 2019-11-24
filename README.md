@@ -48,6 +48,18 @@ Based on
 
 ---
 
+# Auth message protocol specification
+
+See https://werewolf.world/auth/
+
+Based on 
+
+* UTF-8 without BOM
+* JSON
+* JSON Schema
+
+---
+
 # Past versions
 
 ## Village message protocol

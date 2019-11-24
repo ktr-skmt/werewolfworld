@@ -1,0 +1,127 @@
+{
+    "title": "werewolf.world: Schema of authenticationAndAuthoizationRequest.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://werewolf.world/lobby/schema/0.3/client2server/authenticationAndAuthoizationRequest.json",
+    "definitions": {},
+    "type": "object",
+    "properties": {
+        "type": {
+            "title": "Type",
+            "description": "type",
+            "$id": "/properties/type",
+            "type": "string",
+            "pattern": "^authenticationAndAuthorizationRequest$",
+            "default": "authenticationAndAuthorizationRequest",
+            "examples": [
+              "authenticationAndAuthorizationRequest"
+            ]
+        },
+        "userName": {
+            "title": "User Name",
+            "description": "user name",
+            "$id": "/definitions/userName",
+            "type": "string",
+            "minLength": 5,
+            "maxLength": 64
+        },
+        "userPassword": {
+            "title": "User Password",
+            "description": "user password",
+            "$id": "/definitions/userPassword",
+            "type": "string",
+            "minLength": 8,
+            "maxLength": 256
+        },
+        "robotVersion": {
+            "title": "Robot Version",
+            "description": "robot version",
+            "$id": "/definitions/robotVersion",
+            "type": "string",
+            "pattern": "^[0-9]+.[0-9]+.[0-9]+",
+            "minLength": 5
+        },
+        "accessToken": {
+            "title": "Access Token",
+            "description": "GUID",
+            "$id": "/properties/accessToken",
+            "type": "string",
+            "pattern": "^[0-9A-Fa-f]{8}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{12}$",
+            "examples": [
+              "3F2504E0-4F89-11D3-9A0C-0305E82C3301"
+            ]
+        },
+        "sourceCode": {
+            "title": "Source Code",
+            "description": "source code",
+            "$id": "/properties/sourceCode",
+            "type": "object",
+            "properties": {
+                "timestamp": {
+                    "title": "Timestamp",
+                    "description": "timestamp",
+                    "$id": "/properties/sourceCode/properties/timestamp",
+                    "type": "string",
+                    "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}.[0-9]{3}(\\+[0-9]{2}:[0-9]{2}|Z)$",
+                    "examples": [
+                        "2006-10-07T12:06:56.568+09:00"
+                    ]
+                },
+                "programmingLanguage": {
+                    "title": "Programming Language List",
+                    "description": "programming langauge list",
+                    "$id": "/properties/sourceCode/properties/programmingLanguage",
+                    "type": "array",
+                    "items": {
+                        "title": "Programming Language",
+                        "description": "programming language",
+                        "$id": "/properties/sourceCode/properties/programmingLanguage/items",
+                        "type": "object",
+                        "properties": {
+                            "name": {
+                                "title": "Programming Language Name",
+                                "description": "programming language name",
+                                "$id": "/properties/sourceCode/properties/programmingLanguage/items/properties/name",
+                                "type": "string",
+                                "examples": [
+                                    "Scala"
+                                ]
+                            },
+                            "version": {
+                                "title": "Programming Language Version",
+                                "description": "programming language version",
+                                "$id": "/properties/sourceCode/properties/programmingLanguage/items/properties/version",
+                                "type": "string",
+                                "examples": [
+                                    "2.13.1"
+                                ]
+                            }
+                        },
+                        "required": [
+                            "name",
+                            "version"
+                        ]
+                    }
+                },
+                "url": {
+                    "title": "URL",
+                    "description": "url",
+                    "$id": "/properties/sourceCode/properties/url",
+                    "pattern": "^https://",
+                    "examples": [
+                        "https://github.com/ktr-skmt/werewolfworld"
+                    ]
+                }
+            },
+            "required": [
+                "timestamp"
+            ]
+        }
+    },
+    "required": [
+        "type",
+        "userName",
+        "userPassword",
+        "accessToken",
+        "sourceCode"
+    ]
+}

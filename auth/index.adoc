@@ -1,0 +1,12 @@
+= Auth message protocol
+:awestruct-layout: base
+:showtitle:
+:prev_section: defining-frontmatter
+:next_section: creating-pages
+:homepage: https://werewolf.world
+
+{homepage}[@homepage]
+
+include::example/0.3/README.adoc[]
+
+include::schema/0.3/README.adoc[]
