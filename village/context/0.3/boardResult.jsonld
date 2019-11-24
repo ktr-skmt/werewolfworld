@@ -2,7 +2,10 @@
 	"@context": {
 		"@version": 1.1,
 		"w3": "https://werewolf.world/resource/0.3/",
-		"polarity": "w3:boardPolarity",
+		"polarity": {
+			"@id": "w3:boardPolarity",
+			"@type": "xsd:string"
+		},
 		"character": "w3:character"
 	}
 }
