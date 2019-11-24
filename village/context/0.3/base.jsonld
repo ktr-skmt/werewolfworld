@@ -4,15 +4,21 @@
 		"xsd": "http://www.w3.org/2001/XMLSchema#",
 		"w3": "https://werewolf.world/resource/0.3/",
 		"village": "w3:village",
-		"token": "w3:token",
-		"phase": "w3:phase",
+		"token": {
+			"@id": "w3:token",
+			"@type": "xsd:string"
+		},
+		"phase": {
+			"@id": "w3:phase",
+			"@type": "xsd:string"
+		},
 		"day": {
 			"@id": "w3:day",
-			"@type": "xsd:integer"
+			"@type": "xsd:unsignedShort"
 		},
 		"phaseTimeLimit": {
 			"@id": "w3:phaseTimeLimit",
-			"@type": "xsd:integer"
+			"@type": "xsd:unsignedShort"
 		},
 		"phaseStartTime": {
 			"@id": "w3:phaseStartTime",
@@ -26,8 +32,14 @@
 			"@id": "w3:timestamp",
 			"@type": "xsd:dateTime"
 		},
-		"directionality": "w3:directionality",
-		"intensionalDisclosureRange": "w3:channel",
+		"directionality": {
+			"@id": "w3:directionality",
+			"@type": "xsd:string"
+		},
+		"intensionalDisclosureRange": {
+			"@id": "w3:channel",
+			"@type": "xsd:string"
+		},
 		"extensionalDisclosureRange": "w3:extensionalDisclosureRange",
 		"avatar": "w3:avatar",
 		"myCharacter": "w3:character",
