@@ -23,7 +23,9 @@ Issues [https://github.com/ktr-skmt/werewolfworld/issues](https://github.com/ktr
 
 ---
 
-# Village protocol format specification
+# Village message protocol specification
+
+See https://werewolf.world/village/
 
 Based on 
 
@@ -32,15 +34,11 @@ Based on
 * JSON Schema
 * JSON-LD
 
-Schemata [https://werewolf.world/village/schema/0.3/](http://werewolf.world/village/schema/0.3/)
-
-Contexts and IRIs [https://werewolf.world/village/context/0.3/](https://werewolf.world/village/context/0.3/)
-
-Examples [https://werewolf.world/village/example/0.3/](http://werewolf.world/village/example/0.3/)
-
 ---
 
-# Lobby protocol format specification
+# Lobby message protocol specification
+
+See https://werewolf.world/lobby/
 
 Based on 
 
@@ -48,41 +46,23 @@ Based on
 * JSON
 * JSON Schema
 
-Schemata [https://werewolf.world/lobby/schema/0.3/](https://werewolf.world/lobby/schema/0.3/)
-
-Examples [https://werewolf.world/lobby/example/0.3/](https://werewolf.world/lobby/example/0.3/)
-
 ---
 
 # Past versions
 
-## Village protocol
+## Village message protocol
 
 ### Version 0.2
 
 Release the protocol 0.2 at 10 October, 2018.
 
-Schemata
-
-Contexts and IRIs [https://werewolf.world/context/0.2/](http://werewolf.world/context/0.2/)
-
-Examples [https://werewolf.world/example/0.2/](http://werewolf.world/example/0.2/)
-
 ### Version 0.1
 
-Release the protocol 0.1 (wild) at 3 November, 2017.
+Release the protocol 0.1 (wild) at 3 November, 2017
 
-Contexts and IRIs [https://werewolf.world/context/0.1/](http://werewolf.world/context/0.1/)
-
-Examples [https://werewolf.world/example/0.1/](http://werewolf.world/example/0.1/)
-
-## Lobby protocol
+## Lobby message protocol
 
 ### Version 0.2
-
-Schemata [https://werewolf.world/lobby/schema/0.2/](https://werewolf.world/lobby/schema/0.2/)
-
-Examples [https://werewolf.world/lobby/example/0.2/](https://werewolf.world/lobby/example/0.2/)
 
 # License
 
