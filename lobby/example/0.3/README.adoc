@@ -1,0 +1,103 @@
+= Lobby message protocol examples
+:awestruct-layout: base
+:showtitle:
+:prev_section: defining-frontmatter
+:next_section: creating-pages
+:homepage: https://werewolf.world
+
+{homepage}[@homepage]
+
+== List
+
+=== Client to server
+
+. https://werewolf.world/lobby/example/0.3/client2server/buildVillage.json[buildVillage.json]
+. enterLobby.json
+.. https://werewolf.world/lobby/example/0.3/client2server/enterLobbyForAnonymousAudience.json[enterLobbyForAnonymousAudience.json]
+.. https://werewolf.world/lobby/example/0.3/client2server/enterLobbyForHumanPlayer.json[enterLobbyForHumanPlayer.json]
+.. https://werewolf.world/lobby/example/0.3/client2server/enterLobbyForOnymousAudience.json[enterLobbyForOnymousAudience.json]
+.. https://werewolf.world/lobby/example/0.3/client2server/enterLobbyForRobotPlayer.json[enterLobbyForRobotPlayer.json]
+. https://werewolf.world/lobby/example/0.3/client2server/getAvatar.json[getAvatar.json]
+. https://werewolf.world/lobby/example/0.3/client2server/kickOutPlayer.json[kickOutPlayer.json]
+. https://werewolf.world/lobby/example/0.3/client2server/leaveWaitingPage.json[leaveWaitingPage.json]
+. https://werewolf.world/lobby/example/0.3/client2server/pong.json[pong.json]
+. selectVillage.json
+.. https://werewolf.world/lobby/example/0.3/client2server/selectVillageForHumanPlayer.json[selectVillageForHumanPlayer.json]
+. https://werewolf.world/lobby/example/0.3/client2server/advancedSearch.json[advancedSearch.json]
+. https://werewolf.world/lobby/example/0.3/client2server/idSearch.json[idSearch.json]
+. https://werewolf.world/lobby/example/0.3/client2server/play.json[play.json]
+. https://werewolf.world/lobby/example/0.3/client2server/ready.json[ready.json]
+. https://werewolf.world/lobby/example/0.3/client2server/getSettings.json[getSettings.json]
+. https://werewolf.world/lobby/example/0.3/client2server/changeUserName.json[changeUserName.json]
+. https://werewolf.world/lobby/example/0.3/client2server/changeUserEmail.json[changeUserEmail.json]
+. https://werewolf.world/lobby/example/0.3/client2server/changeUserPassword.json[changeUserPassword.json]
+. https://werewolf.world/lobby/example/0.3/client2server/changeLang.json[changeLang.json]
+
+=== Server to client
+
+. https://werewolf.world/lobby/example/0.3/server2client/avatar.json[avatar.json]
+. lobby.json
+.. https://werewolf.world/lobby/example/0.3/server2client/lobbyForHumanPlayer.json[lobbyForHumanPlayer.json]
+. https://werewolf.world/lobby/example/0.3/server2client/ping.json[ping.json]
+. waitingPage.json
+.. https://werewolf.world/lobby/example/0.3/server2client/waitingPageForHumanPlayer.json[waitingPageForHumanPlayer.json]
+. https://werewolf.world/lobby/example/0.3/server2client/searchResult.json[searchResult.json]
+. https://werewolf.world/lobby/example/0.3/server2client/played.json[played.json]
+. https://werewolf.world/lobby/example/0.3/server2client/settings.json[settings.json]
+
+== Flow
+
+=== Guest human player
+
+. main page (From AuthController)
+. (client to server) select a village list; https://werewolf.world/lobby/example/0.3/client2server/enterLobbyForHumanPlayer.json[enterLobbyForHumanPlayer.json]
+. (server to client) go to a page of a village list; https://werewolf.world/lobby/example/0.3/server2client/lobbyForHumanPlayer.json[lobbyForHumanPlayer.json]
+. (client to server) get avatar info; https://werewolf.world/lobby/example/0.3/client2server/getAvatar.json[getAvatar.json]
+. (server to client) send avatar info; https://werewolf.world/lobby/example/0.3/server2client/avatar.json[avatar.json]
+. (client to server) select a village; https://werewolf.world/lobby/example/0.3/client2server/selectVillageForHumanPlayer.json[selectVillageForHumanPlayer.json]
+. (server to client) go to a waiting page; https://werewolf.world/lobby/example/0.3/server2client/waitingPageForHumanPlayer.json[waitingPageForHumanPlayer.json]
+. (server to client) ping https://werewolf.world/lobby/example/0.3/server2client/ping.json[ping.json]
+. (client to server) pong https://werewolf.world/lobby/example/0.3/client2server/pong.json[pong.json]
+. a host player pushes a start button (To GameController)
+. (client to server) start a game https://werewolf.world/lobby/example/0.3/client2server/play.json[play.json]
+. (server to client) https://werewolf.world/lobby/example/0.3/server2client/played.json[played.json]
+. move from /lobby to /village
+. (client to server) https://werewolf.world/lobby/example/0.3/client2server/ready.json[ready.json]
+
+(client to server) leave a waiting page https://werewolf.world/lobby/example/0.3/client2server/leaveWaitingPage.json[leaveWaitingPage.json]
+
+=== Host human player
+
+. main page (From AuthController)
+. (client to server) select a village list; https://werewolf.world/lobby/example/0.3/client2server/enterLobbyForHumanPlayer.json[enterLobbyForHumanPlayer.json]
+. (server to client) go to a page of a village list; https://werewolf.world/lobby/example/0.3/server2client/lobbyForHumanPlayer.json[lobbyForHumanPlayer.json]
+. (client to server) get avatar info; https://werewolf.world/lobby/example/0.3/client2server/getAvatar.json[getAvatar.json]
+. (server to client) send avatar info; https://werewolf.world/lobby/example/0.3/server2client/avatar.json[avatar.json]
+. (client) push a button for building a village
+. (client) go to a page for building a village
+. (client to server) build a village; https://werewolf.world/lobby/example/0.3/client2server/buildVillage.json[buildVillage.json]
+. (server to client) go to a waiting page; https://werewolf.world/lobby/example/0.3/server2client/waitingPageForHumanPlayer.json[waitingPageForHumanPlayer.json]
+. (server to client) ping https://werewolf.world/lobby/example/0.3/server2client/ping.json[ping.json]
+. (client to server) pong https://werewolf.world/lobby/example/0.3/client2server/pong.json[pong.json]
+. a host player pushes a start button (To GameController)
+. (server to client) https://werewolf.world/lobby/example/0.3/server2client/played.json[played.json]
+. move from /lobby to /village
+. (client to server) https://werewolf.world/lobby/example/0.3/client2server/ready.json[ready.json]
+
+(client to server) leave a waiting page https://werewolf.world/lobby/example/0.3/client2server/leaveWaitingPage.json[leaveWaitingPage.json]
+Then, a host of a waiting page is selected from remaining players if they exist.
+
+(client to server) kick out a player https://werewolf.world/lobby/example/0.3/client2server/kickOutPlayer.json[kickOutPlayer.json]
+The kicked out player moves to a lobby with an error message that a host kicked out the player
+
+=== Settings
+. settings page (From main page)
+. (client to server) get settings info; https://werewolf.world/lobby/example/0.3/client2server/getSettings.json[getSettings.json]
+. (server to client) send settings info; https://werewolf.world/lobby/example/0.3/server2client/settings.json[settings.json]
+. change settings info:
+.. (client to server) change user's name; https://werewolf.world/lobby/example/0.3/client2server/changeUserName.json[changeUserName.json]
+.. (client to server) change user's email address; https://werewolf.world/lobby/example/0.3/client2server/changeUserName.json[changeUserEmail.json]
+.. (client to server) change user's password; https://werewolf.world/lobby/example/0.3/client2server/changeUserPassword.json[changeUserPassword.json]
+.. (client to server) change locale; https://werewolf.world/lobby/example/0.3/client2server/changeLang.json[changeLang.json]
+. (server to client) send settings info; https://werewolf.world/lobby/example/0.3/server2client/settings.json[settings.json]
+. leave settings page (To main page)
