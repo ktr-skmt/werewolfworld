@@ -1,0 +1,32 @@
+= Context
+:awestruct-layout: base
+:showtitle:
+:prev_section: defining-frontmatter
+:next_section: creating-pages
+:homepage: https://werewolf.world
+
+{homepage}[@homepage]
+
+[quote, 'https://w3c.github.io/json-ld-syntax/#the-context[3.1 The Context - JSON-LD 1.1 A JSON-based Serialization for Linked Data, W3C Editor&#8216;s Draft 22 November 2019]']
+____
+Simply speaking, a context is used to map terms to IRIs. Terms are case sensitive and most valid strings that are not reserved JSON-LD keywords can be used as a term. 
+____
+
+* https://werewolf.world/village/context/0.3/avatar.jsonld[avatar.jsonld]
+* https://werewolf.world/village/context/0.3/base.jsonld[base.jsonld]
+* https://werewolf.world/village/context/0.3/board.jsonld[board.jsonld]
+* https://werewolf.world/village/context/0.3/boardResult.jsonld[boardResult.jsonld]
+* https://werewolf.world/village/context/0.3/character.jsonld[character.jsonld]
+* https://werewolf.world/village/context/0.3/chat.jsonld[chat.jsonld]
+* https://werewolf.world/village/context/0.3/chatSettings.jsonld[chatSettings.jsonld]
+* https://werewolf.world/village/context/0.3/error.jsonld[error.jsonld]
+* https://werewolf.world/village/context/0.3/flavorText.jsonld[flavorText.jsonld]
+* https://werewolf.world/village/context/0.3/role.jsonld[role.jsonld]
+* https://werewolf.world/village/context/0.3/scroll.jsonld[scroll.jsonld]
+* https://werewolf.world/village/context/0.3/star.jsonld[star.jsonld]
+* https://werewolf.world/village/context/0.3/village.jsonld[village.jsonld]
+* https://werewolf.world/village/context/0.3/vote.jsonld[vote.jsonld]
+* https://werewolf.world/village/context/0.3/votingResult.jsonld[votingResult.jsonld]
+
+== References
+* 3.1 The Context - JSON-LD 1.1 A JSON-based Serialization for Linked Data, W3C Editor&#8216;s Draft 22 November 2019. URL: https://w3c.github.io/json-ld-syntax/#the-context

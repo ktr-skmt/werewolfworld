@@ -1,0 +1,153 @@
+= IRI (Internationalized Resource Identifiers [RFC3987])
+:awestruct-layout: base
+:showtitle:
+:prev_section: defining-frontmatter
+:next_section: creating-pages
+:homepage: https://werewolf.world
+
+{homepage}[@homepage]
+
+
+[quote, 'https://w3c.github.io/json-ld-syntax/#iris[3.2 IRIs - JSON-LD 1.1 A JSON-based Serialization for Linked Data, W3C Editor&#8216;s Draft 22 November 2019]']
+____
+IRIs (Internationalized Resource Identifiers [RFC3987]) are fundamental to Linked Data as that is how most nodes and properties are identified.
+____
+
+== IRIs for message types
+
+* https://werewolf.world/resource/0.3/boardMessage
+* https://werewolf.world/resource/0.3/chatMessage
+* https://werewolf.world/resource/0.3/errorMessage
+* https://werewolf.world/resource/0.3/scrollMessage
+* https://werewolf.world/resource/0.3/starMessage
+* https://werewolf.world/resource/0.3/systemMessage
+* https://werewolf.world/resource/0.3/voteMessage
+* https://werewolf.world/resource/0.3/flavorTextMessage
+
+== IRIs in the avatar(.jsonld) context
+
+* https://werewolf.world/resource/0.3/avatarToken^https://www.w3.org/2001/XMLSchema#string
+* https://werewolf.world/resource/0.3/avatarName^https://www.w3.org/2001/XMLSchema#string
+* https://werewolf.world/resource/0.3/avatarImage^https://www.w3.org/2001/XMLSchema#anyURI
+
+== IRIs in the base(.jsonld) context
+
+* https://werewolf.world/resource/0.3/village
+* https://werewolf.world/resource/0.3/token^https://www.w3.org/2001/XMLSchema#string
+* https://werewolf.world/resource/0.3/phase^https://www.w3.org/2001/XMLSchema#string
+* https://werewolf.world/resource/0.3/day^https://www.w3.org/2001/XMLSchema#unsignedShort
+* https://werewolf.world/resource/0.3/phaseTimeLimit^https://www.w3.org/2001/XMLSchema#unsignedShort
+* https://werewolf.world/resource/0.3/phaseStartTime^https://www.w3.org/2001/XMLSchema#dateTime
+* https://werewolf.world/resource/0.3/serverTimestamp^https://www.w3.org/2001/XMLSchema#dateTime
+* https://werewolf.world/resource/0.3/clientTimestamp^https://www.w3.org/2001/XMLSchema#dateTime
+* https://werewolf.world/resource/0.3/directionality^https://www.w3.org/2001/XMLSchema#string
+* https://werewolf.world/resource/0.3/channel^https://www.w3.org/2001/XMLSchema#string
+* https://werewolf.world/resource/0.3/extensionalDisclosureRange
+* https://werewolf.world/resource/0.3/avatar
+* https://werewolf.world/resource/0.3/character
+* https://werewolf.world/resource/0.3/flavorText
+
+== IRIs in the board(.jsonld) context
+
+* https://werewolf.world/resource/0.3/character
+* https://werewolf.world/resource/0.3/role
+* https://werewolf.world/resource/0.3/boardPrediction^https://www.w3.org/2001/XMLSchema#string
+
+== IRIs in the boardResult(.jsonld) context
+
+* https://werewolf.world/resource/0.3/boardPolarity^https://www.w3.org/2001/XMLSchema#string
+* https://werewolf.world/resource/0.3/character
+
+== IRIs in the character(.jsonld) context
+
+* https://werewolf.world/resource/0.3/character
+* https://werewolf.world/resource/0.3/characterIsMine^https://www.w3.org/2001/XMLSchema#boolean
+* https://werewolf.world/resource/0.3/characterName^https://www.w3.org/2001/XMLSchema#string
+* https://werewolf.world/resource/0.3/characterImage^https://www.w3.org/2001/XMLSchema#anyURI
+* https://werewolf.world/resource/0.3/characterId^https://www.w3.org/2001/XMLSchema#undesignedShort
+* https://werewolf.world/resource/0.3/role
+* https://werewolf.world/resource/0.3/characterStatus^https://www.w3.org/2001/XMLSchema#string
+* https://werewolf.world/resource/0.3/characterIsAChoice^https://www.w3.org/2001/XMLSchema#boolean
+* https://werewolf.world/resource/0.3/result^https://www.w3.org/2001/XMLSchema#string
+* https://werewolf.world/resource/0.3/characterFullName^https://www.w3.org/2001/XMLSchema#string
+* https://werewolf.world/resource/0.3/gender^https://www.w3.org/2001/XMLSchema#string
+
+== IRIs in the chat(.jsonld) context
+
+* https://werewolf.world/resource/0.3/chatIsMine^https://www.w3.org/2001/XMLSchema#boolean
+* https://werewolf.world/resource/0.3/character
+* https://werewolf.world/resource/0.3/chatId^https://www.w3.org/2001/XMLSchema#unsignedShort
+* https://werewolf.world/resource/0.3/chatCounter^https://www.w3.org/2001/XMLSchema#unsignedShort
+* https://werewolf.world/resource/0.3/chatMaxNumberOfChatMessages^https://www.w3.org/2001/XMLSchema#unsignedShort
+* https://werewolf.world/resource/0.3/chatInterval^https://www.w3.org/2001/XMLSchema#unsignedShort
+* https://werewolf.world/resource/0.3/chatText^https://www.w3.org/2001/XMLSchema#string
+* https://werewolf.world/resource/0.3/chatMaxLengthOfUnicodeCodePoints^https://www.w3.org/2001/XMLSchema#unsignedShort
+* https://werewolf.world/resource/0.3/chatIsOver^https://www.w3.org/2001/XMLSchema#boolean
+* https://werewolf.world/resource/0.3/chatIsFromServer^https://www.w3.org/2001/XMLSchema#boolean
+
+== IRIs in the chatSettings(.jsonld) context
+
+* https://werewolf.world/resource/0.3/maxNumberOfChatMessages^https://www.w3.org/2001/XMLSchema#unsignedShort
+* https://werewolf.world/resource/0.3/maxLengthOfUnicodeCodePoints^https://www.w3.org/2001/XMLSchema#unsignedShort
+
+== IRIs in the error(.jsonld) context
+
+* https://werewolf.world/resource/0.3/errorContent
+* https://werewolf.world/resource/0.3/severity^https://www.w3.org/2001/XMLSchema#string
+* https://werewolf.world/resource/0.3/source^https://www.w3.org/2001/XMLSchema#string
+* https://werewolf.world/resource/0.3/isFromServer^https://www.w3.org/2001/XMLSchema#boolean
+
+== IRIs in the flavorText(.jsonld) context
+
+* https://werewolf.world/resource/0.3/flavorText
+
+== IRIs in the role(.jsonld) context
+
+* https://werewolf.world/resource/0.3/role
+* https://werewolf.world/resource/0.3/roleName
+* https://werewolf.world/resource/0.3/roleImage^https://www.w3.org/2001/XMLSchema#anyURI
+* https://werewolf.world/resource/0.3/roleIsMine^https://www.w3.org/2001/XMLSchema#boolean
+* https://werewolf.world/resource/0.3/numberOfPlayersWhoPlayTheRole^https://www.w3.org/2001/XMLSchema#unsignedShort
+* https://werewolf.world/resource/0.3/character
+* https://werewolf.world/resource/0.3/board
+
+== IRIs in the scroll(.jsonld) context
+
+* https://werewolf.world/resource/0.3/nodeId^https://www.w3.org/2001/XMLSchema#string
+* https://werewolf.world/resource/0.3/scrollTop^https://www.w3.org/2001/XMLSchema#integer
+* https://werewolf.world/resource/0.3/scrollHeight^https://www.w3.org/2001/XMLSchema#integer
+* https://werewolf.world/resource/0.3/offsetHeight^https://www.w3.org/2001/XMLSchema#integer
+
+== IRIs in the star(.jsonld) context
+
+* https://werewolf.world/resource/0.3/star
+* https://werewolf.world/resource/0.3/starToken^https://www.w3.org/2001/XMLSchema#string
+* https://werewolf.world/resource/0.3/starServerTimestamp^https://www.w3.org/2001/XMLSchema#dateTime
+* https://werewolf.world/resource/0.3/starClientTimestamp^https://www.w3.org/2001/XMLSchema#dateTime
+* https://werewolf.world/resource/0.3/starIsMarked^https://www.w3.org/2001/XMLSchema#boolean
+
+== IRIs in the village(.jsonld) context
+
+* https://werewolf.world/resource/0.3/villageName^https://www.w3.org/2001/XMLSchema#string
+* https://werewolf.world/resource/0.3/villageId^https://www.w3.org/2001/XMLSchema#positiveInteger
+* https://werewolf.world/resource/0.3/totalNumberOfPlayers^https://www.w3.org/2001/XMLSchema#unsignedShort
+* https://werewolf.world/resource/0.3/language^https://www.w3.org/2001/XMLSchema#language
+* https://werewolf.world/resource/0.3/chatSettings
+
+== IRIs in the vote(.jsonld) context
+
+* https://werewolf.world/resource/0.3/character
+
+== IRIs in the votingResult(.jsonld) context
+
+* https://werewolf.world/resource/0.3/character
+* https://werewolf.world/resource/0.3/role
+* https://werewolf.world/resource/0.3/votingResultsSummary
+* https://werewolf.world/resource/0.3/numberOfVotes^https://www.w3.org/2001/XMLSchema#unsignedShort
+* https://werewolf.world/resource/0.3/rankOfVotes^https://www.w3.org/2001/XMLSchema#unsignedShort
+* https://werewolf.world/resource/0.3/votingResultsDetails
+
+== References
+* [RFC3987] Internationalized Resource Identifiers (IRIs). M. Duerst; M. Suignard. IETF. January 2005. Proposed Standard. URL: https://tools.ietf.org/html/rfc3987
+* 3.2 IRIs - JSON-LD 1.1 A JSON-based Serialization for Linked Data, W3C Editor&#8216;s Draft 22 November 2019. URL: https://w3c.github.io/json-ld-syntax/#iris
+* C.1 Fundamental Facets - XML Schema Part 2: Datatypes Second Edition, W3C Recommendation 28 October 2004. URL: https://www.w3.org/TR/xmlschema-2/#d0e11239
