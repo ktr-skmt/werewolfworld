@@ -1,0 +1,51 @@
+= Village message protocol schemata
+:awestruct-layout: base
+:showtitle:
+:prev_section: defining-frontmatter
+:next_section: creating-pages
+:homepage: https://werewolf.world
+
+{homepage}[@homepage]
+
+== JSON-LD
+
+=== Characters and roles
+
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/schema/0.3/allCharacters.json[allCharacters.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/schema/0.3/allRoles.json[allRoles.json]
+
+=== Message types
+
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/schema/0.3/boardMessage.json[boardMessage.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/schema/0.3/chatMessage.json[chatMessage.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/schema/0.3/errorMessage.json[errorMessage.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/schema/0.3/flavorTextMessage.json[flavorTextMessage.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/schema/0.3/scrollMessage.json[scrollMessage.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/schema/0.3/starMessage.json[starMessage.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/schema/0.3/systemMessage.json[systemMessage.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/schema/0.3/voteMessage.json[voteMessage.json]
+
+=== Parts
+
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/schema/0.3/avatar.json[avatar.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/schema/0.3/base.json[base.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/schema/0.3/board.json[board.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/schema/0.3/boardResult.json[boardResult.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/schema/0.3/character.json[character.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/schema/0.3/chat.json[chat.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/schema/0.3/chatSettings.json[chatSettings.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/schema/0.3/error.json[error.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/schema/0.3/role.json[role.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/schema/0.3/scroll.json[scroll.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/schema/0.3/star.json[star.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/schema/0.3/time.json[time.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/schema/0.3/village.json[village.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/schema/0.3/votingResult.json[votingResult.json]
+
+== JSON
+
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/schema/0.3/invitation/nextGameInvitation.json[invitation/nextGameInvitation.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/schema/0.3/invitation/nextGameInvitationIsClosed.json[invitation/nextGameInvitationIsClosed.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/schema/0.3/receipt/receivedChatMessage.json[receipt/receivedChatMessage.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/schema/0.3/receipt/receivedFlavorTextMessage.json[receipt/receivedFlavorTextMessage.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/schema/0.3/receipt/receivedSystemMessage.json[receipt/receivedSystemMessage.json]

@@ -1,0 +1,28 @@
+= Client-to-server message examples
+:awestruct-layout: base
+:showtitle:
+:prev_section: defining-frontmatter
+:next_section: creating-pages
+:homepage: https://werewolf.world
+
+{homepage}[@homepage]
+
+== JSON-LD
+
+* https://werewolf.world/village/example/0.3/server2client/firstMorning.jsonld
+* https://werewolf.world/village/example/0.3/server2client/morning.jsonld
+* https://werewolf.world/village/example/0.3/server2client/noon.jsonld
+* https://werewolf.world/village/example/0.3/server2client/night.jsonld
+* https://werewolf.world/village/example/0.3/server2client/result.jsonld
+* https://werewolf.world/village/example/0.3/server2client/postMortemDiscussion.jsonld
+* https://werewolf.world/village/example/0.3/server2client/myMessageOnChat.jsonld
+* https://werewolf.world/village/example/0.3/server2client/theirMessageOnChat.jsonld
+* https://werewolf.world/village/example/0.3/server2client/error.jsonld
+* https://werewolf.world/village/example/0.3/server2client/onymousAudienceChat.jsonld
+* https://werewolf.world/village/example/0.3/server2client/anonymousAudienceChat.jsonld
+
+== JSON
+
+* https://werewolf.world/village/example/0.3/server2client/receipt/receivedChatMessage.json
+* https://werewolf.world/village/example/0.3/server2client/receipt/receivedFlavorTextMessage.json
+* https://werewolf.world/village/example/0.3/server2client/receipt/receivedSystemMessage.json

@@ -1,0 +1,26 @@
+= Server-to-client message examples
+:awestruct-layout: base
+:showtitle:
+:prev_section: defining-frontmatter
+:next_section: creating-pages
+:homepage: https://werewolf.world
+
+{homepage}[@homepage]
+
+== JSON-LD
+
+* https://werewolf.world/village/example/0.3/client2server/board.jsonld
+* https://werewolf.world/village/example/0.3/client2server/chat.jsonld
+* https://werewolf.world/village/example/0.3/client2server/noonVote.jsonld
+* https://werewolf.world/village/example/0.3/client2server/nightVote.jsonld
+* https://werewolf.world/village/example/0.3/client2server/scroll.jsonld
+* https://werewolf.world/village/example/0.3/client2server/error.jsonld
+* https://werewolf.world/village/example/0.3/client2server/onymousAudienceBoard.jsonld
+* https://werewolf.world/village/example/0.3/client2server/onymousAudienceChat.jsonld
+* https://werewolf.world/village/example/0.3/client2server/onymousAudienceScroll.jsonld
+* https://werewolf.world/village/example/0.3/client2server/anonymousAudienceChat.jsonld
+
+== JSON
+
+* https://werewolf.world/village/example/0.3/client2server/invitation/nextGameInvitation.json
+* https://werewolf.world/village/example/0.3/client2server/invitation/nextGameInvitationIsClosed.json

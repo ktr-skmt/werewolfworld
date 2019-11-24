@@ -1,0 +1,43 @@
+= Village message protocol examples for unit testing
+:awestruct-layout: base
+:showtitle:
+:prev_section: defining-frontmatter
+:next_section: creating-pages
+:homepage: https://werewolf.world
+
+{homepage}[@homepage]
+
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/unitTest/0.3/character/character.json[character/character.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/unitTest/0.3/character/resultCharacter.json[character/resultCharacter.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/unitTest/0.3/character/roleCharacter.json[character/roleCharacter.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/unitTest/0.3/character/simpleCharacter.json[character/simpleCharacter.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/unitTest/0.3/character/statusCharacter.json[character/statusCharacter.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/unitTest/0.3/role/resultRole.json[role/resultRole.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/unitTest/0.3/role/role.json[role/role.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/unitTest/0.3/role/simpleRole.json[role/simpleRole.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/unitTest/0.3/avatar.json[avatar.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/unitTest/0.3/base.json[base.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/unitTest/0.3/boardResult.json[boardResult.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/unitTest/0.3/chatSettings.json[chatSettings.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/unitTest/0.3/chatText.json[chatText.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/unitTest/0.3/name.json[name.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/unitTest/0.3/starInfo.json[starInfo.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/unitTest/0.3/subAnonymousAudienceChat.json[subAnonymousAudienceChat.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/unitTest/0.3/subBoard.json[subBoard.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/unitTest/0.3/subChatFromClient.json[subChatFromClient.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/unitTest/0.3/subChatFromServer.json[subChatFromServer.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/unitTest/0.3/subErrorFromClient.json[subErrorFromClient.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/unitTest/0.3/subErrorFromServer.json[subErrorFromServer.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/unitTest/0.3/subFlavorText.json[subFlavorText.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/unitTest/0.3/subGameResult.json[subGameResult.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/unitTest/0.3/subOnymousAudienceBoard.json[subOnymousAudienceBoard.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/unitTest/0.3/subOnymousAudienceChat.json[subOnymousAudienceChat.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/unitTest/0.3/subOnymousAudienceScroll.json[subOnymousAudienceScroll.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/unitTest/0.3/subPhase.json[subPhase.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/unitTest/0.3/subScroll.json[subScroll.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/unitTest/0.3/subStar.json[subStar.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/unitTest/0.3/subVote.json[subVote.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/unitTest/0.3/update.json[update.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/unitTest/0.3/village.json[village.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/unitTest/0.3/votingResultDetail.json[votingResultDetail.json]
+* https://raw.githubusercontent.com/ktr-skmt/werewolfworld/gh-pages/village/unitTest/0.3/votingResultSummary.json[votingResultSummary.json]
