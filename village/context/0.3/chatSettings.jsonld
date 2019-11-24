@@ -5,11 +5,11 @@
 		"w3": "https://werewolf.world/resource/0.3/",
 		"maxNumberOfChatMessages": {
 			"@id": "w3:maxNumberOfChatMessages",
-			"@type": "xsd:integer"
+			"@type": "xsd:unsignedShort"
 		},
 		"maxLengthOfUnicodeCodePoints": {
 			"@id": "w3:maxLengthOfUnicodeCodePoints",
-			"@type": "xsd:integer"
+			"@type": "xsd:unsignedShort"
 		}
 	}
 }
