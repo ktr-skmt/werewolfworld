@@ -6,8 +6,17 @@
 			"@id": "w3:errorContent",
 			"@container": "@language"
 		},
-		"severity": "w3:severity",
-		"source": "w3:source",
-		"isFromServer": "w3:isFromServer"
+		"severity": {
+			"@id": "w3:severity",
+			"@type": "xsd:string"
+		},
+		"source": {
+			"@id": "w3:source",
+			"@type": "xsd:string"
+		},
+		"isFromServer": {
+			"@id": "w3:isFromServer",
+			"@type": "xsd:boolean"
+		}
 	}
 }
