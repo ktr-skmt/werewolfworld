@@ -9,7 +9,7 @@
 		},
 		"id": {
 			"@id": "w3:villageId",
-			"@type": "xsd:integer"
+			"@type": "xsd:positiveInteger"
 		},
 		"totalNumberOfPlayers": {
 			"@id": "w3:totalNumberOfPlayers",
