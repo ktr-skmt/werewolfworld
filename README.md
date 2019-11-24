@@ -25,7 +25,7 @@ Issues [https://github.com/ktr-skmt/werewolfworld/issues](https://github.com/ktr
 
 # Village message protocol specification
 
-See https://werewolf.world/village/
+See [https://werewolf.world/village/](https://werewolf.world/village/)
 
 Based on 
 
@@ -38,7 +38,7 @@ Based on
 
 # Lobby message protocol specification
 
-See https://werewolf.world/lobby/
+See [https://werewolf.world/lobby/](https://werewolf.world/lobby/)
 
 Based on 
 
