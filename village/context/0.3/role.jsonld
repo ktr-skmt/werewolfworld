@@ -18,7 +18,7 @@
 		},
 		"numberOfPlayers": {
 			"@id": "w3:numberOfPlayersWhoPlayTheRole",
-			"@type": "xsd:integer"
+			"@type": "xsd:unsignedShort"
 		},
 		"character": "w3:character",
 		"board": "w3:board"
