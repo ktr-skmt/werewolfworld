@@ -13,11 +13,11 @@
 		},
 		"totalNumberOfPlayers": {
 			"@id": "w3:totalNumberOfPlayers",
-			"@type": "xsd:integer"
+			"@type": "xsd:unsignedShort"
 		},
 		"language": {
 			"@id": "w3:language",
-			"@type": "xsd:string"
+			"@type": "xsd:language"
 		},
 		"chatSettings": "w3:chatSettings"
 	}
