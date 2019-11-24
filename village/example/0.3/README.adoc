@@ -12,3 +12,7 @@ include::docs/client2server.adoc[]
 include::docs/server2client.adoc[]
 
 include::docs/server2logger.adoc[]
+
+include::docs/gameFlow.adoc[]
+
+include::docs/gameFinalizationFlow.adoc[]
