@@ -7,7 +7,13 @@
 			"@id": "w3:avatarToken",
 			"@type": "xsd:string"
 		},
-		"name": "w3:avatarName",
-		"image": "w3:avatarImage"
+		"name": {
+			"@id": "w3:avatarName",
+			"@type": "xsd:string"
+		},
+		"image": {
+			"@id": "w3:avatarImage",
+			"@type": "xsd:anyURI"
+		}
 	}
 }
