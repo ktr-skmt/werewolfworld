@@ -7,14 +7,8 @@
 
 include::docs/charactersAndRoles.adoc[]
 
----
-
 include::docs/client2server.adoc[]
 
----
-
 include::docs/server2client.adoc[]
-
----
 
 include::docs/server2logger.adoc[]

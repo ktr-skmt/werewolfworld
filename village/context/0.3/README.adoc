@@ -7,6 +7,4 @@
 
 include::docs/context.adoc[]
 
----
-
 include::docs/iri.adoc[]

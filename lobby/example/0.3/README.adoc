@@ -9,39 +9,39 @@
 
 ==== Client to server
 
-. https://werewolf.world/lobby/example/0.3/client2server/buildVillage.json[buildVillage.json]
-. enterLobby.json
-.. https://werewolf.world/lobby/example/0.3/client2server/enterLobbyForAnonymousAudience.json[enterLobbyForAnonymousAudience.json]
-.. https://werewolf.world/lobby/example/0.3/client2server/enterLobbyForHumanPlayer.json[enterLobbyForHumanPlayer.json]
-.. https://werewolf.world/lobby/example/0.3/client2server/enterLobbyForOnymousAudience.json[enterLobbyForOnymousAudience.json]
-.. https://werewolf.world/lobby/example/0.3/client2server/enterLobbyForRobotPlayer.json[enterLobbyForRobotPlayer.json]
-. https://werewolf.world/lobby/example/0.3/client2server/getAvatar.json[getAvatar.json]
-. https://werewolf.world/lobby/example/0.3/client2server/kickOutPlayer.json[kickOutPlayer.json]
-. https://werewolf.world/lobby/example/0.3/client2server/leaveWaitingPage.json[leaveWaitingPage.json]
-. https://werewolf.world/lobby/example/0.3/client2server/pong.json[pong.json]
-. selectVillage.json
-.. https://werewolf.world/lobby/example/0.3/client2server/selectVillageForHumanPlayer.json[selectVillageForHumanPlayer.json]
-. https://werewolf.world/lobby/example/0.3/client2server/advancedSearch.json[advancedSearch.json]
-. https://werewolf.world/lobby/example/0.3/client2server/idSearch.json[idSearch.json]
-. https://werewolf.world/lobby/example/0.3/client2server/play.json[play.json]
-. https://werewolf.world/lobby/example/0.3/client2server/ready.json[ready.json]
-. https://werewolf.world/lobby/example/0.3/client2server/getSettings.json[getSettings.json]
-. https://werewolf.world/lobby/example/0.3/client2server/changeUserName.json[changeUserName.json]
-. https://werewolf.world/lobby/example/0.3/client2server/changeUserEmail.json[changeUserEmail.json]
-. https://werewolf.world/lobby/example/0.3/client2server/changeUserPassword.json[changeUserPassword.json]
-. https://werewolf.world/lobby/example/0.3/client2server/changeLang.json[changeLang.json]
+* https://werewolf.world/lobby/example/0.3/client2server/buildVillage.json[buildVillage.json]
+* enterLobby.json
+** https://werewolf.world/lobby/example/0.3/client2server/enterLobbyForAnonymousAudience.json[enterLobbyForAnonymousAudience.json]
+** https://werewolf.world/lobby/example/0.3/client2server/enterLobbyForHumanPlayer.json[enterLobbyForHumanPlayer.json]
+** https://werewolf.world/lobby/example/0.3/client2server/enterLobbyForOnymousAudience.json[enterLobbyForOnymousAudience.json]
+** https://werewolf.world/lobby/example/0.3/client2server/enterLobbyForRobotPlayer.json[enterLobbyForRobotPlayer.json]
+* https://werewolf.world/lobby/example/0.3/client2server/getAvatar.json[getAvatar.json]
+* https://werewolf.world/lobby/example/0.3/client2server/kickOutPlayer.json[kickOutPlayer.json]
+* https://werewolf.world/lobby/example/0.3/client2server/leaveWaitingPage.json[leaveWaitingPage.json]
+* https://werewolf.world/lobby/example/0.3/client2server/pong.json[pong.json]
+* selectVillage.json
+** https://werewolf.world/lobby/example/0.3/client2server/selectVillageForHumanPlayer.json[selectVillageForHumanPlayer.json]
+* https://werewolf.world/lobby/example/0.3/client2server/advancedSearch.json[advancedSearch.json]
+* https://werewolf.world/lobby/example/0.3/client2server/idSearch.json[idSearch.json]
+* https://werewolf.world/lobby/example/0.3/client2server/play.json[play.json]
+* https://werewolf.world/lobby/example/0.3/client2server/ready.json[ready.json]
+* https://werewolf.world/lobby/example/0.3/client2server/getSettings.json[getSettings.json]
+* https://werewolf.world/lobby/example/0.3/client2server/changeUserName.json[changeUserName.json]
+* https://werewolf.world/lobby/example/0.3/client2server/changeUserEmail.json[changeUserEmail.json]
+* https://werewolf.world/lobby/example/0.3/client2server/changeUserPassword.json[changeUserPassword.json]
+* https://werewolf.world/lobby/example/0.3/client2server/changeLang.json[changeLang.json]
 
 ==== Server to client
 
-. https://werewolf.world/lobby/example/0.3/server2client/avatar.json[avatar.json]
-. lobby.json
-.. https://werewolf.world/lobby/example/0.3/server2client/lobbyForHumanPlayer.json[lobbyForHumanPlayer.json]
-. https://werewolf.world/lobby/example/0.3/server2client/ping.json[ping.json]
-. waitingPage.json
-.. https://werewolf.world/lobby/example/0.3/server2client/waitingPageForHumanPlayer.json[waitingPageForHumanPlayer.json]
-. https://werewolf.world/lobby/example/0.3/server2client/searchResult.json[searchResult.json]
-. https://werewolf.world/lobby/example/0.3/server2client/played.json[played.json]
-. https://werewolf.world/lobby/example/0.3/server2client/settings.json[settings.json]
+* https://werewolf.world/lobby/example/0.3/server2client/avatar.json[avatar.json]
+* lobby.json
+** https://werewolf.world/lobby/example/0.3/server2client/lobbyForHumanPlayer.json[lobbyForHumanPlayer.json]
+* https://werewolf.world/lobby/example/0.3/server2client/ping.json[ping.json]
+* waitingPage.json
+** https://werewolf.world/lobby/example/0.3/server2client/waitingPageForHumanPlayer.json[waitingPageForHumanPlayer.json]
+* https://werewolf.world/lobby/example/0.3/server2client/searchResult.json[searchResult.json]
+* https://werewolf.world/lobby/example/0.3/server2client/played.json[played.json]
+* https://werewolf.world/lobby/example/0.3/server2client/settings.json[settings.json]
 
 === Flow
 

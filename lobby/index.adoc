@@ -9,10 +9,6 @@
 
 include::example/0.3/README.adoc[]
 
----
-
 include::unitTest/0.3/README.adoc[]
-
----
 
 include::schema/0.3/README.adoc[]
