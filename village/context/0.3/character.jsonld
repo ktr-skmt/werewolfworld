@@ -18,7 +18,7 @@
 		},
 		"id": {
 			"@id": "w3:characterId",
-			"@type": "xsd:integer"
+			"@type": "xsd:unsignedShort"
 		},
 		"role": "w3:role",
 		"status": {
