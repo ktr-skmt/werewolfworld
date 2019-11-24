@@ -1,11 +1,18 @@
 {
     "@context": {
         "@version": 1.1,
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
         "w3": "https://werewolf.world/resource/0.3/",
         "star": "w3:star",
         "token": "w3:starToken",
-        "serverTimestamp": "w3:starServerTimestamp",
-        "clientTimestamp": "w3:starClientTimestamp",
+        "serverTimestamp": {
+			"@id": "w3:starServerTimestamp",
+			"@type": "xsd:dateTime"
+		},
+        "clientTimestamp": {
+			"@id": "w3:starClientTimestamp",
+			"@type": "xsd:dateTime"
+		},
         "isMarked": "w3:isStarMarked"
     }
 }
