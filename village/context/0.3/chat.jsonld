@@ -8,13 +8,37 @@
 			"@type": "xsd:boolean"
 		},
 		"character": "w3:character",
-		"id": "w3:chatId",
-		"counter": "w3:chatCounter",
-		"maxNumberOfChatMessages": "w3:chatMaxNumberOfChatMessages",
-		"interval": "w3:chatInterval",
-		"text": "w3:chatText",
-		"maxLengthOfUnicodeCodePoints": "w3:chatMaxLengthOfUnicodeCodePoints",
-		"isOver": "w3:chatIsOver",
-		"isFromServer": "w3:chatIsFromServer"
+		"id": {
+			"@id": "w3:chatId",
+			"@type": "xsd:integer"
+		},
+		"counter": {
+			"@id": "w3:chatCounter",
+			"@type": "xsd:integer"
+		},
+		"maxNumberOfChatMessages": {
+			"@id": "w3:chatMaxNumberOfChatMessages",
+			"@type": "xsd:integer"
+		},
+		"interval": {
+			"@id": "w3:chatInterval",
+			"@type": "xsd:integer"
+		},
+		"text": {
+			"@id": "w3:chatText",
+			"@type": "xsd:string"
+		},
+		"maxLengthOfUnicodeCodePoints": {
+			"@id": "w3:chatMaxLengthOfUnicodeCodePoints",
+			"@type": "xsd:integer"
+		},
+		"isOver": {
+			"@id": "w3:chatIsOver",
+			"@type": "xsd:boolean"
+		},
+		"isFromServer": {
+			"@id": "w3:chatIsFromServer",
+			"@type": "xsd:boolean"
+		}
 	}
 }
