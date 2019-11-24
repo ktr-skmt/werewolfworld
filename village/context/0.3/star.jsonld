@@ -13,6 +13,9 @@
 		"@id": "w3:starClientTimestamp",
 		"@type": "xsd:dateTime"
 	},
-        "isMarked": "w3:isStarMarked"
+        "isMarked": {
+		"@id": "w3:isStarMarked",
+		"@type": "xsd:boolean"
+	}
     }
 }
