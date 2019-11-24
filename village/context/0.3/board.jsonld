@@ -4,6 +4,9 @@
 		"w3": "https://werewolf.world/resource/0.3/",
 		"character": "w3:character",
 		"role": "w3:role",
-		"prediction": "w3:boardPrediction"
+		"prediction": {
+			"@id": "w3:boardPrediction",
+			"@type": "xsd:string"
+		}
 	}
 }
