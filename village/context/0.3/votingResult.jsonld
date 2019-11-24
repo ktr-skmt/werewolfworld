@@ -9,11 +9,11 @@
 		"characterToPutToDeath": "w3:character",
 		"numberOfVotes": {
 			"@id": "w3:numberOfVotes",
-			"@type": "xsd:integer"
+			"@type": "xsd:unsignedShort"
 		},
 		"rankOfVotes": {
 			"@id": "w3:rankOfVotes",
-			"@type": "xsd:integer"
+			"@type": "xsd:unsignedShort"
 		},
 		"votingResultsDetails": "w3:votingResultsDetails",
 		"sourceCharacter": "w3:character",
