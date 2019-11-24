@@ -10,19 +10,19 @@
 		"character": "w3:character",
 		"id": {
 			"@id": "w3:chatId",
-			"@type": "xsd:integer"
+			"@type": "xsd:unsignedShort"
 		},
 		"counter": {
 			"@id": "w3:chatCounter",
-			"@type": "xsd:integer"
+			"@type": "xsd:unsignedShort"
 		},
 		"maxNumberOfChatMessages": {
 			"@id": "w3:chatMaxNumberOfChatMessages",
-			"@type": "xsd:integer"
+			"@type": "xsd:unsignedShort"
 		},
 		"interval": {
 			"@id": "w3:chatInterval",
-			"@type": "xsd:integer"
+			"@type": "xsd:unsignedShort"
 		},
 		"text": {
 			"@id": "w3:chatText",
@@ -30,7 +30,7 @@
 		},
 		"maxLengthOfUnicodeCodePoints": {
 			"@id": "w3:chatMaxLengthOfUnicodeCodePoints",
-			"@type": "xsd:integer"
+			"@type": "xsd:unsignedShort"
 		},
 		"isOver": {
 			"@id": "w3:chatIsOver",
