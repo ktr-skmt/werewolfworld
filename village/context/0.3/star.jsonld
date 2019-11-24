@@ -6,13 +6,13 @@
         "star": "w3:star",
         "token": "w3:starToken",
         "serverTimestamp": {
-			"@id": "w3:starServerTimestamp",
-			"@type": "xsd:dateTime"
-		},
+		"@id": "w3:starServerTimestamp",
+		"@type": "xsd:dateTime"
+	},
         "clientTimestamp": {
-			"@id": "w3:starClientTimestamp",
-			"@type": "xsd:dateTime"
-		},
+		"@id": "w3:starClientTimestamp",
+		"@type": "xsd:dateTime"
+	},
         "isMarked": "w3:isStarMarked"
     }
 }
