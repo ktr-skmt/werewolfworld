@@ -17,6 +17,6 @@
 . (server to robot) https://werewolf.world/auth/example/0.3/server2robot/authenticationRequestResponse.json[server2robot/authenticationRequestResponse.json]
 . (server to browser) https://werewolf.world/lobby/example/0.3/server2client/authorizationRequest.json[server2client/authorizationRequest.json]
 . (browser to server) https://werewolf.world/lobby/example/0.3/client2server/authorizationRequestAccepted.json[client2server/authorizationRequestAccepted.json]
-. (server to browser) https://werewolf.world/lobby/example/0.3/server2client/authorizationRequestionAcceptedResponse.json[server2client/authorizationRequestionAcceptedResponse.json]
+. (server to browser) https://werewolf.world/lobby/example/0.3/server2client/authorizationRequestAcceptedResponse.json[server2client/authorizationRequestAcceptedResponse.json]
 . (server to robot) https://werewolf.world/auth/example/0.3/server2robot/authorizationRequestResponse.json[server2robot/authorizationRequestResponse.json]
 
