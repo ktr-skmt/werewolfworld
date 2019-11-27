@@ -145,7 +145,7 @@
                     "image": {
                         "$ref": "https://werewolf.world/village/schema/0.3/role.json"
                     },
-                    "numberOfCharacters": {
+                    "numberOfPlayers": {
                         "$ref": "https://werewolf.world/village/schema/0.3/role.json"
                     },
                     "character": {
@@ -256,7 +256,7 @@
                     "isMine",
                     "name",
                     "image",
-                    "numberOfCharacters"
+                    "numberOfPlayers"
                 ]
             }
         }
