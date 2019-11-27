@@ -23,6 +23,3 @@
 
 * https://werewolf.world/village/example/0.3/server2client/invitation/nextGameInvitation.json
 * https://werewolf.world/village/example/0.3/server2client/invitation/nextGameInvitationIsClosed.json
-* https://werewolf.world/village/example/0.3/server2client/receipt/receivedChatMessage.json
-* https://werewolf.world/village/example/0.3/server2client/receipt/receivedFlavorTextMessage.json
-* https://werewolf.world/village/example/0.3/server2client/receipt/receivedSystemMessage.json

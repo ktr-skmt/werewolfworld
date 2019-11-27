@@ -17,3 +17,9 @@
 * https://werewolf.world/village/example/0.3/client2server/onymousAudienceChat.jsonld
 * https://werewolf.world/village/example/0.3/client2server/onymousAudienceScroll.jsonld
 * https://werewolf.world/village/example/0.3/client2server/anonymousAudienceChat.jsonld
+
+==== JSON
+
+* https://werewolf.world/village/example/0.3/client2server/receipt/receivedChatMessage.json
+* https://werewolf.world/village/example/0.3/client2server/receipt/receivedFlavorTextMessage.json
+* https://werewolf.world/village/example/0.3/client2server/receipt/receivedSystemMessage.json
