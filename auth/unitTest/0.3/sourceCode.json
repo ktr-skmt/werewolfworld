@@ -1,0 +1,10 @@
+{
+    "timestamp": "2006-10-07T12:06:56.568+09:00",
+    "programmingLauguage": [
+      {
+        "name": "Scala",
+        "version": "2.12.10"
+      }
+    ],
+    "url": "https://github.com/YNUWAIWAI/werewolfguide"
+}
