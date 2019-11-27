@@ -11,5 +11,5 @@
 
 ==== JSON-LD
 
-* https://werewolf.world/village/example/0.3/allCharacters.jsonld
-* https://werewolf.world/village/example/0.3/allRoles.jsonld
+* https://werewolf.world/village/example/0.3/allCharacters.jsonld[allCharacters.jsonld]
+* https://werewolf.world/village/example/0.3/allRoles.jsonld[allRoles.jsonld]

@@ -7,19 +7,19 @@
 
 ==== JSON-LD
 
-* https://werewolf.world/village/example/0.3/server2client/firstMorning.jsonld
-* https://werewolf.world/village/example/0.3/server2client/morning.jsonld
-* https://werewolf.world/village/example/0.3/server2client/noon.jsonld
-* https://werewolf.world/village/example/0.3/server2client/night.jsonld
-* https://werewolf.world/village/example/0.3/server2client/result.jsonld
-* https://werewolf.world/village/example/0.3/server2client/postMortemDiscussion.jsonld
-* https://werewolf.world/village/example/0.3/server2client/myMessageOnChat.jsonld
-* https://werewolf.world/village/example/0.3/server2client/theirMessageOnChat.jsonld
-* https://werewolf.world/village/example/0.3/server2client/error.jsonld
-* https://werewolf.world/village/example/0.3/server2client/onymousAudienceChat.jsonld
-* https://werewolf.world/village/example/0.3/server2client/anonymousAudienceChat.jsonld
+* https://werewolf.world/village/example/0.3/server2client/firstMorning.jsonld[firstMorning.jsonld]
+* https://werewolf.world/village/example/0.3/server2client/morning.jsonld[morning.jsonld]
+* https://werewolf.world/village/example/0.3/server2client/noon.jsonld[noon.jsonld]
+* https://werewolf.world/village/example/0.3/server2client/night.jsonld[night.jsonld]
+* https://werewolf.world/village/example/0.3/server2client/result.jsonld[result.jsonld]
+* https://werewolf.world/village/example/0.3/server2client/postMortemDiscussion.jsonld[postMortemDiscussion.jsonld]
+* https://werewolf.world/village/example/0.3/server2client/myMessageOnChat.jsonld[myMessageOnChat.jsonld]
+* https://werewolf.world/village/example/0.3/server2client/theirMessageOnChat.jsonld[theirMessageOnChat.jsonld]
+* https://werewolf.world/village/example/0.3/server2client/error.jsonld[error.jsonld]
+* https://werewolf.world/village/example/0.3/server2client/onymousAudienceChat.jsonld[onymousAudienceChat.jsonld]
+* https://werewolf.world/village/example/0.3/server2client/anonymousAudienceChat.jsonld[anonymousAudienceChat.jsonld]
 
 ==== JSON
 
-* https://werewolf.world/village/example/0.3/server2client/invitation/nextGameInvitation.json
-* https://werewolf.world/village/example/0.3/server2client/invitation/nextGameInvitationIsClosed.json
+* https://werewolf.world/village/example/0.3/server2client/invitation/nextGameInvitation.json[nextGameInvitation.json]
+* https://werewolf.world/village/example/0.3/server2client/invitation/nextGameInvitationIsClosed.json[nextGameInvitationIsClosed.json]

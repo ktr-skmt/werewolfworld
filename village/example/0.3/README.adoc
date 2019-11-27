@@ -15,4 +15,6 @@ include::docs/server2logger.adoc[]
 
 include::docs/gameFlow.adoc[]
 
+include::docs/receipt.adoc[]
+
 include::docs/gameFinalizationFlow.adoc[]

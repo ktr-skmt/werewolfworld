@@ -1,0 +1,18 @@
+=== Receipt system
+:awestruct-layout: base
+:showtitle:
+:prev_section: defining-frontmatter
+:next_section: creating-pages
+:homepage: https://werewolf.world
+
+==== Once a robot/browser receives a chat message,
+
+* (client to server) https://werewolf.world/village/example/0.3/client2server/receipt/receivedChatMessage.json[receivedChatMessage.json]
+
+==== Once a robot/browser receives a flavor test message,
+
+* (client to server) https://werewolf.world/village/example/0.3/client2server/receipt/receivedFlavorTextMessage.json[receivedFlavorTextMessage.json]
+
+==== Once a robot/browser receives a systemMessage,
+
+* (client to server) https://werewolf.world/village/example/0.3/client2server/receipt/receivedSystemMessage.json[receivedSystemMessage.json]
