@@ -11,7 +11,7 @@
 * (client to server) villageMessage/ https://werewolf.world/lobby/example/0.3/client2server/buildVillage.json[buildVillage.json]
 * (server to all the clients) villageMessage/ https://werewolf.world/village/example/0.3/server2client/invitation/nextGameInvitation.json[nextGameInvitation.json]
 * save a next game village id in the indexeddb
-* move villageMessage to lobbyMessage
+* move from villageMessage to lobbyMessage
 * (client to server) lobbyMessage/ https://werewolf.world/lobby/example/0.3/client2server/selectVillageForHumanPlayer.json[selectVillage.json]
 * (server to client) lobbyMessage/ https://werewolf.world/lobby/example/0.3/server2client/waitingPageForHumanPlayer.json[waitingPage.json]
 * remove the next game village id in the indexeddb
@@ -21,7 +21,7 @@
 * move lobbyMessage to villageMessage
 * (client to server) villageMessage/ https://werewolf.world/lobby/example/0.3/client2server/ready.json[ready.json]
 * (server to other clients) villageMessage/ https://werewolf.world/village/example/0.3/server2client/invitation/nextGameInvitationIsClosed.json[nextGameInvitaionIsClosed.json]
-* undisplay the "Next game" button
+* (other clients) undisplay the "Next game" button
 
 ==== A guest player joins the next game
 
@@ -36,7 +36,35 @@
 
 ==== A host player returns to the lobby
 
-
+* set isHost true in the indexeddb
+* save https://werewolf.world/lobby/example/0.3/client2server/buildVillage.json[buildVillage.json] in the indexeddb
+* (play the game)
+* push the "Return to the lobby"
+* remove the next village id if it is existed
+* set isPushReturnToLobbyButton true in the indexeddb
+* (client to server) villageMessage/ https://werewolf.world/lobby/example/0.3/server2client/waitingPageForHumanPlayer.json[leaveWaitingPage.json]
+* move from villageMessage to lobbyMessage
+* (client to server) lobbyMessage/ https://werewolf.world/lobby/example/0.3/server2client/waitingPageForHumanPlayer.json[leaveWaitingPage.json]
+* remove isHost from the indexeddb
+* remove https://werewolf.world/lobby/example/0.3/client2server/buildVillage.json[buildVillage.json] in the indexeddb
+* set isPushReturnToLobbyButton false in the indexeddb
 
 ==== A guest player returns to the lobby
 
+* set isHost false in the indexeddb
+* save https://werewolf.world/lobby/example/0.3/client2server/buildVillage.json[buildVillage.json] in the indexeddb
+* (play the game)
+* push the "Return to the lobby"
+* remove the next village id if it is existed
+* set isPushReturnToLobbyButton true in the indexeddb
+* move from villageMessage to lobbyMessage
+* remove isHost from the indexeddb
+* remove https://werewolf.world/lobby/example/0.3/client2server/buildVillage.json[buildVillage.json] in the indexeddb
+* set isPushReturnToLobbyButton false in the indexeddb
+
+==== A guest player when the host player is returning to the lobby but they are still in the village
+
+* (client to server) the host player sends villageMessage/ https://werewolf.world/lobby/example/0.3/server2client/waitingPageForHumanPlayer.json[leaveWaitingPage.json]
+* (server to client) the guest players receives villageMessage/ https://werewolf.world/village/example/0.3/server2client/invitation/nextGameInvitationIsClosed.json[nextGameInvitationIsClosed.json]
+* undisplay the "Next game" button
+* remove nextGameVillageId from the indexeddb if it is existed.
