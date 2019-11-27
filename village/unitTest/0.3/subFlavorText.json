@@ -5,7 +5,7 @@
 				"https://werewolf.world/village/context/0.3/base.jsonld",
 				"https://werewolf.world/village/context/0.3/chat.jsonld"
 			],
-			"@id": "https://licos.online/state/0.3/village#3/flavorText#1/chatMessage",
+			"@id": "https://licos.online/state/0.3/village#3/chatMessage",
 			"village": {
 				"@context": "https://werewolf.world/village/context/0.3/village.jsonld",
 				"@id": "https://licos.online/state/0.3/village",
@@ -57,7 +57,7 @@
 				"https://werewolf.world/village/context/0.3/base.jsonld",
 				"https://werewolf.world/village/context/0.3/chat.jsonld"
 			],
-			"@id": "https://licos.online/state/0.3/village#3/flavorText#2/chatMessage",
+			"@id": "https://licos.online/state/0.3/village#3/chatMessage",
 			"village": {
 				"@context": "https://werewolf.world/village/context/0.3/village.jsonld",
 				"@id": "https://licos.online/state/0.3/village",

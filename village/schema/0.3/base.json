@@ -46,7 +46,7 @@
             "description": "@id",
             "$id": "/definitions/@id",
             "type": "string",
-            "pattern": "^https://licos.online/state/0.3/village#[0-9]+/(board|error|(flavorText#[0-9]+/)?chat|scroll|star|system|vote|flavorText)Message$",
+            "pattern": "^https://licos.online/state/0.3/village#[0-9]+/(board|error|chat|scroll|star|system|vote|flavorText)Message$",
             "examples": [
                 "https://licos.online/state/0.3/village#3/boardMessage",
                 "https://licos.online/state/0.3/village#3/chatMessage",
@@ -55,8 +55,7 @@
                 "https://licos.online/state/0.3/village#3/starMessage",
                 "https://licos.online/state/0.3/village#3/systemMessage",
                 "https://licos.online/state/0.3/village#3/voteMessage",
-                "https://licos.online/state/0.3/village#3/flavorTextMessage",
-                "https://licos.online/state/0.3/village#3/flavorTextMessage#1/chatMessage"
+                "https://licos.online/state/0.3/village#3/flavorTextMessage"
             ]
         },
         "village": {
