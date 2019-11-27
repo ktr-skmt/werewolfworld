@@ -50,7 +50,7 @@ Based on
 
 # Auth message protocol specification
 
-See https://werewolf.world/auth/
+See [https://werewolf.world/auth/](https://werewolf.world/auth/)
 
 Based on 
 
