@@ -7,20 +7,13 @@
 
 ==== JSON-LD
 
-* https://werewolf.world/village/example/0.3/server2client/firstMorning.jsonld
-* https://werewolf.world/village/example/0.3/server2client/morning.jsonld
-* https://werewolf.world/village/example/0.3/server2client/noon.jsonld
-* https://werewolf.world/village/example/0.3/server2client/night.jsonld
-* https://werewolf.world/village/example/0.3/server2client/result.jsonld
-* https://werewolf.world/village/example/0.3/server2client/postMortemDiscussion.jsonld
-* https://werewolf.world/village/example/0.3/server2client/myMessageOnChat.jsonld
-* https://werewolf.world/village/example/0.3/server2client/theirMessageOnChat.jsonld
-* https://werewolf.world/village/example/0.3/server2client/error.jsonld
-* https://werewolf.world/village/example/0.3/server2client/onymousAudienceChat.jsonld
-* https://werewolf.world/village/example/0.3/server2client/anonymousAudienceChat.jsonld
-
-==== JSON
-
-* https://werewolf.world/village/example/0.3/server2client/receipt/receivedChatMessage.json
-* https://werewolf.world/village/example/0.3/server2client/receipt/receivedFlavorTextMessage.json
-* https://werewolf.world/village/example/0.3/server2client/receipt/receivedSystemMessage.json
+* https://werewolf.world/village/example/0.3/client2server/board.jsonld
+* https://werewolf.world/village/example/0.3/client2server/chat.jsonld
+* https://werewolf.world/village/example/0.3/client2server/noonVote.jsonld
+* https://werewolf.world/village/example/0.3/client2server/nightVote.jsonld
+* https://werewolf.world/village/example/0.3/client2server/scroll.jsonld
+* https://werewolf.world/village/example/0.3/client2server/error.jsonld
+* https://werewolf.world/village/example/0.3/client2server/onymousAudienceBoard.jsonld
+* https://werewolf.world/village/example/0.3/client2server/onymousAudienceChat.jsonld
+* https://werewolf.world/village/example/0.3/client2server/onymousAudienceScroll.jsonld
+* https://werewolf.world/village/example/0.3/client2server/anonymousAudienceChat.jsonld

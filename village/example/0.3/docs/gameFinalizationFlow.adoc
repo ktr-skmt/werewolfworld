@@ -5,4 +5,31 @@
 :next_section: creating-pages
 :homepage: https://werewolf.world
 
+==== A host player starts the next game
+
+* push the "Next game" button
+* (client to server) villageMessage/https://werewolf.world/lobby/example/0.3/client2server/buildVillage.json[buildVillage.json]
+* (server to other clients) villageMessage/https://werewolf.world/village/example/0.3/server2client/invitation/nextGameInvitation.json[nextGameInvitation.json]
+* save a next game village id in the indexeddb
+* move villageMessage to lobbyMessage
+* (client to server) lobbyMessage/https://werewolf.world/lobby/example/0.3/client2server/selectVillageForHumanPlayer.json[selectVillage.json]
+* (server to client) lobbyMessage/https://werewolf.world/lobby/example/0.3/server2client/waitingPageForHumanPlayer.json[waitingPage.json]
+* remove the next game village id in the indexeddb
+* push the "Play" button
+* (client to server) lobbyMessage/https://werewolf.world/lobby/example/0.3/client2server/play.json[play.json]
+* (server to client) lobbyMessage/https://werewolf.world/lobby/example/0.3/server2client/played.json[played.json]
+* move lobbyMessage to villageMessage
+* (client to server) villageMessage/https://werewolf.world/lobby/example/0.3/client2server/ready.json[ready.json]
+* (server to other clients) villageMessage/https://werewolf.world/village/example/0.3/server2client/invitation/nextGameInvitationIsClosed.json[nextGameInvitaionIsClosed.json]
+* undisplay the "Next game" button
+
+==== A guest player joins the next game
+
+
+
+==== A host player returns to the lobby
+
+
+
+==== A guest player returns to the lobby
 

@@ -5,3 +5,6 @@
 :next_section: creating-pages
 :homepage: https://werewolf.world
 
+////
+SVG
+////
