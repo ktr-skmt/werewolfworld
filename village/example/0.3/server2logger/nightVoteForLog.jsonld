@@ -90,13 +90,6 @@
 			"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/werewolf_50x50.png"
 		}
 	},
-	"avatar": {
-		"@context": "https://werewolf.world/village/context/0.3/avatar.jsonld",
-		"@id": "https://licos.online/state/0.3/village#3/avatar",
-		"token": "3F2504E0-4F89-11D3-9A0C-0305E82C3301",
-		"name": "Suzuki",
-		"image": "https://werewolf.world/image/0.3/character_icons/50x50/f_50x50.png"
-	},
 	"character": {
 		"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
 		"@id": "https://licos.online/state/0.3/village#3/character",
