@@ -36,7 +36,7 @@
 			"en": "Adil",
 			"ja": "アーディル"
 		},
-		"image": "https://werewolf.world/image/0.3/character_icons/50x50/c_50x50.png",
+		"image": "https://werewolf.world/image/0.3/character_icons/50x50/a_50x50.png",
 		"role": {
 			"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
 			"@id": "https://licos.online/state/0.3/village#3/character#1/role",
