@@ -32,10 +32,10 @@
 			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
 			"@id": "https://licos.online/state/0.3/village#3/extensionalDisclosureRange/character#1",
 			"name": {
-				"en": "Walter",
-				"ja": "ヴァルター"
+				"en": "Adil",
+				"ja": "アーディル"
 			},
-			"image": "https://werewolf.world/image/0.3/character_icons/50x50/c_50x50.png",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/a_50x50.png",
 			"id": 1,
 			"role": {
 				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
@@ -53,10 +53,10 @@
 			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
 			"@id": "https://licos.online/state/0.3/village#3/extensionalDisclosureRange/character#2",
 			"name": {
-				"en": "Moritz",
+				"en": "Borya",
 				"ja": "モーリッツ"
 			},
-			"image": "https://werewolf.world/image/0.3/character_icons/50x50/d_50x50.png",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/b_50x50.png",
 			"id": 2,
 			"role": {
 				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
@@ -74,10 +74,10 @@
 			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
 			"@id": "https://licos.online/state/0.3/village#3/extensionalDisclosureRange/character#3",
 			"name": {
-				"en": "Simson",
-				"ja": "ジムゾン"
+				"en": "Chacha",
+				"ja": "チャチャ"
 			},
-			"image": "https://werewolf.world/image/0.3/character_icons/50x50/e_50x50.png",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/c_50x50.png",
 			"id": 3,
 			"role": {
 				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
@@ -95,10 +95,10 @@
 			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
 			"@id": "https://licos.online/state/0.3/village#3/extensionalDisclosureRange/character#4",
 			"name": {
-				"en": "Thomas",
-				"ja": "トーマス"
+				"en": "Devdatta",
+				"ja": "デヴゥダッタ"
 			},
-			"image": "https://werewolf.world/image/0.3/character_icons/50x50/f_50x50.png",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/d_50x50.png",
 			"id": 4,
 			"role": {
 				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
@@ -116,10 +116,10 @@
 			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
 			"@id": "https://licos.online/state/0.3/village#3/extensionalDisclosureRange/character#5",
 			"name": {
-				"en": "Nicholas",
-				"ja": "ニコラス"
+				"en": "Ekrem",
+				"ja": "エクレム"
 			},
-			"image": "https://werewolf.world/image/0.3/character_icons/50x50/g_50x50.png",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/e_50x50.png",
 			"id": 5,
 			"role": {
 				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
@@ -137,10 +137,10 @@
 			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
 			"@id": "https://licos.online/state/0.3/village#3/extensionalDisclosureRange/character#6",
 			"name": {
-				"en": "Dieter",
-				"ja": "ディーター"
+				"en": "Fernando",
+				"ja": "フェルナンド"
 			},
-			"image": "https://werewolf.world/image/0.3/character_icons/50x50/h_50x50.png",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/f_50x50.png",
 			"id": 6,
 			"role": {
 				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
@@ -158,10 +158,10 @@
 			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
 			"@id": "https://licos.online/state/0.3/village#3/extensionalDisclosureRange/character#7",
 			"name": {
-				"en": "Peter",
-				"ja": "ペーター"
+				"en": "Gavriil",
+				"ja": "ガブリール"
 			},
-			"image": "https://werewolf.world/image/0.3/character_icons/50x50/i_50x50.png",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/g_50x50.png",
 			"id": 7,
 			"role": {
 				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
@@ -179,10 +179,10 @@
 			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
 			"@id": "https://licos.online/state/0.3/village#3/extensionalDisclosureRange/character#8",
 			"name": {
-				"en": "Lisa",
-				"ja": "リーザ"
+				"en": "Henrik",
+				"ja": "ヘンリック"
 			},
-			"image": "https://werewolf.world/image/0.3/character_icons/50x50/j_50x50.png",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/h_50x50.png",
 			"id": 8,
 			"role": {
 				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
@@ -200,10 +200,10 @@
 			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
 			"@id": "https://licos.online/state/0.3/village#3/extensionalDisclosureRange/character#9",
 			"name": {
-				"en": "Alvin",
-				"ja": "アルビン"
+				"en": "Ileanna",
+				"ja": "イレアナ"
 			},
-			"image": "https://werewolf.world/image/0.3/character_icons/50x50/k_50x50.png",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/i_50x50.png",
 			"id": 9,
 			"role": {
 				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
@@ -221,10 +221,10 @@
 			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
 			"@id": "https://licos.online/state/0.3/village#3/extensionalDisclosureRange/character#10",
 			"name": {
-				"en": "Catalina",
-				"ja": "カタリナ"
+				"en": "Jasmin",
+				"ja": "ジャスミン"
 			},
-			"image": "https://werewolf.world/image/0.3/character_icons/50x50/l_50x50.png",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/j_50x50.png",
 			"id": 10,
 			"role": {
 				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
@@ -242,10 +242,10 @@
 			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
 			"@id": "https://licos.online/state/0.3/village#3/extensionalDisclosureRange/character#11",
 			"name": {
-				"en": "Otto",
-				"ja": "オットー"
+				"en": "Louise",
+				"ja": "ルイーズ"
 			},
-			"image": "https://werewolf.world/image/0.3/character_icons/50x50/m_50x50.png",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/l_50x50.png",
 			"id": 11,
 			"role": {
 				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
@@ -263,10 +263,10 @@
 			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
 			"@id": "https://licos.online/state/0.3/village#3/extensionalDisclosureRange/character#12",
 			"name": {
-				"en": "Joachim",
-				"ja": "ヨアヒム"
+				"en": "Marthe",
+				"ja": "マーテ"
 			},
-			"image": "https://werewolf.world/image/0.3/character_icons/50x50/n_50x50.png",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/m_50x50.png",
 			"id": 12,
 			"role": {
 				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
@@ -284,10 +284,10 @@
 			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
 			"@id": "https://licos.online/state/0.3/village#3/extensionalDisclosureRange/character#13",
 			"name": {
-				"en": "Pamela",
-				"ja": "パメラ"
+				"en": "Nanyamka",
+				"ja": "ナニャンカ"
 			},
-			"image": "https://werewolf.world/image/0.3/character_icons/50x50/o_50x50.png",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/n_50x50.png",
 			"id": 13,
 			"role": {
 				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
@@ -305,10 +305,10 @@
 			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
 			"@id": "https://licos.online/state/0.3/village#3/extensionalDisclosureRange/character#14",
 			"name": {
-				"en": "Jacob",
-				"ja": "ヤコブ"
+				"en": "Oliwia",
+				"ja": "オリビア"
 			},
-			"image": "https://werewolf.world/image/0.3/character_icons/50x50/p_50x50.png",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/o_50x50.png",
 			"id": 14,
 			"role": {
 				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
@@ -326,10 +326,10 @@
 			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
 			"@id": "https://licos.online/state/0.3/village#3/extensionalDisclosureRange/character#15",
 			"name": {
-				"en": "Gert",
-				"ja": "ゲルト"
+				"en": "Ryan",
+				"ja": "ライアン"
 			},
-			"image": "https://werewolf.world/image/0.3/character_icons/50x50/q_50x50.png",
+			"image": "https://werewolf.world/image/0.3/character_icons/50x50/r_50x50.png",
 			"id": 15,
 			"role": {
 				"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
@@ -350,10 +350,10 @@
 		"@id": "https://licos.online/state/0.3/village#3/character",
 		"id": 1,
 		"name": {
-			"en": "Walter",
-			"ja": "ヴァルター"
+			"en": "Adil",
+			"ja": "アーディル"
 		},
-		"image": "https://werewolf.world/image/0.3/character_icons/50x50/c_50x50.png"
+		"image": "https://werewolf.world/image/0.3/character_icons/50x50/a_50x50.png"
 	},
 	"id": 12,
 	"counter": 7,
