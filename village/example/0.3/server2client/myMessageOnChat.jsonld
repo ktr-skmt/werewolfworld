@@ -33,10 +33,10 @@
 		"@id": "https://licos.online/state/0.3/village#3/character",
 		"id": 1,
 		"name": {
-			"en": "Walter",
-			"ja": "ヴァルター"
+			"en": "Adil",
+			"ja": "アーディル"
 		},
-		"image": "https://werewolf.world/image/0.3/character_icons/50x50/c_50x50.png"
+		"image": "https://werewolf.world/image/0.3/character_icons/50x50/a_50x50.png"
 	},
 	"isMine": true,
 	"id": 12,
