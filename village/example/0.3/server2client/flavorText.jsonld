@@ -64,10 +64,10 @@
 				"@id": "https://licos.online/state/0.3/village#3/character",
 				"id": 1,
 				"name": {
-					"en": "Catalina",
-					"ja": "カタリナ"
+					"en": "Valeria",
+					"ja": "ヴァレリア"
 				},
-				"image": "https://werewolf.world/image/0.3/character_icons/50x50/c_50x50.png"
+				"image": "https://werewolf.world/image/0.3/character_icons/50x50/v_50x50.png"
 			},
 			"isMine": false,
 			"id": 1,
@@ -116,10 +116,10 @@
 				"@id": "https://licos.online/state/0.3/village#3/character",
 				"id": 1,
 				"name": {
-					"en": "Catalina",
-					"ja": "カタリナ"
+					"en": "Valeria",
+					"ja": "ヴァレリア"
 				},
-				"image": "https://werewolf.world/image/0.3/character_icons/50x50/c_50x50.png"
+				"image": "https://werewolf.world/image/0.3/character_icons/50x50/v_50x50.png"
 			},
 			"isMine": false,
 			"id": 2,
