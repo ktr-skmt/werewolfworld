@@ -40,10 +40,10 @@
 		"@id": "https://licos.online/state/0.3/village#3/character",
 		"id": 4,
 		"name": {
-			"en": "Thomas",
-			"ja": "トーマス"
+			"en": "Borya",
+			"ja": "ボーリャ"
 		},
-		"image": "https://werewolf.world/image/0.3/character_icons/50x50/d_50x50.png"
+		"image": "https://werewolf.world/image/0.3/character_icons/50x50/b_50x50.png"
 	},
 	"role": {
 		"@context": "https://werewolf.world/village/context/0.3/role.jsonld",
