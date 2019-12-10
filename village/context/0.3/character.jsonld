@@ -42,6 +42,10 @@
 		"gender": {
 			"@id": "w3:gender",
 			"@type": "xsd:string"
+		},
+		"playerType": {
+			"@id": "w3:playerType",
+			"@type": "xsd:string"
 		}
 	}
 }
