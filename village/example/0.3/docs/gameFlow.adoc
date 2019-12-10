@@ -5,6 +5,4 @@
 :next_section: creating-pages
 :homepage: https://werewolf.world
 
-////
-SVG
-////
+image::https://werewolf.world/diagram/0.3/werewolf_system_outline.png[System outline]
