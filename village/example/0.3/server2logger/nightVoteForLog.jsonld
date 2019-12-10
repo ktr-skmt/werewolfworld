@@ -47,7 +47,7 @@
 				"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/werewolf_50x50.png"
 			},
 			"status": "alive",
-			"isHumanPlayer": true
+			"playerType": "fully automated robot"
 		},
 		{
 			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
@@ -68,7 +68,7 @@
 				"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/werewolf_50x50.png"
 			},
 			"status": "alive",
-			"isHumanPlayer": true
+			"playerType": "human"
 		}
 	],
 	"myCharacter": {
