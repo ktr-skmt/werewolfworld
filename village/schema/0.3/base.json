@@ -265,15 +265,21 @@
                     "status": {
                         "$ref": "https://werewolf.world/village/schema/0.3/character.json"
                     },
-                    "isHumanPlayer": {
-                        "title": "Is human player?",
-                        "description": "is human player?",
-                        "$id": "/properties/extensionalDisclosureRange/items/properties/isHumanPlayer",
-                        "type": "boolean",
-                        "default": true,
+                    "playerType": {
+                        "title": "Player Type",
+                        "description": "player type",
+                        "$id": "/properties/extensionalDisclosureRange/items/properties/playerType",
+                        "type": "string",
+                        "default": "human",
+                        "enum": [
+                            "human",
+                            "fully automated robot",
+                            "semi-automated robot"
+                        ],
                         "examples": [
-                            true,
-                            false
+                            "human",
+                            "fully automated robot",
+                            "semi-automated robot"
                         ]
                     }
                 },
@@ -285,7 +291,7 @@
                     "id",
                     "role",
                     "status",
-                    "isHumanPlayer"
+                    "playerType"
                 ]
             }
         },
