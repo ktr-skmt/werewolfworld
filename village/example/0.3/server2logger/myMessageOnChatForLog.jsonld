@@ -47,7 +47,7 @@
 				"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/seer_50x50.png"
 			},
 			"status": "alive",
-			"isHumanPlayer": true
+			"playerType: "human"
 		},
 		{
 			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
@@ -68,7 +68,7 @@
 				"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/werewolf_50x50.png"
 			},
 			"status": "alive",
-			"isHumanPlayer": true
+			"playerType: "human"
 		},
 		{
 			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
@@ -89,7 +89,7 @@
 				"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/hunter_50x50.png"
 			},
 			"status": "alive",
-			"isHumanPlayer": true
+			"playerType: "human"
 		},
 		{
 			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
@@ -110,7 +110,7 @@
 				"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/medium_50x50.png"
 			},
 			"status": "alive",
-			"isHumanPlayer": true
+			"playerType: "human"
 		},
 		{
 			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
@@ -131,7 +131,7 @@
 				"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/werehamster_50x50.png"
 			},
 			"status": "alive",
-			"isHumanPlayer": true
+			"playerType: "human"
 		},
 		{
 			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
@@ -152,7 +152,7 @@
 				"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/madman_50x50.png"
 			},
 			"status": "alive",
-			"isHumanPlayer": true
+			"playerType: "human"
 		},
 		{
 			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
@@ -173,7 +173,7 @@
 				"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/werewolf_50x50.png"
 			},
 			"status": "alive",
-			"isHumanPlayer": true
+			"playerType: "human"
 		},
 		{
 			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
@@ -194,7 +194,7 @@
 				"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/villager_50x50.png"
 			},
 			"status": "alive",
-			"isHumanPlayer": true
+			"playerType: "human"
 		},
 		{
 			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
@@ -215,7 +215,7 @@
 				"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/villager_50x50.png"
 			},
 			"status": "alive",
-			"isHumanPlayer": true
+			"playerType: "human"
 		},
 		{
 			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
@@ -236,7 +236,7 @@
 				"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/mason_50x50.png"
 			},
 			"status": "alive",
-			"isHumanPlayer": true
+			"playerType: "human"
 		},
 		{
 			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
@@ -257,7 +257,7 @@
 				"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/mason_50x50.png"
 			},
 			"status": "alive",
-			"isHumanPlayer": false
+			"playerType: "fully automated robot"
 		},
 		{
 			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
@@ -278,7 +278,7 @@
 				"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/villager_50x50.png"
 			},
 			"status": "alive",
-			"isHumanPlayer": true
+			"playerType: "human"
 		},
 		{
 			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
@@ -299,7 +299,7 @@
 				"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/villager_50x50.png"
 			},
 			"status": "alive",
-			"isHumanPlayer": true
+			"playerType: "human"
 		},
 		{
 			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
@@ -320,7 +320,7 @@
 				"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/villager_50x50.png"
 			},
 			"status": "alive",
-			"isHumanPlayer": true
+			"playerType: "semi-automated robot"
 		},
 		{
 			"@context": "https://werewolf.world/village/context/0.3/character.jsonld",
@@ -341,7 +341,7 @@
 				"image": "https://werewolf.world/image/0.3/role_icons/50x50withTI/villager_50x50.png"
 			},
 			"status": "alive",
-			"isHumanPlayer": true
+			"playerType: "human"
 		}
 	],
 	"isMine": true,
