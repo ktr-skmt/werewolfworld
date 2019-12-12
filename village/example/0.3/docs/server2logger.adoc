@@ -6,7 +6,7 @@
 :homepage: https://werewolf.world
 
 ==== Server-to-client morning.jsonld
-* [before] https://werewolf.world/village/example/0.3/client2server/morning.jsonld[morning.jsonld]
+* [before] https://werewolf.world/village/example/0.3/server2client/morning.jsonld[morning.jsonld]
 * [after] https://werewolf.world/village/example/0.3/server2logger/morningForLog.jsonld[morningForLog.jsonld]
 
 ==== Server-to-client myMessageOnChat.jsonld
