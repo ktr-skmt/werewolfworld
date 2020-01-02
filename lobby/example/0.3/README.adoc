@@ -30,6 +30,8 @@
 * https://werewolf.world/lobby/example/0.3/client2server/changeUserEmail.json[changeUserEmail.json]
 * https://werewolf.world/lobby/example/0.3/client2server/changeUserPassword.json[changeUserPassword.json]
 * https://werewolf.world/lobby/example/0.3/client2server/changeLang.json[changeLang.json]
+* https://werewolf.world/lobby/example/0.3/client2server/authorizationRequestAccepted.json[authorizationRequestAccepted.json]
+* https://werewolf.world/lobby/example/0.3/client2server/renewAvatarToken.json[renewAvatarToken.json]
 
 ==== Server to client
 
@@ -42,6 +44,9 @@
 * https://werewolf.world/lobby/example/0.3/server2client/searchResult.json[searchResult.json]
 * https://werewolf.world/lobby/example/0.3/server2client/played.json[played.json]
 * https://werewolf.world/lobby/example/0.3/server2client/settings.json[settings.json]
+* https://werewolf.world/lobby/example/0.3/server2client/authorizationRequest.json[authorizationRequest.json]
+* https://werewolf.world/lobby/example/0.3/server2client/authorizationRequestAcceptedResponse.json[authorizationRequestAcceptedResponse.json]
+* https://werewolf.world/lobby/example/0.3/server2client/newAvatarToken.json[newAvatarToken.json]
 
 === Flow
 
