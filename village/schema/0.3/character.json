@@ -19,7 +19,7 @@
             "description": "character @id",
             "$id": "#@id",
             "type": "string",
-            "pattern": "^https://licos.online/state/0.3/village[#0-9A-Za-z]+$",
+            "pattern": "^https://licos.online/state/0.3/village[#0-9A-Za-z]+/(myCharacter|character)[#0-9A-Za-z]$",
             "examples": [
                 "https://licos.online/state/0.3/village#3/character#1",
                 "https://licos.online/state/0.3/village#3/myCharacter"
