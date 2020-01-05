@@ -19,7 +19,7 @@
             "description": "avatar @id",
             "$id": "#@id",
             "type": "string",
-            "pattern": "^https://licos.online/state/0.3/village[#0-9A-Za-z]+$",
+            "pattern": "^https://licos.online/state/0.3/village[#0-9A-Za-z]+/avatar$",
             "examples": [
                 "https://licos.online/state/0.3/village#3/avatar"
             ]
