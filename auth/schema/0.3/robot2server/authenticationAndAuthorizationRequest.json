@@ -19,7 +19,7 @@
         "userName": {
             "title": "User Name",
             "description": "user name",
-            "$id": "/definitions/userName",
+            "$id": "/properties/userName",
             "type": "string",
             "minLength": 5,
             "maxLength": 64
@@ -27,7 +27,7 @@
         "userPassword": {
             "title": "User Password",
             "description": "user password",
-            "$id": "/definitions/userPassword",
+            "$id": "/properties/userPassword",
             "type": "string",
             "minLength": 8,
             "maxLength": 256
@@ -35,7 +35,7 @@
         "robotVersion": {
             "title": "Robot Version",
             "description": "robot version",
-            "$id": "/definitions/robotVersion",
+            "$id": "/properties/robotVersion",
             "type": "string",
             "pattern": "^[0-9]+.[0-9]+.[0-9]+",
             "minLength": 5

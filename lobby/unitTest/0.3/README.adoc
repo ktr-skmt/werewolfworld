@@ -13,3 +13,5 @@
 * https://werewolf.world/lobby/unitTest/0.3/playerSetting.json[playerSetting.json]
 * https://werewolf.world/lobby/unitTest/0.3/robot.json[robot.json]
 * https://werewolf.world/lobby/unitTest/0.3/roleSetting.json[roleSetting.json]
+* https://werewolf.world/lobby/unitTest/0.3/supportedComposition.json[supportedComposition.json]
+* https://werewolf.world/lobby/unitTest/0.3/support.json[support.json]

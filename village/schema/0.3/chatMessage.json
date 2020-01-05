@@ -11,19 +11,19 @@
             "type": "object",
             "properties": {
                 "@context": {
-                    "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                    "$ref": "https://werewolf.world/village/schema/0.3/character.json#@context"
                 },
                 "@id": {
-                    "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                    "$ref": "https://werewolf.world/village/schema/0.3/character.json#@id"
                 },
                 "id": {
-                    "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                    "$ref": "https://werewolf.world/village/schema/0.3/character.json#id"
                 },
                 "name": {
-                    "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                    "$ref": "https://werewolf.world/village/schema/0.3/character.json#name"
                 },
                 "image": {
-                    "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                    "$ref": "https://werewolf.world/village/schema/0.3/character.json#image"
                 }
             },
             "required": [
@@ -35,28 +35,28 @@
             ]
         },
         "isMine": {
-            "$ref": "https://werewolf.world/village/schema/0.3/chat.json"
+            "$ref": "https://werewolf.world/village/schema/0.3/chat.json#isMine"
         },
         "id": {
-            "$ref": "https://werewolf.world/village/schema/0.3/chat.json"
+            "$ref": "https://werewolf.world/village/schema/0.3/chat.json#id"
         },
         "counter": {
-            "$ref": "https://werewolf.world/village/schema/0.3/chat.json"
+            "$ref": "https://werewolf.world/village/schema/0.3/chat.json#counter"
         },
         "maxNumberOfChatMessages": {
-            "$ref": "https://werewolf.world/village/schema/0.3/chat.json"
+            "$ref": "https://werewolf.world/village/schema/0.3/chat.json#maxNumberOfChatMessages"
         },
         "interval": {
-            "$ref": "https://werewolf.world/village/schema/0.3/chat.json"
+            "$ref": "https://werewolf.world/village/schema/0.3/chat.json#interval"
         },
         "text": {
-            "$ref": "https://werewolf.world/village/schema/0.3/chat.json"
+            "$ref": "https://werewolf.world/village/schema/0.3/chat.json#text"
         },
         "maxLengthOfUnicodeCodePoints": {
-            "$ref": "https://werewolf.world/village/schema/0.3/chat.json"
+            "$ref": "https://werewolf.world/village/schema/0.3/chat.json#maxLengthOfUnicodeCodePoints"
         },
         "isOver": {
-            "$ref": "https://werewolf.world/village/schema/0.3/chat.json"
+            "$ref": "https://werewolf.world/village/schema/0.3/chat.json#isOver"
         }
     },
     "patternProperties": {

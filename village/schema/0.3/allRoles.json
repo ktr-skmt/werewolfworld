@@ -38,13 +38,13 @@
                 "type": "object",
                 "properties": {
                     "@id": {
-                        "$ref": "https://werewolf.world/village/schema/0.3/role.json"
+                        "$ref": "https://werewolf.world/village/schema/0.3/role.json#@id"
                     },
                     "name": {
-                        "$ref": "https://werewolf.world/village/schema/0.3/role.json"
+                        "$ref": "https://werewolf.world/village/schema/0.3/role.json#name"
                     },
                     "image": {
-                        "$ref": "https://werewolf.world/village/schema/0.3/role.json"
+                        "$ref": "https://werewolf.world/village/schema/0.3/role.json#image"
                     }
                 },
                 "required": [

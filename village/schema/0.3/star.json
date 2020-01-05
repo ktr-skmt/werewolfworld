@@ -6,7 +6,7 @@
         "@context": {
             "title": "Star @context",
             "description": "star @context",
-            "$id": "/definitions/@context",
+            "$id": "#@context",
             "type": "string",
             "pattern": "^https://werewolf.world/village/context/0.3/star.jsonld$",
             "default": "https://werewolf.world/village/context/0.3/star.jsonld",
@@ -17,7 +17,7 @@
         "@id": {
             "title": "Star @id",
             "description": "star @id",
-            "$id": "/definitions/@id",
+            "$id": "#@id",
             "type": "string",
             "pattern": "^https://licos.online/state/0.3/village[#0-9A-Za-z]+/star$",
             "examples": [

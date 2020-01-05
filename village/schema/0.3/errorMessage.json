@@ -5,16 +5,16 @@
     "type": "object",
     "properties": {
         "content": {
-            "$ref": "https://werewolf.world/village/schema/0.3/error.json"
+            "$ref": "https://werewolf.world/village/schema/0.3/error.json#content"
         },
         "severity": {
-            "$ref": "https://werewolf.world/village/schema/0.3/error.json"
+            "$ref": "https://werewolf.world/village/schema/0.3/error.json#severity"
         },
         "source": {
-            "$ref": "https://werewolf.world/village/schema/0.3/error.json"
+            "$ref": "https://werewolf.world/village/schema/0.3/error.json#source"
         },
         "isFromServer": {
-            "$ref": "https://werewolf.world/village/schema/0.3/error.json"
+            "$ref": "https://werewolf.world/village/schema/0.3/error.json#isFromServer"
         }
     },
     "patternProperties": {

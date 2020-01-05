@@ -6,7 +6,7 @@
         "@id": {
             "title": "Time @id",
             "description": "time @id",
-            "$id": "/definitions/@id",
+            "$id": "#@id",
             "type": "string",
             "pattern": "^https://licos.online/state/0.3/village[#0-9A-Za-z]+$",
             "examples": [
@@ -16,7 +16,7 @@
         "phase": {
             "title": "Phase",
             "description": "phase",
-            "$id": "/definitions/phase",
+            "$id": "#phase",
             "type": "string",
             "enum": [
                 "flavor text",
@@ -38,7 +38,7 @@
         "day": {
             "title": "Day",
             "description": "day",
-            "$id": "/definitions/day",
+            "$id": "#day",
             "type": "integer",
             "minimum": -1,
             "maximum": 13,

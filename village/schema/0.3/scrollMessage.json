@@ -5,16 +5,16 @@
     "type": "object",
     "properties": {
         "nodeId": {
-            "$ref": "https://werewolf.world/village/schema/0.3/scroll.json"
+            "$ref": "https://werewolf.world/village/schema/0.3/scroll.json#nodeId"
         },
         "scrollTop": {
-            "$ref": "https://werewolf.world/village/schema/0.3/scroll.json"
+            "$ref": "https://werewolf.world/village/schema/0.3/scroll.json#scrollTop"
         },
         "scrollHeight": {
-            "$ref": "https://werewolf.world/village/schema/0.3/scroll.json"
+            "$ref": "https://werewolf.world/village/schema/0.3/scroll.json#scrollHeight"
         },
         "offsetHeight": {
-            "$ref": "https://werewolf.world/village/schema/0.3/scroll.json"
+            "$ref": "https://werewolf.world/village/schema/0.3/scroll.json#offsetHeight"
         }
     },
     "patternProperties": {

@@ -6,7 +6,7 @@
         "@context": {
             "title": "Role @context",
             "description": "role @context",
-            "$id": "/definitions/@context",
+            "$id": "#@context",
             "type": "string",
             "pattern": "^https://werewolf.world/village/context/0.3/role.jsonld$",
             "default": "https://werewolf.world/village/context/0.3/role.jsonld",
@@ -17,7 +17,7 @@
         "@id": {
             "title": "Role @id",
             "description": "role @id",
-            "$id": "/definitions/@id",
+            "$id": "#@id",
             "type": "string",
             "pattern": "https://licos.online/state/0.3/village[#0-9A-Za-z]+",
             "examples": [
@@ -27,13 +27,13 @@
         "name": {
             "title": "Role Name",
             "description": "role name",
-            "$id": "/definitions/name",
+            "$id": "#name",
             "type": "object",
             "properties": {
                 "en": {
                     "title": "Role English Name",
                     "description": "role English name",
-                    "$id": "/definitions/name/properties/en",
+                    "$id": "#name/properties/en",
                     "type": "string",
                     "enum": [
                         "Hunter",
@@ -59,7 +59,7 @@
                 "ja": {
                     "title": "Role Japanese Name",
                     "description": "role Japanese name",
-                    "$id": "/definitions/name/properties/ja",
+                    "$id": "#name/properties/ja",
                     "enum": [
                         "狩人",
                         "狂人",
@@ -89,7 +89,7 @@
         "image": {
             "title": "Role Image",
             "description": "role image",
-            "$id": "/definitions/image",
+            "$id": "#image",
             "type": "string",
             "default": "https://werewolf.world/image/0.3/villager.jpg",
             "enum": [
@@ -116,7 +116,7 @@
         "isMine": {
             "title": "Is Role Mine?",
             "description": "am I play the role?",
-            "$id": "/definitions/isMine",
+            "$id": "#isMine",
             "type": "boolean",
             "default": false,
             "examples": [
@@ -127,7 +127,7 @@
         "numberOfPlayers": {
             "title": "Number of Players",
             "description": "number of players",
-            "$id": "/definitions/numberOfPlayers",
+            "$id": "#numberOfPlayers",
             "type": "integer",
             "minimum": 0,
             "maximum": 7,

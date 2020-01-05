@@ -23,25 +23,10 @@
       "type": "object",
       "properties": {
         "name": {
-          "title": "Village Name",
-          "description": "village name",
-          "$id": "/properties/village/properties/name",
-          "type": "string",
-          "minLength": 5,
-          "maxLength": 30,
-          "examples": [
-            "Alice's village"
-          ]
+          "$ref": "https://werewolf.world/village/schema/0.3/village.json#name"
         },
         "id": {
-          "title": "Village ID",
-          "description": "village id",
-          "$id": "/properties/village/properties/id",
-          "type": "integer",
-          "minimum": 0,
-          "examples": [
-            0
-          ]
+          "$ref": "https://werewolf.world/village/schema/0.3/villagae.json#id"
         },
         "idForSearching": {
           "title": "ID for Searching",
@@ -61,15 +46,7 @@
           "type": "object",
           "properties": {
             "name": {
-              "title": "Host Player Name",
-              "description": "host player's name",
-              "$id": "/properties/village/properties/hostPlayer/properties/name",
-              "type": "string",
-              "minLength": 5,
-              "maxLength": 15,
-              "examples": [
-                "Alice"
-              ]
+              "$ref": "https://werewolf.world/village/schema/0.3/avatar.json#name"
             },
             "isAnonymous": {
               "title": "Host Player Anonymity",

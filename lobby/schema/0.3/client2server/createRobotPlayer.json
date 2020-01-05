@@ -1,0 +1,352 @@
+{
+  "title": "werewolf.world: Schema of createRobotPlayer.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://werewolf.world/lobby/schema/0.3/client2server/createRobotPlayer.json",
+  "definitions": {
+    "A": {
+      "title": "Composition Type A",
+      "description": "Composition type A",
+      "$id": "#A",
+      "type": "boolean",
+      "examples": [true, false]
+    },
+    "B": {
+      "title": "Composition Type B",
+      "description": "Composition type B",
+      "$id": "#B",
+      "type": "boolean",
+      "examples": [true, false]
+    },
+    "C": {
+      "title": "Composition Type C",
+      "description": "Composition type C",
+      "$id": "#C",
+      "type": "boolean",
+      "examples": [true, false]
+    }
+  },
+  "type": "object",
+  "properties": {
+    "type": {
+      "title": "Type",
+      "description": "type",
+      "$id": "/properties/type",
+      "type": "string",
+      "pattern": "^createRobotPlayer$",
+      "default": "createRobotPlayer",
+      "examples": [
+        "createRobotPlayer"
+      ]
+    },
+    "name": {
+      "$ref": "https://werewolf.world/village/schema/0.3/avatar.json#name"
+    },
+    "automationType": {
+      "title": "Automation Type",
+      "description": "automation type",
+      "$id": "/properties/automationType",
+      "type": "string",
+      "enum": [
+        "fully automated",
+        "semi-automated"
+      ],
+      "default": "fully automated",
+      "examples": [
+        "fully automated",
+        "semi-automated"
+      ]
+    },
+    "support": {
+      "title": "Support",
+      "description": "support",
+      "$id": "/properties/support",
+      "type": "object",
+      "properties": {
+        "4": {
+          "title": "4 Players",
+          "description": "4 players",
+          "$id": "/properties/support/properties/4",
+          "type": "object",
+          "properties": {
+            "A": {
+              "$ref": "#A"
+            },
+            "B": {
+              "$ref": "#B"
+            },
+            "C": {
+              "$ref": "#C"
+            }
+          },
+          "required": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        "5": {
+          "title": "5 Players",
+          "description": "5 players",
+          "$id": "/properties/support/properties/5",
+          "type": "object",
+          "properties": {
+            "A": {
+              "$ref": "#A"
+            },
+            "B": {
+              "$ref": "#B"
+            },
+            "C": {
+              "$ref": "#C"
+            }
+          },
+          "required": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        "6": {
+          "title": "6 Players",
+          "description": "6 players",
+          "$id": "/properties/support/properties/6",
+          "type": "object",
+          "properties": {
+            "A": {
+              "$ref": "#A"
+            },
+            "B": {
+              "$ref": "#B"
+            },
+            "C": {
+              "$ref": "#C"
+            }
+          },
+          "required": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        "7": {
+          "title": "7 Players",
+          "description": "7 players",
+          "$id": "/properties/support/properties/7",
+          "type": "object",
+          "properties": {
+            "A": {
+              "$ref": "#A"
+            },
+            "B": {
+              "$ref": "#B"
+            },
+            "C": {
+              "$ref": "#C"
+            }
+          },
+          "required": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        "8": {
+          "title": "8 Players",
+          "description": "8 players",
+          "$id": "/properties/support/properties/8",
+          "type": "object",
+          "properties": {
+            "A": {
+              "$ref": "#A"
+            },
+            "B": {
+              "$ref": "#B"
+            },
+            "C": {
+              "$ref": "#C"
+            }
+          },
+          "required": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        "9": {
+          "title": "9 Players",
+          "description": "9 players",
+          "$id": "/properties/support/properties/9",
+          "type": "object",
+          "properties": {
+            "A": {
+              "$ref": "#A"
+            },
+            "B": {
+              "$ref": "#B"
+            },
+            "C": {
+              "$ref": "#C"
+            }
+          },
+          "required": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        "10": {
+          "title": "10 Players",
+          "description": "10 players",
+          "$id": "/properties/support/properties/10",
+          "type": "object",
+          "properties": {
+            "A": {
+              "$ref": "#A"
+            },
+            "B": {
+              "$ref": "#B"
+            },
+            "C": {
+              "$ref": "#C"
+            }
+          },
+          "required": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        "11": {
+          "title": "11 Players",
+          "description": "11 players",
+          "$id": "/properties/support/properties/11",
+          "type": "object",
+          "properties": {
+            "A": {
+              "$ref": "#A"
+            },
+            "B": {
+              "$ref": "#B"
+            },
+            "C": {
+              "$ref": "#C"
+            }
+          },
+          "required": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        "12": {
+          "title": "12 Players",
+          "description": "12 players",
+          "$id": "/properties/support/properties/12",
+          "type": "object",
+          "properties": {
+            "A": {
+              "$ref": "#A"
+            },
+            "B": {
+              "$ref": "#B"
+            },
+            "C": {
+              "$ref": "#C"
+            }
+          },
+          "required": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        "13": {
+          "title": "13 Players",
+          "description": "13 players",
+          "$id": "/properties/support/properties/13",
+          "type": "object",
+          "properties": {
+            "A": {
+              "$ref": "#A"
+            },
+            "B": {
+              "$ref": "#B"
+            },
+            "C": {
+              "$ref": "#C"
+            }
+          },
+          "required": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        "14": {
+          "title": "14 Players",
+          "description": "14 players",
+          "$id": "/properties/support/properties/14",
+          "type": "object",
+          "properties": {
+            "A": {
+              "$ref": "#A"
+            },
+            "B": {
+              "$ref": "#B"
+            },
+            "C": {
+              "$ref": "#C"
+            }
+          },
+          "required": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        "15": {
+          "title": "15 Players",
+          "description": "15 players",
+          "$id": "/properties/support/properties/15",
+          "type": "object",
+          "properties": {
+            "A": {
+              "$ref": "#A"
+            },
+            "B": {
+              "$ref": "#B"
+            },
+            "C": {
+              "$ref": "#C"
+            }
+          },
+          "required": [
+            "A",
+            "B",
+            "C"
+          ]
+        }
+      },
+      "required": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ]
+    }
+  },
+  "required": [
+    "type",
+    "name",
+    "automationType",
+    "support"
+  ]
+}

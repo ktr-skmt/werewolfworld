@@ -6,7 +6,7 @@
         "@context": {
             "title": "@context",
             "description": "@context",
-            "$id": "/definitions/@context",
+            "$id": "#@context",
             "type": "string",
             "default": "https://werewolf.world/village/context/0.3/chatSettings.jsonld",
             "pattern": "^https://werewolf.world/village/context/0.3/chatSettings.jsonld$",
@@ -17,7 +17,7 @@
         "@id": {
             "title": "@id",
             "description": "@id",
-            "$id": "/definitions/@id",
+            "$id": "#@id",
             "type": "string",
             "pattern": "^https://licos.online/state/0.3/village#[0-9]+/chatSettings$",
             "examples": [

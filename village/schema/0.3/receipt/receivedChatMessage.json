@@ -17,16 +17,16 @@
             ]
         },
         "token": {
-            "$ref": "https://werewolf.world/village/schema/0.3/avatar.json"
+            "$ref": "https://werewolf.world/village/schema/0.3/avatar.json#token"
         },
         "villageId": {
-            "$ref": "https://werewolf.world/village/schema/0.3/village.json"
+            "$ref": "https://werewolf.world/village/schema/0.3/village.json#villageId"
         },
         "serverTimestamp": {
-            "$ref": "https://werewolf.world/village/schema/0.3/base.json"
+            "$ref": "https://werewolf.world/village/schema/0.3/base.json#serverTimestamp"
         },
         "clientTimestamp": {
-            "$ref": "https://werewolf.world/village/schema/0.3/base.json"
+            "$ref": "https://werewolf.world/village/schema/0.3/base.json#clientTimestamp"
         }
     },
     "required": [

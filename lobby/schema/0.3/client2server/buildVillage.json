@@ -17,36 +17,13 @@
       ]
     },
     "token": {
-      "title": "User Token",
-      "description": "GUID",
-      "$id": "/properties/token",
-      "type": "string",
-      "pattern": "^[0-9A-Fa-f]{8}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{12}$",
-      "examples": [
-        "3F2504E0-4F89-11D3-9A0C-0305E82C3301"
-      ]
+      "$ref": "https://werewolf.world/village/schema/0.3/avatar.json#token"
     },
     "name": {
-      "title": "Village Name",
-      "description": "village name",
-      "$id": "/properties/name",
-      "type": "string",
-      "minLength": 5,
-      "maxLength": 30,
-      "examples": [
-        "Alice's village"
-      ]
+      "$ref": "https://werewolf.world/village/schema/0.3/village.json#name"
     },
     "id": {
-      "title": "Village ID",
-      "description": "-1 (means village id which does not exist)",
-      "$id": "/properties/id",
-      "type": "integer",
-      "minimum": -1,
-      "default": -1,
-      "examples": [
-        -1
-      ]
+      "$ref": "https://werewolf.world/village/schema/0.3/village.json#id"
     },
     "idForSearching": {
       "title": "ID for Searching",
@@ -67,15 +44,7 @@
       "type": "object",
       "properties": {
         "name": {
-          "title": "Host Player Name",
-          "description": "host player's name",
-          "$id": "/properties/hostPlayer/properties/name",
-          "type": "string",
-          "minLength": 5,
-          "maxLength": 15,
-          "examples": [
-            "Alice"
-          ]
+          "$ref": "https://werewolf.world/village/schema/0.3/avatar.json#name"
         },
         "isAnonymous": {
           "title": "Host Player Anonymity",

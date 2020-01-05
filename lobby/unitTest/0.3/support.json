@@ -1,0 +1,14 @@
+{
+  "4": {"A": true, "B": true, "C": true},
+  "5": {"A": true, "B": true, "C": true},
+  "6": {"A": true, "B": true, "C": true},
+  "7": {"A": true, "B": true, "C": true},
+  "8": {"A": true, "B": true, "C": true},
+  "9": {"A": true, "B": true, "C": true},
+  "10": {"A": true, "B": true, "C": true},
+  "11": {"A": true, "B": true, "C": true},
+  "12": {"A": true, "B": true, "C": true},
+  "13": {"A": true, "B": true, "C": true},
+  "14": {"A": true, "B": false, "C": true},
+  "15": {"A": false, "B": false, "C": false}
+}

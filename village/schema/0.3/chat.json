@@ -6,7 +6,7 @@
         "isMine": {
             "title": "Is Chat Mine?",
             "description": "is/was the chat sent by me?",
-            "$id": "/definitions/isMine",
+            "$id": "#isMine",
             "type": "boolean",
             "default": false,
             "examples": [
@@ -17,7 +17,7 @@
         "id": {
             "title": "Chat ID",
             "description": "chat ID",
-            "$id": "/definitions/id",
+            "$id": "#id",
             "type": "integer",
             "minimum": 1,
             "default": 1,
@@ -28,7 +28,7 @@
         "counter": {
             "title": "Chat Counter",
             "description": "chat counter",
-            "$id": "/definitions/counter",
+            "$id": "#counter",
             "type": "integer",
             "minimum": 0,
             "default": 0,
@@ -39,7 +39,7 @@
         "maxNumberOfChatMessages": {
             "title": "Max Number Of Chat Messages",
             "description": "max number of chat messages",
-            "$id": "/definitions/maxNumberOfChatMessages",
+            "$id": "#maxNumberOfChatMessages",
             "type": "integer",
             "minimum": 1,
             "examples": [
@@ -49,7 +49,7 @@
         "interval": {
             "title": "Chat Interval",
             "description": "chat interval",
-            "$id": "/definitions/interval",
+            "$id": "#interval",
             "type": "integer",
             "minimum": 1,
             "default": 5,
@@ -60,13 +60,13 @@
         "text": {
             "title": "Text",
             "description": "text",
-            "$id": "/definitions/text",
+            "$id": "#text",
             "type": "object",
             "properties": {
                 "@value": {
                     "title": "Text @value",
                     "description": "text @value",
-                    "$id": "/definitions/text/properties/@value",
+                    "$id": "#text/properties/@value",
                     "type": "string",
                     "minLength": 1,
                     "maxLength": 140
@@ -74,7 +74,7 @@
                 "@language": {
                     "title": "Text @language",
                     "description": "text @language",
-                    "$id": "/definitions/text/properteis/@language",
+                    "$id": "#text/properteis/@language",
                     "type": "string",
                     "enum": [
                         "en",
@@ -104,7 +104,7 @@
         "maxLengthOfUnicodeCodePoints": {
             "title": "Max Length of Unicode Code Points",
             "description": "max length of unicode points",
-            "$id": "/definitions/maxLengthOfUnicodeCodePoints",
+            "$id": "#maxLengthOfUnicodeCodePoints",
             "type": "integer",
             "default": 140,
             "examples": [
@@ -114,7 +114,7 @@
         "isOver": {
             "title": "Is Over",
             "description": "is over?",
-            "$id": "/definitions/isOver",
+            "$id": "#isOver",
             "type": "boolean",
             "default": false,
             "examples": [
@@ -125,7 +125,7 @@
         "isFromServer": {
             "title": "Is From Server?",
             "description": "is this sent from server?",
-            "$id": "/definitions/isFromServer",
+            "$id": "#isFromServer",
             "type": "boolean",
             "default": true,
             "examples": [

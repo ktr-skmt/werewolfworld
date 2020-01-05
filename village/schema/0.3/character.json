@@ -6,7 +6,7 @@
         "@context": {
             "title": "Character @context",
             "description": "character @context",
-            "$id": "/definitions/@context",
+            "$id": "#@context",
             "type": "string",
             "pattern": "^https://werewolf.world/village/context/0.3/character.jsonld$",
             "default": "https://werewolf.world/village/context/0.3/character.jsonld",
@@ -17,7 +17,7 @@
         "@id": {
             "title": "Character @id",
             "description": "character @id",
-            "$id": "/definitions/@id",
+            "$id": "#@id",
             "type": "string",
             "pattern": "^https://licos.online/state/0.3/village[#0-9A-Za-z]+$",
             "examples": [
@@ -28,7 +28,7 @@
         "isMine": {
             "title": "Is Character Mine?",
             "description": "am I play as the character?",
-            "$id": "/definitions/isMine",
+            "$id": "#isMine",
             "type": "boolean",
             "default": false,
             "examples": [
@@ -39,13 +39,13 @@
         "name": {
             "title": "Character Name",
             "description": "character name",
-            "$id": "/definitions/name",
+            "$id": "#name",
             "type": "object",
             "properties": {
                 "en": {
                     "title": "Character English Name",
                     "description": "character English name",
-                    "$id": "/definitions/name/properties/en",
+                    "$id": "#name/properties/en",
                     "type": "string",
                     "minLength": 1,
                     "maxLength": 15
@@ -53,7 +53,7 @@
                 "fr": {
                     "title": "Character French Name",
                     "description": "character French name",
-                    "$id": "/definitions/fullName/properties/fr",
+                    "$id": "#name/properties/fr",
                     "type": "string",
                     "minLength": 1,
                     "maxLength": 15
@@ -61,7 +61,7 @@
                 "it": {
                     "title": "Character Italian Name",
                     "description": "character Italian name",
-                    "$id": "/definitions/fullName/properties/it",
+                    "$id": "#name/properties/it",
                     "type": "string",
                     "minLength": 1,
                     "maxLength": 15
@@ -69,7 +69,7 @@
                 "ja": {
                     "title": "Character Japanese Name",
                     "description": "character Japanese name",
-                    "$id": "/definitions/name/properties/ja",
+                    "$id": "#name/properties/ja",
                     "type": "string",
                     "minLength": 1,
                     "maxLength": 15
@@ -77,7 +77,7 @@
                 "vi": {
                     "title": "Character Vietnamese Name",
                     "description": "character Vietnamese name",
-                    "$id": "/definitions/fullName/properties/vi",
+                    "$id": "#name/properties/vi",
                     "type": "string",
                     "minLength": 1,
                     "maxLength": 15
@@ -85,7 +85,7 @@
                 "zh-CN": {
                     "title": "Character Chinese Name",
                     "description": "character Chinese name",
-                    "$id": "/definitions/fullName/properties/zh-CN",
+                    "$id": "#name/properties/zh-CN",
                     "type": "string",
                     "minLength": 1,
                     "maxLength": 15
@@ -93,7 +93,7 @@
                 "zh-TW": {
                     "title": "Character Taiwanese Name",
                     "description": "character Taiwanese name",
-                    "$id": "/definitions/fullName/properties/zh-TW",
+                    "$id": "#name/properties/zh-TW",
                     "type": "string",
                     "minLength": 1,
                     "maxLength": 15
@@ -106,13 +106,13 @@
         "fullName": {
             "title": "Character Full Name",
             "description": "character full name",
-            "$id": "/definitions/fullName",
+            "$id": "#fullName",
             "type": "object",
             "properties": {
                 "en": {
                     "title": "Character English Full Name",
                     "description": "character English full name",
-                    "$id": "/definitions/fullName/properties/en",
+                    "$id": "#fullName/properties/en",
                     "type": "string",
                     "minLength": 1,
                     "maxLength": 15
@@ -120,7 +120,7 @@
                 "fr": {
                     "title": "Character French Full Name",
                     "description": "character French full name",
-                    "$id": "/definitions/fullName/properties/fr",
+                    "$id": "#fullName/properties/fr",
                     "type": "string",
                     "minLength": 1,
                     "maxLength": 15
@@ -128,7 +128,7 @@
                 "it": {
                     "title": "Character Italian Full Name",
                     "description": "character Italian full name",
-                    "$id": "/definitions/fullName/properties/it",
+                    "$id": "#fullName/properties/it",
                     "type": "string",
                     "minLength": 1,
                     "maxLength": 15
@@ -136,7 +136,7 @@
                 "ja": {
                     "title": "Character Japanese Full Name",
                     "description": "character Japanese full name",
-                    "$id": "/definitions/fullName/properties/ja",
+                    "$id": "#fullName/properties/ja",
                     "type": "string",
                     "minLength": 1,
                     "maxLength": 15
@@ -144,7 +144,7 @@
                 "vi": {
                     "title": "Character Vietnamese Full Name",
                     "description": "character Vietnamese full name",
-                    "$id": "/definitions/fullName/properties/vi",
+                    "$id": "#fullName/properties/vi",
                     "type": "string",
                     "minLength": 1,
                     "maxLength": 15
@@ -152,7 +152,7 @@
                 "zh-CN": {
                     "title": "Character Chinese Full Name",
                     "description": "character Chinese full name",
-                    "$id": "/definitions/fullName/properties/zh-CN",
+                    "$id": "#fullName/properties/zh-CN",
                     "type": "string",
                     "minLength": 1,
                     "maxLength": 15
@@ -160,7 +160,7 @@
                 "zh-TW": {
                     "title": "Character Taiwanese Full Name",
                     "description": "character Taiwanese full name",
-                    "$id": "/definitions/fullName/properties/zh-TW",
+                    "$id": "#fullName/properties/zh-TW",
                     "type": "string",
                     "minLength": 1,
                     "maxLength": 15
@@ -173,7 +173,7 @@
         "gender": {
             "title": "Gender",
             "description": "gender",
-            "$id": "/definitions/gender",
+            "$id": "#gender",
             "type": "string",
             "enum": [
                 "male",
@@ -187,7 +187,7 @@
         "image": {
             "title": "Character Image",
             "description": "character image",
-            "$id": "/definitions/image",
+            "$id": "#image",
             "type": "string",
             "pattern": "^https://werewolf.world/image/0.3/[A-Za-z]+.jpg$",
             "examples": [
@@ -197,7 +197,7 @@
         "id": {
             "title": "Character ID",
             "description": "character id",
-            "$id": "/definitions/id",
+            "$id": "#id",
             "type": "integer",
             "minimum": -1,
             "maximum": 15,
@@ -209,7 +209,7 @@
         "status": {
             "title": "Character Status",
             "description": "character status",
-            "$id": "/definitions/status",
+            "$id": "#status",
             "type": "string",
             "default": "dead",
             "enum": [
@@ -232,7 +232,7 @@
         "update": {
             "title": "Character Status Update",
             "description": "character status update",
-            "$id": "/definitions/update",
+            "$id": "#update",
             "type": "object",
             "properties": {
                 "@id": {
@@ -254,7 +254,7 @@
         "isAChoice": {
             "title": "Is Character A Choice?",
             "description": "is the character a choice to execute?",
-            "$id": "/definitions/isAChoice",
+            "$id": "#isAChoice",
             "type": "boolean",
             "default": true,
             "examples": [
@@ -265,7 +265,7 @@
         "result": {
             "title": "Result",
             "description": "result",
-            "$id": "/definitions/result",
+            "$id": "#result",
             "type": "string",
             "enum": [
                 "win",

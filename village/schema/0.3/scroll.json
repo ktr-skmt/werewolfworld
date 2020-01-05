@@ -6,25 +6,25 @@
         "nodeId": {
             "title": "Node ID",
             "description": "node ID",
-            "$id": "/definitions/nodeId",
+            "$id": "#nodeId",
             "type": "string"
         },
         "scrollTop": {
             "title": "Scroll Top",
             "description": "scroll top",
-            "$id": "/definitions/scrollTop",
+            "$id": "#scrollTop",
             "type": "integer"
         },
         "scrollHeight": {
             "title": "Scroll Height",
             "description": "scroll height",
-            "$id": "/definitions/scrollHeight",
+            "$id": "#scrollHeight",
             "type": "integer"
         },
         "offsetHeight": {
             "title": "Offset Height",
             "description": "offset height",
-            "$id": "/definitions/offsetHeight",
+            "$id": "#offsetHeight",
             "type": "integer"
         }
     }

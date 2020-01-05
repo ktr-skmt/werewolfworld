@@ -11,19 +11,19 @@
             "type": "object",
             "properties": {
                 "@context": {
-                    "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                    "$ref": "https://werewolf.world/village/schema/0.3/character.json#@context"
                 },
                 "@id": {
-                    "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                    "$ref": "https://werewolf.world/village/schema/0.3/character.json#@id"
                 },
                 "id": {
-                    "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                    "$ref": "https://werewolf.world/village/schema/0.3/character.json#id"
                 },
                 "name": {
-                    "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                    "$ref": "https://werewolf.world/village/schema/0.3/character.json#name"
                 },
                 "image": {
-                    "$ref": "https://werewolf.world/village/schema/0.3/character.json"
+                    "$ref": "https://werewolf.world/village/schema/0.3/character.json#image"
                 }
             },
             "required": [

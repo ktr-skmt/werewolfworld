@@ -17,14 +17,7 @@
       ]
     },
     "id": {
-      "title": "Ping-pong Token",
-      "description": "Ping-pong ID (GUID)",
-      "$id": "/properties/id",
-      "type": "string",
-      "pattern": "^[0-9A-Fa-f]{8}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{12}$",
-      "examples": [
-        "3F2504E0-4F89-11D3-9A0C-0305E82C3300"
-      ]
+      "$ref": "https://werewolf.world/village/schema/0.3/avatar.json#token"
     },
     "results": {
       "title": "Results",
@@ -35,14 +28,7 @@
         "type": "object",
         "properties": {
           "token": {
-            "title": "User Token",
-            "description": "User ID (GUID)",
-            "$id": "/properties/results/items/properties/token",
-            "type": "string",
-            "pattern": "^[0-9A-Fa-f]{8}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{12}$",
-            "examples": [
-              "3F2504E0-4F89-11D3-9A0C-0305E82C3301"
-            ]
+            "$ref": "https://werewolf.world/village/schema/0.3/avatar.json#token"
           },
           "ping": {
             "title": "Ping",

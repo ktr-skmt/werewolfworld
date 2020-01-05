@@ -6,7 +6,7 @@
         "prediction": {
             "title": "Board Prediction",
             "description": "board prediction",
-            "$id": "/definitions/prediction",
+            "$id": "#prediction",
             "type": "string",
             "enum": [
                 "?",

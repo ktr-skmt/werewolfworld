@@ -11,19 +11,19 @@
             "type": "object",
             "properties": {
                 "@context": {
-                    "$ref": "https://werewolf.world/village/schema/0.3/star.json"
+                    "$ref": "https://werewolf.world/village/schema/0.3/star.json#@context"
                 },
                 "@id": {
-                    "$ref": "https://werewolf.world/village/schema/0.3/star.json"
+                    "$ref": "https://werewolf.world/village/schema/0.3/star.json#@id"
                 },
                 "token": {
-                    "$ref": "https://werewolf.world/village/schema/0.3/avatar.json"
+                    "$ref": "https://werewolf.world/village/schema/0.3/avatar.json#token"
                 },
                 "serverTimestamp": {
-                    "$ref": "https://werewolf.world/village/schema/0.3/base.json"
+                    "$ref": "https://werewolf.world/village/schema/0.3/base.json#serverTimestamp"
                 },
                 "clientTimestamp": {
-                    "$ref": "https://werewolf.world/village/schema/0.3/base.json"
+                    "$ref": "https://werewolf.world/village/schema/0.3/base.json#clientTimestamp"
                 },
                 "isMarked": {
                     "title": "Is Marked?",

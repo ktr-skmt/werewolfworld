@@ -6,7 +6,7 @@
         "@context": {
             "title": "Village @context",
             "description": "village @context",
-            "$id": "/definitions/@context",
+            "$id": "#@context",
             "type": "string",
             "pattern": "^https://werewolf.world/village/context/0.3/village.jsonld$",
             "default": "https://werewolf.world/village/context/0.3/village.jsonld",
@@ -17,7 +17,7 @@
         "@id": {
             "title": "Village @id",
             "description": "village @id",
-            "$id": "/definitions/@id",
+            "$id": "#@id",
             "type": "string",
             "pattern": "^https://licos.online/state/0.3/village$",
             "default": "https://licos.online/state/0.3/village",
@@ -28,9 +28,9 @@
         "id": {
             "title": "Village ID",
             "description": "village ID",
-            "$id": "/definitions/id",
+            "$id": "#id",
             "type": "integer",
-            "minimum": 0,
+            "minimum": -1,
             "examples": [
                 1
             ]
@@ -38,7 +38,7 @@
         "name": {
             "title": "Village Name",
             "description": "village name",
-            "$id": "/definitions/name",
+            "$id": "#name",
             "type": "string",
             "minLength": 5,
             "maxLength": 30
@@ -46,7 +46,7 @@
         "totalNumberOfPlayers": {
             "title": "The Total Number of Players in Village",
             "description": "the total number of players in village",
-            "$id": "/definitions/totalNumberOfPlayers",
+            "$id": "#totalNumberOfPlayers",
             "type": "integer",
             "minimum": 4,
             "maximum": 15,
@@ -57,7 +57,7 @@
         "language": {
             "title": "Language",
             "description": "language code; ISO 639-1:2002, Codes for the representation of names of languages — Part 1: Alpha-2 code",
-            "$id": "/definitions/language",
+            "$id": "#language",
             "type": "string",
             "minLength": 2,
             "maxLength": 2,

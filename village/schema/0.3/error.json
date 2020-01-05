@@ -6,18 +6,18 @@
         "content": {
             "title": "Error Content",
             "description": "error content",
-            "$id": "/definitions/content",
+            "$id": "#content",
             "type": "object",
             "properties": {
                 "en": {
                     "title": "Error Content in English",
                     "description": "error content in English",
-                    "$id": "/definitions/content/properties/en",
+                    "$id": "#content/properties/en",
                     "type": "string"
                 },
                 "ja": {
                     "title": "Error Content in Japanese",
-                    "$id": "/definitions/content/properties/ja",
+                    "$id": "#content/properties/ja",
                     "type": "string"
                 }
             },
@@ -28,7 +28,7 @@
         "severity": {
             "title": "Error Severity",
             "description": "error severity",
-            "$id": "/definitions/severity",
+            "$id": "#severity",
             "type": "string",
             "enum": [
                 "error",
@@ -42,13 +42,13 @@
         "source": {
             "title": "Source",
             "description": "source code of JSON-LD",
-            "$id": "/definitions/source",
+            "$id": "#source",
             "type": "string"
         },
         "isFromServer": {
             "title": "Is From Server?",
             "description": "is this sent from server?",
-            "$id": "/definitions/isFromServer",
+            "$id": "#isFromServer",
             "type": "boolean",
             "default": true,
             "examples": [

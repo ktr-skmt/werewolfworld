@@ -1,0 +1,19 @@
+{
+  "type": "createRobotPlayer",
+  "name": "HiroNakamura",
+  "automationType": "fully automated",
+  "support": {
+    "4": {"A": false, "B": true, "C": true},
+    "5": {"A": true, "B": false, "C": true},
+    "6": {"A": true, "B": true, "C": false},
+    "7": {"A": false, "B": false, "C": true},
+    "8": {"A": true, "B": false, "C": false},
+    "9": {"A": false, "B": true, "C": false},
+    "10": {"A": false, "B": false, "C": false},
+    "11": {"A": true, "B": true, "C": true},
+    "12": {"A": true, "B": true, "C": true},
+    "13": {"A": true, "B": true, "C": true},
+    "14": {"A": true, "B": true, "C": true},
+    "15": {"A": true, "B": true, "C": true}
+  }
+}

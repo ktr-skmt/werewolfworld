@@ -32,6 +32,15 @@
 * https://werewolf.world/lobby/example/0.3/client2server/changeLang.json[changeLang.json]
 * https://werewolf.world/lobby/example/0.3/client2server/authorizationRequestAccepted.json[authorizationRequestAccepted.json]
 * https://werewolf.world/lobby/example/0.3/client2server/renewAvatarToken.json[renewAvatarToken.json]
+* https://werewolf.world/lobby/example/0.3/client2server/createHumanPlayer.json[createHumanPlayer.json]
+* https://werewolf.world/lobby/example/0.3/client2server/createOnymousAudience.json[createOnymousAudience.json]
+* https://werewolf.world/lobby/example/0.3/client2server/createRobotPlayer.json[createRobotPlayer.json]
+* https://werewolf.world/lobby/example/0.3/client2server/deleteAvatar.json[deleteAvatar.json]
+* https://werewolf.world/lobby/example/0.3/client2server/runRobotPlayerInTheBackground.json[runRobotPlayerInTheBackground.json]
+* https://werewolf.world/lobby/example/0.3/client2server/runRobotPlayerInTheForeground.json[runRobotPlayerInTheForeground.json]
+* https://werewolf.world/lobby/example/0.3/client2server/selectHumanPlayer.json[selectHumanPlayer.json]
+* https://werewolf.world/lobby/example/0.3/client2server/selectOnymousAudience.json[selectOnymousAudience.json]
+* https://werewolf.world/lobby/example/0.3/client2server/stopRobotPlayer.json[stopRobotPlayer.json]
 
 ==== Server to client
 

@@ -6,7 +6,7 @@
         "@context": {
             "title": "Avatar @context",
             "description": "avatar @context",
-            "$id": "/definitions/@context",
+            "$id": "#@context",
             "type": "string",
             "pattern": "^https://werewolf.world/village/context/0.3/avatar.jsonld$",
             "default": "https://werewolf.world/village/context/0.3/avatar.jsonld",
@@ -17,7 +17,7 @@
         "@id": {
             "title": "Avatar @id",
             "description": "avatar @id",
-            "$id": "/definitions/@id",
+            "$id": "#@id",
             "type": "string",
             "pattern": "^https://licos.online/state/0.3/village[#0-9A-Za-z]+$",
             "examples": [
@@ -27,7 +27,7 @@
         "token": {
             "title": "Avatar Token",
             "description": "avatar Token (GUID)",
-            "$id": "/definitions/token",
+            "$id": "#token",
             "type": "string",
             "pattern": "^[0-9A-Fa-f]{8}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{12}$",
             "examples": [
@@ -37,7 +37,7 @@
         "name": {
             "title": "Avatar Name",
             "description": "avatar name",
-            "$id": "/definitions/name",
+            "$id": "#name",
             "type": "string",
             "minLength": 5,
             "maxLength": 15
@@ -45,7 +45,7 @@
         "image": {
             "title": "Avatar Image",
             "description": "avatar image",
-            "$id": "/definitions/image",
+            "$id": "#image",
             "type": "string",
             "pattern": "^https://werewolf.world/image/0.3/[A-Za-z]+.jpg$"
         }

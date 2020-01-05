@@ -269,7 +269,7 @@
                     "isHumanPlayer": {
                         "title": "Is human player?",
                         "description": "is human player?",
-                        "$id": "/properties/extensionalDisclosureRange/items/properties/isHumanPlayer",
+                        "$id": "/definitions/extensionalDisclosureRange/items/properties/isHumanPlayer",
                         "type": "boolean",
                         "default": true,
                         "examples": [
@@ -293,7 +293,7 @@
         "avatar": {
             "title": "Avatar",
             "description": "avatar",
-            "$id": "/properties/avatar",
+            "$id": "/definitions/avatar",
             "type": "object",
             "properties": {
                 "@context": {
@@ -323,7 +323,7 @@
         "myAgent": {
             "title": "My Agent",
             "description": "my agent",
-            "$id": "/properties/myAgent",
+            "$id": "/definitions/myAgent",
             "type": "object",
             "properties": {
                 "@context": {
@@ -344,7 +344,7 @@
                 "role": {
                     "title": "My Agent Role",
                     "description": "my agent role",
-                    "$id": "/properties/myAgent/role",
+                    "$id": "/definitions/myAgent/role",
                     "type": "object",
                     "properties": {
                         "@context": {
