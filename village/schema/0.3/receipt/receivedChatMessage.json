@@ -20,7 +20,7 @@
             "$ref": "https://werewolf.world/village/schema/0.3/avatar.json#token"
         },
         "villageId": {
-            "$ref": "https://werewolf.world/village/schema/0.3/village.json#villageId"
+            "$ref": "https://werewolf.world/village/schema/0.3/village.json#id"
         },
         "serverTimestamp": {
             "$ref": "https://werewolf.world/village/schema/0.3/base.json#serverTimestamp"
