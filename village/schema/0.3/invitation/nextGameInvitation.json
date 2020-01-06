@@ -17,7 +17,7 @@
             ]
         },
         "villageId": {
-            "$ref": "https://werewolf.world/village/schema/0.3/village.json#villageId"
+            "$ref": "https://werewolf.world/village/schema/0.3/village.json#id"
         }
     },
     "required": [
