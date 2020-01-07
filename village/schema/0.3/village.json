@@ -60,13 +60,16 @@
             "$id": "#language",
             "type": "string",
             "minLength": 2,
-            "maxLength": 2,
+            "maxLength": 5,
+            "pattern": "^[a-z]{2}(-[A-Z]{2})?$",
             "default": "en",
             "examples": [
                 "en",
                 "ja",
                 "fr",
-                "it"
+                "it",
+                "zh-TW",
+                "zh-CN"
             ]
         }
     }
