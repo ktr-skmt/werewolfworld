@@ -1,0 +1,56 @@
+{
+  "title": "werewolf.world: Schema of onymousAudienceSelectionPage.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://werewolf.world/lobby/schema/0.3/server2client/onymousAudienceSelectionPage.json",
+  "definitions": {},
+  "type": "object",
+  "properties": {
+    "type": {
+      "title": "Type",
+      "description": "type",
+      "$id": "/properties/type",
+      "type": "string",
+      "pattern": "^onymousAudienceSelectionPage$",
+      "default": "onymousAudienceSelectionPage",
+      "examples": [
+        "onymousAudienceSelectionPage"
+      ]
+    },
+    "avatar": {
+      "title": "Avatar Array",
+      "description": "avatar array",
+      "$id": "/properties/avatar",
+      "type": "array",
+      "items": {
+        "title": "Avatar",
+        "description": "avatar",
+        "$id": "/properties/avatar/items",
+        "type": "object",
+        "properties": {
+          "name": {
+            "$ref": "https://werewolf.world/village/schema/0.3/avatar.json#name"
+          },
+          "token": {
+            "$ref": "https://werewolf.world/village/schema/0.3/avatar.json#token"
+          },
+          "image": {
+            "$ref": "https://werewolf.world/village/schema/0.3/avatar.json#image"
+          },
+          "lang": {
+            "$ref": "https://werewolf.world/village/schema/0.3/village.json#language"
+          }
+        },
+        "required": [
+          "name",
+          "token",
+          "image",
+          "lang"
+        ]
+      }
+    }
+  },
+  "required": [
+    "type",
+    "avatar"
+  ]
+}
