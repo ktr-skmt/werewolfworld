@@ -95,26 +95,26 @@
             "description": "role image",
             "$id": "#image",
             "type": "string",
-            "default": "https://werewolf.world/image/0.3/villager.jpg",
+            "default": "https://werewolf.world/image/0.3/role_icons/50x50/villager_50x50.png",
             "enum": [
-                "https://werewolf.world/image/0.3/hunter.jpg",
-                "https://werewolf.world/image/0.3/madman.jpg",
-                "https://werewolf.world/image/0.3/mason.jpg",
-                "https://werewolf.world/image/0.3/medium.jpg",
-                "https://werewolf.world/image/0.3/seer.jpg",
-                "https://werewolf.world/image/0.3/villager.jpg",
-                "https://werewolf.world/image/0.3/werehamster.jpg",
-                "https://werewolf.world/image/0.3/werewolf.jpg"
+                "https://werewolf.world/image/0.3/role_icons/50x50/hunter_50x50.png",
+                "https://werewolf.world/image/0.3/role_icons/50x50/madman_50x50.png",
+                "https://werewolf.world/image/0.3/role_icons/50x50/mason_50x50.png",
+                "https://werewolf.world/image/0.3/role_icons/50x50/medium_50x50.png",
+                "https://werewolf.world/image/0.3/role_icons/50x50/seer_50x50.png",
+                "https://werewolf.world/image/0.3/role_icons/50x50/villager_50x50.png",
+                "https://werewolf.world/image/0.3/role_icons/50x50/werehamster_50x50.png",
+                "https://werewolf.world/image/0.3/role_icons/50x50/werewolf_50x50.png"
             ],
             "examples": [
-                "https://werewolf.world/image/0.3/hunter.jpg",
-                "https://werewolf.world/image/0.3/madman.jpg",
-                "https://werewolf.world/image/0.3/mason.jpg",
-                "https://werewolf.world/image/0.3/medium.jpg",
-                "https://werewolf.world/image/0.3/seer.jpg",
-                "https://werewolf.world/image/0.3/villager.jpg",
-                "https://werewolf.world/image/0.3/werehamster.jpg",
-                "https://werewolf.world/image/0.3/werewolf.jpg"
+                "https://werewolf.world/image/0.3/role_icons/50x50/hunter_50x50.png",
+                "https://werewolf.world/image/0.3/role_icons/50x50/madman_50x50.png",
+                "https://werewolf.world/image/0.3/role_icons/50x50/mason_50x50.png",
+                "https://werewolf.world/image/0.3/role_icons/50x50/medium_50x50.png",
+                "https://werewolf.world/image/0.3/role_icons/50x50/seer_50x50.png",
+                "https://werewolf.world/image/0.3/role_icons/50x50/villager_50x50.png",
+                "https://werewolf.world/image/0.3/role_icons/50x50/werehamster_50x50.png",
+                "https://werewolf.world/image/0.3/role_icons/50x50/werewolf_50x50.png"
             ]
         },
         "isMine": {
