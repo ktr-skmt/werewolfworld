@@ -1,0 +1,110 @@
+{
+  "title": "werewolf.world: Schema of robotPlayerSelectionPage.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://werewolf.world/lobby/schema/0.3/server2client/robotPlayerSelectionPage.json",
+  "definitions": {},
+  "type": "object",
+  "properties": {
+    "type": {
+      "title": "Type",
+      "description": "type",
+      "$id": "/properties/type",
+      "type": "string",
+      "pattern": "^robotPlayerSelectionPage$",
+      "default": "robotPlayerSelectionPage",
+      "examples": [
+        "robotPlayerSelectionPage"
+      ]
+    },
+    "avatar": {
+      "title": "Avatar Array",
+      "description": "avatar array",
+      "$id": "/properties/avatar",
+      "type": "array",
+      "items": {
+        "title": "Avatar",
+        "description": "avatar",
+        "$id": "/properties/avatar/items",
+        "type": "object",
+        "properties": {
+          "name": {
+            "$ref": "https://werewolf.world/village/schema/0.3/avatar.json#name"
+          },
+          "token": {
+            "$ref": "https://werewolf.world/village/schema/0.3/avatar.json#token"
+          },
+          "image": {
+            "$ref": "https://werewolf.world/village/schema/0.3/avatar.json#image"
+          },
+          "lang": {
+            "$ref": "https://werewolf.world/village/schema/0.3/village.json#language"
+          },
+          "status": {
+            "title": "Robot Player Status",
+            "description": "robot player status",
+            "$id": "/properties/avatar/items/properties/status",
+            "type": "string",
+            "enum": [
+              "awaiting communication test",
+              "awaiting authorization",
+              "connected",
+              "running in the background",
+              "running in the foreground"
+            ],
+            "default": "awaiting communication test",
+            "examples": [
+              "awaiting communication test",
+              "awaiting authorization",
+              "connected",
+              "running in the background",
+              "running in the foreground"
+            ]
+          },
+          "isAuthorized": {
+            "title": "Is Authorized?",
+            "description: "is authorized",
+            "$id": "/properties/avatar/items/properties/isAuthorized",
+            "type": "boolean",
+            "default": false,
+            "examples": [
+              true,
+              false
+            ]
+          },
+          "isTestPassed": {
+            "title": "Is Test Passed?",
+            "description: "is test passed",
+            "$id": "/properties/avatar/items/properties/isTestPassed",
+            "type": "boolean",
+            "default": false,
+            "examples": [
+              true,
+              false
+            ]
+          },
+          "isFullyAutomated": {
+            "title": "Is Fully Automated?",
+            "description: "is fully automated",
+            "$id": "/properties/avatar/items/properties/isFullyAutomated",
+            "type": "boolean",
+            "default": true,
+            "examples": [
+              true,
+              false
+            ]
+          }
+        },
+        "required": [
+          "name",
+          "token",
+          "image",
+          "lang"
+        ]
+      }
+    }
+  },
+  "required": [
+    "type",
+    "avatar"
+  ]
+}
