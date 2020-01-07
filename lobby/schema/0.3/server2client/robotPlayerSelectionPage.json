@@ -62,7 +62,7 @@
           },
           "isAuthorized": {
             "title": "Is Authorized?",
-            "description: "is authorized",
+            "description": "is authorized",
             "$id": "/properties/avatar/items/properties/isAuthorized",
             "type": "boolean",
             "default": false,
@@ -73,7 +73,7 @@
           },
           "isTestPassed": {
             "title": "Is Test Passed?",
-            "description: "is test passed",
+            "description": "is test passed",
             "$id": "/properties/avatar/items/properties/isTestPassed",
             "type": "boolean",
             "default": false,
@@ -84,7 +84,7 @@
           },
           "isFullyAutomated": {
             "title": "Is Fully Automated?",
-            "description: "is fully automated",
+            "description": "is fully automated",
             "$id": "/properties/avatar/items/properties/isFullyAutomated",
             "type": "boolean",
             "default": true,
