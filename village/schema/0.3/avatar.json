@@ -47,7 +47,7 @@
             "description": "avatar image",
             "$id": "#image",
             "type": "string",
-            "pattern": "^https://werewolf.world/image/0.3/[A-Za-z]+.jpg$"
+            "pattern": "^https://werewolf.world/image/0.3/character_icons/50x50/[a-z]_50x50.png$"
         }
     }
 }
