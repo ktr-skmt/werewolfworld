@@ -1,0 +1,61 @@
+{
+  "title": "werewolf.world: Schema of updateAvatar.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://werewolf.world/lobby/schema/0.3/client2server/updateAvatar.json",
+  "definitions": {},
+  "type": "object",
+  "properties": {
+    "type": {
+      "title": "Type",
+      "description": "type",
+      "$id": "/properties/type",
+      "type": "string",
+      "pattern": "^updateAvatar$",
+      "default": "updateAvatar",
+      "examples": [
+        "updateAvatar"
+      ]
+    },
+    "token": {
+      "$ref": "https://werewolf.world/village/schema/0.3/avatar.json#token"
+    },
+    "name": {
+      "title": "Nullable Avatar Name",
+      "description": "avatar name",
+      "$id": "/properties/name",
+      "type": ["string", "null"],
+      "minLength": 5,
+      "maxLength": 15
+    },
+    "image": {
+      "title": "Nullable Avatar Image",
+      "description": "nullable avatar image",
+      "$id": "/properties/image",
+      "type": ["string", "null"],
+      "pattern": "^https://werewolf.world/image/0.3/character_icons/50x50/[a-z]_50x50.png$"
+    },
+    "lang": {
+      "title": "Nullable Language",
+      "description": "language code; ISO 639-1:2002, Codes for the representation of names of languages — Part 1: Alpha-2 code",
+      "$id": "#language",
+      "type": ["string", "null"],
+      "minLength": 2,
+      "maxLength": 2,
+      "default": "en",
+      "examples": [
+        "en",
+        "ja",
+        "fr",
+        "it",
+        "zh-TW"
+      ]
+    }
+  },
+  "required": [
+    "type",
+    "token",
+    "name",
+    "image",
+    "lang"
+  ]
+}
