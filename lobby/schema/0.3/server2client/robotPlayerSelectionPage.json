@@ -98,7 +98,11 @@
           "name",
           "token",
           "image",
-          "lang"
+          "lang",
+          "status",
+          "isAuthorized",
+          "isTestPassed",
+          "isFullyAutomated"
         ]
       }
     }
