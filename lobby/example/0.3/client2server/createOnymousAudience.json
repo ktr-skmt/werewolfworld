@@ -1,4 +1,6 @@
 {
   "type": "createOnymousAudience",
-  "name": "HiroNakamura"
+  "name": "HiroNakamura",
+  "image": "https://werewolf.world/image/0.3/character_icons/50x50/c_50x50.png",
+  "lang": "zh-TW"
 }
