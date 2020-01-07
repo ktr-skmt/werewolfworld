@@ -19,7 +19,7 @@
             "description": "star @id",
             "$id": "#@id",
             "type": "string",
-            "pattern": "^https://licos.online/state/0.3/village[#0-9A-Za-z]+/star$",
+            "pattern": "^https://licos.online/state/0.3/village#[1-9][0-9]*/star$",
             "examples": [
                 "https://licos.online/state/0.3/village#3/star"
             ]

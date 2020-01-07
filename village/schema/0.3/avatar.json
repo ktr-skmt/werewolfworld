@@ -19,9 +19,10 @@
             "description": "avatar @id",
             "$id": "#@id",
             "type": "string",
-            "pattern": "^https://licos.online/state/0.3/village[#0-9A-Za-z]+$",
+            "pattern": "^https://licos.online/state/0.3/village#[1-9][0-9]*/(character#([1-9]|1[0-5])/)?avatar$",
             "examples": [
-                "https://licos.online/state/0.3/village#3/avatar"
+                "https://licos.online/state/0.3/village#3/avatar",
+                "https://licos.online/state/0.3/village#3/character#1/avatar"
             ]
         },
         "token": {
@@ -39,6 +40,7 @@
             "description": "avatar name",
             "$id": "#name",
             "type": "string",
+            "pattern": "[A-Za-z]([\u0021-\u007E]|\u0020[\u0021-\u007E]){4,14}",
             "minLength": 5,
             "maxLength": 15
         },
@@ -47,7 +49,7 @@
             "description": "avatar image",
             "$id": "#image",
             "type": "string",
-            "pattern": "^https://werewolf.world/image/0.3/character_icons/50x50/[a-z]_50x50.png$"
+            "pattern": "^https://werewolf.world/image/0.3/character_icons/50x50/([a-z]|anonymous)_50x50.png$"
         }
     }
 }

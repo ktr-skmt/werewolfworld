@@ -19,10 +19,16 @@
             "description": "character @id",
             "$id": "#@id",
             "type": "string",
-            "pattern": "^https://licos.online/state/0.3/village[#0-9A-Za-z]+$",
+            "pattern": "^https://licos.online/state/0.3/village#[1-9][0-9]*/(myCharacter|character|((role#(hunter|madman|mason|master|medium|seer|villager|werehamster|werewolf)(/board#([1-9]|1[0-5]))?|extensionalDisclosureRange|votingResultsSummary#([1-9]|1[0-5])|votingResultsDetails#([1-9]|1[0-5])-([1-9]|1[0-5]))/)?character#([1-9]|1[0-5])$",
             "examples": [
+                "https://licos.online/state/0.3/village#3/character",
                 "https://licos.online/state/0.3/village#3/character#1",
-                "https://licos.online/state/0.3/village#3/myCharacter"
+                "https://licos.online/state/0.3/village#3/myCharacter",
+                "https://licos.online/state/0.3/village#3/role#villager/character#1",
+                "https://licos.online/state/0.3/village#3/role#villager/board#1/character#1",
+                "https://licos.online/state/0.3/village#3/votingResultsSummary#1/character#1",
+                "https://licos.online/state/0.3/village#3/votingResultsDetails#1-2/character#2",
+                "https://licos.online/state/0.3/village#3/extensionalDisclosureRange/character#2"
             ]
         },
         "isMine": {
@@ -236,13 +242,13 @@
             "type": "object",
             "properties": {
                 "@id": {
-                    "$ref": "https://werewolf.world/village/schema/0.3/time.json"
+                    "$ref": "https://werewolf.world/village/schema/0.3/time.json#@id"
                 },
                 "phase": {
-                    "$ref": "https://werewolf.world/village/schema/0.3/time.json"
+                    "$ref": "https://werewolf.world/village/schema/0.3/time.json#phase"
                 },
                 "day": {
-                    "$ref": "https://werewolf.world/village/schema/0.3/time.json"
+                    "$ref": "https://werewolf.world/village/schema/0.3/time.json#day"
                 }
             },
             "required": [

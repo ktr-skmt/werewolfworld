@@ -19,7 +19,7 @@
             "description": "@id",
             "$id": "#@id",
             "type": "string",
-            "pattern": "^https://licos.online/state/0.3/village#[0-9]+/chatSettings$",
+            "pattern": "^https://licos.online/state/0.3/village#[1-9][0-9]*/chatSettings$",
             "examples": [
                 "https://licos.online/state/0.3/village#3/chatSettings"
             ]
