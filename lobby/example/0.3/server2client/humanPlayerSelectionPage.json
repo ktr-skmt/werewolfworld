@@ -1,0 +1,17 @@
+{
+  "type": "humanPlayerSelectionPage",
+  "avatar": [
+    {
+      "name": "Avatar1",
+      "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3301",
+      "image": "https://werewolf.world/image/0.3/character_icons/50x50/c_50x50.png",
+      "lang": "en"
+    },
+    {
+      "name": "Avatar2",
+      "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3302",
+      "image": "https://werewolf.world/image/0.3/character_icons/50x50/c_50x50.png",
+      "lang": "en"
+    }
+  ]
+}
