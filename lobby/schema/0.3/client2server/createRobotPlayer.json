@@ -41,19 +41,21 @@
     "name": {
       "$ref": "https://werewolf.world/village/schema/0.3/avatar.json#name"
     },
-    "automationType": {
-      "title": "Automation Type",
-      "description": "automation type",
-      "$id": "/properties/automationType",
-      "type": "string",
-      "enum": [
-        "fully automated",
-        "semi-automated"
-      ],
-      "default": "fully automated",
+    "image": {
+      "$ref": "https://werewolf.world/village/schema/0.3/avatar.json#image"
+    },
+    "lang": {
+      "$ref": "https://werewolf.world/village/schema/0.3/village.json#language"
+    },
+    "isFullyAutomated": {
+      "title": "Is Fully Automated?",
+      "description": "is fully automated",
+      "$id": "/properties/isFullyAutomated",
+      "type": "boolean",
+      "default": true,
       "examples": [
-        "fully automated",
-        "semi-automated"
+        true,
+        false
       ]
     },
     "support": {
