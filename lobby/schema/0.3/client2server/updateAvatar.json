@@ -40,14 +40,15 @@
       "$id": "#language",
       "type": ["string", "null"],
       "minLength": 2,
-      "maxLength": 2,
+      "maxLength": 5,
       "default": "en",
       "examples": [
         "en",
         "ja",
         "fr",
         "it",
-        "zh-TW"
+        "zh-TW",
+        "zh-CN"
       ]
     }
   },
