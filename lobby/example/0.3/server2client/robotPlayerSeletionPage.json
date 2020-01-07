@@ -1,0 +1,55 @@
+{
+  "type": "robotPlayerSelectionPage",
+  "avatar": [
+    {
+      "name": "Avatar1",
+      "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3301",
+      "image": "https://werewolf.world/image/0.3/character_icons/50x50/c_50x50.png",
+      "lang": "en",
+      "status": "awaiting authorization",
+      "isAuthorized": false,
+      "isTestPassed": false,
+      "isFullyAutomated": true
+    },
+    {
+      "name": "Avatar2",
+      "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3302",
+      "image": "https://werewolf.world/image/0.3/character_icons/50x50/c_50x50.png",
+      "lang": "en",
+      "status": "awaiting communication test",
+      "isAuthorized": true,
+      "isTestPassed": true,
+      "isFullyAutomated": false
+    },
+    {
+      "name": "Avatar3",
+      "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3302",
+      "image": "https://werewolf.world/image/0.3/character_icons/50x50/c_50x50.png",
+      "lang": "en",
+      "status": "connected",
+      "isAuthorized": false,
+      "isTestPassed": true,
+      "isFullyAutomated": false
+    },
+    {
+      "name": "Avatar4",
+      "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3302",
+      "image": "https://werewolf.world/image/0.3/character_icons/50x50/c_50x50.png",
+      "lang": "en",
+      "status": "running in the background",
+      "isAuthorized": false,
+      "isTestPassed": true,
+      "isFullyAutomated": false
+    },
+    {
+      "name": "Avatar5",
+      "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3302",
+      "image": "https://werewolf.world/image/0.3/character_icons/50x50/c_50x50.png",
+      "lang": "en",
+      "status": "running in the foreground",
+      "isAuthorized": false,
+      "isTestPassed": true,
+      "isFullyAutomated": false
+    }
+  ]
+}
