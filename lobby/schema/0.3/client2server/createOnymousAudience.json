@@ -18,10 +18,18 @@
     },
     "token": {
       "$ref": "https://werewolf.world/village/schema/0.3/avatar.json#name"
+    },
+    "image": {
+      "$ref": "https://werewolf.world/village/schema/0.3/avatar.json#image"
+    },
+    "lang": {
+      "$ref": "https://werewolf.world/village/schema/0.3/village.json#language"
     }
   },
   "required": [
     "type",
-    "name"
+    "name",
+    "image",
+    "lang"
   ]
 }
