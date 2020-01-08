@@ -195,10 +195,7 @@
             "description": "character image",
             "$id": "#image",
             "type": "string",
-            "pattern": "^https://werewolf.world/image/0.3/[A-Za-z]+.jpg$",
-            "examples": [
-                "https://werewolf.world/image/0.3/Adil.jpg"
-            ]
+            "pattern": "^https://werewolf.world/image/0.3/character_icons/50x50/([a-z]|anonymous)_50x50.png$"
         },
         "id": {
             "title": "Character ID",
