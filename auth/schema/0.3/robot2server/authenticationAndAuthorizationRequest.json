@@ -41,14 +41,7 @@
             "minLength": 5
         },
         "accessToken": {
-            "title": "Access Token",
-            "description": "GUID",
-            "$id": "/properties/accessToken",
-            "type": "string",
-            "pattern": "^[0-9A-Fa-f]{8}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{12}$",
-            "examples": [
-              "3F2504E0-4F89-11D3-9A0C-0305E82C3301"
-            ]
+            "$ref": "https://werewolf.world/village/schema/0.3/avatar.json#token"
         },
         "sourceCode": {
             "title": "Source Code",
@@ -57,14 +50,7 @@
             "type": "object",
             "properties": {
                 "timestamp": {
-                    "title": "Timestamp",
-                    "description": "timestamp",
-                    "$id": "/properties/sourceCode/properties/timestamp",
-                    "type": "string",
-                    "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}.[0-9]{3}(\\+[0-9]{2}:[0-9]{2}|Z)$",
-                    "examples": [
-                        "2006-10-07T12:06:56.568+09:00"
-                    ]
+                    "$ref": "https://werewolf.world/village/schema/0.3/timestamp.json#timestamp"
                 },
                 "programmingLanguage": {
                     "title": "Programming Language List",

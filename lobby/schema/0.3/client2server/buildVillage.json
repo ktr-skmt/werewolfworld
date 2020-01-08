@@ -273,7 +273,7 @@
       ]
     },
     "avatar": {
-      "title": "Avatar Selection",
+      "title": "Avatar Setting",
       "description": "'fixed' or 'random'",
       "$id": "/properties/avatar",
       "type": "string",

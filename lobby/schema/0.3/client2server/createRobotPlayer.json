@@ -44,7 +44,7 @@
     "image": {
       "$ref": "https://werewolf.world/village/schema/0.3/avatar.json#image"
     },
-    "lang": {
+    "language": {
       "$ref": "https://werewolf.world/village/schema/0.3/village.json#language"
     },
     "isFullyAutomated": {
@@ -348,7 +348,7 @@
   "required": [
     "type",
     "name",
-    "automationType",
+    "isFullyAutomated",
     "support"
   ]
 }

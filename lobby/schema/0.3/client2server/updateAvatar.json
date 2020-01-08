@@ -34,10 +34,10 @@
       "type": ["string", "null"],
       "pattern": "^https://werewolf.world/image/0.3/character_icons/50x50/[a-z]_50x50.png$"
     },
-    "lang": {
+    "language": {
       "title": "Nullable Language",
       "description": "language code; ISO 639-1:2002, Codes for the representation of names of languages — Part 1: Alpha-2 code",
-      "$id": "/properties/lang",
+      "$id": "/properties/language",
       "type": ["string", "null"],
       "minLength": 2,
       "maxLength": 5,
@@ -58,6 +58,6 @@
     "token",
     "name",
     "image",
-    "lang"
+    "language"
   ]
 }

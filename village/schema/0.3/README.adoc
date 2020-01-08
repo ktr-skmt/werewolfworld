@@ -37,6 +37,7 @@
 * https://werewolf.world/village/schema/0.3/scroll.json[scroll.json]
 * https://werewolf.world/village/schema/0.3/star.json[star.json]
 * https://werewolf.world/village/schema/0.3/time.json[time.json]
+* https://werewolf.world/village/schema/0.3/timestamp.json[timestamp.json]
 * https://werewolf.world/village/schema/0.3/village.json[village.json]
 * https://werewolf.world/village/schema/0.3/votingResult.json[votingResult.json]
 

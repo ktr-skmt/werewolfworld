@@ -41,7 +41,7 @@
         "/assets/images/avatar/default/user.png"
       ]
     },
-    "lang": {
+    "language": {
       "$ref": "https://werewolf.world/village/schema/0.3/village.json#language"
     }
   },
@@ -50,6 +50,6 @@
     "token",
     "name",
     "image",
-    "lang"
+    "language"
   ]
 }

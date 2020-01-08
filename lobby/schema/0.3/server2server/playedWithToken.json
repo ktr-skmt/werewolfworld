@@ -25,13 +25,13 @@
             "played"
           ]
         },
-        "lang": {
+        "language": {
           "$ref": "https://werewolf.world/village/schema/0.3/village.json#language"
         }
       },
       "required": [
         "type",
-        "lang"
+        "language"
       ]
     }
   },

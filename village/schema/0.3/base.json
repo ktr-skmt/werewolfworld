@@ -139,34 +139,13 @@
             ]
         },
         "phaseStartTime": {
-            "title": "Phase Start Time",
-            "description": "phase start time",
-            "$id": "#phaseStartTime",
-            "type": "string",
-            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}.[0-9]{3}(\\+[0-9]{2}:[0-9]{2}|Z)$",
-            "examples": [
-                "2006-10-07T12:06:56.568+09:00"
-            ]
+            "$ref": "https://werewolf.world/village/schema/0.3/timestamp.json#timestamp"
         },
         "serverTimestamp": {
-            "title": "Server Timestamp",
-            "description": "server timestamp",
-            "$id": "#serverTimestamp",
-            "type": "string",
-            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}.[0-9]{3}(\\+[0-9]{2}:[0-9]{2}|Z)$",
-            "examples": [
-                "2006-10-07T12:06:56.568+09:00"
-            ]
+            "$ref": "https://werewolf.world/village/schema/0.3/timestamp.json#timestamp"
         },
         "clientTimestamp": {
-            "title": "Client Timestamp",
-            "description": "client timestamp",
-            "$id": "#clientTimestamp",
-            "type": "string",
-            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}.[0-9]{3}(\\+[0-9]{2}:[0-9]{2}|Z)$",
-            "examples": [
-                "2006-10-07T12:06:56.568+09:00"
-            ]
+            "$ref": "https://werewolf.world/village/schema/0.3/timestamp.json#timestamp"
         },
         "directionality": {
             "title": "Directionality",

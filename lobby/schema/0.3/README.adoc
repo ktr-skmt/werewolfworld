@@ -30,10 +30,9 @@
 * https://werewolf.world/lobby/schema/0.3/client2server/createRobotPlayer.json[createRobotPlayer.json]
 * https://werewolf.world/lobby/schema/0.3/client2server/deleteAvatar.json[deleteAvatar.json]
 * https://werewolf.world/lobby/schema/0.3/client2server/runRobotPlayerInTheBackground.json[runRobotPlayerInTheBackground.json]
-* https://werewolf.world/lobby/schema/0.3/client2server/runRobotPlayerInTheForeground.json[runRobotPlayerInTheForeground.json]
-* https://werewolf.world/lobby/schema/0.3/client2server/selectHumanPlayer.json[selectHumanPlayer.json]
-* https://werewolf.world/lobby/schema/0.3/client2server/selectOnymousAudience.json[selectOnymousAudience.json]
 * https://werewolf.world/lobby/schema/0.3/client2server/stopRobotPlayer.json[stopRobotPlayer.json]
+* https://werewolf.world/lobby/schema/0.3/client2server/updateAvatar.json[updateAvatar.json]
+* https://werewolf.world/lobby/schema/0.3/client2server/enterAvatarSelectionPage.json[enterAvatarSelectionPage.json]
 
 === Server to client
 

@@ -2,8 +2,8 @@
   "type": "createRobotPlayer",
   "name": "HiroNakamura",
   "image": "https://werewolf.world/image/0.3/character_icons/50x50/c_50x50.png",
-  "lang": "ja",
-  "automationType": "fully automated",
+  "language": "ja",
+  "isFullyAutomated": true,
   "support": {
     "4": {"A": false, "B": true, "C": true},
     "5": {"A": true, "B": false, "C": true},

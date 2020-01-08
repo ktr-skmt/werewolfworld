@@ -22,7 +22,7 @@
     "image": {
       "$ref": "https://werewolf.world/village/schema/0.3/avatar.json#image"
     },
-    "lang": {
+    "language": {
       "$ref": "https://werewolf.world/village/schema/0.3/village.json#language"
     }
   },
@@ -30,6 +30,6 @@
     "type",
     "name",
     "image",
-    "lang"
+    "language"
   ]
 }
