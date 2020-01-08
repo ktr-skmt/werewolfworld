@@ -526,7 +526,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p><a href="https://werewolf.world/lobby/example/0.3/client2server/changeUserPassword.json">changeUserPassword.json</a></p>
 </li>
 <li>
-<p><a href="https://werewolf.world/lobby/example/0.3/client2server/changeLang.json">changeLang.json</a></p>
+<p><a href="https://werewolf.world/lobby/example/0.3/client2server/changeLanguage.json">changeLanguage.json</a></p>
 </li>
 <li>
 <p><a href="https://werewolf.world/lobby/example/0.3/client2server/authorizationRequestAccepted.json">authorizationRequestAccepted.json</a></p>
@@ -550,16 +550,26 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p><a href="https://werewolf.world/lobby/example/0.3/client2server/runRobotPlayerInTheBackground.json">runRobotPlayerInTheBackground.json</a></p>
 </li>
 <li>
-<p><a href="https://werewolf.world/lobby/example/0.3/client2server/runRobotPlayerInTheForeground.json">runRobotPlayerInTheForeground.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/example/0.3/client2server/selectHumanPlayer.json">selectHumanPlayer.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/example/0.3/client2server/selectOnymousAudience.json">selectOnymousAudience.json</a></p>
-</li>
-<li>
 <p><a href="https://werewolf.world/lobby/example/0.3/client2server/stopRobotPlayer.json">stopRobotPlayer.json</a></p>
+</li>
+<li>
+<p>updateAvatar.json</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://werewolf.world/lobby/example/0.3/client2server/updateAvatarName.json">updateAvatarName.json</a></p>
+</li>
+<li>
+<p><a href="https://werewolf.world/lobby/example/0.3/client2server/updateAvatarImage.json">updateAvatarImage.json</a></p>
+</li>
+<li>
+<p><a href="https://werewolf.world/lobby/example/0.3/client2server/updateAvatarLanguage.json">updateAvatarLanguage.json</a></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><a href="https://werewolf.world/lobby/example/0.3/client2server/enterAvatarSelectionPage.json">enterAvatarSelectionPage.json</a></p>
 </li>
 </ul>
 </div>
@@ -623,10 +633,16 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>main page (From AuthController)</p>
+<p>main page (From LandingPageController)</p>
 </li>
 <li>
-<p>(client to server) select a village list; <a href="https://werewolf.world/lobby/example/0.3/client2server/enterLobbyForHumanPlayer.json">enterLobbyForHumanPlayer.json</a></p>
+<p>(client to server) select an avatar type; <a href="https://werewolf.world/lobby/example/0.3/client2server/enterAvatarSelectionPage.json">enterAvatarSelectionPage.json</a></p>
+</li>
+<li>
+<p>(server to client) got to a page of an avatar list; <a href="https://werewolf.world/lobby/example/0.3/server2client/humanPlayerSelectionPage.json">humanPlayerSelectionPage.json</a></p>
+</li>
+<li>
+<p>(client to server) select an avatar; <a href="https://werewolf.world/lobby/example/0.3/client2server/enterLobbyForHumanPlayer.json">enterLobbyForHumanPlayer.json</a></p>
 </li>
 <li>
 <p>(server to client) go to a page of a village list; <a href="https://werewolf.world/lobby/example/0.3/server2client/lobbyForHumanPlayer.json">lobbyForHumanPlayer.json</a></p>
@@ -675,10 +691,16 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>main page (From AuthController)</p>
+<p>main page (From LandingPageController)</p>
 </li>
 <li>
-<p>(client to server) select a village list; <a href="https://werewolf.world/lobby/example/0.3/client2server/enterLobbyForHumanPlayer.json">enterLobbyForHumanPlayer.json</a></p>
+<p>(client to server) select an avatar; <a href="https://werewolf.world/lobby/example/0.3/client2server/enterAvatarSelectionPage.json">enterLobbyForHumanPlayer.json</a></p>
+</li>
+<li>
+<p>(server to client) got to a page of an avatar list; <a href="https://werewolf.world/lobby/example/0.3/server2client/humanPlayerSelectionPage.json">humanPlayerSelectionPage.json</a></p>
+</li>
+<li>
+<p>(client to server) select an avatar; <a href="https://werewolf.world/lobby/example/0.3/client2server/enterLobbyForHumanPlayer.json">enterLobbyForHumanPlayer.json</a></p>
 </li>
 <li>
 <p>(server to client) go to a page of a village list; <a href="https://werewolf.world/lobby/example/0.3/server2client/lobbyForHumanPlayer.json">lobbyForHumanPlayer.json</a></p>
@@ -757,7 +779,7 @@ The kicked out player moves to a lobby with an error message that a host kicked 
 <p>(client to server) change user&#8217;s password; <a href="https://werewolf.world/lobby/example/0.3/client2server/changeUserPassword.json">changeUserPassword.json</a></p>
 </li>
 <li>
-<p>(client to server) change locale; <a href="https://werewolf.world/lobby/example/0.3/client2server/changeLang.json">changeLang.json</a></p>
+<p>(client to server) change locale; <a href="https://werewolf.world/lobby/example/0.3/client2server/changeLanguage.json">changeLanguage.json</a></p>
 </li>
 </ol>
 </div>
@@ -767,6 +789,294 @@ The kicked out player moves to a lobby with an error message that a host kicked 
 </li>
 <li>
 <p>leave settings page (To main page)</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="trueflows-in-a-human-player-selection-page"><a class="anchor" href="#trueflows-in-a-human-player-selection-page"></a>Flows in a human player selection page</h3>
+<div class="sect3">
+<h4 id="truecrud"><a class="anchor" href="#truecrud"></a>CRUD</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>client to server</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p><a href="https://werewolf.world/lobby/example/0.3/server2client/createHumanPlayer.json">createHumanPlayer.json</a></p>
+</li>
+<li>
+<p><a href="https://werewolf.world/lobby/example/0.3/client2server/updateAvatarName.json">updateAvatarName.json</a></p>
+</li>
+<li>
+<p><a href="https://werewolf.world/lobby/example/0.3/client2server/updateAvatarImage.json">updateAvatarImage.json</a></p>
+</li>
+<li>
+<p><a href="https://werewolf.world/lobby/example/0.3/client2server/updateAvatarLanguage.json">updateAvatarLanguage.json</a></p>
+</li>
+<li>
+<p><a href="https://werewolf.world/lobby/example/0.3/server2client/deleteAvatar.json">deleteAvatar.json</a></p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>server to client</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p><a href="https://werewolf.world/lobby/example/0.3/client2server/humanPlayerSelectionPage.json">humanPlayerSelectionPage.json</a></p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="trueselect-a-human-player"><a class="anchor" href="#trueselect-a-human-player"></a>Select a human player</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>client to server</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p><a href="https://werewolf.world/lobby/example/0.3/client2server/enterLobbyForHumanPlayer.json">enterLobbyForHumanPlayer.json</a></p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>server to client</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p><a href="https://werewolf.world/lobby/example/0.3/server2client/lobbyForHumanPlayer.json">lobbyForHumanPlayer.json</a></p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="trueflows-in-an-onymous-audience-selection-page"><a class="anchor" href="#trueflows-in-an-onymous-audience-selection-page"></a>Flows in an onymous audience selection page</h3>
+<div class="sect3">
+<h4 id="truecrud-2"><a class="anchor" href="#truecrud-2"></a>CRUD</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>client to server</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p><a href="https://werewolf.world/lobby/example/0.3/server2client/createOnymousAudience.json">createOnymousAudience.json</a></p>
+</li>
+<li>
+<p><a href="https://werewolf.world/lobby/example/0.3/client2server/updateAvatarName.json">updateAvatarName.json</a></p>
+</li>
+<li>
+<p><a href="https://werewolf.world/lobby/example/0.3/client2server/updateAvatarImage.json">updateAvatarImage.json</a></p>
+</li>
+<li>
+<p><a href="https://werewolf.world/lobby/example/0.3/client2server/updateAvatarLanguage.json">updateAvatarLanguage.json</a></p>
+</li>
+<li>
+<p><a href="https://werewolf.world/lobby/example/0.3/server2client/deleteAvatar.json">deleteAvatar.json</a></p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>server to client</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p><a href="https://werewolf.world/lobby/example/0.3/client2server/onymousAudienceSelectionPage.json">onymousAudienceSelectionPage.json</a></p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="trueselect-an-onymous-audience"><a class="anchor" href="#trueselect-an-onymous-audience"></a>Select an onymous audience</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>client to server</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p><a href="https://werewolf.world/lobby/example/0.3/client2server/enterLobbyForHumanPlayer.json">enterLobbyForHumanPlayer.json</a></p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>server to client</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p><a href="https://werewolf.world/lobby/example/0.3/server2client/lobbyForHumanPlayer.json">lobbyForHumanPlayer.json</a></p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="trueflows-in-a-robot-player-selection-page"><a class="anchor" href="#trueflows-in-a-robot-player-selection-page"></a>Flows in a robot player selection page</h3>
+<div class="sect3">
+<h4 id="truecrud-3"><a class="anchor" href="#truecrud-3"></a>CRUD</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>client to server</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p><a href="https://werewolf.world/lobby/example/0.3/server2client/createRobotPlayer.json">createRobotPlayer.json</a></p>
+</li>
+<li>
+<p><a href="https://werewolf.world/lobby/example/0.3/client2server/updateAvatarName.json">updateAvatarName.json</a></p>
+</li>
+<li>
+<p><a href="https://werewolf.world/lobby/example/0.3/client2server/updateAvatarImage.json">updateAvatarImage.json</a></p>
+</li>
+<li>
+<p><a href="https://werewolf.world/lobby/example/0.3/client2server/updateAvatarLanguage.json">updateAvatarLanguage.json</a></p>
+</li>
+<li>
+<p><a href="https://werewolf.world/lobby/example/0.3/server2client/deleteAvatar.json">deleteAvatar.json</a></p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>server to client</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p><a href="https://werewolf.world/lobby/example/0.3/client2server/robotPlayerSelectionPage.json">robotPlayerSelectionPage.json</a></p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="truerenew-an-avatar-token"><a class="anchor" href="#truerenew-an-avatar-token"></a>Renew an avatar token</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>client to server</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p><a href="https://werewolf.world/lobby/example/0.3/client2server/renewAvatarToken.json">renewAvatarToken.json</a></p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>server to client</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p><a href="https://werewolf.world/lobby/example/0.3/server2client/newAvatarToken.json">newAvatarToken.json</a></p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="truerun-in-the-foreground"><a class="anchor" href="#truerun-in-the-foreground"></a>Run in the foreground</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>client to server</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p><a href="https://werewolf.world/lobby/example/0.3/client2server/enterLobbyForHumanPlayer.json">enterLobbyForHumanPlayer.json</a></p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>server to client</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p><a href="https://werewolf.world/lobby/example/0.3/server2client/lobbyForHumanPlayer.json">lobbyForHumanPlayer.json</a></p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="truerun-in-the-background"><a class="anchor" href="#truerun-in-the-background"></a>Run in the background</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>client to server</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p><a href="https://werewolf.world/lobby/example/0.3/client2server/runRobotPlayerInTheBackground.json">runRobotPlayerInTheBackground.json</a></p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>server to client</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p><a href="https://werewolf.world/lobby/example/0.3/server2client/lobbyForHumanPlayer.json">lobbyForHumanPlayer.json</a></p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="truestop"><a class="anchor" href="#truestop"></a>Stop</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>client to server</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p><a href="https://werewolf.world/lobby/example/0.3/client2server/stopRobotPlayer.json">stopRobotPlayer.json</a></p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>server to client</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p><a href="https://werewolf.world/lobby/example/0.3/server2client/robotPlayerSelectionPage.json">robotPlayerSelectionPage.json</a></p>
+</li>
+</ol>
+</div>
 </li>
 </ol>
 </div>
@@ -801,7 +1111,13 @@ The kicked out player moves to a lobby with an error message that a host kicked 
 <p><a href="https://werewolf.world/lobby/unitTest/0.3/robot.json">robot.json</a></p>
 </li>
 <li>
+<p><a href="https://werewolf.world/lobby/unitTest/0.3/robotPlayerInfo.json">robotPlayerInfo.json</a></p>
+</li>
+<li>
 <p><a href="https://werewolf.world/lobby/unitTest/0.3/roleSetting.json">roleSetting.json</a></p>
+</li>
+<li>
+<p><a href="https://werewolf.world/lobby/unitTest/0.3/subAvatarInfo.json">subAvatarInfo.json</a></p>
 </li>
 <li>
 <p><a href="https://werewolf.world/lobby/unitTest/0.3/supportedComposition.json">supportedComposition.json</a></p>
@@ -890,16 +1206,13 @@ The kicked out player moves to a lobby with an error message that a host kicked 
 <p><a href="https://werewolf.world/lobby/schema/0.3/client2server/runRobotPlayerInTheBackground.json">runRobotPlayerInTheBackground.json</a></p>
 </li>
 <li>
-<p><a href="https://werewolf.world/lobby/schema/0.3/client2server/runRobotPlayerInTheForeground.json">runRobotPlayerInTheForeground.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/schema/0.3/client2server/selectHumanPlayer.json">selectHumanPlayer.json</a></p>
-</li>
-<li>
-<p><a href="https://werewolf.world/lobby/schema/0.3/client2server/selectOnymousAudience.json">selectOnymousAudience.json</a></p>
-</li>
-<li>
 <p><a href="https://werewolf.world/lobby/schema/0.3/client2server/stopRobotPlayer.json">stopRobotPlayer.json</a></p>
+</li>
+<li>
+<p><a href="https://werewolf.world/lobby/schema/0.3/client2server/updateAvatar.json">updateAvatar.json</a></p>
+</li>
+<li>
+<p><a href="https://werewolf.world/lobby/schema/0.3/client2server/enterAvatarSelectionPage.json">enterAvatarSelectionPage.json</a></p>
 </li>
 </ul>
 </div>
@@ -956,7 +1269,7 @@ The kicked out player moves to a lobby with an error message that a host kicked 
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-01-05 12:51:28 +0900
+Last updated 2020-01-08 22:30:22 +0900
 </div>
 </div>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css">
