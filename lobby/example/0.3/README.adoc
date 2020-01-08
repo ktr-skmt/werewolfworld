@@ -19,8 +19,7 @@
 * https://werewolf.world/lobby/example/0.3/client2server/kickOutPlayer.json[kickOutPlayer.json]
 * https://werewolf.world/lobby/example/0.3/client2server/leaveWaitingPage.json[leaveWaitingPage.json]
 * https://werewolf.world/lobby/example/0.3/client2server/pong.json[pong.json]
-* selectVillage.json
-** https://werewolf.world/lobby/example/0.3/client2server/selectVillageForHumanPlayer.json[selectVillageForHumanPlayer.json]
+* https://werewolf.world/lobby/example/0.3/client2server/selectVillage.json[selectVillage.json]
 * https://werewolf.world/lobby/example/0.3/client2server/advancedSearch.json[advancedSearch.json]
 * https://werewolf.world/lobby/example/0.3/client2server/idSearch.json[idSearch.json]
 * https://werewolf.world/lobby/example/0.3/client2server/play.json[play.json]
@@ -48,10 +47,12 @@
 
 * https://werewolf.world/lobby/example/0.3/server2client/avatar.json[avatar.json]
 * lobby.json
+** https://werewolf.world/lobby/example/0.3/server2client/lobbyForAnonymousAudience.json[lobbyForAnonymousAudience.json]
 ** https://werewolf.world/lobby/example/0.3/server2client/lobbyForHumanPlayer.json[lobbyForHumanPlayer.json]
+** https://werewolf.world/lobby/example/0.3/server2client/lobbyForOnymousAudience.json[lobbyForOnymousAudience.json]
+** https://werewolf.world/lobby/example/0.3/server2client/lobbyForRobotPlayer.json[lobbyForRobotPlayer.json]
 * https://werewolf.world/lobby/example/0.3/server2client/ping.json[ping.json]
-* waitingPage.json
-** https://werewolf.world/lobby/example/0.3/server2client/waitingPageForHumanPlayer.json[waitingPageForHumanPlayer.json]
+* https://werewolf.world/lobby/example/0.3/server2client/waitingPage.json[waitingPage.json]
 * https://werewolf.world/lobby/example/0.3/server2client/searchResult.json[searchResult.json]
 * https://werewolf.world/lobby/example/0.3/server2client/played.json[played.json]
 * https://werewolf.world/lobby/example/0.3/server2client/settings.json[settings.json]
@@ -70,8 +71,8 @@
 . (server to client) go to a page of a village list; https://werewolf.world/lobby/example/0.3/server2client/lobbyForHumanPlayer.json[lobbyForHumanPlayer.json]
 . (client to server) get avatar info; https://werewolf.world/lobby/example/0.3/client2server/getAvatar.json[getAvatar.json]
 . (server to client) send avatar info; https://werewolf.world/lobby/example/0.3/server2client/avatar.json[avatar.json]
-. (client to server) select a village; https://werewolf.world/lobby/example/0.3/client2server/selectVillageForHumanPlayer.json[selectVillageForHumanPlayer.json]
-. (server to client) go to a waiting page; https://werewolf.world/lobby/example/0.3/server2client/waitingPageForHumanPlayer.json[waitingPageForHumanPlayer.json]
+. (client to server) select a village; https://werewolf.world/lobby/example/0.3/client2server/selectVillage.json[selectVillage.json]
+. (server to client) go to a waiting page; https://werewolf.world/lobby/example/0.3/server2client/waitingPage.json[waitingPage.json]
 . (server to client) ping https://werewolf.world/lobby/example/0.3/server2client/ping.json[ping.json]
 . (client to server) pong https://werewolf.world/lobby/example/0.3/client2server/pong.json[pong.json]
 . a host player pushes a start button (To GameController)
@@ -94,7 +95,7 @@
 . (client) push a button for building a village
 . (client) go to a page for building a village
 . (client to server) build a village; https://werewolf.world/lobby/example/0.3/client2server/buildVillage.json[buildVillage.json]
-. (server to client) go to a waiting page; https://werewolf.world/lobby/example/0.3/server2client/waitingPageForHumanPlayer.json[waitingPageForHumanPlayer.json]
+. (server to client) go to a waiting page; https://werewolf.world/lobby/example/0.3/server2client/waitingPage.json[waitingPage.json]
 . (server to client) ping https://werewolf.world/lobby/example/0.3/server2client/ping.json[ping.json]
 . (client to server) pong https://werewolf.world/lobby/example/0.3/client2server/pong.json[pong.json]
 . a host player pushes a start button (To GameController)
@@ -157,9 +158,9 @@ The kicked out player moves to a lobby with an error message that a host kicked 
 ==== Select an onymous audience
 
 . client to server
-.. https://werewolf.world/lobby/example/0.3/client2server/enterLobbyForHumanPlayer.json[enterLobbyForHumanPlayer.json]
+.. https://werewolf.world/lobby/example/0.3/client2server/enterLobbyForOnymousAudience.json[enterLobbyForOnymousAudience.json]
 . server to client
-.. https://werewolf.world/lobby/example/0.3/server2client/lobbyForHumanPlayer.json[lobbyForHumanPlayer.json]
+.. https://werewolf.world/lobby/example/0.3/server2client/lobbyForOnymousAudience.json[lobbyForOnymousAudience.json]
 
 === Flows in a robot player selection page
 
@@ -184,16 +185,16 @@ The kicked out player moves to a lobby with an error message that a host kicked 
 ==== Run in the foreground
 
 . client to server
-.. https://werewolf.world/lobby/example/0.3/client2server/enterLobbyForHumanPlayer.json[enterLobbyForHumanPlayer.json]
+.. https://werewolf.world/lobby/example/0.3/client2server/enterLobbyForRobotPlayer.json[enterLobbyForRobotPlayer.json]
 . server to client
-.. https://werewolf.world/lobby/example/0.3/server2client/lobbyForHumanPlayer.json[lobbyForHumanPlayer.json]
+.. https://werewolf.world/lobby/example/0.3/server2client/lobbyForRobotPlayer.json[lobbyForRobotPlayer.json]
 
 ==== Run in the background
 
 . client to server
 .. https://werewolf.world/lobby/example/0.3/client2server/runRobotPlayerInTheBackground.json[runRobotPlayerInTheBackground.json]
 . server to client
-.. https://werewolf.world/lobby/example/0.3/server2client/lobbyForHumanPlayer.json[lobbyForHumanPlayer.json]
+.. https://werewolf.world/lobby/example/0.3/server2client/robotPlayerSelectionPage.json[robotPlayerSelectionPage.json]
 
 ==== Stop
 
