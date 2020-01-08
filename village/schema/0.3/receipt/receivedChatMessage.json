@@ -23,10 +23,10 @@
             "$ref": "https://werewolf.world/village/schema/0.3/village.json#id"
         },
         "serverTimestamp": {
-            "$ref": "https://werewolf.world/village/schema/0.3/base.json#serverTimestamp"
+            "$ref": "https://werewolf.world/village/schema/0.3/timestamp.json#timestamp"
         },
         "clientTimestamp": {
-            "$ref": "https://werewolf.world/village/schema/0.3/base.json#clientTimestamp"
+            "$ref": "https://werewolf.world/village/schema/0.3/timestamp.json#timestamp"
         }
     },
     "required": [
