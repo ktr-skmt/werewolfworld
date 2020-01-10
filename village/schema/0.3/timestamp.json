@@ -3,7 +3,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "https://werewolf.world/village/schema/0.3/timestamp.json",
     "definitions": {
-        "phaseStartTime": {
+        "timestamp": {
             "title": "Timestamp",
             "description": "timestamp",
             "$id": "#timestamp",
