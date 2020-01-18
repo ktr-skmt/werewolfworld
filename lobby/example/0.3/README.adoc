@@ -58,7 +58,6 @@
 * https://werewolf.world/lobby/example/0.3/server2client/settings.json[settings.json]
 * https://werewolf.world/lobby/example/0.3/server2client/authorizationRequest.json[authorizationRequest.json]
 * https://werewolf.world/lobby/example/0.3/server2client/authorizationRequestAcceptedResponse.json[authorizationRequestAcceptedResponse.json]
-* https://werewolf.world/lobby/example/0.3/server2client/newAvatarToken.json[newAvatarToken.json]
 
 === Flow
 
@@ -126,13 +125,13 @@ The kicked out player moves to a lobby with an error message that a host kicked 
 ==== CRUD
 
 . client to server 
-.. https://werewolf.world/lobby/example/0.3/server2client/createHumanPlayer.json[createHumanPlayer.json]
+.. https://werewolf.world/lobby/example/0.3/client2server/createHumanPlayer.json[createHumanPlayer.json]
 .. https://werewolf.world/lobby/example/0.3/client2server/updateAvatarName.json[updateAvatarName.json]
 .. https://werewolf.world/lobby/example/0.3/client2server/updateAvatarImage.json[updateAvatarImage.json]
 .. https://werewolf.world/lobby/example/0.3/client2server/updateAvatarLanguage.json[updateAvatarLanguage.json]
-.. https://werewolf.world/lobby/example/0.3/server2client/deleteAvatar.json[deleteAvatar.json]
+.. https://werewolf.world/lobby/example/0.3/client2server/deleteAvatar.json[deleteAvatar.json]
 . server to client
-.. https://werewolf.world/lobby/example/0.3/client2server/humanPlayerSelectionPage.json[humanPlayerSelectionPage.json]
+.. https://werewolf.world/lobby/example/0.3/server2client/humanPlayerSelectionPage.json[humanPlayerSelectionPage.json]
 
 ==== Select a human player
 
@@ -147,13 +146,13 @@ The kicked out player moves to a lobby with an error message that a host kicked 
 ==== CRUD
 
 . client to server 
-.. https://werewolf.world/lobby/example/0.3/server2client/createOnymousAudience.json[createOnymousAudience.json]
+.. https://werewolf.world/lobby/example/0.3/client2server/createOnymousAudience.json[createOnymousAudience.json]
 .. https://werewolf.world/lobby/example/0.3/client2server/updateAvatarName.json[updateAvatarName.json]
 .. https://werewolf.world/lobby/example/0.3/client2server/updateAvatarImage.json[updateAvatarImage.json]
 .. https://werewolf.world/lobby/example/0.3/client2server/updateAvatarLanguage.json[updateAvatarLanguage.json]
-.. https://werewolf.world/lobby/example/0.3/server2client/deleteAvatar.json[deleteAvatar.json]
+.. https://werewolf.world/lobby/example/0.3/client2server/deleteAvatar.json[deleteAvatar.json]
 . server to client
-.. https://werewolf.world/lobby/example/0.3/client2server/onymousAudienceSelectionPage.json[onymousAudienceSelectionPage.json]
+.. https://werewolf.world/lobby/example/0.3/server2client/onymousAudienceSelectionPage.json[onymousAudienceSelectionPage.json]
 
 ==== Select an onymous audience
 
@@ -167,20 +166,20 @@ The kicked out player moves to a lobby with an error message that a host kicked 
 ==== CRUD
 
 . client to server 
-.. https://werewolf.world/lobby/example/0.3/server2client/createRobotPlayer.json[createRobotPlayer.json]
+.. https://werewolf.world/lobby/example/0.3/client2server/createRobotPlayer.json[createRobotPlayer.json]
 .. https://werewolf.world/lobby/example/0.3/client2server/updateAvatarName.json[updateAvatarName.json]
 .. https://werewolf.world/lobby/example/0.3/client2server/updateAvatarImage.json[updateAvatarImage.json]
 .. https://werewolf.world/lobby/example/0.3/client2server/updateAvatarLanguage.json[updateAvatarLanguage.json]
-.. https://werewolf.world/lobby/example/0.3/server2client/deleteAvatar.json[deleteAvatar.json]
+.. https://werewolf.world/lobby/example/0.3/client2server/deleteAvatar.json[deleteAvatar.json]
 . server to client
-.. https://werewolf.world/lobby/example/0.3/client2server/robotPlayerSelectionPage.json[robotPlayerSelectionPage.json]
+.. https://werewolf.world/lobby/example/0.3/server2client/robotPlayerSelectionPage.json[robotPlayerSelectionPage.json]
 
 ==== Renew an avatar token
 
 . client to server
 .. https://werewolf.world/lobby/example/0.3/client2server/renewAvatarToken.json[renewAvatarToken.json]
 . server to client
-.. https://werewolf.world/lobby/example/0.3/server2client/newAvatarToken.json[newAvatarToken.json]
+.. https://werewolf.world/lobby/example/0.3/server2client/robotPlayerSelectionPage.json[robotPlayerSelectionPage.json]
 
 ==== Run in the foreground
 
