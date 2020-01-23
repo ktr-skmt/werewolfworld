@@ -1,7 +1,7 @@
 {
     "title": "werewolf.world: Schema of authoizationRequest.json",
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://werewolf.world/lobby/schema/0.3/client2server/authoizationRequest.json",
+    "$id": "https://werewolf.world/lobby/schema/0.3/client2server/authorizationRequest.json",
     "definitions": {},
     "type": "object",
     "properties": {
