@@ -48,6 +48,7 @@
               "awaiting communication test",
               "awaiting authorization",
               "connected",
+              "disconnected",
               "running in the background",
               "running in the foreground"
             ],
@@ -56,6 +57,7 @@
               "awaiting communication test",
               "awaiting authorization",
               "connected",
+              "disconnected",
               "running in the background",
               "running in the foreground"
             ]
