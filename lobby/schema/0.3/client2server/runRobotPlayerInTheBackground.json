@@ -17,7 +17,13 @@
         ]
       },
       "token": {
-        "$ref": "https://werewolf.world/village/schema/0.3/avatar.json#token"
+        "title": "Avatar Token Array",
+        "description": "Avatar token array",
+        "$id": "/properties/token",
+        "type": "array",
+        "items": {
+          "$ref": "https://werewolf.world/village/schema/0.3/avatar.json#token"
+        }
       }
     },
     "required": [

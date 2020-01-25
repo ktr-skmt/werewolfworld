@@ -22,7 +22,7 @@
 * https://werewolf.world/lobby/schema/0.3/client2server/changeUserName.json[changeUserName.json]
 * https://werewolf.world/lobby/schema/0.3/client2server/changeUserEmail.json[changeUserEmail.json]
 * https://werewolf.world/lobby/schema/0.3/client2server/changeUserPassword.json[changeUserPassword.json]
-* https://werewolf.world/lobby/schema/0.3/client2server/changeLang.json[changeLang.json]
+* https://werewolf.world/lobby/schema/0.3/client2server/changeLanguage.json[changeLanguage.json]
 * https://werewolf.world/lobby/schema/0.3/client2server/authorizationRequestAccepted.json[authorizationRequestAccepted.json]
 * https://werewolf.world/lobby/schema/0.3/client2server/renewAvatarToken.json[renewAvatarToken.json]
 * https://werewolf.world/lobby/schema/0.3/client2server/createHumanPlayer.json[createHumanPlayer.json]
@@ -31,7 +31,7 @@
 * https://werewolf.world/lobby/schema/0.3/client2server/deleteAvatar.json[deleteAvatar.json]
 * https://werewolf.world/lobby/schema/0.3/client2server/runRobotPlayerInTheBackground.json[runRobotPlayerInTheBackground.json]
 * https://werewolf.world/lobby/schema/0.3/client2server/stopRobotPlayer.json[stopRobotPlayer.json]
-* https://werewolf.world/lobby/schema/0.3/client2server/updateAvatar.json[updateAvatar.json]
+* https://werewolf.world/lobby/schema/0.3/client2server/changeAvatar.json[changeAvatar.json]
 * https://werewolf.world/lobby/schema/0.3/client2server/enterAvatarSelectionPage.json[enterAvatarSelectionPage.json]
 
 === Server to client
@@ -45,7 +45,6 @@
 * https://werewolf.world/lobby/schema/0.3/server2client/settings.json[settings.json]
 * https://werewolf.world/lobby/schema/0.3/server2client/authorizationRequest.json[authorizationRequest.json]
 * https://werewolf.world/lobby/schema/0.3/server2client/authorizationRequestAcceptedResponse.json[authorizationRequestAcceptedResponse.json]
-* https://werewolf.world/lobby/schema/0.3/server2client/newAvatarToken.json[newAvatarToken.json]
 
 === Server to server
 
