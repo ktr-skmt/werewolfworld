@@ -18,10 +18,29 @@
       },
       "token": {
         "$ref": "https://werewolf.world/village/schema/0.3/avatar.json#token"
+      },
+      "lobby": {
+        "title": "Lobby Type",
+        "description": "Lobby for human player, robot player or onymous audience?",
+        "$id": "/properties/lobby",
+        "type": "string",
+        "enum": [
+          "human player",
+          "robot player",
+          "onymous audience",
+          "anonymous audience"
+        ],
+        "examples": [
+          "human player",
+          "robot player",
+          "onymous audience",
+          "anonymous audience"
+        ]
       }
     },
     "required": [
       "type",
-      "token"
+      "token",
+      "lobby"
     ]
   }

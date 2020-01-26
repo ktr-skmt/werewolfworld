@@ -3,5 +3,6 @@
   "token": "3F2504E0-4F89-11D3-9A0C-0305E82C3303",
   "name": null,
   "image": "https://werewolf.world/image/0.3/character_icons/50x50/a_50x50.png",
-  "language": null
+  "language": null,
+  "lobby": "human player"
 }

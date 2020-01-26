@@ -65,7 +65,7 @@
 
 . main page (From LandingPageController)
 . (client to server) select an avatar type; https://werewolf.world/lobby/example/0.3/client2server/enterAvatarSelectionPage.json[enterAvatarSelectionPage.json]
-. (server to client) got to a page of an avatar list; https://werewolf.world/lobby/example/0.3/server2client/humanPlayerSelectionPage.json[humanPlayerSelectionPage.json]
+. (server to client) go to a page of an avatar list; https://werewolf.world/lobby/example/0.3/server2client/humanPlayerSelectionPage.json[humanPlayerSelectionPage.json]
 . (client to server) select an avatar; https://werewolf.world/lobby/example/0.3/client2server/enterLobbyForHumanPlayer.json[enterLobbyForHumanPlayer.json]
 . (server to client) go to a page of a village list; https://werewolf.world/lobby/example/0.3/server2client/lobbyForHumanPlayer.json[lobbyForHumanPlayer.json]
 . (client to server) get avatar info; https://werewolf.world/lobby/example/0.3/client2server/getAvatar.json[getAvatar.json]
@@ -86,7 +86,7 @@
 
 . main page (From LandingPageController)
 . (client to server) select an avatar; https://werewolf.world/lobby/example/0.3/client2server/enterAvatarSelectionPage.json[enterLobbyForHumanPlayer.json]
-. (server to client) got to a page of an avatar list; https://werewolf.world/lobby/example/0.3/server2client/humanPlayerSelectionPage.json[humanPlayerSelectionPage.json]
+. (server to client) go to a page of an avatar list; https://werewolf.world/lobby/example/0.3/server2client/humanPlayerSelectionPage.json[humanPlayerSelectionPage.json]
 . (client to server) select an avatar; https://werewolf.world/lobby/example/0.3/client2server/enterLobbyForHumanPlayer.json[enterLobbyForHumanPlayer.json]
 . (server to client) go to a page of a village list; https://werewolf.world/lobby/example/0.3/server2client/lobbyForHumanPlayer.json[lobbyForHumanPlayer.json]
 . (client to server) get avatar info; https://werewolf.world/lobby/example/0.3/client2server/getAvatar.json[getAvatar.json]
