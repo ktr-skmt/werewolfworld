@@ -10,10 +10,10 @@
         "description": "type",
         "$id": "/properties/type",
         "type": "string",
-        "pattern": "^runRobotPlayerInTheBackground.json$",
-        "default": "runRobotPlayerInTheBackground.json",
+        "pattern": "^runRobotPlayerInTheBackground$",
+        "default": "runRobotPlayerInTheBackground",
         "examples": [
-          "runRobotPlayerInTheBackground.json"
+          "runRobotPlayerInTheBackground"
         ]
       },
       "token": {
