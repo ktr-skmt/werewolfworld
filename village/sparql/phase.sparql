@@ -1,0 +1,6 @@
+PREFIX w3: <https://werewolf.world/resource/0.3/>
+PREFIX licos-village: <https://licos.online/state/0.3/village#3/>
+
+SELECT * WHERE {
+  licos-village:systemMessage w3:phase ?o.
+}

@@ -1,0 +1,5 @@
+PREFIX w3: <https://werewolf.world/resource/0.3/>
+
+SELECT ?o WHERE { 
+  ?class w3:roleIsMine ?o.
+}
