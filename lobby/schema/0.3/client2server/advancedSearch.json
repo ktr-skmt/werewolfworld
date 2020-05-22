@@ -97,7 +97,10 @@
       "title": "Avatar Selection",
       "description": "'random' or 'fixed'",
       "$id": "/properties/avatar",
-      "type": "string",
+      "type": [
+        "string",
+        "null"
+      ],
       "default": "random",
       "enum": [
         "random",
