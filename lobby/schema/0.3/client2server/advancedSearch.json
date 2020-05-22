@@ -95,19 +95,17 @@
     },
     "avatar": {
       "title": "Avatar Selection",
-      "description": "'random', 'fixed' or 'unspecified'",
+      "description": "'random' or 'fixed'",
       "$id": "/properties/avatar",
       "type": "string",
       "default": "random",
       "enum": [
         "random",
-        "fixed",
-        "unspecified"
+        "fixed"
       ],
       "examples": [
         "random",
-        "fixed",
-        "unspecified"
+        "fixed"
       ]
     },
     "comment": {
